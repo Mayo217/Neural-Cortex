@@ -471,8 +471,13 @@ def run_agents(all_data, brain_output, recon_text, agent_scores):
     print("    [3/6] Market...")
     a3_ctx=build_agent_context(agent_scores,"market",regime)
     mkt_sum=[f"{nm}:{d.get('price',0)} 1d:{d.get('chg_1d',0):+.2f}% 10d:{d.get('chg_10d',0):+.2f}% vol:{d.get('vol_ratio',1)}x" for nm,d in all_data['markets'].items() if isinstance(d,dict) and "error" not in d]
+    corr_lines = []
+    for c in all_data["correlations"]:
+        flag = " ***BREAK***" if c.get("flag") == "DIVERGENCE" else ""
+        corr_lines.append('{}: A={:+.2f}% B={:+.2f}% {} {}'.format(c.get('pair',''), c.get('a_chg',0), c.get('b_chg',0), c.get('interp',''), '***BREAK***' if c.get('flag')=='DIVERGENCE' else ''))
+    corr_text = "\n".join(corr_lines)
     a3=groq_call([{"role":"system","content":f"You are the MARKET ANALYST. Tier 3 + brain probabilities. You have VETO POWER on brain probabilities. CHALLENGE Upstream and Flow where price action disagrees.\n{REASONING_FORMAT}\n{a3_ctx}"},
-        {"role":"user","content":f"{brain_ctx}\n{recon_text}\nUPSTREAM: {a1[:800]}\nFLOW: {a2[:800]}\n\nMARKETS:\n{chr(10).join(mkt_sum)}\n\nCORRELATIONS:\n{chr(10).join(f'{c['pair']}: A={c['a_chg']:+.2f}% B={c['b_chg']:+.2f}% {c['interp']} {'***BREAK***' if c.get('flag')=='DIVERGENCE' else ''}' for c in all_data['correlations'])}\n\nANOMALIES:\n{chr(10).join(all_data['anomalies'])}\n\nF&G: {json.dumps(all_data['fg'])}"}],max_tokens=1800)
+        {"role":"user","content":f"{brain_ctx}\n{recon_text}\nUPSTREAM: {a1[:800]}\nFLOW: {a2[:800]}\n\nMARKETS:\n{chr(10).join(mkt_sum)}\n\nCORRELATIONS:\n{corr_text}\n\nANOMALIES:\n{chr(10).join(all_data['anomalies'])}\n\nF&G: {json.dumps(all_data['fg'])}"}],max_tokens=1800)
 
     # ── Agent 4: Narrative ──
     print("    [4/6] Narrative...")
