@@ -13,5 +13,31 @@
     ],
     "raw_block": "THESIS: Market Volatility and Crisis Regime Probability\nCHAIN: F&G index score -> crisis regime probability -> market volatility -> potential downturn\nCONFIDENCE: 80\nKILL IF: F&G index score increases above 30, indicating a shift from \"extreme fear\" to a more neutral sentiment\nTIMEFRAME: 30 days\nASSET: VIX\n\n**INDIA INTELLIGENCE**\n\nOBSERVE: The Indian rupee (INR) has been under pressure due to the crisis regime probability and the potential downturn in the global market.\nLOGIC: The INR's deprecia",
     "timestamp": "2026-04-02T15:40:51.184050"
+  },
+  {
+    "title": "** Market Volatility Increase",
+    "chain": "** High F&G index rating -> Increased market anxiety -> Higher volatility -> Potential crisis regime",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** F&G index rating drops below 10",
+    "timeframe_days": 30,
+    "assets": [
+      "VIX"
+    ],
+    "raw_block": "THESIS:** Market Volatility Increase\n**CHAIN:** High F&G index rating -> Increased market anxiety -> Higher volatility -> Potential crisis regime\n**CONFIDENCE:** 70\n**KILL IF:** F&G index rating drops below 10\n**TIMEFRAME:** 30 days\n**ASSET:** VIX\n\n**",
+    "timestamp": "2026-04-02T20:03:13.242854"
+  },
+  {
+    "title": "** Economic Downturn",
+    "chain": "** WARN Act notices increase -> Mass layoffs or plant closures -> Economic contraction -> Recession",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** WARN Act notices decrease significantly",
+    "timeframe_days": 30,
+    "assets": [
+      "HYG"
+    ],
+    "raw_block": "THESIS:** Economic Downturn\n**CHAIN:** WARN Act notices increase -> Mass layoffs or plant closures -> Economic contraction -> Recession\n**CONFIDENCE:** 60\n**KILL IF:** WARN Act notices decrease significantly\n**TIMEFRAME:** 60 days\n**ASSET:** HYG\n\n#",
+    "timestamp": "2026-04-02T20:03:13.242889"
   }
 ]

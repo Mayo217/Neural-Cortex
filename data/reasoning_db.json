@@ -829,6 +829,154 @@
       "outcome_score": null,
       "regime": "CRISIS",
       "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime."
+      ],
+      "logic": [
+        "The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> Which could have significant implications for the labor market and the overall economy."
+      ],
+      "counters": [
+        "One potential counterargument is that the WARN Act's provisions may not be sufficient to mitigate the effects of a crisis regime, as employers may still find ways to bypass the requirements or negotiate exemptions."
+      ],
+      "conclusions": [
+        "Based on the current market conditions and the WARN Act's provisions, I conclude that the Act's requirements are likely to play a crucial role in protecting workers' rights and providing stability in the labor market during a crisis regime."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> Which could have significant implications for the l",
+      "id": "8f74962e8534",
+      "timestamp": "2026-04-02T20:03:13.238642",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The upstream conclusion states that the WARN Act's provisions are likely to take on increased importance in a crisis regime, yet the brain's output indicates a 100% RISK_OFF regime, which contradicts the notion of a crisis regime."
+      ],
+      "logic": [
+        "The brain's 100% RISK_OFF regime suggests a low probability of a crisis -> This would reduce the importance of the WARN Act's provisions -> Which implies that the upstream conclusion may be overstating the significance of the WARN Act in the current market conditions."
+      ],
+      "counters": [
+        "One potential counterargument is that the brain's RISK_OFF regime may be a temporary or anomalous reading, and the upstream conclusion may still be valid if the market conditions are expected to change in the near future."
+      ],
+      "conclusions": [
+        "Based on the brain's output and the lack of clear validation signals, I conclude that the upstream conclusion may be premature or incorrect, and the WARN Act's provisions may not be as crucial in the current market conditions as suggested."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The upstream conclusion states that the WARN Act's provisions are likely to take on increased importance in a crisis regime, yet the brain's output indicates a 100% RISK_OFF regime, which contradicts the notion of a crisis regime.\n\nLOGIC: The brain's 100% RISK_OFF regime suggests a low probability of a crisis -> This would reduce the importance of the WARN Act's provisions -> Which implies that the upstream conclusion may be overstating the significance of the WARN Act in the current ma",
+      "id": "53a89695f299",
+      "timestamp": "2026-04-02T20:03:13.238716",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The brain's output indicates a 100% RISK_OFF regime, while the F&G index shows an \"extreme fear\" rating of 15.1, indicating a high level of market anxiety."
+      ],
+      "logic": [
+        "The discrepancy between the brain's RISK_OFF regime and the F&G index's \"extreme fear\" rating suggests a potential mismatch between the market's sentiment and the brain's assessment -> This could imply that the market is expecting a crisis or significant volatility, despite the brain's RISK_OFF reading -> Which would suggest that the upstream conclusion about the WARN Act's provisions taking on increased importance may still be valid."
+      ],
+      "counters": [
+        "One potential counterargument is that the F&G index's \"extreme fear\" rating may be an overreaction to short-term market fluctuations, and the brain's RISK_OFF regime may be a more accurate reflection of the overall market conditions."
+      ],
+      "conclusions": [
+        "Based on the discrepancy between the brain's output and the F&G index, I conclude that the upstream conclusion about the WARN Act's provisions may still be relevant, despite the brain's RISK_OFF regime."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The brain's output indicates a 100% RISK_OFF regime, while the F&G index shows an \"extreme fear\" rating of 15.1, indicating a high level of market anxiety.\n\nLOGIC: The discrepancy between the brain's RISK_OFF regime and the F&G index's \"extreme fear\" rating suggests a potential mismatch between the market's sentiment and the brain's assessment -> This could imply that the market is expecting a crisis or significant volatility, despite the brain's RISK_OFF reading -> Which would suggest ",
+      "id": "09c49dbf99f4",
+      "timestamp": "2026-04-02T20:03:13.238763",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "The brain's output indicates a 100% RISK_OFF regime, while the F&G index shows an \"extreme fear\" rating of 15.1, indicating a high level of market anxiety."
+      ],
+      "logic": [
+        "The discrepancy between the brain's RISK_OFF regime and the F&G index's \"extreme fear\" rating suggests a potential mismatch between the market's sentiment and the brain's assessment -> This could imply that the market is expecting a crisis or significant volatility, despite the brain's RISK_OFF reading -> Which would suggest that Agents 1-3 are following the herd by not fully accounting for the potential risks and uncertainties in the market."
+      ],
+      "counters": [
+        "One potential counterargument is that the brain's RISK_OFF regime may be a more accurate reflection of the market's true sentiment, and the F&G index's \"extreme fear\" rating may be an overreaction to short-term market fluctuations."
+      ],
+      "conclusions": [
+        "Based on the analysis, it appears that Agents 1-3 are following the herd by not fully accounting for the potential risks and uncertainties in the market, and a more nuanced approach to risk assessment is needed."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The brain's output indicates a 100% RISK_OFF regime, while the F&G index shows an \"extreme fear\" rating of 15.1, indicating a high level of market anxiety.\n\nLOGIC: The discrepancy between the brain's RISK_OFF regime and the F&G index's \"extreme fear\" rating suggests a potential mismatch between the market's sentiment and the brain's assessment -> This could imply that the market is expecting a crisis or significant volatility, despite the brain's RISK_OFF reading -> Which would suggest ",
+      "id": "7ed9510195a4",
+      "timestamp": "2026-04-02T20:03:13.238794",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the various outputs from different agents, it's clear that there's a significant discrepancy between the brain's RISK_OFF regime and the"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "Downturn\n**CHAIN:** WARN Act notices increase -> Mass layoffs or plant closures -> Economic contraction -> Recession\n**CONFIDENCE:** 60\n**KILL IF:** WARN Act notices decrease significantly\n**TIMEFRAME:** 60 days\n**ASSET:** HYG\n\n### 3.",
+        "upee may face pressure due to the global economic uncertainty, potentially leading to a depreciation against the USD.",
+        "risk-off sentiment, while Domestic Institutional Investors (DII) could provide some support."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the various outputs from different agents, it's clear that there's a significant discrepancy between the brain's RISK_OFF regime and the F&G index's \"extreme fear\" rating. The brain suggests a low probability of a crisis, while the F&G index indicates a high level of market anxiety. Given this information, I side with the narrative that suggests Agents 1-3 are following the herd by not fully accounting for potential risks and uncert",
+      "id": "d4a773f59332",
+      "timestamp": "2026-04-02T20:03:13.239341",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "b5f701385ef9",
+      "timestamp": "2026-04-02T20:03:13.239374",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "general"
     }
   ],
   "pattern_quality": {},

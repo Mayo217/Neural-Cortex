@@ -1,0 +1,341 @@
+{
+  "timestamp": "2026-04-02 20:01",
+  "regime": {
+    "regime": "RISK_OFF",
+    "confidence": 1.0,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 1.0,
+      "TRANSITION": 0.0,
+      "RISK_ON": 0.0,
+      "EUPHORIA": 0.0
+    },
+    "evidence": []
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$41.73B|NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC|None|IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL TECHNOLOGY&ENGINEERI",
+      "$40.81B|UT-BATTELLE LLC|None|MANAGEMENT AND OPERATION OF THE OAK RIDGE NATIONAL LABORATORY",
+      "$40.78B|LAWRENCE LIVERMORE NATIONAL SECURITY, LLC|None|TAS::89 0240::TAS THIS PERFORMANCE-BASED MANAGEMENT CONTRACT (PBMC) IS FOR THE M",
+      "$34.60B|TRIAD NATIONAL SECURITY, LLC|None|IGF::CL::IGF COMPETITION FOR MANAGEMENT AND OPERATION OF LOS ALAMOS NATIONAL LAB",
+      "$33.75B|CONSOLIDATED NUCLEAR SECURITY, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATING CONTRACT FOR Y-12 NATIONAL SECURITY COM",
+      "$30.17B|BATTELLE MEMORIAL INSTITUTE|None|BATTELLE MEMORIAL INSTITUTE/PACIFIC NORTHWEST               LABORATORY OPERATING",
+      "$26.35B|SAVANNAH RIVER NUCLEAR SOLUTIONS LLC|None|MANAGEMENT AND OPERATING CONTRACT FOR THE SAVANNAH RIVER SITE.",
+      "$25.19B|BATTELLE ENERGY ALLIANCE, LLC|None|MANAGEMENT AND OPERATIONS OF THE INL",
+      "$19.16B|THE REGENTS OF THE UNIVERSITY OF CALIFORNIA|None|THIS PERFORMANCE-BASED MANAGEMENT CONTRACT (PBMC) IS FOR THE MANAGEMENT AND OPER",
+      "$17.27B|HONEYWELL FEDERAL MANUFACTURING & TECHNOLOGIES, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATION OF THE NATIONAL SECURITY CAMPUS -- CONT",
+      "$15.51B|LOCKHEED MARTIN CORP|None|TAS::80 0124::TAS DESIGN, DEVELOPMENT, TEST&EVALUATION OF PROJECT ORION",
+      "$14.77B|FLUOR MARINE PROPULSION, LLC|None|MANAGEMENT AND OPERATION OF THE NAVAL NUCLEAR LABORATORY AND NAVAL NUCLEAR PROPU",
+      "$14.54B|THE LELAND STANFORD JUNIOR UNIVERSITY|None|OPERATION AND MAINTENANCE                                   LINEAR ACCELLERATOR",
+      "$10.64B|ALLIANCE FOR ENERGY INNOVATION, LLC|None|AWARD OF CONTRACT TO MANAGE AND OPERATE THE NATIONAL RENEWABLE ENERGY LABORATORY",
+      "$10.46B|THE BOEING COMPANY|None|PROVIDE DEVELOPMENTAL HARDWARE AND TEST ARTICLES, AND MANUFACTURE AND ASSEMBLE A"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[FED] Miran, Prospects for Shrinking the Fed\u2019s Balance Sheet",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments",
+      "[ECB] Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 February 2026"
+    ],
+    "policy": [
+      "[Rule] Airworthiness Directives; Airbus Canada Limited Partnership (Type Certificate Previously Held by C Series Aircraft Limit",
+      "[Rule] Lead-Based Paint Poisoning Prevention in Certain Residential Structures",
+      "[Rule] Air Plan Approval; Ohio; Ohio Permit Rules Revisions",
+      "[Rule] Air Plan Approval; Ohio; Muskingum River 2010 Sulfur Dioxide Redesignation and Maintenance Plan",
+      "[Rule] Air Plan Approval; Michigan; Detroit 2010 Sulfur Dioxide Redesignation and Maintenance Plan"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "02-Apr-2026",
+        "buyValue": "18421.27",
+        "sellValue": "11212.86",
+        "netValue": "7208.41"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "02-Apr-2026",
+        "buyValue": "10626.52",
+        "sellValue": "20557.65",
+        "netValue": "-9931.13"
+      }
+    ],
+    "etf_flows": {},
+    "options": {}
+  },
+  "tier3": {
+    "markets_live": 0,
+    "correlations": [],
+    "anomalies": [
+      "F&G 15.1: EXTREME FEAR"
+    ]
+  },
+  "tier4": {
+    "news_len": 10589,
+    "gdelt_len": 17
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 15.1,
+      "rating": "extreme fear",
+      "prev_week": 14.9,
+      "prev_month": 34.3
+    }
+  },
+  "brain": {
+    "predictions": 0,
+    "brier": null,
+    "patterns": 0
+  },
+  "agents": {
+    "upstream": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> Which could have significant implications for the labor market and the overall economy.\n\nCOUNTER: One potential counterargument is that the WARN Act's provisions may not be sufficient to mitigate the effects of a crisis regime, as employers may still find ways to bypass the requirements or negotiate exemptions.\n\nCONCLUDE: Based on the current market conditions and the WARN Act's provisions, I conclude that the Act's requirements are likely to play a crucial role in protecting workers' rights and providing stability in the labor market during a crisis regime.\n\nDEPENDS ON: The single data point that would change my mind is if the current market conditions were to suddenly improve, indicating a low probability of a crisis regime, which would reduce the importance of the WARN Act's provisions.\n\nWRONG IF: My conclusion would be falsified if it were found that the WARN Act's provisions were not being enforced effectively, or if employers were consistently finding ways to bypass the requirements, which would undermine the Act's ability to protect workers' rights and provide stability in the labor market.",
+    "flow": "OBSERVE: The upstream conclusion states that the WARN Act's provisions are likely to take on increased importance in a crisis regime, yet the brain's output indicates a 100% RISK_OFF regime, which contradicts the notion of a crisis regime.\n\nLOGIC: The brain's 100% RISK_OFF regime suggests a low probability of a crisis -> This would reduce the importance of the WARN Act's provisions -> Which implies that the upstream conclusion may be overstating the significance of the WARN Act in the current market conditions.\n\nCOUNTER: One potential counterargument is that the brain's RISK_OFF regime may be a temporary or anomalous reading, and the upstream conclusion may still be valid if the market conditions are expected to change in the near future.\n\nCONCLUDE: Based on the brain's output and the lack of clear validation signals, I conclude that the upstream conclusion may be premature or incorrect, and the WARN Act's provisions may not be as crucial in the current market conditions as suggested.\n\nDEPENDS ON: The single data point that would change my mind is if the brain's output were to shift to a higher probability of a crisis regime, indicating a RISK_ON regime, which would increase the importance of the WARN Act's provisions.\n\nWRONG IF: My conclusion would be falsified if it were found that the WARN Act's provisions were being enforced effectively and playing a significant role in protecting workers' rights, despite the brain's RISK_OFF regime, which would suggest that the upstream conclusion was correct despite the contradictory brain output.",
+    "market": "OBSERVE: The brain's output indicates a 100% RISK_OFF regime, while the F&G index shows an \"extreme fear\" rating of 15.1, indicating a high level of market anxiety.\n\nLOGIC: The discrepancy between the brain's RISK_OFF regime and the F&G index's \"extreme fear\" rating suggests a potential mismatch between the market's sentiment and the brain's assessment -> This could imply that the market is expecting a crisis or significant volatility, despite the brain's RISK_OFF reading -> Which would suggest that the upstream conclusion about the WARN Act's provisions taking on increased importance may still be valid.\n\nCOUNTER: One potential counterargument is that the F&G index's \"extreme fear\" rating may be an overreaction to short-term market fluctuations, and the brain's RISK_OFF regime may be a more accurate reflection of the overall market conditions.\n\nCONCLUDE: Based on the discrepancy between the brain's output and the F&G index, I conclude that the upstream conclusion about the WARN Act's provisions may still be relevant, despite the brain's RISK_OFF regime.\n\nDEPENDS ON: The F&G index's rating changing to a less extreme level, such as \"fear\" or \"neutral\", would change my mind about the relevance of the WARN Act's provisions.\n\nWRONG IF: The market experiences a significant and sustained rally, with the F&G index's rating improving to \"greed\" or \"neutral\", and the brain's RISK_OFF regime is confirmed by other market indicators, such as a low VIX reading.",
+    "narrative": "OBSERVE: The brain's output indicates a 100% RISK_OFF regime, while the F&G index shows an \"extreme fear\" rating of 15.1, indicating a high level of market anxiety.\n\nLOGIC: The discrepancy between the brain's RISK_OFF regime and the F&G index's \"extreme fear\" rating suggests a potential mismatch between the market's sentiment and the brain's assessment -> This could imply that the market is expecting a crisis or significant volatility, despite the brain's RISK_OFF reading -> Which would suggest that Agents 1-3 are following the herd by not fully accounting for the potential risks and uncertainties in the market.\n\nCOUNTER: One potential counterargument is that the brain's RISK_OFF regime may be a more accurate reflection of the market's true sentiment, and the F&G index's \"extreme fear\" rating may be an overreaction to short-term market fluctuations.\n\nCONCLUDE: Based on the analysis, it appears that Agents 1-3 are following the herd by not fully accounting for the potential risks and uncertainties in the market, and a more nuanced approach to risk assessment is needed.\n\nDEPENDS ON: The single data point that would change my mind is a significant increase in the brain's RISK_ON regime, indicating a shift in market sentiment towards a more cautious and risk-averse stance.\n\nWRONG IF: The conclusion is wrong if the market's \"extreme fear\" rating is proven to be an overreaction, and the brain's RISK_OFF regime is shown to be a more accurate reflection of the market's true sentiment, resulting in a significant decrease in market volatility and uncertainty.",
+    "synthesis": "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the various outputs from different agents, it's clear that there's a significant discrepancy between the brain's RISK_OFF regime and the F&G index's \"extreme fear\" rating. The brain suggests a low probability of a crisis, while the F&G index indicates a high level of market anxiety. Given this information, I side with the narrative that suggests Agents 1-3 are following the herd by not fully accounting for potential risks and uncertainties in the market. The reason for this is the presence of contradictory signals that suggest the market might be expecting a crisis or significant volatility despite the brain's RISK_OFF reading.\n\n### 2. Generate THESES\n\n**THESIS:** Market Volatility Increase\n**CHAIN:** High F&G index rating -> Increased market anxiety -> Higher volatility -> Potential crisis regime\n**CONFIDENCE:** 70\n**KILL IF:** F&G index rating drops below 10\n**TIMEFRAME:** 30 days\n**ASSET:** VIX\n\n**THESIS:** Economic Downturn\n**CHAIN:** WARN Act notices increase -> Mass layoffs or plant closures -> Economic contraction -> Recession\n**CONFIDENCE:** 60\n**KILL IF:** WARN Act notices decrease significantly\n**TIMEFRAME:** 60 days\n**ASSET:** HYG\n\n### 3. INDIA INTELLIGENCE\n\n- **INR:** The Indian Rupee may face pressure due to the global economic uncertainty, potentially leading to a depreciation against the USD.\n- **Nifty sectors:** Sectors like IT and pharmaceuticals might see increased volatility due to their exposure to global markets.\n- **FII/DII read:** Foreign Institutional Investors (FII) might reduce their investments in the Indian market due to the global risk-off sentiment, while Domestic Institutional Investors (DII) could provide some support.\n- **RBI:** The Reserve Bank of India (RBI) might need to intervene to stabilize the currency and manage inflation, potentially through monetary policy adjustments.\n- **Risks:** Global economic downturn, trade wars, and COVID-19 pandemic resurgence are key r",
+    "adversary": "LLM ERROR"
+  },
+  "reasoning": {
+    "chains": 6,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-02T20:01:14.321963"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T20:01:15.227358"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-02T20:01:36.242995"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-02T20:01:36.671164"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T20:01:36.883701"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T20:01:37.146819"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T20:01:37.410105"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T20:01:37.657521"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T20:01:37.893316"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T20:01:38.135770"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T20:01:38.400375"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T20:01:38.666946"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T20:01:38.919928"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T20:01:39.162166"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-02T20:01:39.362778"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-02T20:01:41.417516"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T20:01:41.523276"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T20:01:42.007398"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T20:01:43.439915"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T20:01:43.484668"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-02T20:01:53.537137"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T20:01:54.844484"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T20:01:55.692686"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-02T20:01:56.294715"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T20:01:56.725547"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-02T20:01:56.726275"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T20:01:56.829316"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T20:01:57.797901"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T20:01:58.150483"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-02T20:01:59.623191"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-02T20:02:00.014425"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T20:02:05.739317"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-02T20:02:06.986290"
+    },
+    "ETF_FLOWS": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-02T20:02:13.163975"
+    },
+    "OPTIONS": {
+      "ok": false,
+      "detail": "Expecting value: line 1 column 1 (char 0)",
+      "ts": "2026-04-02T20:02:13.401695"
+    },
+    "MARKETS": {
+      "ok": false,
+      "detail": "0/75",
+      "ts": "2026-04-02T20:02:25.844638"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T20:02:26.015751"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-02T20:02:30.023199"
+    },
+    "GDELT": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=14)",
+      "ts": "2026-04-02T20:02:47.318963"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T20:02:47.386685"
+    }
+  }
+}
