@@ -1,0 +1,91 @@
+{
+  "weights": {
+    "liquidity": {
+      "CRISIS": 0.4,
+      "RISK_OFF": 0.6,
+      "TRANSITION": 0.7,
+      "RISK_ON": 0.8,
+      "EUPHORIA": 0.5
+    },
+    "credit": {
+      "CRISIS": 0.9,
+      "RISK_OFF": 0.8,
+      "TRANSITION": 0.6,
+      "RISK_ON": 0.4,
+      "EUPHORIA": 0.7
+    },
+    "vol_structure": {
+      "CRISIS": 0.8,
+      "RISK_OFF": 0.7,
+      "TRANSITION": 0.5,
+      "RISK_ON": 0.6,
+      "EUPHORIA": 0.8
+    },
+    "options_flow": {
+      "CRISIS": 0.7,
+      "RISK_OFF": 0.7,
+      "TRANSITION": 0.6,
+      "RISK_ON": 0.5,
+      "EUPHORIA": 0.6
+    },
+    "fx_pressure": {
+      "CRISIS": 0.7,
+      "RISK_OFF": 0.6,
+      "TRANSITION": 0.5,
+      "RISK_ON": 0.3,
+      "EUPHORIA": 0.3
+    },
+    "commodity_cycle": {
+      "CRISIS": 0.5,
+      "RISK_OFF": 0.5,
+      "TRANSITION": 0.6,
+      "RISK_ON": 0.5,
+      "EUPHORIA": 0.4
+    },
+    "equity_flow": {
+      "CRISIS": 0.6,
+      "RISK_OFF": 0.6,
+      "TRANSITION": 0.5,
+      "RISK_ON": 0.7,
+      "EUPHORIA": 0.7
+    },
+    "policy_signal": {
+      "CRISIS": 0.5,
+      "RISK_OFF": 0.5,
+      "TRANSITION": 0.7,
+      "RISK_ON": 0.4,
+      "EUPHORIA": 0.3
+    },
+    "upstream_raw": {
+      "CRISIS": 0.3,
+      "RISK_OFF": 0.4,
+      "TRANSITION": 0.5,
+      "RISK_ON": 0.3,
+      "EUPHORIA": 0.2
+    },
+    "sentiment": {
+      "CRISIS": 0.3,
+      "RISK_OFF": 0.4,
+      "TRANSITION": 0.3,
+      "RISK_ON": 0.3,
+      "EUPHORIA": 0.5
+    },
+    "correlation": {
+      "CRISIS": 0.8,
+      "RISK_OFF": 0.7,
+      "TRANSITION": 0.8,
+      "RISK_ON": 0.4,
+      "EUPHORIA": 0.5
+    },
+    "pattern_match": {
+      "CRISIS": 0.5,
+      "RISK_OFF": 0.5,
+      "TRANSITION": 0.5,
+      "RISK_ON": 0.5,
+      "EUPHORIA": 0.5
+    }
+  },
+  "update_count": 0,
+  "last_updated": null,
+  "learning_history": []
+}

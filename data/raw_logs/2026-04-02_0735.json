@@ -1,0 +1,342 @@
+{
+  "timestamp": "2026-04-02 07:35",
+  "regime": {
+    "regime": "CRISIS",
+    "confidence": 0.6,
+    "scores": {
+      "CRISIS": 0.6,
+      "RISK_OFF": 0.4,
+      "TRANSITION": 0.0,
+      "RISK_ON": 0.0,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "F&G 13.9: extreme fear"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$41.73B|NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC|None|IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL TECHNOLOGY&ENGINEERI",
+      "$40.81B|UT-BATTELLE LLC|None|MANAGEMENT AND OPERATION OF THE OAK RIDGE NATIONAL LABORATORY",
+      "$40.78B|LAWRENCE LIVERMORE NATIONAL SECURITY, LLC|None|TAS::89 0240::TAS THIS PERFORMANCE-BASED MANAGEMENT CONTRACT (PBMC) IS FOR THE M",
+      "$34.60B|TRIAD NATIONAL SECURITY, LLC|None|IGF::CL::IGF COMPETITION FOR MANAGEMENT AND OPERATION OF LOS ALAMOS NATIONAL LAB",
+      "$33.75B|CONSOLIDATED NUCLEAR SECURITY, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATING CONTRACT FOR Y-12 NATIONAL SECURITY COM",
+      "$30.17B|BATTELLE MEMORIAL INSTITUTE|None|BATTELLE MEMORIAL INSTITUTE/PACIFIC NORTHWEST               LABORATORY OPERATING",
+      "$26.35B|SAVANNAH RIVER NUCLEAR SOLUTIONS LLC|None|MANAGEMENT AND OPERATING CONTRACT FOR THE SAVANNAH RIVER SITE.",
+      "$25.19B|BATTELLE ENERGY ALLIANCE, LLC|None|MANAGEMENT AND OPERATIONS OF THE INL",
+      "$19.16B|THE REGENTS OF THE UNIVERSITY OF CALIFORNIA|None|THIS PERFORMANCE-BASED MANAGEMENT CONTRACT (PBMC) IS FOR THE MANAGEMENT AND OPER",
+      "$17.27B|HONEYWELL FEDERAL MANUFACTURING & TECHNOLOGIES, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATION OF THE NATIONAL SECURITY CAMPUS -- CONT",
+      "$15.51B|LOCKHEED MARTIN CORP|None|TAS::80 0124::TAS DESIGN, DEVELOPMENT, TEST&EVALUATION OF PROJECT ORION",
+      "$14.77B|FLUOR MARINE PROPULSION, LLC|None|MANAGEMENT AND OPERATION OF THE NAVAL NUCLEAR LABORATORY AND NAVAL NUCLEAR PROPU",
+      "$14.54B|THE LELAND STANFORD JUNIOR UNIVERSITY|None|OPERATION AND MAINTENANCE                                   LINEAR ACCELLERATOR",
+      "$10.64B|ALLIANCE FOR ENERGY INNOVATION, LLC|None|AWARD OF CONTRACT TO MANAGE AND OPERATE THE NATIONAL RENEWABLE ENERGY LABORATORY",
+      "$10.46B|THE BOEING COMPANY|None|PROVIDE DEVELOPMENTAL HARDWARE AND TEST ARTICLES, AND MANUFACTURE AND ASSEMBLE A"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[FED] Miran, Prospects for Shrinking the Fed\u2019s Balance Sheet",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments",
+      "[ECB] Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 February 2026"
+    ],
+    "policy": [
+      "[Rule] Airworthiness Directives; Bell Textron Canada Limited Helicopters",
+      "[Rule] National Emission Standards for Hazardous Air Pollutants: Chemical Manufacturing Area Sources Technology Review",
+      "[Rule] Rescission of OCC Guidelines Establishing Standards for Recovery Planning by Certain Large Insured National Banks, Insur",
+      "[Rule] Renewable Fuel Standard (RFS) Program: Standards for 2026 and 2027, Partial Waiver of 2025 Cellulosic Biofuel Volume Req"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "01-Apr-2026",
+        "buyValue": "18536.73",
+        "sellValue": "11364.93",
+        "netValue": "7171.8"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "01-Apr-2026",
+        "buyValue": "17958.07",
+        "sellValue": "26289.22",
+        "netValue": "-8331.15"
+      }
+    ],
+    "etf_flows": {},
+    "options": {}
+  },
+  "tier3": {
+    "markets_live": 0,
+    "correlations": [],
+    "anomalies": [
+      "F&G 13.9: EXTREME FEAR"
+    ]
+  },
+  "tier4": {
+    "news_len": 10691,
+    "gdelt_len": 17
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 13.9,
+      "rating": "extreme fear",
+      "prev_week": 14.9,
+      "prev_month": 34.3
+    }
+  },
+  "brain": {
+    "predictions": 0,
+    "brier": null,
+    "patterns": 0
+  },
+  "agents": {
+    "upstream": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days in advance of mass layoffs or plant closures, as stated in the California Labor Code, Section 1400.\n\nLOGIC: The requirement for a 60-day notice period implies that employers are expected to have a certain level of foresight and planning in place to anticipate and prepare for significant workforce reductions or facility closures -> This suggests that employers should have a robust planning and risk management framework in place to mitigate the impact of such events on their workforce and operations -> The implication is that employers who fail to provide adequate notice may be subject to penalties and reputational damage.\n\nCOUNTER: One possible counterargument is that the 60-day notice period may not be sufficient for employers who are facing sudden and unforeseen circumstances, such as a natural disaster or a sudden change in market conditions, which may require more rapid action to respond to the crisis.\n\nCONCLUDE: Based on the information provided, it appears that the WARN Act is in place to protect workers' rights and provide them with adequate notice in the event of mass layoffs or plant closures. Employers should prioritize compliance with this regulation to avoid penalties and reputational damage.\n\nDEPENDS ON: The single data point that would change my mind is if there is evidence that the 60-day notice period is not sufficient for employers to prepare for and respond to crisis situations, and that a shorter or more flexible notice period would be more effective in balancing the needs of employers and workers.\n\nWRONG IF: My conclusion would be wrong if it is found that the WARN Act is not being effectively enforced, or if there are significant loopholes or exemptions that allow employers to avoid providing adequate notice to workers, which would undermine the purpose and intent of the regulation.",
+    "flow": "OBSERVE: The WARN Act requires a 60-day notice period for mass layoffs or plant closures, and the brain's probability of a crisis regime is 60%.\n\nLOGIC: The existence of a specific notice period implies that the regulatory framework is designed to provide a balance between employers' needs and workers' rights -> This balance suggests that the 60-day notice period is intended to provide workers with sufficient time to prepare for potential job loss and employers with sufficient time to plan for workforce reductions -> The implication is that the crisis regime probability of 60% may be related to the potential for mass layoffs or plant closures, and the WARN Act is a mechanism to mitigate the impact of such events on workers.\n\nCOUNTER: One possible counterargument is that the 60-day notice period may not be directly related to the crisis regime probability, as the probability may be driven by other factors such as economic indicators, market trends, or geopolitical events.\n\nCONCLUDE: Based on the information provided, it appears that the WARN Act is a relevant factor in understanding the crisis regime probability, as it provides a framework for employers to manage workforce reductions and mitigate the impact on workers. However, the relationship between the WARN Act and the crisis regime probability is not straightforward and requires further analysis.\n\nDEPENDS ON: The single data point that would change my mind is if there is evidence that the crisis regime probability is driven by factors unrelated to employment or workforce reductions, such as a significant change in economic indicators or a major geopolitical event.\n\nWRONG IF: The conclusion is wrong if the crisis regime probability is found to be driven by factors unrelated to employment or workforce reductions, and the WARN Act is not a relevant factor in understanding the crisis regime probability.",
+    "market": "OBSERVE: The brain's probability of a crisis regime is 60%, and the Fear and Greed Index (F&G) score is 13.9, indicating \"extreme fear\".\n\nLOGIC: The high crisis regime probability and extreme fear sentiment suggest that market participants are highly risk-averse and expect a potentially severe downturn -> This risk aversion and fear are likely driven by concerns about economic instability, potentially triggered by mass layoffs or plant closures -> The implication is that the market is pricing in a high likelihood of a crisis event, and the WARN Act's 60-day notice period may serve as a canary in the coal mine for such events.\n\nCOUNTER: One possible counterargument is that the extreme fear sentiment may be overblown, and the market is simply experiencing a normal correction, rather than a crisis event.\n\nCONCLUDE: The market is likely to remain highly volatile, with a high probability of a crisis event, driven by concerns about economic instability and job losses.\n\nDEPENDS ON: A significant improvement in the F&G score, above 50, indicating a shift from fear to greed, would change my mind about the crisis regime probability.\n\nWRONG IF: The S&P 500 index experiences a 10% increase over the next month, indicating a strong rebound in market sentiment, which would contradict the crisis regime probability and extreme fear sentiment.",
+    "narrative": "OBSERVE: The brain's probability of a crisis regime is 60%, and the Fear and Greed Index (F&G) score is 13.9, indicating \"extreme fear\". The news is filled with reports of market volatility, geopolitical tensions, and economic instability.\n\nLOGIC: The high crisis regime probability and extreme fear sentiment suggest that market participants are highly risk-averse and expect a potentially severe downturn -> This risk aversion and fear are likely driven by concerns about economic instability, potentially triggered by mass layoffs or plant closures -> The implication is that the market is pricing in a high likelihood of a crisis event, and the WARN Act's 60-day notice period may serve as a canary in the coal mine for potential workforce reductions.\n\nCOUNTER: One could argue that the market's extreme fear sentiment is overblown and that the economy is more resilient than expected. This could be due to the fact that the labor market has been strong, and the job market has been able to absorb shocks in the past.\n\nCONCLUDE: Based on the current market sentiment and news reports, it appears that the crowd believes a crisis regime is likely, and Agents 1-3 are following the herd by pricing in a high likelihood of a crisis event.\n\nDEPENDS ON: The single data point that would change my mind is a significant improvement in the Fear and Greed Index (F&G) score, indicating a shift in market sentiment towards a more optimistic outlook.\n\nWRONG IF: If the market experiences a sudden and sustained rally, with the S&P 500 index increasing by 10% or more over the next quarter, it would suggest that the crisis regime probability was overestimated, and the crowd's fear sentiment was unwarranted.",
+    "synthesis": "LLM ERROR",
+    "adversary": "OBSERVE: Regime=CRISIS (60%)\nLOGIC: The current regime is in a state of crisis with a 60% probability -> This suggests a high level of uncertainty and instability -> The Synthesizer's output may be compromised due to the lack of a stable foundation.\nCOUNTER: The crisis regime could be a temporary state, and the Synthesizer may have mechanisms in place to adapt to changing circumstances.\nCONCLUDE: The WEAKEST THESIS is the assumption that the Synthesizer can provide accurate output during a crisis regime, as the high probability of crisis (60%) indicates a significant level of uncertainty.\nDEPENDS ON: The probability of the crisis regime dropping below 30% would change my mind about the stability of the Synthesizer's output.\nWRONG IF: The Synthesizer's output is found to be consistently accurate and reliable during the crisis regime, despite the high probability of crisis.\n\nOBSERVE: Brier: None | Patterns: 0\nLOGIC: The lack of Brier score and patterns suggests a lack of calibration and understanding of the Synthesizer's performance -> This could lead to overconfidence in the Synthesizer's output -> The Synthesizer's output may be flawed due to the absence of evaluation metrics.\nCOUNTER: The absence of Brier score and patterns could be due to the early stages of the Synthesizer's development, and evaluation metrics may be implemented in the future.\nCONCLUDE: The BIGGEST BLIND SPOT is the lack of evaluation metrics, such as the Brier score, which could lead to a flawed understanding of the Synthesizer's performance and limitations.\nDEPENDS ON: The introduction of a reliable evaluation metric, such as a Brier score, would change my mind about the Synthesizer's performance.\nWRONG IF: The Synthesizer's output is found to be consistently accurate and reliable, despite the lack of evaluation metrics, and alternative methods are used to verify its performance."
+  },
+  "reasoning": {
+    "chains": 7,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-02T07:35:22.104910"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T07:35:23.126153"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-02T07:35:44.121247"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-02T07:35:44.627784"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T07:35:44.888559"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T07:35:45.167322"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T07:35:45.445645"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T07:35:45.703162"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T07:35:45.978087"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T07:35:46.237515"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T07:35:46.482695"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T07:35:46.763820"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T07:35:47.020508"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T07:35:47.295398"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-02T07:35:47.496086"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-02T07:35:49.299641"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T07:35:49.395954"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T07:35:49.898903"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T07:35:51.534794"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T07:35:51.602302"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-02T07:36:01.751582"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T07:36:02.943089"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T07:36:03.339989"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-02T07:36:03.720554"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T07:36:04.314490"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-02T07:36:04.315336"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T07:36:04.472278"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T07:36:06.425072"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T07:36:06.815403"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-02T07:36:08.893945"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-02T07:36:09.357539"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T07:36:09.486124"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-02T07:36:10.227912"
+    },
+    "ETF_FLOWS": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-02T07:36:17.523743"
+    },
+    "OPTIONS": {
+      "ok": false,
+      "detail": "Expecting value: line 1 column 1 (char 0)",
+      "ts": "2026-04-02T07:36:17.778624"
+    },
+    "MARKETS": {
+      "ok": false,
+      "detail": "0/75",
+      "ts": "2026-04-02T07:36:29.443446"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T07:36:29.862550"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-02T07:36:33.998890"
+    },
+    "GDELT": {
+      "ok": false,
+      "detail": "HTTP 429",
+      "ts": "2026-04-02T07:36:46.000139"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T07:36:46.175766"
+    }
+  }
+}
