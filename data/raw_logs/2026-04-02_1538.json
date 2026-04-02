@@ -1,0 +1,343 @@
+{
+  "timestamp": "2026-04-02 15:38",
+  "regime": {
+    "regime": "CRISIS",
+    "confidence": 0.6,
+    "scores": {
+      "CRISIS": 0.6,
+      "RISK_OFF": 0.4,
+      "TRANSITION": 0.0,
+      "RISK_ON": 0.0,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "F&G 14.9: extreme fear"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$41.73B|NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC|None|IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL TECHNOLOGY&ENGINEERI",
+      "$40.81B|UT-BATTELLE LLC|None|MANAGEMENT AND OPERATION OF THE OAK RIDGE NATIONAL LABORATORY",
+      "$40.78B|LAWRENCE LIVERMORE NATIONAL SECURITY, LLC|None|TAS::89 0240::TAS THIS PERFORMANCE-BASED MANAGEMENT CONTRACT (PBMC) IS FOR THE M",
+      "$34.60B|TRIAD NATIONAL SECURITY, LLC|None|IGF::CL::IGF COMPETITION FOR MANAGEMENT AND OPERATION OF LOS ALAMOS NATIONAL LAB",
+      "$33.75B|CONSOLIDATED NUCLEAR SECURITY, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATING CONTRACT FOR Y-12 NATIONAL SECURITY COM",
+      "$30.17B|BATTELLE MEMORIAL INSTITUTE|None|BATTELLE MEMORIAL INSTITUTE/PACIFIC NORTHWEST               LABORATORY OPERATING",
+      "$26.35B|SAVANNAH RIVER NUCLEAR SOLUTIONS LLC|None|MANAGEMENT AND OPERATING CONTRACT FOR THE SAVANNAH RIVER SITE.",
+      "$25.19B|BATTELLE ENERGY ALLIANCE, LLC|None|MANAGEMENT AND OPERATIONS OF THE INL",
+      "$19.16B|THE REGENTS OF THE UNIVERSITY OF CALIFORNIA|None|THIS PERFORMANCE-BASED MANAGEMENT CONTRACT (PBMC) IS FOR THE MANAGEMENT AND OPER",
+      "$17.27B|HONEYWELL FEDERAL MANUFACTURING & TECHNOLOGIES, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATION OF THE NATIONAL SECURITY CAMPUS -- CONT",
+      "$15.51B|LOCKHEED MARTIN CORP|None|TAS::80 0124::TAS DESIGN, DEVELOPMENT, TEST&EVALUATION OF PROJECT ORION",
+      "$14.77B|FLUOR MARINE PROPULSION, LLC|None|MANAGEMENT AND OPERATION OF THE NAVAL NUCLEAR LABORATORY AND NAVAL NUCLEAR PROPU",
+      "$14.54B|THE LELAND STANFORD JUNIOR UNIVERSITY|None|OPERATION AND MAINTENANCE                                   LINEAR ACCELLERATOR",
+      "$10.64B|ALLIANCE FOR ENERGY INNOVATION, LLC|None|AWARD OF CONTRACT TO MANAGE AND OPERATE THE NATIONAL RENEWABLE ENERGY LABORATORY",
+      "$10.46B|THE BOEING COMPANY|None|PROVIDE DEVELOPMENTAL HARDWARE AND TEST ARTICLES, AND MANUFACTURE AND ASSEMBLE A"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[FED] Miran, Prospects for Shrinking the Fed\u2019s Balance Sheet",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments",
+      "[ECB] Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 February 2026"
+    ],
+    "policy": [
+      "[Rule] Airworthiness Directives; Airbus Canada Limited Partnership (Type Certificate Previously Held by C Series Aircraft Limit",
+      "[Rule] Lead-Based Paint Poisoning Prevention in Certain Residential Structures",
+      "[Rule] Air Plan Approval; Ohio; Ohio Permit Rules Revisions",
+      "[Rule] Air Plan Approval; Ohio; Muskingum River 2010 Sulfur Dioxide Redesignation and Maintenance Plan",
+      "[Rule] Air Plan Approval; Michigan; Detroit 2010 Sulfur Dioxide Redesignation and Maintenance Plan"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "02-Apr-2026",
+        "buyValue": "18421.27",
+        "sellValue": "11212.86",
+        "netValue": "7208.41"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "02-Apr-2026",
+        "buyValue": "10626.52",
+        "sellValue": "20557.65",
+        "netValue": "-9931.13"
+      }
+    ],
+    "etf_flows": {},
+    "options": {}
+  },
+  "tier3": {
+    "markets_live": 0,
+    "correlations": [],
+    "anomalies": [
+      "F&G 14.9: EXTREME FEAR"
+    ]
+  },
+  "tier4": {
+    "news_len": 10419,
+    "gdelt_len": 17
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 14.9,
+      "rating": "extreme fear",
+      "prev_week": 14.9,
+      "prev_month": 34.3
+    }
+  },
+  "brain": {
+    "predictions": 0,
+    "brier": null,
+    "patterns": 0
+  },
+  "agents": {
+    "upstream": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current regime is in CRISIS (60%).\n\nLOGIC: The requirement for a 60-day notice period -> implies that employers must plan ahead and consider the potential consequences of their actions -> which suggests that the current crisis regime may be exacerbated by sudden or unanticipated layoffs.\n\nCOUNTER: One could argue that the WARN Act's notice period may not be sufficient to mitigate the effects of a crisis, and that employers may still be forced to make difficult decisions quickly, despite the notice requirement.\n\nCONCLUDE: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as they provide a framework for employers to manage layoffs and plant closures in a way that minimizes harm to workers and the broader economy.\n\nDEPENDS ON: The actual number of layoffs or plant closures that occur in the next 60 days, and whether employers are able to provide the required notice period.\n\nWRONG IF: The crisis regime is resolved quickly, and employers are able to avoid mass layoffs or plant closures, rendering the WARN Act's provisions less relevant.",
+    "flow": "OBSERVE: The upstream conclusion that the WARN Act's provisions are likely to take on increased importance in a crisis regime, as they provide a framework for employers to manage layoffs and plant closures in a way that minimizes harm to workers and the broader economy, is based on the assumption that the 60-day notice period will allow for more planned and less harmful layoffs.\n\nLOGIC: The assumption that a 60-day notice period will lead to more planned and less harmful layoffs -> implies that employers will have sufficient time to consider the consequences of their actions and make more informed decisions -> which suggests that the current crisis regime may be mitigated by the WARN Act's provisions.\n\nCOUNTER: However, the counterargument that the WARN Act's notice period may not be sufficient to mitigate the effects of a crisis, and that employers may still be forced to make difficult decisions quickly, despite the notice requirement, is a valid concern, especially if the crisis regime is characterized by rapid and unpredictable changes.\n\nCONCLUDE: I challenge the upstream conclusion, as the actual impact of the WARN Act's provisions on the crisis regime is uncertain and depends on various factors, including the severity of the crisis, the ability of employers to provide notice, and the effectiveness of the notice period in mitigating harm.\n\nDEPENDS ON: The actual number of layoffs or plant closures that occur in the next 60 days, and whether employers are able to provide the required notice period, as well as the severity of the crisis regime and its impact on employers' decision-making.\n\nWRONG IF: The crisis regime is found to be unaffected by the WARN Act's provisions, and employers are able to manage layoffs and plant closures effectively without the need for a 60-day notice period, or if the notice period is found to be insufficient to mitigate the effects of the crisis.",
+    "market": "OBSERVE: The current Fear & Greed index (F&G) score is 14.9, indicating a state of \"extreme fear\" in the market, and the brain's crisis regime probability is 60%.\n\nLOGIC: The extreme fear sentiment in the market -> implies that investors are highly risk-averse and expecting a potential downturn -> which suggests that the crisis regime probability of 60% may be justified, and the market may be due for a significant correction.\n\nCOUNTER: One could argue that the F&G index is a sentiment indicator and may not accurately reflect the underlying market fundamentals, and that the crisis regime probability may be overestimated.\n\nCONCLUDE: The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest that the market is highly volatile and vulnerable to a potential downturn, and that the WARN Act's provisions may take on increased importance in this regime.\n\nDEPENDS ON: The F&G index score increasing above 30, indicating a shift from \"extreme fear\" to a more neutral sentiment, would change my mind about the market's volatility and the crisis regime probability.\n\nWRONG IF: If the market experiences a significant rally in the next week, with the F&G index score increasing by 10 points or more, it would falsify my conclusion about the market's volatility and the crisis regime probability.",
+    "narrative": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime probability of 60%, suggest a high level of uncertainty and fear among investors.\n\nLOGIC: The extreme fear sentiment in the market -> implies that investors are highly risk-averse and expecting a potential downturn -> which suggests that the crisis regime probability of 60% may be justified, and the market may be due for a significant correction.\n\nCOUNTER: One could argue that the F&G index is a sentiment indicator and may not accurately reflect the underlying market fundamentals, and that the crisis regime probability may be overstated.\n\nCONCLUDE: Based on the current market conditions and the brain's crisis regime probability, it appears that the market is likely to remain highly volatile, with a high probability of a crisis.\n\nDEPENDS ON: The validation of the crisis regime probability by the brain, which would confirm the market's expectations and increase the likelihood of a significant correction.\n\nWRONG IF: The market experiences a sudden and unexpected rally, contradicting the crisis regime probability and indicating a potential shift in investor sentiment.\n\nOBSERVE: Agents 1-3 are following the herd, as they are all reacting to the same market conditions and news reports, and their conclusions are similar.\n\nLOGIC: The fact that Agents 1-3 are following the herd -> implies that they may be missing potential edge opportunities, as they are not considering alternative perspectives or scenarios -> which suggests that their conclusions may be based on consensus rather than independent analysis.\n\nCOUNTER: One could argue that Agents 1-3 are simply reacting to the available data and news reports, and that their conclusions are based on a thorough analysis of the market conditions.\n\nCONCLUDE: Based on the observations, it appears that Agents 1-3 are following the herd, which may indicate a lack of edge in their analysis.\n\nDEPENDS ON: The availability of alternative pe",
+    "synthesis": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the outputs of various agents, I side with Agent [MARKET] because their conclusion that the current market conditions, as indicated by the F&G index and the brain's crisis regime probability of 60%, suggest a high level of uncertainty and fear among investors, is well-supported by the data. The F&G index score of 14.9 indicates a state of \"extreme fear\" in the market, which is consistent with the brain's crisis regime probability. This suggests that the market is highly volatile and vulnerable to a potential downturn.\n\n**THESIS**\n\nTHESIS: Market Volatility and Crisis Regime Probability\nCHAIN: F&G index score -> crisis regime probability -> market volatility -> potential downturn\nCONFIDENCE: 80\nKILL IF: F&G index score increases above 30, indicating a shift from \"extreme fear\" to a more neutral sentiment\nTIMEFRAME: 30 days\nASSET: VIX\n\n**INDIA INTELLIGENCE**\n\nOBSERVE: The Indian rupee (INR) has been under pressure due to the crisis regime probability and the potential downturn in the global market.\nLOGIC: The INR's depreciation -> implies that foreign investors may be pulling out of the Indian market -> which suggests that the Nifty sectors may be affected, particularly the ones with high foreign investor participation.\nCOUNTER: One could argue that the INR's depreciation may not have a significant impact on the Nifty sectors, as the Indian economy is relatively resilient.\nCONCLUDE: The INR's depreciation and the potential downturn in the global market may have a negative impact on the Nifty sectors, particularly the ones with high foreign investor participation.\nDEPENDS ON: The FII/DII read, which would indicate the level of foreign investor participation in the Indian market.\nWRONG IF: The INR appreciates, and the Nifty sectors remain unaffected by the global market downturn.\n\n**THE UNCOMFORTABLE TRUTH**\n\nThe current market conditions, as indicated by the F&G index and the brain's crisis regime probability",
+    "adversary": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\nOBSERVE: The thesis \"Market Volatility and Crisis Regime Probability\" relies heavily on the F&G index score and the brain's crisis regime probability to predict a potential downturn in the market.\nLOGIC: The reliance on these indicators -> implies that the thesis may be oversimplifying the complexity of the market -> which could lead to inaccurate predictions, as the market is influenced by a multitude of factors, including geopolitical events, economic indicators, and investor sentiment.\nCOUNTER: One could argue that the F&G index score and the brain's crisis regime probability are robust indicators that have historically been effective in predicting market volatility.\nCONCLUDE: The thesis \"Market Volatility and Crisis Regime Probability\" may be vulnerable to criticism due to its reliance on a limited set of indicators, which could lead to inaccurate predictions.\nDEPENDS ON: The performance of the VIX, which is the asset associated with this thesis, over the next 30 days.\nWRONG IF: The market experiences a significant rally despite the F&G index score and the brain's crisis regime probability indicating a high level of uncertainty and fear.\n\n**WEAKEST THESIS**\n\nThe weakest thesis is \"Market Volatility and Crisis Regime Probability\" because it relies on a limited set of indicators, specifically the F&G index score and the brain's crisis regime probability, to predict a potential downturn in the market. This thesis is vulnerable to criticism due to its oversimplification of the complexity of the market.\n\n**BIGGEST BLIND SPOT**\n\nThe biggest blind spot in the synthesizer's output is the lack of consideration for external factors that could influence the market, such as geopolitical events, economic indicators, and investor sentiment. The thesis \"Market Volatility and Crisis Regime Probability\" relies heavily on internal market indicators, which may not capture the full range of factors that could impact the market.\n\n**ADDITIONAL "
+  },
+  "reasoning": {
+    "chains": 9,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-02T15:38:22.873183"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T15:38:23.406740"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-02T15:38:44.217832"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-02T15:38:44.505212"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T15:38:44.768468"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T15:38:45.187420"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T15:38:45.582867"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T15:38:45.991800"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T15:38:46.414316"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T15:38:46.821453"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T15:38:47.224654"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T15:38:47.632691"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T15:38:48.052884"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-02T15:38:48.446761"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-02T15:38:48.647792"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-02T15:38:50.955782"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T15:38:51.166910"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T15:38:51.869649"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T15:38:53.679907"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T15:38:53.884480"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-02T15:39:04.139198"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T15:39:05.457906"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T15:39:06.301443"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-02T15:39:06.929896"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T15:39:07.580892"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-02T15:39:07.581672"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T15:39:07.905240"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T15:39:10.123408"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-02T15:39:10.763148"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-02T15:39:13.733722"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-02T15:39:13.982192"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T15:39:24.708556"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-02T15:39:25.697837"
+    },
+    "ETF_FLOWS": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-02T15:39:37.237877"
+    },
+    "OPTIONS": {
+      "ok": false,
+      "detail": "Expecting value: line 1 column 1 (char 0)",
+      "ts": "2026-04-02T15:39:37.651319"
+    },
+    "MARKETS": {
+      "ok": false,
+      "detail": "0/75",
+      "ts": "2026-04-02T15:39:55.971750"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T15:39:56.091935"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-02T15:40:01.966828"
+    },
+    "GDELT": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=14)",
+      "ts": "2026-04-02T15:40:23.251401"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-02T15:40:23.648124"
+    }
+  }
+}
