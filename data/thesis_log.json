@@ -79,5 +79,47 @@
     ],
     "raw_block": "THESIS: Safe-Haven Assets\nCHAIN: Investor uncertainty -> GOLD index upward trend -> Safe-haven assets -> Mitigated crisis effects\nCONFIDENCE: 60\nKILL IF: GOLD index trend reverses\nTIMEFRAME: 20 days\nASSET: GOLD\n\n",
     "timestamp": "2026-04-03T08:40:12.680513"
+  },
+  {
+    "title": "Market Volatility**",
+    "chain": "High probability of market volatility -> Increased uncertainty and instability -> Potential for significant market movements -> High risk of losses for investors",
+    "confidence": 80,
+    "direction": "neutral",
+    "kill_condition": "Market conditions stabilize, and volatility decreases",
+    "timeframe_days": 30,
+    "assets": [
+      "VIX"
+    ],
+    "raw_block": "THESIS: Market Volatility**\n   * CHAIN: High probability of market volatility -> Increased uncertainty and instability -> Potential for significant market movements -> High risk of losses for investors\n   * CONFIDENCE: 80\n   * KILL IF: Market conditions stabilize, and volatility decreases\n   * TIMEFRAME: 30 days\n   * ASSET: VIX\n\n2. **",
+    "timestamp": "2026-04-03T14:31:03.675788"
+  },
+  {
+    "title": "WARN Act Provisions**",
+    "chain": "High probability of market volatility -> Increased importance of WARN Act provisions -> Potential for increased mass layoffs or plant closures -> High risk of job losses for workers",
+    "confidence": 70,
+    "direction": "neutral",
+    "kill_condition": "Market conditions stabilize, and the crisis regime is avoided",
+    "timeframe_days": 60,
+    "assets": [
+      "SP500"
+    ],
+    "raw_block": "THESIS: WARN Act Provisions**\n   * CHAIN: High probability of market volatility -> Increased importance of WARN Act provisions -> Potential for increased mass layoffs or plant closures -> High risk of job losses for workers\n   * CONFIDENCE: 70\n   * KILL IF: Market conditions stabilize, and the crisis regime is avoided\n   * TIMEFRAME: 60 days\n   * ASSET: SP500\n\n3. **",
+    "timestamp": "2026-04-03T14:31:03.675831"
+  },
+  {
+    "title": "FII/DII Trends**",
+    "chain": "Net outflow of funds by FII/FPI -> Net inflow of funds by DII -> Potential for increased market volatility and uncertainty -> High risk of losses for investors",
+    "confidence": 60,
+    "direction": "bullish",
+    "kill_condition": "FII/FPI net outflow reverses, and DII net inflow increases",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500",
+      "NIFTY",
+      "INR",
+      "VIX"
+    ],
+    "raw_block": "THESIS: FII/DII Trends**\n   * CHAIN: Net outflow of funds by FII/FPI -> Net inflow of funds by DII -> Potential for increased market volatility and uncertainty -> High risk of losses for investors\n   * CONFIDENCE: 60\n   * KILL IF: FII/FPI net outflow reverses, and DII net inflow increases\n   * TIMEFRAME: 30 days\n   * ASSET: INR\n\n**INDIA INTELLIGENCE**\n\nThe INR has been experiencing a net outflow of funds by FII/FPI, which may indicate a lack of confidence in the market. The Nifty sectors have be",
+    "timestamp": "2026-04-03T14:31:03.675891"
   }
 ]
