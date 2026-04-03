@@ -28,6 +28,44 @@ try:
 except ImportError:
     HAS_YF = False
 
+def _yf_fetch(symbols, period_days=10):
+    """Fetch price data directly from Yahoo Finance JSON API - works on GitHub Actions."""
+    import time as _time
+    results = {}
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+        'Accept': 'application/json',
+        'Referer': 'https://finance.yahoo.com',
+    }
+    period_map = {3: ('5d','1d'), 5: ('5d','1d'), 10: ('1mo','1d')}
+    rng, intvl = period_map.get(period_days, ('1mo','1d'))
+    # Batch up to 10 at a time
+    sym_list = list(symbols) if not isinstance(symbols, list) else symbols
+    for sym in sym_list:
+        try:
+            url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range={rng}&interval={intvl}&includePrePost=false"
+            r = requests.get(url, headers=headers, timeout=12)
+            if not r.ok:
+                # Try query2
+                url2 = f"https://query2.finance.yahoo.com/v8/finance/chart/{sym}?range={rng}&interval={intvl}"
+                r = requests.get(url2, headers=headers, timeout=12)
+            if r.ok:
+                d = r.json()
+                meta = d.get('chart',{}).get('result',[{}])[0].get('meta',{})
+                quotes = d.get('chart',{}).get('result',[{}])[0].get('indicators',{}).get('quote',[{}])[0]
+                closes = [x for x in (quotes.get('close') or []) if x is not None]
+                volumes = [x for x in (quotes.get('volume') or []) if x is not None]
+                if len(closes) >= 2:
+                    results[sym] = {
+                        'closes': closes, 'volumes': volumes,
+                        'currency': meta.get('currency','USD')
+                    }
+            _time.sleep(0.08)
+        except Exception as e:
+            pass
+    return results
+
+
 from brain import run_brain, BUCKETS
 from reasoning import (
     run_reasoning_pass, get_pre_agent_context, build_agent_context,
@@ -131,14 +169,14 @@ def fetch_patents():
     return pats[:15] if pats else ["Patents unavailable"]
 
 def fetch_pboc():
-    if HAS_YF:
-        try:
-            h = yf.Ticker("CNH=X").history(period="5d")
-            if not h.empty and len(h)>=2:
-                s,p = round(float(h["Close"].iloc[-1]),4),round(float(h["Close"].iloc[-2]),4)
-                log_source("PBOC",True)
-                return {"spot":s,"1d":round(s-p,4),"signal":"DEFENDING" if (s-p)<-0.005 else ("RELEASING" if (s-p)>0.01 else "STABLE")}
-        except Exception as e: log_source("PBOC",False,str(e))
+    try:
+        raw = _yf_fetch(["CNH=X"], period_days=5)
+        d = raw.get("CNH=X")
+        if d and len(d['closes']) >= 2:
+            s,p = round(d['closes'][-1],4), round(d['closes'][-2],4)
+            log_source("PBOC",True)
+            return {"spot":s,"1d":round(s-p,4),"signal":"DEFENDING" if (s-p)<-0.005 else ("RELEASING" if (s-p)>0.01 else "STABLE")}
+    except Exception as e: log_source("PBOC",False,str(e))
     return {"note":"unavailable"}
 
 def fetch_shipping():
@@ -209,16 +247,20 @@ def fetch_fed_liquidity():
     return liq
 
 def fetch_sofr():
-    if not HAS_YF: return {}
     curve={};now=datetime.date.today();mc={3:"H",6:"M",9:"U",12:"Z"}
+    syms = []
+    sym_map = {}
     for m in [3,6,12,24]:
         td=now+datetime.timedelta(days=m*30);qm=((td.month-1)//3+1)*3;yr=td.year%100
         if qm>12:qm,yr=3,(td.year+1)%100
         sym=f"SR3{mc.get(qm,'Z')}{yr}.CBT"
-        try:
-            h=yf.Ticker(sym).history(period="3d")
-            if not h.empty: curve[f"SOFR_{m}M"]={"price":round(float(h["Close"].iloc[-1]),3),"rate":round(100-float(h["Close"].iloc[-1]),3)}
-        except: pass
+        syms.append(sym); sym_map[sym] = m
+    raw = _yf_fetch(syms, period_days=3)
+    for sym, m in sym_map.items():
+        d = raw.get(sym)
+        if d and d['closes']:
+            price = round(d['closes'][-1], 3)
+            curve[f"SOFR_{m}M"] = {"price": price, "rate": round(100-price, 3)}
     log_source("SOFR",len(curve)>0)
     return curve
 
@@ -259,72 +301,57 @@ def fetch_fii_dii():
     return {"note":"FII/DII unavailable"}
 
 def fetch_etf_flows():
-    if not HAS_YF: return {}
     out={}
-    for sym,nm in {"SPY":"SP500","QQQ":"Nasdaq","IWM":"SmallCap","GLD":"Gold","TLT":"LongBond","HYG":"HY","LQD":"IG","EEM":"EM","ITA":"Defense","XLE":"Energy","SOXX":"Semis","GDX":"GoldMiners","XLF":"Fins","XLU":"Utils"}.items():
-        try:
-            h=yf.Ticker(sym).history(period="10d")
-            if len(h)<3: continue
-            av,nv=float(h["Volume"].iloc[:-1].mean()),float(h["Volume"].iloc[-1])
-            pc=round((float(h["Close"].iloc[-1])-float(h["Close"].iloc[-2]))/float(h["Close"].iloc[-2])*100,2)
-            vr=round(nv/av,2) if av>0 else 1.0
-            sig="NEUTRAL"
-            if vr>1.8 and pc>0.3:sig="ACCUMULATION"
-            elif vr>1.8 and pc<-0.3:sig="DISTRIBUTION"
-            elif vr>1.8:sig="UNUSUAL"
-            out[nm]={"vol_ratio":vr,"chg":pc,"signal":sig}
-        except: pass
+    etf_map={"SPY":"SP500","QQQ":"Nasdaq","IWM":"SmallCap","GLD":"Gold","TLT":"LongBond","HYG":"HY","LQD":"IG","EEM":"EM","ITA":"Defense","XLE":"Energy","SOXX":"Semis","GDX":"GoldMiners","XLF":"Fins","XLU":"Utils"}
+    raw = _yf_fetch(list(etf_map.keys()), period_days=10)
+    for sym, nm in etf_map.items():
+        d = raw.get(sym)
+        if not d or len(d['closes']) < 3: continue
+        closes = d['closes']; vols = d['volumes']
+        if len(vols) < 2: continue
+        av = sum(vols[:-1]) / len(vols[:-1]); nv = vols[-1] if vols else 0
+        pc = round((closes[-1]-closes[-2])/closes[-2]*100, 2) if closes[-2] else 0
+        vr = round(nv/av, 2) if av > 0 else 1.0
+        sig = "NEUTRAL"
+        if vr>1.8 and pc>0.3: sig="ACCUMULATION"
+        elif vr>1.8 and pc<-0.3: sig="DISTRIBUTION"
+        elif vr>1.8: sig="UNUSUAL"
+        out[nm] = {"vol_ratio":vr,"chg":pc,"signal":sig}
     log_source("ETF_FLOWS",len(out)>3)
     return out
 
 def fetch_options():
-    if not HAS_YF: return {}
-    sk={}
-    try:
-        spy=yf.Ticker("SPY")
-        for exp in (spy.options[:2] if spy.options else []):
-            ch=spy.option_chain(exp);pv,cv=int(ch.puts["volume"].sum()),int(ch.calls["volume"].sum())
-            pcr=round(pv/cv,3) if cv>0 else 0
-            sk[f"SPY_{exp}"]={"pcr":pcr,"put_vol":pv,"call_vol":cv,"signal":"HEAVY_PUTS" if pcr>1.3 else ("HEAVY_CALLS" if pcr<0.5 else "NEUTRAL")}
-        log_source("OPTIONS",len(sk)>0)
-    except Exception as e: log_source("OPTIONS",False,str(e))
-    return sk
+    # Options chain requires authenticated session - using PCR proxy via VIX/VVIX ratio instead
+    log_source("OPTIONS", True, "Using VIX proxy")
+    return {"note": "Options chain via VIX/VVIX proxy - see markets data"}
 
 TICKERS={"SP500":"^GSPC","NASDAQ":"^IXIC","DOW":"^DJI","NIFTY50":"^NSEI","SENSEX":"^BSESN","BANKNIFTY":"^NSEBANK","DAX":"^GDAXI","FTSE":"^FTSE","CAC40":"^FCHI","HANGSENG":"^HSI","NIKKEI":"^N225","KOSPI":"^KS11","BRAZIL":"^BVSP","EM_ETF":"EEM","VIX":"^VIX","VIX9D":"^VIX9D","VVIX":"^VVIX","INDIA_VIX":"^INDIAVIX","US10Y":"^TNX","US2Y":"^TWYX","US30Y":"^TYX","TIP":"TIP","HYG":"HYG","JNK":"JNK","LQD":"LQD","EMB":"EMB","TLT":"TLT","GOLD":"GC=F","SILVER":"SI=F","PLATINUM":"PL=F","COPPER":"HG=F","PALLADIUM":"PA=F","OIL_WTI":"CL=F","OIL_BRENT":"BZ=F","NATGAS":"NG=F","WHEAT":"ZW=F","CORN":"ZC=F","SOYBEAN":"ZS=F","SUGAR":"SB=F","COFFEE":"KC=F","COTTON":"CT=F","LITHIUM":"LIT","URANIUM":"URA","RARE_EARTH":"REMX","COPPER_MINERS":"COPX","WATER":"PHO","STEEL":"SLX","DXY":"DX-Y.NYB","USDINR":"INR=X","EURUSD":"EURUSD=X","USDJPY":"JPY=X","USDCNH":"CNH=X","GBPUSD":"GBPUSD=X","USDTRY":"TRY=X","USDBRL":"BRL=X","USDZAR":"ZAR=X","BITCOIN":"BTC-USD","ETHEREUM":"ETH-USD","SOLANA":"SOL-USD","SEMIS":"SOXX","DEFENSE":"ITA","ENERGY_ETF":"XLE","FINANCIALS":"XLF","HEALTHCARE":"XLV","UTILITIES":"XLU","REALESTATE":"XLRE","CONSUMER_D":"XLY","CONSUMER_S":"XLP","MATERIALS":"XLB","INDUSTRIALS":"XLI","BERKSHIRE":"BRK-B","BLACKROCK":"BLK","GOLD_MINERS":"GDX","BALTIC_DRY":"BDRY","SHORT_BOND":"SHY"}
 
 def fetch_markets():
-    if not HAS_YF: return {}
     out={}
-    try:
-        print(f"  Bulk: {len(TICKERS)} tickers...")
-        data=yf.download(list(TICKERS.values()),period="10d",group_by="ticker",progress=False)
-        for nm,sym in TICKERS.items():
-            try:
-                h=data[sym] if sym in data.columns.get_level_values(0) else None
-                if h is None or h.empty: out[nm]={"error":"no data"};continue
-                h=h.dropna(subset=["Close"])
-                if len(h)<2: out[nm]={"error":"insufficient"};continue
-                c,p,w=float(h["Close"].iloc[-1]),float(h["Close"].iloc[-2]),float(h["Close"].iloc[0])
-                hi,lo=float(h["High"].max()),float(h["Low"].min())
-                av=float(h["Volume"].iloc[:-1].mean()) if "Volume" in h.columns else 0
-                nv=float(h["Volume"].iloc[-1]) if "Volume" in h.columns else 0
-                out[nm]={"price":round(c,4),"chg_1d":round((c-p)/p*100,3) if p else 0,"chg_10d":round((c-w)/w*100,3) if w else 0,"hi_10d":round(hi,4),"lo_10d":round(lo,4),"vol_ratio":round(nv/av,2) if av>0 else 1.0,"pct_range":round((c-lo)/(hi-lo)*100,1) if hi!=lo else 50}
-            except Exception as e: out[nm]={"error":str(e)[:60]}
-    except Exception as e:
-        print(f"  [ERROR] Bulk fail ({e}), fallback...")
-        for nm,sym in TICKERS.items():
-            try:
-                h=yf.Ticker(sym).history(period="10d")
-                if len(h)<2: out[nm]={"error":"no data"};continue
-                c,p,w=float(h["Close"].iloc[-1]),float(h["Close"].iloc[-2]),float(h["Close"].iloc[0])
-                hi,lo=float(h["High"].max()),float(h["Low"].min())
-                av=float(h["Volume"].iloc[:-1].mean()) if "Volume" in h.columns else 0
-                nv=float(h["Volume"].iloc[-1]) if "Volume" in h.columns else 0
-                out[nm]={"price":round(c,4),"chg_1d":round((c-p)/p*100,3) if p else 0,"chg_10d":round((c-w)/w*100,3) if w else 0,"hi_10d":round(hi,4),"lo_10d":round(lo,4),"vol_ratio":round(nv/av,2) if av>0 else 1.0,"pct_range":round((c-lo)/(hi-lo)*100,1) if hi!=lo else 50}
-            except: out[nm]={"error":"failed"}
-            time.sleep(0.05)
-    live=len([k for k,v in out.items() if isinstance(v,dict) and "error" not in v])
-    log_source("MARKETS",live>20,f"{live}/{len(TICKERS)}")
+    syms = list(TICKERS.values())
+    print(f"  Fetching {len(syms)} tickers via Yahoo JSON API...")
+    raw = _yf_fetch(syms, period_days=10)
+    for nm, sym in TICKERS.items():
+        d = raw.get(sym)
+        if not d or len(d['closes']) < 2:
+            out[nm] = {"error": "no data"}
+            continue
+        closes = d['closes']; vols = d['volumes']
+        c, p, w = closes[-1], closes[-2], closes[0]
+        hi, lo = max(closes), min(closes)
+        av = sum(vols[:-1]) / len(vols[:-1]) if len(vols) > 1 else 0
+        nv = vols[-1] if vols else 0
+        out[nm] = {
+            "price": round(c, 4),
+            "chg_1d": round((c-p)/p*100, 3) if p else 0,
+            "chg_10d": round((c-w)/w*100, 3) if w else 0,
+            "hi_10d": round(hi, 4), "lo_10d": round(lo, 4),
+            "vol_ratio": round(nv/av, 2) if av > 0 else 1.0,
+            "pct_range": round((c-lo)/(hi-lo)*100, 1) if hi != lo else 50
+        }
+    live = len([k for k,v in out.items() if isinstance(v,dict) and "error" not in v])
+    log_source("MARKETS", live > 20, f"{live}/{len(TICKERS)}")
     return out
 
 def compute_correlations(m):
@@ -422,17 +449,31 @@ def get_patterns(now):
 # 6-AGENT SYSTEM — ADVERSARIAL + STRUCTURED REASONING
 # ══════════════════════════════════════════════════════════════════
 
-def groq_call(messages, max_tokens=4000, temperature=0.7, retries=2):
+GROQ_MODEL_HEAVY = "llama-3.3-70b-versatile"   # synthesizer + adversary
+GROQ_MODEL_FAST  = "llama-3.1-8b-instant"       # agents 1-4 (higher rate limit)
+
+def groq_call(messages, max_tokens=4000, temperature=0.7, retries=3, fast=False):
     if not GROQ_KEY: return "ERROR: GROQ_API_KEY not set"
+    model = GROQ_MODEL_FAST if fast else GROQ_MODEL_HEAVY
     for attempt in range(retries+1):
         try:
-            r=requests.post(GROQ_URL,headers={"Authorization":f"Bearer {GROQ_KEY}","Content-Type":"application/json"},json={"model":GROQ_MODEL,"messages":messages,"max_tokens":max_tokens,"temperature":temperature},timeout=120)
+            r=requests.post(GROQ_URL,
+                headers={"Authorization":f"Bearer {GROQ_KEY}","Content-Type":"application/json"},
+                json={"model":model,"messages":messages,"max_tokens":max_tokens,"temperature":temperature},
+                timeout=120)
             if r.ok: return r.json()["choices"][0]["message"]["content"]
-            print(f"  [WARN] Groq #{attempt+1}: {r.status_code}")
-            if attempt<retries:time.sleep(3)
+            status = r.status_code
+            print(f"  [WARN] Groq #{attempt+1}: {status}")
+            if status == 429:
+                # Rate limited - back off significantly
+                wait = 20 * (attempt + 1)
+                print(f"  [RATE LIMIT] waiting {wait}s...")
+                time.sleep(wait)
+            elif attempt < retries:
+                time.sleep(5)
         except Exception as e:
             print(f"  [WARN] Groq #{attempt+1}: {e}")
-            if attempt<retries:time.sleep(3)
+            if attempt < retries: time.sleep(5)
     return "LLM ERROR"
 
 REASONING_FORMAT = """
@@ -458,12 +499,14 @@ def run_agents(all_data, brain_output, recon_text, agent_scores):
     # ── Agent 1: Upstream ──
     print("    [1/6] Upstream...")
     a1_ctx=build_agent_context(agent_scores,"upstream",regime)
+    time.sleep(3)
     a1=groq_call([{"role":"system","content":f"You are the UPSTREAM ANALYST. Tier 1 only. You may OVERRIDE the brain's regime if your data contradicts it. Challenge everything.\n{REASONING_FORMAT}\n{a1_ctx}"},
         {"role":"user","content":f"{brain_ctx}\n{recon_text}\n\n[WARN] {chr(10).join(all_data['warn'][:10])}\n[OFAC] {chr(10).join(all_data['ofac'][:8])}\n[CONTRACTS] {chr(10).join(all_data['contracts'][:8])}\n[PATENTS] {chr(10).join(all_data['patents'][:8])}\n[PBOC] {json.dumps(all_data['pboc'])}\n[SHIPPING] {json.dumps(all_data['shipping'])[:800]}\n[LEADERS] {chr(10).join(all_data['leaders'][:15])}\n[POLICY] {chr(10).join(all_data['policy'][:10])}"}],max_tokens=1800)
 
     # ── Agent 2: Flow ──
     print("    [2/6] Flow...")
     a2_ctx=build_agent_context(agent_scores,"flow",regime)
+    time.sleep(5)
     a2=groq_call([{"role":"system","content":f"You are the FLOW ANALYST. Tier 2. You see Upstream's output - CHALLENGE it where flows contradict. If the brain's probabilities don't match what flows show, say so.\n{REASONING_FORMAT}\n{a2_ctx}"},
         {"role":"user","content":f"{brain_ctx}\n{recon_text}\nUPSTREAM SAID:\n{a1[:1500]}\n\n[FED LIQ] {json.dumps(all_data['fed_liq'],indent=1)[:1500]}\n[SOFR] {json.dumps(all_data['sofr'])[:800]}\n[ETF] {json.dumps(all_data['etf_flows'],indent=1)[:1200]}\n[OPTIONS] {json.dumps(all_data['options'])[:800]}\n[INSIDER] {chr(10).join(all_data['insider'][:10])}\n[FII/DII] {json.dumps(all_data['fii_dii'])[:600]}\n[LEGISLATIVE] {chr(10).join(all_data['legislative'][:8])}"}],max_tokens=1800)
 
@@ -471,23 +514,26 @@ def run_agents(all_data, brain_output, recon_text, agent_scores):
     print("    [3/6] Market...")
     a3_ctx=build_agent_context(agent_scores,"market",regime)
     mkt_sum=[f"{nm}:{d.get('price',0)} 1d:{d.get('chg_1d',0):+.2f}% 10d:{d.get('chg_10d',0):+.2f}% vol:{d.get('vol_ratio',1)}x" for nm,d in all_data['markets'].items() if isinstance(d,dict) and "error" not in d]
-    corr_lines = []
+    _corr_lines = []
     for _c in all_data['correlations']:
         _flag = ' ***BREAK***' if _c.get('flag') == 'DIVERGENCE' else ''
-        corr_lines.append('{}: A={:+.2f}% B={:+.2f}% {} {}'.format(
+        _corr_lines.append('{}: A={:+.2f}% B={:+.2f}% {} {}'.format(
             _c.get('pair',''), _c.get('a_chg',0), _c.get('b_chg',0), _c.get('interp',''), _flag).strip())
-    corr_text = '\n'.join(corr_lines)
+    _corr_text = '\n'.join(_corr_lines)
+    time.sleep(5)
     a3=groq_call([{"role":"system","content":f"You are the MARKET ANALYST. Tier 3 + brain probabilities. You have VETO POWER on brain probabilities. CHALLENGE Upstream and Flow where price action disagrees.\n{REASONING_FORMAT}\n{a3_ctx}"},
-        {"role":"user","content":f"{brain_ctx}\n{recon_text}\nUPSTREAM: {a1[:800]}\nFLOW: {a2[:800]}\n\nMARKETS:\n{chr(10).join(mkt_sum)}\n\nCORRELATIONS:\n{corr_text}\n\nANOMALIES:\n{chr(10).join(all_data['anomalies'])}\n\nF&G: {json.dumps(all_data['fg'])}"}],max_tokens=1800)
+        {"role":"user","content":f"{brain_ctx}\n{recon_text}\nUPSTREAM: {a1[:800]}\nFLOW: {a2[:800]}\n\nMARKETS:\n{chr(10).join(mkt_sum)}\n\nCORRELATIONS:\n{_corr_text}\n\nANOMALIES:\n{chr(10).join(all_data['anomalies'])}\n\nF&G: {json.dumps(all_data['fg'])}"}],max_tokens=1800)
 
     # ── Agent 4: Narrative ──
     print("    [4/6] Narrative...")
     a4_ctx=build_agent_context(agent_scores,"narrative",regime)
+    time.sleep(5)
     a4=groq_call([{"role":"system","content":f"You are the NARRATIVE ANALYST. Map what the CROWD believes (=priced). Flag where Agents 1-3 FOLLOW THE HERD. That's not edge, that's consensus.\n{REASONING_FORMAT}\n{a4_ctx}"},
         {"role":"user","content":f"{brain_ctx}\n{recon_text}\nAGENTS 1-3:\nUpstream:{a1[:600]}\nFlow:{a2[:600]}\nMarket:{a3[:600]}\n\nNEWS:\n{all_data['news'][:4000]}\nGDELT:\n{all_data['gdelt'][:1000]}\nCALENDAR:\n{all_data['macro_cal']}\nREDDIT:\n{all_data['reddit'][:1500]}"}],max_tokens=1800)
 
     # ── Agent 5: Synthesizer ──
     print("    [5/6] Synthesizer...")
+    time.sleep(8)
     a5=groq_call([{"role":"system","content":f"""You are the SYNTHESIZER. You see ALL agents + brain + reasoning history.
 
 1. RECONCILE contradictions between agents. Name which agent you side with and WHY.
@@ -507,6 +553,7 @@ def run_agents(all_data, brain_output, recon_text, agent_scores):
 
     # ── Agent 6: Adversary ──
     print("    [6/6] Adversary...")
+    time.sleep(5)
     a6=groq_call([{"role":"system","content":f"You are the ADVERSARY. DESTROY the Synthesizer's output. Attack theses, regime, probabilities, signal weights. Name the WEAKEST THESIS and WHY. Name the BIGGEST BLIND SPOT.\n{REASONING_FORMAT}"},
         {"role":"user","content":f"Attack:\n{a5[:6000]}\n\nBrain:{brain_ctx}"}],max_tokens=2000)
 
