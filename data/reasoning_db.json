@@ -977,6 +977,241 @@
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, with California Labor Code Section 1400 specifying similar requirements."
+      ],
+      "logic": [
+        "The WARN Act's provisions are designed to protect workers' rights and provide them with sufficient notice in case of a mass layoff or plant closure -> This suggests that the Act is particularly relevant in times of economic uncertainty or crisis -> The current market conditions, with a high probability of a crisis regime, imply that the WARN Act's provisions may take on increased importance."
+      ],
+      "counters": [
+        "One potential counterargument is that the WARN Act's requirements may be too burdensome for employers, particularly small businesses, and could lead to unnecessary costs and administrative burdens."
+      ],
+      "conclusions": [
+        "Despite this counterargument, I conclude that the WARN Act's provisions are likely to be crucial in protecting workers' rights and providing them with sufficient notice in case of a mass layoff or plant closure, particularly in the current market conditions."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, with California Labor Code Section 1400 specifying similar requirements.\n\nLOGIC: The WARN Act's provisions are designed to protect workers' rights and provide them with sufficient notice in case of a mass layoff or plant closure -> This suggests that the Act is particularly relevant in times of economic uncertainty or crisis -> The current market conditions, with a high prob",
+      "id": "e470f987b103",
+      "timestamp": "2026-04-03T05:52:55.034450",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The upstream conclusion emphasizes the importance of the WARN Act's provisions in protecting workers' rights and providing sufficient notice in case of a mass layoff or plant closure, particularly in times of economic uncertainty or crisis."
+      ],
+      "logic": [
+        "The upstream logic suggests that the WARN Act's provisions are crucial in times of economic uncertainty or crisis -> This implies that the current market conditions, with a high probability of a crisis regime, would require increased attention to the WARN Act's provisions -> However, the brain's probability of a RISK_OFF regime is 100%, which seems to contradict the idea of a crisis regime."
+      ],
+      "counters": [
+        "One potential counterargument is that the brain's probability of a RISK_OFF regime may be incorrect, and the market conditions may be more volatile than expected, which would support the upstream conclusion."
+      ],
+      "conclusions": [
+        "Despite the brain's probability of a RISK_OFF regime, I conclude that the upstream conclusion may be overly optimistic, and the current market conditions may not necessarily require increased attention to the WARN Act's provisions."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The upstream conclusion emphasizes the importance of the WARN Act's provisions in protecting workers' rights and providing sufficient notice in case of a mass layoff or plant closure, particularly in times of economic uncertainty or crisis.\n\nLOGIC: The upstream logic suggests that the WARN Act's provisions are crucial in times of economic uncertainty or crisis -> This implies that the current market conditions, with a high probability of a crisis regime, would require increased attentio",
+      "id": "e9cc788ba390",
+      "timestamp": "2026-04-03T05:52:55.034532",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating with a score of 15.3, and the brain's probability of a RISK_OFF regime is 100%."
+      ],
+      "logic": [
+        "The high level of fear in the market, as indicated by the F&G index, suggests that investors are highly risk-averse and expecting a potential crisis -> This contradicts the brain's probability of a RISK_OFF regime, which implies a low-risk environment -> The discrepancy between the market's fear level and the brain's regime probability implies that the market may be due for a correction or that the brain's probability is incorrect."
+      ],
+      "counters": [
+        "One potential counterargument is that the F&G index may be oversensitive to short-term market fluctuations and may not accurately reflect the overall market conditions, or that the brain's probability of a RISK_OFF regime may be correct, but the market is simply overreacting to potential risks."
+      ],
+      "conclusions": [
+        "Based on the analysis, I conclude that the market is likely to remain highly volatile, with a high probability of a crisis regime, despite the brain's probability of a RISK_OFF regime."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating with a score of 15.3, and the brain's probability of a RISK_OFF regime is 100%.\n\nLOGIC: The high level of fear in the market, as indicated by the F&G index, suggests that investors are highly risk-averse and expecting a potential crisis -> This contradicts the brain's probability of a RISK_OFF regime, which implies a low-risk environment -> The discrepancy between the market's fear level and the ",
+      "id": "d6c059c7d6be",
+      "timestamp": "2026-04-03T05:52:55.034602",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "The brain's probability of a RISK_OFF regime is 100%, indicating a perceived low-risk environment, yet the F&G index shows an \"extreme fear\" rating with a score of 15.3."
+      ],
+      "logic": [
+        "The discrepancy between the brain's regime probability and the market's fear level suggests a potential mismatch between perceived risk and actual market sentiment -> This could imply that the market is due for a correction as investors are highly risk-averse despite the brain's low-risk assessment -> The contradiction may lead to significant market movements as perceptions align with reality."
+      ],
+      "counters": [
+        "The argument against this conclusion is that the brain's assessment might be correct, and the market's fear is overblown, potentially leading to a decrease in volatility as the market corrects its overreaction."
+      ],
+      "conclusions": [
+        "The market's fear level and the brain's risk assessment are not aligned, suggesting potential for significant market movement."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "To provide a comprehensive analysis, I'll focus on the key points from the provided data, applying the required format for each analytical point.\n\n### 1. Market Sentiment and Risk\nOBSERVE: The brain's probability of a RISK_OFF regime is 100%, indicating a perceived low-risk environment, yet the F&G index shows an \"extreme fear\" rating with a score of 15.3.\n\nLOGIC: The discrepancy between the brain's regime probability and the market's fear level suggests a potential mismatch between perceived ri",
+      "id": "8796e0718863",
+      "timestamp": "2026-04-03T05:52:55.034776",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "News reports indicate economic uncertainty, with the Iran war driving up wholesale diesel prices and credit investors fleeing to safety."
+      ],
+      "logic": [
+        "The economic indicators, such as the increase in diesel prices and the flight to safety, suggest that the current economic environment is volatile and sensitive to geopolitical events -> This volatility could increase the importance of protective legislation like the WARN Act -> The economic uncertainty implies that investors and consumers are seeking stability and security."
+      ],
+      "counters": [
+        "The argument against this conclusion is that the economic indicators might not accurately reflect the overall economic health, and the volatility could be short-term."
+      ],
+      "conclusions": [
+        "The current economic environment is volatile, with indicators suggesting a need for protective measures."
+      ],
+      "dependencies": [
+        "The resolution of the discrepancy between the market's fear level and the brain's risk assessment."
+      ],
+      "falsifications": [
+        "If the market's fear level decreases without a significant correction, indicating that the brain's risk assessment was accurate."
+      ],
+      "assets": [],
+      "raw_excerpt": "To provide a comprehensive analysis, I'll focus on the key points from the provided data, applying the required format for each analytical point.\n\n### 1. Market Sentiment and Risk\nOBSERVE: The brain's probability of a RISK_OFF regime is 100%, indicating a perceived low-risk environment, yet the F&G index shows an \"extreme fear\" rating with a score of 15.3.\n\nLOGIC: The discrepancy between the brain's regime probability and the market's fear level suggests a potential mismatch between perceived ri",
+      "id": "d41a062d9145",
+      "timestamp": "2026-04-03T05:52:55.034776",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "credit_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "Agents 1-3 are analyzing the WARN Act, market conditions, and news reports to understand the current market sentiment and potential trends."
+      ],
+      "logic": [
+        "The agents' focus on the WARN Act and market conditions suggests that they are attempting to understand the implications of economic uncertainty on market trends -> This analysis could help identify potential investment opportunities or risks -> The agents' behavior implies a search for undervalued assets or overvalued risks in the current market environment."
+      ],
+      "counters": [
+        "The argument against this conclusion is that the agents' analysis might be overly focused on specific factors, potentially missing broader market trends."
+      ],
+      "conclusions": [
+        "The agents are seeking to understand the market implications of economic uncertainty."
+      ],
+      "dependencies": [
+        "The duration and impact of the current geopolitical events on the economy."
+      ],
+      "falsifications": [
+        "If the economic indicators stabilize quickly without significant long-term impact, indicating that the volatility was transient."
+      ],
+      "assets": [],
+      "raw_excerpt": "To provide a comprehensive analysis, I'll focus on the key points from the provided data, applying the required format for each analytical point.\n\n### 1. Market Sentiment and Risk\nOBSERVE: The brain's probability of a RISK_OFF regime is 100%, indicating a perceived low-risk environment, yet the F&G index shows an \"extreme fear\" rating with a score of 15.3.\n\nLOGIC: The discrepancy between the brain's regime probability and the market's fear level suggests a potential mismatch between perceived ri",
+      "id": "d72099586d44",
+      "timestamp": "2026-04-03T05:52:55.034776",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "sentiment_contrarian"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "3715521302e2",
+      "timestamp": "2026-04-03T05:52:55.034949",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "Regime=RISK_OFF (100%)"
+      ],
+      "logic": [
+        "A 100% risk-off regime implies an extremely cautious or pessimistic outlook, which may lead to overly conservative decision-making -> This could result in missed opportunities for growth or failing to adapt to changing circumstances -> The regime's inflexibility may ultimately harm its overall performance."
+      ],
+      "counters": [
+        "The risk-off regime may be a prudent response to high levels of uncertainty or volatility, allowing for preservation of capital and reduction of potential losses."
+      ],
+      "conclusions": [
+        "The 100% risk-off regime is likely too rigid and may lead to suboptimal outcomes."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: Regime=RISK_OFF (100%)\nLOGIC: A 100% risk-off regime implies an extremely cautious or pessimistic outlook, which may lead to overly conservative decision-making -> This could result in missed opportunities for growth or failing to adapt to changing circumstances -> The regime's inflexibility may ultimately harm its overall performance.\nCOUNTER: The risk-off regime may be a prudent response to high levels of uncertainty or volatility, allowing for preservation of capital and reduction of",
+      "id": "16b4138754e1",
+      "timestamp": "2026-04-03T05:52:55.035007",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "Brier: None | Patterns: 0"
+      ],
+      "logic": [
+        "The absence of Brier scores and patterns suggests a lack of predictive modeling or evaluation -> This may indicate that the regime is not using data-driven approaches to inform its decisions -> The regime's decision-making process may be based on intuition, anecdotal evidence, or incomplete information."
+      ],
+      "counters": [
+        "The regime may be using alternative evaluation metrics or modeling approaches that are not reflected in the provided data."
+      ],
+      "conclusions": [
+        "The lack of Brier scores and patterns is a significant weakness, implying a potential lack of rigor in the regime's decision-making process."
+      ],
+      "dependencies": [
+        "The presence of a specific, credible threat or market condition that would justify an extreme risk-off stance (e.g., a global economic downturn or major geopolitical crisis)."
+      ],
+      "falsifications": [
+        "The regime is able to adapt and adjust its risk tolerance in response to changing market conditions, demonstrating flexibility and a willingness to reassess its stance."
+      ],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: Regime=RISK_OFF (100%)\nLOGIC: A 100% risk-off regime implies an extremely cautious or pessimistic outlook, which may lead to overly conservative decision-making -> This could result in missed opportunities for growth or failing to adapt to changing circumstances -> The regime's inflexibility may ultimately harm its overall performance.\nCOUNTER: The risk-off regime may be a prudent response to high levels of uncertainty or volatility, allowing for preservation of capital and reduction of",
+      "id": "a94f8859ccc9",
+      "timestamp": "2026-04-03T05:52:55.035007",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_OFF",
+      "reasoning_type": "pattern_match"
     }
   ],
   "pattern_quality": {},
