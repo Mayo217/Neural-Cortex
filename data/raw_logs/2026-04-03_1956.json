@@ -1,0 +1,511 @@
+{
+  "timestamp": "2026-04-03 19:56",
+  "regime": {
+    "regime": "TRANSITION",
+    "confidence": 0.667,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.333,
+      "TRANSITION": 0.667,
+      "RISK_ON": 0.0,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 23.9 18-25: uncertain",
+      "4 correlation breaks: regime shift signal"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$41.73B|NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC|None|IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL TECHNOLOGY&ENGINEERI",
+      "$40.81B|UT-BATTELLE LLC|None|MANAGEMENT AND OPERATION OF THE OAK RIDGE NATIONAL LABORATORY",
+      "$40.78B|LAWRENCE LIVERMORE NATIONAL SECURITY, LLC|None|TAS::89 0240::TAS THIS PERFORMANCE-BASED MANAGEMENT CONTRACT (PBMC) IS FOR THE M",
+      "$34.60B|TRIAD NATIONAL SECURITY, LLC|None|IGF::CL::IGF COMPETITION FOR MANAGEMENT AND OPERATION OF LOS ALAMOS NATIONAL LAB",
+      "$33.75B|CONSOLIDATED NUCLEAR SECURITY, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATING CONTRACT FOR Y-12 NATIONAL SECURITY COM",
+      "$30.17B|BATTELLE MEMORIAL INSTITUTE|None|BATTELLE MEMORIAL INSTITUTE/PACIFIC NORTHWEST               LABORATORY OPERATING",
+      "$26.35B|SAVANNAH RIVER NUCLEAR SOLUTIONS LLC|None|MANAGEMENT AND OPERATING CONTRACT FOR THE SAVANNAH RIVER SITE.",
+      "$25.19B|BATTELLE ENERGY ALLIANCE, LLC|None|MANAGEMENT AND OPERATIONS OF THE INL",
+      "$17.27B|HONEYWELL FEDERAL MANUFACTURING & TECHNOLOGIES, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATION OF THE NATIONAL SECURITY CAMPUS -- CONT",
+      "$14.77B|FLUOR MARINE PROPULSION, LLC|None|MANAGEMENT AND OPERATION OF THE NAVAL NUCLEAR LABORATORY AND NAVAL NUCLEAR PROPU",
+      "$14.54B|THE LELAND STANFORD JUNIOR UNIVERSITY|None|OPERATION AND MAINTENANCE                                   LINEAR ACCELLERATOR",
+      "$10.64B|ALLIANCE FOR ENERGY INNOVATION, LLC|None|AWARD OF CONTRACT TO MANAGE AND OPERATE THE NATIONAL RENEWABLE ENERGY LABORATORY",
+      "$10.46B|THE BOEING COMPANY|None|PROVIDE DEVELOPMENTAL HARDWARE AND TEST ARTICLES, AND MANUFACTURE AND ASSEMBLE A",
+      "$7.51B|MISSION SUPPORT & TEST SERVICES LLC|None|IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003624 TO THE MISSION SUPPORT AND TEST SERV",
+      "$3.29B|JEFFERSON SCIENCE ASSOCIATES, LLC|None|TAS::89 0222::TAS MANAGEMENT AND OPERATION OF THE THOMAS JEFFERSON NATIONAL ACCE"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[FED] Miran, Prospects for Shrinking the Fed\u2019s Balance Sheet",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments",
+      "[ECB] Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 February 2026"
+    ],
+    "policy": [
+      "[Rule] Implementing First Responders Passport Act To Exempt Certain First Responders From Passport Fees",
+      "[Rule] Amendment of Class D and Class E2 Airspace Over Binghamton, NY",
+      "[Rule] Airworthiness Directives; DG Aviation GmbH (Type Certificate Previously Held by DG Flugzeugbau GmbH) Gliders",
+      "[Rule] Airworthiness Directives; Costruzioni Aeronautiche Tecnam S.P.A. Airplanes"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "02-Apr-2026",
+        "buyValue": "18421.27",
+        "sellValue": "11212.86",
+        "netValue": "7208.41"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "02-Apr-2026",
+        "buyValue": "10626.52",
+        "sellValue": "20557.65",
+        "netValue": "-9931.13"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.67,
+        "chg": 0.09,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.69,
+        "chg": 0.11,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 0.55,
+        "chg": 0.69,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.7,
+        "chg": -1.92,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.71,
+        "chg": 0.61,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 0.73,
+        "chg": 0.24,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 0.49,
+        "chg": 0.42,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 0.63,
+        "chg": -1.12,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 0.47,
+        "chg": -0.77,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 0.88,
+        "chg": 0.47,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 0.75,
+        "chg": 0.32,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 0.67,
+        "chg": -1.48,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.64,
+        "chg": 0.18,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 0.59,
+        "chg": 0.5,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": -2.753,
+        "b_chg": 0.112,
+        "same": false,
+        "div": 2.865,
+        "interp": "Gold/Equity",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": 0.239,
+        "b_chg": 0.112,
+        "same": true,
+        "div": 0.127,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": -1.085,
+        "b_chg": 0.112,
+        "same": false,
+        "div": 1.197,
+        "interp": "Dr Copper/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": 0.191,
+        "b_chg": -2.753,
+        "same": false,
+        "div": 2.944,
+        "interp": "Dollar/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": -2.73,
+        "b_chg": 0.112,
+        "same": false,
+        "div": 2.842,
+        "interp": "Vol/Equity",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": 11.406,
+        "b_chg": 0.02,
+        "same": true,
+        "div": 11.386,
+        "interp": "Oil/INR",
+        "flag": "normal"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": -0.139,
+        "b_chg": -2.753,
+        "same": true,
+        "div": 2.614,
+        "interp": "Rates/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": -0.021,
+        "b_chg": 0.175,
+        "same": false,
+        "div": 0.196,
+        "interp": "Crypto/Tech",
+        "flag": "normal"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": 0.614,
+        "b_chg": 0.112,
+        "same": true,
+        "div": 0.502,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": -1.085,
+        "b_chg": 11.406,
+        "same": false,
+        "div": 12.491,
+        "interp": "Copper/Oil",
+        "flag": "DIVERGENCE"
+      }
+    ],
+    "anomalies": [
+      "F&G 19.3: EXTREME FEAR",
+      "BREAK GOLD/SP500: A-2.75% B+0.11%",
+      "BREAK DXY/GOLD: A+0.19% B-2.75%",
+      "BREAK VIX/SP500: A-2.73% B+0.11%",
+      "BREAK COPPER/OIL_WTI: A-1.08% B+11.41%"
+    ]
+  },
+  "tier4": {
+    "news_len": 10248,
+    "gdelt_len": 74
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 19.3,
+      "rating": "extreme fear",
+      "prev_week": 14.5,
+      "prev_month": 31.6
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": null,
+    "patterns": 0
+  },
+  "agents": {
+    "upstream": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before mass layoffs or plant closures, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to provide notice to employees in the event of mass layoffs or plant closures -> The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest that employers should be prepared to provide notice to employees -> This implies that employers should be aware of the WARN Act's requirements and be prepared to comply with them.\n\nCOUNTER: The Synthesizer's output is vulnerable to errors and inaccuracies due to the high complexity of the data and the lack of evaluative metrics and patterns, which could lead to incorrect conclusions about the importance of the WARN Act's provisions.\n\nCONCLUDE: Despite the potential for errors and inaccuracies, I conclude that the WARN Act's provisions are likely to be important in a crisis regime, and employers should be prepared to comply with them.\n\nDEPENDS ON: The single data point that would change my mind is if the brain's crisis regime probability were to decrease significantly, indicating a lower likelihood of mass layoffs or plant closures.\n\nWRONG IF: If the WARN Act's provisions were to be repealed or significantly modified, rendering them less relevant in a crisis regime, then my conclusion would be incorrect.",
+    "flow": "OBSERVE: The brain's crisis regime probability is 67%, and the current market conditions indicate a high probability of a crisis regime, with the F&G index and other market indicators suggesting volatility and potential instability.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to provide notice to employees in the event of mass layoffs or plant closures -> The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest that employers should be prepared to provide notice to employees -> This implies that employers should be aware of the WARN Act's requirements and be prepared to comply with them, which could help mitigate the impact of a crisis regime on employees and the broader economy.\n\nCOUNTER: The lack of clear validation signals and the high complexity of the data could lead to errors and inaccuracies in the analysis, and the Synthesizer's output may not accurately reflect the importance of the WARN Act's provisions in a crisis regime.\n\nCONCLUDE: Despite the potential for errors and inaccuracies, I conclude that the WARN Act's provisions are likely to be important in a crisis regime, and employers should be prepared to comply with them, given the current market conditions and the brain's crisis regime probability.\n\nDEPENDS ON: The single data point that would change my mind is if the brain's crisis regime probability were to decrease significantly, indicating a lower likelihood of mass layoffs or plant closures, which would suggest that the WARN Act's provisions may be less relevant.\n\nWRONG IF: If the WARN Act's provisions were to be repealed or significantly modified, rendering them less relevant in a crisis regime, or if the current market conditions were to improve significantly, reducing the likelihood of a crisis regime, the conclusion that the WARN Act's provisions are important in a crisis regime would be incorrect.",
+    "market": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%.\n\nLOGIC: The combination of extreme fear in the market and a high crisis regime probability suggests that investors are highly risk-averse and expecting a potential downturn -> This could lead to a decrease in stock prices and an increase in safe-haven assets such as bonds and gold -> However, the current breakdown in correlations between gold and the S&P 500, as well as between the US dollar and gold, suggests that traditional safe-haven assets may not be behaving as expected.\n\nCOUNTER: The breakdown in correlations could be a temporary phenomenon, and traditional safe-haven assets may still provide a hedge against market downturns.\n\nCONCLUDE: The current market conditions suggest a high level of uncertainty and risk, and investors should be prepared for potential volatility and downturns. However, the breakdown in correlations between traditional safe-haven assets and the S&P 500 suggests that investors should be cautious and not rely solely on these assets for hedging.\n\nDEPENDS ON: The next significant move in the S&P 500 index, which could either confirm or invalidate the current crisis regime probability.\n\nWRONG IF: The S&P 500 index experiences a sharp rally, contradicting the current extreme fear sentiment and crisis regime probability, and traditional safe-haven assets such as gold and bonds begin to behave as expected, providing a hedge against market downturns.",
+    "narrative": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%. The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to provide notice to employees in the event of mass layoffs or plant closures.\n\nLOGIC: The combination of extreme fear in the market and a high crisis regime probability suggests that investors are highly risk-averse and expecting a potential downturn -> This could lead to a decrease in stock prices and an increase in safe-haven assets such as bonds and gold -> However, the current breakdown in correlations between gold and the S&P 500, as well as between the US dollar and gold, suggests that traditional safe-haven assets may not provide the expected protection.\n\nCOUNTER: The current market conditions may be overreacting to the crisis regime probability, and the WARN Act's provisions may not be as relevant in the current economic environment. Additionally, the lack of clear validation signals from the brain's crisis regime probability and the F&G index may indicate that the market is not as bearish as it seems.\n\nCONCLUDE: Based on the current market conditions and the brain's crisis regime probability, it appears that the market is expecting a potential downturn and is pricing in a high level of risk. However, the breakdown in correlations between traditional safe-haven assets suggests that the market may be due for a correction.\n\nDEPENDS ON: The next significant data point that would change my mind is the upcoming Fed Chair Powell speech, which could provide clarity on the Federal Reserve's monetary policy stance and potentially impact the market's expectations of a crisis regime.\n\nWRONG IF: If the Fed Chair Powell speech indicates a more dovish stance than expected, and the market reacts positively to the news, it would suggest that the crisis regime probability is overestimated,",
+    "synthesis": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the various agents, I side with the **UPSTREAM** agent. The UPSTREAM agent highlights the importance of the WARN Act in a crisis regime, which is consistent with the current market conditions and the brain's crisis regime probability. The other agents, such as FLOW, MARKET, and NARRATIVE, also support this conclusion, albeit with some caveats and counterarguments.\n\n**THESIS**\n\nTHESIS: Crisis Regime Probability\nCHAIN: High crisis regime probability -> Increased importance of WARN Act -> Potential mass layoffs and plant closures -> Economic instability\nCONFIDENCE: 80\nKILL IF: Brain's crisis regime probability decreases significantly\nTIMEFRAME: 30 days\nASSET: VIX (Volatility Index)\n\n**INDIA INTELLIGENCE**\n\nThe Indian market, as represented by the NIFTY50, is also experiencing a high level of uncertainty and risk. The FII/DII read suggests that foreign investors are becoming increasingly cautious, while domestic investors are trying to capitalize on the volatility. The RBI's monetary policy stance will be crucial in determining the direction of the market. Risks include a potential crisis regime, while opportunities exist in the form of undervalued stocks and sectors.\n\n**THE UNCOMFORTABLE TRUTH**\n\nThe current market conditions are characterized by extreme fear and uncertainty, with a high probability of a crisis regime. The breakdown in correlations between traditional safe-haven assets, such as gold and bonds, and the S&P 500 suggests that investors are becoming increasingly risk-averse and seeking alternative assets to hedge against potential downturns. However, this also creates opportunities for investors who are willing to take on more risk and capitalize on the volatility.\n\n**WHAT TO WATCH**\n\n1. IF the Fed Chair Powell speech indicates a more dovish stance, THEN the market may react positively, and the crisis regime probability may decrease.\n2. IF the S&P 500 index experiences a sharp rally, THEN the cur",
+    "adversary": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%.\n\nLOGIC: The combination of extreme fear in the market and a high crisis regime probability suggests that investors are highly risk-averse and expecting a potential downturn -> This could lead to a decrease in stock prices and an increase in safe-haven assets such as bonds and gold -> However, the current breakdown in correlations between gold and the S&P 500, as well as between the US dollar and gold, suggests that traditional safe-haven assets may not provide the expected protection, and the WARN Act's provisions may not be as relevant in the current economic environment as the UPSTREAM agent suggests.\n\nCOUNTER: The UPSTREAM agent's emphasis on the WARN Act's importance in a crisis regime may be overstated, as the current market conditions may be overreacting to the crisis regime probability, and other factors such as the Fed Chair Powell's speech or the S&P 500 index's performance may have a more significant impact on the market.\n\nCONCLUDE: I conclude that the WEAKEST THESIS is the UPSTREAM agent's emphasis on the WARN Act's importance in a crisis regime, as it relies heavily on the brain's crisis regime probability and may not account for other factors that could influence the market.\n\nDEPENDS ON: The single data point that would change my mind is if the brain's crisis regime probability were to decrease significantly, indicating a lower likelihood of mass layoffs or plant closures, which would reduce the importance of the WARN Act's provisions.\n\nWRONG IF: If the Fed Chair Powell's speech were to indicate a more dovish stance, and the market were to react positively, reducing the crisis regime probability, then the UPSTREAM agent's thesis would be incorrect, and the WARN Act's provisions may not be as relevant in the current economic environment.\n\nBIGGEST BLIND SPOT: The biggest blind sp"
+  },
+  "reasoning": {
+    "chains": 6,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-03T19:56:08.588392"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-03T19:56:09.377426"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-03T19:56:30.184656"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-03T19:56:30.604974"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-03T19:56:30.845050"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-03T19:56:31.152617"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-03T19:56:31.485206"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-03T19:56:31.867754"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-03T19:56:32.233258"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-03T19:56:32.556794"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-03T19:56:32.932502"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-03T19:56:33.308496"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-03T19:56:33.644989"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-03T19:56:33.994308"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-03T19:56:34.195394"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-03T19:56:35.206970"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-03T19:56:35.371240"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-03T19:56:36.176637"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-03T19:56:37.804204"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-03T19:56:38.140606"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-03T19:56:48.346871"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-03T19:56:49.141797"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-03T19:56:49.990986"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-03T19:56:50.697367"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-03T19:56:53.510097"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-03T19:56:53.510838"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-03T19:56:53.706896"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-03T19:56:55.120673"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-03T19:56:55.602935"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-03T19:56:56.949846"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-03T19:56:57.376788"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-03T19:56:57.549617"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-03T19:56:58.673464"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-03T19:57:02.052420"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-03T19:57:02.052440"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-03T19:57:18.543636"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-03T19:57:18.853371"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-03T19:57:23.456928"
+    },
+    "GDELT": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-03T19:57:39.306366"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-03T19:57:39.737745"
+    }
+  }
+}
