@@ -1,5 +1,30 @@
 {
-  "agents": {},
+  "agents": {
+    "market": {
+      "total": 1,
+      "correct": 0,
+      "by_regime": {
+        "TRANSITION": {
+          "total": 1,
+          "correct": 0
+        }
+      },
+      "by_type": {
+        "vol_signal": {
+          "total": 1,
+          "correct": 0
+        }
+      },
+      "recent": [
+        {
+          "ts": "2026-04-03T07:57:29.046009",
+          "correct": false,
+          "regime": "TRANSITION",
+          "type": "vol_signal"
+        }
+      ]
+    }
+  },
   "disagreements": [],
   "meta_patterns": []
 }
