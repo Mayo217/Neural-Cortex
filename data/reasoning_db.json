@@ -2975,6 +2975,150 @@
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "credit_signal"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime."
+      ],
+      "logic": [
+        "The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> The market may react to these notices by becoming more volatile."
+      ],
+      "counters": [
+        "The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, may not necessarily lead to a higher number of WARN Act notices being filed, as employers may be able to adapt to the changing market conditions without resorting to mass layoffs or plant closures."
+      ],
+      "conclusions": [
+        "Despite the counterargument, I conclude that the WARN Act's provisions are likely to take on increased importance in a crisis regime, and the market may react to WARN Act notices by becoming more volatile."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> The market may react to these notices by becoming m",
+      "id": "c07346e0913b",
+      "timestamp": "2026-04-04T19:57:26.303482",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The brain's crisis regime probability is 67%, and the market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, and GOLD all showing similar patterns of uncertainty."
+      ],
+      "logic": [
+        "The high probability of a crisis regime, combined with the similar patterns in the SP500, NIFTY50, and GOLD, suggests that the market is highly volatile and uncertain -> This uncertainty could lead to a higher number of WARN Act notices being filed, as employers may be more likely to undergo mass layoffs or plant closures -> The market may react to these notices by becoming even more volatile."
+      ],
+      "counters": [
+        "The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, may not necessarily lead to a higher number of WARN Act notices being filed, as employers may be able to adapt to the changing market conditions without resorting to mass layoffs or plant closures. Additionally, the [ETF] data shows that most ETFs have a \"NEUTRAL\" signal, which may indicate that the market is not yet reacting strongly to the potential crisis regime."
+      ],
+      "conclusions": [
+        "Despite the counterargument, I conclude that the high probability of a crisis regime, combined with the similar patterns in the SP500, NIFTY50, and GOLD, suggests that the market is highly volatile and uncertain, and the WARN Act's provisions are likely to take on increased importance in this regime."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, and the market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, and GOLD all showing similar patterns of uncertainty.\n\nLOGIC: The high probability of a crisis regime, combined with the similar patterns in the SP500, NIFTY50, and GOLD, suggests that the market is highly volatile and uncertain -> This uncertainty could lead to a higher number of WARN Act notices being filed, as employers may be more likely to",
+      "id": "494d0880a90a",
+      "timestamp": "2026-04-04T19:57:26.303568",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "pattern_match"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%. The SP500, NIFTY50, and GOLD are all showing similar patterns of uncertainty, with the GOLD/SP500 correlation breaking down."
+      ],
+      "logic": [
+        "The high probability of a crisis regime, combined with the breakdown in the GOLD/SP500 correlation, suggests that the market is highly volatile and uncertain -> This uncertainty could lead to a higher number of WARN Act notices being filed, as employers may be more likely to undergo mass layoffs or plant closures -> The market may react to these notices by becoming even more volatile."
+      ],
+      "counters": [
+        "The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, may not necessarily lead to a higher number of WARN Act notices being filed, as employers may be able to adapt to the changing market conditions without resorting to mass layoffs or plant closures."
+      ],
+      "conclusions": [
+        "The market is likely to remain highly volatile, with a high probability of a crisis regime. The breakdown in the GOLD/SP500 correlation and the \"extreme fear\" reading on the F&G index suggest that investors are becoming increasingly risk-averse, which could lead to further market declines."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%. The SP500, NIFTY50, and GOLD are all showing similar patterns of uncertainty, with the GOLD/SP500 correlation breaking down.\n\nLOGIC: The high probability of a crisis regime, combined with the breakdown in the GOLD/SP500 correlation, suggests that the market is highly volatile and uncertain -> This uncertainty could lead",
+      "id": "4f337f1de072",
+      "timestamp": "2026-04-04T19:57:26.303618",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "28fa8bf31fc7",
+      "timestamp": "2026-04-04T19:57:26.303876",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "32085e8fe134",
+      "timestamp": "2026-04-04T19:57:26.303910",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "e01c91af8853",
+      "timestamp": "2026-04-04T19:57:26.303930",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
     }
   ],
   "pattern_quality": {
