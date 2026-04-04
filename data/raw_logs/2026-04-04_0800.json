@@ -1,0 +1,512 @@
+{
+  "timestamp": "2026-04-04 08:00",
+  "regime": {
+    "regime": "TRANSITION",
+    "confidence": 0.667,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.333,
+      "TRANSITION": 0.667,
+      "RISK_ON": 0.0,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 23.9 18-25: uncertain",
+      "5 correlation breaks: regime shift signal"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$41.73B|NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC|None|IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003525 TO THE NATIONAL TECHNOLOGY&ENGINEERI",
+      "$40.78B|LAWRENCE LIVERMORE NATIONAL SECURITY, LLC|None|TAS::89 0240::TAS THIS PERFORMANCE-BASED MANAGEMENT CONTRACT (PBMC) IS FOR THE M",
+      "$34.60B|TRIAD NATIONAL SECURITY, LLC|None|IGF::CL::IGF COMPETITION FOR MANAGEMENT AND OPERATION OF LOS ALAMOS NATIONAL LAB",
+      "$33.75B|CONSOLIDATED NUCLEAR SECURITY, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATING CONTRACT FOR Y-12 NATIONAL SECURITY COM",
+      "$26.35B|SAVANNAH RIVER NUCLEAR SOLUTIONS LLC|None|MANAGEMENT AND OPERATING CONTRACT FOR THE SAVANNAH RIVER SITE.",
+      "$17.27B|HONEYWELL FEDERAL MANUFACTURING & TECHNOLOGIES, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATION OF THE NATIONAL SECURITY CAMPUS -- CONT",
+      "$14.77B|FLUOR MARINE PROPULSION, LLC|None|MANAGEMENT AND OPERATION OF THE NAVAL NUCLEAR LABORATORY AND NAVAL NUCLEAR PROPU",
+      "$14.54B|THE LELAND STANFORD JUNIOR UNIVERSITY|None|OPERATION AND MAINTENANCE                                   LINEAR ACCELLERATOR",
+      "$10.46B|THE BOEING COMPANY|None|PROVIDE DEVELOPMENTAL HARDWARE AND TEST ARTICLES, AND MANUFACTURE AND ASSEMBLE A",
+      "$7.51B|MISSION SUPPORT & TEST SERVICES LLC|None|IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003624 TO THE MISSION SUPPORT AND TEST SERV",
+      "$3.29B|JEFFERSON SCIENCE ASSOCIATES, LLC|None|TAS::89 0222::TAS MANAGEMENT AND OPERATION OF THE THOMAS JEFFERSON NATIONAL ACCE",
+      "$3.21B|AEROJET ROCKETDYNE OF DE, INC|None|IGF::CT::IGF  RS-25 PRODUCTION RESTART TO BE UNDERTAKEN BY THE CONTRACTOR IN SUP",
+      "$3.17B|PANTEXAS DETERRENCE, LLC|None|CONTRACT 89233224CNA000004 FOR THE MANAGEMENT AND OPERATION OF THE PANTEX PLANT",
+      "$2.38B|THE BOEING COMPANY|None|SPACE LAUNCH SYSTEM (SLS) STAGES PRODUCTION AND EVOLUTION CONTRACT (SPEC)",
+      "$2.12B|SAVANNAH RIVER MISSION COMPLETION, LLC|None|THIS AWARD IS FOR THE SAVANNAH RIVER INTEGRATED MISSION COMPLETION CONTRACT - TA"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[FED] Miran, Prospects for Shrinking the Fed\u2019s Balance Sheet",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments",
+      "[ECB] Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 February 2026"
+    ],
+    "policy": [
+      "[Rule] Implementing First Responders Passport Act To Exempt Certain First Responders From Passport Fees",
+      "[Rule] Amendment of Class D and Class E2 Airspace Over Binghamton, NY",
+      "[Rule] Airworthiness Directives; DG Aviation GmbH (Type Certificate Previously Held by DG Flugzeugbau GmbH) Gliders",
+      "[Rule] Airworthiness Directives; Costruzioni Aeronautiche Tecnam S.P.A. Airplanes"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "02-Apr-2026",
+        "buyValue": "18421.27",
+        "sellValue": "11212.86",
+        "netValue": "7208.41"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "02-Apr-2026",
+        "buyValue": "10626.52",
+        "sellValue": "20557.65",
+        "netValue": "-9931.13"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.67,
+        "chg": 0.09,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.69,
+        "chg": 0.11,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 0.55,
+        "chg": 0.69,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.7,
+        "chg": -1.92,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.71,
+        "chg": 0.61,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 0.73,
+        "chg": 0.24,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 0.49,
+        "chg": 0.42,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 0.63,
+        "chg": -1.12,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 0.47,
+        "chg": -0.77,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 0.88,
+        "chg": 0.47,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 0.75,
+        "chg": 0.32,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 0.67,
+        "chg": -1.48,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.64,
+        "chg": 0.18,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 0.59,
+        "chg": 0.5,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": -2.753,
+        "b_chg": 0.112,
+        "same": false,
+        "div": 2.865,
+        "interp": "Gold/Equity",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": 0.239,
+        "b_chg": 0.112,
+        "same": true,
+        "div": 0.127,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": -1.085,
+        "b_chg": 0.112,
+        "same": false,
+        "div": 1.197,
+        "interp": "Dr Copper/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": 0.156,
+        "b_chg": -2.753,
+        "same": false,
+        "div": 2.909,
+        "interp": "Dollar/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": -2.73,
+        "b_chg": 0.112,
+        "same": false,
+        "div": 2.842,
+        "interp": "Vol/Equity",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": 11.406,
+        "b_chg": -0.327,
+        "same": false,
+        "div": 11.733,
+        "interp": "Oil/INR",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": -0.139,
+        "b_chg": -2.753,
+        "same": true,
+        "div": 2.614,
+        "interp": "Rates/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": 0.136,
+        "b_chg": 0.175,
+        "same": true,
+        "div": 0.039,
+        "interp": "Crypto/Tech",
+        "flag": "normal"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": 0.614,
+        "b_chg": 0.112,
+        "same": true,
+        "div": 0.502,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": -1.085,
+        "b_chg": 11.406,
+        "same": false,
+        "div": 12.491,
+        "interp": "Copper/Oil",
+        "flag": "DIVERGENCE"
+      }
+    ],
+    "anomalies": [
+      "F&G 19.3: EXTREME FEAR",
+      "BREAK GOLD/SP500: A-2.75% B+0.11%",
+      "BREAK DXY/GOLD: A+0.16% B-2.75%",
+      "BREAK VIX/SP500: A-2.73% B+0.11%",
+      "BREAK OIL_WTI/USDINR: A+11.41% B-0.33%",
+      "BREAK COPPER/OIL_WTI: A-1.08% B+11.41%"
+    ]
+  },
+  "tier4": {
+    "news_len": 10196,
+    "gdelt_len": 17
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 19.3,
+      "rating": "extreme fear",
+      "prev_week": 14.5,
+      "prev_month": 31.6
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": null,
+    "patterns": 0
+  },
+  "agents": {
+    "upstream": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions are highly volatile with a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime -> This could lead to increased scrutiny of employers' compliance with the Act -> Which may result in a higher number of notices being issued, potentially impacting the market.\n\nCOUNTER: The current market volatility may be driven by factors unrelated to the WARN Act, such as global economic trends or geopolitical events, which could reduce the impact of the Act's provisions.\n\nCONCLUDE: The WARN Act's provisions are likely to play a significant role in the current market regime, and employers should be prepared to comply with the Act's requirements to avoid potential penalties and reputational damage.\n\nDEPENDS ON: The actual number of notices issued under the WARN Act in the next quarter would be a key data point to change my mind, as it would indicate the extent to which the Act's provisions are being utilized.\n\nWRONG IF: If the market volatility subsides and the economy enters a period of stable growth, the importance of the WARN Act's provisions may decrease, and the predicted increase in notices may not materialize.",
+    "flow": "OBSERVE: The brain's output indicates a 67% probability of a transition regime, with the SP500 and NIFTY50 showing similar patterns of uncertainty, and the GOLD price also reflecting a similar level of unpredictability.\n\nLOGIC: The brain's probabilities suggest a high degree of uncertainty in the market -> This could be indicative of a transition regime, where the market is adjusting to new information or changing trends -> Which may lead to increased volatility and unpredictability in the short term.\n\nCOUNTER: The lack of clear validation signals and the absence of evaluative metrics, such as the Brier score, make it challenging to assess the accuracy of the brain's probabilities and the overall market analysis.\n\nCONCLUDE: The current market regime appears to be highly uncertain, with a high probability of a transition regime, but the lack of clear validation signals and evaluative metrics limits the confidence in this assessment.\n\nDEPENDS ON: The emergence of clear validation signals, such as a significant change in the SP500 or NIFTY50 trends, or the availability of evaluative metrics, would be crucial in changing my mind and increasing confidence in the market analysis.\n\nWRONG IF: If the market volatility subsides, and the brain's probabilities shift significantly, indicating a more stable regime, the current assessment of a transition regime may be proven incorrect.",
+    "market": "OBSERVE: The current market regime is characterized by high volatility, with a 67% probability of a transition regime, and the F&G index indicating \"extreme fear\" with a score of 19.3.\n\nLOGIC: The combination of high volatility, extreme fear, and a transition regime suggests that the market is highly uncertain and prone to sudden changes -> This could lead to increased correlations between different asset classes, such as gold and equities, and between different markets, such as oil and currencies -> Which may result in a higher likelihood of breakouts and anomalies in these correlations.\n\nCOUNTER: The presence of multiple breaks in correlations, such as GOLD/SP500, DXY/GOLD, VIX/SP500, OIL_WTI/USDINR, and COPPER/OIL_WTI, could be indicative of a market that is already experiencing significant stress and disorder, which may limit the potential for further breakouts and anomalies.\n\nCONCLUDE: The current market regime is highly uncertain and prone to sudden changes, with a high likelihood of breakouts and anomalies in correlations between different asset classes and markets.\n\nDEPENDS ON: The F&G index score, which is currently indicating \"extreme fear\" with a score of 19.3, would need to drop below 10 to suggest a shift towards a more stable market regime.\n\nWRONG IF: The market experiences a sudden and significant decline in volatility, with the VIX index dropping below 15, which would suggest a shift towards a more stable market regime and contradict the current analysis.",
+    "narrative": "OBSERVE: The current market regime is characterized by high volatility, with a 67% probability of a transition regime, and the F&G index indicating \"extreme fear\" with a score of 19.3. The SP500 and NIFTY50 show similar patterns of uncertainty, and the GOLD price also reflects a similar level of unpredictability.\n\nLOGIC: The combination of high volatility, extreme fear, and a transition regime suggests that the market is highly uncertain and prone to sudden changes -> This could lead to increased correlations between different asset classes, such as gold and equities, and between different markets, such as oil and currencies -> Which may result in a higher likelihood of breakouts and anomalies in these correlations.\n\nCOUNTER: The lack of clear validation signals and the absence of evaluative metrics, such as the Brier score, make it difficult to assess the accuracy of the market predictions and the effectiveness of the synthesizer's output.\n\nCONCLUDE: The market is likely to remain highly volatile, with a high probability of a crisis regime, and the current uncertainty may lead to increased correlations between different asset classes and markets.\n\nDEPENDS ON: The next significant move in the SP500 or NIFTY50, which could provide a clearer indication of the market's direction and potentially validate or invalidate the current predictions.\n\nWRONG IF: The market experiences a sudden and significant downturn, with the SP500 or NIFTY50 dropping by more than 10% in a short period, which would indicate a more severe crisis regime than currently predicted. \n\nOBSERVE: Agents 1-3 are following the herd by focusing on the WARN Act, market volatility, and the potential for a crisis regime, without providing any unique or contrarian perspectives.\n\nLOGIC: The agents' lack of diversity in their perspectives and analyses -> This could lead to a lack of edge in their predictions and a higher likelihood of following the crowd -> Which may result in a lower probability of identifying",
+    "synthesis": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nOBSERVE: Agents 1-3 are following the herd by focusing on the WARN Act, market volatility, and the potential for a crisis regime, without providing any unique or contrarian perspectives.\n\nLOGIC: The agents' lack of diversity in their perspectives and analyses -> This could lead to a lack of edge in their predictions and a higher likelihood of following the crowd -> Which may result in a lower probability of identifying potential breakouts or anomalies in the market.\n\nCOUNTER: The agents may be correct in their assessments, and the market may indeed be heading towards a crisis regime, but their lack of diversity in perspectives and analyses makes it difficult to assess the accuracy of their predictions.\n\nCONCLUDE: I side with the agent that recognizes the importance of unique and contrarian perspectives in market analysis, as this approach can provide a more accurate and nuanced understanding of the market.\n\nDEPENDS ON: The introduction of new and unique perspectives or analyses from the agents, which could provide a clearer indication of their ability to think outside the box and identify potential breakouts or anomalies in the market.\n\nWRONG IF: One of the agents provides a unique and contrarian perspective that challenges the current market consensus, which would indicate that they are not simply following the herd.\n\n**GENERATE THESES**\n\nTHESIS: Market Volatility and Crisis Regime\nCHAIN: High market volatility -> Increased correlations between asset classes -> Higher likelihood of breakouts and anomalies -> Potential for a crisis regime\nCONFIDENCE: 80\nKILL IF: Market volatility subsides, and the VIX index drops below 15\nTIMEFRAME: 30 days\nASSET: VIX\n\nTHESIS: WARN Act and Employer Compliance\nCHAIN: Increased importance of WARN Act provisions -> Higher number of notices issued -> Potential penalties and reputational damage for non-compliant employers -> Increased scrutiny of employer compliance\nCONFIDENCE: 70\nKILL IF: The",
+    "adversary": "**DESTROY THE SYNTHESIZER'S OUTPUT**\n\nOBSERVE: The synthesizer's output is heavily reliant on the WARN Act and market volatility, with a lack of diversity in perspectives and analyses.\n\nLOGIC: The synthesizer's narrow focus on the WARN Act and market volatility -> This could lead to a lack of edge in its predictions and a higher likelihood of following the crowd -> Which may result in a lower probability of identifying potential breakouts or anomalies in the market.\n\nCOUNTER: The synthesizer may be correct in its assessments, and the market may indeed be heading towards a crisis regime, but its lack of diversity in perspectives and analyses makes it difficult to assess the accuracy of its predictions.\n\nCONCLUDE: I conclude that the synthesizer's output is vulnerable to destruction due to its narrow focus and lack of diversity in perspectives and analyses.\n\nDEPENDS ON: The introduction of new and unique perspectives or analyses that challenge the current market consensus, which could provide a clearer indication of the synthesizer's ability to think outside the box and identify potential breakouts or anomalies in the market.\n\nWRONG IF: The synthesizer provides a unique and contrarian perspective that challenges the current market consensus, which would indicate that it is not simply following the herd.\n\n**WEAKEST THESIS**\n\nThe weakest thesis is the \"WARN Act and Employer Compliance\" thesis, with a confidence level of 70. This thesis is vulnerable to destruction because it is based on a narrow focus on the WARN Act and employer compliance, without considering the broader market trends and factors that may affect the market.\n\nOBSERVE: The WARN Act and employer compliance thesis is based on a limited set of data and analysis.\n\nLOGIC: The limited scope of the WARN Act and employer compliance thesis -> This could lead to a lack of consideration of other factors that may affect the market -> Which may result in a lower probability of identifying potential breakouts or anom"
+  },
+  "reasoning": {
+    "chains": 10,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-04T08:00:34.161585"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-04T08:00:34.771350"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-04T08:00:55.796891"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-04T08:00:56.195309"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-04T08:00:56.310134"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-04T08:00:56.590261"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-04T08:00:56.872259"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-04T08:00:57.154212"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-04T08:00:57.433116"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-04T08:00:57.711694"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-04T08:00:58.016289"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-04T08:00:58.294177"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-04T08:00:58.576398"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-04T08:00:58.854715"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-04T08:00:59.055390"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-04T08:00:59.905700"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-04T08:00:59.971940"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-04T08:01:00.572905"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-04T08:01:02.186954"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-04T08:01:02.434439"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-04T08:01:12.499799"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-04T08:01:13.208074"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-04T08:01:13.986743"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-04T08:01:14.599640"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-04T08:01:15.002647"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-04T08:01:15.003145"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-04T08:01:15.168621"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-04T08:01:16.918635"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-04T08:01:17.374851"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-04T08:01:18.438736"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-04T08:01:18.743063"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-04T08:01:18.856179"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-04T08:01:19.878472"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-04T08:01:22.518029"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-04T08:01:22.518050"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-04T08:01:35.502777"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-04T08:01:35.656670"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-04T08:01:39.088867"
+    },
+    "GDELT": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=14)",
+      "ts": "2026-04-04T08:01:53.174528"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-04T08:01:53.237504"
+    }
+  }
+}
