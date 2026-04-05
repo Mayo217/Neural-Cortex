@@ -3501,6 +3501,420 @@
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "sentiment_contrarian"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The WARN Act requires employers to provide written notice at least 60 days in advance of mass layoffs or plant closures, as stated in California Labor Code, Section 1400."
+      ],
+      "logic": [
+        "The WARN Act's provisions are in place to protect workers' rights and provide them with sufficient notice in case of significant job losses -> This suggests that the Act is crucial for maintaining labor market stability and preventing sudden disruptions -> The implementation of the WARN Act may have a positive impact on the overall economy by reducing the likelihood of mass layoffs and promoting more gradual workforce adjustments."
+      ],
+      "counters": [
+        "One potential argument against the effectiveness of the WARN Act is that it may impose undue burdens on employers, particularly small businesses, by requiring them to provide lengthy notices and potentially hindering their ability to respond quickly to changing market conditions."
+      ],
+      "conclusions": [
+        "Based on the information provided, I conclude that the WARN Act's provisions are likely to have a positive impact on the labor market and the overall economy by promoting more gradual workforce adjustments and protecting workers' rights."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days in advance of mass layoffs or plant closures, as stated in California Labor Code, Section 1400.\nLOGIC: The WARN Act's provisions are in place to protect workers' rights and provide them with sufficient notice in case of significant job losses -> This suggests that the Act is crucial for maintaining labor market stability and preventing sudden disruptions -> The implementation of the WARN Act may have a positive i",
+      "id": "ed2205560681",
+      "timestamp": "2026-04-05T14:08:32.363964",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The brain's probability of the regime being in TRANSITION is 67%, and the market indicators such as SP500, NIFTY50, and GOLD are showing UP (LOW) trends with similar probability distributions."
+      ],
+      "logic": [
+        "The consistency in the probability distributions across different market indicators suggests a potential correlation between the market trends and the regime transition -> This correlation may imply that the market is experiencing a period of instability or adjustment, which could be driven by various economic or geopolitical factors -> The brain's high probability of the regime being in TRANSITION may be a reflection of the market's uncertainty and the need for a clearer direction."
+      ],
+      "counters": [
+        "One potential counterargument is that the similarity in probability distributions across different market indicators could be due to random chance or noise in the data, rather than an actual correlation between the market trends and the regime transition."
+      ],
+      "conclusions": [
+        "Based on the information provided, I conclude that the market is likely experiencing a period of instability or adjustment, and the brain's high probability of the regime being in TRANSITION may be a reflection of the market's uncertainty."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The brain's probability of the regime being in TRANSITION is 67%, and the market indicators such as SP500, NIFTY50, and GOLD are showing UP (LOW) trends with similar probability distributions.\nLOGIC: The consistency in the probability distributions across different market indicators suggests a potential correlation between the market trends and the regime transition -> This correlation may imply that the market is experiencing a period of instability or adjustment, which could be driven",
+      "id": "a0bd2c817265",
+      "timestamp": "2026-04-05T14:08:32.364109",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "divergence_signal"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The ETF data shows that most of the ETFs have a \"NEUTRAL\" signal, with vol_ratio and chg values that are not extreme."
+      ],
+      "logic": [
+        "The lack of extreme values in the ETF data suggests that the market is not experiencing any significant shocks or disruptions -> This could imply that the market is in a state of equilibrium, with buyers and sellers being relatively balanced -> The \"NEUTRAL\" signal from most ETFs may indicate that the market is waiting for a catalyst or a clear direction before making a significant move."
+      ],
+      "counters": [
+        "One potential counterargument is that the \"NEUTRAL\" signal from the ETFs could be a sign of complacency or a lack of conviction among market participants, which could lead to a sudden and significant move in the market."
+      ],
+      "conclusions": [
+        "Based on the information provided, I conclude that the market is likely in a state of equilibrium, with buyers and sellers being relatively balanced, and waiting for a catalyst or a clear direction before making a significant move."
+      ],
+      "dependencies": [
+        "The single data point that would change my mind is if the brain's probability of the regime being in TRANSITION were to drop significantly, indicating a clearer direction in the market."
+      ],
+      "falsifications": [
+        "The conclusion would be proven wrong if the market were to experience a sudden and significant shift in trend, contradicting the brain's probability of the regime being in TRANSITION."
+      ],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The brain's probability of the regime being in TRANSITION is 67%, and the market indicators such as SP500, NIFTY50, and GOLD are showing UP (LOW) trends with similar probability distributions.\nLOGIC: The consistency in the probability distributions across different market indicators suggests a potential correlation between the market trends and the regime transition -> This correlation may imply that the market is experiencing a period of instability or adjustment, which could be driven",
+      "id": "26cf7233cfe0",
+      "timestamp": "2026-04-05T14:08:32.364109",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The FII/DII data shows that the DIIs have a positive net value, while the FIIs have a negative net value."
+      ],
+      "logic": [
+        "The positive net value of the DIIs suggests that domestic investors are bullish on the market, while the negative net value of the FIIs suggests that foreign investors are bearish -> This could imply that there is a divergence in sentiment between domestic and foreign investors, which could lead to a potential imbalance in the market -> The brain's probability of the regime being in TRANSITION may be related to this divergence in sentiment."
+      ],
+      "counters": [
+        "One potential counterargument is that the FII/DII data may not be a reliable indicator of market sentiment, as it only reflects the actions of a specific group of investors."
+      ],
+      "conclusions": [
+        "Based on the information provided, I conclude that there is a potential divergence in sentiment between domestic and foreign investors, which could lead to a potential imbalance in the market."
+      ],
+      "dependencies": [
+        "The single data point that would change my mind is if one or more of the ETFs were to show an extreme value in vol_ratio or chg, indicating a potential shock or disruption in the market."
+      ],
+      "falsifications": [
+        "The conclusion would be proven wrong if the market were to experience a sudden and significant shift in trend, contradicting the \"NEUTRAL\" signal from the ETFs."
+      ],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The brain's probability of the regime being in TRANSITION is 67%, and the market indicators such as SP500, NIFTY50, and GOLD are showing UP (LOW) trends with similar probability distributions.\nLOGIC: The consistency in the probability distributions across different market indicators suggests a potential correlation between the market trends and the regime transition -> This correlation may imply that the market is experiencing a period of instability or adjustment, which could be driven",
+      "id": "fd4821d72355",
+      "timestamp": "2026-04-05T14:08:32.364109",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "flow_signal"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating of 19.3, and the brain's probability of the regime being in TRANSITION is 67%."
+      ],
+      "logic": [
+        "The combination of extreme fear in the market and a high probability of regime transition suggests that investors are highly uncertain and risk-averse, leading to a potential increase in market volatility -> This uncertainty may cause investors to seek safe-haven assets, such as bonds or gold, which could lead to a decrease in stock prices -> The break in the GOLD/SP500 correlation, with gold prices decreasing by 1.68% and the SP500 increasing by 0.11%, may indicate a shift in investor sentiment towards risk-off assets."
+      ],
+      "counters": [
+        "One potential counterargument is that the extreme fear rating may be an overreaction, and the market may be due for a correction, leading to a potential increase in stock prices."
+      ],
+      "conclusions": [
+        "Based on the current market conditions and the brain's probability of regime transition, I conclude that the market is likely to remain highly volatile, with a high probability of a crisis regime."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating of 19.3, and the brain's probability of the regime being in TRANSITION is 67%.\nLOGIC: The combination of extreme fear in the market and a high probability of regime transition suggests that investors are highly uncertain and risk-averse, leading to a potential increase in market volatility -> This uncertainty may cause investors to seek safe-haven assets, such as bonds or gold, which could lead t",
+      "id": "e3ae606276b9",
+      "timestamp": "2026-04-05T14:08:32.364191",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "The majority of the news articles and market indicators suggest a high level of uncertainty and volatility in the market, with the brain's probability of the regime being in TRANSITION at 67%."
+      ],
+      "logic": [
+        "The consistency in the probability distributions across different market indicators, such as SP500, NIFTY50, and GOLD, suggests a potential correlation between the market trends and the regime transition -> This correlation may imply that the market is experiencing a period of instability or adjustment, which could be driven by various economic or geopolitical factors -> The high probability of regime transition may lead to increased market volatility, causing investors to seek safe-haven assets."
+      ],
+      "counters": [
+        "The argument that the market is experiencing a period of instability or adjustment could be countered by the fact that some stocks, such as those mentioned in the ET articles, have shown significant upside potential and growth despite the market volatility."
+      ],
+      "conclusions": [
+        "The market is likely to remain highly volatile, with a high probability of regime transition, and investors should be cautious and consider seeking safe-haven assets."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The majority of the news articles and market indicators suggest a high level of uncertainty and volatility in the market, with the brain's probability of the regime being in TRANSITION at 67%.\nLOGIC: The consistency in the probability distributions across different market indicators, such as SP500, NIFTY50, and GOLD, suggests a potential correlation between the market trends and the regime transition -> This correlation may imply that the market is experiencing a period of instability o",
+      "id": "379c3f45a90b",
+      "timestamp": "2026-04-05T14:08:32.364258",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "Agents 1-3 are following the herd in their analysis, focusing on the WARN Act, market trends, and news reports."
+      ],
+      "logic": [
+        "The agents' analysis suggests that they are relying on the same market indicators and news reports as the brain, which may indicate a lack of edge or unique perspective -> This could lead to a high degree of consensus among the agents, rather than a diverse range of opinions and analysis -> The agents may be missing out on potential opportunities or risks that are not being captured by the brain's analysis."
+      ],
+      "counters": [
+        "The argument that the agents are following the herd could be countered by the fact that they are providing a comprehensive analysis of the market trends and news reports, which could be valuable for investors."
+      ],
+      "conclusions": [
+        "Agents 1-3 are likely following the herd in their analysis, which may limit their ability to provide unique insights or edge."
+      ],
+      "dependencies": [
+        "The outcome of the OPEC-JMMC Meetings on April 5th, which could significantly impact the market trends and volatility."
+      ],
+      "falsifications": [
+        "The market experiences a sudden and unexpected shift towards a stable regime, contradicting the brain's high probability of regime transition."
+      ],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The majority of the news articles and market indicators suggest a high level of uncertainty and volatility in the market, with the brain's probability of the regime being in TRANSITION at 67%.\nLOGIC: The consistency in the probability distributions across different market indicators, such as SP500, NIFTY50, and GOLD, suggests a potential correlation between the market trends and the regime transition -> This correlation may imply that the market is experiencing a period of instability o",
+      "id": "667ae8a06dda",
+      "timestamp": "2026-04-05T14:08:32.364258",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "The GDELT and CALENDAR sections provide additional context and potential catalysts for market movement."
+      ],
+      "logic": [
+        "The GDELT article about Ukraine and the CALENDAR events, such as the OPEC-JMMC Meetings, could potentially impact the market trends and volatility -> These events could be used to inform and refine the analysis of the brain and agents -> The inclusion of these sections highlights the importance of considering a wide range of factors and sources when analyzing the market."
+      ],
+      "counters": [
+        "The argument that the GDELT and CALENDAR sections are valuable could be countered by the fact that they may not be directly relevant to the market trends and analysis."
+      ],
+      "conclusions": [
+        "The GDELT and CALENDAR sections provide valuable context and potential catalysts for market movement, and should be considered in the analysis."
+      ],
+      "dependencies": [
+        "The agents' ability to provide diverse and unique perspectives on the market trends and news reports."
+      ],
+      "falsifications": [
+        "The agents provide a significant and unexpected divergence in their analysis, contradicting the idea that they are following the herd."
+      ],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The majority of the news articles and market indicators suggest a high level of uncertainty and volatility in the market, with the brain's probability of the regime being in TRANSITION at 67%.\nLOGIC: The consistency in the probability distributions across different market indicators, such as SP500, NIFTY50, and GOLD, suggests a potential correlation between the market trends and the regime transition -> This correlation may imply that the market is experiencing a period of instability o",
+      "id": "4bf7a5aacd0e",
+      "timestamp": "2026-04-05T14:08:32.364258",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "Agents 1-3 are following the herd in their analysis, focusing on the WARN Act, market trends, and news reports."
+      ],
+      "logic": [
+        "The agents' analysis suggests that they are relying on the same market indicators and news reports as the brain, which may indicate a lack of edge or unique perspective -> This could lead to a high degree of consensus among the agents, rather than a diverse range of opinions and analysis -> The agents may be missing out on potential opportunities or risks that are not being captured by the brain's analysis."
+      ],
+      "counters": [
+        "The argument that the agents are following the herd could be countered by the fact that they are providing a comprehensive analysis of the market trends and news reports, which could be valuable for investors."
+      ],
+      "conclusions": [
+        "I side with the argument that the agents are following the herd, as their analysis seems to lack diversity and unique perspectives."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "To address the given instructions, I will provide the required information in the specified format.\n\n### 1. RECONCILE contradictions between agents. Name which agent you side with and WHY.\n\nOBSERVE: Agents 1-3 are following the herd in their analysis, focusing on the WARN Act, market trends, and news reports.\nLOGIC: The agents' analysis suggests that they are relying on the same market indicators and news reports as the brain, which may indicate a lack of edge or unique perspective -> This could",
+      "id": "f1e0d7be3ced",
+      "timestamp": "2026-04-05T14:08:32.364511",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "The FII/DII data shows that the DIIs have a positive net value, while the FIIs have a negative net value."
+      ],
+      "logic": [
+        "The positive net value of the DIIs suggests that domestic investors are bullish on the market, while the negative net value of the FIIs suggests that foreign investors are bearish -> This could imply that there is a divergence in sentiment between domestic and foreign investors, which could lead to a potential imbalance in the market -> The brain's probability of the regime being in TRANSITION may be related to this divergence in sentiment."
+      ],
+      "counters": [
+        "The FII/DII data may not be a reliable indicator of market sentiment, as it only reflects the actions of a specific group of investors."
+      ],
+      "conclusions": [
+        "The divergence in sentiment between domestic and foreign investors could lead to a potential imbalance in the market."
+      ],
+      "dependencies": [
+        "The agents' ability to provide diverse and unique perspectives on the market trends and news reports."
+      ],
+      "falsifications": [
+        "The agents provide a significant and unexpected divergence in their analysis, contradicting the idea that they are following the herd.",
+        "The market experiences a sudden and significant shift towards a stable regime, contradicting the brain's high probability of regime transition."
+      ],
+      "assets": [
+        "GOLD"
+      ],
+      "raw_excerpt": "To address the given instructions, I will provide the required information in the specified format.\n\n### 1. RECONCILE contradictions between agents. Name which agent you side with and WHY.\n\nOBSERVE: Agents 1-3 are following the herd in their analysis, focusing on the WARN Act, market trends, and news reports.\nLOGIC: The agents' analysis suggests that they are relying on the same market indicators and news reports as the brain, which may indicate a lack of edge or unique perspective -> This could",
+      "id": "2f24c45812c6",
+      "timestamp": "2026-04-05T14:08:32.364511",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "flow_signal"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "The thesis \"Market Volatility and Regime Transition\" relies on a high probability of regime transition (67%) and its potential impact on market volatility and investor confidence."
+      ],
+      "logic": [
+        "The thesis assumes a direct relationship between regime transition and market volatility, which may not always be the case -> The thesis may be overly simplistic and not account for other factors that could influence market volatility -> The reliance on a single probability figure (67%) may not be sufficient to support the thesis."
+      ],
+      "counters": [
+        "The thesis could be supported by historical data showing a correlation between regime transitions and market volatility."
+      ],
+      "conclusions": [
+        "The \"Market Volatility and Regime Transition\" thesis is the weakest due to its oversimplification and reliance on a single probability figure."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### 1. WEAKEST THESIS\n\nOBSERVE: The thesis \"Market Volatility and Regime Transition\" relies on a high probability of regime transition (67%) and its potential impact on market volatility and investor confidence.\nLOGIC: The thesis assumes a direct relationship between regime transition and market volatility, which may not always be the case -> The thesis may be overly simplistic and not account for other factors that could influence market volatility -> The reliance on a single probability figure",
+      "id": "9b4502b079b5",
+      "timestamp": "2026-04-05T14:08:32.364649",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "The analysis focuses on market trends, news reports, and regime transitions, but lacks consideration of external factors such as geopolitical events or global economic trends."
+      ],
+      "logic": [
+        "The absence of external factors in the analysis may lead to a narrow perspective on the market, potentially missing critical influences on market behavior -> The brain's probability of the regime being in TRANSITION may be influenced by external factors not accounted for in the analysis -> The lack of consideration of external factors could result in inaccurate predictions or failure to anticipate significant market shifts."
+      ],
+      "counters": [
+        "The analysis may be intentionally focused on internal market factors to provide a more nuanced understanding of market dynamics."
+      ],
+      "conclusions": [
+        "The biggest blind spot is the lack of consideration of external factors such as geopolitical events or global economic trends."
+      ],
+      "dependencies": [
+        "The availability of historical data supporting the correlation between regime transitions and market volatility."
+      ],
+      "falsifications": [
+        "Historical data shows no significant correlation between regime transitions and market volatility."
+      ],
+      "assets": [],
+      "raw_excerpt": "### 1. WEAKEST THESIS\n\nOBSERVE: The thesis \"Market Volatility and Regime Transition\" relies on a high probability of regime transition (67%) and its potential impact on market volatility and investor confidence.\nLOGIC: The thesis assumes a direct relationship between regime transition and market volatility, which may not always be the case -> The thesis may be overly simplistic and not account for other factors that could influence market volatility -> The reliance on a single probability figure",
+      "id": "df2e2ed877ba",
+      "timestamp": "2026-04-05T14:08:32.364649",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "The signal weights for the SP500, NIFTY50, and GOLD indicators are not explicitly stated."
+      ],
+      "logic": [
+        "The absence of explicit signal weights may indicate that the analysis is relying on equal weighting or an unspecified weighting scheme -> This could lead to an uneven distribution of influence among the indicators, potentially skewing the results -> The lack of transparency in signal weights may undermine the credibility of the analysis."
+      ],
+      "counters": [
+        "The signal weights may be implicitly defined or based on a complex algorithm not readily apparent."
+      ],
+      "conclusions": [
+        "The attack on signal weights highlights the need for transparency and explicit definition of weighting schemes."
+      ],
+      "dependencies": [
+        "The impact of external factors on the market and the brain's ability to incorporate them into the analysis."
+      ],
+      "falsifications": [
+        "The market shows no significant response to external factors, validating the focus on internal market dynamics."
+      ],
+      "assets": [],
+      "raw_excerpt": "### 1. WEAKEST THESIS\n\nOBSERVE: The thesis \"Market Volatility and Regime Transition\" relies on a high probability of regime transition (67%) and its potential impact on market volatility and investor confidence.\nLOGIC: The thesis assumes a direct relationship between regime transition and market volatility, which may not always be the case -> The thesis may be overly simplistic and not account for other factors that could influence market volatility -> The reliance on a single probability figure",
+      "id": "e5e1a1def864",
+      "timestamp": "2026-04-05T14:08:32.364649",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "The brain's probability of the regime being in TRANSITION is 67%, but the underlying factors and calculations are not provided."
+      ],
+      "logic": [
+        "The lack of transparency in probability calculations may indicate that the figure is arbitrary or based on incomplete data -> This could lead to mistrust in the analysis and its conclusions -> The probability figure may not accurately reflect the true likelihood of regime transition."
+      ],
+      "counters": [
+        "The probability calculation may be based on a complex model or proprietary data not publicly available."
+      ],
+      "conclusions": [
+        "The attack on probabilities highlights the need for transparency and explicit definition of calculation methods."
+      ],
+      "dependencies": [
+        "The availability of explicit signal weights and their impact on the analysis."
+      ],
+      "falsifications": [
+        "The analysis is shown to be robust to different weighting schemes, rendering the signal weights irrelevant."
+      ],
+      "assets": [],
+      "raw_excerpt": "### 1. WEAKEST THESIS\n\nOBSERVE: The thesis \"Market Volatility and Regime Transition\" relies on a high probability of regime transition (67%) and its potential impact on market volatility and investor confidence.\nLOGIC: The thesis assumes a direct relationship between regime transition and market volatility, which may not always be the case -> The thesis may be overly simplistic and not account for other factors that could influence market volatility -> The reliance on a single probability figure",
+      "id": "2e8d1d81e3c0",
+      "timestamp": "2026-04-05T14:08:32.364649",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "policy_signal"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "The regime transition is predicted with a high probability (67%), but the underlying drivers and potential outcomes are not fully explored."
+      ],
+      "logic": [
+        "The lack of exploration of regime transition drivers and outcomes may indicate that the analysis is focused on short-term market fluctuations rather than long-term trends -> This could lead to a narrow perspective on the market, potentially missing critical influences on market behavior -> The regime transition prediction may not be supported by a comprehensive understanding of the underlying factors."
+      ],
+      "counters": [
+        "The analysis may be intentionally focused on short-term market fluctuations to provide timely and actionable insights."
+      ],
+      "conclusions": [
+        "The attack on regime transition highlights the need for a comprehensive understanding of the underlying drivers and potential outcomes."
+      ],
+      "dependencies": [
+        "The availability of underlying data and calculation methods used to determine the probability."
+      ],
+      "falsifications": [
+        "The probability calculation is shown to be based on a robust and reliable model, validating the figure."
+      ],
+      "assets": [],
+      "raw_excerpt": "### 1. WEAKEST THESIS\n\nOBSERVE: The thesis \"Market Volatility and Regime Transition\" relies on a high probability of regime transition (67%) and its potential impact on market volatility and investor confidence.\nLOGIC: The thesis assumes a direct relationship between regime transition and market volatility, which may not always be the case -> The thesis may be overly simplistic and not account for other factors that could influence market volatility -> The reliance on a single probability figure",
+      "id": "3a5c9d925a09",
+      "timestamp": "2026-04-05T14:08:32.364649",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
     }
   ],
   "pattern_quality": {
