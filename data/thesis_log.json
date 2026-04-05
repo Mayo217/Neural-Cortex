@@ -278,5 +278,75 @@
     ],
     "raw_block": "THESIS: Market Volatility and Regime Transition\nCHAIN: High probability of regime transition (67%) -> Increased market volatility -> Decreased investor confidence -> Potential shift towards safe-haven assets\nCONFIDENCE: 80\nKILL IF: The market experiences a sudden and significant shift towards a stable regime, contradicting the brain's high probability of regime transition.\nTIMEFRAME: 30 days\nASSET: GOLD\n\n#",
     "timestamp": "2026-04-05T14:08:32.371564"
+  },
+  {
+    "title": "** Market Volatility",
+    "chain": "** High VIX index -> Increased market uncertainty -> Decreased investor confidence -> Reduced market participation",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** VIX index drops below 20",
+    "timeframe_days": 30,
+    "assets": [
+      "VIX"
+    ],
+    "raw_block": "THESIS:** Market Volatility\n   **CHAIN:** High VIX index -> Increased market uncertainty -> Decreased investor confidence -> Reduced market participation\n   **CONFIDENCE:** 80\n   **KILL IF:** VIX index drops below 20\n   **TIMEFRAME:** 30 days\n   **ASSET:** VIX index\n\n2. **",
+    "timestamp": "2026-04-05T19:52:56.285684"
+  },
+  {
+    "title": "** Credit Market Divergence",
+    "chain": "** HYG volatility surge -> Forced selling in credit markets -> Equity market decline -> Increased market volatility",
+    "confidence": 50,
+    "direction": "bearish",
+    "kill_condition": "** HYG volatility drops below 10%",
+    "timeframe_days": 30,
+    "assets": [
+      "HYG"
+    ],
+    "raw_block": "THESIS:** Credit Market Divergence\n   **CHAIN:** HYG volatility surge -> Forced selling in credit markets -> Equity market decline -> Increased market volatility\n   **CONFIDENCE:** 70\n   **KILL IF:** HYG volatility drops below 10%\n   **TIMEFRAME:** 60 days\n   **ASSET:** HYG\n\n3. **",
+    "timestamp": "2026-04-05T19:52:56.285721"
+  },
+  {
+    "title": "** Dollar Strength",
+    "chain": "** DXY index above 105 -> EM stress -> Reduced investor confidence -> Decreased market participation",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** DXY index drops below 100",
+    "timeframe_days": 30,
+    "assets": [
+      "DXY"
+    ],
+    "raw_block": "THESIS:** Dollar Strength\n   **CHAIN:** DXY index above 105 -> EM stress -> Reduced investor confidence -> Decreased market participation\n   **CONFIDENCE:** 60\n   **KILL IF:** DXY index drops below 100\n   **TIMEFRAME:** 90 days\n   **ASSET:** DXY index\n\n4. **",
+    "timestamp": "2026-04-05T19:52:56.285753"
+  },
+  {
+    "title": "** Commodity-CPI Lag",
+    "chain": "** Oil price increase -> CPI increase -> Increased inflation expectations -> Reduced market participation",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** Oil price drops below $60",
+    "timeframe_days": 30,
+    "assets": [
+      "OIL",
+      "BRENT"
+    ],
+    "raw_block": "THESIS:** Commodity-CPI Lag\n   **CHAIN:** Oil price increase -> CPI increase -> Increased inflation expectations -> Reduced market participation\n   **CONFIDENCE:** 50\n   **KILL IF:** Oil price drops below $60\n   **TIMEFRAME:** 120 days\n   **ASSET:** Brent oil\n\n5. **",
+    "timestamp": "2026-04-05T19:52:56.285781"
+  },
+  {
+    "title": "** Fed Liquidity",
+    "chain": "** TGA and RRP drain -> Reduced liquidity -> Increased market volatility -> Decreased investor confidence",
+    "confidence": 50,
+    "direction": "bearish",
+    "kill_condition": "** TGA and RRP increase",
+    "timeframe_days": 30,
+    "assets": [
+      "NIFTY",
+      "OIL",
+      "DXY",
+      "VIX",
+      "HYG"
+    ],
+    "raw_block": "THESIS:** Fed Liquidity\n   **CHAIN:** TGA and RRP drain -> Reduced liquidity -> Increased market volatility -> Decreased investor confidence\n   **CONFIDENCE:** 40\n   **KILL IF:** TGA and RRP increase\n   **TIMEFRAME:** 60 days\n   **ASSET:** TGA and RRP\n\n**INDIA INTELLIGENCE**\n\nThe Indian market is currently experiencing a mix of upward and downward trends, with the NIFTY50 index showing a neutral signal. The FII/DII read is also neutral, indicating a lack of strong market momentum in either direc",
+    "timestamp": "2026-04-05T19:52:56.285907"
   }
 ]
