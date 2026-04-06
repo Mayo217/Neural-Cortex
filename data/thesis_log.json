@@ -388,5 +388,34 @@
     ],
     "raw_block": "THESIS: Economic Disruption Mitigation\nCHAIN: WARN Act provisions -> Mitigation of mass layoffs and plant closures -> Reduced economic disruption -> Stable labor market\nCONFIDENCE: 70\nKILL IF: Evidence of widespread non-compliance with WARN Act provisions\nTIMEFRAME: 60 days\nASSET: SP500\n\n#",
     "timestamp": "2026-04-06T14:41:53.543303"
+  },
+  {
+    "title": "Market Stability and the WARN Act",
+    "chain": "WARN Act provisions -> increased market stability -> reduced volatility -> increased investor confidence",
+    "confidence": 70,
+    "direction": "neutral",
+    "kill_condition": "Evidence that the WARN Act has no significant impact on market stability or economic forecasting",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500"
+    ],
+    "raw_block": "THESIS: Market Stability and the WARN Act\nCHAIN: WARN Act provisions -> increased market stability -> reduced volatility -> increased investor confidence\nCONFIDENCE: 70\nKILL IF: Evidence that the WARN Act has no significant impact on market stability or economic forecasting\nTIMEFRAME: 30 days\nASSET: SP500\n\n",
+    "timestamp": "2026-04-06T20:06:19.226319"
+  },
+  {
+    "title": "Divergence in Sentiment between Domestic and Foreign Investors",
+    "chain": "DII net buy value -> FII/FPI net sell value -> divergence in sentiment -> market instability",
+    "confidence": 60,
+    "direction": "bullish",
+    "kill_condition": "Evidence that the divergence in sentiment is not significant or has no impact on market stability",
+    "timeframe_days": 14,
+    "assets": [
+      "SP500",
+      "NIFTY",
+      "GOLD",
+      "VIX"
+    ],
+    "raw_block": "THESIS: Divergence in Sentiment between Domestic and Foreign Investors\nCHAIN: DII net buy value -> FII/FPI net sell value -> divergence in sentiment -> market instability\nCONFIDENCE: 60\nKILL IF: Evidence that the divergence in sentiment is not significant or has no impact on market stability\nTIMEFRAME: 14 days\nASSET: NIFTY50\n\n**3. INDIA INTELLIGENCE:**\nThe FII/DII data shows a net sell value of -8167.17 for FII/FPI, while DII has a net buy value of 8088.7. This divergence in sentiment between do",
+    "timestamp": "2026-04-06T20:06:19.226376"
   }
 ]
