@@ -362,5 +362,31 @@
     ],
     "raw_block": "THESIS: Market Volatility Increase\nCHAIN: Reduced VIX/SP500 correlation -> Temporary market calm -> Potential for increased volatility\nCONFIDENCE: 60\nKILL IF: VIX/SP500 correlation returns to normal.\nTIMEFRAME: 30 days\nASSET: VIX\n\n#",
     "timestamp": "2026-04-06T06:21:26.831813"
+  },
+  {
+    "title": "Market Volatility and WARN Act Importance",
+    "chain": "Mixed market trends -> Increased volatility and uncertainty -> Higher probability of a crisis regime -> Increased importance of WARN Act provisions",
+    "confidence": 80,
+    "direction": "neutral",
+    "kill_condition": "Clear transition to RISK_ON regime with sustained low volatility",
+    "timeframe_days": 30,
+    "assets": [
+      "VIX"
+    ],
+    "raw_block": "THESIS: Market Volatility and WARN Act Importance\nCHAIN: Mixed market trends -> Increased volatility and uncertainty -> Higher probability of a crisis regime -> Increased importance of WARN Act provisions\nCONFIDENCE: 80\nKILL IF: Clear transition to RISK_ON regime with sustained low volatility\nTIMEFRAME: 30 days\nASSET: VIX\n\n",
+    "timestamp": "2026-04-06T14:41:53.543265"
+  },
+  {
+    "title": "Economic Disruption Mitigation",
+    "chain": "WARN Act provisions -> Mitigation of mass layoffs and plant closures -> Reduced economic disruption -> Stable labor market",
+    "confidence": 70,
+    "direction": "neutral",
+    "kill_condition": "Evidence of widespread non-compliance with WARN Act provisions",
+    "timeframe_days": 60,
+    "assets": [
+      "SP500"
+    ],
+    "raw_block": "THESIS: Economic Disruption Mitigation\nCHAIN: WARN Act provisions -> Mitigation of mass layoffs and plant closures -> Reduced economic disruption -> Stable labor market\nCONFIDENCE: 70\nKILL IF: Evidence of widespread non-compliance with WARN Act provisions\nTIMEFRAME: 60 days\nASSET: SP500\n\n#",
+    "timestamp": "2026-04-06T14:41:53.543303"
   }
 ]
