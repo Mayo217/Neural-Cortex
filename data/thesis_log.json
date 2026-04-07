@@ -542,5 +542,36 @@
     ],
     "raw_block": "THESIS: Crisis Regime Probability\nCHAIN: Brain's crisis regime probability (58%) -> Elevated market volatility -> Potential downturns in the market -> Increased caution and preparedness for investors\nCONFIDENCE: 70\nKILL IF: Crisis regime probability drops below 40%\nTIMEFRAME: 60 days\nASSET: SP500 (S&P 500 Index)\n\n**INDIA INTELLIGENCE**\n\nThe Indian market, as represented by the NIFTY50 index, is showing signs of resilience, with a 5-day, 10-day, and 30-day trend of UP (LOW). The FII/DII read is n",
     "timestamp": "2026-04-07T16:17:43.367672"
+  },
+  {
+    "title": "Crisis Regime Mitigation",
+    "chain": "High probability of crisis regime -> Increased importance of WARN Act provisions -> Mitigation of labor market and economic impacts -> Reduced volatility and increased investor confidence",
+    "confidence": 80,
+    "direction": "neutral",
+    "kill_condition": "VIX level drops below 20, indicating reduced volatility and decreased probability of a crisis regime",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500",
+      "VIX"
+    ],
+    "raw_block": "THESIS: Crisis Regime Mitigation\nCHAIN: High probability of crisis regime -> Increased importance of WARN Act provisions -> Mitigation of labor market and economic impacts -> Reduced volatility and increased investor confidence\nCONFIDENCE: 80\nKILL IF: VIX level drops below 20, indicating reduced volatility and decreased probability of a crisis regime\nTIMEFRAME: 30 days\nASSET: SP500\n\n",
+    "timestamp": "2026-04-07T20:08:47.838768"
+  },
+  {
+    "title": "Risk-Off Regime",
+    "chain": "High probability of RISK_OFF regime -> Increased investor risk aversion -> Reduced investment in equities -> Increased demand for safe-haven assets",
+    "confidence": 70,
+    "direction": "bullish",
+    "kill_condition": "Brain's probability of RISK_OFF regime drops below 50%",
+    "timeframe_days": 60,
+    "assets": [
+      "SP500",
+      "NIFTY",
+      "GOLD",
+      "INR",
+      "VIX"
+    ],
+    "raw_block": "THESIS: Risk-Off Regime\nCHAIN: High probability of RISK_OFF regime -> Increased investor risk aversion -> Reduced investment in equities -> Increased demand for safe-haven assets\nCONFIDENCE: 70\nKILL IF: Brain's probability of RISK_OFF regime drops below 50%\nTIMEFRAME: 60 days\nASSET: GOLD\n\n**3. INDIA INTELLIGENCE: INR, Nifty sectors, FII/DII read, RBI, risks, opportunities**\n\nThe current market conditions in India indicate a high probability of a crisis regime, with the NIFTY50 showing similar pa",
+    "timestamp": "2026-04-07T20:08:47.838838"
   }
 ]
