@@ -23,6 +23,30 @@
           "type": "vol_signal"
         }
       ]
+    },
+    "adversary": {
+      "total": 1,
+      "correct": 0,
+      "by_regime": {
+        "RISK_OFF": {
+          "total": 1,
+          "correct": 0
+        }
+      },
+      "by_type": {
+        "vol_signal": {
+          "total": 1,
+          "correct": 0
+        }
+      },
+      "recent": [
+        {
+          "ts": "2026-04-07T16:17:43.364277",
+          "correct": false,
+          "regime": "RISK_OFF",
+          "type": "vol_signal"
+        }
+      ]
     }
   },
   "disagreements": [],
