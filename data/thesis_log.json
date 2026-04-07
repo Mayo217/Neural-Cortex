@@ -417,5 +417,72 @@
     ],
     "raw_block": "THESIS: Divergence in Sentiment between Domestic and Foreign Investors\nCHAIN: DII net buy value -> FII/FPI net sell value -> divergence in sentiment -> market instability\nCONFIDENCE: 60\nKILL IF: Evidence that the divergence in sentiment is not significant or has no impact on market stability\nTIMEFRAME: 14 days\nASSET: NIFTY50\n\n**3. INDIA INTELLIGENCE:**\nThe FII/DII data shows a net sell value of -8167.17 for FII/FPI, while DII has a net buy value of 8088.7. This divergence in sentiment between do",
     "timestamp": "2026-04-06T20:06:19.226376"
+  },
+  {
+    "title": "** Market Correction",
+    "chain": "** High crisis regime probability -> Increased volatility -> Market downturn -> Losses for investors",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** SP500 index breaks above its current resistance levels",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500"
+    ],
+    "raw_block": "THESIS:** Market Correction\n   **CHAIN:** High crisis regime probability -> Increased volatility -> Market downturn -> Losses for investors\n   **CONFIDENCE:** 60\n   **KILL IF:** SP500 index breaks above its current resistance levels\n   **TIMEFRAME:** 30 days\n   **ASSET:** SP500 index\n\n2. **",
+    "timestamp": "2026-04-07T06:01:46.546163"
+  },
+  {
+    "title": "** Economic Slowdown",
+    "chain": "** High crisis regime probability -> Reduced consumer spending -> Economic slowdown -> Increased unemployment",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** ISM Services PMI report shows significant growth",
+    "timeframe_days": 30,
+    "assets": [],
+    "raw_block": "THESIS:** Economic Slowdown\n   **CHAIN:** High crisis regime probability -> Reduced consumer spending -> Economic slowdown -> Increased unemployment\n   **CONFIDENCE:** 55\n   **KILL IF:** ISM Services PMI report shows significant growth\n   **TIMEFRAME:** 60 days\n   **ASSET:** US Treasury bonds\n\n3. **",
+    "timestamp": "2026-04-07T06:01:46.546200"
+  },
+  {
+    "title": "** Gold Price Increase",
+    "chain": "** High crisis regime probability -> Increased demand for safe-haven assets -> Gold price increase -> Higher returns for gold investors",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** Gold price drops below $1500/oz",
+    "timeframe_days": 30,
+    "assets": [
+      "GOLD"
+    ],
+    "raw_block": "THESIS:** Gold Price Increase\n   **CHAIN:** High crisis regime probability -> Increased demand for safe-haven assets -> Gold price increase -> Higher returns for gold investors\n   **CONFIDENCE:** 50\n   **KILL IF:** Gold price drops below $1500/oz\n   **TIMEFRAME:** 90 days\n   **ASSET:** Gold ETFs\n\n4. **",
+    "timestamp": "2026-04-07T06:01:46.546232"
+  },
+  {
+    "title": "** Currency Volatility",
+    "chain": "** High crisis regime probability -> Increased currency volatility -> Currency devaluations -> Trade disruptions",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** DXY index drops below 100",
+    "timeframe_days": 30,
+    "assets": [
+      "DXY"
+    ],
+    "raw_block": "THESIS:** Currency Volatility\n   **CHAIN:** High crisis regime probability -> Increased currency volatility -> Currency devaluations -> Trade disruptions\n   **CONFIDENCE:** 45\n   **KILL IF:** DXY index drops below 100\n   **TIMEFRAME:** 30 days\n   **ASSET:** Currency futures\n\n5. **",
+    "timestamp": "2026-04-07T06:01:46.546261"
+  },
+  {
+    "title": "** Credit Market Stress",
+    "chain": "** High crisis regime probability -> Increased credit market stress -> Reduced lending -> Economic slowdown",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** HYG index price increases by 10%",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500",
+      "NIFTY",
+      "GOLD",
+      "DXY",
+      "HYG"
+    ],
+    "raw_block": "THESIS:** Credit Market Stress\n   **CHAIN:** High crisis regime probability -> Increased credit market stress -> Reduced lending -> Economic slowdown\n   **CONFIDENCE:** 40\n   **KILL IF:** HYG index price increases by 10%\n   **TIMEFRAME:** 60 days\n   **ASSET:** High-yield bond ETFs\n\n**INDIA INTELLIGENCE**\n\nThe Indian economy is likely to be affected by the global crisis regime probability. The NIFTY50 index is showing an upward trend with low volatility, but the FII/DII read is neutral. The RBI m",
+    "timestamp": "2026-04-07T06:01:46.546378"
   }
 ]
