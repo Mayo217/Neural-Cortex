@@ -573,5 +573,32 @@
     ],
     "raw_block": "THESIS: Risk-Off Regime\nCHAIN: High probability of RISK_OFF regime -> Increased investor risk aversion -> Reduced investment in equities -> Increased demand for safe-haven assets\nCONFIDENCE: 70\nKILL IF: Brain's probability of RISK_OFF regime drops below 50%\nTIMEFRAME: 60 days\nASSET: GOLD\n\n**3. INDIA INTELLIGENCE: INR, Nifty sectors, FII/DII read, RBI, risks, opportunities**\n\nThe current market conditions in India indicate a high probability of a crisis regime, with the NIFTY50 showing similar pa",
     "timestamp": "2026-04-07T20:08:47.838838"
+  },
+  {
+    "title": "** Market Volatility Increase",
+    "chain": "** Low volatility regime -> Increased investor complacency -> Sudden market shock -> Significant market downturn",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** VIX index remains below 20 for the next 30 days",
+    "timeframe_days": 30,
+    "assets": [
+      "VIX"
+    ],
+    "raw_block": "THESIS:** Market Volatility Increase\n**CHAIN:** Low volatility regime -> Increased investor complacency -> Sudden market shock -> Significant market downturn\n**CONFIDENCE:** 60\n**KILL IF:** VIX index remains below 20 for the next 30 days\n**TIMEFRAME:** 60 days\n**ASSET:** VIX index\n\n**",
+    "timestamp": "2026-04-08T06:04:55.060939"
+  },
+  {
+    "title": "** Industrial Metals Uptrend",
+    "chain": "** Break in COPPER/OIL_WTI correlation -> Increased demand for industrial metals -> Copper price surge -> Broader industrial metals sector uptrend",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** Copper price drops below $2.50/lb within the next 30 days",
+    "timeframe_days": 30,
+    "assets": [
+      "OIL",
+      "COPPER"
+    ],
+    "raw_block": "THESIS:** Industrial Metals Uptrend\n**CHAIN:** Break in COPPER/OIL_WTI correlation -> Increased demand for industrial metals -> Copper price surge -> Broader industrial metals sector uptrend\n**CONFIDENCE:** 55\n**KILL IF:** Copper price drops below $2.50/lb within the next 30 days\n**TIMEFRAME:** 90 days\n**ASSET:** Copper ETF\n\n#",
+    "timestamp": "2026-04-08T06:04:55.060987"
   }
 ]
