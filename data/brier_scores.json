@@ -1,9 +1,178 @@
 {
-  "overall_brier": null,
-  "by_asset": {},
-  "by_regime": {},
-  "by_driver": {},
-  "calibration_buckets": {},
-  "history": [],
-  "total_scored": 0
+  "overall_brier": 0.181211,
+  "by_asset": {
+    "SP500": {
+      "avg": 0.181924,
+      "n": 1
+    },
+    "NIFTY50": {
+      "avg": 0.18288,
+      "n": 1
+    },
+    "GOLD": {
+      "avg": 0.18288,
+      "n": 1
+    },
+    "BITCOIN": {
+      "avg": 0.182066,
+      "n": 1
+    },
+    "OIL_BRENT": {
+      "avg": 0.199252,
+      "n": 1
+    },
+    "DXY": {
+      "avg": 0.158266,
+      "n": 1
+    }
+  },
+  "by_regime": {
+    "TRANSITION": {
+      "avg": 0.181211,
+      "n": 6
+    }
+  },
+  "by_driver": {
+    "vol_structure": {
+      "avg": 0.181211,
+      "n": 6
+    },
+    "fx_pressure": {
+      "avg": 0.181211,
+      "n": 6
+    },
+    "correlation": {
+      "avg": 0.181211,
+      "n": 6
+    },
+    "sentiment": {
+      "avg": 0.181211,
+      "n": 6
+    },
+    "commodity_cycle": {
+      "avg": 0.181211,
+      "n": 6
+    }
+  },
+  "calibration_buckets": {
+    "0.2": {
+      "total": 5,
+      "hit": 5
+    },
+    "0.1": {
+      "total": 1,
+      "hit": 1
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-04-08T16:22:26.497811",
+      "asset": "SP500",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "brier_standard": 0.181924,
+      "brier_weighted": 0.272886,
+      "actual_bucket": "up_big",
+      "actual_change": 2.8985,
+      "predicted_prob_for_actual": 0.1538,
+      "magnitude_weight": 1.5
+    },
+    {
+      "ts": "2026-04-08T16:22:26.497863",
+      "asset": "NIFTY50",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "brier_standard": 0.18288,
+      "brier_weighted": 0.54864,
+      "actual_bucket": "up_big",
+      "actual_change": 5.6542,
+      "predicted_prob_for_actual": 0.1538,
+      "magnitude_weight": 3.0
+    },
+    {
+      "ts": "2026-04-08T16:22:26.497914",
+      "asset": "GOLD",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "brier_standard": 0.18288,
+      "brier_weighted": 0.27432,
+      "actual_bucket": "up_big",
+      "actual_change": 2.8765,
+      "predicted_prob_for_actual": 0.1538,
+      "magnitude_weight": 1.5
+    },
+    {
+      "ts": "2026-04-08T16:22:26.497953",
+      "asset": "BITCOIN",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "brier_standard": 0.182066,
+      "brier_weighted": 0.546198,
+      "actual_bucket": "up_big",
+      "actual_change": 6.4278,
+      "predicted_prob_for_actual": 0.1538,
+      "magnitude_weight": 3.0
+    },
+    {
+      "ts": "2026-04-08T16:22:26.497987",
+      "asset": "OIL_BRENT",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "brier_standard": 0.199252,
+      "brier_weighted": 0.597756,
+      "actual_bucket": "down_big",
+      "actual_change": -13.455,
+      "predicted_prob_for_actual": 0.1106,
+      "magnitude_weight": 3.0
+    },
+    {
+      "ts": "2026-04-08T16:22:26.498021",
+      "asset": "DXY",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "brier_standard": 0.158266,
+      "brier_weighted": 0.158266,
+      "actual_bucket": "down",
+      "actual_change": -1.0904,
+      "predicted_prob_for_actual": 0.2133,
+      "magnitude_weight": 1.0
+    }
+  ],
+  "total_scored": 6
 }
