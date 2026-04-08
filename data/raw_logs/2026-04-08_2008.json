@@ -1,0 +1,510 @@
+{
+  "timestamp": "2026-04-08 20:08",
+  "regime": {
+    "regime": "TRANSITION",
+    "confidence": 0.889,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.0,
+      "TRANSITION": 0.889,
+      "RISK_ON": 0.111,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 24.2 18-25: uncertain",
+      "4 correlation breaks: regime shift signal"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$34.60B|TRIAD NATIONAL SECURITY, LLC|None|IGF::CL::IGF COMPETITION FOR MANAGEMENT AND OPERATION OF LOS ALAMOS NATIONAL LAB",
+      "$17.27B|HONEYWELL FEDERAL MANUFACTURING & TECHNOLOGIES, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATION OF THE NATIONAL SECURITY CAMPUS -- CONT",
+      "$16.91B|BECHTEL NATIONAL, INC.|None|None",
+      "$14.54B|THE LELAND STANFORD JUNIOR UNIVERSITY|None|OPERATION AND MAINTENANCE                                   LINEAR ACCELLERATOR",
+      "$4.47B|FLUOR-BWXT PORTSMOUTH LLC|None|PORTSMOUTH GASEOUS DIFFUSION PLANT DECONTAMINATION AND DECOMMISSIONING PROJECT",
+      "$2.19B|UNITED CLEANUP OAK RIDGE LLC|None|OAK RIDGE RESERVATION CLEANUP CONTRACT TASK ORDERS",
+      "$2.12B|SAVANNAH RIVER MISSION COMPLETION, LLC|None|THIS AWARD IS FOR THE SAVANNAH RIVER INTEGRATED MISSION COMPLETION CONTRACT - TA",
+      "$2.02B|FERMI FORWARD DISCOVERY GROUP, LLC|None|MANAGEMENT AND OPERATING CONTRACT FOR THE FERMI NATIONAL ACCELERATOR LABORATORY ",
+      "$2.01B|WASHINGTON TRU SOLUTIONS LLC|None|MANAGEMENT AND OPERATION OF THE WASTE ISOLATION PILOT PLANT",
+      "$1.70B|CENTRAL PLATEAU CLEANUP COMPANY, LLC|None|HANFORD CENTRAL PLATEAU CLEANUP CONTRACT - TASK ORDER 4 - END STATES & BASE OPS.",
+      "$1.54B|PERATON INC.|None|THE EXPLORATION AND SPACE COMMUNICATIONS PROJECTS DIVISION (ESC) IS A NATIONAL R",
+      "$1.44B|CALIFORNIA INSTITUTE OF TECHNOLOGY|None|DEEP SPACE NETWORK (DSN)  THE CONTRACT IS THE SPONSORING AGREEMENT BETWEEN THE N",
+      "$1.35B|IDAHO ENVIRONMENTAL COALITION LLC|None|THE PURPOSE OF THIS ACTION IS TO AWARD THE ICP TEN YEAR PLAN HYBRID TASK ORDER U",
+      "$1.26B|AT&T ENTERPRISES, LLC|None|ENTERPRISE DATA NETWORK SERVICES CARRIER B",
+      "$1.09B|BOOZ ALLEN HAMILTON INC|None|TASK ORDER AWARD"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Jefferson, Economic Outlook and the Labor Market",
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments",
+      "[ECB] Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 February 2026"
+    ],
+    "policy": [
+      "[Rule] Revocation of Very High Frequency Omnidirectional Range Federal Airway V-320 in the Vicinity of Mount Pleasant, Michigan",
+      "[Rule] Amendment of Class B Airspace Description; Denver International Airport, CO",
+      "[Rule] The Sunset Rule-Aircraft Impact Assessment",
+      "[Rule] Citrus Tristeza Virus (CTV) Strain T36 Expressing Spinach Defensin Proteins SoD2, SoD2-1, and SoD2*; Exemption From the "
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "08-Apr-2026",
+        "buyValue": "29003.39",
+        "sellValue": "24835.22",
+        "netValue": "4168.17"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "08-Apr-2026",
+        "buyValue": "19092.05",
+        "sellValue": "21904.02",
+        "netValue": "-2811.97"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.9,
+        "chg": 2.55,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.88,
+        "chg": 2.97,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 0.88,
+        "chg": 3.01,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.6,
+        "chg": 0.63,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.5,
+        "chg": 0.32,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 0.82,
+        "chg": 0.56,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 1.22,
+        "chg": 0.39,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 1.07,
+        "chg": 5.51,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 0.44,
+        "chg": 4.03,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 1.3,
+        "chg": -3.49,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 1.23,
+        "chg": 6.51,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 0.72,
+        "chg": 3.4,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.83,
+        "chg": 2.67,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 0.7,
+        "chg": 1.07,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": 2.137,
+        "b_chg": 2.508,
+        "same": true,
+        "div": 0.371,
+        "interp": "Gold/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": 0.564,
+        "b_chg": 2.508,
+        "same": true,
+        "div": 1.944,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": 3.923,
+        "b_chg": 2.508,
+        "same": true,
+        "div": 1.415,
+        "interp": "Dr Copper/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": -0.668,
+        "b_chg": 2.137,
+        "same": false,
+        "div": 2.805,
+        "interp": "Dollar/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": 1.257,
+        "b_chg": 2.508,
+        "same": true,
+        "div": 1.251,
+        "interp": "Vol/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": -14.971,
+        "b_chg": -0.536,
+        "same": true,
+        "div": 14.435,
+        "interp": "Oil/INR",
+        "flag": "normal"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": -1.197,
+        "b_chg": 2.137,
+        "same": false,
+        "div": 3.334,
+        "interp": "Rates/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": -0.752,
+        "b_chg": 2.803,
+        "same": false,
+        "div": 3.555,
+        "interp": "Crypto/Tech",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": 0.323,
+        "b_chg": 2.508,
+        "same": true,
+        "div": 2.185,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": 3.923,
+        "b_chg": -14.971,
+        "same": false,
+        "div": 18.894,
+        "interp": "Copper/Oil",
+        "flag": "DIVERGENCE"
+      }
+    ],
+    "anomalies": [
+      "BREAK DXY/GOLD: A-0.67% B+2.14%",
+      "BREAK US10Y/GOLD: A-1.20% B+2.14%",
+      "BREAK BITCOIN/NASDAQ: A-0.75% B+2.80%",
+      "BREAK COPPER/OIL_WTI: A+3.92% B-14.97%"
+    ]
+  },
+  "tier4": {
+    "news_len": 10326,
+    "gdelt_len": 17
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 30.7,
+      "rating": "fear",
+      "prev_week": 13.8,
+      "prev_month": 25.3
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": 0.181211,
+    "patterns": 6
+  },
+  "agents": {
+    "upstream": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime, show a high level of uncertainty and volatility, with a 89% chance of being in a transition regime.\n\nLOGIC: The high uncertainty and volatility in the market -> increased likelihood of a crisis -> implications for investor risk management and potential market downturn.\n\nCOUNTER: The fact that the SP500, NIFTY50, GOLD, and BITCOIN are all showing similar trends, with a higher percentage of upward movement, could suggest that the market is less volatile than expected and that a crisis may not be imminent.\n\nCONCLUDE: Despite the counterargument, I conclude that the market is indeed highly volatile and that investors should be cautious and prepared for potential downturns.\n\nDEPENDS ON: The single data point that would change my mind is a significant decrease in the Brier score, indicating a higher level of accuracy in the brain's predictions, which would suggest a lower level of uncertainty and volatility in the market.\n\nWRONG IF: If the market experiences a prolonged period of stability and low volatility, with the Brier score decreasing significantly, my conclusion would be proven wrong, and I would need to reevaluate my analysis.",
+    "flow": "OBSERVE: The brain's crisis regime prediction has a 89% probability, indicating a high level of uncertainty and volatility in the market, while the ETF data shows a neutral signal for most assets, with some exceptions like Semis and Energy.\n\nLOGIC: The high uncertainty and volatility in the market, as indicated by the brain's crisis regime prediction -> increased likelihood of a crisis -> implications for investor risk management and potential market downturn. The neutral signals from the ETF data -> lack of clear direction in the market -> potential for increased volatility.\n\nCOUNTER: The fact that the SP500, NIFTY50, GOLD, and BITCOIN are all showing similar trends, with a higher percentage of upward movement, could suggest that the market is less volatile than expected and that a crisis may not be imminent. Additionally, the neutral signals from the ETF data could indicate a period of consolidation before a potential downturn.\n\nCONCLUDE: Despite the counterargument, I conclude that the market is indeed highly volatile and that investors should be cautious and prepared for potential downturns. The brain's crisis regime prediction and the neutral signals from the ETF data suggest a high level of uncertainty, which could lead to increased volatility and potential market downturns.\n\nDEPENDS ON: The single data point that would change my mind is a significant decrease in the Brier score, indicating a higher level of accuracy in the brain's predictions, which would suggest a lower level of uncertainty and volatility in the market. Alternatively, a clear direction in the market, as indicated by a strong signal from the ETF data, could also change my conclusion.\n\nWRONG IF: If the market experiences a prolonged period of stability and low volatility, with the Brier score decreasing significantly, my conclusion would be proven wrong, and I would need to reevaluate my analysis. Additionally, if the ETF data starts to show a strong signal in one direction, indicating a clear",
+    "market": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime, show a high level of uncertainty and volatility, with a 89% chance of being in a transition regime. The F&G score is 30.7, indicating a \"fear\" rating, and the brain's crisis regime prediction has a high probability.\n\nLOGIC: The high uncertainty and volatility in the market, as indicated by the F&G index and the brain's crisis regime prediction -> increased likelihood of a crisis -> implications for investor risk management and potential market downturn. The fact that the SP500, NIFTY50, GOLD, and BITCOIN are all showing similar trends, with a higher percentage of upward movement, could suggest that the market is less volatile than expected, but the anomalies in the correlations, such as the breaks in DXY/GOLD, US10Y/GOLD, BITCOIN/NASDAQ, and COPPER/OIL_WTI, indicate potential risks and uncertainties.\n\nCOUNTER: The fact that the SP500, NIFTY50, GOLD, and BITCOIN are all showing similar trends, with a higher percentage of upward movement, could suggest that the market is less volatile than expected and that a crisis may not be imminent. However, the high F&G score and the brain's crisis regime prediction suggest that the market is still uncertain and volatile.\n\nCONCLUDE: Despite the counterargument, I conclude that the market is indeed highly volatile and that investors should be cautious and prepared for potential downturns. The anomalies in the correlations and the high F&G score indicate potential risks and uncertainties that investors should be aware of.\n\nDEPENDS ON: The single data point that would change my mind is a significant decrease in the F&G score, indicating a shift from a \"fear\" rating to a more neutral or positive rating, which would suggest that the market is becoming less volatile and more stable.\n\nWRONG IF: My conclusion is wrong if the market experiences a significant and sustained upward trend, with the SP500, NIFTY50, GOLD, and BITCOIN all showing",
+    "narrative": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime, show a high level of uncertainty and volatility, with a 89% chance of being in a transition regime. The news articles suggest a mix of positive and negative developments, including a potential US-Iran ceasefire, a takeover offer for Universal, and a rise in oil prices.\n\nLOGIC: The high uncertainty and volatility in the market, combined with the mixed news developments -> increased likelihood of a crisis or significant market movement -> implications for investor risk management and potential market downturn. The fact that Agents 1-3 are following the herd, with similar observations and logic, suggests a consensus view that the market is likely to remain volatile.\n\nCOUNTER: The fact that the SP500, NIFTY50, GOLD, and BITCOIN are all showing similar trends, with a higher percentage of upward movement, could suggest that the market is less volatile than expected and that a crisis may not be imminent. Additionally, the news articles suggest that some investors are taking a bullish view, with a $950 million bet on oil prices falling and a 10% jump in Levi Strauss shares.\n\nCONCLUDE: The market is likely to remain volatile, with a high probability of a crisis or significant market movement. However, the consensus view among Agents 1-3 and the mixed news developments suggest that the market may not be as bearish as expected.\n\nDEPENDS ON: The outcome of the OPEC-JMMC meetings on April 5, which could have a significant impact on oil prices and the overall market.\n\nWRONG IF: The market experiences a significant and sustained upward movement, with all major indices and assets showing strong gains, and the news developments are overwhelmingly positive, suggesting a bull market rather than a crisis.",
+    "synthesis": "**1. RECONCILE contradictions between agents:**\nAfter analyzing the provided information, I conclude that I side with the **UPSTREAM** agent. The UPSTREAM agent's observation of the high uncertainty and volatility in the market, as indicated by the F&G index and the brain's crisis regime, aligns with my own analysis. The agent's logic that the high uncertainty and volatility -> increased likelihood of a crisis -> implications for investor risk management and potential market downturn is sound and well-supported by the data.\n\n**2. Generate THESES:**\nTHESIS: Market Volatility and Crisis Risk\nCHAIN: High uncertainty and volatility in the market -> increased likelihood of a crisis -> implications for investor risk management and potential market downturn -> need for cautious investment strategies\nCONFIDENCE: 80\nKILL IF: The Brier score decreases significantly, indicating a lower level of uncertainty and volatility in the market\nTIMEFRAME: 30 days\nASSET: VIX (volatility index)\n\n**3. INDIA INTELLIGENCE:**\nThe Indian market, as represented by the NIFTY50, is showing similar trends to the global market, with a higher percentage of upward movement. However, the FII/DII read suggests that foreign investors are cautious, and the RBI's recent actions may have a significant impact on the market. The risks include a potential crisis or significant market movement, while the opportunities include a potential bull run if the market sentiment shifts.\n\n**4. THE UNCOMFORTABLE TRUTH:**\nThe uncomfortable truth is that the current market conditions are highly uncertain and volatile, with a high probability of a crisis or significant market movement. Despite the similarities in trends between the SP500, NIFTY50, GOLD, and BITCOIN, the anomalies in the correlations and the high F&G score indicate potential risks and uncertainties that investors should be aware of. The fact that the market is likely to remain volatile, with a high probability of a crisis or significant market movement, mean",
+    "adversary": "OBSERVE: The UPSTREAM agent's observation of high uncertainty and volatility in the market, as indicated by the F&G index and the brain's crisis regime, aligns with the overall analysis, but the confidence level of 80 in the THESIS: Market Volatility and Crisis Risk seems overly optimistic.\nLOGIC: The high uncertainty and volatility -> increased likelihood of a crisis -> implications for investor risk management and potential market downturn is sound, but the confidence level does not account for potential black swan events or unforeseen circumstances that could drastically alter market conditions -> this omission could lead to a false sense of security among investors -> implication that the confidence level should be lower to reflect the true uncertainty of the market.\nCOUNTER: The argument that the confidence level of 80 is justified due to the strong correlation between the F&G index and historical market crises could be countered by the fact that past performance is not always indicative of future results, and the market is inherently unpredictable.\nCONCLUDE: The WEAKEST THESIS is the confidence level of 80 in the THESIS: Market Volatility and Crisis Risk, as it does not fully account for the unpredictability of the market and potential black swan events.\nDEPENDS ON: A significant decrease in the F&G index or a sudden shift in market sentiment that contradicts the current analysis would change my mind.\nWRONG IF: The market experiences a prolonged period of stability and low volatility, contradicting the predictions made by the UPSTREAM agent and the THESIS: Market Volatility and Crisis Risk.\n\nOBSERVE: The BIGGEST BLIND SPOT in the analysis is the lack of consideration for external factors that could impact the market, such as geopolitical events, natural disasters, or unexpected central bank actions.\nLOGIC: The analysis focuses primarily on market indicators and trends, but fails to account for the potential impact of external factors on the market -> this omis"
+  },
+  "reasoning": {
+    "chains": 7,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-08T20:08:03.363370"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-08T20:08:04.012854"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-08T20:08:24.809372"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-08T20:08:32.791779"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-08T20:08:32.929236"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-08T20:08:33.230205"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-08T20:08:33.534893"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-08T20:08:33.858835"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-08T20:08:34.158223"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-08T20:08:34.482555"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-08T20:08:34.778138"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-08T20:08:35.110189"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-08T20:08:35.391881"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-08T20:08:35.672906"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-08T20:08:35.874018"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-08T20:08:37.372745"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-08T20:08:37.465675"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-08T20:08:38.061233"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-08T20:08:39.295959"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-08T20:08:39.346212"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-08T20:08:49.499948"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-08T20:08:50.229949"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-08T20:08:51.148316"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-08T20:08:51.842986"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-08T20:08:52.406041"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-08T20:08:52.406781"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-08T20:08:52.539681"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-08T20:08:53.438696"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-08T20:08:53.882307"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-08T20:08:55.113761"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-08T20:08:55.506158"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-08T20:08:55.691283"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-08T20:08:56.881812"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-08T20:09:00.258355"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-08T20:09:00.258374"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-08T20:09:15.300349"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-08T20:09:15.347201"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-08T20:09:19.607123"
+    },
+    "GDELT": {
+      "ok": false,
+      "detail": "HTTP 429",
+      "ts": "2026-04-08T20:09:24.511456"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-08T20:09:24.593892"
+    }
+  }
+}
