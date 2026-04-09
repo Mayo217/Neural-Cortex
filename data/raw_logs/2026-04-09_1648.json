@@ -1,0 +1,494 @@
+{
+  "timestamp": "2026-04-09 16:48",
+  "regime": {
+    "regime": "TRANSITION",
+    "confidence": 0.667,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.0,
+      "TRANSITION": 0.667,
+      "RISK_ON": 0.333,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 20.0 18-25: uncertain",
+      "VIX 10d -21.4%: vol crush",
+      "4 correlation breaks: regime shift signal"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "USASpending unavailable"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Jefferson, Economic Outlook and the Labor Market",
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments",
+      "[ECB] Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 February 2026"
+    ],
+    "policy": [
+      "[Rule] Modification of Class E Airspace; Denver International Airport, Denver, CO"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "09-Apr-2026",
+        "buyValue": "15968.21",
+        "sellValue": "15012.31",
+        "netValue": "955.9"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "09-Apr-2026",
+        "buyValue": "15746.32",
+        "sellValue": "17457.51",
+        "netValue": "-1711.19"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.31,
+        "chg": 0.46,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.31,
+        "chg": 0.33,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 0.29,
+        "chg": 0.58,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.27,
+        "chg": 1.13,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.2,
+        "chg": 0.06,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 0.35,
+        "chg": 0.14,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 0.36,
+        "chg": 0.16,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 0.51,
+        "chg": -0.36,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 0.21,
+        "chg": 0.58,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 0.51,
+        "chg": -1.09,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 0.47,
+        "chg": 1.28,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 0.28,
+        "chg": 0.09,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.3,
+        "chg": 0.36,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 0.51,
+        "chg": 1.55,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": 1.406,
+        "b_chg": 0.481,
+        "same": true,
+        "div": 0.925,
+        "interp": "Gold/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": 0.15,
+        "b_chg": 0.481,
+        "same": true,
+        "div": 0.331,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": 0.13,
+        "b_chg": 0.481,
+        "same": true,
+        "div": 0.351,
+        "interp": "Dr Copper/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": -0.336,
+        "b_chg": 1.406,
+        "same": false,
+        "div": 1.742,
+        "interp": "Dollar/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": -4.753,
+        "b_chg": 0.481,
+        "same": false,
+        "div": 5.234,
+        "interp": "Vol/Equity",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": 3.072,
+        "b_chg": -0.563,
+        "same": false,
+        "div": 3.635,
+        "interp": "Oil/INR",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": -0.513,
+        "b_chg": 1.406,
+        "same": false,
+        "div": 1.919,
+        "interp": "Rates/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": 0.953,
+        "b_chg": 0.561,
+        "same": true,
+        "div": 0.392,
+        "interp": "Crypto/Tech",
+        "flag": "normal"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": 0.057,
+        "b_chg": 0.481,
+        "same": true,
+        "div": 0.424,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": 0.13,
+        "b_chg": 3.072,
+        "same": true,
+        "div": 2.942,
+        "interp": "Copper/Oil",
+        "flag": "normal"
+      }
+    ],
+    "anomalies": [
+      "BREAK DXY/GOLD: A-0.34% B+1.41%",
+      "BREAK VIX/SP500: A-4.75% B+0.48%",
+      "BREAK OIL_WTI/USDINR: A+3.07% B-0.56%",
+      "BREAK US10Y/GOLD: A-0.51% B+1.41%"
+    ]
+  },
+  "tier4": {
+    "news_len": 10805,
+    "gdelt_len": 19
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 35.4,
+      "rating": "fear",
+      "prev_week": 19.0,
+      "prev_month": 22.2
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": 0.181211,
+    "patterns": 6
+  },
+  "agents": {
+    "upstream": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before mass layoffs or plant closures, and the current market conditions indicate a potential downturn.\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis -> If a crisis occurs, employers will need to provide notice -> This could lead to increased market volatility as companies prepare for potential layoffs or closures.\nCOUNTER: The current market conditions may not necessarily lead to a crisis, and the WARN Act's provisions may not have a significant impact on the market.\nCONCLUDE: The WARN Act's provisions are likely to play a crucial role in the event of a crisis, and employers should be prepared to provide notice to their employees.\nDEPENDS ON: The actual impact of the WARN Act's provisions on the market, which would require data on the number of notices provided and the subsequent effects on the market.\nWRONG IF: The market conditions improve, and the crisis regime probability decreases, making the WARN Act's provisions less relevant. \n\nOBSERVE: The brain's crisis regime probability is 67%, indicating a high likelihood of a crisis.\nLOGIC: A high crisis regime probability -> Increased market volatility -> Potential downturn in the market.\nCOUNTER: The brain's crisis regime probability may not be accurate, and the market may not actually enter a crisis.\nCONCLUDE: The high crisis regime probability suggests that the market is at risk of a downturn, and investors should be cautious.\nDEPENDS ON: The accuracy of the brain's crisis regime probability, which would require validation through actual market data.\nWRONG IF: The market conditions improve, and the crisis regime probability decreases, indicating a lower likelihood of a crisis.\n\nOBSERVE: The FED leaders' remarks on the economic outlook and monetary policy suggest a focus on supporting small businesses and stabilizing the economy.\nLOGIC: The FED's focus on supporting small businesses and stab",
+    "flow": "OBSERVE: The brain's crisis regime probability is 67%, indicating a high likelihood of a crisis, and the WARN Act's provisions may play a crucial role in the event of a crisis.\nLOGIC: A high crisis regime probability -> Increased market volatility -> Potential downturn in the market -> The WARN Act's provisions may lead to increased notice periods for mass layoffs or plant closures, exacerbating market volatility.\nCOUNTER: The current market conditions may not necessarily lead to a crisis, and the WARN Act's provisions may not have a significant impact on the market, as companies may not be forced to provide notice due to various factors such as government intervention or economic stimulus.\nCONCLUDE: The high crisis regime probability suggests that the market is at risk of a downturn, and the WARN Act's provisions may contribute to increased market volatility in the event of a crisis.\nDEPENDS ON: The actual impact of the WARN Act's provisions on the market, which would require data on the number of notices provided and the subsequent effects on the market, as well as the brain's crisis regime probability remaining high.\nWRONG IF: The market conditions improve, and the crisis regime probability decreases, making the WARN Act's provisions less relevant, or if the brain's crisis regime probability is proven to be inaccurate, and the market does not enter a crisis.\n\nOBSERVE: The ETF data shows neutral signals for most sectors, with the exception of Energy, which has a -1.09 change, and Semis, which has a 1.28 change.\nLOGIC: Neutral signals in most sectors -> No clear indication of market direction -> Increased uncertainty and potential for market volatility.\nCOUNTER: The neutral signals may be a sign of market stability, and the exceptions in Energy and Semis may be outliers that do not reflect the overall market trend.\nCONCLUDE: The neutral signals in most sectors suggest that the market is uncertain and may be prone to volatility, which could be exacerbated by the WAR",
+    "market": "OBSERVE: The current market conditions indicate a potential downturn, with the brain's crisis regime probability at 67%, and the F&G index score at 35.4, indicating a \"fear\" rating.\nLOGIC: A high crisis regime probability and a \"fear\" rating from the F&G index -> Increased market volatility and potential downturn -> The WARN Act's provisions may play a crucial role in the event of a crisis, leading to increased notice periods for mass layoffs or plant closures, exacerbating market volatility.\nCOUNTER: The current market conditions may not necessarily lead to a crisis, and the WARN Act's provisions may not have a significant impact on the market, as companies may not be forced to provide notice due to various factors such as government intervention or economic stimulus.\nCONCLUDE: The high crisis regime probability and the \"fear\" rating from the F&G index suggest that the market is at risk of a downturn, and the WARN Act's provisions may play a crucial role in the event of a crisis.\nDEPENDS ON: The actual impact of the WARN Act's provisions on the market, which would depend on the severity of the crisis and the response of companies and governments.\nWRONG IF: The market experiences a significant upturn, and the crisis regime probability decreases, indicating that the WARN Act's provisions may not be as relevant. \n\nAdditionally, the anomalies in the correlations, such as the break in the DXY/GOLD, VIX/SP500, OIL_WTI/USDINR, and US10Y/GOLD relationships, suggest that the market is experiencing unusual stress and potential regime shifts, which could impact the validity of the conclusions. \n\nIt is also worth noting that the SP500 and NASDAQ are experiencing a slight increase, while the NIFTY50 and SENSEX are experiencing a decrease, which could indicate a divergence in the global market trends. The GOLD price is also increasing, which could be a sign of safe-haven demand. \n\nThe BITCOIN and ETHEREUM prices are also increasing, which could indicate a flight to alternative a",
+    "narrative": "OBSERVE: Agents 1-3 are following the herd by not challenging the current market conditions and the brain's crisis regime probability, which is at 67%.\nLOGIC: The Agents' lack of skepticism towards the current market conditions and the brain's crisis regime probability -> This could lead to a lack of critical thinking and analysis -> As a result, the Agents may not be able to identify potential risks or opportunities that could impact the market.\nCOUNTER: The Agents may be following the herd due to a lack of information or resources, or they may be relying on the brain's crisis regime probability as a reliable indicator of market conditions.\nCONCLUDE: Agents 1-3 are not providing edge, but rather consensus, by following the herd and not challenging the current market conditions.\nDEPENDS ON: The Agents' ability to provide critical thinking and analysis that challenges the current market conditions and the brain's crisis regime probability.\nWRONG IF: The Agents are able to provide evidence of their critical thinking and analysis, and demonstrate that they are not simply following the herd.\n\nOBSERVE: The current market conditions indicate a potential downturn, with the brain's crisis regime probability at 67%, and the F&G index score at 35.4, indicating a \"fear\" rating.\nLOGIC: A high crisis regime probability and a \"fear\" rating from the F&G index -> Increased market volatility and potential downturn -> This could lead to a decrease in investor confidence and a subsequent decline in market prices.\nCOUNTER: The current market conditions may not necessarily lead to a crisis, and the brain's crisis regime probability may not be a reliable indicator of market conditions.\nCONCLUDE: The current market conditions and the brain's crisis regime probability suggest a potential downturn, but this is not a guarantee, and other factors could influence the market.\nDEPENDS ON: The accuracy of the brain's crisis regime probability and the F&G index score in predicting market condition",
+    "synthesis": "**1. RECONCILE contradictions between agents:**\nAfter analyzing the input from various agents, I side with the agent that suggests the current market conditions indicate a potential downturn, with the brain's crisis regime probability at 67%, and the F&G index score at 35.4, indicating a \"fear\" rating. I side with this agent because the data and logic presented by this agent are consistent with the overall market trends and the brain's crisis regime probability.\n\nThe reason I choose this agent is that their conclusion is based on a thorough analysis of the market conditions, including the WARN Act's provisions, the brain's crisis regime probability, and the F&G index score. This agent's conclusion is also consistent with the patterns observed in the market, such as the Mar/Apr Dump-Recover pattern and the Credit Leads Equity pattern.\n\n**2. Generate THESES:**\nTHESIS: Market Volatility and Crisis Regime Probability\nCHAIN: High crisis regime probability -> Increased market volatility -> Potential downturn in the market -> The WARN Act's provisions may lead to increased notice periods for mass layoffs or plant closures, exacerbating market volatility.\nCONFIDENCE: 80\nKILL IF: The crisis regime probability decreases, and the market conditions improve.\nTIMEFRAME: 30 days\nASSET: VIX\n\nTHESIS: FII/DII Sentiment and Market Trends\nCHAIN: DIIs net buying -> Positive sentiment from domestic investors -> Potential market support, while FIIs net selling -> Negative sentiment from foreign investors -> Potential market pressure.\nCONFIDENCE: 70\nKILL IF: The FII/DII data starts to show a convergence in sentiment, with both domestic and foreign investors either buying or selling.\nTIMEFRAME: 20 days\nASSET: NIFTY50\n\nTHESIS: WARN Act Provisions and Market Volatility\nCHAIN: WARN Act notices increase -> Mass layoffs or plant closures -> Increased market volatility -> Potential downturn in the market.\nCONFIDENCE: 75\nKILL IF: The WARN Act's provisions do not lead to increased notice periods fo",
+    "adversary": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\n**1. WEAK POINT: THESIS 2 - FII/DII Sentiment and Market Trends**\nOBSERVE: The confidence level of THESIS 2 is 70, which is lower than the other two theses.\nLOGIC: The lower confidence level suggests that the relationship between FII/DII sentiment and market trends is not as strong as the other theses -> This could lead to incorrect predictions -> The market may not follow the expected trend based on FII/DII sentiment.\nCOUNTER: The FII/DII data has been a reliable indicator of market trends in the past, and the current divergence in sentiment between domestic and foreign investors could still lead to increased market volatility.\nCONCLUDE: THESIS 2 is the weakest thesis due to its lower confidence level and potential for incorrect predictions.\nDEPENDS ON: A significant increase in the confidence level of THESIS 2, such as an increase to 85 or higher, would change my mind.\nWRONG IF: The FII/DII data shows a convergence in sentiment, and the market still experiences increased volatility, which would suggest that THESIS 2 is actually correct.\n\n**2. BIGGEST BLIND SPOT: LACK OF CONSIDERATION FOR EXTERNAL FACTORS**\nOBSERVE: The theses and analysis focus primarily on market trends, FII/DII sentiment, and the WARN Act's provisions, without considering external factors such as global economic trends, geopolitical events, or unexpected natural disasters.\nLOGIC: The lack of consideration for external factors could lead to unexpected events affecting the market -> The theses and analysis may not be robust enough to handle such events -> The predictions and conclusions may be incorrect or incomplete.\nCOUNTER: The external factors are difficult to predict and may not have a significant impact on the market, and the current analysis is focused on the most relevant and predictable factors.\nCONCLUDE: The biggest blind spot is the lack of consideration for external factors, which could lead to unexpected events affecting the market and rendering"
+  },
+  "reasoning": {
+    "chains": 15,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-09T16:48:49.230650"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T16:48:49.704041"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-09T16:49:10.447599"
+    },
+    "USASPENDING": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='api.usaspending.gov', port=443): Read timed out. (read timeout=15)",
+      "ts": "2026-04-09T16:49:25.662812"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T16:49:25.845080"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T16:49:26.147069"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T16:49:26.489500"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T16:49:26.793624"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T16:49:27.076350"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T16:49:27.356209"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T16:49:27.651890"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T16:49:27.938779"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T16:49:28.258918"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T16:49:28.554650"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-09T16:49:28.755652"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-09T16:49:29.734988"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T16:49:29.822590"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T16:49:30.355508"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T16:49:32.109687"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T16:49:32.154890"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-09T16:49:42.343398"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T16:49:43.059669"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T16:49:43.577017"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-09T16:49:44.274159"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T16:49:44.663373"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-09T16:49:44.664189"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T16:49:44.828977"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T16:49:46.285723"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T16:49:46.716027"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-09T16:49:48.078068"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-09T16:49:48.505905"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T16:49:48.717306"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-09T16:49:49.776157"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-09T16:49:52.470452"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-09T16:49:52.470472"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-09T16:50:06.837139"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T16:50:06.877909"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-09T16:50:11.244606"
+    },
+    "GDELT": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T16:50:21.135666"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T16:50:21.206150"
+    }
+  }
+}

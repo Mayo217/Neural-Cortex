@@ -689,5 +689,46 @@
     ],
     "raw_block": "THESIS: Economic Indicator Shift**\n- **CHAIN:** Upward trends in SP500, NIFTY50, GOLD, and BITCOIN -> Increased investor confidence -> Potential economic growth -> Increased demand for commodities\n- **CONFIDENCE:** 80\n- **KILL IF:** Any of the mentioned assets experiences a significant downturn within the next 20 days.\n- **TIMEFRAME:** 20 days\n- **ASSET:** GOLD\n\n#",
     "timestamp": "2026-04-09T10:22:51.428240"
+  },
+  {
+    "title": "Market Volatility and Crisis Regime Probability",
+    "chain": "High crisis regime probability -> Increased market volatility -> Potential downturn in the market -> The WARN Act's provisions may lead to increased notice periods for mass layoffs or plant closures, exacerbating market volatility.",
+    "confidence": 80,
+    "direction": "neutral",
+    "kill_condition": "The crisis regime probability decreases, and the market conditions improve.",
+    "timeframe_days": 30,
+    "assets": [
+      "VIX"
+    ],
+    "raw_block": "THESIS: Market Volatility and Crisis Regime Probability\nCHAIN: High crisis regime probability -> Increased market volatility -> Potential downturn in the market -> The WARN Act's provisions may lead to increased notice periods for mass layoffs or plant closures, exacerbating market volatility.\nCONFIDENCE: 80\nKILL IF: The crisis regime probability decreases, and the market conditions improve.\nTIMEFRAME: 30 days\nASSET: VIX\n\n",
+    "timestamp": "2026-04-09T16:51:47.039970"
+  },
+  {
+    "title": "FII/DII Sentiment and Market Trends",
+    "chain": "DIIs net buying -> Positive sentiment from domestic investors -> Potential market support, while FIIs net selling -> Negative sentiment from foreign investors -> Potential market pressure.",
+    "confidence": 70,
+    "direction": "bullish",
+    "kill_condition": "The FII/DII data starts to show a convergence in sentiment, with both domestic and foreign investors either buying or selling.",
+    "timeframe_days": 20,
+    "assets": [
+      "NIFTY"
+    ],
+    "raw_block": "THESIS: FII/DII Sentiment and Market Trends\nCHAIN: DIIs net buying -> Positive sentiment from domestic investors -> Potential market support, while FIIs net selling -> Negative sentiment from foreign investors -> Potential market pressure.\nCONFIDENCE: 70\nKILL IF: The FII/DII data starts to show a convergence in sentiment, with both domestic and foreign investors either buying or selling.\nTIMEFRAME: 20 days\nASSET: NIFTY50\n\n",
+    "timestamp": "2026-04-09T16:51:47.040013"
+  },
+  {
+    "title": "WARN Act Provisions and Market Volatility",
+    "chain": "WARN Act notices increase -> Mass layoffs or plant closures -> Increased market volatility -> Potential downturn in the market.",
+    "confidence": 75,
+    "direction": "bullish",
+    "kill_condition": "The WARN Act's provisions do not lead to increased notice periods for mass layoffs or plant closures.",
+    "timeframe_days": 25,
+    "assets": [
+      "SP500",
+      "NIFTY",
+      "INR"
+    ],
+    "raw_block": "THESIS: WARN Act Provisions and Market Volatility\nCHAIN: WARN Act notices increase -> Mass layoffs or plant closures -> Increased market volatility -> Potential downturn in the market.\nCONFIDENCE: 75\nKILL IF: The WARN Act's provisions do not lead to increased notice periods for mass layoffs or plant closures.\nTIMEFRAME: 25 days\nASSET: SP500\n\n**3. INDIA INTELLIGENCE:**\nThe Indian rupee (INR) has been depreciating against the US dollar, which could have a negative impact on the Nifty sectors. The ",
+    "timestamp": "2026-04-09T16:51:47.040073"
   }
 ]
