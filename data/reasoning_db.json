@@ -850,7 +850,7 @@
       "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> Which could have significant implications for the l",
       "id": "8f74962e8534",
       "timestamp": "2026-04-02T20:03:13.238642",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "general"
@@ -875,7 +875,7 @@
       "raw_excerpt": "OBSERVE: The upstream conclusion states that the WARN Act's provisions are likely to take on increased importance in a crisis regime, yet the brain's output indicates a 100% RISK_OFF regime, which contradicts the notion of a crisis regime.\n\nLOGIC: The brain's 100% RISK_OFF regime suggests a low probability of a crisis -> This would reduce the importance of the WARN Act's provisions -> Which implies that the upstream conclusion may be overstating the significance of the WARN Act in the current ma",
       "id": "53a89695f299",
       "timestamp": "2026-04-02T20:03:13.238716",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "general"
@@ -900,7 +900,7 @@
       "raw_excerpt": "OBSERVE: The brain's output indicates a 100% RISK_OFF regime, while the F&G index shows an \"extreme fear\" rating of 15.1, indicating a high level of market anxiety.\n\nLOGIC: The discrepancy between the brain's RISK_OFF regime and the F&G index's \"extreme fear\" rating suggests a potential mismatch between the market's sentiment and the brain's assessment -> This could imply that the market is expecting a crisis or significant volatility, despite the brain's RISK_OFF reading -> Which would suggest ",
       "id": "09c49dbf99f4",
       "timestamp": "2026-04-02T20:03:13.238763",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "vol_signal"
@@ -925,7 +925,7 @@
       "raw_excerpt": "OBSERVE: The brain's output indicates a 100% RISK_OFF regime, while the F&G index shows an \"extreme fear\" rating of 15.1, indicating a high level of market anxiety.\n\nLOGIC: The discrepancy between the brain's RISK_OFF regime and the F&G index's \"extreme fear\" rating suggests a potential mismatch between the market's sentiment and the brain's assessment -> This could imply that the market is expecting a crisis or significant volatility, despite the brain's RISK_OFF reading -> Which would suggest ",
       "id": "7ed9510195a4",
       "timestamp": "2026-04-02T20:03:13.238794",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "vol_signal"
@@ -950,7 +950,7 @@
       "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the various outputs from different agents, it's clear that there's a significant discrepancy between the brain's RISK_OFF regime and the F&G index's \"extreme fear\" rating. The brain suggests a low probability of a crisis, while the F&G index indicates a high level of market anxiety. Given this information, I side with the narrative that suggests Agents 1-3 are following the herd by not fully accounting for potential risks and uncert",
       "id": "d4a773f59332",
       "timestamp": "2026-04-02T20:03:13.239341",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "general"
@@ -973,7 +973,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "b5f701385ef9",
       "timestamp": "2026-04-02T20:03:13.239374",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "general"
@@ -7271,6 +7271,214 @@
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The WARN Act requires employers to provide written notice at least 60 days before mass layoffs or plant closures, and the current market conditions show a high level of volatility with a 35% chance of a transition regime."
+      ],
+      "logic": [
+        "The WARN Act's provisions imply that employers are preparing for potential downsizing, which could lead to increased unemployment and economic instability -> This could lead to a decrease in consumer spending and a subsequent decline in economic growth -> The current market volatility and potential for mass layoffs suggest a high level of uncertainty and risk."
+      ],
+      "counters": [
+        "The current market conditions also show a 38% chance of an uptrend in the SP500 and NIFTY50 indices, which could indicate a potential for economic growth and stability, contradicting the notion of a downturn."
+      ],
+      "conclusions": [
+        "Despite the counterargument, I conclude that the current market conditions and the WARN Act's provisions suggest a high level of uncertainty and risk, which could lead to a downturn in the economy."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before mass layoffs or plant closures, and the current market conditions show a high level of volatility with a 35% chance of a transition regime.\n\nLOGIC: The WARN Act's provisions imply that employers are preparing for potential downsizing, which could lead to increased unemployment and economic instability -> This could lead to a decrease in consumer spending and a subsequent decline in economic growth -> The c",
+      "id": "478b99b75db5",
+      "timestamp": "2026-04-09T20:38:35.227242",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The brain's output indicates a 35% chance of a transition regime, with the SP500 and NIFTY50 indices showing a 38% chance of an uptrend, while the WARN Act notices suggest a potential for mass layoffs or plant closures."
+      ],
+      "logic": [
+        "The coexistence of a potential uptrend in the SP500 and NIFTY50 indices and the WARN Act notices implies that the market is experiencing a high level of uncertainty -> This uncertainty could lead to increased volatility and a higher risk of a downturn -> The brain's output and the WARN Act notices suggest that the market is not fully pricing in the potential risks, which could lead to a correction."
+      ],
+      "counters": [
+        "The ETF data shows that most indices have a neutral signal, which could indicate that the market is not yet convinced of a downturn, and the uptrend in the SP500 and NIFTY50 indices could still prevail."
+      ],
+      "conclusions": [
+        "Despite the counterargument, I conclude that the combination of the brain's output, the WARN Act notices, and the ETF data suggests that the market is experiencing a high level of uncertainty, which could lead to increased volatility and a higher risk of a downturn."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The brain's output indicates a 35% chance of a transition regime, with the SP500 and NIFTY50 indices showing a 38% chance of an uptrend, while the WARN Act notices suggest a potential for mass layoffs or plant closures.\n\nLOGIC: The coexistence of a potential uptrend in the SP500 and NIFTY50 indices and the WARN Act notices implies that the market is experiencing a high level of uncertainty -> This uncertainty could lead to increased volatility and a higher risk of a downturn -> The brai",
+      "id": "c18e3c8fb939",
+      "timestamp": "2026-04-09T20:38:35.227305",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The current market conditions show a high level of volatility with a 35% chance of a transition regime, and the WARN Act notices suggest a potential for mass layoffs or plant closures."
+      ],
+      "logic": [
+        "The coexistence of a potential uptrend in the SP500 and NIFTY50 indices and the WARN Act notices implies that the market is experiencing a high level of uncertainty -> This uncertainty could lead to increased volatility and a higher risk of a downturn -> The brain's output and the WARN Act notices suggest that the market is not fully pricing in the potential risks, which could lead to a correction."
+      ],
+      "counters": [
+        "The current market conditions also show a 38% chance of an uptrend in the SP500 and NIFTY50 indices, which could indicate a potential for economic growth and stability, contradicting the notion of a downturn."
+      ],
+      "conclusions": [
+        "Based on the analysis, I conclude that the market is likely to remain highly volatile, with a high risk of a downturn due to the uncertainty and potential risks not being fully priced in."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions show a high level of volatility with a 35% chance of a transition regime, and the WARN Act notices suggest a potential for mass layoffs or plant closures.\n\nLOGIC: The coexistence of a potential uptrend in the SP500 and NIFTY50 indices and the WARN Act notices implies that the market is experiencing a high level of uncertainty -> This uncertainty could lead to increased volatility and a higher risk of a downturn -> The brain's output and the WARN Act notices",
+      "id": "e9d7bf265095",
+      "timestamp": "2026-04-09T20:38:35.227340",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "The current market conditions show a high level of volatility with a 35% chance of a transition regime, and the WARN Act notices suggest a potential for mass layoffs or plant closures."
+      ],
+      "logic": [
+        "The coexistence of a potential uptrend in the SP500 and NIFTY50 indices and the WARN Act notices implies that the market is experiencing a high level of uncertainty -> This uncertainty could lead to increased volatility and a higher risk of a downturn -> The brain's output and the WARN Act notices suggest that the market is not fully pricing in the potential risks, which could lead to a correction."
+      ],
+      "counters": [
+        "One could argue that the WARN Act notices are not a reliable indicator of future market performance, and that the current uptrend in the SP500 and NIFTY50 indices could continue despite the potential for mass layoffs or plant closures."
+      ],
+      "conclusions": [
+        "Based on the current market conditions and the WARN Act notices, it appears that Agents 1-3 are following the herd by not fully pricing in the potential risks, which could lead to a correction."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions show a high level of volatility with a 35% chance of a transition regime, and the WARN Act notices suggest a potential for mass layoffs or plant closures.\n\nLOGIC: The coexistence of a potential uptrend in the SP500 and NIFTY50 indices and the WARN Act notices implies that the market is experiencing a high level of uncertainty -> This uncertainty could lead to increased volatility and a higher risk of a downturn -> The brain's output and the WARN Act notices",
+      "id": "aaf9238c017a",
+      "timestamp": "2026-04-09T20:38:35.227370",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "**1. RECONCILE contradictions between agents. Name which agent you side with and WHY.**\n\nAfter analyzing the output from various agents, I notice that there are contradictions between the agents' conc"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "downturn.",
+        "downturn is more comprehensive and considers multiple factors.",
+        "downturn\nCONFIDENCE: 70\nKILL IF: Significant decrease in WARN Act notices or sustained uptrend in SP500 and NIFTY50 indices\nTIMEFRAME: 30 days\nASSET: VIX (CBOE Volatility Index)\n\nTHESIS: Economic Growth and Stability\nCHAIN: Uptrend in SP500 and NIFTY50 indices -> Increased consumer spending -> Economic growth\nCONFIDENCE: 30\nKILL IF: Significant decrease in SP500 and NIFTY50 indices or increase in WARN Act notices\nTIMEFRAME: 30 days\nASSET: SP500 (S&P 500 Index)\n\n**3."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "**1. RECONCILE contradictions between agents. Name which agent you side with and WHY.**\n\nAfter analyzing the output from various agents, I notice that there are contradictions between the agents' conclusions. Agent 1-3 seem to be following the herd, not fully pricing in the potential risks, while the synthesis agent concludes a downturn. I side with the synthesis agent because it takes into account the WARN Act notices, the brain's output, and the market conditions, which all suggest a high leve",
+      "id": "3a94ddd7665b",
+      "timestamp": "2026-04-09T20:38:35.227871",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "The synthesis agent concludes a downturn, considering WARN Act notices, the brain's output, and market conditions."
+      ],
+      "logic": [
+        "The synthesis agent's conclusion is based on a comprehensive analysis of multiple factors -> This suggests a high level of uncertainty and risk in the market -> Which could lead to a downturn."
+      ],
+      "counters": [
+        "The uptrend in SP500 and NIFTY50 indices could indicate a period of economic growth and stability, contradicting the synthesis agent's conclusion."
+      ],
+      "conclusions": [
+        "The synthesis agent's conclusion is more comprehensive, but the counterargument highlights the complexity of the market, and the outcome is uncertain."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\nOBSERVE: The synthesis agent concludes a downturn, considering WARN Act notices, the brain's output, and market conditions.\nLOGIC: The synthesis agent's conclusion is based on a comprehensive analysis of multiple factors -> This suggests a high level of uncertainty and risk in the market -> Which could lead to a downturn.\nCOUNTER: The uptrend in SP500 and NIFTY50 indices could indicate a period of economic growth and stability, contradicting the synthesis ",
+      "id": "06ac2536d33c",
+      "timestamp": "2026-04-09T20:38:35.227987",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "THESIS - Economic Growth and Stability (CONFIDENCE: 30)"
+      ],
+      "logic": [
+        "The low confidence level in this thesis -> Indicates a high level of uncertainty and risk -> Which could lead to a downturn, contradicting this thesis."
+      ],
+      "counters": [
+        "The uptrend in SP500 and NIFTY50 indices could support this thesis, despite the low confidence level."
+      ],
+      "conclusions": [
+        "This thesis is the weakest due to its low confidence level and the high level of uncertainty in the market."
+      ],
+      "dependencies": [
+        "A significant decrease in WARN Act notices or a sustained uptrend in SP500 and NIFTY50 indices would change my mind."
+      ],
+      "falsifications": [
+        "The market experiences a downturn despite a sustained uptrend in SP500 and NIFTY50 indices."
+      ],
+      "assets": [],
+      "raw_excerpt": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\nOBSERVE: The synthesis agent concludes a downturn, considering WARN Act notices, the brain's output, and market conditions.\nLOGIC: The synthesis agent's conclusion is based on a comprehensive analysis of multiple factors -> This suggests a high level of uncertainty and risk in the market -> Which could lead to a downturn.\nCOUNTER: The uptrend in SP500 and NIFTY50 indices could indicate a period of economic growth and stability, contradicting the synthesis ",
+      "id": "8d7be86a53d6",
+      "timestamp": "2026-04-09T20:38:35.227987",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "The brain's output indicates a TRANSITION regime (35%), with a high level of uncertainty in the market."
+      ],
+      "logic": [
+        "The transition regime -> Indicates a high level of uncertainty and risk -> Which could lead to a sudden change in market conditions, catching investors off guard."
+      ],
+      "counters": [
+        "The uptrend in SP500 and NIFTY50 indices could indicate a period of economic growth and stability, reducing the likelihood of a sudden change."
+      ],
+      "conclusions": [
+        "The biggest blind spot is the potential for a sudden change in market conditions, which could be triggered by unexpected events or changes in market sentiment."
+      ],
+      "dependencies": [
+        "A significant increase in consumer spending and a sustained uptrend in SP500 and NIFTY50 indices would strengthen this thesis."
+      ],
+      "falsifications": [
+        "The market experiences a downturn despite a sustained uptrend in SP500 and NIFTY50 indices."
+      ],
+      "assets": [],
+      "raw_excerpt": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\nOBSERVE: The synthesis agent concludes a downturn, considering WARN Act notices, the brain's output, and market conditions.\nLOGIC: The synthesis agent's conclusion is based on a comprehensive analysis of multiple factors -> This suggests a high level of uncertainty and risk in the market -> Which could lead to a downturn.\nCOUNTER: The uptrend in SP500 and NIFTY50 indices could indicate a period of economic growth and stability, contradicting the synthesis ",
+      "id": "ff0e8bf89cce",
+      "timestamp": "2026-04-09T20:38:35.227987",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
     }
   ],
   "pattern_quality": {
@@ -7280,6 +7488,10 @@
     },
     "vol_signal|RISK_OFF": {
       "correct": 0,
+      "total": 1
+    },
+    "general|TRANSITION": {
+      "correct": 1,
       "total": 1
     }
   },

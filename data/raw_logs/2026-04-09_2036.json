@@ -1,0 +1,505 @@
+{
+  "timestamp": "2026-04-09 20:36",
+  "regime": {
+    "regime": "TRANSITION",
+    "confidence": 0.35,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.0,
+      "TRANSITION": 0.5,
+      "RISK_ON": 0.5,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 19.5 18-25: uncertain",
+      "VIX 10d -23.6%: vol crush"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$34.60B|TRIAD NATIONAL SECURITY, LLC|None|IGF::CL::IGF COMPETITION FOR MANAGEMENT AND OPERATION OF LOS ALAMOS NATIONAL LAB",
+      "$17.27B|HONEYWELL FEDERAL MANUFACTURING & TECHNOLOGIES, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATION OF THE NATIONAL SECURITY CAMPUS -- CONT",
+      "$16.91B|BECHTEL NATIONAL, INC.|None|None",
+      "$14.54B|THE LELAND STANFORD JUNIOR UNIVERSITY|None|OPERATION AND MAINTENANCE                                   LINEAR ACCELLERATOR",
+      "$4.47B|FLUOR-BWXT PORTSMOUTH LLC|None|PORTSMOUTH GASEOUS DIFFUSION PLANT DECONTAMINATION AND DECOMMISSIONING PROJECT",
+      "$2.19B|UNITED CLEANUP OAK RIDGE LLC|None|OAK RIDGE RESERVATION CLEANUP CONTRACT TASK ORDERS",
+      "$2.02B|FERMI FORWARD DISCOVERY GROUP, LLC|None|MANAGEMENT AND OPERATING CONTRACT FOR THE FERMI NATIONAL ACCELERATOR LABORATORY ",
+      "$1.70B|CENTRAL PLATEAU CLEANUP COMPANY, LLC|None|HANFORD CENTRAL PLATEAU CLEANUP CONTRACT - TASK ORDER 4 - END STATES & BASE OPS.",
+      "$1.55B|NORTHROP GRUMMAN SYSTEMS CORPORATION|None|IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUILDS UPON THE SUCCESS",
+      "$1.54B|PERATON INC.|None|THE EXPLORATION AND SPACE COMMUNICATIONS PROJECTS DIVISION (ESC) IS A NATIONAL R",
+      "$1.44B|CALIFORNIA INSTITUTE OF TECHNOLOGY|None|DEEP SPACE NETWORK (DSN)  THE CONTRACT IS THE SPONSORING AGREEMENT BETWEEN THE N",
+      "$1.35B|IDAHO ENVIRONMENTAL COALITION LLC|None|THE PURPOSE OF THIS ACTION IS TO AWARD THE ICP TEN YEAR PLAN HYBRID TASK ORDER U",
+      "$1.26B|AT&T ENTERPRISES, LLC|None|ENTERPRISE DATA NETWORK SERVICES CARRIER B",
+      "$1.09B|BOOZ ALLEN HAMILTON INC|None|TASK ORDER AWARD",
+      "$0.89B|ISOTEK SYSTEMS, LLC|None|U-233 DISPOSITION AND BUILDING 3019-PLANNING AND DESIGN (PHASE I) FOR PROCESSING"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Jefferson, Economic Outlook and the Labor Market",
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments",
+      "[ECB] Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 February 2026"
+    ],
+    "policy": [
+      "[Rule] Modification of Class E Airspace; Denver International Airport, Denver, CO"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "09-Apr-2026",
+        "buyValue": "15968.21",
+        "sellValue": "15012.31",
+        "netValue": "955.9"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "09-Apr-2026",
+        "buyValue": "15746.32",
+        "sellValue": "17457.51",
+        "netValue": "-1711.19"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.54,
+        "chg": 0.58,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.56,
+        "chg": 0.68,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 0.5,
+        "chg": 0.57,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.43,
+        "chg": 0.78,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.44,
+        "chg": -0.25,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 0.66,
+        "chg": 0.11,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 0.73,
+        "chg": 0.0,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 0.8,
+        "chg": -0.26,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 0.43,
+        "chg": -0.18,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 0.91,
+        "chg": -1.24,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 0.77,
+        "chg": 2.22,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 0.45,
+        "chg": 0.17,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.55,
+        "chg": 0.25,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 0.9,
+        "chg": 0.79,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": 0.935,
+        "b_chg": 0.617,
+        "same": true,
+        "div": 0.318,
+        "interp": "Gold/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": 0.112,
+        "b_chg": 0.617,
+        "same": true,
+        "div": 0.505,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": -0.026,
+        "b_chg": 0.617,
+        "same": false,
+        "div": 0.643,
+        "interp": "Dr Copper/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": -0.308,
+        "b_chg": 0.935,
+        "same": false,
+        "div": 1.243,
+        "interp": "Dollar/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": -7.367,
+        "b_chg": 0.617,
+        "same": false,
+        "div": 7.984,
+        "interp": "Vol/Equity",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": 4.322,
+        "b_chg": 0.17,
+        "same": true,
+        "div": 4.152,
+        "interp": "Oil/INR",
+        "flag": "normal"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": 0.047,
+        "b_chg": 0.935,
+        "same": true,
+        "div": 0.888,
+        "interp": "Rates/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": 1.834,
+        "b_chg": 0.828,
+        "same": true,
+        "div": 1.006,
+        "interp": "Crypto/Tech",
+        "flag": "normal"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": -0.253,
+        "b_chg": 0.617,
+        "same": false,
+        "div": 0.87,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": -0.026,
+        "b_chg": 4.322,
+        "same": false,
+        "div": 4.348,
+        "interp": "Copper/Oil",
+        "flag": "DIVERGENCE"
+      }
+    ],
+    "anomalies": [
+      "BREAK VIX/SP500: A-7.37% B+0.62%",
+      "BREAK COPPER/OIL_WTI: A-0.03% B+4.32%"
+    ]
+  },
+  "tier4": {
+    "news_len": 10810,
+    "gdelt_len": 17
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 36.1,
+      "rating": "fear",
+      "prev_week": 19.0,
+      "prev_month": 22.2
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": 0.181211,
+    "patterns": 6
+  },
+  "agents": {
+    "upstream": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before mass layoffs or plant closures, and the current market conditions show a high level of volatility with a 35% chance of a transition regime.\n\nLOGIC: The WARN Act's provisions imply that employers are preparing for potential downsizing, which could lead to increased unemployment and economic instability -> This could lead to a decrease in consumer spending and a subsequent decline in economic growth -> The current market volatility and potential for mass layoffs suggest a high level of uncertainty and risk.\n\nCOUNTER: The current market conditions also show a 38% chance of an uptrend in the SP500 and NIFTY50 indices, which could indicate a potential for economic growth and stability, contradicting the notion of a downturn.\n\nCONCLUDE: Despite the counterargument, I conclude that the current market conditions and the WARN Act's provisions suggest a high level of uncertainty and risk, which could lead to a downturn in the economy.\n\nDEPENDS ON: The single data point that would change my mind is a significant increase in the SP500 and NIFTY50 indices, indicating a strong economic growth trend, which would suggest that the WARN Act's provisions are not a significant indicator of a potential downturn.\n\nWRONG IF: If the number of WARN Act notices decreases significantly, indicating a reduction in planned mass layoffs or plant closures, my conclusion would be proven wrong, and the market conditions would suggest a more stable economic environment.",
+    "flow": "OBSERVE: The brain's output indicates a 35% chance of a transition regime, with the SP500 and NIFTY50 indices showing a 38% chance of an uptrend, while the WARN Act notices suggest a potential for mass layoffs or plant closures.\n\nLOGIC: The coexistence of a potential uptrend in the SP500 and NIFTY50 indices and the WARN Act notices implies that the market is experiencing a high level of uncertainty -> This uncertainty could lead to increased volatility and a higher risk of a downturn -> The brain's output and the WARN Act notices suggest that the market is not fully pricing in the potential risks, which could lead to a correction.\n\nCOUNTER: The ETF data shows that most indices have a neutral signal, which could indicate that the market is not yet convinced of a downturn, and the uptrend in the SP500 and NIFTY50 indices could still prevail.\n\nCONCLUDE: Despite the counterargument, I conclude that the combination of the brain's output, the WARN Act notices, and the ETF data suggests that the market is experiencing a high level of uncertainty, which could lead to increased volatility and a higher risk of a downturn.\n\nDEPENDS ON: The single data point that would change my mind is a significant increase in the Brier score, indicating a higher confidence in the brain's output, which would suggest that the market is more likely to experience a downturn.\n\nWRONG IF: If the number of WARN Act notices decreases significantly, and the SP500 and NIFTY50 indices continue to show a strong uptrend, my conclusion would be proven wrong, and the market conditions would suggest a lower risk of a downturn.",
+    "market": "OBSERVE: The current market conditions show a high level of volatility with a 35% chance of a transition regime, and the WARN Act notices suggest a potential for mass layoffs or plant closures.\n\nLOGIC: The coexistence of a potential uptrend in the SP500 and NIFTY50 indices and the WARN Act notices implies that the market is experiencing a high level of uncertainty -> This uncertainty could lead to increased volatility and a higher risk of a downturn -> The brain's output and the WARN Act notices suggest that the market is not fully pricing in the potential risks, which could lead to a correction.\n\nCOUNTER: The current market conditions also show a 38% chance of an uptrend in the SP500 and NIFTY50 indices, which could indicate a potential for economic growth and stability, contradicting the notion of a downturn.\n\nCONCLUDE: Based on the analysis, I conclude that the market is likely to remain highly volatile, with a high risk of a downturn due to the uncertainty and potential risks not being fully priced in.\n\nDEPENDS ON: The single data point that would change my mind is a significant increase in the SP500 and NIFTY50 indices, indicating a strong uptrend and reducing the uncertainty and risk of a downturn.\n\nWRONG IF: My conclusion is wrong if the market experiences a sustained uptrend, with the SP500 and NIFTY50 indices consistently increasing, and the WARN Act notices prove to be a false signal, indicating no significant mass layoffs or plant closures.",
+    "narrative": "OBSERVE: The current market conditions show a high level of volatility with a 35% chance of a transition regime, and the WARN Act notices suggest a potential for mass layoffs or plant closures.\n\nLOGIC: The coexistence of a potential uptrend in the SP500 and NIFTY50 indices and the WARN Act notices implies that the market is experiencing a high level of uncertainty -> This uncertainty could lead to increased volatility and a higher risk of a downturn -> The brain's output and the WARN Act notices suggest that the market is not fully pricing in the potential risks, which could lead to a correction.\n\nCOUNTER: One could argue that the WARN Act notices are not a reliable indicator of future market performance, and that the current uptrend in the SP500 and NIFTY50 indices could continue despite the potential for mass layoffs or plant closures.\n\nCONCLUDE: Based on the current market conditions and the WARN Act notices, it appears that Agents 1-3 are following the herd by not fully pricing in the potential risks, which could lead to a correction.\n\nDEPENDS ON: The single data point that would change my mind is a significant decrease in the WARN Act notices, indicating a lower risk of mass layoffs or plant closures, which could lead to a decrease in market volatility and a lower risk of a downturn.\n\nWRONG IF: The market experiences a significant uptrend in the next quarter, with the SP500 and NIFTY50 indices reaching new highs, and the WARN Act notices proving to be a false indicator of future market performance.",
+    "synthesis": "**1. RECONCILE contradictions between agents. Name which agent you side with and WHY.**\n\nAfter analyzing the output from various agents, I notice that there are contradictions between the agents' conclusions. Agent 1-3 seem to be following the herd, not fully pricing in the potential risks, while the synthesis agent concludes a downturn. I side with the synthesis agent because it takes into account the WARN Act notices, the brain's output, and the market conditions, which all suggest a high level of uncertainty and risk. The synthesis agent's conclusion of a downturn is more comprehensive and considers multiple factors.\n\n**2. Generate THESES using the format:**\n\nTHESIS: Market Volatility and Uncertainty\nCHAIN: WARN Act notices increase -> Mass layoffs or plant closures -> Decreased consumer spending -> Economic downturn\nCONFIDENCE: 70\nKILL IF: Significant decrease in WARN Act notices or sustained uptrend in SP500 and NIFTY50 indices\nTIMEFRAME: 30 days\nASSET: VIX (CBOE Volatility Index)\n\nTHESIS: Economic Growth and Stability\nCHAIN: Uptrend in SP500 and NIFTY50 indices -> Increased consumer spending -> Economic growth\nCONFIDENCE: 30\nKILL IF: Significant decrease in SP500 and NIFTY50 indices or increase in WARN Act notices\nTIMEFRAME: 30 days\nASSET: SP500 (S&P 500 Index)\n\n**3. INDIA INTELLIGENCE:**\n\n* INR: The Indian rupee may experience high volatility due to the uncertainty in the global market.\n* Nifty sectors: The Nifty 50 index may follow the global market trend, with a potential downturn.\n* FII/DII read: Foreign institutional investors (FII) may reduce their investments in the Indian market due to the global uncertainty, while domestic institutional investors (DII) may increase their investments.\n* RBI: The Reserve Bank of India (RBI) may maintain a cautious stance and keep interest rates low to support economic growth.\n* Risks: The Indian economy may face risks from the global downturn, trade tensions, and domestic political uncertainty.\n* Opportunities: The Indi",
+    "adversary": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\nOBSERVE: The synthesis agent concludes a downturn, considering WARN Act notices, the brain's output, and market conditions.\nLOGIC: The synthesis agent's conclusion is based on a comprehensive analysis of multiple factors -> This suggests a high level of uncertainty and risk in the market -> Which could lead to a downturn.\nCOUNTER: The uptrend in SP500 and NIFTY50 indices could indicate a period of economic growth and stability, contradicting the synthesis agent's conclusion.\nCONCLUDE: The synthesis agent's conclusion is more comprehensive, but the counterargument highlights the complexity of the market, and the outcome is uncertain.\nDEPENDS ON: A significant decrease in WARN Act notices or a sustained uptrend in SP500 and NIFTY50 indices would change my mind.\nWRONG IF: The market experiences a downturn despite a sustained uptrend in SP500 and NIFTY50 indices.\n\n**WEAKEST THESIS**\n\nOBSERVE: THESIS - Economic Growth and Stability (CONFIDENCE: 30)\nLOGIC: The low confidence level in this thesis -> Indicates a high level of uncertainty and risk -> Which could lead to a downturn, contradicting this thesis.\nCOUNTER: The uptrend in SP500 and NIFTY50 indices could support this thesis, despite the low confidence level.\nCONCLUDE: This thesis is the weakest due to its low confidence level and the high level of uncertainty in the market.\nDEPENDS ON: A significant increase in consumer spending and a sustained uptrend in SP500 and NIFTY50 indices would strengthen this thesis.\nWRONG IF: The market experiences a downturn despite a sustained uptrend in SP500 and NIFTY50 indices.\n\n**BIGGEST BLIND SPOT**\n\nOBSERVE: The brain's output indicates a TRANSITION regime (35%), with a high level of uncertainty in the market.\nLOGIC: The transition regime -> Indicates a high level of uncertainty and risk -> Which could lead to a sudden change in market conditions, catching investors off guard.\nCOUNTER: The uptrend in SP500 and NIFTY50 indices could indicate "
+  },
+  "reasoning": {
+    "chains": 8,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-09T20:36:02.270650"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T20:36:03.422298"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-09T20:36:24.469150"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-09T20:36:24.981187"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T20:36:25.231496"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T20:36:25.476158"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T20:36:25.719073"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T20:36:25.961239"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T20:36:26.195560"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T20:36:26.458408"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T20:36:26.695909"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T20:36:27.001469"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T20:36:27.300647"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T20:36:27.547457"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-09T20:36:27.748323"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-09T20:36:28.689792"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T20:36:28.777443"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T20:36:29.193610"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T20:36:30.685192"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T20:36:30.894340"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-09T20:36:41.023566"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T20:36:42.499688"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T20:36:42.918269"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-09T20:36:43.444605"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T20:36:44.008604"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-09T20:36:44.009485"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T20:36:44.137913"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T20:36:45.056807"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T20:36:45.425249"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-09T20:36:46.204580"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-09T20:36:46.624538"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T20:36:46.744799"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-09T20:36:47.949030"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-09T20:36:50.447030"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-09T20:36:50.447049"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-09T20:37:09.604967"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T20:37:09.835933"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-09T20:37:13.794402"
+    },
+    "GDELT": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=14)",
+      "ts": "2026-04-09T20:37:33.196198"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T20:37:33.410304"
+    }
+  }
+}
