@@ -660,5 +660,34 @@
     ],
     "raw_block": "THESIS: Market Volatility Ahead\nCHAIN: High crisis regime probability -> Increased market volatility -> Potential for sudden and significant market movements -> Investors should exercise caution and consider risk management strategies.\nCONFIDENCE: 70\nKILL IF: The F&G index score drops below 20, indicating a shift from fear to greed.\nTIMEFRAME: 30 days\nASSET: VIX (Volatility Index)\n\n#",
     "timestamp": "2026-04-09T06:03:09.544741"
+  },
+  {
+    "title": "Market Regime Transition**",
+    "chain": "** Brain's regime transition signal -> Increased market volatility -> Shift in investor strategies -> Potential for significant market movements",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** The market fails to exhibit increased volatility within the next 30 days.",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500"
+    ],
+    "raw_block": "THESIS: Market Regime Transition**\n- **CHAIN:** Brain's regime transition signal -> Increased market volatility -> Shift in investor strategies -> Potential for significant market movements\n- **CONFIDENCE:** 85\n- **KILL IF:** The market fails to exhibit increased volatility within the next 30 days.\n- **TIMEFRAME:** 30 days\n- **ASSET:** SP500\n\n**",
+    "timestamp": "2026-04-09T10:22:51.428196"
+  },
+  {
+    "title": "Economic Indicator Shift**",
+    "chain": "** Upward trends in SP500, NIFTY50, GOLD, and BITCOIN -> Increased investor confidence -> Potential economic growth -> Increased demand for commodities",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** Any of the mentioned assets experiences a significant downturn within the next 20 days.",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500",
+      "NIFTY",
+      "GOLD",
+      "BITCOIN"
+    ],
+    "raw_block": "THESIS: Economic Indicator Shift**\n- **CHAIN:** Upward trends in SP500, NIFTY50, GOLD, and BITCOIN -> Increased investor confidence -> Potential economic growth -> Increased demand for commodities\n- **CONFIDENCE:** 80\n- **KILL IF:** Any of the mentioned assets experiences a significant downturn within the next 20 days.\n- **TIMEFRAME:** 20 days\n- **ASSET:** GOLD\n\n#",
+    "timestamp": "2026-04-09T10:22:51.428240"
   }
 ]
