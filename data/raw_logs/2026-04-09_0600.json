@@ -1,0 +1,507 @@
+{
+  "timestamp": "2026-04-09 06:00",
+  "regime": {
+    "regime": "TRANSITION",
+    "confidence": 0.75,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.0,
+      "TRANSITION": 0.75,
+      "RISK_ON": 0.25,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 24.2 18-25: uncertain"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$34.60B|TRIAD NATIONAL SECURITY, LLC|None|IGF::CL::IGF COMPETITION FOR MANAGEMENT AND OPERATION OF LOS ALAMOS NATIONAL LAB",
+      "$17.27B|HONEYWELL FEDERAL MANUFACTURING & TECHNOLOGIES, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATION OF THE NATIONAL SECURITY CAMPUS -- CONT",
+      "$16.91B|BECHTEL NATIONAL, INC.|None|None",
+      "$14.54B|THE LELAND STANFORD JUNIOR UNIVERSITY|None|OPERATION AND MAINTENANCE                                   LINEAR ACCELLERATOR",
+      "$4.47B|FLUOR-BWXT PORTSMOUTH LLC|None|PORTSMOUTH GASEOUS DIFFUSION PLANT DECONTAMINATION AND DECOMMISSIONING PROJECT",
+      "$2.19B|UNITED CLEANUP OAK RIDGE LLC|None|OAK RIDGE RESERVATION CLEANUP CONTRACT TASK ORDERS",
+      "$2.02B|FERMI FORWARD DISCOVERY GROUP, LLC|None|MANAGEMENT AND OPERATING CONTRACT FOR THE FERMI NATIONAL ACCELERATOR LABORATORY ",
+      "$1.70B|CENTRAL PLATEAU CLEANUP COMPANY, LLC|None|HANFORD CENTRAL PLATEAU CLEANUP CONTRACT - TASK ORDER 4 - END STATES & BASE OPS.",
+      "$1.54B|PERATON INC.|None|THE EXPLORATION AND SPACE COMMUNICATIONS PROJECTS DIVISION (ESC) IS A NATIONAL R",
+      "$1.44B|CALIFORNIA INSTITUTE OF TECHNOLOGY|None|DEEP SPACE NETWORK (DSN)  THE CONTRACT IS THE SPONSORING AGREEMENT BETWEEN THE N",
+      "$1.35B|IDAHO ENVIRONMENTAL COALITION LLC|None|THE PURPOSE OF THIS ACTION IS TO AWARD THE ICP TEN YEAR PLAN HYBRID TASK ORDER U",
+      "$1.26B|AT&T ENTERPRISES, LLC|None|ENTERPRISE DATA NETWORK SERVICES CARRIER B",
+      "$1.09B|BOOZ ALLEN HAMILTON INC|None|TASK ORDER AWARD",
+      "$0.89B|ISOTEK SYSTEMS, LLC|None|U-233 DISPOSITION AND BUILDING 3019-PLANNING AND DESIGN (PHASE I) FOR PROCESSING",
+      "$0.85B|ACCENTURE FEDERAL SERVICES LLC|None|THIS TASK ORDER IS FOR AN ENTERPRISE-WIDE DIGITAL AND CUSTOMER CARE PLATFORMS AN"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Jefferson, Economic Outlook and the Labor Market",
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments",
+      "[ECB] Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 February 2026"
+    ],
+    "policy": [
+      "[Rule] Revocation of Very High Frequency Omnidirectional Range Federal Airway V-320 in the Vicinity of Mount Pleasant, Michigan",
+      "[Rule] Amendment of Class B Airspace Description; Denver International Airport, CO",
+      "[Rule] The Sunset Rule-Aircraft Impact Assessment",
+      "[Rule] Citrus Tristeza Virus (CTV) Strain T36 Expressing Spinach Defensin Proteins SoD2, SoD2-1, and SoD2*; Exemption From the "
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "08-Apr-2026",
+        "buyValue": "29003.39",
+        "sellValue": "24835.22",
+        "netValue": "4168.17"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "08-Apr-2026",
+        "buyValue": "19092.05",
+        "sellValue": "21904.02",
+        "netValue": "-2811.97"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.96,
+        "chg": 0.04,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.88,
+        "chg": 0.02,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 0.91,
+        "chg": 0.22,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.6,
+        "chg": 0.97,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.51,
+        "chg": -0.01,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 0.82,
+        "chg": 0.03,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 1.22,
+        "chg": 0.11,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 1.13,
+        "chg": 0.35,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 0.44,
+        "chg": -0.84,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 1.3,
+        "chg": 0.8,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 1.26,
+        "chg": 1.06,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 0.72,
+        "chg": 1.23,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.85,
+        "chg": 0.0,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 0.72,
+        "chg": 0.22,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": -0.28,
+        "b_chg": 0.076,
+        "same": false,
+        "div": 0.356,
+        "interp": "Gold/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": 0.025,
+        "b_chg": 0.076,
+        "same": true,
+        "div": 0.051,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": -0.642,
+        "b_chg": 0.076,
+        "same": false,
+        "div": 0.718,
+        "interp": "Dr Copper/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": -0.558,
+        "b_chg": -0.28,
+        "same": true,
+        "div": 0.278,
+        "interp": "Dollar/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": 1.257,
+        "b_chg": 0.076,
+        "same": true,
+        "div": 1.181,
+        "interp": "Vol/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": 3.442,
+        "b_chg": -0.108,
+        "same": false,
+        "div": 3.55,
+        "interp": "Oil/INR",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": 0.185,
+        "b_chg": -0.28,
+        "same": false,
+        "div": 0.465,
+        "interp": "Rates/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": -1.345,
+        "b_chg": 0.098,
+        "same": false,
+        "div": 1.443,
+        "interp": "Crypto/Tech",
+        "flag": "normal"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": -0.012,
+        "b_chg": 0.076,
+        "same": false,
+        "div": 0.088,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": -0.642,
+        "b_chg": 3.442,
+        "same": false,
+        "div": 4.084,
+        "interp": "Copper/Oil",
+        "flag": "DIVERGENCE"
+      }
+    ],
+    "anomalies": [
+      "BREAK OIL_WTI/USDINR: A+3.44% B-0.11%",
+      "BREAK COPPER/OIL_WTI: A-0.64% B+3.44%"
+    ]
+  },
+  "tier4": {
+    "news_len": 9005,
+    "gdelt_len": 190
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 30.7,
+      "rating": "fear",
+      "prev_week": 19.0,
+      "prev_month": 22.2
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": 0.181211,
+    "patterns": 6
+  },
+  "agents": {
+    "upstream": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, as stated in California Labor Code, Section 1400.\n\nLOGIC: The WARN Act's provisions are designed to protect workers' rights and provide them with sufficient notice before a significant employment change -> This notice period allows workers to prepare and seek alternative employment -> The WARN Act's requirements imply that employers have a responsibility to plan and manage their workforce adjustments in a way that minimizes disruption to employees.\n\nCOUNTER: One could argue that the WARN Act's requirements are overly burdensome for employers, particularly small businesses or those facing sudden economic changes, and that the 60-day notice period may not be feasible in all situations.\n\nCONCLUDE: Despite the potential counterarguments, I conclude that the WARN Act's provisions are likely to play a crucial role in protecting workers' rights and providing them with necessary notice before a mass layoff or plant closure.\n\nDEPENDS ON: The single data point that would change my mind is evidence that the WARN Act's requirements have been consistently shown to have a negative impact on businesses or the overall economy, such as studies demonstrating that the notice period leads to significant increases in costs or decreases in competitiveness.\n\nWRONG IF: My conclusion is wrong if it can be shown that the WARN Act's provisions are regularly circumvented or ignored by employers without significant consequences, or if there is evidence that the notice period does not provide meaningful benefits to workers in terms of finding alternative employment or adjusting to changes.",
+    "flow": "OBSERVE: The brain's probabilities for the SP500, NIFTY50, GOLD, and BITCOIN indicate a high likelihood of an upward trend, with probabilities ranging from 38% to 44% for the 10-day and 30-day periods.\n\nLOGIC: The brain's probabilities suggest that the market is expecting a positive trend in the near future -> This could be due to various factors such as economic growth, low unemployment, or positive earnings reports -> The high likelihood of an upward trend implies that investors are optimistic about the market's performance.\n\nCOUNTER: One could argue that the brain's probabilities are based on historical data and may not account for unexpected events or changes in market sentiment, which could lead to a sudden reversal of the trend.\n\nCONCLUDE: Despite the potential counterarguments, I conclude that the market is likely to continue its upward trend in the near future, driven by positive economic indicators and investor sentiment.\n\nDEPENDS ON: The single data point that would change my mind is a significant increase in unemployment rates or a downturn in economic growth, which could indicate a shift in market sentiment and a potential reversal of the trend.\n\nWRONG IF: My conclusion is wrong if the market experiences a sudden and unexpected downturn, such as a global economic shock or a major geopolitical event, which could lead to a rapid decline in asset prices and a reversal of the trend.\n\nOBSERVE: The ETF data shows a neutral signal for most assets, with the exception of Energy and Semis, which have a high vol_ratio and chg.\n\nLOGIC: The neutral signal for most assets suggests that the market is not showing a strong bias towards any particular sector or asset class -> The high vol_ratio and chg for Energy and Semis may indicate a potential opportunity for growth in these sectors -> The market may be waiting for a catalyst to drive prices higher.\n\nCOUNTER: One could argue that the neutral signal is a sign of market uncertainty and a lack of conviction among investo",
+    "market": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime probability of 75%, suggest a high level of uncertainty and fear in the market.\n\nLOGIC: The F&G index score of 30.7, which is classified as \"fear\", implies that investors are cautious and risk-averse -> This caution is likely to lead to increased volatility and potential market fluctuations -> The high crisis regime probability suggests that the market is prone to sudden and significant changes.\n\nCOUNTER: One could argue that the brain's crisis regime probability is based on historical data and may not account for unexpected events or changes in market sentiment, which could lead to a sudden reversal of the trend.\n\nCONCLUDE: Despite the potential counterarguments, I conclude that the market is likely to remain highly volatile, with a high probability of sudden and significant changes.\n\nDEPENDS ON: The single data point that would change my mind is a significant decrease in the F&G index score, indicating a shift from \"fear\" to a more neutral or \"greed\" rating, which would suggest a decrease in market uncertainty and volatility.\n\nWRONG IF: My conclusion is wrong if the market experiences a sudden and significant rally, with the SP500 and other major indices increasing by 5-10% or more within a short period, indicating a shift from a crisis regime to a more stable and bullish regime.",
+    "narrative": "OBSERVE: The brain's crisis regime probability is 75%, indicating a high level of uncertainty and fear in the market, with the F&G index score of 30.7 classified as \"fear\".\n\nLOGIC: The high crisis regime probability and fear index score suggest that investors are cautious and risk-averse -> This caution is likely to lead to increased volatility and potential market fluctuations -> The high crisis regime probability implies that the market is prone to sudden and significant changes.\n\nCOUNTER: One could argue that the brain's crisis regime probability is based on historical data and may not accurately reflect the current market conditions, and that the fear index score may be influenced by factors other than market volatility.\n\nCONCLUDE: The market is likely to remain highly volatile, with a high probability of a crisis regime, and investors should exercise caution and consider risk management strategies.\n\nDEPENDS ON: The upcoming OPEC-JMMC Meetings on April 5th, which could significantly impact the market's direction and volatility.\n\nWRONG IF: The market experiences a sudden and significant downturn, contradicting the brain's crisis regime probability and fear index score, and instead enters a period of stability and growth.\n\nOBSERVE: Agents 1-3 are following the herd, with their observations and logic focusing on the WARN Act, market trends, and news reports, without providing a unique or contrarian perspective.\n\nLOGIC: The agents' lack of independent thought and analysis suggests that they are not providing edge, but rather consensus -> This consensus is likely to be reflected in the market's pricing, making it difficult to generate alpha -> The agents' failure to provide a unique perspective implies that they are not adding value to the investment decision-making process.\n\nCOUNTER: One could argue that the agents' observations and logic are based on a thorough analysis of the market and news reports, and that their consensus view is a reflection of the market's ov",
+    "synthesis": "Given the complex and multifaceted nature of the provided information, I will attempt to address each of the requested points in a structured manner.\n\n### 1. Reconcile Contradictions Between Agents\n\nUpon reviewing the provided text, it appears that Agents 1-3 are largely in agreement regarding the importance of the WARN Act, market trends, and the current state of volatility. However, the critical aspect of their analysis seems to be the lack of a contrarian view or unique perspective that could potentially offer a different insight into the market's future movements. Therefore, I side with the notion that these agents are following the herd rather than providing innovative or contrarian viewpoints.\n\n### 2. Generate Theses\n\nGiven the patterns and market conditions described:\n\nTHESIS: Market Volatility Ahead\nCHAIN: High crisis regime probability -> Increased market volatility -> Potential for sudden and significant market movements -> Investors should exercise caution and consider risk management strategies.\nCONFIDENCE: 70\nKILL IF: The F&G index score drops below 20, indicating a shift from fear to greed.\nTIMEFRAME: 30 days\nASSET: VIX (Volatility Index)\n\n### 3. India Intelligence\n\nOBSERVE: The Indian market, as represented by the Nifty50, shows a 44% probability of an upward trend in both the 10-day and 30-day periods, as indicated by the brain's probabilities.\n\nLOGIC: This suggests a positive outlook for the Indian market, potentially driven by domestic economic growth, government policies, or global investment trends -> A strong Indian market could lead to increased investment in key sectors such as technology, healthcare, or finance -> This, in turn, could have a positive implication for the overall Indian economy.\n\nCOUNTER: One could argue that the Indian market's performance is heavily influenced by global economic conditions and that any downturn in major economies could negatively impact India.\n\nCONCLUDE: Despite potential counterarguments, the Indian market s",
+    "adversary": "### Attack on Synthesizer's Output\n\nTo destroy the Synthesizer's output, we must critically evaluate the theses, regime, probabilities, signal weights, and identify the weakest thesis and the biggest blind spot.\n\n### Weakest Thesis\n\nThe weakest thesis appears to be the \"Market Volatility Ahead\" thesis, which is based on a crisis regime probability and the state of the VIX. This thesis is vulnerable because it relies heavily on the accuracy of the crisis regime probability and the VIX as indicators of market volatility. If these indicators are flawed or if the market behaves unexpectedly, the thesis may not hold.\n\nOBSERVE: The crisis regime probability is 75%, and the VIX is used as a signal for potential market volatility.\nLOGIC: A high crisis regime probability and a rising VIX could indicate increased market volatility -> This could lead to sudden and significant market movements -> Investors should exercise caution and consider risk management strategies.\nCOUNTER: The VIX can be a lagging indicator, and the crisis regime probability may not accurately capture the complexity of market dynamics.\nCONCLUDE: The \"Market Volatility Ahead\" thesis is the weakest due to its reliance on potentially flawed indicators.\nDEPENDS ON: The accuracy of the crisis regime probability and the VIX as indicators of market volatility.\nWRONG IF: The market exhibits low volatility despite high crisis regime probability and VIX readings.\n\n### Biggest Blind Spot\n\nThe biggest blind spot in the Synthesizer's output is the lack of consideration for exogenous factors that could significantly impact the market. The analysis focuses primarily on internal market dynamics and indicators, without adequately accounting for external factors such as geopolitical events, natural disasters, or global economic shifts. This oversight could lead to unexpected market movements that are not captured by the Synthesizer's models.\n\nOBSERVE: The analysis focuses on internal market indicators and probabilities.\nLO"
+  },
+  "reasoning": {
+    "chains": 11,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-09T06:00:04.010422"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T06:00:05.041975"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-09T06:00:26.175144"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-09T06:00:26.660534"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T06:00:26.931931"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T06:00:27.170742"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T06:00:27.439451"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T06:00:27.701828"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T06:00:28.015050"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T06:00:28.276481"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T06:00:28.518082"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T06:00:28.783802"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T06:00:29.047966"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-09T06:00:29.289363"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-09T06:00:29.490369"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-09T06:00:36.412052"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T06:00:36.486309"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T06:00:36.874834"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T06:00:39.176369"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T06:00:39.452812"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-09T06:00:49.518150"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T06:00:50.775508"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T06:00:51.229928"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-09T06:00:51.893680"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T06:00:52.525046"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-09T06:00:52.525989"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T06:00:52.622045"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T06:00:54.091885"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-09T06:00:54.736434"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-09T06:00:55.514953"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-09T06:00:56.000209"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T06:00:56.079375"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-09T06:00:57.024961"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-09T06:00:59.377148"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-09T06:00:59.377174"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-09T06:01:17.821648"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T06:01:17.973857"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-09T06:01:21.821038"
+    },
+    "GDELT": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T06:01:44.419394"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-09T06:01:44.478272"
+    }
+  }
+}
