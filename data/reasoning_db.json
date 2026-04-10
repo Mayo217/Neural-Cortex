@@ -998,7 +998,7 @@
       "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, with California Labor Code Section 1400 specifying similar requirements.\n\nLOGIC: The WARN Act's provisions are designed to protect workers' rights and provide them with sufficient notice in case of a mass layoff or plant closure -> This suggests that the Act is particularly relevant in times of economic uncertainty or crisis -> The current market conditions, with a high prob",
       "id": "e470f987b103",
       "timestamp": "2026-04-03T05:52:55.034450",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "general"
@@ -1023,7 +1023,7 @@
       "raw_excerpt": "OBSERVE: The upstream conclusion emphasizes the importance of the WARN Act's provisions in protecting workers' rights and providing sufficient notice in case of a mass layoff or plant closure, particularly in times of economic uncertainty or crisis.\n\nLOGIC: The upstream logic suggests that the WARN Act's provisions are crucial in times of economic uncertainty or crisis -> This implies that the current market conditions, with a high probability of a crisis regime, would require increased attentio",
       "id": "e9cc788ba390",
       "timestamp": "2026-04-03T05:52:55.034532",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "general"
@@ -1048,7 +1048,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating with a score of 15.3, and the brain's probability of a RISK_OFF regime is 100%.\n\nLOGIC: The high level of fear in the market, as indicated by the F&G index, suggests that investors are highly risk-averse and expecting a potential crisis -> This contradicts the brain's probability of a RISK_OFF regime, which implies a low-risk environment -> The discrepancy between the market's fear level and the ",
       "id": "d6c059c7d6be",
       "timestamp": "2026-04-03T05:52:55.034602",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "vol_signal"
@@ -1073,7 +1073,7 @@
       "raw_excerpt": "To provide a comprehensive analysis, I'll focus on the key points from the provided data, applying the required format for each analytical point.\n\n### 1. Market Sentiment and Risk\nOBSERVE: The brain's probability of a RISK_OFF regime is 100%, indicating a perceived low-risk environment, yet the F&G index shows an \"extreme fear\" rating with a score of 15.3.\n\nLOGIC: The discrepancy between the brain's regime probability and the market's fear level suggests a potential mismatch between perceived ri",
       "id": "8796e0718863",
       "timestamp": "2026-04-03T05:52:55.034776",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "vol_signal"
@@ -1102,7 +1102,7 @@
       "raw_excerpt": "To provide a comprehensive analysis, I'll focus on the key points from the provided data, applying the required format for each analytical point.\n\n### 1. Market Sentiment and Risk\nOBSERVE: The brain's probability of a RISK_OFF regime is 100%, indicating a perceived low-risk environment, yet the F&G index shows an \"extreme fear\" rating with a score of 15.3.\n\nLOGIC: The discrepancy between the brain's regime probability and the market's fear level suggests a potential mismatch between perceived ri",
       "id": "d41a062d9145",
       "timestamp": "2026-04-03T05:52:55.034776",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "credit_signal"
@@ -1131,7 +1131,7 @@
       "raw_excerpt": "To provide a comprehensive analysis, I'll focus on the key points from the provided data, applying the required format for each analytical point.\n\n### 1. Market Sentiment and Risk\nOBSERVE: The brain's probability of a RISK_OFF regime is 100%, indicating a perceived low-risk environment, yet the F&G index shows an \"extreme fear\" rating with a score of 15.3.\n\nLOGIC: The discrepancy between the brain's regime probability and the market's fear level suggests a potential mismatch between perceived ri",
       "id": "d72099586d44",
       "timestamp": "2026-04-03T05:52:55.034776",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "sentiment_contrarian"
@@ -1154,7 +1154,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "3715521302e2",
       "timestamp": "2026-04-03T05:52:55.034949",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "general"
@@ -1179,7 +1179,7 @@
       "raw_excerpt": "OBSERVE: Regime=RISK_OFF (100%)\nLOGIC: A 100% risk-off regime implies an extremely cautious or pessimistic outlook, which may lead to overly conservative decision-making -> This could result in missed opportunities for growth or failing to adapt to changing circumstances -> The regime's inflexibility may ultimately harm its overall performance.\nCOUNTER: The risk-off regime may be a prudent response to high levels of uncertainty or volatility, allowing for preservation of capital and reduction of",
       "id": "16b4138754e1",
       "timestamp": "2026-04-03T05:52:55.035007",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "general"
@@ -1208,7 +1208,7 @@
       "raw_excerpt": "OBSERVE: Regime=RISK_OFF (100%)\nLOGIC: A 100% risk-off regime implies an extremely cautious or pessimistic outlook, which may lead to overly conservative decision-making -> This could result in missed opportunities for growth or failing to adapt to changing circumstances -> The regime's inflexibility may ultimately harm its overall performance.\nCOUNTER: The risk-off regime may be a prudent response to high levels of uncertainty or volatility, allowing for preservation of capital and reduction of",
       "id": "a94f8859ccc9",
       "timestamp": "2026-04-03T05:52:55.035007",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "pattern_match"
@@ -7479,6 +7479,214 @@
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The current regime is TRANSITION (35%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up."
+      ],
+      "logic": [
+        "The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors."
+      ],
+      "counters": [
+        "The lack of clear validation signals for the current reasoning and the presence of aged-out reasoning from various sources -> could indicate that the current analysis is incomplete or inaccurate -> suggests that alternative explanations or factors may be at play."
+      ],
+      "conclusions": [
+        "The current market trends and regime may be driven by underlying economic or geopolitical factors, but the lack of clear validation signals and presence of aged-out reasoning warrant caution and further analysis."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current regime is TRANSITION (35%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up.\n\nLOGIC: The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors.\n\nCOUNTER: The lack of clear validatio",
+      "id": "b6677c0fc072",
+      "timestamp": "2026-04-10T06:21:19.759458",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The ETF data shows neutral signals for all assets, including SP500, Nasdaq, SmallCap, Gold, LongBond, HY, IG, EM, Defense, Energy, Semis, GoldMiners, Fins, and Utils, with varying vol_ratio and chg values."
+      ],
+      "logic": [
+        "The consistency of neutral signals across different asset classes -> suggests a lack of clear direction or trend in the market -> implies that the current market behavior may be driven by a balance of opposing forces or a wait-and-see approach from investors."
+      ],
+      "counters": [
+        "The presence of significant changes in vol_ratio and chg values for certain assets, such as Energy (-1.24) and Semis (2.22) -> could indicate that there are underlying trends or factors at play that are not captured by the neutral signals -> suggests that a more nuanced analysis of the data may be necessary to uncover potential opportunities or risks."
+      ],
+      "conclusions": [
+        "The current market behavior appears to be characterized by a lack of clear direction or trend, with neutral signals across different asset classes, but the presence of significant changes in vol_ratio and chg values for certain assets warrants further analysis to uncover potential underlying trends or factors."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The ETF data shows neutral signals for all assets, including SP500, Nasdaq, SmallCap, Gold, LongBond, HY, IG, EM, Defense, Energy, Semis, GoldMiners, Fins, and Utils, with varying vol_ratio and chg values.\n\nLOGIC: The consistency of neutral signals across different asset classes -> suggests a lack of clear direction or trend in the market -> implies that the current market behavior may be driven by a balance of opposing forces or a wait-and-see approach from investors.\n\nCOUNTER: The pre",
+      "id": "eb026e223616",
+      "timestamp": "2026-04-10T06:21:19.759541",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The current market trends and regime, with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up."
+      ],
+      "logic": [
+        "The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors."
+      ],
+      "counters": [
+        "The lack of clear validation signals for the current reasoning and the presence of aged-out reasoning from various sources -> could indicate that the current analysis is incomplete or inaccurate -> suggests that alternative explanations or factors may be at play."
+      ],
+      "conclusions": [
+        "The current market trends and regime may be driven by a complex interplay of factors, including economic and geopolitical developments, and it is essential to continue monitoring the markets for signs of change or validation of the current analysis."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market trends and regime, with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up.\n\nLOGIC: The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors.\n\nCOUNTER: The lack of clear validation ",
+      "id": "6d737b512663",
+      "timestamp": "2026-04-10T06:21:19.759587",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "The current regime is TRANSITION (35%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up."
+      ],
+      "logic": [
+        "The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors."
+      ],
+      "counters": [
+        "The lack of clear validation signals for the current reasoning and the presence of aged-out reasoning from various sources -> could indicate that the market is experiencing a period of uncertainty, making it challenging to predict the future direction of the markets."
+      ],
+      "conclusions": [
+        "The crowd believes in a bullish trend, with Agents 1-3 following the herd, as they are observing and analyzing similar market trends and data points."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current regime is TRANSITION (35%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up.\n\nLOGIC: The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors.\n\nCOUNTER: The lack of clear validatio",
+      "id": "ded30210a3b3",
+      "timestamp": "2026-04-10T06:21:19.759627",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "### RECONCILE Contradictions Between Agents\nGiven the current analysis and the aged-out reasoning from various sources, I side with the agent that suggests caution and further analysis due to the lack"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "upee's strength or weakness against major currencies could impact trade and investment, influencing the Nifty sectors.",
+        "downturn, geopolitical tensions, and domestic political instability could pose risks.",
+        "down persists, **then** consider it a potential signal for market uncertainty or a shift in investor preferences."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### RECONCILE Contradictions Between Agents\nGiven the current analysis and the aged-out reasoning from various sources, I side with the agent that suggests caution and further analysis due to the lack of clear validation signals for the current market trends and regime. This approach is prudent because it acknowledges the complexity of the market and the potential for underlying factors not yet fully understood or accounted for in the analysis.\n\n### Generate Theses\n#### THESIS: Market Transition",
+      "id": "dc7d3aa33f56",
+      "timestamp": "2026-04-10T06:21:19.760236",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "The current market trends and regime are characterized by a transition phase with similar trends across different markets and timeframes, but lack clear validation signals."
+      ],
+      "logic": [
+        "This suggests that the current analysis may be incomplete or inaccurate, implying alternative explanations or factors may be at play -> The complexity of the market and potential underlying factors not yet fully understood or accounted for in the analysis could lead to significant market shifts -> The need for continuous monitoring and analysis to better understand the complexities of the market is underscored."
+      ],
+      "counters": [
+        "The aged-out reasoning from various sources may be outdated, and the current trends could be driven by new, unforeseen factors that are not yet accounted for in the analysis."
+      ],
+      "conclusions": [
+        "The current market trends and regime are uncertain and require further analysis to understand the underlying factors driving the market behavior."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### Analyzing the Synthesizer's Output\n\nOBSERVE: The current market trends and regime are characterized by a transition phase with similar trends across different markets and timeframes, but lack clear validation signals.\nLOGIC: This suggests that the current analysis may be incomplete or inaccurate, implying alternative explanations or factors may be at play -> The complexity of the market and potential underlying factors not yet fully understood or accounted for in the analysis could lead to s",
+      "id": "c38268bca201",
+      "timestamp": "2026-04-10T06:21:19.760328",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "THESIS: Geopolitical Influence on Market Trends has a confidence level of 60."
+      ],
+      "logic": [
+        "The confidence level of 60 is lower compared to the THESIS: Market Transition and Economic Factors, which has a confidence level of 70 -> This suggests that the geopolitical influence on market trends is less certain -> The implication is that the potential for rapid market changes in response to geopolitical developments may be overstated."
+      ],
+      "counters": [
+        "Geopolitical events can have a significant and rapid impact on market trends, which may not be fully captured by the confidence level."
+      ],
+      "conclusions": [
+        "The THESIS: Geopolitical Influence on Market Trends is the weakest thesis due to its lower confidence level."
+      ],
+      "dependencies": [
+        "Clear signs of economic stability and low volatility across all markets."
+      ],
+      "falsifications": [
+        "Significant market shifts occur despite the presence of clear economic stability and low volatility."
+      ],
+      "assets": [],
+      "raw_excerpt": "### Analyzing the Synthesizer's Output\n\nOBSERVE: The current market trends and regime are characterized by a transition phase with similar trends across different markets and timeframes, but lack clear validation signals.\nLOGIC: This suggests that the current analysis may be incomplete or inaccurate, implying alternative explanations or factors may be at play -> The complexity of the market and potential underlying factors not yet fully understood or accounted for in the analysis could lead to s",
+      "id": "10791dbd9502",
+      "timestamp": "2026-04-10T06:21:19.760328",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "The analysis focuses on economic indicators, geopolitical events, and market trends, but does not explicitly consider the impact of technological advancements or demographic changes."
+      ],
+      "logic": [
+        "Technological advancements and demographic changes can have a significant impact on market trends and investor sentiment -> The lack of consideration of these factors may lead to incomplete or inaccurate analysis -> The implication is that the analysis may be missing critical information that could affect the market."
+      ],
+      "counters": [
+        "The analysis may be implicitly considering the impact of technological advancements and demographic changes through other factors, such as economic indicators and geopolitical events."
+      ],
+      "conclusions": [
+        "The biggest blind spot in the analysis is the lack of explicit consideration of technological advancements and demographic changes."
+      ],
+      "dependencies": [
+        "Sustained period of geopolitical calm and cooperation."
+      ],
+      "falsifications": [
+        "Rapid market changes occur in response to geopolitical developments, despite the low confidence level."
+      ],
+      "assets": [],
+      "raw_excerpt": "### Analyzing the Synthesizer's Output\n\nOBSERVE: The current market trends and regime are characterized by a transition phase with similar trends across different markets and timeframes, but lack clear validation signals.\nLOGIC: This suggests that the current analysis may be incomplete or inaccurate, implying alternative explanations or factors may be at play -> The complexity of the market and potential underlying factors not yet fully understood or accounted for in the analysis could lead to s",
+      "id": "778eaf866a65",
+      "timestamp": "2026-04-10T06:21:19.760328",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "sentiment_contrarian"
     }
   ],
   "pattern_quality": {
@@ -7491,8 +7699,8 @@
       "total": 1
     },
     "general|TRANSITION": {
-      "correct": 1,
-      "total": 1
+      "correct": 2,
+      "total": 2
     }
   },
   "meta_failures": []

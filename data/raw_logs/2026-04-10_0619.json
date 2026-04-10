@@ -1,0 +1,504 @@
+{
+  "timestamp": "2026-04-10 06:19",
+  "regime": {
+    "regime": "TRANSITION",
+    "confidence": 0.35,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.0,
+      "TRANSITION": 0.5,
+      "RISK_ON": 0.5,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 19.5 18-25: uncertain",
+      "VIX 10d -23.6%: vol crush"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$40.78B|LAWRENCE LIVERMORE NATIONAL SECURITY, LLC|None|TAS::89 0240::TAS THIS PERFORMANCE-BASED MANAGEMENT CONTRACT (PBMC) IS FOR THE M",
+      "$17.27B|HONEYWELL FEDERAL MANUFACTURING & TECHNOLOGIES, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATION OF THE NATIONAL SECURITY CAMPUS -- CONT",
+      "$16.91B|BECHTEL NATIONAL, INC.|None|None",
+      "$3.02B|OAK RIDGE ASSOCIATED UNIVERSITIES, INCORPORATED|None|IGF::OT::IGF MANAGEMENT OF THE OAK RIDGE INSTITUTE FOR SCIENCE AND EDUCATION",
+      "$1.87B|HARRIS CORPORATION|None|THE PURPOSE OF THIS DELIVERY ORDER AWARD IS TO ADD FUNDING FOR FTI TELECOMMUNICA",
+      "$1.59B|CALIFORNIA INSTITUTE OF TECHNOLOGY|None|MARS SAMPLE RETURN (MSR) PROGRAM - PHASE A 40-108270",
+      "$1.55B|NORTHROP GRUMMAN SYSTEMS CORPORATION|None|IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUILDS UPON THE SUCCESS",
+      "$1.54B|PERATON INC.|None|THE EXPLORATION AND SPACE COMMUNICATIONS PROJECTS DIVISION (ESC) IS A NATIONAL R",
+      "$1.44B|CALIFORNIA INSTITUTE OF TECHNOLOGY|None|DEEP SPACE NETWORK (DSN)  THE CONTRACT IS THE SPONSORING AGREEMENT BETWEEN THE N",
+      "$1.35B|IDAHO ENVIRONMENTAL COALITION LLC|None|THE PURPOSE OF THIS ACTION IS TO AWARD THE ICP TEN YEAR PLAN HYBRID TASK ORDER U",
+      "$1.26B|AT&T ENTERPRISES, LLC|None|ENTERPRISE DATA NETWORK SERVICES CARRIER B",
+      "$0.85B|ACCENTURE FEDERAL SERVICES LLC|None|THIS TASK ORDER IS FOR AN ENTERPRISE-WIDE DIGITAL AND CUSTOMER CARE PLATFORMS AN",
+      "$0.82B|LEIDOS, INC.|None|THE PURPOSE OF THIS TO IS TO PROVIDE RESEARCH, DESIGN, DEVELOPMENT, INTEGRATION,",
+      "$0.80B|PERATON INC.|None|OPERATIONAL PLANNING IMPLEMENTATION AND ASSESSMENT SERVICES (OPIAS) BASE AWARD.",
+      "$0.78B|CALIFORNIA INSTITUTE OF TECHNOLOGY|None|NASA ISRO SYNTHETIC APERTURE RADAR (NISAR) MISSION 89-17620"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Jefferson, Economic Outlook and the Labor Market",
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments",
+      "[ECB] Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 February 2026"
+    ],
+    "policy": [
+      "[Rule] Modification of Class E Airspace; Denver International Airport, Denver, CO"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "09-Apr-2026",
+        "buyValue": "15968.21",
+        "sellValue": "15012.31",
+        "netValue": "955.9"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "09-Apr-2026",
+        "buyValue": "15746.32",
+        "sellValue": "17457.51",
+        "netValue": "-1711.19"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.59,
+        "chg": 0.58,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.57,
+        "chg": 0.68,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 0.53,
+        "chg": 0.57,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.45,
+        "chg": 0.78,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.45,
+        "chg": -0.25,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 0.68,
+        "chg": 0.11,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 0.74,
+        "chg": 0.0,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 0.82,
+        "chg": -0.26,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 0.43,
+        "chg": -0.18,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 0.93,
+        "chg": -1.24,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 0.78,
+        "chg": 2.22,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 0.46,
+        "chg": 0.17,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.55,
+        "chg": 0.25,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 0.91,
+        "chg": 0.79,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": -0.196,
+        "b_chg": 0.617,
+        "same": false,
+        "div": 0.813,
+        "interp": "Gold/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": 0.112,
+        "b_chg": 0.617,
+        "same": true,
+        "div": 0.505,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": 0.835,
+        "b_chg": 0.617,
+        "same": true,
+        "div": 0.218,
+        "interp": "Dr Copper/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": 0.107,
+        "b_chg": -0.196,
+        "same": false,
+        "div": 0.303,
+        "interp": "Dollar/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": -7.367,
+        "b_chg": 0.617,
+        "same": false,
+        "div": 7.984,
+        "interp": "Vol/Equity",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": 0.521,
+        "b_chg": 0.387,
+        "same": true,
+        "div": 0.134,
+        "interp": "Oil/INR",
+        "flag": "normal"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": 0.047,
+        "b_chg": -0.196,
+        "same": false,
+        "div": 0.243,
+        "interp": "Rates/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": 1.382,
+        "b_chg": 0.828,
+        "same": true,
+        "div": 0.554,
+        "interp": "Crypto/Tech",
+        "flag": "normal"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": -0.253,
+        "b_chg": 0.617,
+        "same": false,
+        "div": 0.87,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": 0.835,
+        "b_chg": 0.521,
+        "same": true,
+        "div": 0.314,
+        "interp": "Copper/Oil",
+        "flag": "normal"
+      }
+    ],
+    "anomalies": [
+      "BREAK VIX/SP500: A-7.37% B+0.62%"
+    ]
+  },
+  "tier4": {
+    "news_len": 9731,
+    "gdelt_len": 17
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 36.1,
+      "rating": "fear",
+      "prev_week": 23.7,
+      "prev_month": 20.3
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": 0.181211,
+    "patterns": 6
+  },
+  "agents": {
+    "upstream": "OBSERVE: The current regime is TRANSITION (35%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up.\n\nLOGIC: The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors.\n\nCOUNTER: The lack of clear validation signals for the current reasoning and the presence of aged-out reasoning from various sources -> could indicate that the current analysis is incomplete or inaccurate -> suggests that alternative explanations or factors may be at play.\n\nCONCLUDE: The current market trends and regime may be driven by underlying economic or geopolitical factors, but the lack of clear validation signals and presence of aged-out reasoning warrant caution and further analysis.\n\nDEPENDS ON: A clear and significant change in the trend of one of the major markets (e.g., SP500, NIFTY50, GOLD, or BITCOIN) would change my mind about the current regime and market behavior.\n\nWRONG IF: The market trends and regime are found to be driven by a specific, identifiable factor (e.g., a new economic policy, geopolitical event, or technological innovation) that is not currently accounted for in the analysis, and this factor is proven to be the primary driver of the current market behavior.",
+    "flow": "OBSERVE: The ETF data shows neutral signals for all assets, including SP500, Nasdaq, SmallCap, Gold, LongBond, HY, IG, EM, Defense, Energy, Semis, GoldMiners, Fins, and Utils, with varying vol_ratio and chg values.\n\nLOGIC: The consistency of neutral signals across different asset classes -> suggests a lack of clear direction or trend in the market -> implies that the current market behavior may be driven by a balance of opposing forces or a wait-and-see approach from investors.\n\nCOUNTER: The presence of significant changes in vol_ratio and chg values for certain assets, such as Energy (-1.24) and Semis (2.22) -> could indicate that there are underlying trends or factors at play that are not captured by the neutral signals -> suggests that a more nuanced analysis of the data may be necessary to uncover potential opportunities or risks.\n\nCONCLUDE: The current market behavior appears to be characterized by a lack of clear direction or trend, with neutral signals across different asset classes, but the presence of significant changes in vol_ratio and chg values for certain assets warrants further analysis to uncover potential underlying trends or factors.\n\nDEPENDS ON: A clear and significant change in the signal of one of the major assets (e.g., SP500, Gold, or Semis) would change my mind about the current market behavior and potential trends.\n\nWRONG IF: The market behavior is found to be driven by a specific, identifiable factor (e.g., a new economic policy, geopolitical event, or technological innovation) that is not currently accounted for in the analysis, and this factor is proven to be the primary driver of the current market behavior, rendering the neutral signals and vol_ratio/chg values irrelevant.",
+    "market": "OBSERVE: The current market trends and regime, with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up.\n\nLOGIC: The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors.\n\nCOUNTER: The lack of clear validation signals for the current reasoning and the presence of aged-out reasoning from various sources -> could indicate that the current analysis is incomplete or inaccurate -> suggests that alternative explanations or factors may be at play.\n\nCONCLUDE: The current market trends and regime may be driven by a complex interplay of factors, including economic and geopolitical developments, and it is essential to continue monitoring the markets for signs of change or validation of the current analysis.\n\nDEPENDS ON: The VIX/SP500 correlation, which has broken down with a significant decrease in VIX (-7.37%) and an increase in SP500 (+0.62%), as this anomaly could indicate a shift in market sentiment or volatility.\n\nWRONG IF: The VIX/SP500 correlation reverts to its historical trend, with VIX increasing and SP500 decreasing, which would suggest that the current market trend is not sustainable and that a correction or reversal is imminent.",
+    "narrative": "OBSERVE: The current regime is TRANSITION (35%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up.\n\nLOGIC: The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors.\n\nCOUNTER: The lack of clear validation signals for the current reasoning and the presence of aged-out reasoning from various sources -> could indicate that the market is experiencing a period of uncertainty, making it challenging to predict the future direction of the markets.\n\nCONCLUDE: The crowd believes in a bullish trend, with Agents 1-3 following the herd, as they are observing and analyzing similar market trends and data points.\n\nDEPENDS ON: The single data point that would change my mind is a significant shift in the global economic indicators, such as a change in interest rates or a major geopolitical event, which would alter the market's risk assessment and potentially lead to a regime change.\n\nWRONG IF: The market experiences a sudden and significant downturn, contradicting the current bullish trend, and Agents 1-3 fail to adjust their analysis and predictions accordingly, indicating a failure to adapt to changing market conditions.",
+    "synthesis": "### RECONCILE Contradictions Between Agents\nGiven the current analysis and the aged-out reasoning from various sources, I side with the agent that suggests caution and further analysis due to the lack of clear validation signals for the current market trends and regime. This approach is prudent because it acknowledges the complexity of the market and the potential for underlying factors not yet fully understood or accounted for in the analysis.\n\n### Generate Theses\n#### THESIS: Market Transition and Economic Factors\n- **CHAIN**: Economic indicators (e.g., interest rates, GDP growth) -> Influence market trends (SP500, NIFTY50, GOLD, BITCOIN) -> Impact investor sentiment and market volatility -> Implication: Potential for significant market shifts based on economic policy changes.\n- **CONFIDENCE**: 70\n- **KILL IF**: Clear signs of economic stability and low volatility across all markets.\n- **TIMEFRAME**: 60 days\n- **ASSET**: SP500\n\n#### THESIS: Geopolitical Influence on Market Trends\n- **CHAIN**: Geopolitical events (e.g., conflicts, trade agreements) -> Affect global economic stability -> Influence market trends and investor sentiment -> Implication: Potential for rapid market changes in response to geopolitical developments.\n- **CONFIDENCE**: 60\n- **KILL IF**: Sustained period of geopolitical calm and cooperation.\n- **TIMEFRAME**: 90 days\n- **ASSET**: GOLD\n\n### India Intelligence\n- **INR**: The Indian Rupee's strength or weakness against major currencies could impact trade and investment, influencing the Nifty sectors.\n- **Nifty Sectors**: Watch for fluctuations in sectors like IT, Pharma, and Finance, which are heavily influenced by global trends and policies.\n- **FII/DII Read**: Foreign Institutional Investors (FII) and Domestic Institutional Investors (DII) activity can significantly impact the Nifty's performance, with FII inflows/outflows often being a bellwether for market sentiment.\n- **RBI**: The Reserve Bank of India's monetary policy decisions, especially ",
+    "adversary": "### Analyzing the Synthesizer's Output\n\nOBSERVE: The current market trends and regime are characterized by a transition phase with similar trends across different markets and timeframes, but lack clear validation signals.\nLOGIC: This suggests that the current analysis may be incomplete or inaccurate, implying alternative explanations or factors may be at play -> The complexity of the market and potential underlying factors not yet fully understood or accounted for in the analysis could lead to significant market shifts -> The need for continuous monitoring and analysis to better understand the complexities of the market is underscored.\nCOUNTER: The aged-out reasoning from various sources may be outdated, and the current trends could be driven by new, unforeseen factors that are not yet accounted for in the analysis.\nCONCLUDE: The current market trends and regime are uncertain and require further analysis to understand the underlying factors driving the market behavior.\nDEPENDS ON: Clear signs of economic stability and low volatility across all markets.\nWRONG IF: Significant market shifts occur despite the presence of clear economic stability and low volatility.\n\n### Weakest Thesis\n\nOBSERVE: THESIS: Geopolitical Influence on Market Trends has a confidence level of 60.\nLOGIC: The confidence level of 60 is lower compared to the THESIS: Market Transition and Economic Factors, which has a confidence level of 70 -> This suggests that the geopolitical influence on market trends is less certain -> The implication is that the potential for rapid market changes in response to geopolitical developments may be overstated.\nCOUNTER: Geopolitical events can have a significant and rapid impact on market trends, which may not be fully captured by the confidence level.\nCONCLUDE: The THESIS: Geopolitical Influence on Market Trends is the weakest thesis due to its lower confidence level.\nDEPENDS ON: Sustained period of geopolitical calm and cooperation.\nWRONG IF: Rapid market changes o"
+  },
+  "reasoning": {
+    "chains": 8,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-10T06:19:08.152219"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-10T06:19:09.129265"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-10T06:19:30.162214"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-10T06:19:30.629399"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-10T06:19:30.901356"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-10T06:19:31.157917"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-10T06:19:31.422876"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-10T06:19:31.677472"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-10T06:19:31.910855"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-10T06:19:32.151960"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-10T06:19:32.385279"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-10T06:19:32.626567"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-10T06:19:32.862819"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-10T06:19:33.104213"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-10T06:19:33.305271"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-10T06:19:34.295689"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-10T06:19:34.367917"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-10T06:19:34.773998"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-10T06:19:36.124976"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-10T06:19:36.472868"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-10T06:19:46.608700"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-10T06:19:47.614917"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-10T06:19:48.032842"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-10T06:19:48.448154"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-10T06:19:50.211415"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-10T06:19:50.212326"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-10T06:19:50.355619"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-10T06:19:51.248864"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-10T06:19:51.626818"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-10T06:19:52.415828"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-10T06:19:52.870278"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-10T06:19:53.010837"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-10T06:19:53.891089"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-10T06:19:56.327626"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-10T06:19:56.327662"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-10T06:20:12.578369"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-10T06:20:12.874822"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-10T06:20:16.401428"
+    },
+    "GDELT": {
+      "ok": false,
+      "detail": "HTTP 429",
+      "ts": "2026-04-10T06:20:17.477575"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-10T06:20:17.536327"
+    }
+  }
+}
