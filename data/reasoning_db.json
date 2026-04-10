@@ -2122,7 +2122,7 @@
       "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before mass layoffs or plant closures, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to provide notice to employees in the event of mass layoffs or plant closures -> The current market conditions, as indicated by the F&G index and the brain's crisis regime prob",
       "id": "911dc27ec4d4",
       "timestamp": "2026-04-03T19:58:43.861301",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -2147,7 +2147,7 @@
       "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, and the current market conditions indicate a high probability of a crisis regime, with the F&G index and other market indicators suggesting volatility and potential instability.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to provide notice to employees in the event of mass layoffs or plant closures -> The current market conditions, as indicated by the F&G index and th",
       "id": "8f97c163d8ac",
       "timestamp": "2026-04-03T19:58:43.861388",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -2172,7 +2172,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%.\n\nLOGIC: The combination of extreme fear in the market and a high crisis regime probability suggests that investors are highly risk-averse and expecting a potential downturn -> This could lead to a decrease in stock prices and an increase in safe-haven assets such as bonds and gold -> However, the current breakdown in co",
       "id": "226607dfab97",
       "timestamp": "2026-04-03T19:58:43.861424",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -2197,7 +2197,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%. The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to provide notice to employees in the event of mass layoffs or plant closures.\n\nLOGIC: The combination of extreme fear in the market and a high crisis regime probability suggests that investors are highly risk-",
       "id": "088166944a98",
       "timestamp": "2026-04-03T19:58:43.861457",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -2226,7 +2226,7 @@
       "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the various agents, I side with the **UPSTREAM** agent. The UPSTREAM agent highlights the importance of the WARN Act in a crisis regime, which is consistent with the current market conditions and the brain's crisis regime probability. The other agents, such as FLOW, MARKET, and NARRATIVE, also support this conclusion, albeit with some caveats and counterarguments.\n\n**THESIS**\n\nTHESIS: Crisis Regime Probability\nCHAIN: High crisis regime",
       "id": "114b965f5fc3",
       "timestamp": "2026-04-03T19:58:43.861642",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -2251,7 +2251,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%.\n\nLOGIC: The combination of extreme fear in the market and a high crisis regime probability suggests that investors are highly risk-averse and expecting a potential downturn -> This could lead to a decrease in stock prices and an increase in safe-haven assets such as bonds and gold -> However, the current breakdown in co",
       "id": "1ee12162243b",
       "timestamp": "2026-04-03T19:58:43.861693",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -7977,6 +7977,264 @@
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The current market conditions suggest a high level of uncertainty and risk, with the brain's crisis regime probability at 67% and the market trends for SP500, NIFTY50, GOLD, and BITCOIN showing a mix of upward and downward movements."
+      ],
+      "logic": [
+        "The high uncertainty and risk in the market -> suggest that investors are cautious and uncertain about the future -> implying that the market is likely to remain volatile."
+      ],
+      "counters": [
+        "The fact that the brain's crisis regime probability is at 67% could be an overestimation, and the market may actually be more stable than expected, leading to a decrease in volatility."
+      ],
+      "conclusions": [
+        "Based on the current market conditions, I conclude that the market is likely to remain highly volatile, with a high probability of a crisis."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions suggest a high level of uncertainty and risk, with the brain's crisis regime probability at 67% and the market trends for SP500, NIFTY50, GOLD, and BITCOIN showing a mix of upward and downward movements.\n\nLOGIC: The high uncertainty and risk in the market -> suggest that investors are cautious and uncertain about the future -> implying that the market is likely to remain volatile.\n\nCOUNTER: The fact that the brain's crisis regime probability is at 67% could",
+      "id": "46d23e104f13",
+      "timestamp": "2026-04-10T20:00:52.796534",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The brain's crisis regime probability is at 67%, and the market trends for SP500, NIFTY50, GOLD, and BITCOIN show a mix of upward and downward movements, with the majority of assets having a higher probability of being up (38-44%) than down (29-34%)."
+      ],
+      "logic": [
+        "The high crisis regime probability and mixed market trends -> suggest that the market is uncertain and volatile -> implying that investors are cautious and risk-averse."
+      ],
+      "counters": [
+        "The fact that the majority of assets have a higher probability of being up than down could indicate a potential bullish trend, which would contradict the conclusion of high volatility and crisis."
+      ],
+      "conclusions": [
+        "Based on the current market conditions, I conclude that the market is likely to remain volatile, but the probability of a crisis might be overestimated, and a bullish trend could emerge."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The brain's crisis regime probability is at 67%, and the market trends for SP500, NIFTY50, GOLD, and BITCOIN show a mix of upward and downward movements, with the majority of assets having a higher probability of being up (38-44%) than down (29-34%).\n\nLOGIC: The high crisis regime probability and mixed market trends -> suggest that the market is uncertain and volatile -> implying that investors are cautious and risk-averse.\n\nCOUNTER: The fact that the majority of assets have a higher pr",
+      "id": "6b1a5332364c",
+      "timestamp": "2026-04-10T20:00:52.796624",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The current market conditions suggest a high level of uncertainty and risk, with the brain's crisis regime probability at 67% and the market trends for SP500, NIFTY50, GOLD, and BITCOIN showing a mix of upward and downward movements."
+      ],
+      "logic": [
+        "The high uncertainty and risk in the market -> suggest that investors are cautious and uncertain about the future -> implying that the market is likely to remain volatile."
+      ],
+      "counters": [
+        "The fact that the brain's crisis regime probability is at 67% could be an overestimation, and the market may actually be more stable than expected, leading to a decrease in volatility. Additionally, the BREAK in correlations such as COPPER/SP500, OIL_WTI/USDINR, and COPPER/OIL_WTI may indicate a shift in market dynamics that could lead to a more stable market."
+      ],
+      "conclusions": [
+        "Based on the current market conditions, I conclude that the market is likely to remain highly volatile, with a high probability of a crisis. However, the BREAK in correlations and the potential for overestimation of the crisis regime probability suggest that the market may be more resilient than expected."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions suggest a high level of uncertainty and risk, with the brain's crisis regime probability at 67% and the market trends for SP500, NIFTY50, GOLD, and BITCOIN showing a mix of upward and downward movements.\n\nLOGIC: The high uncertainty and risk in the market -> suggest that investors are cautious and uncertain about the future -> implying that the market is likely to remain volatile.\n\nCOUNTER: The fact that the brain's crisis regime probability is at 67% could",
+      "id": "21dc721a0f9c",
+      "timestamp": "2026-04-10T20:00:52.796669",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "The current market conditions suggest a high level of uncertainty and risk, with the brain's crisis regime probability at 67% and the market trends for SP500, NIFTY50, GOLD, and BITCOIN showing a mix of upward and downward movements."
+      ],
+      "logic": [
+        "The high uncertainty and risk in the market -> suggest that investors are cautious and uncertain about the future -> implying that the market is likely to remain volatile. The fact that Agents 1-3 are emphasizing the WARN Act and the high crisis regime probability suggests that they are following the herd and consensus opinion."
+      ],
+      "counters": [
+        "The fact that the majority of assets have a higher probability of being up than down could indicate a potential bullish trend, which would contradict the notion of a highly volatile market."
+      ],
+      "conclusions": [
+        "The market is likely to remain volatile, with a high level of uncertainty and risk. Agents 1-3 are following the herd and consensus opinion, which may not provide an edge in terms of predictive power."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions suggest a high level of uncertainty and risk, with the brain's crisis regime probability at 67% and the market trends for SP500, NIFTY50, GOLD, and BITCOIN showing a mix of upward and downward movements.\n\nLOGIC: The high uncertainty and risk in the market -> suggest that investors are cautious and uncertain about the future -> implying that the market is likely to remain volatile. The fact that Agents 1-3 are emphasizing the WARN Act and the high crisis reg",
+      "id": "bdb3af3bb2af",
+      "timestamp": "2026-04-10T20:00:52.796801",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "The news articles suggest that the inflation rate has surged to 3.3% in the US, driven by higher energy prices due to the Iran war."
+      ],
+      "logic": [
+        "The surge in inflation -> suggests that the market may be underestimating the impact of the Iran war on the economy -> implying that the market could be due for a correction."
+      ],
+      "counters": [
+        "The fact that the national minimum wage is rising and the music giant Universal is getting a $64 billion takeover offer could indicate a positive economic outlook, contradicting the notion of a market correction."
+      ],
+      "conclusions": [
+        "The market may be underestimating the impact of the Iran war on the economy, and a correction could be due. However, the positive economic outlook suggested by the rising national minimum wage and the Universal takeover offer could mitigate this risk."
+      ],
+      "dependencies": [
+        "The outcome of the OPEC-JMMC Meetings on April 5th, which could potentially impact oil prices and the overall market sentiment."
+      ],
+      "falsifications": [
+        "The market trends for SP500, NIFTY50, GOLD, and BITCOIN show a significant shift towards a bullish or bearish trend, contradicting the current volatile and uncertain market conditions."
+      ],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions suggest a high level of uncertainty and risk, with the brain's crisis regime probability at 67% and the market trends for SP500, NIFTY50, GOLD, and BITCOIN showing a mix of upward and downward movements.\n\nLOGIC: The high uncertainty and risk in the market -> suggest that investors are cautious and uncertain about the future -> implying that the market is likely to remain volatile. The fact that Agents 1-3 are emphasizing the WARN Act and the high crisis reg",
+      "id": "d393bf2877b4",
+      "timestamp": "2026-04-10T20:00:52.796801",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the inputs from various agents (UPSTREAM, FLOW, MARKET, NARRATIVE), it's clear that there's a consensus on the high level of uncertainty"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "UPSTREAM, FLOW, MARKET, NARRATIVE), it's clear that there's a consensus on the high level of uncertainty and risk in the market, reflected by the brain's crisis regime probability at 67%.",
+        "upee may face pressure due to the high crisis regime probability and its potential impact on emerging markets.",
+        "downturn in the economy, and geopolitical tensions."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the inputs from various agents (UPSTREAM, FLOW, MARKET, NARRATIVE), it's clear that there's a consensus on the high level of uncertainty and risk in the market, reflected by the brain's crisis regime probability at 67%. However, there are contradictions regarding the potential outcomes and the interpretation of market trends. \n\nI side with the **MARKET** agent because it provides a balanced view, considering both the high uncertaint",
+      "id": "785392cfd664",
+      "timestamp": "2026-04-10T20:00:52.797313",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "flow_signal"
+    },
+    {
+      "agent": "adversary",
+      "observations": [],
+      "logic": [
+        "The high crisis regime probability indicates a significant level of uncertainty in the market, which could lead to increased volatility and potential downturns -> The contradictions between agents suggest that there are different perspectives on the potential outcomes and market trends, which could lead to confusion and inconsistent decision-making -> This inconsistency could exacerbate market volatility and increase the risk of significant market movements."
+      ],
+      "counters": [
+        "The balanced view provided by the MARKET agent, which considers both the high uncertainty and risk, as well as the potential for the market to be more resilient than expected, could mitigate the impact of the contradictions and lead to more informed decision-making."
+      ],
+      "conclusions": [
+        "The high crisis regime probability and contradictions between agents increase the uncertainty and risk in the market, making it essential to closely monitor market trends and adjust strategies accordingly."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### OBSERVE: High crisis regime probability (67%) and contradictions between agents\n\nLOGIC: The high crisis regime probability indicates a significant level of uncertainty in the market, which could lead to increased volatility and potential downturns -> The contradictions between agents suggest that there are different perspectives on the potential outcomes and market trends, which could lead to confusion and inconsistent decision-making -> This inconsistency could exacerbate market volatility ",
+      "id": "32554115b361",
+      "timestamp": "2026-04-10T20:00:52.797413",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "adversary",
+      "observations": [],
+      "logic": [
+        "The thesis is based on the high crisis regime probability and its potential impact on market volatility -> The chain of events outlined in the thesis, including increased market uncertainty and potential for significant market movements, is plausible and consistent with the current market conditions -> However, the confidence level of 80% may be overly optimistic, given the high level of uncertainty and contradictions between agents."
+      ],
+      "counters": [
+        "The potential for the market to be more resilient than expected, as suggested by the MARKET agent, could reduce the likelihood of significant market movements and volatility."
+      ],
+      "conclusions": [
+        "The thesis is reasonable, but the confidence level may be too high, and the potential for the market to be more resilient than expected should be considered."
+      ],
+      "dependencies": [
+        "The VIX index surpassing 30, which would indicate a significant increase in market volatility and potentially validate the high crisis regime probability."
+      ],
+      "falsifications": [
+        "The crisis regime probability drops below 50% within the next 14 days, indicating a decrease in market uncertainty and risk."
+      ],
+      "assets": [],
+      "raw_excerpt": "### OBSERVE: High crisis regime probability (67%) and contradictions between agents\n\nLOGIC: The high crisis regime probability indicates a significant level of uncertainty in the market, which could lead to increased volatility and potential downturns -> The contradictions between agents suggest that there are different perspectives on the potential outcomes and market trends, which could lead to confusion and inconsistent decision-making -> This inconsistency could exacerbate market volatility ",
+      "id": "e005d76fcb72",
+      "timestamp": "2026-04-10T20:00:52.797413",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "adversary",
+      "observations": [],
+      "logic": [
+        "The India Intelligence section provides a general overview of the potential impact of the high crisis regime probability on the Indian Rupee and various sectors -> However, the analysis is relatively superficial and does not provide specific, actionable insights -> The section relies heavily on general statements and does not consider alternative perspectives or potential contradictions."
+      ],
+      "counters": [
+        "A more detailed and nuanced analysis of the Indian market and its potential vulnerabilities could provide more valuable insights and recommendations."
+      ],
+      "conclusions": [
+        "The India Intelligence section is the weakest thesis due to its lack of depth and specificity."
+      ],
+      "dependencies": [
+        "The performance of the VIX index, which would indicate whether the market volatility is increasing or decreasing."
+      ],
+      "falsifications": [
+        "The VIX index drops below 20, indicating a decrease in market volatility and potentially invalidating the thesis."
+      ],
+      "assets": [],
+      "raw_excerpt": "### OBSERVE: High crisis regime probability (67%) and contradictions between agents\n\nLOGIC: The high crisis regime probability indicates a significant level of uncertainty in the market, which could lead to increased volatility and potential downturns -> The contradictions between agents suggest that there are different perspectives on the potential outcomes and market trends, which could lead to confusion and inconsistent decision-making -> This inconsistency could exacerbate market volatility ",
+      "id": "01fc913fe3d1",
+      "timestamp": "2026-04-10T20:00:52.797413",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [],
+      "logic": [
+        "The analysis focuses primarily on market trends and agent perspectives, without considering exogenous factors such as geopolitical events, natural disasters, or unexpected changes in government policies -> These factors could have a significant impact on market volatility and trends, and ignoring them could lead to incomplete or inaccurate analysis -> The lack of consideration of exogenous factors increases the uncertainty and risk associated with the market."
+      ],
+      "counters": [
+        "Incorporating exogenous factors into the analysis could provide a more comprehensive understanding of the market and its potential vulnerabilities."
+      ],
+      "conclusions": [
+        "The biggest blind spot is the lack of consideration of exogenous factors, which could have a significant impact on market trends and volatility."
+      ],
+      "dependencies": [
+        "The performance of the Indian Rupee and the various sectors mentioned, which would indicate whether the analysis is accurate or not."
+      ],
+      "falsifications": [
+        "The Indian Rupee and the mentioned sectors perform contrary to the expectations outlined in the section, indicating a flaw in the analysis."
+      ],
+      "assets": [],
+      "raw_excerpt": "### OBSERVE: High crisis regime probability (67%) and contradictions between agents\n\nLOGIC: The high crisis regime probability indicates a significant level of uncertainty in the market, which could lead to increased volatility and potential downturns -> The contradictions between agents suggest that there are different perspectives on the potential outcomes and market trends, which could lead to confusion and inconsistent decision-making -> This inconsistency could exacerbate market volatility ",
+      "id": "dc18227f3d85",
+      "timestamp": "2026-04-10T20:00:52.797413",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
     }
   ],
   "pattern_quality": {
