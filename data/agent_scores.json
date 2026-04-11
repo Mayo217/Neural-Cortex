@@ -25,16 +25,16 @@
       ]
     },
     "adversary": {
-      "total": 6,
-      "correct": 5,
+      "total": 7,
+      "correct": 6,
       "by_regime": {
         "RISK_OFF": {
           "total": 1,
           "correct": 0
         },
         "TRANSITION": {
-          "total": 5,
-          "correct": 5
+          "total": 6,
+          "correct": 6
         }
       },
       "by_type": {
@@ -43,8 +43,8 @@
           "correct": 0
         },
         "general": {
-          "total": 5,
-          "correct": 5
+          "total": 6,
+          "correct": 6
         }
       },
       "recent": [
@@ -80,6 +80,12 @@
         },
         {
           "ts": "2026-04-11T08:05:17.213763",
+          "correct": true,
+          "regime": "TRANSITION",
+          "type": "general"
+        },
+        {
+          "ts": "2026-04-11T14:08:11.694075",
           "correct": true,
           "regime": "TRANSITION",
           "type": "general"

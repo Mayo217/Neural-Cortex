@@ -2788,7 +2788,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime, show a high probability of a crisis, with the SP500 and NIFTY50 indices showing a mix of up and down trends over different time periods.\n\nLOGIC: The presence of a crisis regime suggests that the market is highly volatile, and the WARN Act's provisions may take on increased importance in protecting workers' rights -> The market's volatility and the WARN Act's provisions are likely to have a signif",
       "id": "9c27d28f4f1e",
       "timestamp": "2026-04-04T14:05:53.125227",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -2813,7 +2813,7 @@
       "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, and the SP500 and NIFTY50 indices show a mix of up and down trends over different time periods, with the ETF signals being mostly neutral.\n\nLOGIC: The high probability of a crisis regime, combined with the mixed market trends, suggests that the market is highly volatile and unpredictable -> The WARN Act's provisions, which require employers to provide written notice at least 60 days in advance, may be challenging to implement in such a volat",
       "id": "fccbf1f05262",
       "timestamp": "2026-04-04T14:05:53.125294",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -2838,7 +2838,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime, show a high probability of a crisis, with the SP500 and NIFTY50 indices showing a mix of up and down trends over different time periods.\n\nLOGIC: The presence of a crisis regime suggests that the market is highly volatile, and the WARN Act's provisions may take on increased importance in protecting workers' rights -> The market's volatility and the WARN Act's provisions are likely to have a signif",
       "id": "3f7e0716fd41",
       "timestamp": "2026-04-04T14:05:53.125350",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -2863,7 +2863,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime, show a high probability of a crisis, with the SP500 and NIFTY50 indices showing a mix of up and down trends over different time periods. Agents 1-3 are following the herd, with their logic and observations aligning with the crowd's priced beliefs.\n\nLOGIC: The presence of a crisis regime suggests that the market is highly volatile, and the WARN Act's provisions may take on increased importance in ",
       "id": "c9833fbb8dc8",
       "timestamp": "2026-04-04T14:05:53.125383",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -2888,7 +2888,7 @@
       "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the various agents' observations, logic, and conclusions, I side with the **UPSTREAM** agent. The upstream agent's conclusion that the WARN Act's provisions are likely to be important in a crisis regime, as they provide protection for workers' rights and require employers to provide written notice in a timely manner, seems most plausible. This is because the upstream agent's logic is based on the presence of a crisis regime, which is i",
       "id": "703e076eacb7",
       "timestamp": "2026-04-04T14:05:53.125966",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -2913,7 +2913,7 @@
       "raw_excerpt": "OBSERVE: The upstream agent's conclusion that the WARN Act's provisions are likely to be important in a crisis regime, with a confidence level of 70%, seems to be the most plausible thesis.\nLOGIC: The presence of a crisis regime, indicated by the brain's crisis regime probability of 67%, and the potential impact of the WARN Act's provisions on employers and employees -> The WARN Act's provisions are likely to be crucial in protecting workers' rights and providing timely notice -> The importance ",
       "id": "58d011867ab1",
       "timestamp": "2026-04-04T14:05:53.126067",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -2942,7 +2942,7 @@
       "raw_excerpt": "OBSERVE: The upstream agent's conclusion that the WARN Act's provisions are likely to be important in a crisis regime, with a confidence level of 70%, seems to be the most plausible thesis.\nLOGIC: The presence of a crisis regime, indicated by the brain's crisis regime probability of 67%, and the potential impact of the WARN Act's provisions on employers and employees -> The WARN Act's provisions are likely to be crucial in protecting workers' rights and providing timely notice -> The importance ",
       "id": "57efd6ba6a4f",
       "timestamp": "2026-04-04T14:05:53.126067",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "credit_signal"
@@ -2971,7 +2971,7 @@
       "raw_excerpt": "OBSERVE: The upstream agent's conclusion that the WARN Act's provisions are likely to be important in a crisis regime, with a confidence level of 70%, seems to be the most plausible thesis.\nLOGIC: The presence of a crisis regime, indicated by the brain's crisis regime probability of 67%, and the potential impact of the WARN Act's provisions on employers and employees -> The WARN Act's provisions are likely to be crucial in protecting workers' rights and providing timely notice -> The importance ",
       "id": "ffa056820144",
       "timestamp": "2026-04-04T14:05:53.126067",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "credit_signal"
@@ -8679,6 +8679,208 @@
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "pattern_match"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The WARN Act's provisions require employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime (67%)."
+      ],
+      "logic": [
+        "The WARN Act's provisions are likely to be important in a crisis regime, as they provide a safety net for employees and help maintain economic stability -> If the crisis regime materializes, the WARN Act's provisions will be crucial in mitigating the impact on employees and the economy -> The current market conditions and the brain's crisis regime probability suggest that the WARN Act's provisions will be essential in the near future."
+      ],
+      "counters": [
+        "The counterargument is that the WARN Act's provisions may not be sufficient to mitigate the impact of a crisis regime, and other factors such as monetary policy and fiscal policy may play a more significant role in determining the outcome."
+      ],
+      "conclusions": [
+        "I conclude that the WARN Act's provisions are likely to be important in a crisis regime, and employers should be prepared to provide written notice at least 60 days before a mass layoff or plant closure."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The WARN Act's provisions require employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime (67%).\n\nLOGIC: The WARN Act's provisions are likely to be important in a crisis regime, as they provide a safety net for employees and help maintain economic stability -> If the crisis regime materializes, the WARN Act's provisions will be crucial in mitigating the impact on employee",
+      "id": "a677c1378010",
+      "timestamp": "2026-04-11T14:08:11.690292",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The brain's crisis regime probability is 67%, and the market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, GOLD, and BITCOIN all showing similar trends."
+      ],
+      "logic": [
+        "The high probability of a crisis regime suggests that the market is likely to be highly volatile, and the WARN Act's provisions may be crucial in mitigating the impact on employees and the economy -> If the crisis regime materializes, the WARN Act's provisions will provide a safety net for employees and help maintain economic stability -> The current market conditions and the brain's crisis regime probability suggest that the WARN Act's provisions will be essential in the near future."
+      ],
+      "counters": [
+        "The counterargument is that the market trends may not necessarily indicate a crisis regime, and other factors such as monetary policy and fiscal policy may play a more significant role in determining the outcome."
+      ],
+      "conclusions": [
+        "I conclude that the market is likely to remain highly volatile, and the WARN Act's provisions may be crucial in mitigating the impact on employees and the economy."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, and the market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, GOLD, and BITCOIN all showing similar trends.\n\nLOGIC: The high probability of a crisis regime suggests that the market is likely to be highly volatile, and the WARN Act's provisions may be crucial in mitigating the impact on employees and the economy -> If the crisis regime materializes, the WARN Act's provisions will provide a safety net for e",
+      "id": "d6d212cfdeea",
+      "timestamp": "2026-04-11T14:08:11.690462",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The current market conditions indicate a high probability of a crisis regime (67%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends, and the VIX and VIX9D indicating increased volatility."
+      ],
+      "logic": [
+        "The high probability of a crisis regime suggests that the market is likely to be highly volatile, and investors should be cautious -> If the crisis regime materializes, the market may experience significant declines, and investors may need to rebalance their portfolios -> The current market conditions and the brain's crisis regime probability suggest that investors should be prepared for a potential downturn."
+      ],
+      "counters": [
+        "The counterargument is that the market trends may not necessarily indicate a crisis regime, and the current volatility may be a normal market fluctuation."
+      ],
+      "conclusions": [
+        "Based on the current market conditions and the brain's crisis regime probability, I conclude that the market is likely to be highly volatile, and investors should be cautious."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime (67%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends, and the VIX and VIX9D indicating increased volatility.\n\nLOGIC: The high probability of a crisis regime suggests that the market is likely to be highly volatile, and investors should be cautious -> If the crisis regime materializes, the market may experience significant declines, and investors may need to rebalance their portfolios -> The ",
+      "id": "6688bbddc63f",
+      "timestamp": "2026-04-11T14:08:11.690529",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "The current market conditions indicate a high probability of a crisis regime (67%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends, and the VIX and VIX9D indicating increased volatility. Agents 1-3 (Upstream, Flow, and Market) are following the herd, concluding that the market is likely to be highly volatile and that investors should be cautious."
+      ],
+      "logic": [
+        "The high probability of a crisis regime suggests that the market is likely to be highly volatile, and investors should be cautious -> If the crisis regime materializes, the market may experience significant declines, and investors may need to rebalance their portfolios -> The current market conditions and the brain's crisis regime probability suggest that investors should be prepared for a potential downturn."
+      ],
+      "counters": [
+        "One could argue that the current market trends are not necessarily indicative of a crisis regime, and that the brain's crisis regime probability is too high. Additionally, the fact that Agents 1-3 are following the herd may indicate a lack of diversity in their thinking, which could lead to a false sense of security."
+      ],
+      "conclusions": [
+        "Based on the current market conditions and the brain's crisis regime probability, I conclude that the market is likely to be highly volatile, and investors should be cautious. However, it's essential to consider alternative perspectives and not solely rely on the consensus view."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime (67%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends, and the VIX and VIX9D indicating increased volatility. Agents 1-3 (Upstream, Flow, and Market) are following the herd, concluding that the market is likely to be highly volatile and that investors should be cautious.\n\nLOGIC: The high probability of a crisis regime suggests that the market is likely to be highly volatile, and investors sho",
+      "id": "b5d31f5c492b",
+      "timestamp": "2026-04-11T14:08:11.690560",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "### 1. RECONCILE contradictions between agents\n\nAfter reviewing the reasoning history and brain patterns, I side with the **UPSTREAM** agent. The UPSTREAM agent's conclusion that the WARN Act's provis"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "UPSTREAM** agent.",
+        "UPSTREAM agent's conclusion that the WARN Act's provisions are likely to be important in a crisis regime is plausible, given the high probability of a crisis regime (67%).",
+        "UPSTREAM agent's reasoning is based on the importance of the WARN Act's provisions in providing a safety net for employees and maintaining economic stability."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nAfter reviewing the reasoning history and brain patterns, I side with the **UPSTREAM** agent. The UPSTREAM agent's conclusion that the WARN Act's provisions are likely to be important in a crisis regime is plausible, given the high probability of a crisis regime (67%). The UPSTREAM agent's reasoning is based on the importance of the WARN Act's provisions in providing a safety net for employees and maintaining economic stability.\n\n### 2. Generate TH",
+      "id": "f6a96e5c3e6a",
+      "timestamp": "2026-04-11T14:08:11.690943",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "pattern_match"
+    },
+    {
+      "agent": "adversary",
+      "observations": [],
+      "logic": [
+        "The high confidence in this thesis may indicate an overestimation of the relationship between credit market volatility and equity market performance, which could lead to a false sense of security among investors -> If credit market volatility decreases and equity market performance improves, the thesis may be invalidated -> This could result in significant losses for investors who are not prepared for an uptrend."
+      ],
+      "counters": [
+        "The thesis is based on historical data and trends, which suggest a strong correlation between credit market volatility and equity market performance."
+      ],
+      "conclusions": [
+        "The \"Credit Market Trends and Equity Performance\" thesis may be the weakest link in the chain, as it relies heavily on the assumption that credit market volatility will continue to impact equity market performance."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### OBSERVE: High confidence in the \"Credit Market Trends and Equity Performance\" thesis (80%)\nLOGIC: The high confidence in this thesis may indicate an overestimation of the relationship between credit market volatility and equity market performance, which could lead to a false sense of security among investors -> If credit market volatility decreases and equity market performance improves, the thesis may be invalidated -> This could result in significant losses for investors who are not prepar",
+      "id": "7ff61a409b2b",
+      "timestamp": "2026-04-11T14:08:11.691022",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "credit_signal"
+    },
+    {
+      "agent": "adversary",
+      "observations": [],
+      "logic": [
+        "The fact that Agents 1-3 are following the herd and concluding that the market is likely to be highly volatile may indicate a lack of diversity in thinking, which could lead to a false sense of security among investors -> If all agents are thinking alike, they may be missing important contrarian signals -> This could result in a failure to anticipate a potential uptrend or downtrend."
+      ],
+      "counters": [
+        "The agents may be using different models and data sources, which could provide a more comprehensive view of the market."
+      ],
+      "conclusions": [
+        "The biggest blind spot in the analysis is the lack of diversity in thinking among the agents, which could lead to a failure to anticipate a potential uptrend or downtrend."
+      ],
+      "dependencies": [
+        "A significant decrease in credit market volatility, which would suggest that the relationship between credit market volatility and equity market performance is not as strong as previously thought."
+      ],
+      "falsifications": [
+        "Credit market volatility decreases significantly, and equity market performance improves, but the crisis regime probability remains high, indicating that other factors are driving the market."
+      ],
+      "assets": [],
+      "raw_excerpt": "### OBSERVE: High confidence in the \"Credit Market Trends and Equity Performance\" thesis (80%)\nLOGIC: The high confidence in this thesis may indicate an overestimation of the relationship between credit market volatility and equity market performance, which could lead to a false sense of security among investors -> If credit market volatility decreases and equity market performance improves, the thesis may be invalidated -> This could result in significant losses for investors who are not prepar",
+      "id": "ab332acf9da3",
+      "timestamp": "2026-04-11T14:08:11.691022",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [],
+      "logic": [
+        "The high probability of a crisis regime may indicate that the market is due for a significant correction, which could lead to significant declines in the stock market and economic instability -> If the crisis regime materializes, investors who are not prepared may suffer significant losses -> This could result in a loss of confidence in the market and a decrease in investor sentiment."
+      ],
+      "counters": [
+        "The high probability of a crisis regime may be an overestimation, and the market may be more resilient than expected."
+      ],
+      "conclusions": [
+        "The high probability of a crisis regime is a warning sign that investors should be prepared for a potential downturn, and should consider diversifying their portfolios and reducing their exposure to risky assets."
+      ],
+      "dependencies": [
+        "A significant increase in diversity of thinking among the agents, which would suggest that they are considering alternative scenarios and outcomes."
+      ],
+      "falsifications": [
+        "The agents are using different models and data sources, but still failing to anticipate a potential uptrend or downtrend, indicating that the lack of diversity in thinking is not the primary issue."
+      ],
+      "assets": [],
+      "raw_excerpt": "### OBSERVE: High confidence in the \"Credit Market Trends and Equity Performance\" thesis (80%)\nLOGIC: The high confidence in this thesis may indicate an overestimation of the relationship between credit market volatility and equity market performance, which could lead to a false sense of security among investors -> If credit market volatility decreases and equity market performance improves, the thesis may be invalidated -> This could result in significant losses for investors who are not prepar",
+      "id": "00224477b152",
+      "timestamp": "2026-04-11T14:08:11.691022",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "sentiment_contrarian"
     }
   ],
   "pattern_quality": {
@@ -8691,8 +8893,8 @@
       "total": 1
     },
     "general|TRANSITION": {
-      "correct": 5,
-      "total": 5
+      "correct": 6,
+      "total": 6
     }
   },
   "meta_failures": []
