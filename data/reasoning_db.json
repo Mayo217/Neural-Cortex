@@ -2276,7 +2276,7 @@
       "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure.\nLOGIC: The requirement for a 60-day notice period implies that employers must have a certain level of advance knowledge of their plans -> This suggests that the market may be able to anticipate significant layoffs or closures before they occur -> This could lead to increased market volatility as investors react to rumors or speculation about potential layoffs or closures.\nCO",
       "id": "cdd6b174bfbd",
       "timestamp": "2026-04-04T05:17:56.525145",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -2305,7 +2305,7 @@
       "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure.\nLOGIC: The requirement for a 60-day notice period implies that employers must have a certain level of advance knowledge of their plans -> This suggests that the market may be able to anticipate significant layoffs or closures before they occur -> This could lead to increased market volatility as investors react to rumors or speculation about potential layoffs or closures.\nCO",
       "id": "2f7b60502b18",
       "timestamp": "2026-04-04T05:17:56.525145",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -2334,7 +2334,7 @@
       "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure.\nLOGIC: The requirement for a 60-day notice period implies that employers must have a certain level of advance knowledge of their plans -> This suggests that the market may be able to anticipate significant layoffs or closures before they occur -> This could lead to increased market volatility as investors react to rumors or speculation about potential layoffs or closures.\nCO",
       "id": "60aa2ca88442",
       "timestamp": "2026-04-04T05:17:56.525145",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -2359,7 +2359,7 @@
       "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, indicating a high level of uncertainty and volatility in the market.\nLOGIC: The high crisis regime probability implies that the market is highly sensitive to new information and potential risks -> This suggests that the WARN Act's provisions, which require employers to provide written notice at least 60 days before a mass layoff or plant closure, could have a significant impact on the market -> This could lead to increased market volatility ",
       "id": "15d7abe22b0f",
       "timestamp": "2026-04-04T05:17:56.525240",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -2384,7 +2384,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating with a score of 19.3, and the brain's crisis regime probability is 67%, indicating a high level of uncertainty and volatility in the market.\n\nLOGIC: The high crisis regime probability and \"extreme fear\" rating imply that the market is highly sensitive to new information and potential risks -> This suggests that any significant economic or geopolitical events could have a pronounced impact on the ",
       "id": "5fd4c85626ef",
       "timestamp": "2026-04-04T05:17:56.525273",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -2409,7 +2409,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating with a score of 19.3, and the brain's crisis regime probability is 67%, indicating a high level of uncertainty and volatility in the market.\n\nLOGIC: The high crisis regime probability and \"extreme fear\" rating imply that the market is highly sensitive to new information and potential risks -> This suggests that any significant economic or geopolitical events could have a pronounced impact on the ",
       "id": "87bc2677b87c",
       "timestamp": "2026-04-04T05:17:56.525409",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -2438,7 +2438,7 @@
       "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the output of Agents 1-3, I conclude that all agents are in agreement with the current market sentiment and volatility. The upstream, flow, and market agents all indicate that the market is likely to remain highly volatile, with a high probability of a crisis regime. The narrative agent also supports this conclusion, citing the current market sentiment and news reports.\n\nI side with all agents, as their conclusions are consistent with ",
       "id": "e59f348f52e1",
       "timestamp": "2026-04-04T05:17:56.525529",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -2463,7 +2463,7 @@
       "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, and the market is expected to remain highly volatile, with a high probability of a crisis regime.\nLOGIC: The high crisis regime probability implies that the market is highly sensitive to new information and potential risks -> This suggests that any significant economic or geopolitical events could have a pronounced impact on the market -> However, the fact that the market has already priced in a significant amount of uncertainty and volatili",
       "id": "5f5ea472acfc",
       "timestamp": "2026-04-04T05:17:56.525581",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -2492,7 +2492,7 @@
       "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, and the market is expected to remain highly volatile, with a high probability of a crisis regime.\nLOGIC: The high crisis regime probability implies that the market is highly sensitive to new information and potential risks -> This suggests that any significant economic or geopolitical events could have a pronounced impact on the market -> However, the fact that the market has already priced in a significant amount of uncertainty and volatili",
       "id": "8d683ae27d17",
       "timestamp": "2026-04-04T05:17:56.525581",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8235,6 +8235,184 @@
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the WARN Act's provisions are likely to play a significant role in the current market conditions."
+      ],
+      "logic": [
+        "The WARN Act's requirements for written notice to be provided at least 60 days in advance -> This could lead to increased transparency and predictability in the market -> Which may have a stabilizing effect on the market, potentially reducing volatility."
+      ],
+      "counters": [
+        "The current market regime is highly uncertain, and the WARN Act's provisions may not be enough to mitigate the risks of sudden changes, as other factors such as geopolitical events and economic indicators may have a more significant impact on the market."
+      ],
+      "conclusions": [
+        "The WARN Act's provisions are likely to have a positive impact on the market by increasing transparency and predictability, but its effects may be limited by other factors contributing to market uncertainty."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the WARN Act's provisions are likely to play a significant role in the current market conditions.\n\nLOGIC: The WARN Act's requirements for written notice to be provided at least 60 days in advance -> This could lead to increased transparency and predictability in the market -> Which may have a stabilizing effect on the market, potentially reducing volatility.\n\nCOUNTER: The curre",
+      "id": "fe17943726a2",
+      "timestamp": "2026-04-11T05:21:15.331198",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the WARN Act's provisions are likely to play a significant role in the current market conditions, with the brain's probabilities showing a 67% chance of a transition regime."
+      ],
+      "logic": [
+        "The high uncertainty in the market -> This could lead to increased volatility and unpredictability -> Which may be mitigated by the WARN Act's provisions, but the actual impact is uncertain and depends on various factors, including the implementation and enforcement of the Act."
+      ],
+      "counters": [
+        "The brain's probabilities and the market data, such as the SP500 and NIFTY50 trends, do not show a clear correlation with the WARN Act's provisions, suggesting that other factors may be driving the market's behavior, and the Act's impact may be limited."
+      ],
+      "conclusions": [
+        "The current market regime is highly uncertain, and while the WARN Act's provisions may have a positive impact on transparency and predictability, its effects are likely to be limited by other factors contributing to market uncertainty, and the brain's probabilities may not accurately reflect the market's true state."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the WARN Act's provisions are likely to play a significant role in the current market conditions, with the brain's probabilities showing a 67% chance of a transition regime.\n\nLOGIC: The high uncertainty in the market -> This could lead to increased volatility and unpredictability -> Which may be mitigated by the WARN Act's provisions, but the actual impact is uncertain and depe",
+      "id": "e81674085b35",
+      "timestamp": "2026-04-11T05:21:15.331288",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the brain's probabilities show a 67% chance of a transition regime. The correlations between various assets, such as GOLD/SP500, HYG/SP500, and COPPER/SP500, are notable, with COPPER/SP500 showing a significant break."
+      ],
+      "logic": [
+        "The high uncertainty in the market and the brain's probabilities suggesting a transition regime -> This could lead to increased volatility and unpredictability -> Which may be mitigated by identifying and analyzing the correlations and anomalies in the market, such as the breaks in COPPER/SP500, OIL_WTI/USDINR, and COPPER/OIL_WTI."
+      ],
+      "counters": [
+        "The market's uncertainty and the brain's probabilities may not be accurately reflected in the correlations and anomalies, and other factors, such as geopolitical events and economic indicators, may have a more significant impact on the market."
+      ],
+      "conclusions": [
+        "The current market regime is highly uncertain, and the correlations and anomalies, such as the breaks in COPPER/SP500, OIL_WTI/USDINR, and COPPER/OIL_WTI, may provide valuable insights into the market's potential direction. However, it is essential to consider multiple factors and perspectives to make informed decisions."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the brain's probabilities show a 67% chance of a transition regime. The correlations between various assets, such as GOLD/SP500, HYG/SP500, and COPPER/SP500, are notable, with COPPER/SP500 showing a significant break.\n\nLOGIC: The high uncertainty in the market and the brain's probabilities suggesting a transition regime -> This could lead to increased volatility and unpredictab",
+      "id": "f9b84f87b601",
+      "timestamp": "2026-04-11T05:21:15.331326",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "credit_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the brain's probabilities show a 67% chance of a transition regime. Agents 1-3 are following the herd, and their analyses lack diversity and edge."
+      ],
+      "logic": [
+        "The high uncertainty in the market and the brain's probabilities suggesting a transition regime -> This could lead to increased volatility and unpredictability -> Which may be mitigated by identifying and analyzing the correlations and anomalies in the market, but Agents 1-3 are not providing unique insights, instead following the consensus."
+      ],
+      "counters": [
+        "The fact that Agents 1-3 are following the herd could be a sign that the market is indeed in a transition regime, and their consensus opinion may be correct. However, this lack of diversity in opinion may also indicate a lack of critical thinking and analysis."
+      ],
+      "conclusions": [
+        "The crowd believes that the market is in a transition regime, with a high probability of sudden changes. Agents 1-3 are following the herd, and their analyses lack edge. I conclude that the market is indeed uncertain, but the lack of diversity in opinion among Agents 1-3 may be a sign of a potential blind spot."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the brain's probabilities show a 67% chance of a transition regime. Agents 1-3 are following the herd, and their analyses lack diversity and edge.\n\nLOGIC: The high uncertainty in the market and the brain's probabilities suggesting a transition regime -> This could lead to increased volatility and unpredictability -> Which may be mitigated by identifying and analyzing the correl",
+      "id": "1867f2cdfb22",
+      "timestamp": "2026-04-11T05:21:15.331355",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "**1. RECONCILE contradictions between agents**\n\nI side with the agent that recognizes the importance of unique and contrarian perspectives in analyzing the market. The fact that Agents 1-3 are followi"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "downturn or crisis despite implementation of WARN Act's provisions\nTIMEFRAME: 30 days\nASSET: SP500\n\nTHESIS: Correlations and Anomalies\nCHAIN: Breaks in COPPER/SP500, OIL_WTI/USDINR, and COPPER/OIL_WTI -> Identification of market trends and patterns -> Insights into market direction -> Informed investment decisions\nCONFIDENCE: 55\nKILL IF: Correlations and anomalies no longer hold\nTIMEFRAME: 20 days\nASSET: COPPER\n\n**3.",
+        "upporting economic growth."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "**1. RECONCILE contradictions between agents**\n\nI side with the agent that recognizes the importance of unique and contrarian perspectives in analyzing the market. The fact that Agents 1-3 are following the herd and lacking diversity in their opinions suggests that they may be missing critical insights that could inform their decisions. I believe that this agent's perspective is more valuable because it acknowledges the complexity and uncertainty of the market and seeks to identify potential bli",
+      "id": "beb323cfb2e9",
+      "timestamp": "2026-04-11T05:21:15.331906",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "The theses presented, particularly the \"Market Volatility and WARN Act\" and \"Correlations and Anomalies\" theses, rely heavily on the implementation of the WARN Act's provisions and the persistence of specific market correlations and anomalies."
+      ],
+      "logic": [
+        "The confidence levels assigned to these theses (60 and 55, respectively) suggest a moderate level of certainty, but the underlying assumptions may be flawed -> If the WARN Act's provisions are not implemented effectively or if the correlations and anomalies do not hold, the theses may be invalidated -> The theses may be overly reliant on specific events or market conditions, which could lead to incorrect predictions and investment decisions."
+      ],
+      "counters": [
+        "One could argue that the theses are well-reasoned and based on sound analysis, and that the confidence levels are justified given the available data and market trends."
+      ],
+      "conclusions": [
+        "I conclude that the \"Correlations and Anomalies\" thesis is the weakest, as it relies on the persistence of specific market correlations and anomalies, which may not hold in the future."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The theses presented, particularly the \"Market Volatility and WARN Act\" and \"Correlations and Anomalies\" theses, rely heavily on the implementation of the WARN Act's provisions and the persistence of specific market correlations and anomalies.\n\nLOGIC: The confidence levels assigned to these theses (60 and 55, respectively) suggest a moderate level of certainty, but the underlying assumptions may be flawed -> If the WARN Act's provisions are not implemented effectively or if the correlat",
+      "id": "948b32b37133",
+      "timestamp": "2026-04-11T05:21:15.331975",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "The \"UNCOMFORTABLE TRUTH\" section highlights the market's uncertainty and the brain's probabilities suggesting a transition regime."
+      ],
+      "logic": [
+        "The brain's probabilities indicating a transition regime (67%) suggest that the market is in a state of flux -> This could lead to increased volatility and unpredictability -> Investors should be prepared for unexpected events and should consider multiple perspectives and scenarios when making investment decisions -> The lack of diversity in opinion among Agents 1-3 may be a significant blind spot, as it could lead to a lack of consideration of alternative scenarios and perspectives."
+      ],
+      "counters": [
+        "One could argue that the transition regime is a normal part of market cycles and that investors should not overreact to short-term fluctuations."
+      ],
+      "conclusions": [
+        "I conclude that the biggest blind spot is the lack of diversity in opinion among Agents 1-3, which could lead to a lack of consideration of alternative scenarios and perspectives."
+      ],
+      "dependencies": [
+        "The single data point that would change my mind is evidence that the correlations and anomalies in question have held consistently over a longer period, indicating a more robust and reliable pattern."
+      ],
+      "falsifications": [
+        "If the correlations and anomalies in question are found to be statistically insignificant or if they are shown to be driven by external factors that are unlikely to persist, then my conclusion would be falsified."
+      ],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The theses presented, particularly the \"Market Volatility and WARN Act\" and \"Correlations and Anomalies\" theses, rely heavily on the implementation of the WARN Act's provisions and the persistence of specific market correlations and anomalies.\n\nLOGIC: The confidence levels assigned to these theses (60 and 55, respectively) suggest a moderate level of certainty, but the underlying assumptions may be flawed -> If the WARN Act's provisions are not implemented effectively or if the correlat",
+      "id": "a44b78f4c41b",
+      "timestamp": "2026-04-11T05:21:15.331975",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
     }
   ],
   "pattern_quality": {
@@ -8247,8 +8425,8 @@
       "total": 1
     },
     "general|TRANSITION": {
-      "correct": 3,
-      "total": 3
+      "correct": 4,
+      "total": 4
     }
   },
   "meta_failures": []
