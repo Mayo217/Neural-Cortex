@@ -2996,7 +2996,7 @@
       "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> The market may react to these notices by becoming m",
       "id": "c07346e0913b",
       "timestamp": "2026-04-04T19:57:26.303482",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -3021,7 +3021,7 @@
       "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, and the market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, and GOLD all showing similar patterns of uncertainty.\n\nLOGIC: The high probability of a crisis regime, combined with the similar patterns in the SP500, NIFTY50, and GOLD, suggests that the market is highly volatile and uncertain -> This uncertainty could lead to a higher number of WARN Act notices being filed, as employers may be more likely to",
       "id": "494d0880a90a",
       "timestamp": "2026-04-04T19:57:26.303568",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "pattern_match"
@@ -3046,7 +3046,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%. The SP500, NIFTY50, and GOLD are all showing similar patterns of uncertainty, with the GOLD/SP500 correlation breaking down.\n\nLOGIC: The high probability of a crisis regime, combined with the breakdown in the GOLD/SP500 correlation, suggests that the market is highly volatile and uncertain -> This uncertainty could lead",
       "id": "4f337f1de072",
       "timestamp": "2026-04-04T19:57:26.303618",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -3069,7 +3069,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "28fa8bf31fc7",
       "timestamp": "2026-04-04T19:57:26.303876",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -3092,7 +3092,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "32085e8fe134",
       "timestamp": "2026-04-04T19:57:26.303910",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -3115,7 +3115,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "e01c91af8853",
       "timestamp": "2026-04-04T19:57:26.303930",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8881,6 +8881,204 @@
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "sentiment_contrarian"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The current market conditions show a high probability of a crisis regime, with the SP500, NIFTY50, GOLD, and BITCOIN all experiencing low-volume uptrends."
+      ],
+      "logic": [
+        "The low-volume uptrends in these markets suggest a lack of conviction among investors, which could lead to a reversal in market trends -> A crisis regime could be triggered by a sudden change in investor sentiment -> This would have significant implications for the global economy."
+      ],
+      "counters": [
+        "One counterargument is that the current market conditions could be a sign of a bull market, with investors slowly regaining confidence in the economy."
+      ],
+      "conclusions": [
+        "However, based on the current data, I conclude that the market is likely to remain highly volatile, with a high probability of a crisis regime."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions show a high probability of a crisis regime, with the SP500, NIFTY50, GOLD, and BITCOIN all experiencing low-volume uptrends.\nLOGIC: The low-volume uptrends in these markets suggest a lack of conviction among investors, which could lead to a reversal in market trends -> A crisis regime could be triggered by a sudden change in investor sentiment -> This would have significant implications for the global economy.\nCOUNTER: One counterargument is that the curren",
+      "id": "7ccc114c4e4d",
+      "timestamp": "2026-04-11T20:09:52.761739",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "sentiment_contrarian"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The WARN Act's provisions require employers to provide written notice at least 60 days before mass layoffs or plant closures."
+      ],
+      "logic": [
+        "This provision is important for protecting workers' rights and providing them with sufficient time to prepare for potential job losses -> The WARN Act's provisions could have a significant impact on the labor market, particularly in industries with high layoff rates -> This would have implications for the overall economy."
+      ],
+      "counters": [
+        "One counterargument is that the WARN Act's provisions could be too burdensome for employers, leading to increased costs and reduced competitiveness."
+      ],
+      "conclusions": [
+        "However, based on the current data, I conclude that the WARN Act's provisions are important for protecting workers' rights and promoting economic stability."
+      ],
+      "dependencies": [
+        "The single data point that would change my mind is a significant increase in trading volume, indicating a strong conviction among investors."
+      ],
+      "falsifications": [
+        "My conclusion would be proven wrong if the markets continue to trend upward with increasing volume, indicating a strong and sustainable bull market."
+      ],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions show a high probability of a crisis regime, with the SP500, NIFTY50, GOLD, and BITCOIN all experiencing low-volume uptrends.\nLOGIC: The low-volume uptrends in these markets suggest a lack of conviction among investors, which could lead to a reversal in market trends -> A crisis regime could be triggered by a sudden change in investor sentiment -> This would have significant implications for the global economy.\nCOUNTER: One counterargument is that the curren",
+      "id": "3615cb72dbad",
+      "timestamp": "2026-04-11T20:09:52.761739",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The contract awards indicate significant government investment in various industries, including national security, space exploration, and education."
+      ],
+      "logic": [
+        "This investment could have a positive impact on the economy, creating jobs and stimulating growth -> The government's investment in these industries could also have long-term benefits, such as advancing technology and improving national security -> This would have significant implications for the overall economy."
+      ],
+      "counters": [
+        "One counterargument is that the government's investment in these industries could be inefficient or wasteful, leading to reduced economic growth."
+      ],
+      "conclusions": [
+        "However, based on the current data, I conclude that the government's investment in these industries is likely to have a positive impact on the economy."
+      ],
+      "dependencies": [
+        "The single data point that would change my mind is evidence that the WARN Act's provisions are having a significant negative impact on businesses, leading to reduced hiring and investment."
+      ],
+      "falsifications": [
+        "My conclusion would be proven wrong if the WARN Act's provisions are found to be ineffective in protecting workers' rights or promoting economic stability."
+      ],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions show a high probability of a crisis regime, with the SP500, NIFTY50, GOLD, and BITCOIN all experiencing low-volume uptrends.\nLOGIC: The low-volume uptrends in these markets suggest a lack of conviction among investors, which could lead to a reversal in market trends -> A crisis regime could be triggered by a sudden change in investor sentiment -> This would have significant implications for the global economy.\nCOUNTER: One counterargument is that the curren",
+      "id": "3a3bcefbaec1",
+      "timestamp": "2026-04-11T20:09:52.761739",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8a6304d88045",
+      "timestamp": "2026-04-11T20:09:52.762043",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "2a2085732140",
+      "timestamp": "2026-04-11T20:09:52.762068",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "1d2f2f072a61",
+      "timestamp": "2026-04-11T20:09:52.762090",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "cbd3d633a59b",
+      "timestamp": "2026-04-11T20:09:52.762108",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "7739c67e6ca9",
+      "timestamp": "2026-04-11T20:09:52.762125",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
     }
   ],
   "pattern_quality": {
@@ -8893,8 +9091,8 @@
       "total": 1
     },
     "general|TRANSITION": {
-      "correct": 6,
-      "total": 6
+      "correct": 7,
+      "total": 7
     }
   },
   "meta_failures": []
