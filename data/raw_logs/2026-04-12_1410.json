@@ -1,0 +1,508 @@
+{
+  "timestamp": "2026-04-12 14:10",
+  "regime": {
+    "regime": "TRANSITION",
+    "confidence": 0.667,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.0,
+      "TRANSITION": 0.667,
+      "RISK_ON": 0.333,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 19.2 18-25: uncertain",
+      "VIX 10d -22.9%: vol crush",
+      "4 correlation breaks: regime shift signal"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$40.78B|LAWRENCE LIVERMORE NATIONAL SECURITY, LLC|None|TAS::89 0240::TAS THIS PERFORMANCE-BASED MANAGEMENT CONTRACT (PBMC) IS FOR THE M",
+      "$30.24B|BATTELLE MEMORIAL INSTITUTE|None|BATTELLE MEMORIAL INSTITUTE/PACIFIC NORTHWEST               LABORATORY OPERATING",
+      "$17.03B|BECHTEL NATIONAL, INC.|None|None",
+      "$3.02B|OAK RIDGE ASSOCIATED UNIVERSITIES, INCORPORATED|None|IGF::OT::IGF MANAGEMENT OF THE OAK RIDGE INSTITUTE FOR SCIENCE AND EDUCATION",
+      "$3.02B|SPACE EXPLORATION TECHNOLOGIES CORP.|None|WORK REQUIRED FOR THE DESIGN, DEVELOPMENT, MANUFACTURE, TEST, LAUNCH, DEMONSTRAT",
+      "$2.19B|UNITED CLEANUP OAK RIDGE LLC|None|OAK RIDGE RESERVATION CLEANUP CONTRACT TASK ORDERS",
+      "$1.87B|HARRIS CORPORATION|None|THE PURPOSE OF THIS DELIVERY ORDER AWARD IS TO ADD FUNDING FOR FTI TELECOMMUNICA",
+      "$1.83B|L3HARRIS TECHNOLOGIES, INC.|None|THE PURPOSE OF THIS CONTRACT IS TO DEVELOP THE GROUND SYSTEM THAT WILL SUPPORT N",
+      "$1.71B|BLUE ORIGIN MANUFACTURING, LLC|None|RAPID DDT&E AND DEMONSTRATION OF S SUSTAINABLE HUMAN LANDING SYSTEM INTEGRATED L",
+      "$1.59B|CALIFORNIA INSTITUTE OF TECHNOLOGY|None|MARS SAMPLE RETURN (MSR) PROGRAM - PHASE A 40-108270",
+      "$1.57B|NORTHROP GRUMMAN SYSTEMS CORPORATION|None|IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUILDS UPON THE SUCCESS",
+      "$1.54B|IDAHO ENVIRONMENTAL COALITION LLC|None|THE PURPOSE OF THIS ACTION IS TO AWARD THE ICP TEN YEAR PLAN HYBRID TASK ORDER U",
+      "$1.54B|PERATON INC.|None|THE EXPLORATION AND SPACE COMMUNICATIONS PROJECTS DIVISION (ESC) IS A NATIONAL R",
+      "$1.26B|AT&T ENTERPRISES, LLC|None|ENTERPRISE DATA NETWORK SERVICES CARRIER B",
+      "$0.86B|NOVITAS SOLUTIONS, INC.|None|JURISDICTION H A/B MAC CONTRACT"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Jefferson, Economic Outlook and the Labor Market",
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments",
+      "[ECB] Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 February 2026"
+    ],
+    "policy": [
+      "[Rule] Establishment of Class E Airspace; Wall Municipal Airport, Wall, SD"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "10-Apr-2026",
+        "buyValue": "15982.46",
+        "sellValue": "15572.41",
+        "netValue": "410.05"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "10-Apr-2026",
+        "buyValue": "18303.96",
+        "sellValue": "17631.87",
+        "netValue": "672.09"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.44,
+        "chg": -0.07,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.52,
+        "chg": 0.14,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 0.46,
+        "chg": -0.25,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.42,
+        "chg": -0.18,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.33,
+        "chg": -0.24,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 0.5,
+        "chg": -0.4,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 0.45,
+        "chg": -0.26,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 0.48,
+        "chg": 0.46,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 0.3,
+        "chg": -0.91,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 0.74,
+        "chg": -0.68,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 0.73,
+        "chg": 2.1,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 0.58,
+        "chg": 1.06,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.67,
+        "chg": -1.09,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 0.59,
+        "chg": -0.4,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": -0.1,
+        "b_chg": -0.114,
+        "same": true,
+        "div": 0.014,
+        "interp": "Gold/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": -0.399,
+        "b_chg": -0.114,
+        "same": true,
+        "div": 0.285,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": 2.401,
+        "b_chg": -0.114,
+        "same": false,
+        "div": 2.515,
+        "interp": "Dr Copper/Equity",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": -0.172,
+        "b_chg": -0.1,
+        "same": true,
+        "div": 0.072,
+        "interp": "Dollar/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": -1.334,
+        "b_chg": -0.114,
+        "same": true,
+        "div": 1.22,
+        "interp": "Vol/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": -1.328,
+        "b_chg": 0.625,
+        "same": false,
+        "div": 1.953,
+        "interp": "Oil/INR",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": 0.559,
+        "b_chg": -0.1,
+        "same": false,
+        "div": 0.659,
+        "interp": "Rates/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": -2.833,
+        "b_chg": 0.353,
+        "same": false,
+        "div": 3.186,
+        "interp": "Crypto/Tech",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": -0.242,
+        "b_chg": -0.114,
+        "same": true,
+        "div": 0.128,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": 2.401,
+        "b_chg": -1.328,
+        "same": false,
+        "div": 3.729,
+        "interp": "Copper/Oil",
+        "flag": "DIVERGENCE"
+      }
+    ],
+    "anomalies": [
+      "BREAK COPPER/SP500: A+2.40% B-0.11%",
+      "BREAK OIL_WTI/USDINR: A-1.33% B+0.62%",
+      "BREAK BITCOIN/NASDAQ: A-2.83% B+0.35%",
+      "BREAK COPPER/OIL_WTI: A+2.40% B-1.33%"
+    ]
+  },
+  "tier4": {
+    "news_len": 10174,
+    "gdelt_len": 17
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 37.7,
+      "rating": "fear",
+      "prev_week": 23.7,
+      "prev_month": 20.3
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": 0.181211,
+    "patterns": 6
+  },
+  "agents": {
+    "upstream": "OBSERVE: The current market conditions show a regime transition with a 67% probability, and the SP500, NIFTY50, GOLD, and BITCOIN are all trending upwards with a low momentum.\n\nLOGIC: The fact that all major indices and assets are trending upwards with a low momentum suggests that the market is experiencing a cautious and potentially volatile period -> This could be due to the regime transition, which may lead to a shift in market dynamics -> As a result, investors and traders should exercise caution and carefully analyze the market before making any decisions.\n\nCOUNTER: One could argue that the low momentum of the upward trends could be a sign of a potential reversal, and that the regime transition may actually lead to a more stable and bullish market.\n\nCONCLUDE: Based on the current market conditions, I conclude that caution and careful analysis are warranted, and that investors and traders should be prepared for potential volatility and regime shifts.\n\nDEPENDS ON: The single data point that would change my mind is a significant increase in market momentum, indicating a strong and sustained upward trend.\n\nWRONG IF: If the regime transition leads to a sharp and sustained downturn in the market, my conclusion would be proven incorrect, and a more bearish outlook would be warranted.",
+    "flow": "OBSERVE: The brain's probability of regime transition is 67%, and the SP500, NIFTY50, GOLD, and BITCOIN are all trending upwards with a low momentum, while the ETF signals are mostly neutral.\n\nLOGIC: The combination of a high probability of regime transition and low momentum upward trends in major indices and assets suggests that the market is in a state of uncertainty and potential volatility -> This uncertainty could lead to a shift in market dynamics, making it essential for investors and traders to be cautious and adapt to changing market conditions -> As a result, a careful analysis of market trends and signals is necessary to make informed decisions.\n\nCOUNTER: One could argue that the neutral signals from the ETFs, such as the SP500, Nasdaq, and Gold, indicate a lack of strong market direction, and that the regime transition may not necessarily lead to significant volatility.\n\nCONCLUDE: Based on the current market conditions, I conclude that caution and careful analysis are warranted, and that investors and traders should be prepared for potential volatility and regime shifts.\n\nDEPENDS ON: The single data point that would change my mind is a significant increase in market momentum, indicating a strong and sustained upward trend, or a shift in the ETF signals towards a more bullish or bearish direction.\n\nWRONG IF: If the regime transition leads to a sharp and sustained downturn in the market, or if the ETF signals suddenly shift towards a strongly bullish direction, my conclusion would be proven incorrect, and a more bearish or bullish outlook would be warranted.\n\nAdditionally, I notice that the FII/DII data shows a net buy value of 672.09 for FII/FPI and 410.05 for DII, which could indicate a positive sentiment in the market. However, this data point alone is not sufficient to change my conclusion, and I would need to see a more significant shift in market momentum or ETF signals to revise my assessment.",
+    "market": "OBSERVE: The current market conditions show a regime transition with a 67% probability, and the SP500, NIFTY50, GOLD, and BITCOIN are all trending upwards with a low momentum. Additionally, there are several breaks in correlations, including COPPER/SP500, OIL_WTI/USDINR, BITCOIN/NASDAQ, and COPPER/OIL_WTI.\n\nLOGIC: The combination of a high probability of regime transition and low momentum upward trends in major indices and assets, along with the breaks in correlations, suggests that the market is in a state of uncertainty and potential volatility -> This uncertainty could lead to a shift in market dynamics, making it essential for investors and traders to be cautious and adapt to changing market conditions -> As a result, a careful analysis of market trends and signals is necessary to make informed decisions.\n\nCOUNTER: One could argue that the breaks in correlations, such as the COPPER/SP500 and OIL_WTI/USDINR, could be a sign of a potential reversal in the market, and that the regime transition may actually lead to a more stable and bullish market.\n\nCONCLUDE: Based on the current market conditions and the breaks in correlations, I conclude that the market is in a state of uncertainty and potential volatility, and that investors and traders should exercise caution and carefully analyze the market before making any decisions.\n\nDEPENDS ON: The single data point that would change my mind is a significant increase in the VIX index, indicating a rise in market volatility and a potential shift in market dynamics.\n\nWRONG IF: My conclusion is wrong if the market continues to trend upwards with low momentum, and the breaks in correlations are resolved without any significant market volatility, indicating a more stable and bullish market.",
+    "narrative": "OBSERVE: The current market conditions show a regime transition with a 67% probability, and the SP500, NIFTY50, GOLD, and BITCOIN are all trending upwards with a low momentum. Agents 1-3 are following the herd, with similar observations and logical conclusions.\n\nLOGIC: The fact that all major indices and assets are trending upwards with a low momentum, combined with the high probability of regime transition, suggests that the market is experiencing a cautious and potentially volatile period -> This could be due to the regime transition, which may lead to a shift in market dynamics -> As a result, investors and traders should exercise caution and carefully analyze the market before making any decisions.\n\nCOUNTER: One could argue that the upward trends in major indices and assets are a sign of a bullish market, and that the low momentum is a temporary phenomenon that will soon reverse. However, the high probability of regime transition and the breaks in correlations suggest that the market is in a state of uncertainty, and that caution is warranted.\n\nCONCLUDE: The current market conditions warrant caution and careful analysis. The high probability of regime transition and the low momentum upward trends in major indices and assets suggest that the market is in a state of uncertainty, and that investors and traders should be prepared for potential volatility.\n\nDEPENDS ON: The outcome of the upcoming economic data releases, such as the Core PPI m/m and PPI m/m, which could provide further insight into the market's direction and volatility.\n\nWRONG IF: The market experiences a sudden and significant increase in momentum, or if the regime transition is accompanied by a sharp decline in volatility, which would suggest that the market is not as uncertain as initially thought.",
+    "synthesis": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the reasoning history, I conclude that the majority of agents (upstream, flow, market, and narrative) agree that the current market conditions warrant caution and careful analysis due to the high probability of regime transition and low momentum upward trends in major indices and assets. I side with these agents because their conclusions are based on a thorough analysis of the market data and patterns.\n\nThe only potential contradiction comes from the adversary agent, which suggests a cautious approach but does not provide a clear conclusion. However, this agent's reasoning is also based on the current market trends and regime transition, which supports the majority view.\n\n**THESES**\n\nTHESIS: Market Volatility Ahead\nCHAIN: Regime transition (67% probability) -> Low momentum upward trends in major indices and assets -> Increased market volatility -> Potential losses for investors and traders\nCONFIDENCE: 80\nKILL IF: Significant increase in market momentum or sharp decline in volatility\nTIMEFRAME: 30 days\nASSET: VIX\n\nTHESIS: Caution in Equity Markets\nCHAIN: High probability of regime transition -> Low momentum upward trends in SP500 and NIFTY50 -> Potential correction in equity markets -> Reduced investor returns\nCONFIDENCE: 75\nKILL IF: Sudden increase in market momentum or sharp decline in volatility\nTIMEFRAME: 30 days\nASSET: SP500\n\n**INDIA INTELLIGENCE**\n\nThe current market conditions in India are characterized by a high probability of regime transition and low momentum upward trends in the NIFTY50. The FII/DII data shows a net buy value of 672.09 for FII/FPI and 410.05 for DII, indicating a positive sentiment in the market. However, the RBI's monetary policy decisions and the upcoming economic data releases will be crucial in determining the market's direction. The Nifty sectors to watch include IT, pharmaceuticals, and banking.\n\n**THE UNCOMFORTABLE TRUTH**\n\nThe current market conditions are characterized b",
+    "adversary": "OBSERVE: The majority of agents agree that the current market conditions warrant caution and careful analysis due to the high probability of regime transition and low momentum upward trends in major indices and assets.\n\nLOGIC: The consensus among agents suggests that the market is in a state of flux, and a careful analysis of market trends and signals is necessary to make informed decisions -> This implies that investors and traders should be prepared for potential losses and adjust their strategies accordingly -> The high probability of regime transition and low momentum upward trends in major indices and assets support this implication.\n\nCOUNTER: The adversary agent's cautious approach without a clear conclusion could be seen as a contrarian view, suggesting that the market may not be as volatile as predicted, and investors and traders may not need to be as cautious.\n\nCONCLUDE: I conclude that the majority view is correct, and the market does warrant caution and careful analysis due to the high probability of regime transition and low momentum upward trends in major indices and assets.\n\nDEPENDS ON: A significant increase in market momentum or a sharp decline in volatility would change my mind and suggest that the market is not as volatile as predicted.\n\nWRONG IF: If the VIX index decreases significantly, and the SP500 and NIFTY50 experience a sudden increase in momentum, then my conclusion would be wrong, and the market would be entering a new bull phase.\n\n---\n\nOBSERVE: The thesis \"Market Volatility Ahead\" has a confidence level of 80 and is based on a chain of events including regime transition, low momentum upward trends, and increased market volatility.\n\nLOGIC: The high confidence level in this thesis suggests that the market is likely to experience increased volatility -> This would lead to potential losses for investors and traders who are not prepared -> The regime transition and low momentum upward trends in major indices and assets support this implication"
+  },
+  "reasoning": {
+    "chains": 9,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-12T14:10:30.193525"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T14:10:31.074250"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-12T14:10:52.096884"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-12T14:10:52.606067"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T14:10:52.854589"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T14:10:53.131137"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T14:10:53.389567"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T14:10:53.635388"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T14:10:53.892600"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T14:10:54.151069"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T14:10:54.399018"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T14:10:54.656945"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T14:10:54.937527"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T14:10:55.196444"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-12T14:10:55.397327"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-12T14:10:56.413809"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T14:10:56.507281"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T14:10:56.909639"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T14:10:58.392554"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-12T14:10:58.458499"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-12T14:11:08.546052"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-12T14:11:09.274572"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-12T14:11:09.670221"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-12T14:11:10.247314"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-12T14:11:10.694073"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-12T14:11:10.694924"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T14:11:10.813749"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-12T14:11:11.836517"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-12T14:11:12.208104"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-12T14:11:13.161684"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-12T14:11:13.599934"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T14:11:13.745981"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-12T14:11:14.730713"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-12T14:11:17.649482"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-12T14:11:17.649503"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-12T14:11:37.510502"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T14:11:37.619001"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-12T14:11:40.849235"
+    },
+    "GDELT": {
+      "ok": false,
+      "detail": "HTTP 429",
+      "ts": "2026-04-12T14:11:41.202311"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T14:11:41.530945"
+    }
+  }
+}
