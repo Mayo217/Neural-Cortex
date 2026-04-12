@@ -1,0 +1,508 @@
+{
+  "timestamp": "2026-04-12 06:10",
+  "regime": {
+    "regime": "TRANSITION",
+    "confidence": 0.667,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.0,
+      "TRANSITION": 0.667,
+      "RISK_ON": 0.333,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 19.2 18-25: uncertain",
+      "VIX 10d -22.9%: vol crush",
+      "4 correlation breaks: regime shift signal"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$40.78B|LAWRENCE LIVERMORE NATIONAL SECURITY, LLC|None|TAS::89 0240::TAS THIS PERFORMANCE-BASED MANAGEMENT CONTRACT (PBMC) IS FOR THE M",
+      "$30.24B|BATTELLE MEMORIAL INSTITUTE|None|BATTELLE MEMORIAL INSTITUTE/PACIFIC NORTHWEST               LABORATORY OPERATING",
+      "$17.03B|BECHTEL NATIONAL, INC.|None|None",
+      "$3.02B|OAK RIDGE ASSOCIATED UNIVERSITIES, INCORPORATED|None|IGF::OT::IGF MANAGEMENT OF THE OAK RIDGE INSTITUTE FOR SCIENCE AND EDUCATION",
+      "$3.02B|SPACE EXPLORATION TECHNOLOGIES CORP.|None|WORK REQUIRED FOR THE DESIGN, DEVELOPMENT, MANUFACTURE, TEST, LAUNCH, DEMONSTRAT",
+      "$2.19B|UNITED CLEANUP OAK RIDGE LLC|None|OAK RIDGE RESERVATION CLEANUP CONTRACT TASK ORDERS",
+      "$1.87B|HARRIS CORPORATION|None|THE PURPOSE OF THIS DELIVERY ORDER AWARD IS TO ADD FUNDING FOR FTI TELECOMMUNICA",
+      "$1.83B|L3HARRIS TECHNOLOGIES, INC.|None|THE PURPOSE OF THIS CONTRACT IS TO DEVELOP THE GROUND SYSTEM THAT WILL SUPPORT N",
+      "$1.71B|BLUE ORIGIN MANUFACTURING, LLC|None|RAPID DDT&E AND DEMONSTRATION OF S SUSTAINABLE HUMAN LANDING SYSTEM INTEGRATED L",
+      "$1.59B|CALIFORNIA INSTITUTE OF TECHNOLOGY|None|MARS SAMPLE RETURN (MSR) PROGRAM - PHASE A 40-108270",
+      "$1.57B|NORTHROP GRUMMAN SYSTEMS CORPORATION|None|IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUILDS UPON THE SUCCESS",
+      "$1.54B|IDAHO ENVIRONMENTAL COALITION LLC|None|THE PURPOSE OF THIS ACTION IS TO AWARD THE ICP TEN YEAR PLAN HYBRID TASK ORDER U",
+      "$1.54B|PERATON INC.|None|THE EXPLORATION AND SPACE COMMUNICATIONS PROJECTS DIVISION (ESC) IS A NATIONAL R",
+      "$1.26B|AT&T ENTERPRISES, LLC|None|ENTERPRISE DATA NETWORK SERVICES CARRIER B",
+      "$0.86B|NOVITAS SOLUTIONS, INC.|None|JURISDICTION H A/B MAC CONTRACT"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Jefferson, Economic Outlook and the Labor Market",
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments",
+      "[ECB] Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 February 2026"
+    ],
+    "policy": [
+      "[Rule] Establishment of Class E Airspace; Wall Municipal Airport, Wall, SD"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "10-Apr-2026",
+        "buyValue": "15982.46",
+        "sellValue": "15572.41",
+        "netValue": "410.05"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "10-Apr-2026",
+        "buyValue": "18303.96",
+        "sellValue": "17631.87",
+        "netValue": "672.09"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.44,
+        "chg": -0.07,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.52,
+        "chg": 0.14,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 0.46,
+        "chg": -0.25,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.42,
+        "chg": -0.18,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.33,
+        "chg": -0.24,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 0.5,
+        "chg": -0.4,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 0.45,
+        "chg": -0.26,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 0.48,
+        "chg": 0.46,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 0.3,
+        "chg": -0.91,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 0.74,
+        "chg": -0.68,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 0.73,
+        "chg": 2.1,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 0.58,
+        "chg": 1.06,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.67,
+        "chg": -1.09,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 0.59,
+        "chg": -0.4,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": -0.1,
+        "b_chg": -0.114,
+        "same": true,
+        "div": 0.014,
+        "interp": "Gold/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": -0.399,
+        "b_chg": -0.114,
+        "same": true,
+        "div": 0.285,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": 2.401,
+        "b_chg": -0.114,
+        "same": false,
+        "div": 2.515,
+        "interp": "Dr Copper/Equity",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": -0.172,
+        "b_chg": -0.1,
+        "same": true,
+        "div": 0.072,
+        "interp": "Dollar/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": -1.334,
+        "b_chg": -0.114,
+        "same": true,
+        "div": 1.22,
+        "interp": "Vol/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": -1.328,
+        "b_chg": 0.625,
+        "same": false,
+        "div": 1.953,
+        "interp": "Oil/INR",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": 0.559,
+        "b_chg": -0.1,
+        "same": false,
+        "div": 0.659,
+        "interp": "Rates/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": -1.707,
+        "b_chg": 0.353,
+        "same": false,
+        "div": 2.06,
+        "interp": "Crypto/Tech",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": -0.242,
+        "b_chg": -0.114,
+        "same": true,
+        "div": 0.128,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": 2.401,
+        "b_chg": -1.328,
+        "same": false,
+        "div": 3.729,
+        "interp": "Copper/Oil",
+        "flag": "DIVERGENCE"
+      }
+    ],
+    "anomalies": [
+      "BREAK COPPER/SP500: A+2.40% B-0.11%",
+      "BREAK OIL_WTI/USDINR: A-1.33% B+0.62%",
+      "BREAK BITCOIN/NASDAQ: A-1.71% B+0.35%",
+      "BREAK COPPER/OIL_WTI: A+2.40% B-1.33%"
+    ]
+  },
+  "tier4": {
+    "news_len": 10379,
+    "gdelt_len": 17
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 37.7,
+      "rating": "fear",
+      "prev_week": 23.7,
+      "prev_month": 20.3
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": 0.181211,
+    "patterns": 6
+  },
+  "agents": {
+    "upstream": "OBSERVE: The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d).\n\nLOGIC: The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition suggests caution -> The market may be due for a correction, and investors should be prepared for a potential downturn -> The current market conditions warrant careful analysis and a cautious approach.\n\nCOUNTER: The fact that the majority of the markets are showing an upward trend could indicate a strong economy and a continued bull run, which would contradict the idea of a regime transition and a potential downturn.\n\nCONCLUDE: Based on the current market conditions and the high probability of a regime transition, I conclude that a cautious approach is warranted, and investors should be prepared for a potential downturn.\n\nDEPENDS ON: The single data point that would change my mind is a significant increase in the SP500 (e.g., >5% in a short period), which would indicate a strong bull run and reduce the probability of a regime transition.\n\nWRONG IF: My conclusion is wrong if the market continues to trend upward without any significant corrections, and the regime transition probability decreases, indicating a stable and growing economy.",
+    "flow": "OBSERVE: The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), but the ETF data shows a neutral signal for most sectors.\n\nLOGIC: The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition suggests caution -> The market may be due for a correction, and investors should be prepared for a potential downturn -> The current market conditions warrant careful analysis and a cautious approach, considering the neutral signals from the ETF data.\n\nCOUNTER: The fact that the majority of the markets are showing an upward trend could indicate a strong economy and a continued bull run, which would contradict the idea of a regime transition and a potential downturn, and the neutral signals from the ETF data may indicate a stable market.\n\nCONCLUDE: Based on the current market conditions and the high probability of a regime transition, I conclude that a cautious approach is warranted, and investors should be prepared for a potential downturn, taking into account the neutral signals from the ETF data.\n\nDEPENDS ON: The single data point that would change my mind is a significant increase in the SP500 (e.g., >5% in a short period), which would indicate a strong bull run and reduce the probability of a regime transition, or a shift in the ETF signals to a bullish trend.\n\nWRONG IF: My conclusion is wrong if the market continues to trend upward without any significant corrections, and the regime transition probability decreases, indicating a stable and growing economy, and the ETF signals turn bullish, confirming a strong market trend.",
+    "market": "OBSERVE: The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), but there are several anomalies in the correlations, including a break in the COPPER/SP500, OIL_WTI/USDINR, BITCOIN/NASDAQ, and COPPER/OIL_WTI relationships.\n\nLOGIC: The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition and the anomalies in the correlations suggest caution -> The market may be due for a correction, and investors should be prepared for a potential downturn -> The current market conditions warrant careful analysis and a cautious approach.\n\nCOUNTER: The fact that the majority of the markets are showing an upward trend could indicate a strong economy and a continued bull run, which would contradict the idea of a regime transition and a potential downturn. Additionally, the F&G index score of 37.7, which indicates a \"fear\" rating, may be an overreaction to the current market conditions.\n\nCONCLUDE: Based on the current market conditions and the anomalies in the correlations, I conclude that a cautious approach is warranted. The high probability of a regime transition and the breaks in the correlations suggest that the market may be due for a correction, and investors should be prepared for a potential downturn.\n\nDEPENDS ON: The validation of the regime transition prediction, as indicated by the brain's 67% probability, would be the key data point that would change my mind. If the regime transition is confirmed, it would support the cautious approach and potential downturn prediction.\n\nWRONG IF: If the market continues to trend upward and the correlations return to normal, it would falsify my conclusion and suggest that the cautious approach is unwarranted. Specifically, if the COPPER/SP500, OIL_WTI/USDINR, BITCOIN/NASDAQ, and COPPER/OIL_WTI relationships return to their norma",
+    "narrative": "OBSERVE: The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), with news articles suggesting a surge in trading revenues, high inflation rates, and significant investments in various sectors.\n\nLOGIC: The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition and the anomalies in the correlations suggest caution -> The market may be due for a correction, and investors should be prepared for a potential downturn -> The current market conditions warrant careful analysis and a cautious approach, as the regime transition may lead to a shift in market trends.\n\nCOUNTER: The fact that the majority of the markets are showing an upward trend and the news articles suggest a surge in trading revenues and significant investments could indicate a strong market, and the regime transition may not necessarily lead to a downturn.\n\nCONCLUDE: The current market conditions are uncertain, and a cautious approach is warranted, as the regime transition may lead to a shift in market trends, and the anomalies in the correlations suggest that the market may be due for a correction.\n\nDEPENDS ON: The outcome of the upcoming economic events, such as the Core PPI m/m and PPI m/m releases, which could provide further insight into the market trends and the potential impact of the regime transition.\n\nWRONG IF: The market continues to show a strong upward trend, and the regime transition does not lead to a correction, or if the economic events release positive data, indicating a strong economy and a low probability of a downturn. \n\nAdditionally, Agents 1-3 are following the herd by:\n- Agent 1 (Upstream) focusing on the upward trend in the markets and the high probability of a regime transition, without considering alternative scenarios.\n- Agent 2 (Flow) emphasizing the neutral signal for",
+    "synthesis": "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the data and reasoning from various agents, I side with the **Synthesis** agent. The synthesis agent's conclusion of a potential downturn, given the high probability of a regime transition and the anomalies in the correlations, aligns with the cautious approach warranted by the current market conditions. The synthesis agent's reasoning considers the broader market trends, the brain's crisis regime prediction, and the potential impact of the regime transition on investor behavior.\n\n### 2. Generate THESES\n\n**THESIS:** Market Correction Ahead\n**CHAIN:** High probability of regime transition -> Decrease in investor confidence -> Market correction -> Reduced economic growth\n**CONFIDENCE:** 70\n**KILL IF:** SP500 increases by >5% in a short period, indicating a strong bull run\n**TIMEFRAME:** 30 days\n**ASSET:** SP500 (ticker: SPY)\n\n### 3. INDIA INTELLIGENCE\n\nThe Indian market, as represented by the NIFTY50, is showing an upward trend in the short term (10d and 30d). However, the high probability of a regime transition and the anomalies in the correlations suggest caution. The FII/DII data indicates a mixed sentiment in the market. The RBI's actions will be crucial in navigating the potential downturn. Risks include a decline in investor confidence, while opportunities may arise from a potential correction in the market.\n\n### 4. THE UNCOMFORTABLE TRUTH\n\nThe current market conditions, characterized by a high probability of a regime transition and anomalies in correlations, suggest that a cautious approach is warranted. However, the majority of the markets are showing an upward trend, which may indicate a strong economy and a continued bull run. The truth is that the market is uncertain, and investors must be prepared for a potential downturn, while also considering the possibility of a continued upward trend.\n\n### 5. WHAT TO WATCH\n\nHere are five specific \"if X then Y\" conditions to watch:\n1. **If** the SP500 incr",
+    "adversary": "### OBSERVE: \nThe Synthesis agent's conclusion of a potential downturn, given the high probability of a regime transition and the anomalies in the correlations, aligns with the cautious approach warranted by the current market conditions.\n\n### LOGIC: \nThe synthesis agent's reasoning considers the broader market trends, the brain's crisis regime prediction, and the potential impact of the regime transition on investor behavior -> This suggests that the agent is looking at a combination of technical and fundamental analysis to predict market movement -> The implication is that if the regime transition occurs, it could lead to a decrease in investor confidence, potentially causing a market correction.\n\n### COUNTER: \nHowever, the majority of the markets are showing an upward trend, which may indicate a strong economy and a continued bull run, contradicting the synthesis agent's conclusion.\n\n### CONCLUDE: \nThe WEAKEST THESIS is the \"Market Correction Ahead\" thesis, as it is based on a high probability of a regime transition, which may not necessarily lead to a market correction. The BIGGEST BLIND SPOT is the assumption that a regime transition will always lead to a decrease in investor confidence and a market correction, without considering the potential for the market to adapt and continue its upward trend.\n\n### DEPENDS ON: \nThe single data point that would change my mind is if the SP500 increases by >5% in a short period, indicating a strong bull run, which would suggest that the market is not as sensitive to the regime transition as initially thought.\n\n### WRONG IF: \nThis conclusion is wrong if the regime transition occurs and the market continues its upward trend, with investor confidence remaining high, and the synthesis agent's cautious approach is proven to be overly pessimistic. \n\n### OBSERVE: \nThe Brain's regime prediction shows a 67% chance of a regime transition.\n\n### LOGIC: \nThis prediction is based on the brain's analysis of market trends and correlations ->"
+  },
+  "reasoning": {
+    "chains": 6,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-12T06:10:46.111769"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T06:10:46.706766"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-12T06:11:07.488084"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-12T06:11:07.799028"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T06:11:08.022037"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T06:11:08.423013"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T06:11:08.823252"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T06:11:09.218380"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T06:11:09.595339"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T06:11:09.982332"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T06:11:10.367362"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T06:11:10.766017"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T06:11:11.168375"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-12T06:11:11.574352"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-12T06:11:11.775359"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-12T06:11:12.711068"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T06:11:12.900055"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T06:11:14.015169"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T06:11:15.791918"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-12T06:11:15.984220"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-12T06:11:26.105764"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-12T06:11:27.335731"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-12T06:11:28.203461"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-12T06:11:28.833012"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-12T06:11:29.469876"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-12T06:11:29.470625"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T06:11:29.782048"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-12T06:11:30.763046"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-12T06:11:31.375615"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-12T06:11:32.730465"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-12T06:11:33.015963"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T06:11:33.336781"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-12T06:11:34.322783"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-12T06:11:37.636728"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-12T06:11:37.636746"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-12T06:12:03.475317"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T06:12:03.731338"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-12T06:12:08.927685"
+    },
+    "GDELT": {
+      "ok": false,
+      "detail": "HTTP 429",
+      "ts": "2026-04-12T06:12:09.209211"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-12T06:12:09.320360"
+    }
+  }
+}

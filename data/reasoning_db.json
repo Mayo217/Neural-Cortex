@@ -3140,7 +3140,7 @@
       "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to make difficult decisions about layoffs and closures -> This could lead to a surge in WARN Act notices, which could have a significant impact on the market and the economy ->",
       "id": "75cccc4eb331",
       "timestamp": "2026-04-05T05:58:51.646571",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -3165,7 +3165,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the brain's crisis regime prediction at 67%, and the market's volatility is reflected in the ETF data, with most signals being \"NEUTRAL\".\n\nLOGIC: The high probability of a crisis regime, combined with the market's volatility, suggests that the WARN Act's provisions may take on increased importance in the near future -> This could lead to a surge in WARN Act notices, which could have a significant impact o",
       "id": "90fc22b31974",
       "timestamp": "2026-04-05T05:58:51.646633",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -3190,7 +3190,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the brain's crisis regime prediction at 67%, and the market's volatility is reflected in the ETF data, with most signals being \"NEUTRAL\". The F&G index is at 19.3, indicating \"EXTREME FEAR\".\n\nLOGIC: The high probability of a crisis regime, combined with the market's volatility and the F&G index indicating \"EXTREME FEAR\", suggests that investors are becoming increasingly risk-averse -> This could lead to a",
       "id": "cc9663d1ac3c",
       "timestamp": "2026-04-05T05:58:51.646667",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -3215,7 +3215,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the brain's crisis regime prediction at 67%, and the market's volatility is reflected in the ETF data, with most signals being \"NEUTRAL\". The F&G index is at 19.3, indicating \"EXTREME FEAR\".\n\nLOGIC: The high probability of a crisis regime, combined with the market's volatility and the F&G index indicating \"EXTREME FEAR\", suggests that investors are becoming increasingly risk-averse -> This could lead to a",
       "id": "551463e4efcb",
       "timestamp": "2026-04-05T05:58:51.646778",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -3239,7 +3239,7 @@
       "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the observations, logic, and conclusions of Agents 1-3, I side with Agent 1, who emphasizes the importance of the WARN Act's provisions in a crisis regime. This is because Agent 1's logic is more comprehensive, considering the potential consequences of mass layoffs and plant closures on the market and the economy.\n\n**GENERATE THESES**\n\nHere are a few theses based on the provided information:\n\n1. **THESIS:** Market Volatility Surge\n   *",
       "id": "acb548eff9f2",
       "timestamp": "2026-04-05T05:58:51.647193",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -3262,7 +3262,7 @@
       "raw_excerpt": "**OBSERVE:** The Synthesizer's output is based on a high probability of a crisis regime, leading to a surge in safe-haven assets and a decline in riskier assets.\n\n**LOGIC:** The Synthesizer's logic is based on the assumption that a crisis regime will lead to increased market volatility, decreased investor confidence, and a flight to safety. However, this logic is based on historical patterns and may not account for unique circumstances or black swan events. -> The Synthesizer's conclusions may b",
       "id": "8ed3678b5e09",
       "timestamp": "2026-04-05T05:58:51.647394",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -9079,6 +9079,156 @@
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d)."
+      ],
+      "logic": [
+        "The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition suggests caution -> The market may be due for a correction, and investors should be prepared for a potential downturn -> The current market conditions warrant careful analysis and a cautious approach."
+      ],
+      "counters": [
+        "The fact that the majority of the markets are showing an upward trend could indicate a strong economy and a continued bull run, which would contradict the idea of a regime transition and a potential downturn."
+      ],
+      "conclusions": [
+        "Based on the current market conditions and the high probability of a regime transition, I conclude that a cautious approach is warranted, and investors should be prepared for a potential downturn."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d).\n\nLOGIC: The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition suggests caution -> The market may be due for a correction, and investors should be prepared for a potential downturn -> The current market conditions wa",
+      "id": "163394884752",
+      "timestamp": "2026-04-12T06:13:12.382282",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), but the ETF data shows a neutral signal for most sectors."
+      ],
+      "logic": [
+        "The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition suggests caution -> The market may be due for a correction, and investors should be prepared for a potential downturn -> The current market conditions warrant careful analysis and a cautious approach, considering the neutral signals from the ETF data."
+      ],
+      "counters": [
+        "The fact that the majority of the markets are showing an upward trend could indicate a strong economy and a continued bull run, which would contradict the idea of a regime transition and a potential downturn, and the neutral signals from the ETF data may indicate a stable market."
+      ],
+      "conclusions": [
+        "Based on the current market conditions and the high probability of a regime transition, I conclude that a cautious approach is warranted, and investors should be prepared for a potential downturn, taking into account the neutral signals from the ETF data."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), but the ETF data shows a neutral signal for most sectors.\n\nLOGIC: The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition suggests caution -> The market may be due for a correction, and investors should be prepared fo",
+      "id": "a76c2a4b7082",
+      "timestamp": "2026-04-12T06:13:12.382369",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), but there are several anomalies in the correlations, including a break in the COPPER/SP500, OIL_WTI/USDINR, BITCOIN/NASDAQ, and COPPER/OIL_WTI relationships."
+      ],
+      "logic": [
+        "The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition and the anomalies in the correlations suggest caution -> The market may be due for a correction, and investors should be prepared for a potential downturn -> The current market conditions warrant careful analysis and a cautious approach."
+      ],
+      "counters": [
+        "The fact that the majority of the markets are showing an upward trend could indicate a strong economy and a continued bull run, which would contradict the idea of a regime transition and a potential downturn. Additionally, the F&G index score of 37.7, which indicates a \"fear\" rating, may be an overreaction to the current market conditions."
+      ],
+      "conclusions": [
+        "Based on the current market conditions and the anomalies in the correlations, I conclude that a cautious approach is warranted. The high probability of a regime transition and the breaks in the correlations suggest that the market may be due for a correction, and investors should be prepared for a potential downturn."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), but there are several anomalies in the correlations, including a break in the COPPER/SP500, OIL_WTI/USDINR, BITCOIN/NASDAQ, and COPPER/OIL_WTI relationships.\n\nLOGIC: The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transi",
+      "id": "8faf5ab408df",
+      "timestamp": "2026-04-12T06:13:12.382420",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "commodity_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), with news articles suggesting a surge in trading revenues, high inflation rates, and significant investments in various sectors."
+      ],
+      "logic": [
+        "The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition and the anomalies in the correlations suggest caution -> The market may be due for a correction, and investors should be prepared for a potential downturn -> The current market conditions warrant careful analysis and a cautious approach, as the regime transition may lead to a shift in market trends."
+      ],
+      "counters": [
+        "The fact that the majority of the markets are showing an upward trend and the news articles suggest a surge in trading revenues and significant investments could indicate a strong market, and the regime transition may not necessarily lead to a downturn."
+      ],
+      "conclusions": [
+        "The current market conditions are uncertain, and a cautious approach is warranted, as the regime transition may lead to a shift in market trends, and the anomalies in the correlations suggest that the market may be due for a correction."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), with news articles suggesting a surge in trading revenues, high inflation rates, and significant investments in various sectors.\n\nLOGIC: The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition and the anomalies in the",
+      "id": "650a5a78e2a2",
+      "timestamp": "2026-04-12T06:13:12.382551",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "divergence_signal"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the data and reasoning from various agents, I side with the **Synthesis** agent. The synthesis agent's conclusion of a potential downtur"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "downturn, given the high probability of a regime transition and the anomalies in the correlations, aligns with the cautious approach warranted by the current market conditions.",
+        "upward trend in the short term (10d and 30d).",
+        "downturn."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the data and reasoning from various agents, I side with the **Synthesis** agent. The synthesis agent's conclusion of a potential downturn, given the high probability of a regime transition and the anomalies in the correlations, aligns with the cautious approach warranted by the current market conditions. The synthesis agent's reasoning considers the broader market trends, the brain's crisis regime prediction, and the potential impac",
+      "id": "9387f4b88ec3",
+      "timestamp": "2026-04-12T06:13:12.382907",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "### OBSERVE: \nThe Synthesis agent's conclusion of a potential downturn, given the high probability of a regime transition and the anomalies in the correlations, aligns with the cautious approach warra"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "downturn, given the high probability of a regime transition and the anomalies in the correlations, aligns with the cautious approach warranted by the current market conditions.",
+        "upward trend, which may indicate a strong economy and a continued bull run, contradicting the synthesis agent's conclusion.",
+        "upward trend."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### OBSERVE: \nThe Synthesis agent's conclusion of a potential downturn, given the high probability of a regime transition and the anomalies in the correlations, aligns with the cautious approach warranted by the current market conditions.\n\n### LOGIC: \nThe synthesis agent's reasoning considers the broader market trends, the brain's crisis regime prediction, and the potential impact of the regime transition on investor behavior -> This suggests that the agent is looking at a combination of technic",
+      "id": "374b05691a0f",
+      "timestamp": "2026-04-12T06:13:12.383325",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "divergence_signal"
     }
   ],
   "pattern_quality": {
@@ -9091,8 +9241,8 @@
       "total": 1
     },
     "general|TRANSITION": {
-      "correct": 7,
-      "total": 7
+      "correct": 8,
+      "total": 8
     }
   },
   "meta_failures": []
