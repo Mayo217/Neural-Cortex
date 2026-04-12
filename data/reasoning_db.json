@@ -3936,7 +3936,7 @@
       "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, as stated in the California Labor Code, Section 1400.\nLOGIC: The WARN Act's provisions are in place to protect workers' rights and provide them with sufficient notice before a significant employment change -> This notice period allows workers to prepare and seek alternative employment -> The WARN Act's requirements are crucial for maintaining worker stability and reducing th",
       "id": "60db94bf18c6",
       "timestamp": "2026-04-05T19:52:56.278319",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -3961,7 +3961,7 @@
       "raw_excerpt": "OBSERVE: The brain's output indicates a 67% probability of a transition regime, with various market indices (SP500, NIFTY50, GOLD) showing a mix of upward and downward trends, but mostly neutral signals from the ETF data.\nLOGIC: The presence of a transition regime, as indicated by the brain's output, suggests that the market is in a state of flux, with potential for significant changes in the near future -> This could lead to increased volatility and uncertainty, making it challenging for invest",
       "id": "888cbb94b9ae",
       "timestamp": "2026-04-05T19:52:56.278400",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -3986,7 +3986,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating of 19.3, with various market indices (SP500, NIFTY50, GOLD) showing a mix of upward and downward trends, but mostly neutral signals from the ETF data. The brain's output indicates a 67% probability of a transition regime.\n\nLOGIC: The presence of a transition regime, as indicated by the brain's output, suggests that the market is in a state of flux, with potential for significant changes in the ne",
       "id": "1b87f03a9c89",
       "timestamp": "2026-04-05T19:52:56.278438",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -4011,7 +4011,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating of 19.3, with various market indices (SP500, NIFTY50, GOLD) showing a mix of upward and downward trends, but mostly neutral signals from the ETF data. The brain's output indicates a 67% probability of a transition regime.\n\nLOGIC: The presence of a transition regime, as indicated by the brain's output, suggests that the market is in a state of flux, with potential for significant changes in the ne",
       "id": "16a6a90771b6",
       "timestamp": "2026-04-05T19:52:56.278575",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -4034,7 +4034,7 @@
       "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the outputs from Agents 1-3, I conclude that they are following the herd, and their observations and logic are based on the current market trends and news reports, without providing any significant edge or contrarian views. I side with **none of the agents**, as their outputs do not provide any unique insights or perspectives that can help reconcile contradictions between agents.\n\n**GENERATE THESES**\n\nHere are five theses in the requir",
       "id": "d443249f3b39",
       "timestamp": "2026-04-05T19:52:56.279186",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -4057,7 +4057,7 @@
       "raw_excerpt": "**ATTACKING THE THESES**\n\nAfter analyzing the provided theses, I identify the **WEAKEST THESIS** as **THESIS 5: Fed Liquidity**. This thesis has the lowest confidence level of 40 and is based on a chain of events that may not necessarily lead to decreased investor confidence. The TGA and RRP drain may not have a direct impact on market participation, and the relationship between liquidity and market volatility is complex.\n\n**BIGGEST BLIND SPOT**: The theses do not account for the potential impac",
       "id": "3fc9b4232b74",
       "timestamp": "2026-04-05T19:52:56.279652",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "liquidity_mechanics"
@@ -9466,6 +9466,238 @@
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "policy_signal"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The WARN Act's provisions require employers to provide written notice at least 60 days before a mass layoff or plant closure, with a total of $40.78B in contracts awarded to Lawrence Livermore National Security, LLC, and other notable companies."
+      ],
+      "logic": [
+        "The WARN Act's provisions are designed to protect workers' rights and provide them with sufficient notice before a significant change in their employment status -> This suggests that the Act is crucial in maintaining stability in the labor market -> The high value of contracts awarded to various companies indicates a significant investment in the industry, which could lead to job creation and economic growth."
+      ],
+      "counters": [
+        "The high value of contracts awarded to companies may not necessarily translate to job creation or economic growth, as it could be focused on specific projects or initiatives that do not directly benefit the labor market."
+      ],
+      "conclusions": [
+        "The WARN Act's provisions are essential in protecting workers' rights, and the significant investment in contracts awarded to various companies could lead to economic growth, but it is crucial to monitor the actual impact on the labor market."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The WARN Act's provisions require employers to provide written notice at least 60 days before a mass layoff or plant closure, with a total of $40.78B in contracts awarded to Lawrence Livermore National Security, LLC, and other notable companies.\n\nLOGIC: The WARN Act's provisions are designed to protect workers' rights and provide them with sufficient notice before a significant change in their employment status -> This suggests that the Act is crucial in maintaining stability in the lab",
+      "id": "b17dc8724852",
+      "timestamp": "2026-04-12T19:57:09.963786",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The brain's output indicates a 67% probability of a transition regime, with various market indices (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and downward trends, and the ETF signals are mostly neutral."
+      ],
+      "logic": [
+        "The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various factors, including labor market stability -> The high value of contracts awarded to companies like Lawrence Livermore National Security, LLC, could lead to economic growth, but the actual impact on the labor market is crucial to monitor."
+      ],
+      "counters": [
+        "The contracts awarded to companies may not necessarily translate to job creation or economic growth, as it could be focused on specific projects or initiatives that do not directly benefit the labor market, and the brain's crisis regime may be driven by other factors unrelated to the WARN Act."
+      ],
+      "conclusions": [
+        "The brain's output and market conditions suggest a high level of uncertainty and volatility, and while the WARN Act's provisions are essential in protecting workers' rights, the actual impact on the labor market and economic growth is still uncertain."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The brain's output indicates a 67% probability of a transition regime, with various market indices (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and downward trends, and the ETF signals are mostly neutral.\n\nLOGIC: The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various factors, including labor marke",
+      "id": "6b56859a6705",
+      "timestamp": "2026-04-12T19:57:09.963871",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The current market conditions show a mix of upward and downward trends, with the SP500, NIFTY50, GOLD, and BITCOIN indices experiencing varying degrees of volatility, and the brain's output indicates a 67% probability of a transition regime."
+      ],
+      "logic": [
+        "The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various factors, including labor market stability -> The high value of contracts awarded to companies like Lawrence Livermore National Security, LLC, could lead to economic growth, but the actual impact on the labor market is crucial to monitor."
+      ],
+      "counters": [
+        "The contracts awarded to companies may not necessarily translate to job creation or economic growth, and the market's volatility could be driven by other factors such as global events, monetary policy, or geopolitical tensions."
+      ],
+      "conclusions": [
+        "The current market conditions and the brain's output suggest that the market is in a transition regime, with a high degree of uncertainty and volatility. The WARN Act's provisions and the high value of contracts awarded to companies could have a positive impact on the labor market and economic growth, but the actual outcome is uncertain."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions show a mix of upward and downward trends, with the SP500, NIFTY50, GOLD, and BITCOIN indices experiencing varying degrees of volatility, and the brain's output indicates a 67% probability of a transition regime.\n\nLOGIC: The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various fact",
+      "id": "621745ffc68b",
+      "timestamp": "2026-04-12T19:57:09.964023",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The Fear and Greed index (F&G) shows a score of 37.7, indicating a \"fear\" rating, which is higher than the previous week and month."
+      ],
+      "logic": [
+        "The Fear and Greed index is a measure of market sentiment, and a \"fear\" rating suggests that investors are cautious and risk-averse -> This could indicate that the market is due for a correction or a pullback, as investors are becoming increasingly risk-averse -> The high fear rating could also suggest that the market is oversold, and a bounce or a rally could be imminent."
+      ],
+      "counters": [
+        "The Fear and Greed index is not always a reliable indicator of market direction, and a \"fear\" rating could also indicate a buying opportunity for investors who are willing to take on more risk."
+      ],
+      "conclusions": [
+        "The Fear and Greed index suggests that the market is experiencing a high degree of fear and caution, which could indicate a correction or a pullback. However, it is essential to consider other market indicators and factors to determine the overall market direction."
+      ],
+      "dependencies": [
+        "The outcome of the contracts awarded to companies and their impact on job creation and economic growth."
+      ],
+      "falsifications": [
+        "The market experiences a significant downturn or a sudden change in the labor market, which could be triggered by factors such as a global economic slowdown, a major geopolitical event, or a significant change in monetary policy."
+      ],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions show a mix of upward and downward trends, with the SP500, NIFTY50, GOLD, and BITCOIN indices experiencing varying degrees of volatility, and the brain's output indicates a 67% probability of a transition regime.\n\nLOGIC: The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various fact",
+      "id": "56594d077608",
+      "timestamp": "2026-04-12T19:57:09.964023",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "The current market conditions show a mix of upward and downward trends, with the SP500, NIFTY50, GOLD, and BITCOIN indices experiencing varying degrees of volatility, and the brain's output indicates a 67% probability of a transition regime."
+      ],
+      "logic": [
+        "The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various factors, including labor market stability -> The high value of contracts awarded to companies like Lawrence Livermore National Security, LLC, and other notable companies indicates a significant investment in the labor market."
+      ],
+      "counters": [
+        "The current market conditions could be attributed to other factors such as the Iran war, inflation, and global oil market disruptions, rather than the WARN Act's provisions."
+      ],
+      "conclusions": [
+        "The current market conditions are uncertain and volatile, with a mix of upward and downward trends, and the brain's crisis regime may be indirectly related to the WARN Act's provisions."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions show a mix of upward and downward trends, with the SP500, NIFTY50, GOLD, and BITCOIN indices experiencing varying degrees of volatility, and the brain's output indicates a 67% probability of a transition regime.\n\nLOGIC: The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various fact",
+      "id": "4768a74fa22e",
+      "timestamp": "2026-04-12T19:57:09.964094",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "Agents 1-3 are following the herd, with their analyses and predictions largely in line with the crowd's expectations."
+      ],
+      "logic": [
+        "Following the herd can lead to a lack of edge and consensus in the market -> This can result in Agents 1-3 missing out on potential opportunities and being caught off guard by unexpected market movements -> The crowd's expectations can be influenced by various factors, including news and market trends."
+      ],
+      "counters": [
+        "Agents 1-3 may be following the herd due to a lack of alternative perspectives or a desire to minimize risk."
+      ],
+      "conclusions": [
+        "Agents 1-3 should consider alternative perspectives and not just follow the crowd to gain an edge in the market."
+      ],
+      "dependencies": [
+        "The outcome of the Iran-US talks and the subsequent impact on the global oil market would be a crucial factor in determining the direction of the market."
+      ],
+      "falsifications": [
+        "If the market experiences a significant downturn despite the WARN Act's provisions, it would suggest that the Act's impact on the labor market is not a primary driver of the market's volatility."
+      ],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market conditions show a mix of upward and downward trends, with the SP500, NIFTY50, GOLD, and BITCOIN indices experiencing varying degrees of volatility, and the brain's output indicates a 67% probability of a transition regime.\n\nLOGIC: The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various fact",
+      "id": "4d13c23a4adb",
+      "timestamp": "2026-04-12T19:57:09.964094",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the reasoning provided by various agents, it's clear that there are contradictions regarding the impact of the WARN Act's provisions on "
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "rally, presenting opportunities for investors.",
+        "downturn, presenting risks for investors."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the reasoning provided by various agents, it's clear that there are contradictions regarding the impact of the WARN Act's provisions on the labor market and the overall economy. Agents 1-3 seem to follow the herd, suggesting that the WARN Act's provisions and the high value of contracts awarded to companies could lead to economic growth. However, other agents argue that the impact of these contracts on the labor market is uncertain ",
+      "id": "f99f5399931c",
+      "timestamp": "2026-04-12T19:57:09.964685",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [],
+      "logic": [
+        "The confidence in this thesis is relatively low compared to other theses, suggesting uncertainty in the impact of contracts on the labor market and economic growth -> This uncertainty could lead to market volatility and decreased investor confidence -> The thesis's reliance on the labor market's response to contracts makes it vulnerable to falsification by data showing no significant job creation or economic growth."
+      ],
+      "counters": [
+        "One might argue that the high value of contracts awarded to companies could indeed lead to economic growth through increased investment and job creation, citing historical examples where significant government contracts have boosted local economies."
+      ],
+      "conclusions": [
+        "The \"Economic Growth\" thesis is the weakest due to its moderate confidence level and the indirect link between contracts awarded to companies and actual economic growth. Its validity heavily depends on the labor market's positive response to these contracts."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### OBSERVE: The \"Economic Growth\" thesis has a confidence level of 50 and is based on the chain of high value of contracts awarded to companies leading to increased investment, job creation, and economic growth.\n\nLOGIC: The confidence in this thesis is relatively low compared to other theses, suggesting uncertainty in the impact of contracts on the labor market and economic growth -> This uncertainty could lead to market volatility and decreased investor confidence -> The thesis's reliance on t",
+      "id": "4ce391083fd2",
+      "timestamp": "2026-04-12T19:57:09.964770",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "adversary",
+      "observations": [],
+      "logic": [
+        "The omission of a detailed analysis on how the RBI's decisions interact with global trends and the WARN Act's provisions -> This lack of analysis could lead to overlooking critical factors that influence the Indian market -> The market's reaction to these factors could significantly impact the validity of the theses presented."
+      ],
+      "counters": [
+        "It could be argued that the RBI's monetary policy decisions are well-covered by other analyses, and the current focus is on the immediate implications of the WARN Act and global market trends."
+      ],
+      "conclusions": [
+        "The biggest blind spot in the analysis is the lack of in-depth examination of the interplay between the RBI's monetary policy, global economic trends, and the WARN Act's provisions, which could have significant implications for the Indian market and the overall validity of the theses."
+      ],
+      "dependencies": [
+        "The single data point that would change my mind is empirical evidence showing a direct and significant positive correlation between the value of contracts awarded to companies and subsequent job creation and economic growth."
+      ],
+      "falsifications": [
+        "This thesis would be falsified if data over the next 60 days shows that the contracts awarded to companies have a negligible impact on the labor market, leading to no significant job creation or economic growth."
+      ],
+      "assets": [],
+      "raw_excerpt": "### OBSERVE: The \"Economic Growth\" thesis has a confidence level of 50 and is based on the chain of high value of contracts awarded to companies leading to increased investment, job creation, and economic growth.\n\nLOGIC: The confidence in this thesis is relatively low compared to other theses, suggesting uncertainty in the impact of contracts on the labor market and economic growth -> This uncertainty could lead to market volatility and decreased investor confidence -> The thesis's reliance on t",
+      "id": "a492af900b00",
+      "timestamp": "2026-04-12T19:57:09.964770",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "policy_signal"
     }
   ],
   "pattern_quality": {
@@ -9478,8 +9710,8 @@
       "total": 1
     },
     "general|TRANSITION": {
-      "correct": 9,
-      "total": 9
+      "correct": 10,
+      "total": 10
     }
   },
   "meta_failures": []
