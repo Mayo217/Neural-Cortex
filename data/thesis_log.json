@@ -1041,5 +1041,35 @@
     ],
     "raw_block": "THESIS: Global Economic Risks and Market Volatility\nCHAIN: Geopolitical tensions and inflation -> Increased market volatility and risk aversion -> Shift towards a RISK_OFF regime\nCONFIDENCE: 40\nKILL IF: Significant decline in the VIX index or a 10% increase in the SP500 index\nTIMEFRAME: 60 days\nASSET: VIX\n\n**3. INDIA INTELLIGENCE: INR, Nifty sectors, FII/DII read, RBI, risks, opportunities**\n\nThe Indian market is vulnerable to global market trends, and close monitoring of the SP500 and NIFTY50 i",
     "timestamp": "2026-04-13T16:25:05.774293"
+  },
+  {
+    "title": "Market Volatility",
+    "chain": "RISK_ON regime (62%) -> increased market volatility -> significant price swings -> potential market correction",
+    "confidence": 80,
+    "direction": "neutral",
+    "kill_condition": "RISK_OFF regime (>50%) or significant decrease in market volatility",
+    "timeframe_days": 30,
+    "assets": [
+      "VIX"
+    ],
+    "raw_block": "THESIS: Market Volatility\nCHAIN: RISK_ON regime (62%) -> increased market volatility -> significant price swings -> potential market correction\nCONFIDENCE: 80\nKILL IF: RISK_OFF regime (>50%) or significant decrease in market volatility\nTIMEFRAME: 30 days\nASSET: VIX\n\n",
+    "timestamp": "2026-04-13T20:44:00.976898"
+  },
+  {
+    "title": "Commodity-CPI Lag",
+    "chain": "Oil price trend -> CPI 3-4 months later -> potential inflationary pressures -> monetary policy response",
+    "confidence": 70,
+    "direction": "bullish",
+    "kill_condition": "Brent oil price drops below $60 or CPI growth slows down",
+    "timeframe_days": 6,
+    "assets": [
+      "SP500",
+      "NIFTY",
+      "OIL",
+      "BRENT",
+      "INR"
+    ],
+    "raw_block": "THESIS: Commodity-CPI Lag\nCHAIN: Oil price trend -> CPI 3-4 months later -> potential inflationary pressures -> monetary policy response\nCONFIDENCE: 70\nKILL IF: Brent oil price drops below $60 or CPI growth slows down\nTIMEFRAME: 6 months\nASSET: OIL_BRENT\n\n**3. INDIA INTELLIGENCE:**\n\nThe Indian market, as represented by the NIFTY50, is currently showing an upward trend (44% up, 29% down, 27% flat) over the 30-day period. The FII/DII read indicates a neutral sentiment, with no strong conviction am",
+    "timestamp": "2026-04-13T20:44:00.976963"
   }
 ]

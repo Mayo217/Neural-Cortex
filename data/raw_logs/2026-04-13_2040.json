@@ -1,0 +1,505 @@
+{
+  "timestamp": "2026-04-13 20:40",
+  "regime": {
+    "regime": "RISK_ON",
+    "confidence": 0.625,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.0,
+      "TRANSITION": 0.375,
+      "RISK_ON": 0.625,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 19.1 18-25: uncertain",
+      "VIX 10d -29.7%: vol crush"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$40.78B|LAWRENCE LIVERMORE NATIONAL SECURITY, LLC|None|TAS::89 0240::TAS THIS PERFORMANCE-BASED MANAGEMENT CONTRACT (PBMC) IS FOR THE M",
+      "$30.24B|BATTELLE MEMORIAL INSTITUTE|None|BATTELLE MEMORIAL INSTITUTE/PACIFIC NORTHWEST               LABORATORY OPERATING",
+      "$17.03B|BECHTEL NATIONAL, INC.|None|None",
+      "$3.02B|OAK RIDGE ASSOCIATED UNIVERSITIES, INCORPORATED|None|IGF::OT::IGF MANAGEMENT OF THE OAK RIDGE INSTITUTE FOR SCIENCE AND EDUCATION",
+      "$3.02B|SPACE EXPLORATION TECHNOLOGIES CORP.|None|WORK REQUIRED FOR THE DESIGN, DEVELOPMENT, MANUFACTURE, TEST, LAUNCH, DEMONSTRAT",
+      "$2.19B|UNITED CLEANUP OAK RIDGE LLC|None|OAK RIDGE RESERVATION CLEANUP CONTRACT TASK ORDERS",
+      "$1.87B|HARRIS CORPORATION|None|THE PURPOSE OF THIS DELIVERY ORDER AWARD IS TO ADD FUNDING FOR FTI TELECOMMUNICA",
+      "$1.83B|L3HARRIS TECHNOLOGIES, INC.|None|THE PURPOSE OF THIS CONTRACT IS TO DEVELOP THE GROUND SYSTEM THAT WILL SUPPORT N",
+      "$1.71B|BLUE ORIGIN MANUFACTURING, LLC|None|RAPID DDT&E AND DEMONSTRATION OF S SUSTAINABLE HUMAN LANDING SYSTEM INTEGRATED L",
+      "$1.59B|CALIFORNIA INSTITUTE OF TECHNOLOGY|None|MARS SAMPLE RETURN (MSR) PROGRAM - PHASE A 40-108270",
+      "$1.57B|NORTHROP GRUMMAN SYSTEMS CORPORATION|None|IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUILDS UPON THE SUCCESS",
+      "$1.54B|IDAHO ENVIRONMENTAL COALITION LLC|None|THE PURPOSE OF THIS ACTION IS TO AWARD THE ICP TEN YEAR PLAN HYBRID TASK ORDER U",
+      "$1.54B|PERATON INC.|None|THE EXPLORATION AND SPACE COMMUNICATIONS PROJECTS DIVISION (ESC) IS A NATIONAL R",
+      "$1.26B|AT&T ENTERPRISES, LLC|None|ENTERPRISE DATA NETWORK SERVICES CARRIER B",
+      "$0.86B|NOVITAS SOLUTIONS, INC.|None|JURISDICTION H A/B MAC CONTRACT"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Jefferson, Economic Outlook and the Labor Market",
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments",
+      "[ECB] Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 February 2026"
+    ],
+    "policy": [
+      "[Rule] Establishment of Class E Airspace; Wall Municipal Airport, Wall, SD"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "13-Apr-2026",
+        "buyValue": "16612.03",
+        "sellValue": "14179.73",
+        "netValue": "2432.3"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "13-Apr-2026",
+        "buyValue": "15382.09",
+        "sellValue": "17365.27",
+        "netValue": "-1983.18"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.56,
+        "chg": 0.98,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.51,
+        "chg": 1.03,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 0.5,
+        "chg": 1.44,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.36,
+        "chg": -0.4,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.33,
+        "chg": 0.3,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 0.6,
+        "chg": 0.38,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 0.34,
+        "chg": 0.38,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 0.59,
+        "chg": 0.84,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 0.63,
+        "chg": 1.38,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 0.74,
+        "chg": 0.3,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 0.56,
+        "chg": 1.74,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 0.38,
+        "chg": -0.61,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.65,
+        "chg": 1.75,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 0.71,
+        "chg": -1.21,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": 0.017,
+        "b_chg": 1.017,
+        "same": true,
+        "div": 1.0,
+        "interp": "Gold/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": 0.375,
+        "b_chg": 1.017,
+        "same": true,
+        "div": 0.642,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": 2.189,
+        "b_chg": 1.017,
+        "same": true,
+        "div": 1.172,
+        "interp": "Dr Copper/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": -0.24,
+        "b_chg": 0.017,
+        "same": false,
+        "div": 0.257,
+        "interp": "Dollar/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": -0.572,
+        "b_chg": 1.017,
+        "same": false,
+        "div": 1.589,
+        "interp": "Vol/Equity",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": 1.377,
+        "b_chg": -1.209,
+        "same": false,
+        "div": 2.586,
+        "interp": "Oil/INR",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": -0.463,
+        "b_chg": 0.017,
+        "same": false,
+        "div": 0.48,
+        "interp": "Rates/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": 3.444,
+        "b_chg": 1.226,
+        "same": true,
+        "div": 2.218,
+        "interp": "Crypto/Tech",
+        "flag": "normal"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": 0.301,
+        "b_chg": 1.017,
+        "same": true,
+        "div": 0.716,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": 2.189,
+        "b_chg": 1.377,
+        "same": true,
+        "div": 0.812,
+        "interp": "Copper/Oil",
+        "flag": "normal"
+      }
+    ],
+    "anomalies": [
+      "BREAK VIX/SP500: A-0.57% B+1.02%",
+      "BREAK OIL_WTI/USDINR: A+1.38% B-1.21%"
+    ]
+  },
+  "tier4": {
+    "news_len": 10586,
+    "gdelt_len": 17
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 41.1,
+      "rating": "fear",
+      "prev_week": 22.5,
+      "prev_month": 21.4
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": 0.172833,
+    "patterns": 18
+  },
+  "agents": {
+    "upstream": "OBSERVE: The current regime is RISK_ON (62%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time periods (30d, 5d, 10d).\nLOGIC: The presence of a RISK_ON regime suggests that investors are currently willing to take on more risk, which could lead to increased market volatility -> This volatility could result in significant price swings in various assets -> The overall market sentiment may be influenced by factors such as economic outlook, monetary policy, and geopolitical events.\nCOUNTER: A potential counterargument to this analysis is that the current market trends may be driven by technical factors, such as chart patterns and trend lines, rather than fundamental factors like economic outlook and monetary policy.\nCONCLUDE: Based on the available data, I conclude that the current market regime is characterized by a mix of risk-on and risk-off sentiments, with various market indices exhibiting different trends over different time periods.\nDEPENDS ON: The single data point that would change my mind is a significant shift in the Federal Reserve's monetary policy stance, such as a surprise interest rate hike or cut, which could alter the market's risk-on/risk-off dynamics.\nWRONG IF: My analysis would be proven wrong if the market were to experience a sudden and significant downturn, contradicting the current RISK_ON regime and indicating a shift towards a risk-off sentiment.",
+    "flow": "OBSERVE: The current market regime is RISK_ON (62%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time periods (30d, 5d, 10d), and the ETF data indicates mostly neutral signals across different sectors.\n\nLOGIC: The presence of a RISK_ON regime suggests that investors are currently willing to take on more risk, which could lead to increased market volatility -> This volatility could result in significant price swings in various assets -> The overall market sentiment may be influenced by factors such as economic outlook, monetary policy, and geopolitical events. The neutral signals from the ETF data may indicate a lack of strong conviction among investors, which could lead to increased market volatility.\n\nCOUNTER: A potential counterargument to this analysis is that the current market trends may be driven by technical factors, such as chart patterns and trend lines, rather than fundamental factors like economic outlook and monetary policy. Additionally, the neutral signals from the ETF data could be a sign of a market top or bottom, where investors are waiting for a catalyst to make a move.\n\nCONCLUDE: Based on the available data, I conclude that the current market regime is characterized by a mix of risk-on and risk-off sentiments, with various market indices exhibiting different trends over different time periods. The neutral signals from the ETF data suggest a lack of strong conviction among investors, which could lead to increased market volatility.\n\nDEPENDS ON: The single data point that would change my mind is a significant shift in the Federal Reserve's monetary policy stance, such as a surprise interest rate hike or cut, which could alter the market's risk-on/risk-off dynamics.\n\nWRONG IF: My analysis would be proven wrong if the market were to experience a sudden and significant downturn, contradicting the current RISK_ON regime and indicating a shift towards a risk-off se",
+    "market": "OBSERVE: The current regime is RISK_ON (62%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time periods (30d, 5d, 10d), and the presence of anomalies such as the break in the VIX/SP500 and OIL_WTI/USDINR correlations.\n\nLOGIC: The presence of a RISK_ON regime suggests that investors are currently willing to take on more risk, which could lead to increased market volatility -> This volatility could result in significant price swings in various assets -> The overall market sentiment may be influenced by factors such as economic outlook, monetary policy, and geopolitical events. The breaks in the VIX/SP500 and OIL_WTI/USDINR correlations may indicate a shift in market dynamics, potentially leading to increased uncertainty and volatility.\n\nCOUNTER: A potential counterargument to this analysis is that the current market trends may be driven by technical factors, such as chart patterns and trend lines, rather than fundamental factors like economic outlook and monetary policy. Additionally, the breaks in correlations may be temporary and not indicative of a broader shift in market dynamics.\n\nCONCLUDE: Based on the current market regime and the presence of anomalies, I conclude that the market is likely to remain highly volatile, with a high probability of significant price swings in various assets. The breaks in correlations may indicate a shift in market dynamics, potentially leading to increased uncertainty and volatility.\n\nDEPENDS ON: The single data point that would change my mind is a significant shift in the RISK_ON regime, such as a move to a RISK_OFF regime, which would indicate a change in investor sentiment and a potential decrease in market volatility.\n\nWRONG IF: My analysis is wrong if the market volatility decreases significantly, and the breaks in correlations are temporary and not indicative of a broader shift in market dynamics. Additionally, if the economic outlook and",
+    "narrative": "OBSERVE: Agents 1-3 (Upstream, Flow, Market) are providing similar analyses, concluding that the current RISK_ON regime (62%) may lead to increased market volatility, significant price swings, and overall market sentiment influenced by various factors.\n\nLOGIC: The similarity in analyses suggests that Agents 1-3 are following the herd, as their conclusions are not providing unique insights or edge -> This lack of diversity in thought may lead to a lack of preparedness for unexpected market events -> The overall market sentiment may become overly reliant on a single narrative, increasing the risk of a significant correction.\n\nCOUNTER: A potential counterargument is that the similarity in analyses is due to the current market conditions being relatively straightforward, with the RISK_ON regime and various market indices showing clear trends, making it more difficult for Agents 1-3 to provide diverse insights.\n\nCONCLUDE: I conclude that Agents 1-3 are indeed following the herd, and their analyses are not providing sufficient edge or unique insights.\n\nDEPENDS ON: The single data point that would change my mind is if one of the Agents (1-3) were to provide a significantly divergent analysis, highlighting a unique aspect of the market that others have missed, demonstrating their ability to think outside the consensus.\n\nWRONG IF: My conclusion is wrong if Agents 1-3 are able to demonstrate a track record of providing accurate and unique insights, even in the face of a strong consensus, and their current similarity in analyses is simply a coincidence rather than a sign of following the herd.",
+    "synthesis": "**1. RECONCILE contradictions between agents. Name which agent you side with and WHY.**\n\nAfter analyzing the outputs from Agents 1-3 (Upstream, Flow, Market), I conclude that they are all providing similar analyses, concluding that the current RISK_ON regime (62%) may lead to increased market volatility, significant price swings, and overall market sentiment influenced by various factors. I side with the Market agent, as it provides the most comprehensive analysis, considering both the RISK_ON regime and the presence of anomalies such as the break in the VIX/SP500 and OIL_WTI/USDINR correlations. The Market agent's conclusion that the market is likely to remain highly volatile, with a high probability of significant price swings, is the most plausible given the current market conditions.\n\n**2. Generate THESES using the format:**\n\nTHESIS: Market Volatility\nCHAIN: RISK_ON regime (62%) -> increased market volatility -> significant price swings -> potential market correction\nCONFIDENCE: 80\nKILL IF: RISK_OFF regime (>50%) or significant decrease in market volatility\nTIMEFRAME: 30 days\nASSET: VIX\n\nTHESIS: Commodity-CPI Lag\nCHAIN: Oil price trend -> CPI 3-4 months later -> potential inflationary pressures -> monetary policy response\nCONFIDENCE: 70\nKILL IF: Brent oil price drops below $60 or CPI growth slows down\nTIMEFRAME: 6 months\nASSET: OIL_BRENT\n\n**3. INDIA INTELLIGENCE:**\n\nThe Indian market, as represented by the NIFTY50, is currently showing an upward trend (44% up, 29% down, 27% flat) over the 30-day period. The FII/DII read indicates a neutral sentiment, with no strong conviction among investors. The RBI's monetary policy stance is currently accommodative, with a focus on supporting economic growth. Risks to the Indian market include a potential slowdown in global economic growth, while opportunities include a potential increase in foreign investment and a continued growth in the domestic economy.\n\n**4. THE UNCOMFORTABLE TRUTH:**\n\nThe current market regime is charac",
+    "adversary": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\nOBSERVE: The Synthesizer's output suggests that the current market regime is RISK_ON (62%), with a high probability of significant price swings and increased market volatility.\nLOGIC: The presence of a RISK_ON regime implies that investors are willing to take on more risk, which could lead to increased market volatility -> This volatility could result in significant price swings in various assets -> The overall market sentiment may be influenced by factors such as economic outlook, monetary policy, and geopolitical events. However, this logic is based on a simplistic view of market dynamics and neglects the potential impact of anomalies such as the break in the VIX/SP500 and OIL_WTI/USDINR correlations.\nCOUNTER: A potential counterargument is that the current market trends may be driven by technical factors, such as chart patterns and trend lines, rather than fundamental factors like economic outlook and monetary policy. Furthermore, the Synthesizer's output relies heavily on historical data and may not account for unforeseen events or black swan occurrences.\nCONCLUDE: Based on the available data, I conclude that the Synthesizer's output is overly reliant on historical trends and neglects the potential impact of anomalies and unforeseen events. The output's confidence levels, such as the 80% confidence in the Market Volatility thesis, seem overly optimistic given the current market conditions.\nDEPENDS ON: The single data point that would change my mind is a significant shift in the Federal Reserve's monetary policy stance, such as a surprise interest rate hike or cut, which could alter the market's risk-on/risk-off dynamics. Additionally, a sudden and significant change in the VIX/SP500 or OIL_WTI/USDINR correlations could also impact my analysis.\nWRONG IF: My analysis would be proven wrong if the market were to experience a sudden and significant downturn, contradicting the current RISK_ON regime and indicating a shift toward"
+  },
+  "reasoning": {
+    "chains": 6,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-13T20:40:28.435660"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-13T20:40:29.408352"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-13T20:40:50.451107"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-13T20:40:51.556909"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-13T20:40:51.827816"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-13T20:40:52.090980"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-13T20:40:52.348303"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-13T20:40:52.589851"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-13T20:40:52.850297"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-13T20:40:53.112605"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-13T20:40:53.376547"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-13T20:40:53.638863"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-13T20:40:53.871674"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-13T20:40:54.106674"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-13T20:40:54.307387"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-13T20:40:55.411165"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-13T20:40:55.516261"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-13T20:40:55.834718"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-13T20:40:57.521052"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-13T20:40:57.564986"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-13T20:41:07.624627"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-13T20:41:08.263604"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-13T20:41:08.916338"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-13T20:41:09.477853"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-13T20:41:09.989939"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-13T20:41:09.990363"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-13T20:41:10.153700"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-13T20:41:11.121444"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-13T20:41:11.481992"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-13T20:41:12.307638"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-13T20:41:12.783645"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-13T20:41:12.912185"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-13T20:41:13.621082"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-13T20:41:16.178863"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-13T20:41:16.178878"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-13T20:41:39.414120"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-13T20:41:39.529527"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-13T20:41:42.732834"
+    },
+    "GDELT": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=14)",
+      "ts": "2026-04-13T20:41:56.811360"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-13T20:41:57.356196"
+    }
+  }
+}
