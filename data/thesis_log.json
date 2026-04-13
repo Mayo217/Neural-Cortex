@@ -980,5 +980,35 @@
     ],
     "raw_block": "THESIS:** Economic Growth\n**CHAIN:** High value of contracts awarded to companies -> Increased investment in the industry -> Job creation and economic growth -> Improved market sentiment\n**CONFIDENCE:** 50\n**KILL IF:** The contracts awarded to companies are found to have a negligible impact on the labor market.\n**TIMEFRAME:** 60 days\n**ASSET:** SP500\n\n#",
     "timestamp": "2026-04-12T19:57:09.972109"
+  },
+  {
+    "title": "Market Volatility Increase",
+    "chain": "Economic uncertainty -> Increased market volatility -> Decreased investor confidence -> Reduced market liquidity",
+    "confidence": 60,
+    "direction": "neutral",
+    "kill_condition": "Brain's crisis regime shifts to REGIME=STABLE",
+    "timeframe_days": 30,
+    "assets": [
+      "VIX"
+    ],
+    "raw_block": "THESIS: Market Volatility Increase\nCHAIN: Economic uncertainty -> Increased market volatility -> Decreased investor confidence -> Reduced market liquidity\nCONFIDENCE: 60\nKILL IF: Brain's crisis regime shifts to REGIME=STABLE\nTIMEFRAME: 30 days\nASSET: VIX\n\n",
+    "timestamp": "2026-04-13T07:29:08.444335"
+  },
+  {
+    "title": "Indian Market Uncertainty",
+    "chain": "Global economic uncertainty -> Increased uncertainty in Indian markets -> Decreased investor confidence -> Reduced market liquidity",
+    "confidence": 55,
+    "direction": "bullish",
+    "kill_condition": "Indian market indices (e.g. NIFTY50) show a sustained upward trend",
+    "timeframe_days": 30,
+    "assets": [
+      "NIFTY",
+      "OIL",
+      "INR",
+      "COPPER",
+      "VIX"
+    ],
+    "raw_block": "THESIS: Indian Market Uncertainty\nCHAIN: Global economic uncertainty -> Increased uncertainty in Indian markets -> Decreased investor confidence -> Reduced market liquidity\nCONFIDENCE: 55\nKILL IF: Indian market indices (e.g. NIFTY50) show a sustained upward trend\nTIMEFRAME: 30 days\nASSET: INR\n\n**3. INDIA INTELLIGENCE**\n\nThe Indian market is currently showing uncertainty, with the NIFTY50 index exhibiting a mix of upward and neutral trends. The FII/DII read is not explicitly mentioned, but the ov",
+    "timestamp": "2026-04-13T07:29:08.444402"
   }
 ]
