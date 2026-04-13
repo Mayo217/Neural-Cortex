@@ -25,7 +25,7 @@
       ]
     },
     "adversary": {
-      "total": 12,
+      "total": 14,
       "correct": 10,
       "by_regime": {
         "RISK_OFF": {
@@ -35,6 +35,10 @@
         "TRANSITION": {
           "total": 11,
           "correct": 10
+        },
+        "RISK_ON": {
+          "total": 2,
+          "correct": 0
         }
       },
       "by_type": {
@@ -45,6 +49,14 @@
         "general": {
           "total": 11,
           "correct": 10
+        },
+        "sentiment_contrarian": {
+          "total": 1,
+          "correct": 0
+        },
+        "policy_signal": {
+          "total": 1,
+          "correct": 0
         }
       },
       "recent": [
@@ -119,6 +131,18 @@
           "correct": false,
           "regime": "TRANSITION",
           "type": "general"
+        },
+        {
+          "ts": "2026-04-13T16:25:05.770488",
+          "correct": false,
+          "regime": "RISK_ON",
+          "type": "sentiment_contrarian"
+        },
+        {
+          "ts": "2026-04-13T16:25:05.770528",
+          "correct": false,
+          "regime": "RISK_ON",
+          "type": "policy_signal"
         }
       ]
     }

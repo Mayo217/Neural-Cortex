@@ -10,14 +10,14 @@
     "credit": {
       "CRISIS": 0.9,
       "RISK_OFF": 0.8,
-      "TRANSITION": 0.6,
+      "TRANSITION": 0.613,
       "RISK_ON": 0.4,
       "EUPHORIA": 0.7
     },
     "vol_structure": {
       "CRISIS": 0.8,
       "RISK_OFF": 0.7,
-      "TRANSITION": 0.4538,
+      "TRANSITION": 0.4321,
       "RISK_ON": 0.6,
       "EUPHORIA": 0.8
     },
@@ -31,14 +31,14 @@
     "fx_pressure": {
       "CRISIS": 0.7,
       "RISK_OFF": 0.6,
-      "TRANSITION": 0.4538,
+      "TRANSITION": 0.4321,
       "RISK_ON": 0.3,
       "EUPHORIA": 0.3
     },
     "commodity_cycle": {
       "CRISIS": 0.5,
       "RISK_OFF": 0.5,
-      "TRANSITION": 0.5538,
+      "TRANSITION": 0.5191,
       "RISK_ON": 0.5,
       "EUPHORIA": 0.4
     },
@@ -66,14 +66,14 @@
     "sentiment": {
       "CRISIS": 0.3,
       "RISK_OFF": 0.4,
-      "TRANSITION": 0.2538,
+      "TRANSITION": 0.2191,
       "RISK_ON": 0.3,
       "EUPHORIA": 0.5
     },
     "correlation": {
       "CRISIS": 0.8,
       "RISK_OFF": 0.7,
-      "TRANSITION": 0.7538,
+      "TRANSITION": 0.7321,
       "RISK_ON": 0.4,
       "EUPHORIA": 0.5
     },
@@ -85,8 +85,8 @@
       "EUPHORIA": 0.5
     }
   },
-  "update_count": 6,
-  "last_updated": "2026-04-08T16:22:26.498041",
+  "update_count": 18,
+  "last_updated": "2026-04-13T16:23:22.349818",
   "learning_history": [
     {
       "ts": "2026-04-08T16:22:26.497842",
@@ -176,6 +176,180 @@
       "actual_outcome": -1.09,
       "actual_bucket": "down",
       "pred_prob_for_actual": 0.2133,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-04-13T16:23:22.349431",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "actual_outcome": 3.741,
+      "actual_bucket": "up_big",
+      "pred_prob_for_actual": 0.1538,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-04-13T16:23:22.349486",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "actual_outcome": 4.973,
+      "actual_bucket": "up_big",
+      "pred_prob_for_actual": 0.1538,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-04-13T16:23:22.349527",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "actual_outcome": 1.918,
+      "actual_bucket": "up",
+      "pred_prob_for_actual": 0.2811,
+      "magnitude_mult": 1.5
+    },
+    {
+      "ts": "2026-04-13T16:23:22.349564",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "actual_outcome": 7.628,
+      "actual_bucket": "up_big",
+      "pred_prob_for_actual": 0.1538,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-04-13T16:23:22.349597",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "actual_outcome": -6.787,
+      "actual_bucket": "down_big",
+      "pred_prob_for_actual": 0.1106,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-04-13T16:23:22.349630",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "actual_outcome": -1.196,
+      "actual_bucket": "down",
+      "pred_prob_for_actual": 0.2133,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-04-13T16:23:22.349661",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation",
+        "credit",
+        "vol_structure",
+        "fx_pressure"
+      ],
+      "actual_outcome": 0.819,
+      "actual_bucket": "up",
+      "pred_prob_for_actual": 0.1859,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-04-13T16:23:22.349697",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation",
+        "credit",
+        "vol_structure",
+        "fx_pressure"
+      ],
+      "actual_outcome": -0.645,
+      "actual_bucket": "down",
+      "pred_prob_for_actual": 0.1858,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-04-13T16:23:22.349729",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation",
+        "credit",
+        "vol_structure",
+        "fx_pressure"
+      ],
+      "actual_outcome": -0.932,
+      "actual_bucket": "down",
+      "pred_prob_for_actual": 0.1558,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-04-13T16:23:22.349758",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation",
+        "credit",
+        "vol_structure",
+        "fx_pressure"
+      ],
+      "actual_outcome": 1.128,
+      "actual_bucket": "up",
+      "pred_prob_for_actual": 0.1559,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-04-13T16:23:22.349788",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation",
+        "credit",
+        "vol_structure",
+        "fx_pressure"
+      ],
+      "actual_outcome": 7.705,
+      "actual_bucket": "up_big",
+      "pred_prob_for_actual": 0.3125,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-04-13T16:23:22.349819",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation",
+        "credit",
+        "vol_structure",
+        "fx_pressure"
+      ],
+      "actual_outcome": -0.107,
+      "actual_bucket": "flat",
+      "pred_prob_for_actual": 0.1967,
       "magnitude_mult": 1.0
     }
   ]

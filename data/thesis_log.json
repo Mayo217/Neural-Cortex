@@ -1010,5 +1010,36 @@
     ],
     "raw_block": "THESIS: Indian Market Uncertainty\nCHAIN: Global economic uncertainty -> Increased uncertainty in Indian markets -> Decreased investor confidence -> Reduced market liquidity\nCONFIDENCE: 55\nKILL IF: Indian market indices (e.g. NIFTY50) show a sustained upward trend\nTIMEFRAME: 30 days\nASSET: INR\n\n**3. INDIA INTELLIGENCE**\n\nThe Indian market is currently showing uncertainty, with the NIFTY50 index exhibiting a mix of upward and neutral trends. The FII/DII read is not explicitly mentioned, but the ov",
     "timestamp": "2026-04-13T07:29:08.444402"
+  },
+  {
+    "title": "Market Sentiment and Economic Growth",
+    "chain": "Positive market sentiment -> Increased investment and consumer spending -> Further economic growth and support for the RISK_ON regime",
+    "confidence": 70,
+    "direction": "neutral",
+    "kill_condition": "Significant increase in the VIX index or a 10% drop in the SP500 index",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500",
+      "VIX"
+    ],
+    "raw_block": "THESIS: Market Sentiment and Economic Growth\nCHAIN: Positive market sentiment -> Increased investment and consumer spending -> Further economic growth and support for the RISK_ON regime\nCONFIDENCE: 70\nKILL IF: Significant increase in the VIX index or a 10% drop in the SP500 index\nTIMEFRAME: 30 days\nASSET: SP500\n\n",
+    "timestamp": "2026-04-13T16:25:05.774229"
+  },
+  {
+    "title": "Global Economic Risks and Market Volatility",
+    "chain": "Geopolitical tensions and inflation -> Increased market volatility and risk aversion -> Shift towards a RISK_OFF regime",
+    "confidence": 40,
+    "direction": "bullish",
+    "kill_condition": "Significant decline in the VIX index or a 10% increase in the SP500 index",
+    "timeframe_days": 60,
+    "assets": [
+      "SP500",
+      "NIFTY",
+      "OIL",
+      "INR",
+      "VIX"
+    ],
+    "raw_block": "THESIS: Global Economic Risks and Market Volatility\nCHAIN: Geopolitical tensions and inflation -> Increased market volatility and risk aversion -> Shift towards a RISK_OFF regime\nCONFIDENCE: 40\nKILL IF: Significant decline in the VIX index or a 10% increase in the SP500 index\nTIMEFRAME: 60 days\nASSET: VIX\n\n**3. INDIA INTELLIGENCE: INR, Nifty sectors, FII/DII read, RBI, risks, opportunities**\n\nThe Indian market is vulnerable to global market trends, and close monitoring of the SP500 and NIFTY50 i",
+    "timestamp": "2026-04-13T16:25:05.774293"
   }
 ]
