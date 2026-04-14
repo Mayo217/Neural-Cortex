@@ -1,0 +1,507 @@
+{
+  "timestamp": "2026-04-14 06:19",
+  "regime": {
+    "regime": "TRANSITION",
+    "confidence": 0.382,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.0,
+      "TRANSITION": 0.545,
+      "RISK_ON": 0.455,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 19.1 18-25: uncertain",
+      "VIX 10d -29.7%: vol crush",
+      "3 correlation breaks: regime shift signal"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$40.78B|LAWRENCE LIVERMORE NATIONAL SECURITY, LLC|None|TAS::89 0240::TAS THIS PERFORMANCE-BASED MANAGEMENT CONTRACT (PBMC) IS FOR THE M",
+      "$30.24B|BATTELLE MEMORIAL INSTITUTE|None|BATTELLE MEMORIAL INSTITUTE/PACIFIC NORTHWEST               LABORATORY OPERATING",
+      "$17.03B|BECHTEL NATIONAL, INC.|None|None",
+      "$3.02B|OAK RIDGE ASSOCIATED UNIVERSITIES, INCORPORATED|None|IGF::OT::IGF MANAGEMENT OF THE OAK RIDGE INSTITUTE FOR SCIENCE AND EDUCATION",
+      "$3.02B|SPACE EXPLORATION TECHNOLOGIES CORP.|None|WORK REQUIRED FOR THE DESIGN, DEVELOPMENT, MANUFACTURE, TEST, LAUNCH, DEMONSTRAT",
+      "$2.19B|UNITED CLEANUP OAK RIDGE LLC|None|OAK RIDGE RESERVATION CLEANUP CONTRACT TASK ORDERS",
+      "$1.87B|HARRIS CORPORATION|None|THE PURPOSE OF THIS DELIVERY ORDER AWARD IS TO ADD FUNDING FOR FTI TELECOMMUNICA",
+      "$1.83B|L3HARRIS TECHNOLOGIES, INC.|None|THE PURPOSE OF THIS CONTRACT IS TO DEVELOP THE GROUND SYSTEM THAT WILL SUPPORT N",
+      "$1.71B|BLUE ORIGIN MANUFACTURING, LLC|None|RAPID DDT&E AND DEMONSTRATION OF S SUSTAINABLE HUMAN LANDING SYSTEM INTEGRATED L",
+      "$1.59B|CALIFORNIA INSTITUTE OF TECHNOLOGY|None|MARS SAMPLE RETURN (MSR) PROGRAM - PHASE A 40-108270",
+      "$1.57B|NORTHROP GRUMMAN SYSTEMS CORPORATION|None|IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUILDS UPON THE SUCCESS",
+      "$1.54B|IDAHO ENVIRONMENTAL COALITION LLC|None|THE PURPOSE OF THIS ACTION IS TO AWARD THE ICP TEN YEAR PLAN HYBRID TASK ORDER U",
+      "$0.86B|NOVITAS SOLUTIONS, INC.|None|JURISDICTION H A/B MAC CONTRACT",
+      "$0.76B|HENSEL PHELPS CONSTRUCTION CO|None|C103157: SURGERY, RADIOLOGY, AND LABORATORY MEDICINE (SRLM) BUILDING CONSTRUCTIO",
+      "$0.71B|CACI, INC. - FEDERAL|None|DYNAMIC AND EVOLVING FEDERAL ENTERPRISE NETWORK DEFENSE GROUP A DEFEND A  OPTION"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Jefferson, Economic Outlook and the Labor Market",
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments",
+      "[ECB] Isabel Schnabel: Monetary policy in times of geopolitical fragmentation",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 February 2026"
+    ],
+    "policy": [
+      "[Rule] Establishment of Class E Airspace; Wall Municipal Airport, Wall, SD"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "13-Apr-2026",
+        "buyValue": "16612.03",
+        "sellValue": "14179.73",
+        "netValue": "2432.3"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "13-Apr-2026",
+        "buyValue": "15382.09",
+        "sellValue": "17365.27",
+        "netValue": "-1983.18"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.58,
+        "chg": 0.98,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.52,
+        "chg": 1.03,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 0.51,
+        "chg": 1.44,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.37,
+        "chg": -0.4,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.34,
+        "chg": 0.3,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 0.6,
+        "chg": 0.38,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 0.42,
+        "chg": 0.38,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 0.6,
+        "chg": 0.84,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 0.65,
+        "chg": 1.38,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 0.75,
+        "chg": 0.3,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 0.57,
+        "chg": 1.74,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 0.4,
+        "chg": -0.61,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.66,
+        "chg": 1.75,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 0.71,
+        "chg": -1.21,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": 1.052,
+        "b_chg": 1.017,
+        "same": true,
+        "div": 0.035,
+        "interp": "Gold/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": 0.375,
+        "b_chg": 1.017,
+        "same": true,
+        "div": 0.642,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": 0.694,
+        "b_chg": 1.017,
+        "same": true,
+        "div": 0.323,
+        "interp": "Dr Copper/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": -0.018,
+        "b_chg": 1.052,
+        "same": false,
+        "div": 1.07,
+        "interp": "Dollar/Gold",
+        "flag": "normal"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": -0.572,
+        "b_chg": 1.017,
+        "same": false,
+        "div": 1.589,
+        "interp": "Vol/Equity",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": -1.857,
+        "b_chg": -1.383,
+        "same": true,
+        "div": 0.474,
+        "interp": "Oil/INR",
+        "flag": "normal"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": -0.463,
+        "b_chg": 1.052,
+        "same": false,
+        "div": 1.515,
+        "interp": "Rates/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": 5.087,
+        "b_chg": 1.226,
+        "same": true,
+        "div": 3.861,
+        "interp": "Crypto/Tech",
+        "flag": "normal"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": 0.301,
+        "b_chg": 1.017,
+        "same": true,
+        "div": 0.716,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": 0.694,
+        "b_chg": -1.857,
+        "same": false,
+        "div": 2.551,
+        "interp": "Copper/Oil",
+        "flag": "DIVERGENCE"
+      }
+    ],
+    "anomalies": [
+      "BREAK VIX/SP500: A-0.57% B+1.02%",
+      "BREAK US10Y/GOLD: A-0.46% B+1.05%",
+      "BREAK COPPER/OIL_WTI: A+0.69% B-1.86%"
+    ]
+  },
+  "tier4": {
+    "news_len": 10783,
+    "gdelt_len": 191
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 41.0,
+      "rating": "fear",
+      "prev_week": 27.6,
+      "prev_month": 21.4
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": 0.172833,
+    "patterns": 18
+  },
+  "agents": {
+    "upstream": "OBSERVE: The current market regime is in a TRANSITION state (38%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time frames (30d, 5d, 10d).\n\nLOGIC: The TRANSITION regime indicates a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to increased importance of risk management and regulatory compliance, such as the WARN Act's provisions -> The WARN Act's requirements for written notice and timely notification may become more critical in a crisis regime.\n\nCOUNTER: The current upward trend in some indices (e.g., SP500, NIFTY50) could suggest a more stable market environment, reducing the need for urgent risk management and compliance measures.\n\nCONCLUDE: I conclude that the WARN Act's provisions are likely to take on increased importance in the current TRANSITION regime, given the potential for market volatility and crisis.\n\nDEPENDS ON: The single data point that would change my mind is a significant and sustained upward trend in the SP500 index over the next 30 days, indicating a more stable market environment and reducing the need for urgent risk management and compliance measures.\n\nWRONG IF: If the market regime shifts to a more stable state (e.g., <20% probability of crisis) and the WARN Act's provisions are not deemed critical by regulatory bodies or market participants, my conclusion would be proven incorrect.",
+    "flow": "OBSERVE: The current market regime is in a TRANSITION state (38%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time frames (30d, 5d, 10d), and the ETF signals are mostly neutral.\n\nLOGIC: The TRANSITION regime indicates a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to increased importance of risk management and regulatory compliance, such as the WARN Act's provisions -> However, the neutral ETF signals and the lack of clear trends in the indices suggest that the market may not be as volatile as expected.\n\nCOUNTER: The current upward trend in some indices (e.g., SP500, NIFTY50) could suggest a more stable market environment, reducing the need for urgent risk management and compliance measures. Additionally, the neutral ETF signals and the lack of clear trends in the indices may indicate that the market is not as volatile as expected, which could reduce the importance of the WARN Act's provisions.\n\nCONCLUDE: I conclude that the importance of the WARN Act's provisions in the current TRANSITION regime is uncertain and may not be as critical as initially thought, given the neutral ETF signals and the lack of clear trends in the indices.\n\nDEPENDS ON: The single data point that would change my mind is a significant increase in market volatility, as indicated by a spike in the VIX or a sudden change in the ETF signals, which would suggest that the WARN Act's provisions are becoming more critical.\n\nWRONG IF: If the market regime shifts to a more stable state (e.g., <20% probability of crisis) and the WARN Act's provisions are not deemed critical by regulatory bodies or market participants, and the ETF signals remain neutral, my conclusion would be proven incorrect.",
+    "market": "OBSERVE: The current market regime is in a TRANSITION state (38%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time frames (30d, 5d, 10d), and the VIX is at 19.12, indicating a moderate level of market volatility.\n\nLOGIC: The TRANSITION regime indicates a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to increased importance of risk management and regulatory compliance, such as the WARN Act's provisions -> The current upward trend in some indices (e.g., SP500, NIFTY50) could suggest a more stable market environment, but the moderate VIX level and the BREAK in VIX/SP500 correlation indicate that the market is still vulnerable to sudden changes.\n\nCOUNTER: The current upward trend in some indices (e.g., SP500, NIFTY50) could suggest a more stable market environment, reducing the need for urgent risk management and compliance measures, and the F&G score of 41.0 indicates a \"fear\" rating, which could lead to a more cautious market sentiment.\n\nCONCLUDE: I conclude that the market is likely to remain highly volatile, with a high probability of a crisis regime, and the WARN Act's provisions are likely to take on increased importance in this environment.\n\nDEPENDS ON: The VIX level, as a significant increase in VIX could indicate a higher level of market volatility and uncertainty, which would support the conclusion of a high probability of a crisis regime.\n\nWRONG IF: The SP500 and NIFTY50 indices continue to trend upward, and the VIX level decreases significantly, indicating a more stable market environment, which would contradict the conclusion of a high probability of a crisis regime.",
+    "narrative": "OBSERVE: Agents 1-3 are following the herd, focusing on potential risks and volatility in the market, with a high degree of uncertainty and potential volatility indicated by the TRANSITION regime (38%) and various indices showing mixed trends.\n\nLOGIC: The Agents' focus on risk management and regulatory compliance, such as the WARN Act's provisions, may be driven by the current market uncertainty -> This focus could lead to a consensus trade, where many investors are positioned similarly, increasing the risk of a market correction -> The Agents' analysis may be lacking an edge, as they are following the herd rather than identifying unique opportunities or risks.\n\nCOUNTER: The current market trends and economic indicators, such as the upward trend in some indices (e.g., SP500, NIFTY50, GOLD) and the moderate level of market volatility (VIX at 19.12), may suggest that the Agents' focus on risk management is justified, and that their analysis is reasonable given the current market conditions.\n\nCONCLUDE: Agents 1-3 are likely following the herd, and their focus on potential risks and volatility may be driven by the current market uncertainty. However, this consensus trade may increase the risk of a market correction, and the Agents' analysis may be lacking an edge.\n\nDEPENDS ON: A significant change in the market regime, such as a shift to a BULL or BEAR regime, would likely alter the Agents' focus and analysis, and potentially provide an edge for investors who can identify the changing market conditions.\n\nWRONG IF: The market regime shifts to a STABLE regime, and the Agents' focus on risk management and regulatory compliance is proven to be unnecessary, as the market trends become more predictable and less volatile.",
+    "synthesis": "### 1. RECONCILE contradictions between agents.\n\nAfter analyzing the various agent perspectives (UPSTREAM, FLOW, MARKET, NARRATIVE), it becomes clear that there is a mix of views on the importance of the WARN Act's provisions in the current TRANSITION regime. The UPSTREAM agent suggests that the WARN Act's provisions are likely to take on increased importance due to the potential volatility and crisis regime. In contrast, the FLOW agent concludes that the importance of the WARN Act's provisions is uncertain and may not be as critical as initially thought.\n\nI side with the MARKET agent, who concludes that the market is likely to remain highly volatile, with a high probability of a crisis regime, and thus the WARN Act's provisions are likely to take on increased importance. This perspective is supported by the moderate VIX level and the BREAK in VIX/SP500 correlation, indicating that the market is still vulnerable to sudden changes.\n\n### 2. Generate THESES.\n\n**THESIS:** Market Volatility and Risk Management\n**CHAIN:** Transition regime (38%) -> Increased market volatility -> Higher importance of risk management and regulatory compliance (WARN Act) -> Potential for market correction\n**CONFIDENCE:** 80\n**KILL IF:** SP500 and NIFTY50 indices continue to trend upward, and the VIX level decreases significantly\n**TIMEFRAME:** 30 days\n**ASSET:** VIX (Volatility Index)\n\n### 3. INDIA INTELLIGENCE.\n\nThe Indian market, as represented by the NIFTY50 index, is also in a TRANSITION state, with a 44% chance of an upward trend. The RBI's interventions and the global economic trends may affect the Indian economy. The FII/DII read is neutral, and the risks include a potential crisis regime, while opportunities exist in the form of a potential upward trend in the NIFTY50 index.\n\n### 4. THE UNCOMFORTABLE TRUTH.\n\nThe current market regime is characterized by a high degree of uncertainty, with a mix of upward and downward trends in various indices. This uncertainty may lead to increased im",
+    "adversary": "OBSERVE: The current market regime is characterized as a TRANSITION state with a 38% probability, and the SP500 and NIFTY50 indices have a 38% and 44% chance of an upward trend, respectively.\nLOGIC: The TRANSITION regime and moderate VIX level suggest a high degree of uncertainty, which may lead to increased importance of risk management and regulatory compliance (WARN Act) -> This could result in a higher probability of a market correction -> The current consensus trade may increase the risk of a market correction.\nCOUNTER: The FLOW agent's perspective that the importance of the WARN Act's provisions is uncertain and may not be as critical as initially thought could counter this conclusion, as it suggests that the market may not be as vulnerable to sudden changes as expected.\nCONCLUDE: The current market regime's uncertainty and the moderate VIX level support the MARKET agent's perspective that the WARN Act's provisions are likely to take on increased importance.\nDEPENDS ON: A significant decrease in the VIX level and a continued upward trend in the SP500 and NIFTY50 indices would change my mind.\nWRONG IF: The market enters a stable regime, and the importance of the WARN Act's provisions decreases, indicating that the current uncertainty is not a significant factor.\n\nOBSERVE: The THESIS \"Market Volatility and Risk Management\" has a confidence level of 80 and a kill condition of the SP500 and NIFTY50 indices continuing to trend upward and the VIX level decreasing significantly.\nLOGIC: The high confidence level and specific kill condition suggest that the THESIS is well-supported -> However, the kill condition may be too narrow, and other factors could affect the THESIS's validity -> The THESIS may be overly reliant on the VIX level and the performance of the SP500 and NIFTY50 indices.\nCOUNTER: The THESIS's confidence level and kill condition could be seen as overly optimistic, and the market's uncertainty may make it difficult to predict the THESIS's outcome.\nCONCLU"
+  },
+  "reasoning": {
+    "chains": 9,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-14T06:19:04.672705"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T06:19:05.430580"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-14T06:19:26.188848"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-14T06:19:26.577640"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T06:19:26.746247"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T06:19:27.053883"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T06:19:27.380996"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T06:19:27.688192"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T06:19:27.997625"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T06:19:28.300700"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T06:19:28.581811"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T06:19:28.863496"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T06:19:29.170222"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T06:19:29.455467"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-14T06:19:29.656571"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-14T06:19:31.216937"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T06:19:31.306208"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T06:19:32.121429"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T06:19:33.752420"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T06:19:34.105469"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-14T06:19:44.233802"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T06:19:45.285767"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T06:19:47.008245"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-14T06:19:48.062645"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T06:19:48.516046"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-14T06:19:48.516813"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T06:19:48.645937"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T06:19:50.987541"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T06:19:51.413235"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-14T06:19:52.368033"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-14T06:19:52.653163"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T06:19:58.108822"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-14T06:19:59.200438"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-14T06:20:01.776360"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-14T06:20:01.776380"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-14T06:20:14.819025"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T06:20:14.946917"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-14T06:20:19.086683"
+    },
+    "GDELT": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T06:20:22.277410"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T06:20:22.513434"
+    }
+  }
+}
