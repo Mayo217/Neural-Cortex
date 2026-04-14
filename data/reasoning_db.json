@@ -5181,7 +5181,7 @@
       "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a surge in WARN Act notices, which could have a significant impact on the labor market and the overall",
       "id": "59c9a61ed844",
       "timestamp": "2026-04-07T09:55:12.551916",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "general"
@@ -5206,7 +5206,7 @@
       "raw_excerpt": "OBSERVE: The upstream output suggests that the WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures. However, the market data, such as the SP500, NIFTY50, and GOLD, show a low probability of a crisis regime, with a 50% chance of a RISK_OFF regime.\n\nLOGIC: The WARN Act's provisions are likely to be relevant in a crisis regime, but the current market conditions do not indicate a high probabili",
       "id": "c2ef6f18f24a",
       "timestamp": "2026-04-07T09:55:12.552002",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "general"
@@ -5231,7 +5231,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index, show a score of 23.3, which corresponds to a \"extreme fear\" rating, and the brain's crisis regime probability is 50%.\n\nLOGIC: The high fear rating and crisis regime probability suggest that the market is highly volatile and sensitive to negative news -> This could lead to a high probability of a crisis regime, which would have a significant impact on the labor market and the overall economy -> The WARN Act's provisions, which",
       "id": "3ebd36d2f669",
       "timestamp": "2026-04-07T09:55:12.552059",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "vol_signal"
@@ -5256,7 +5256,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the SP500, NIFTY50, and GOLD, show a low probability of a crisis regime, with a 50% chance of a RISK_OFF regime. Agents 1-3 are considering the implications of the WARN Act, market volatility, and news reports on the labor market and economy.\n\nLOGIC: The low probability of a crisis regime and the high volatility of the market suggest that Agents 1-3 are following the herd by focusing on the WARN Act's provisions and the potential impact on ",
       "id": "6b8aa2e0f7a3",
       "timestamp": "2026-04-07T09:55:12.552093",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "vol_signal"
@@ -5280,7 +5280,7 @@
       "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\nI side with Agent 1, who emphasizes the importance of the WARN Act's provisions in a crisis regime. This is because the current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest a high fear rating and a 50% chance of a RISK_OFF regime. This uncertainty and potential for a crisis regime make it crucial for employers to be aware of the WARN Act's provisions and to provide written notice at least 60 days b",
       "id": "f1415bd8a1c5",
       "timestamp": "2026-04-07T09:55:12.552641",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "general"
@@ -5305,7 +5305,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest a high fear rating and a 50% chance of a RISK_OFF regime.\n\nLOGIC: The high fear rating and crisis regime probability -> Increased uncertainty and potential for a crisis regime -> The need for employers to be aware of the WARN Act's provisions and to provide written notice at least 60 days before a mass layoff or plant closure. This implies that the market is sensitive to negat",
       "id": "5e47d7479767",
       "timestamp": "2026-04-07T09:55:12.552710",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "vol_signal"
@@ -5334,7 +5334,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest a high fear rating and a 50% chance of a RISK_OFF regime.\n\nLOGIC: The high fear rating and crisis regime probability -> Increased uncertainty and potential for a crisis regime -> The need for employers to be aware of the WARN Act's provisions and to provide written notice at least 60 days before a mass layoff or plant closure. This implies that the market is sensitive to negat",
       "id": "1d99e6c953c8",
       "timestamp": "2026-04-07T09:55:12.552710",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_OFF",
       "reasoning_type": "general"
@@ -10557,6 +10557,248 @@
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The WARN Act's provisions require employers to provide written notice at least 60 days in advance of a mass layoff or plant closure, and the California Labor Code Section 1400 reinforces this requirement."
+      ],
+      "logic": [
+        "The WARN Act's provisions are designed to protect employees' rights and provide them with sufficient notice of potential job loss -> This notice period allows employees to prepare for the transition and seek new employment opportunities -> The implementation of the WARN Act's provisions is crucial for maintaining a stable labor market and mitigating the negative impacts of mass layoffs."
+      ],
+      "counters": [
+        "One could argue that the WARN Act's provisions may impose an undue burden on employers, particularly small businesses, and may lead to unnecessary costs and administrative complexity."
+      ],
+      "conclusions": [
+        "I conclude that the WARN Act's provisions are essential for protecting employees' rights and maintaining a stable labor market, and employers should prioritize compliance with these regulations to avoid potential liabilities and reputational damage."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The WARN Act's provisions require employers to provide written notice at least 60 days in advance of a mass layoff or plant closure, and the California Labor Code Section 1400 reinforces this requirement.\n\nLOGIC: The WARN Act's provisions are designed to protect employees' rights and provide them with sufficient notice of potential job loss -> This notice period allows employees to prepare for the transition and seek new employment opportunities -> The implementation of the WARN Act's p",
+      "id": "ab7dcd717676",
+      "timestamp": "2026-04-14T15:59:16.218726",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The upstream conclusion emphasizes the importance of the WARN Act's provisions in protecting employees' rights and maintaining a stable labor market, with a notice period requirement of at least 60 days for mass layoffs or plant closures."
+      ],
+      "logic": [
+        "The upstream conclusion is based on the idea that the WARN Act's provisions provide employees with sufficient notice to prepare for potential job loss and seek new employment opportunities -> This, in turn, contributes to a stable labor market and mitigates the negative impacts of mass layoffs -> However, the current market data suggests a regime transition (38% probability) and elevated volatility, which may affect the labor market and the relevance of the WARN Act's provisions."
+      ],
+      "counters": [
+        "One could argue that the current market conditions, with a high probability of a crisis regime, may render the WARN Act's provisions less relevant or even burdensome for employers, particularly small businesses, as they navigate the challenges of a volatile market."
+      ],
+      "conclusions": [
+        "I conclude that while the WARN Act's provisions are important for protecting employees' rights, the current market conditions and regime transition may affect their relevance and implementation, and employers should be prepared to adapt to changing labor market conditions."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The upstream conclusion emphasizes the importance of the WARN Act's provisions in protecting employees' rights and maintaining a stable labor market, with a notice period requirement of at least 60 days for mass layoffs or plant closures.\n\nLOGIC: The upstream conclusion is based on the idea that the WARN Act's provisions provide employees with sufficient notice to prepare for potential job loss and seek new employment opportunities -> This, in turn, contributes to a stable labor market ",
+      "id": "f8570c94a55f",
+      "timestamp": "2026-04-14T15:59:16.218816",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The current market data suggests a regime transition (38% probability) with elevated volatility, and the SP500 is up 1.00% in the last 1 day, while the VIX is down -5.18% in the last 1 day."
+      ],
+      "logic": [
+        "The regime transition and elevated volatility indicate a high level of uncertainty in the market -> This uncertainty can lead to sudden changes in market sentiment and direction -> The breakdown in correlations, such as DXY/GOLD, VIX/SP500, US10Y/GOLD, and COPPER/OIL_WTI, suggests that the market is experiencing a shift in dynamics, which may affect the relationships between different asset classes."
+      ],
+      "counters": [
+        "One could argue that the current market conditions are simply a result of short-term fluctuations and that the long-term trends and correlations will eventually reassert themselves."
+      ],
+      "conclusions": [
+        "Based on the current market data and the breakdown in correlations, I conclude that the market is experiencing a significant shift in dynamics, and investors should be prepared for potential changes in market sentiment and direction."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market data suggests a regime transition (38% probability) with elevated volatility, and the SP500 is up 1.00% in the last 1 day, while the VIX is down -5.18% in the last 1 day.\n\nLOGIC: The regime transition and elevated volatility indicate a high level of uncertainty in the market -> This uncertainty can lead to sudden changes in market sentiment and direction -> The breakdown in correlations, such as DXY/GOLD, VIX/SP500, US10Y/GOLD, and COPPER/OIL_WTI, suggests that the ma",
+      "id": "c3a133034e82",
+      "timestamp": "2026-04-14T15:59:16.218907",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "The current market data suggests a regime transition (38% probability) with elevated volatility, and Agents 1-3 are following the herd in their analysis of the WARN Act's provisions and market trends."
+      ],
+      "logic": [
+        "The regime transition and elevated volatility indicate a high level of uncertainty in the market -> This uncertainty can lead to sudden changes in market sentiment and direction -> Agents 1-3 following the herd may not provide an edge in terms of market analysis, as their conclusions may be based on consensus rather than unique insights."
+      ],
+      "counters": [
+        "One could argue that Agents 1-3 are simply acknowledging the current market trends and that their analysis is based on a thorough understanding of the market fundamentals. However, this argument assumes that the market trends are always correct, which may not be the case."
+      ],
+      "conclusions": [
+        "I conclude that Agents 1-3 are following the herd in their analysis, which may not provide an edge in terms of market insight. A more nuanced approach that considers alternative perspectives and potential market shifts may be necessary to gain a competitive advantage."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market data suggests a regime transition (38% probability) with elevated volatility, and Agents 1-3 are following the herd in their analysis of the WARN Act's provisions and market trends.\n\nLOGIC: The regime transition and elevated volatility indicate a high level of uncertainty in the market -> This uncertainty can lead to sudden changes in market sentiment and direction -> Agents 1-3 following the herd may not provide an edge in terms of market analysis, as their conclusio",
+      "id": "6607cfc5eeca",
+      "timestamp": "2026-04-14T15:59:16.218947",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "The WARN Act's provisions and their relevance in the current market conditions are being analyzed by multiple agents, with some concluding that the provisions are essential for protecting employees' rights and others arguing that they may not be as relevant in a crisis regime."
+      ],
+      "logic": [
+        "The agents' conclusions are based on different interpretations of the market data and the WARN Act's provisions -> The agents' analysis may be influenced by their individual perspectives and biases -> Reconciling the contradictions between the agents requires considering multiple viewpoints and evaluating the evidence."
+      ],
+      "counters": [
+        "One could argue that the agents' conclusions are not contradictory, but rather complementary, as they highlight different aspects of the WARN Act's provisions and their relevance in the current market conditions."
+      ],
+      "conclusions": [
+        "I conclude that Agent 1's analysis, which emphasizes the importance of the WARN Act's provisions in protecting employees' rights, is the most compelling. This is because the WARN Act's provisions provide employees with sufficient notice to prepare for potential job loss and seek new employment opportunities, which is crucial in a crisis regime."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### 1. Reconcile Contradictions between Agents\n\nOBSERVE: The WARN Act's provisions and their relevance in the current market conditions are being analyzed by multiple agents, with some concluding that the provisions are essential for protecting employees' rights and others arguing that they may not be as relevant in a crisis regime.\n\nLOGIC: The agents' conclusions are based on different interpretations of the market data and the WARN Act's provisions -> The agents' analysis may be influenced by ",
+      "id": "2664b9a0bcbe",
+      "timestamp": "2026-04-14T15:59:16.219194",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "The current market data suggests a regime transition (38% probability) with elevated volatility, and the NIFTY50 is up 1.00% in the last 1 day."
+      ],
+      "logic": [
+        "The regime transition and elevated volatility indicate a high level of uncertainty in the market -> This uncertainty can lead to sudden changes in market sentiment and direction -> The NIFTY50's performance may be affected by the global economic trends and the RBI's interventions."
+      ],
+      "counters": [
+        "One could argue that the NIFTY50's performance is driven by domestic factors, such as the Indian government's policies and the country's economic growth, rather than global trends."
+      ],
+      "conclusions": [
+        "I conclude that the NIFTY50's performance is likely to be affected by the global economic trends and the RBI's interventions, and investors should be prepared for potential changes in market sentiment and direction."
+      ],
+      "dependencies": [
+        "The single data point that would change my mind is if the labor market data showed a significant decrease in mass layoffs or plant closures, indicating a reduced need for the WARN Act's provisions."
+      ],
+      "falsifications": [
+        "My conclusion is wrong if empirical evidence showed that the WARN Act's provisions have no significant impact on employee outcomes or labor market stability, or if the regulations were found to be overly burdensome and detrimental to employers' ability to adapt to changing market conditions.",
+        "Labor market data shows a significant decrease in mass layoffs or plant closures",
+        "Labor market data shows a significant increase in employment rates or a decrease in unemployment rates"
+      ],
+      "assets": [
+        "SP500",
+        "NIFTY50"
+      ],
+      "raw_excerpt": "### 1. Reconcile Contradictions between Agents\n\nOBSERVE: The WARN Act's provisions and their relevance in the current market conditions are being analyzed by multiple agents, with some concluding that the provisions are essential for protecting employees' rights and others arguing that they may not be as relevant in a crisis regime.\n\nLOGIC: The agents' conclusions are based on different interpretations of the market data and the WARN Act's provisions -> The agents' analysis may be influenced by ",
+      "id": "a408af881d22",
+      "timestamp": "2026-04-14T15:59:16.219194",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "The Synthesizer's output is based on a complex analysis of market data, labor laws, and economic trends, but it appears to be overly reliant on probability chains and regime transitions."
+      ],
+      "logic": [
+        "The Synthesizer's analysis is based on a probabilistic approach, which may not account for unforeseen events or black swans -> The reliance on probability chains and regime transitions may lead to a lack of robustness in the analysis -> The Synthesizer's output may be vulnerable to attacks on its underlying assumptions and methodologies."
+      ],
+      "counters": [
+        "One could argue that the Synthesizer's use of probability chains and regime transitions is a strength, as it allows for a nuanced and data-driven analysis of complex systems."
+      ],
+      "conclusions": [
+        "I conclude that the Synthesizer's output is vulnerable to attacks on its underlying assumptions and methodologies, particularly with regards to its reliance on probability chains and regime transitions."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### Attack on the Synthesizer's Output\n\nOBSERVE: The Synthesizer's output is based on a complex analysis of market data, labor laws, and economic trends, but it appears to be overly reliant on probability chains and regime transitions.\n\nLOGIC: The Synthesizer's analysis is based on a probabilistic approach, which may not account for unforeseen events or black swans -> The reliance on probability chains and regime transitions may lead to a lack of robustness in the analysis -> The Synthesizer's o",
+      "id": "7f0b354786b6",
+      "timestamp": "2026-04-14T15:59:16.219309",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "The THESIS \"Regime Transition and Labor Market Stability\" has a confidence level of 70, which is lower than the confidence level of the other theses."
+      ],
+      "logic": [
+        "The lower confidence level of this thesis suggests that it may be more vulnerable to attacks or criticisms -> The thesis relies on a chain of events, from regime transition to labor market instability, which may be subject to various uncertainties and interruptions -> The thesis may be the weakest link in the Synthesizer's output."
+      ],
+      "counters": [
+        "One could argue that the thesis is still a valuable contribution to the analysis, despite its lower confidence level, as it highlights the potential risks and uncertainties associated with regime transitions."
+      ],
+      "conclusions": [
+        "I conclude that the THESIS \"Regime Transition and Labor Market Stability\" is the weakest thesis in the Synthesizer's output, due to its lower confidence level and reliance on a chain of events that may be subject to uncertainties and interruptions."
+      ],
+      "dependencies": [
+        "The single data point that would change my mind is if the Synthesizer were to incorporate more robust and adaptive methodologies, such as machine learning or scenario planning, to account for unforeseen events and black swans."
+      ],
+      "falsifications": [
+        "My conclusion is wrong if the Synthesizer's output were to be shown to be highly accurate and robust, despite its reliance on probability chains and regime transitions, and if the underlying assumptions and methodologies were to be validated through empirical evidence."
+      ],
+      "assets": [],
+      "raw_excerpt": "### Attack on the Synthesizer's Output\n\nOBSERVE: The Synthesizer's output is based on a complex analysis of market data, labor laws, and economic trends, but it appears to be overly reliant on probability chains and regime transitions.\n\nLOGIC: The Synthesizer's analysis is based on a probabilistic approach, which may not account for unforeseen events or black swans -> The reliance on probability chains and regime transitions may lead to a lack of robustness in the analysis -> The Synthesizer's o",
+      "id": "78f4f3c5658e",
+      "timestamp": "2026-04-14T15:59:16.219309",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "The Synthesizer's output appears to be focused on the analysis of market data, labor laws, and economic trends, but it does not seem to account for the potential impact of geopolitical events or global systemic risks."
+      ],
+      "logic": [
+        "The lack of consideration for geopolitical events or global systemic risks may be a significant blind spot in the Synthesizer's analysis -> These types of events can have a major impact on markets and economies, and may not be captured by the Synthesizer's probabilistic approach -> The Synthesizer's output may be vulnerable to surprises or shocks that are not accounted for in its analysis."
+      ],
+      "counters": [
+        "One could argue that the Synthesizer's focus on market data, labor laws, and economic trends is sufficient, as these factors are more directly relevant to the analysis of labor market stability and regime transitions."
+      ],
+      "conclusions": [
+        "I conclude that the biggest blind spot in the Synthesizer's output is its lack of consideration for geopolitical events or global systemic risks, which may have a significant impact on markets and economies."
+      ],
+      "dependencies": [
+        "The single data point that would change my mind is if the thesis were to be supported by additional empirical evidence or data, which would increase its confidence level and robustness."
+      ],
+      "falsifications": [
+        "My conclusion is wrong if the thesis were to be shown to be highly accurate and robust, despite its lower confidence level, and if the underlying assumptions and methodologies were to be validated through empirical evidence."
+      ],
+      "assets": [],
+      "raw_excerpt": "### Attack on the Synthesizer's Output\n\nOBSERVE: The Synthesizer's output is based on a complex analysis of market data, labor laws, and economic trends, but it appears to be overly reliant on probability chains and regime transitions.\n\nLOGIC: The Synthesizer's analysis is based on a probabilistic approach, which may not account for unforeseen events or black swans -> The reliance on probability chains and regime transitions may lead to a lack of robustness in the analysis -> The Synthesizer's o",
+      "id": "1d7b7b855e25",
+      "timestamp": "2026-04-14T15:59:16.219309",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
     }
   ],
   "pattern_quality": {

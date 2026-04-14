@@ -1,0 +1,499 @@
+{
+  "timestamp": "2026-04-14 15:57",
+  "regime": {
+    "regime": "TRANSITION",
+    "confidence": 0.382,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.0,
+      "TRANSITION": 0.545,
+      "RISK_ON": 0.455,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 18.1 18-25: uncertain",
+      "VIX 10d -22.9%: vol crush",
+      "4 correlation breaks: regime shift signal"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "USASpending unavailable"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Jefferson, Economic Outlook and the Labor Market",
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[FED] Jefferson, Economic Outlook and Energy Effects",
+      "[ECB] Philip R. Lane: The economic outlook and monetary policy in the euro area",
+      "[ECB] ECB Governing Council urges Single Market boost to strengthen bank competitiveness",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments"
+    ],
+    "policy": [
+      "[Rule] Airworthiness Directives; Pilatus Aircraft Ltd. Airplanes",
+      "[Rule] Fisheries of the Northeastern United States; Atlantic Sea Scallop Fishery; 2026 Closure of the Northern Gulf of Maine Sc",
+      "[Rule] Airworthiness Directives; Airbus SAS Airplanes",
+      "[Rule] Airworthiness Directives; Airbus Helicopters",
+      "[Rule] Airworthiness Directives; Airbus Helicopters",
+      "[Rule] Airworthiness Directives; Airbus Helicopters"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "13-Apr-2026",
+        "buyValue": "16612.03",
+        "sellValue": "14179.73",
+        "netValue": "2432.3"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "13-Apr-2026",
+        "buyValue": "15382.09",
+        "sellValue": "17365.27",
+        "netValue": "-1983.18"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.27,
+        "chg": 1.01,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.36,
+        "chg": 1.34,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 0.23,
+        "chg": 1.51,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.25,
+        "chg": 1.48,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.16,
+        "chg": 0.25,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 0.3,
+        "chg": 0.36,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 0.23,
+        "chg": 0.33,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 0.28,
+        "chg": 1.55,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 0.32,
+        "chg": 1.48,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 0.67,
+        "chg": -2.14,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 0.29,
+        "chg": 1.05,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 0.22,
+        "chg": 1.68,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.4,
+        "chg": 0.37,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 0.52,
+        "chg": -0.2,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": 1.887,
+        "b_chg": 0.999,
+        "same": true,
+        "div": 0.888,
+        "interp": "Gold/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": 0.355,
+        "b_chg": 0.999,
+        "same": true,
+        "div": 0.644,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": 1.908,
+        "b_chg": 0.999,
+        "same": true,
+        "div": 0.909,
+        "interp": "Dr Copper/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": -0.232,
+        "b_chg": 1.887,
+        "same": false,
+        "div": 2.119,
+        "interp": "Dollar/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": -5.178,
+        "b_chg": 0.999,
+        "same": false,
+        "div": 6.177,
+        "interp": "Vol/Equity",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": -6.348,
+        "b_chg": -1.558,
+        "same": true,
+        "div": 4.79,
+        "interp": "Oil/INR",
+        "flag": "normal"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": -0.582,
+        "b_chg": 1.887,
+        "same": false,
+        "div": 2.469,
+        "interp": "Rates/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": 1.261,
+        "b_chg": 1.61,
+        "same": true,
+        "div": 0.349,
+        "interp": "Crypto/Tech",
+        "flag": "normal"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": 0.248,
+        "b_chg": 0.999,
+        "same": true,
+        "div": 0.751,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": 1.908,
+        "b_chg": -6.348,
+        "same": false,
+        "div": 8.256,
+        "interp": "Copper/Oil",
+        "flag": "DIVERGENCE"
+      }
+    ],
+    "anomalies": [
+      "BREAK DXY/GOLD: A-0.23% B+1.89%",
+      "BREAK VIX/SP500: A-5.18% B+1.00%",
+      "BREAK US10Y/GOLD: A-0.58% B+1.89%",
+      "BREAK COPPER/OIL_WTI: A+1.91% B-6.35%"
+    ]
+  },
+  "tier4": {
+    "news_len": 10802,
+    "gdelt_len": 67
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 46.7,
+      "rating": "neutral",
+      "prev_week": 27.6,
+      "prev_month": 21.4
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": 0.172833,
+    "patterns": 18
+  },
+  "agents": {
+    "upstream": "OBSERVE: The WARN Act's provisions require employers to provide written notice at least 60 days in advance of a mass layoff or plant closure, and the California Labor Code Section 1400 reinforces this requirement.\n\nLOGIC: The WARN Act's provisions are designed to protect employees' rights and provide them with sufficient notice of potential job loss -> This notice period allows employees to prepare for the transition and seek new employment opportunities -> The implementation of the WARN Act's provisions is crucial for maintaining a stable labor market and mitigating the negative impacts of mass layoffs.\n\nCOUNTER: One could argue that the WARN Act's provisions may impose an undue burden on employers, particularly small businesses, and may lead to unnecessary costs and administrative complexity.\n\nCONCLUDE: I conclude that the WARN Act's provisions are essential for protecting employees' rights and maintaining a stable labor market, and employers should prioritize compliance with these regulations to avoid potential liabilities and reputational damage.\n\nDEPENDS ON: The single data point that would change my mind is if the California Labor Code Section 1400 were to be amended or repealed, effectively altering the notice period requirement.\n\nWRONG IF: The conclusion would be proven wrong if empirical evidence showed that the WARN Act's provisions have no significant impact on employee outcomes or labor market stability, or if the regulations were found to be overly burdensome and detrimental to businesses.",
+    "flow": "OBSERVE: The upstream conclusion emphasizes the importance of the WARN Act's provisions in protecting employees' rights and maintaining a stable labor market, with a notice period requirement of at least 60 days for mass layoffs or plant closures.\n\nLOGIC: The upstream conclusion is based on the idea that the WARN Act's provisions provide employees with sufficient notice to prepare for potential job loss and seek new employment opportunities -> This, in turn, contributes to a stable labor market and mitigates the negative impacts of mass layoffs -> However, the current market data suggests a regime transition (38% probability) and elevated volatility, which may affect the labor market and the relevance of the WARN Act's provisions.\n\nCOUNTER: One could argue that the current market conditions, with a high probability of a crisis regime, may render the WARN Act's provisions less relevant or even burdensome for employers, particularly small businesses, as they navigate the challenges of a volatile market.\n\nCONCLUDE: I conclude that while the WARN Act's provisions are important for protecting employees' rights, the current market conditions and regime transition may affect their relevance and implementation, and employers should be prepared to adapt to changing labor market conditions.\n\nDEPENDS ON: The single data point that would change my mind is if the labor market data showed a significant increase in mass layoffs or plant closures, indicating a heightened need for the WARN Act's provisions.\n\nWRONG IF: The conclusion would be proven wrong if empirical evidence showed that the WARN Act's provisions have no significant impact on employee outcomes or labor market stability during times of high market volatility, or if the regulations were found to be overly burdensome and detrimental to employers' ability to adapt to changing market conditions.",
+    "market": "OBSERVE: The current market data suggests a regime transition (38% probability) with elevated volatility, and the SP500 is up 1.00% in the last 1 day, while the VIX is down -5.18% in the last 1 day.\n\nLOGIC: The regime transition and elevated volatility indicate a high level of uncertainty in the market -> This uncertainty can lead to sudden changes in market sentiment and direction -> The breakdown in correlations, such as DXY/GOLD, VIX/SP500, US10Y/GOLD, and COPPER/OIL_WTI, suggests that the market is experiencing a shift in dynamics, which may affect the relationships between different asset classes.\n\nCOUNTER: One could argue that the current market conditions are simply a result of short-term fluctuations and that the long-term trends and correlations will eventually reassert themselves.\n\nCONCLUDE: Based on the current market data and the breakdown in correlations, I conclude that the market is experiencing a significant shift in dynamics, and investors should be prepared for potential changes in market sentiment and direction.\n\nDEPENDS ON: The validation of this conclusion depends on the continued breakdown of correlations, such as DXY/GOLD, VIX/SP500, US10Y/GOLD, and COPPER/OIL_WTI, and the persistence of elevated volatility.\n\nWRONG IF: This conclusion would be wrong if the correlations between different asset classes, such as DXY/GOLD, VIX/SP500, US10Y/GOLD, and COPPER/OIL_WTI, were to revert to their historical norms, and the market were to enter a period of low volatility and stable trends.",
+    "narrative": "OBSERVE: The current market data suggests a regime transition (38% probability) with elevated volatility, and Agents 1-3 are following the herd in their analysis of the WARN Act's provisions and market trends.\n\nLOGIC: The regime transition and elevated volatility indicate a high level of uncertainty in the market -> This uncertainty can lead to sudden changes in market sentiment and direction -> Agents 1-3 following the herd may not provide an edge in terms of market analysis, as their conclusions may be based on consensus rather than unique insights.\n\nCOUNTER: One could argue that Agents 1-3 are simply acknowledging the current market trends and that their analysis is based on a thorough understanding of the market fundamentals. However, this argument assumes that the market trends are always correct, which may not be the case.\n\nCONCLUDE: I conclude that Agents 1-3 are following the herd in their analysis, which may not provide an edge in terms of market insight. A more nuanced approach that considers alternative perspectives and potential market shifts may be necessary to gain a competitive advantage.\n\nDEPENDS ON: The single data point that would change my mind is if Agents 1-3 were to provide a unique and contrarian analysis that challenges the current market trends and provides a compelling argument for an alternative perspective.\n\nWRONG IF: My conclusion is wrong if Agents 1-3 are able to provide a detailed and data-driven analysis that demonstrates their conclusions are based on a thorough understanding of the market fundamentals, rather than simply following the herd. Additionally, if the market trends were to suddenly shift in a way that validates Agents 1-3's analysis, my conclusion would be proven incorrect.",
+    "synthesis": "### 1. Reconcile Contradictions between Agents\n\nOBSERVE: The WARN Act's provisions and their relevance in the current market conditions are being analyzed by multiple agents, with some concluding that the provisions are essential for protecting employees' rights and others arguing that they may not be as relevant in a crisis regime.\n\nLOGIC: The agents' conclusions are based on different interpretations of the market data and the WARN Act's provisions -> The agents' analysis may be influenced by their individual perspectives and biases -> Reconciling the contradictions between the agents requires considering multiple viewpoints and evaluating the evidence.\n\nCOUNTER: One could argue that the agents' conclusions are not contradictory, but rather complementary, as they highlight different aspects of the WARN Act's provisions and their relevance in the current market conditions.\n\nCONCLUDE: I conclude that Agent 1's analysis, which emphasizes the importance of the WARN Act's provisions in protecting employees' rights, is the most compelling. This is because the WARN Act's provisions provide employees with sufficient notice to prepare for potential job loss and seek new employment opportunities, which is crucial in a crisis regime.\n\nDEPENDS ON: The single data point that would change my mind is if the labor market data showed a significant decrease in mass layoffs or plant closures, indicating a reduced need for the WARN Act's provisions.\n\nWRONG IF: My conclusion is wrong if empirical evidence showed that the WARN Act's provisions have no significant impact on employee outcomes or labor market stability, or if the regulations were found to be overly burdensome and detrimental to employers' ability to adapt to changing market conditions.\n\n### 2. Generate Theses\n\nTHESIS: Market Volatility and WARN Act Provisions\nCHAIN: Elevated VIX -> Increased uncertainty -> Higher probability of mass layoffs -> Greater need for WARN Act provisions\nCONFIDENCE: 80\nKILL IF: Labor market data ",
+    "adversary": "### Attack on the Synthesizer's Output\n\nOBSERVE: The Synthesizer's output is based on a complex analysis of market data, labor laws, and economic trends, but it appears to be overly reliant on probability chains and regime transitions.\n\nLOGIC: The Synthesizer's analysis is based on a probabilistic approach, which may not account for unforeseen events or black swans -> The reliance on probability chains and regime transitions may lead to a lack of robustness in the analysis -> The Synthesizer's output may be vulnerable to attacks on its underlying assumptions and methodologies.\n\nCOUNTER: One could argue that the Synthesizer's use of probability chains and regime transitions is a strength, as it allows for a nuanced and data-driven analysis of complex systems.\n\nCONCLUDE: I conclude that the Synthesizer's output is vulnerable to attacks on its underlying assumptions and methodologies, particularly with regards to its reliance on probability chains and regime transitions.\n\nDEPENDS ON: The single data point that would change my mind is if the Synthesizer were to incorporate more robust and adaptive methodologies, such as machine learning or scenario planning, to account for unforeseen events and black swans.\n\nWRONG IF: My conclusion is wrong if the Synthesizer's output were to be shown to be highly accurate and robust, despite its reliance on probability chains and regime transitions, and if the underlying assumptions and methodologies were to be validated through empirical evidence.\n\n### Weakest Thesis\n\nOBSERVE: The THESIS \"Regime Transition and Labor Market Stability\" has a confidence level of 70, which is lower than the confidence level of the other theses.\n\nLOGIC: The lower confidence level of this thesis suggests that it may be more vulnerable to attacks or criticisms -> The thesis relies on a chain of events, from regime transition to labor market instability, which may be subject to various uncertainties and interruptions -> The thesis may be the weakest link in t"
+  },
+  "reasoning": {
+    "chains": 9,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-14T15:57:00.647422"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T15:57:01.191059"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-14T15:57:22.239145"
+    },
+    "USASPENDING": {
+      "ok": false,
+      "detail": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "ts": "2026-04-14T15:57:22.562169"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T15:57:22.780036"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T15:57:23.063406"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T15:57:23.347141"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T15:57:23.626831"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T15:57:23.943146"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T15:57:24.224598"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T15:57:24.524071"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T15:57:24.830976"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T15:57:25.139505"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T15:57:25.442549"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-14T15:57:25.643685"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-14T15:57:26.597512"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T15:57:26.696485"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T15:57:27.237003"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T15:57:28.962993"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T15:57:29.001860"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-14T15:57:39.123293"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T15:57:40.123949"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T15:57:40.728179"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-14T15:57:41.420281"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T15:57:42.459615"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-14T15:57:42.460304"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T15:57:42.616832"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T15:57:43.531645"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T15:57:43.945013"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-14T15:57:45.258467"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-14T15:57:45.669507"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T15:57:45.773811"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-14T15:57:46.991439"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-14T15:57:50.413260"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-14T15:57:50.413281"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-14T15:58:04.267755"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T15:58:04.388964"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-14T15:58:08.869928"
+    },
+    "GDELT": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T15:58:13.292679"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T15:58:13.361219"
+    }
+  }
+}

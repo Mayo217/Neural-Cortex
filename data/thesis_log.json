@@ -1086,5 +1086,32 @@
     ],
     "raw_block": "THESIS:** Market Volatility and Risk Management\n**CHAIN:** Transition regime (38%) -> Increased market volatility -> Higher importance of risk management and regulatory compliance (WARN Act) -> Potential for market correction\n**CONFIDENCE:** 80\n**KILL IF:** SP500 and NIFTY50 indices continue to trend upward, and the VIX level decreases significantly\n**TIMEFRAME:** 30 days\n**ASSET:** VIX (Volatility Index)\n\n#",
     "timestamp": "2026-04-14T06:21:45.267245"
+  },
+  {
+    "title": "Market Volatility and WARN Act Provisions",
+    "chain": "Elevated VIX -> Increased uncertainty -> Higher probability of mass layoffs -> Greater need for WARN Act provisions",
+    "confidence": 80,
+    "direction": "neutral",
+    "kill_condition": "Labor market data shows a significant decrease in mass layoffs or plant closures",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500",
+      "VIX"
+    ],
+    "raw_block": "THESIS: Market Volatility and WARN Act Provisions\nCHAIN: Elevated VIX -> Increased uncertainty -> Higher probability of mass layoffs -> Greater need for WARN Act provisions\nCONFIDENCE: 80\nKILL IF: Labor market data shows a significant decrease in mass layoffs or plant closures\nTIMEFRAME: 30 days\nASSET: SP500\n\n",
+    "timestamp": "2026-04-14T15:59:16.225871"
+  },
+  {
+    "title": "Regime Transition and Labor Market Stability",
+    "chain": "Regime transition -> Elevated volatility -> Increased uncertainty -> Higher probability of labor market instability",
+    "confidence": 70,
+    "direction": "neutral",
+    "kill_condition": "Labor market data shows a significant increase in employment rates or a decrease in unemployment rates",
+    "timeframe_days": 60,
+    "assets": [
+      "NIFTY"
+    ],
+    "raw_block": "THESIS: Regime Transition and Labor Market Stability\nCHAIN: Regime transition -> Elevated volatility -> Increased uncertainty -> Higher probability of labor market instability\nCONFIDENCE: 70\nKILL IF: Labor market data shows a significant increase in employment rates or a decrease in unemployment rates\nTIMEFRAME: 60 days\nASSET: NIFTY50\n\n#",
+    "timestamp": "2026-04-14T15:59:16.225914"
   }
 ]
