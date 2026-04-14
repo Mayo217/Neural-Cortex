@@ -1,0 +1,500 @@
+{
+  "timestamp": "2026-04-14 20:39",
+  "regime": {
+    "regime": "TRANSITION",
+    "confidence": 0.382,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.0,
+      "TRANSITION": 0.545,
+      "RISK_ON": 0.455,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 18.4 18-25: uncertain",
+      "VIX 10d -21.9%: vol crush",
+      "5 correlation breaks: regime shift signal"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "USASpending unavailable"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Barr, Rural Communities: Worth the Investment",
+      "[FED] Jefferson, Economic Outlook and the Labor Market",
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[FED] Barr, Brief Remarks on the Economic Outlook and Monetary Policy",
+      "[ECB] Philip R. Lane: The economic outlook and monetary policy in the euro area",
+      "[ECB] ECB Governing Council urges Single Market boost to strengthen bank competitiveness",
+      "[ECB] Piero Cipollone: The digital euro in a fragmenting world: ensuring Europe\u2019s resilience and autonomy in payments",
+      "[ECB] Eurosystem sets out comprehensive strategy for future of European payments"
+    ],
+    "policy": [
+      "[Rule] Airworthiness Directives; Pilatus Aircraft Ltd. Airplanes",
+      "[Rule] Fisheries of the Northeastern United States; Atlantic Sea Scallop Fishery; 2026 Closure of the Northern Gulf of Maine Sc",
+      "[Rule] Airworthiness Directives; Airbus SAS Airplanes",
+      "[Rule] Airworthiness Directives; Airbus Helicopters",
+      "[Rule] Airworthiness Directives; Airbus Helicopters",
+      "[Rule] Airworthiness Directives; Airbus Helicopters"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "13-Apr-2026",
+        "buyValue": "16612.03",
+        "sellValue": "14179.73",
+        "netValue": "2432.3"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "13-Apr-2026",
+        "buyValue": "15382.09",
+        "sellValue": "17365.27",
+        "netValue": "-1983.18"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.66,
+        "chg": 1.22,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.78,
+        "chg": 1.82,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 0.51,
+        "chg": 1.38,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.57,
+        "chg": 2.23,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.45,
+        "chg": 0.53,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 0.65,
+        "chg": 0.3,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 0.59,
+        "chg": 0.33,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 0.59,
+        "chg": 1.92,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 0.61,
+        "chg": 1.13,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 1.03,
+        "chg": -2.03,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 0.62,
+        "chg": 2.01,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 0.52,
+        "chg": 1.99,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.69,
+        "chg": 0.23,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 1.02,
+        "chg": 0.17,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": 2.575,
+        "b_chg": 1.178,
+        "same": true,
+        "div": 1.397,
+        "interp": "Gold/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": 0.299,
+        "b_chg": 1.178,
+        "same": true,
+        "div": 0.879,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": 1.765,
+        "b_chg": 1.178,
+        "same": true,
+        "div": 0.587,
+        "interp": "Dr Copper/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": -0.272,
+        "b_chg": 2.575,
+        "same": false,
+        "div": 2.847,
+        "interp": "Dollar/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": -3.975,
+        "b_chg": 1.178,
+        "same": false,
+        "div": 5.153,
+        "interp": "Vol/Equity",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": -6.873,
+        "b_chg": -1.893,
+        "same": true,
+        "div": 4.98,
+        "interp": "Oil/INR",
+        "flag": "normal"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": -0.954,
+        "b_chg": 2.575,
+        "same": false,
+        "div": 3.529,
+        "interp": "Rates/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": -0.427,
+        "b_chg": 1.964,
+        "same": false,
+        "div": 2.391,
+        "interp": "Crypto/Tech",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": 0.53,
+        "b_chg": 1.178,
+        "same": true,
+        "div": 0.648,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": 1.765,
+        "b_chg": -6.873,
+        "same": false,
+        "div": 8.638,
+        "interp": "Copper/Oil",
+        "flag": "DIVERGENCE"
+      }
+    ],
+    "anomalies": [
+      "BREAK DXY/GOLD: A-0.27% B+2.58%",
+      "BREAK VIX/SP500: A-3.98% B+1.18%",
+      "BREAK US10Y/GOLD: A-0.95% B+2.58%",
+      "BREAK BITCOIN/NASDAQ: A-0.43% B+1.96%",
+      "BREAK COPPER/OIL_WTI: A+1.76% B-6.87%"
+    ]
+  },
+  "tier4": {
+    "news_len": 10315,
+    "gdelt_len": 17
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 47,
+      "rating": "neutral",
+      "prev_week": 27.6,
+      "prev_month": 21.4
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": 0.172833,
+    "patterns": 18
+  },
+  "agents": {
+    "upstream": "OBSERVE: The current market regime is TRANSITION (38%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time periods (30d, 5d, 10d).\nLOGIC: The transition regime suggests uncertainty and potential volatility in the market -> This uncertainty could be driven by various factors, including economic indicators, policy changes, and global events -> The implications of this regime could be significant, as it may lead to increased risk and potential losses for investors.\nCOUNTER: One could argue that the transition regime is a normal part of market cycles, and that the current trends may not necessarily lead to significant volatility or losses -> This counterargument would suggest that investors should not overreact to the current regime and instead focus on long-term strategies.\nCONCLUDE: Based on the current data, I conclude that the market is indeed in a transition regime, and that investors should exercise caution and carefully consider their investment strategies.\nDEPENDS ON: The single data point that would change my mind is a significant shift in the VIX index, which is currently not available in the provided data. If the VIX were to drop significantly, it could indicate a decrease in market volatility and potentially alter my conclusion.\nWRONG IF: My conclusion would be proven wrong if the market were to suddenly shift into a clear bull or bear trend, with a significant majority of indices moving in the same direction, indicating a more stable and predictable market regime.",
+    "flow": "OBSERVE: The current market regime is TRANSITION (38%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time periods (30d, 5d, 10d), and the Brier score is 0.172833, indicating a moderate level of uncertainty in the market predictions.\n\nLOGIC: The transition regime, combined with the moderate Brier score, suggests that the market is experiencing a period of uncertainty and potential volatility -> This uncertainty could be driven by various factors, including economic indicators, policy changes, and global events -> The implications of this regime could be significant, as it may lead to increased risk and potential losses for investors, and the moderate Brier score indicates that the predictions are not highly confident.\n\nCOUNTER: One could argue that the transition regime is a normal part of market cycles, and that the current trends may not necessarily lead to significant volatility or losses -> This counterargument would suggest that investors should not overreact to the current regime and instead focus on long-term strategies, and the moderate Brier score could be seen as a sign that the market is simply adjusting to new information.\n\nCONCLUDE: Based on the current data, I conclude that the market is indeed in a transition regime, and that investors should exercise caution and carefully consider their investment strategies, taking into account the moderate level of uncertainty in the market predictions.\n\nDEPENDS ON: The single data point that would change my mind is a significant shift in the VIX index, which is currently not available in the provided data, or a substantial change in the Brier score, which could indicate a higher or lower level of uncertainty in the market predictions. If the VIX were to drop significantly or the Brier score were to decrease, it could indicate a decrease in market volatility and potentially alter my conclusion.\n\nWRONG IF: My conclusion would be proven",
+    "market": "LLM ERROR",
+    "narrative": "LLM ERROR",
+    "synthesis": "LLM ERROR",
+    "adversary": "LLM ERROR"
+  },
+  "reasoning": {
+    "chains": 6,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-14T20:39:18.672185"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T20:39:18.914102"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-14T20:39:39.957504"
+    },
+    "USASPENDING": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='api.usaspending.gov', port=443): Read timed out. (read timeout=15)",
+      "ts": "2026-04-14T20:39:55.013822"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T20:39:55.243012"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T20:39:55.659029"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T20:39:56.076467"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T20:39:56.515496"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T20:39:56.947835"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T20:39:57.379920"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T20:39:57.797493"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T20:39:58.232540"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T20:39:58.695768"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-14T20:39:59.126802"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-14T20:39:59.327800"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-14T20:40:00.108841"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T20:40:00.197636"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T20:40:00.967274"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T20:40:02.458056"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T20:40:02.519149"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-14T20:40:12.582254"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T20:40:13.936378"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T20:40:14.919795"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-14T20:40:15.206244"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T20:40:15.767032"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-14T20:40:15.767915"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T20:40:16.029632"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T20:40:16.981075"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-14T20:40:17.567501"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-14T20:40:18.856499"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-14T20:40:18.982513"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T20:40:19.192114"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-14T20:40:20.091528"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-14T20:40:22.609382"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-14T20:40:22.609399"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-14T20:40:38.027553"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T20:40:38.084496"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-14T20:40:41.963749"
+    },
+    "GDELT": {
+      "ok": false,
+      "detail": "HTTP 429",
+      "ts": "2026-04-14T20:40:42.402903"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-14T20:40:42.454748"
+    }
+  }
+}
