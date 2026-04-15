@@ -1113,5 +1113,39 @@
     ],
     "raw_block": "THESIS: Regime Transition and Labor Market Stability\nCHAIN: Regime transition -> Elevated volatility -> Increased uncertainty -> Higher probability of labor market instability\nCONFIDENCE: 70\nKILL IF: Labor market data shows a significant increase in employment rates or a decrease in unemployment rates\nTIMEFRAME: 60 days\nASSET: NIFTY50\n\n#",
     "timestamp": "2026-04-14T15:59:16.225914"
+  },
+  {
+    "title": "RISK_ON Regime",
+    "chain": "Upward trends in SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT -> suggest a bullish market sentiment -> imply that investors are taking on more risk and are optimistic about the market's future performance -> indicate a RISK_ON regime.",
+    "confidence": 62,
+    "direction": "bullish",
+    "kill_condition": "VIX index remains below 20 for an extended period.",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500",
+      "NIFTY",
+      "GOLD",
+      "OIL",
+      "BRENT"
+    ],
+    "raw_block": "THESIS: RISK_ON Regime\nCHAIN: Upward trends in SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT -> suggest a bullish market sentiment -> imply that investors are taking on more risk and are optimistic about the market's future performance -> indicate a RISK_ON regime.\nCONFIDENCE: 62\nKILL IF: VIX index remains below 20 for an extended period.\nTIMEFRAME: 30 days\nASSET: SP500\n\n",
+    "timestamp": "2026-04-15T06:23:18.851837"
+  },
+  {
+    "title": "Market Volatility",
+    "chain": "High volatility in the market, as indicated by the SP500's 5-day and 10-day trends -> suggest a potential reversal of the current upward trend -> imply that investors should be prepared for potential downturns -> indicate a need for caution.",
+    "confidence": 40,
+    "direction": "bullish",
+    "kill_condition": "VIX index suddenly spikes above 25.",
+    "timeframe_days": 10,
+    "assets": [
+      "SP500",
+      "NIFTY",
+      "DXY",
+      "INR",
+      "BITCOIN"
+    ],
+    "raw_block": "THESIS: Market Volatility\nCHAIN: High volatility in the market, as indicated by the SP500's 5-day and 10-day trends -> suggest a potential reversal of the current upward trend -> imply that investors should be prepared for potential downturns -> indicate a need for caution.\nCONFIDENCE: 40\nKILL IF: VIX index suddenly spikes above 25.\nTIMEFRAME: 10 days\nASSET: VIX\n\n**3. INDIA INTELLIGENCE:**\nThe NIFTY50 is showing an upward trend in the 30-day period, with a 44% probability of continuing to rise. ",
+    "timestamp": "2026-04-15T06:23:18.851896"
   }
 ]
