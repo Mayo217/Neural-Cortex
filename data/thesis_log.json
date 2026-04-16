@@ -1214,5 +1214,75 @@
     ],
     "raw_block": "THESIS:** Market Continuation with Caution\n**CHAIN:** RISK_ON regime (71%) -> Increased investment in riskier assets -> Potential for market continuation -> Need for caution due to high crisis regime probability\n**CONFIDENCE:** 60\n**KILL IF:** Significant increase in crisis regime probability or a shift in FII/DII data indicating domestic investors becoming bearish\n**TIMEFRAME:** 30 days\n**ASSET:** SP500\n\n#",
     "timestamp": "2026-04-16T16:58:42.515989"
+  },
+  {
+    "title": "** Market Volatility",
+    "chain": "** High risk appetite -> Increased market volatility -> Potential for sudden downturns -> Need for caution and portfolio diversification",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** VIX/SP500 correlation reverses and VIX starts increasing while SP500 decreases",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500",
+      "VIX"
+    ],
+    "raw_block": "THESIS:** Market Volatility\n   **CHAIN:** High risk appetite -> Increased market volatility -> Potential for sudden downturns -> Need for caution and portfolio diversification\n   **CONFIDENCE:** 80\n   **KILL IF:** VIX/SP500 correlation reverses and VIX starts increasing while SP500 decreases\n   **TIMEFRAME:** 30 days\n   **ASSET:** VIX\n\n2. **",
+    "timestamp": "2026-04-16T20:13:37.160300"
+  },
+  {
+    "title": "** Energy Sector Outperformance",
+    "chain": "** Increased demand for energy -> Higher energy prices -> Outperformance of energy sector -> Potential for investment opportunities",
+    "confidence": 50,
+    "direction": "bearish",
+    "kill_condition": "** Oil prices decline by 10% or more in the next 30 days",
+    "timeframe_days": 30,
+    "assets": [
+      "OIL"
+    ],
+    "raw_block": "THESIS:** Energy Sector Outperformance\n   **CHAIN:** Increased demand for energy -> Higher energy prices -> Outperformance of energy sector -> Potential for investment opportunities\n   **CONFIDENCE:** 70\n   **KILL IF:** Oil prices decline by 10% or more in the next 30 days\n   **TIMEFRAME:** 60 days\n   **ASSET:** XLE\n\n3. **",
+    "timestamp": "2026-04-16T20:13:37.160344"
+  },
+  {
+    "title": "** Geopolitical Influence on Market Trends",
+    "chain": "** Geopolitical events -> Market volatility -> Potential for sudden downturns -> Need for caution and portfolio diversification",
+    "confidence": 50,
+    "direction": "neutral",
+    "kill_condition": "** Geopolitical tensions ease and market volatility decreases",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500"
+    ],
+    "raw_block": "THESIS:** Geopolitical Influence on Market Trends\n   **CHAIN:** Geopolitical events -> Market volatility -> Potential for sudden downturns -> Need for caution and portfolio diversification\n   **CONFIDENCE:** 60\n   **KILL IF:** Geopolitical tensions ease and market volatility decreases\n   **TIMEFRAME:** 90 days\n   **ASSET:** SP500\n\n4. **",
+    "timestamp": "2026-04-16T20:13:37.160381"
+  },
+  {
+    "title": "** Dollar Strength",
+    "chain": "** Strong US economy -> Higher interest rates -> Stronger US dollar -> Potential for investment opportunities",
+    "confidence": 50,
+    "direction": "bearish",
+    "kill_condition": "** US economy slows down and interest rates decline",
+    "timeframe_days": 30,
+    "assets": [
+      "DXY"
+    ],
+    "raw_block": "THESIS:** Dollar Strength\n   **CHAIN:** Strong US economy -> Higher interest rates -> Stronger US dollar -> Potential for investment opportunities\n   **CONFIDENCE:** 50\n   **KILL IF:** US economy slows down and interest rates decline\n   **TIMEFRAME:** 120 days\n   **ASSET:** DXY\n\n5. **",
+    "timestamp": "2026-04-16T20:13:37.160411"
+  },
+  {
+    "title": "** Bitcoin Price Increase",
+    "chain": "** Increased adoption of cryptocurrency -> Higher demand for Bitcoin -> Potential for price increase -> Investment opportunities",
+    "confidence": 50,
+    "direction": "bearish",
+    "kill_condition": "** Regulatory environment becomes unfavorable for cryptocurrency",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500",
+      "NIFTY",
+      "OIL",
+      "BITCOIN",
+      "VIX"
+    ],
+    "raw_block": "THESIS:** Bitcoin Price Increase\n   **CHAIN:** Increased adoption of cryptocurrency -> Higher demand for Bitcoin -> Potential for price increase -> Investment opportunities\n   **CONFIDENCE:** 40\n   **KILL IF:** Regulatory environment becomes unfavorable for cryptocurrency\n   **TIMEFRAME:** 180 days\n   **ASSET:** BTC\n\n**INDIA INTELLIGENCE**\n\nThe Indian market, as represented by the NIFTY50, is showing an upward trend in the 30-day period, with a strong upward trend in the 5-day and 10-day periods",
+    "timestamp": "2026-04-16T20:13:37.160511"
   }
 ]
