@@ -1384,5 +1384,50 @@
     ],
     "raw_block": "THESIS: Crisis Regime Warning\nCHAIN: High probability of crisis regime -> Increased uncertainty and volatility -> Potential for sudden market downturn -> Need for caution and risk management\nCONFIDENCE: 60\nKILL IF: Significant increase in VIX index (10% or more) within the next 30 days\nTIMEFRAME: 30 days\nASSET: VIX\n\n#",
     "timestamp": "2026-04-18T14:13:57.874531"
+  },
+  {
+    "title": "Regime Transition and Market Uncertainty",
+    "chain": "High probability of regime transition -> Increased volatility and unpredictability -> Reevaluation of investment strategies and risk management approaches -> Potential for significant market downturn",
+    "confidence": 70,
+    "direction": "neutral",
+    "kill_condition": "Sustained downturn in SP500, NIFTY50, or other major market indices",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500",
+      "NIFTY",
+      "VIX"
+    ],
+    "raw_block": "THESIS: Regime Transition and Market Uncertainty\nCHAIN: High probability of regime transition -> Increased volatility and unpredictability -> Reevaluation of investment strategies and risk management approaches -> Potential for significant market downturn\nCONFIDENCE: 70\nKILL IF: Sustained downturn in SP500, NIFTY50, or other major market indices\nTIMEFRAME: 30 days\nASSET: VIX index\n\n",
+    "timestamp": "2026-04-18T19:57:45.214770"
+  },
+  {
+    "title": "Credit Market Divergence",
+    "chain": "HYG divergence from equity market -> Potential for forced selling -> Increased volatility and unpredictability",
+    "confidence": 60,
+    "direction": "neutral",
+    "kill_condition": "HYG vol surge without news",
+    "timeframe_days": 2,
+    "assets": [
+      "HYG"
+    ],
+    "raw_block": "THESIS: Credit Market Divergence\nCHAIN: HYG divergence from equity market -> Potential for forced selling -> Increased volatility and unpredictability\nCONFIDENCE: 60\nKILL IF: HYG vol surge without news\nTIMEFRAME: 2-6 weeks\nASSET: HYG\n\n",
+    "timestamp": "2026-04-18T19:57:45.214805"
+  },
+  {
+    "title": "Dollar Strength and EM Stress",
+    "chain": "DXY>105 -> EM stress 3-6 months -> Potential for regime transition",
+    "confidence": 50,
+    "direction": "bullish",
+    "kill_condition": "DXY<104 sustained",
+    "timeframe_days": 3,
+    "assets": [
+      "SP500",
+      "NIFTY",
+      "DXY",
+      "INR",
+      "VIX"
+    ],
+    "raw_block": "THESIS: Dollar Strength and EM Stress\nCHAIN: DXY>105 -> EM stress 3-6 months -> Potential for regime transition\nCONFIDENCE: 50\nKILL IF: DXY<104 sustained\nTIMEFRAME: 3-6 months\nASSET: DXY\n\n**INDIA INTELLIGENCE**\n\nThe NIFTY50 index shows an upward trend in the 30-day period, with a confidence level of 44% Up, 29% Down, and 27% Flat. The Indian rupee (INR) has been relatively stable against the US dollar. Foreign Institutional Investors (FII) have been net sellers, while Domestic Institutional Inve",
+    "timestamp": "2026-04-18T19:57:45.214856"
   }
 ]
