@@ -1358,5 +1358,31 @@
     ],
     "raw_block": "THESIS: Risk-On Environment Continuation\nCHAIN: Recent short-term trends in SP500 and other indices -> bullish bias -> continuation of risk-on environment -> potential for further market growth\nCONFIDENCE: 60\nKILL IF: Significant drop in SP500 below its 50-day moving average\nTIMEFRAME: 20 days\nASSET: SP500\n\n#",
     "timestamp": "2026-04-18T08:10:34.033858"
+  },
+  {
+    "title": "RISK_ON Regime Sustainability",
+    "chain": "High investor optimism -> Increased investment and economic growth -> Reinforcement of RISK_ON regime -> Potential for sustained market growth",
+    "confidence": 80,
+    "direction": "neutral",
+    "kill_condition": "Significant decrease in SP500 (5% or more) within the next 30 days",
+    "timeframe_days": 60,
+    "assets": [
+      "SP500"
+    ],
+    "raw_block": "THESIS: RISK_ON Regime Sustainability\nCHAIN: High investor optimism -> Increased investment and economic growth -> Reinforcement of RISK_ON regime -> Potential for sustained market growth\nCONFIDENCE: 80\nKILL IF: Significant decrease in SP500 (5% or more) within the next 30 days\nTIMEFRAME: 60 days\nASSET: SP500\n\n",
+    "timestamp": "2026-04-18T14:13:57.874490"
+  },
+  {
+    "title": "Crisis Regime Warning",
+    "chain": "High probability of crisis regime -> Increased uncertainty and volatility -> Potential for sudden market downturn -> Need for caution and risk management",
+    "confidence": 60,
+    "direction": "neutral",
+    "kill_condition": "Significant increase in VIX index (10% or more) within the next 30 days",
+    "timeframe_days": 30,
+    "assets": [
+      "VIX"
+    ],
+    "raw_block": "THESIS: Crisis Regime Warning\nCHAIN: High probability of crisis regime -> Increased uncertainty and volatility -> Potential for sudden market downturn -> Need for caution and risk management\nCONFIDENCE: 60\nKILL IF: Significant increase in VIX index (10% or more) within the next 30 days\nTIMEFRAME: 30 days\nASSET: VIX\n\n#",
+    "timestamp": "2026-04-18T14:13:57.874531"
   }
 ]
