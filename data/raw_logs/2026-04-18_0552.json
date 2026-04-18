@@ -1,0 +1,511 @@
+{
+  "timestamp": "2026-04-18 05:52",
+  "regime": {
+    "regime": "RISK_ON",
+    "confidence": 0.714,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.0,
+      "TRANSITION": 0.286,
+      "RISK_ON": 0.714,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 17.5 13-18: calm",
+      "VIX 10d -21.9%: vol crush",
+      "4 correlation breaks: regime shift signal"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$33.75B|CONSOLIDATED NUCLEAR SECURITY, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATING CONTRACT FOR Y-12 NATIONAL SECURITY COM",
+      "$22.41B|THE BOEING COMPANY|None|INTERNATIONAL SPACE STATION",
+      "$17.14B|UCHICAGO ARGONNE, LLC|None|PERFORMANCE-BASED CONTRACT FOR MANAGEMENT AND OPERATION OF ARGONNE NATIONAL LABO",
+      "$14.54B|THE LELAND STANFORD JUNIOR UNIVERSITY|None|OPERATION AND MAINTENANCE                                   LINEAR ACCELLERATOR",
+      "$10.57B|WASHINGTON RIVER PROTECTION SOLUTIONS LLC|None|MANAGEMENT OF THE HANFORD SITE TANK FARMS",
+      "$2.78B|MAXIMUS FEDERAL SERVICES, INC.|None|CONTACT CENTER OPERATIONS",
+      "$2.41B|UNITED CLEANUP OAK RIDGE LLC|None|OAK RIDGE RESERVATION CLEANUP CONTRACT TASK ORDERS",
+      "$2.38B|THE BOEING COMPANY|None|SPACE LAUNCH SYSTEM (SLS) STAGES PRODUCTION AND EVOLUTION CONTRACT (SPEC)",
+      "$2.31B|XATOR LLC|None|CARE LOGISTICAL SUPPORT SERVICES - CLSS",
+      "$2.12B|SAVANNAH RIVER MISSION COMPLETION, LLC|None|THIS AWARD IS FOR THE SAVANNAH RIVER INTEGRATED MISSION COMPLETION CONTRACT - TA",
+      "$1.53B|HANFORD TANK WASTE OPERATIONS & CLOSURE, LLC|None|THE AWARD CONTINUES PERFORMANCE OF INTEGRATED TANK DISPOSITION CONTRACT VIA THE ",
+      "$1.40B|AUSTAL USA, LLC|None|OFFSHORE PATROL CUTTER (OPC) STAGE 2 CONTRACT: DETAILED DESIGN AND PRODUCTION (D",
+      "$1.15B|ORACLE HEALTH GOVERNMENT SERVICES, INC.|None|EHRM WAVES K, L, M (VISN 23) AND N, O (VISN 15) DEPLOYMENTS",
+      "$1.10B|OPTUM PUBLIC SECTOR SOLUTIONS, INC.|None|EXPRESS REPORT:R3 FY26 1ST QTR OCT",
+      "$1.06B|LEIDOS, INC.|None|ITSSC TASK ORDER FOR SYSTEMS"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Waller, One Transitory Shock After Another",
+      "[FED] Barr, Rural Communities: Worth the Investment",
+      "[FED] Jefferson, Economic Outlook and the Labor Market",
+      "[FED] Bowman, Supporting Small Businesses",
+      "[FED] Barr, Brief Remarks on Stablecoins",
+      "[ECB] Christine Lagarde: IMFC Statement",
+      "[ECB] Isabel Schnabel: Europe's successes and the path forward",
+      "[ECB] Meeting of 18-19 March 2026",
+      "[ECB] Piero Cipollone: Sparking the transformation of finance: tokenisation and the role of central banks"
+    ],
+    "policy": [
+      "[Rule] Settlement Policy for Small Unmanned Aircraft System (UAS) Cases",
+      "[Rule] Amendment of Class E5 Airspace Over Elizabeth City, NC",
+      "[Rule] Eliminating Outdated Regulation Related to Reports on Exports of Technology",
+      "[Rule] Air Plan Approval; Virginia; Amendment to the State Operating Permit for GP Big Island, LLC"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "17-Apr-2026",
+        "buyValue": "17513.99",
+        "sellValue": "22235.47",
+        "netValue": "-4721.48"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "17-Apr-2026",
+        "buyValue": "16034.88",
+        "sellValue": "15351.68",
+        "netValue": "683.2"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.81,
+        "chg": 1.21,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.87,
+        "chg": 1.31,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 1.1,
+        "chg": 2.16,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.7,
+        "chg": 1.33,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.83,
+        "chg": 0.92,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 1.01,
+        "chg": 0.37,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 1.06,
+        "chg": 0.56,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 1.17,
+        "chg": 1.91,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 1.27,
+        "chg": 1.27,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 1.61,
+        "chg": -2.76,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 0.78,
+        "chg": 2.4,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 0.74,
+        "chg": 2.74,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.94,
+        "chg": 0.77,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 0.7,
+        "chg": -0.41,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": 1.509,
+        "b_chg": 1.204,
+        "same": true,
+        "div": 0.305,
+        "interp": "Gold/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": 0.373,
+        "b_chg": 1.204,
+        "same": true,
+        "div": 0.831,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": 0.61,
+        "b_chg": 1.204,
+        "same": true,
+        "div": 0.594,
+        "interp": "Dr Copper/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": -0.122,
+        "b_chg": 1.509,
+        "same": false,
+        "div": 1.631,
+        "interp": "Dollar/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": -2.564,
+        "b_chg": 1.204,
+        "same": false,
+        "div": 3.768,
+        "interp": "Vol/Equity",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": -11.448,
+        "b_chg": -0.508,
+        "same": true,
+        "div": 10.94,
+        "interp": "Oil/INR",
+        "flag": "normal"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": -1.462,
+        "b_chg": 1.509,
+        "same": false,
+        "div": 2.971,
+        "interp": "Rates/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": 2.685,
+        "b_chg": 1.518,
+        "same": true,
+        "div": 1.167,
+        "interp": "Crypto/Tech",
+        "flag": "normal"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": 0.916,
+        "b_chg": 1.204,
+        "same": true,
+        "div": 0.288,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": 0.61,
+        "b_chg": -11.448,
+        "same": false,
+        "div": 12.058,
+        "interp": "Copper/Oil",
+        "flag": "DIVERGENCE"
+      }
+    ],
+    "anomalies": [
+      "BREAK DXY/GOLD: A-0.12% B+1.51%",
+      "BREAK VIX/SP500: A-2.56% B+1.20%",
+      "BREAK US10Y/GOLD: A-1.46% B+1.51%",
+      "BREAK COPPER/OIL_WTI: A+0.61% B-11.45%"
+    ]
+  },
+  "tier4": {
+    "news_len": 10508,
+    "gdelt_len": 17
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 68.1,
+      "rating": "greed",
+      "prev_week": 36.6,
+      "prev_month": 20.7
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": 0.172833,
+    "patterns": 18
+  },
+  "agents": {
+    "upstream": "OBSERVE: The current market regime is highly uncertain, with a high degree of variability in trends across different assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) over the 30-day period.\n\nLOGIC: The uncertainty in the market regime -> suggests a lack of clear direction or trend -> implies that investors and employers should exercise caution and consider diverse perspectives to navigate the current environment.\n\nCOUNTER: The recent uptrend in the SP500 over the 5-day and 10-day periods could indicate a potential shift towards a more optimistic market regime, which might contradict the notion of high uncertainty.\n\nCONCLUDE: The current market regime is indeed highly uncertain, and it is essential to consider multiple viewpoints and scenarios to make informed decisions.\n\nDEPENDS ON: A significant and sustained move in the SP500 (e.g., a 10% increase or decrease over a short period) would change my mind about the current level of uncertainty in the market.\n\nWRONG IF: The market regime shifts decisively towards a clear bull or bear trend, with a high degree of consensus among investors and analysts, which would contradict the current uncertainty and variability in trends.",
+    "flow": "OBSERVE: The current market regime is classified as RISK_ON with a 71% probability, and the 30-day trends for various assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) show a mix of uptrends and downtrends with a relatively low percentage of uptrends.\n\nLOGIC: The mixed trends across different assets -> suggests a lack of clear direction or consensus in the market -> implies that the RISK_ON classification may not be entirely accurate, and a more nuanced approach to risk assessment is necessary.\n\nCOUNTER: The recent uptrend in the SP500 over the 5-day and 10-day periods, with a high percentage of uptrend (63%), could indicate a shift towards a more optimistic market regime, which might support the RISK_ON classification.\n\nCONCLUDE: The current market regime classification as RISK_ON with 71% probability may be overly simplistic, and a more detailed analysis of the trends and correlations across different assets is necessary to accurately assess the market's risk profile.\n\nDEPENDS ON: A significant change in the correlation between the SP500 and other assets, such as a divergence in trends or a shift in the volatility ratios, would change my mind about the current market regime classification.\n\nWRONG IF: The market regime classification is consistently supported by multiple indicators, such as a strong uptrend in the SP500, a decline in volatility ratios, and a increase in risk-on assets, which would suggest that the RISK_ON classification is accurate and the market is indeed in a risk-on regime.",
+    "market": "OBSERVE: The current market regime is classified as RISK_ON with a 71% probability, and the 30-day trends for various assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) show a mix of uptrends and downtrends with a relatively low percentage of uptrends.\n\nLOGIC: The mixed trends across different assets -> suggests a lack of clear direction or consensus in the market -> implies that the RISK_ON classification may not be entirely accurate, and a more nuanced approach to risk assessment is necessary.\n\nCOUNTER: The recent uptrend in the SP500 over the 5-day and 10-day periods, with a high percentage of uptrend (63%), could indicate a shift towards a more optimistic market regime, which might support the RISK_ON classification.\n\nCONCLUDE: The current market regime classification as RISK_ON with a 71% probability may not fully capture the complexity of the market, and a more detailed analysis of the trends and correlations is necessary to make informed decisions.\n\nDEPENDS ON: The validation of the RISK_ON classification depends on the performance of the SP500 over the next 30 days, particularly if it continues to show a strong uptrend.\n\nWRONG IF: The market regime classification would be proven wrong if the SP500 experiences a significant downturn over the next 30 days, contradicting the current RISK_ON classification.\n\nAdditionally, the correlations and anomalies, such as the breaks in DXY/GOLD, VIX/SP500, US10Y/GOLD, and COPPER/OIL_WTI, suggest that the market is experiencing a high degree of uncertainty and volatility, which could impact the accuracy of the RISK_ON classification.\n\nOBSERVE: The Fear and Greed index has a score of 68.1, indicating a \"greed\" rating, which could suggest that the market is due for a correction.\n\nLOGIC: The high Fear and Greed index score -> suggests that investors are overly optimistic -> implies that the market may be due for a correction, which could impact the RISK_ON classification.\n\nCOUNTER: The recent uptrend in the SP500 and other",
+    "narrative": "OBSERVE: The current market regime is classified as RISK_ON with a 71% probability, and Agents 1-3 appear to be following the herd, lacking diversity in their analyses.\n\nLOGIC: The lack of diversity in opinion among Agents 1-3 -> suggests a potential groupthink bias -> implies that their analyses may not accurately capture the complexity of the current market environment.\n\nCOUNTER: The recent uptrend in the SP500 over the 5-day and 10-day periods could indicate a potential shift towards a more optimistic market regime, which might contradict the notion that Agents 1-3 are following the herd.\n\nCONCLUDE: Agents 1-3 are likely following the herd, and their analyses lack the edge needed to provide a unique perspective on the market.\n\nDEPENDS ON: A significant change in the market regime, such as a shift to a RISK_OFF classification, would be necessary to change my mind about Agents 1-3 following the herd.\n\nWRONG IF: The Agents 1-3 provide a diverse range of opinions and analyses that challenge the current market consensus, indicating that they are not following the herd.",
+    "synthesis": "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the data and reasoning provided by various agents, I conclude that the UPSTREAM agent's perspective is the most comprehensive and nuanced. This agent recognizes the high degree of uncertainty in the current market regime, emphasizes the importance of considering diverse perspectives, and highlights the potential for a shift in the market environment. The reasoning from the UPSTREAM agent aligns with the observed high variability in trends across different assets and the mixed signals from various indicators.\n\nI side with the UPSTREAM agent because it:\n- Recognizes the complexity and uncertainty of the current market regime.\n- Emphasizes the need for a nuanced and diversified approach to risk assessment and investment decisions.\n- Provides a balanced view that considers both the potential for a continuation of the current trend and the possibility of a significant shift in the market environment.\n\n### 2. Generate THESES\n\n**THESIS:** Market Uncertainty and Potential Regime Shift\n**CHAIN:** High variability in asset trends -> Lack of clear market direction -> Increased uncertainty and potential for a regime shift -> Investors should diversify and be prepared for different scenarios.\n**CONFIDENCE:** 80\n**KILL IF:** A clear and sustained trend emerges in the SP500, indicating a shift towards a more definitive market regime.\n**TIMEFRAME:** 60 days\n**ASSET:** SP500\n\n### 3. INDIA INTELLIGENCE\n\nThe Indian market, as represented by the Nifty50, shows a mixed trend with a relatively low percentage of uptrends over the 30-day period. The RBI's actions and the overall economic indicators will play a crucial role in shaping the market's direction. FII/DII trends suggest cautious optimism, but the market remains vulnerable to global cues and economic data. Key sectors to watch include IT, pharmaceuticals, and banking, which have shown resilience but could be impacted by global trends and regulatory changes.\n\n### 4. TH",
+    "adversary": "### OBSERVE: The UPSTREAM agent's perspective is considered the most comprehensive and nuanced, emphasizing uncertainty and the need for a diversified approach.\n\nLOGIC: The UPSTREAM agent's recognition of market complexity and uncertainty -> leads to a conclusion that a nuanced and diversified approach is necessary -> implying that investors should be prepared for various scenarios, including a potential regime shift. \nCOUNTER: The argument could be made that such a diversified approach might lead to mediocre returns, as it does not allow for concentrated bets that could yield higher gains in a specific scenario.\nCONCLUDE: Despite the potential for lower returns, the diversified approach is prudent given the current high uncertainty.\nDEPENDS ON: A clear and sustained trend emerging in the SP500, which would indicate a shift towards a more definitive market regime, potentially negating the need for such diversification.\nWRONG IF: The market enters a period of low volatility and clear directional trends, making a diversified approach less necessary.\n\n### OBSERVE: The THESIS of Market Uncertainty and Potential Regime Shift has a confidence level of 80.\n\nLOGIC: High confidence in the thesis of market uncertainty and potential regime shift -> suggests that investors should prioritize risk management and diversification -> implying a cautious approach to investment decisions.\nCOUNTER: The high confidence level might lead to overcautiousness, potentially causing investors to miss out on significant upside opportunities.\nCONCLUDE: The thesis is well-supported by current market conditions, but investors should remain adaptable to changing circumstances.\nDEPENDS ON: The emergence of a clear and sustained trend in the SP500, which could reduce uncertainty and increase confidence in a specific market direction.\nWRONG IF: Economic indicators and market trends begin to show a consistent and strong direction, contradicting the thesis of high uncertainty.\n\n### OBSERVE: The Indian m"
+  },
+  "reasoning": {
+    "chains": 9,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-18T05:52:02.445352"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-18T05:52:03.225963"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-18T05:52:24.183863"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-18T05:52:24.598136"
+    },
+    "USPTO_quantum co": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-18T05:52:24.912166"
+    },
+    "USPTO_hypersonic": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-18T05:52:25.195980"
+    },
+    "USPTO_solid stat": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-18T05:52:25.478973"
+    },
+    "USPTO_large lang": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-18T05:52:25.761198"
+    },
+    "USPTO_semiconduc": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-18T05:52:26.040424"
+    },
+    "USPTO_nuclear fu": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-18T05:52:26.321858"
+    },
+    "USPTO_mRNA": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-18T05:52:26.627636"
+    },
+    "USPTO_CRISPR": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-18T05:52:26.944310"
+    },
+    "USPTO_rare earth": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-18T05:52:27.228707"
+    },
+    "USPTO_directed e": {
+      "ok": false,
+      "detail": "HTTP 410",
+      "ts": "2026-04-18T05:52:27.508417"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-18T05:52:27.709402"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-18T05:52:28.574731"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-18T05:52:28.674380"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-18T05:52:29.223840"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-18T05:52:30.791727"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-18T05:52:31.065097"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-18T05:52:41.132692"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-18T05:52:42.119188"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-18T05:52:42.614208"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-18T05:52:44.920205"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-18T05:52:45.468537"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-18T05:52:45.469288"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-18T05:52:45.782922"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-18T05:52:46.777910"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-18T05:52:47.214357"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-18T05:52:48.170861"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-18T05:52:48.549175"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-18T05:52:48.722448"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-18T05:52:49.565737"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-18T05:52:52.325492"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-18T05:52:52.325539"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-18T05:53:05.883842"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-18T05:53:05.994332"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-18T05:53:10.101385"
+    },
+    "GDELT": {
+      "ok": false,
+      "detail": "HTTP 429",
+      "ts": "2026-04-18T05:53:10.460370"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-18T05:53:10.904868"
+    }
+  }
+}

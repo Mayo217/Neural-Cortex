@@ -8256,7 +8256,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the WARN Act's provisions are likely to play a significant role in the current market conditions.\n\nLOGIC: The WARN Act's requirements for written notice to be provided at least 60 days in advance -> This could lead to increased transparency and predictability in the market -> Which may have a stabilizing effect on the market, potentially reducing volatility.\n\nCOUNTER: The curre",
       "id": "fe17943726a2",
       "timestamp": "2026-04-11T05:21:15.331198",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8281,7 +8281,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the WARN Act's provisions are likely to play a significant role in the current market conditions, with the brain's probabilities showing a 67% chance of a transition regime.\n\nLOGIC: The high uncertainty in the market -> This could lead to increased volatility and unpredictability -> Which may be mitigated by the WARN Act's provisions, but the actual impact is uncertain and depe",
       "id": "e81674085b35",
       "timestamp": "2026-04-11T05:21:15.331288",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8306,7 +8306,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the brain's probabilities show a 67% chance of a transition regime. The correlations between various assets, such as GOLD/SP500, HYG/SP500, and COPPER/SP500, are notable, with COPPER/SP500 showing a significant break.\n\nLOGIC: The high uncertainty in the market and the brain's probabilities suggesting a transition regime -> This could lead to increased volatility and unpredictab",
       "id": "f9b84f87b601",
       "timestamp": "2026-04-11T05:21:15.331326",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "credit_signal"
@@ -8331,7 +8331,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the brain's probabilities show a 67% chance of a transition regime. Agents 1-3 are following the herd, and their analyses lack diversity and edge.\n\nLOGIC: The high uncertainty in the market and the brain's probabilities suggesting a transition regime -> This could lead to increased volatility and unpredictability -> Which may be mitigated by identifying and analyzing the correl",
       "id": "1867f2cdfb22",
       "timestamp": "2026-04-11T05:21:15.331355",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8355,7 +8355,7 @@
       "raw_excerpt": "**1. RECONCILE contradictions between agents**\n\nI side with the agent that recognizes the importance of unique and contrarian perspectives in analyzing the market. The fact that Agents 1-3 are following the herd and lacking diversity in their opinions suggests that they may be missing critical insights that could inform their decisions. I believe that this agent's perspective is more valuable because it acknowledges the complexity and uncertainty of the market and seeks to identify potential bli",
       "id": "beb323cfb2e9",
       "timestamp": "2026-04-11T05:21:15.331906",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8380,7 +8380,7 @@
       "raw_excerpt": "OBSERVE: The theses presented, particularly the \"Market Volatility and WARN Act\" and \"Correlations and Anomalies\" theses, rely heavily on the implementation of the WARN Act's provisions and the persistence of specific market correlations and anomalies.\n\nLOGIC: The confidence levels assigned to these theses (60 and 55, respectively) suggest a moderate level of certainty, but the underlying assumptions may be flawed -> If the WARN Act's provisions are not implemented effectively or if the correlat",
       "id": "948b32b37133",
       "timestamp": "2026-04-11T05:21:15.331975",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8409,7 +8409,7 @@
       "raw_excerpt": "OBSERVE: The theses presented, particularly the \"Market Volatility and WARN Act\" and \"Correlations and Anomalies\" theses, rely heavily on the implementation of the WARN Act's provisions and the persistence of specific market correlations and anomalies.\n\nLOGIC: The confidence levels assigned to these theses (60 and 55, respectively) suggest a moderate level of certainty, but the underlying assumptions may be flawed -> If the WARN Act's provisions are not implemented effectively or if the correlat",
       "id": "a44b78f4c41b",
       "timestamp": "2026-04-11T05:21:15.331975",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -12553,6 +12553,237 @@
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "The current market regime is highly uncertain, with a high degree of variability in trends across different assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) over the 30-day period."
+      ],
+      "logic": [
+        "The uncertainty in the market regime -> suggests a lack of clear direction or trend -> implies that investors and employers should exercise caution and consider diverse perspectives to navigate the current environment."
+      ],
+      "counters": [
+        "The recent uptrend in the SP500 over the 5-day and 10-day periods could indicate a potential shift towards a more optimistic market regime, which might contradict the notion of high uncertainty."
+      ],
+      "conclusions": [
+        "The current market regime is indeed highly uncertain, and it is essential to consider multiple viewpoints and scenarios to make informed decisions."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market regime is highly uncertain, with a high degree of variability in trends across different assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) over the 30-day period.\n\nLOGIC: The uncertainty in the market regime -> suggests a lack of clear direction or trend -> implies that investors and employers should exercise caution and consider diverse perspectives to navigate the current environment.\n\nCOUNTER: The recent uptrend in the SP500 over the 5-day and 10-day periods c",
+      "id": "1e698dff0432",
+      "timestamp": "2026-04-18T05:54:14.175847",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "commodity_signal"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "The current market regime is classified as RISK_ON with a 71% probability, and the 30-day trends for various assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) show a mix of uptrends and downtrends with a relatively low percentage of uptrends."
+      ],
+      "logic": [
+        "The mixed trends across different assets -> suggests a lack of clear direction or consensus in the market -> implies that the RISK_ON classification may not be entirely accurate, and a more nuanced approach to risk assessment is necessary."
+      ],
+      "counters": [
+        "The recent uptrend in the SP500 over the 5-day and 10-day periods, with a high percentage of uptrend (63%), could indicate a shift towards a more optimistic market regime, which might support the RISK_ON classification."
+      ],
+      "conclusions": [
+        "The current market regime classification as RISK_ON with 71% probability may be overly simplistic, and a more detailed analysis of the trends and correlations across different assets is necessary to accurately assess the market's risk profile."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market regime is classified as RISK_ON with a 71% probability, and the 30-day trends for various assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) show a mix of uptrends and downtrends with a relatively low percentage of uptrends.\n\nLOGIC: The mixed trends across different assets -> suggests a lack of clear direction or consensus in the market -> implies that the RISK_ON classification may not be entirely accurate, and a more nuanced approach to risk assessment is necess",
+      "id": "aa1f44414d86",
+      "timestamp": "2026-04-18T05:54:14.175917",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "commodity_signal"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The current market regime is classified as RISK_ON with a 71% probability, and the 30-day trends for various assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) show a mix of uptrends and downtrends with a relatively low percentage of uptrends."
+      ],
+      "logic": [
+        "The mixed trends across different assets -> suggests a lack of clear direction or consensus in the market -> implies that the RISK_ON classification may not be entirely accurate, and a more nuanced approach to risk assessment is necessary."
+      ],
+      "counters": [
+        "The recent uptrend in the SP500 over the 5-day and 10-day periods, with a high percentage of uptrend (63%), could indicate a shift towards a more optimistic market regime, which might support the RISK_ON classification."
+      ],
+      "conclusions": [
+        "The current market regime classification as RISK_ON with a 71% probability may not fully capture the complexity of the market, and a more detailed analysis of the trends and correlations is necessary to make informed decisions."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market regime is classified as RISK_ON with a 71% probability, and the 30-day trends for various assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) show a mix of uptrends and downtrends with a relatively low percentage of uptrends.\n\nLOGIC: The mixed trends across different assets -> suggests a lack of clear direction or consensus in the market -> implies that the RISK_ON classification may not be entirely accurate, and a more nuanced approach to risk assessment is necess",
+      "id": "6264220de683",
+      "timestamp": "2026-04-18T05:54:14.176062",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "commodity_signal"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "The Fear and Greed index has a score of 68.1, indicating a \"greed\" rating, which could suggest that the market is due for a correction."
+      ],
+      "logic": [
+        "The high Fear and Greed index score -> suggests that investors are overly optimistic -> implies that the market may be due for a correction, which could impact the RISK_ON classification."
+      ],
+      "counters": [
+        "The recent uptrend in the SP500 and other assets could indicate a strong market momentum, which might outweigh the concerns about the Fear and Greed index."
+      ],
+      "conclusions": [
+        "The high Fear and Greed index score is a concern that should be considered in conjunction with the RISK_ON classification, and investors should be prepared for potential market volatility."
+      ],
+      "dependencies": [
+        "The validation of the RISK_ON classification depends on the performance of the SP500 over the next 30 days, particularly if it continues to show a strong uptrend."
+      ],
+      "falsifications": [
+        "The market regime classification would be proven wrong if the SP500 experiences a significant downturn over the next 30 days, contradicting the current RISK_ON classification."
+      ],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market regime is classified as RISK_ON with a 71% probability, and the 30-day trends for various assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) show a mix of uptrends and downtrends with a relatively low percentage of uptrends.\n\nLOGIC: The mixed trends across different assets -> suggests a lack of clear direction or consensus in the market -> implies that the RISK_ON classification may not be entirely accurate, and a more nuanced approach to risk assessment is necess",
+      "id": "c856a4f0dbb5",
+      "timestamp": "2026-04-18T05:54:14.176062",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "vol_signal"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "The current market regime is classified as RISK_ON with a 71% probability, and Agents 1-3 appear to be following the herd, lacking diversity in their analyses."
+      ],
+      "logic": [
+        "The lack of diversity in opinion among Agents 1-3 -> suggests a potential groupthink bias -> implies that their analyses may not accurately capture the complexity of the current market environment."
+      ],
+      "counters": [
+        "The recent uptrend in the SP500 over the 5-day and 10-day periods could indicate a potential shift towards a more optimistic market regime, which might contradict the notion that Agents 1-3 are following the herd."
+      ],
+      "conclusions": [
+        "Agents 1-3 are likely following the herd, and their analyses lack the edge needed to provide a unique perspective on the market."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "OBSERVE: The current market regime is classified as RISK_ON with a 71% probability, and Agents 1-3 appear to be following the herd, lacking diversity in their analyses.\n\nLOGIC: The lack of diversity in opinion among Agents 1-3 -> suggests a potential groupthink bias -> implies that their analyses may not accurately capture the complexity of the current market environment.\n\nCOUNTER: The recent uptrend in the SP500 over the 5-day and 10-day periods could indicate a potential shift towards a more o",
+      "id": "097e73f06688",
+      "timestamp": "2026-04-18T05:54:14.176116",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the data and reasoning provided by various agents, I conclude that the UPSTREAM agent's perspective is the most comprehensive and nuance"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "UPSTREAM agent's perspective is the most comprehensive and nuanced.",
+        "UPSTREAM agent aligns with the observed high variability in trends across different assets and the mixed signals from various indicators.",
+        "UPSTREAM agent because it:\n- Recognizes the complexity and uncertainty of the current market regime."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the data and reasoning provided by various agents, I conclude that the UPSTREAM agent's perspective is the most comprehensive and nuanced. This agent recognizes the high degree of uncertainty in the current market regime, emphasizes the importance of considering diverse perspectives, and highlights the potential for a shift in the market environment. The reasoning from the UPSTREAM agent aligns with the observed high variability in ",
+      "id": "6d552e94eb12",
+      "timestamp": "2026-04-18T05:54:14.176585",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [],
+      "logic": [
+        "The UPSTREAM agent's recognition of market complexity and uncertainty -> leads to a conclusion that a nuanced and diversified approach is necessary -> implying that investors should be prepared for various scenarios, including a potential regime shift."
+      ],
+      "counters": [
+        "The argument could be made that such a diversified approach might lead to mediocre returns, as it does not allow for concentrated bets that could yield higher gains in a specific scenario."
+      ],
+      "conclusions": [
+        "Despite the potential for lower returns, the diversified approach is prudent given the current high uncertainty."
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "### OBSERVE: The UPSTREAM agent's perspective is considered the most comprehensive and nuanced, emphasizing uncertainty and the need for a diversified approach.\n\nLOGIC: The UPSTREAM agent's recognition of market complexity and uncertainty -> leads to a conclusion that a nuanced and diversified approach is necessary -> implying that investors should be prepared for various scenarios, including a potential regime shift. \nCOUNTER: The argument could be made that such a diversified approach might le",
+      "id": "3a7be7456098",
+      "timestamp": "2026-04-18T05:54:14.176693",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [],
+      "logic": [
+        "High confidence in the thesis of market uncertainty and potential regime shift -> suggests that investors should prioritize risk management and diversification -> implying a cautious approach to investment decisions."
+      ],
+      "counters": [
+        "The high confidence level might lead to overcautiousness, potentially causing investors to miss out on significant upside opportunities."
+      ],
+      "conclusions": [
+        "The thesis is well-supported by current market conditions, but investors should remain adaptable to changing circumstances."
+      ],
+      "dependencies": [
+        "A clear and sustained trend emerging in the SP500, which would indicate a shift towards a more definitive market regime, potentially negating the need for such diversification."
+      ],
+      "falsifications": [
+        "The market enters a period of low volatility and clear directional trends, making a diversified approach less necessary."
+      ],
+      "assets": [],
+      "raw_excerpt": "### OBSERVE: The UPSTREAM agent's perspective is considered the most comprehensive and nuanced, emphasizing uncertainty and the need for a diversified approach.\n\nLOGIC: The UPSTREAM agent's recognition of market complexity and uncertainty -> leads to a conclusion that a nuanced and diversified approach is necessary -> implying that investors should be prepared for various scenarios, including a potential regime shift. \nCOUNTER: The argument could be made that such a diversified approach might le",
+      "id": "f10f3bc863e2",
+      "timestamp": "2026-04-18T05:54:14.176693",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [],
+      "logic": [
+        "Mixed trends in the Nifty50 and cautious optimism among FII/DII -> indicate a vulnerable market that is heavily influenced by global cues and economic data -> suggesting that investors should closely monitor RBI actions and economic indicators."
+      ],
+      "counters": [
+        "The resilience shown by key sectors such as IT, pharmaceuticals, and banking could be a sign of underlying strength in the market, potentially leading to a more positive outlook."
+      ],
+      "conclusions": [
+        "The Indian market's vulnerability to global and economic factors necessitates a cautious approach, with a focus on monitoring key sectors and economic indicators."
+      ],
+      "dependencies": [
+        "The emergence of a clear and sustained trend in the SP500, which could reduce uncertainty and increase confidence in a specific market direction."
+      ],
+      "falsifications": [
+        "Economic indicators and market trends begin to show a consistent and strong direction, contradicting the thesis of high uncertainty."
+      ],
+      "assets": [],
+      "raw_excerpt": "### OBSERVE: The UPSTREAM agent's perspective is considered the most comprehensive and nuanced, emphasizing uncertainty and the need for a diversified approach.\n\nLOGIC: The UPSTREAM agent's recognition of market complexity and uncertainty -> leads to a conclusion that a nuanced and diversified approach is necessary -> implying that investors should be prepared for various scenarios, including a potential regime shift. \nCOUNTER: The argument could be made that such a diversified approach might le",
+      "id": "ba494d81077f",
+      "timestamp": "2026-04-18T05:54:14.176693",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "flow_signal"
     }
   ],
   "pattern_quality": {
