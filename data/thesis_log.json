@@ -1331,5 +1331,32 @@
     ],
     "raw_block": "THESIS:** Market Uncertainty and Potential Regime Shift\n**CHAIN:** High variability in asset trends -> Lack of clear market direction -> Increased uncertainty and potential for a regime shift -> Investors should diversify and be prepared for different scenarios.\n**CONFIDENCE:** 80\n**KILL IF:** A clear and sustained trend emerges in the SP500, indicating a shift towards a more definitive market regime.\n**TIMEFRAME:** 60 days\n**ASSET:** SP500\n\n#",
     "timestamp": "2026-04-18T05:54:14.182971"
+  },
+  {
+    "title": "Market Volatility Increase",
+    "chain": "Mixed market trends -> increased uncertainty -> heightened market volatility -> potential regime shifts",
+    "confidence": 80,
+    "direction": "neutral",
+    "kill_condition": "SP500 and other major indices show a strong, consistent trend in one direction over the next 30 days",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500",
+      "VIX"
+    ],
+    "raw_block": "THESIS: Market Volatility Increase\nCHAIN: Mixed market trends -> increased uncertainty -> heightened market volatility -> potential regime shifts\nCONFIDENCE: 80\nKILL IF: SP500 and other major indices show a strong, consistent trend in one direction over the next 30 days\nTIMEFRAME: 30 days\nASSET: VIX\n\n",
+    "timestamp": "2026-04-18T08:10:34.033829"
+  },
+  {
+    "title": "Risk-On Environment Continuation",
+    "chain": "Recent short-term trends in SP500 and other indices -> bullish bias -> continuation of risk-on environment -> potential for further market growth",
+    "confidence": 60,
+    "direction": "bullish",
+    "kill_condition": "Significant drop in SP500 below its 50-day moving average",
+    "timeframe_days": 20,
+    "assets": [
+      "SP500"
+    ],
+    "raw_block": "THESIS: Risk-On Environment Continuation\nCHAIN: Recent short-term trends in SP500 and other indices -> bullish bias -> continuation of risk-on environment -> potential for further market growth\nCONFIDENCE: 60\nKILL IF: Significant drop in SP500 below its 50-day moving average\nTIMEFRAME: 20 days\nASSET: SP500\n\n#",
+    "timestamp": "2026-04-18T08:10:34.033858"
   }
 ]

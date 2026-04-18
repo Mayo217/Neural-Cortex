@@ -25,7 +25,7 @@
       ]
     },
     "adversary": {
-      "total": 19,
+      "total": 20,
       "correct": 14,
       "by_regime": {
         "RISK_OFF": {
@@ -37,7 +37,7 @@
           "correct": 10
         },
         "RISK_ON": {
-          "total": 7,
+          "total": 8,
           "correct": 4
         }
       },
@@ -47,7 +47,7 @@
           "correct": 4
         },
         "general": {
-          "total": 11,
+          "total": 12,
           "correct": 10
         },
         "sentiment_contrarian": {
@@ -173,6 +173,36 @@
           "correct": false,
           "regime": "RISK_ON",
           "type": "vol_signal"
+        },
+        {
+          "ts": "2026-04-18T08:10:34.031262",
+          "correct": false,
+          "regime": "RISK_ON",
+          "type": "general"
+        }
+      ]
+    },
+    "narrative": {
+      "total": 1,
+      "correct": 0,
+      "by_regime": {
+        "RISK_ON": {
+          "total": 1,
+          "correct": 0
+        }
+      },
+      "by_type": {
+        "general": {
+          "total": 1,
+          "correct": 0
+        }
+      },
+      "recent": [
+        {
+          "ts": "2026-04-18T08:10:34.031225",
+          "correct": false,
+          "regime": "RISK_ON",
+          "type": "general"
         }
       ]
     }
