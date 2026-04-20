@@ -1,169 +1,6 @@
 {
   "chains": [
     {
-      "agent": "market",
-      "observations": [
-        "The current market conditions indicate a high probability of a crisis regime, with the brain's regime at 60% TRANSITION, and the SP500 and NIFTY50 indices showing similar trends. The F&G index is at 19.3, indicating \"extreme fear\"."
-      ],
-      "logic": [
-        "The market's volatility and the brain's regime suggest that investors are uncertain about the future -> This uncertainty could lead to a crisis regime -> The crisis regime could have significant implications for the global economy, including increased layoffs and plant closures, which would require employers to provide written notice under the WARN Act."
-      ],
-      "counters": [
-        "The fact that the GOLD index is also showing an upward trend could indicate that investors are seeking safe-haven assets, which could mitigate the effects of a crisis regime. Additionally, the ETF data shows that most sectors have a \"NEUTRAL\" signal, which could suggest that the market is not yet in a full-blown crisis."
-      ],
-      "conclusions": [
-        "Based on the current market conditions, it is likely that the market will remain volatile, and a crisis regime is possible. However, the fact that some sectors are showing neutral signals and gold is trending upwards suggests that the market may not be in a complete crisis mode yet."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the brain's regime at 60% TRANSITION, and the SP500 and NIFTY50 indices showing similar trends. The F&G index is at 19.3, indicating \"extreme fear\".\n\nLOGIC: The market's volatility and the brain's regime suggest that investors are uncertain about the future -> This uncertainty could lead to a crisis regime -> The crisis regime could have significant implications for the global economy, including increased",
-      "id": "7cd743354b39",
-      "timestamp": "2026-04-03T08:40:12.674969",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions indicate a high probability of a crisis regime, with the brain's regime at 60% TRANSITION, and the SP500 and NIFTY50 indices showing similar trends."
-      ],
-      "logic": [
-        "The market's volatility and the brain's regime suggest that investors are uncertain about the future -> This uncertainty could lead to a crisis regime -> The crisis regime could have significant implications for the global economy, including increased layoffs and plant closures, which would require employers to provide written notice under the WARN Act."
-      ],
-      "counters": [
-        "The fact that the GOLD index is also showing an upward trend could indicate that investors are seeking safe-haven assets, which could mitigate the effects of a crisis regime."
-      ],
-      "conclusions": [
-        "The current market conditions and the brain's regime suggest that a crisis regime is likely, and investors should be prepared for significant implications for the global economy."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the brain's regime at 60% TRANSITION, and the SP500 and NIFTY50 indices showing similar trends.\n\nLOGIC: The market's volatility and the brain's regime suggest that investors are uncertain about the future -> This uncertainty could lead to a crisis regime -> The crisis regime could have significant implications for the global economy, including increased layoffs and plant closures, which would require empl",
-      "id": "c056c9f97dc3",
-      "timestamp": "2026-04-03T08:40:12.675104",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "The current market conditions indicate a high probability of a crisis regime, with the brain's regime at 60% TRANSITION, and the SP500 and NIFTY50 indices showing similar trends."
-      ],
-      "logic": [
-        "The market's volatility and the brain's regime suggest that investors are uncertain about the future -> This uncertainty could lead to a crisis regime -> The crisis regime could have significant implications for the global economy."
-      ],
-      "counters": [
-        "The fact that the GOLD index is also showing an upward trend could indicate that investors are seeking safe-haven assets, which could mitigate the effects of a crisis regime."
-      ],
-      "conclusions": [
-        "Based on the current market conditions, it is likely that the market will remain volatile, and a crisis regime is possible."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "To address the given prompt, I will follow the required format and provide the necessary analysis.\n\n## 1. RECONCILE contradictions between agents\nOBSERVE: The current market conditions indicate a high probability of a crisis regime, with the brain's regime at 60% TRANSITION, and the SP500 and NIFTY50 indices showing similar trends.\nLOGIC: The market's volatility and the brain's regime suggest that investors are uncertain about the future -> This uncertainty could lead to a crisis regime -> The c",
-      "id": "94e4acee2083",
-      "timestamp": "2026-04-03T08:40:12.675250",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "The NIFTY50 index is showing a similar trend to the SP500, with a high probability of a crisis regime."
-      ],
-      "logic": [
-        "The market's volatility and the brain's regime suggest that investors are uncertain about the future -> This uncertainty could lead to a crisis regime -> The crisis regime could have significant implications for the Indian economy."
-      ],
-      "counters": [
-        "The fact that the INR is stable could indicate that the Indian economy is resilient to global market fluctuations."
-      ],
-      "conclusions": [
-        "Based on the current market conditions, it is likely that the Indian market will remain volatile, and a crisis regime is possible."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is a significant increase in the Brier score, indicating a high level of confidence in the brain's regime, which would suggest a more stable market."
-      ],
-      "falsifications": [
-        "If the market suddenly becomes less volatile, and the brain's regime shifts away from TRANSITION, it would indicate that my conclusion is incorrect, and a crisis regime is less likely.",
-        "Brier score increases significantly, indicating a more stable market",
-        "GOLD index trend reverses"
-      ],
-      "assets": [
-        "SP500",
-        "GOLD"
-      ],
-      "raw_excerpt": "To address the given prompt, I will follow the required format and provide the necessary analysis.\n\n## 1. RECONCILE contradictions between agents\nOBSERVE: The current market conditions indicate a high probability of a crisis regime, with the brain's regime at 60% TRANSITION, and the SP500 and NIFTY50 indices showing similar trends.\nLOGIC: The market's volatility and the brain's regime suggest that investors are uncertain about the future -> This uncertainty could lead to a crisis regime -> The c",
-      "id": "f3a10e5634e9",
-      "timestamp": "2026-04-03T08:40:12.675250",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The GOLD index is showing an upward trend, with a 44% probability of continuing to rise."
-      ],
-      "logic": [
-        "The GOLD index trend may indicate investor uncertainty -> This uncertainty could lead to increased demand for safe-haven assets -> The increased demand could mitigate the effects of a crisis regime."
-      ],
-      "counters": [
-        "The GOLD index trend may be influenced by other factors, such as central bank actions or inflation expectations, which could reverse the trend."
-      ],
-      "conclusions": [
-        "The \"Safe-Haven Assets\" thesis is vulnerable to errors due to the potential influence of other factors on the GOLD index."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "## Attack on Synthesizer's Output\n\nTo destroy the Synthesizer's output, I will analyze the provided theses, regimes, probabilities, signal weights, and identify the weakest thesis and the biggest blind spot.\n\n### Weakest Thesis:\nThe weakest thesis is the \"Safe-Haven Assets\" thesis, with a confidence level of 60. This thesis is based on the GOLD index upward trend, which may not be a reliable indicator of safe-haven assets. The GOLD index can be influenced by various factors, such as central bank",
-      "id": "cbf11454358b",
-      "timestamp": "2026-04-03T08:40:12.675349",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The current market conditions and the brain's regime suggest a high probability of a crisis regime."
-      ],
-      "logic": [
-        "The market's volatility and the brain's regime suggest that investors are uncertain about the future -> This uncertainty could lead to a crisis regime -> The crisis regime could have significant implications for the global economy."
-      ],
-      "counters": [
-        "Exogenous factors, such as geopolitical events or natural disasters, could impact the market and the crisis regime in unpredictable ways."
-      ],
-      "conclusions": [
-        "The Synthesizer's output is vulnerable to errors due to the lack of consideration of exogenous factors."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is a significant increase in the correlation between the GOLD index and other safe-haven assets, such as the Swiss franc or the Japanese yen."
-      ],
-      "falsifications": [
-        "If the GOLD index trend reverses, and the demand for safe-haven assets decreases, it would indicate that the \"Safe-Haven Assets\" thesis is incorrect."
-      ],
-      "assets": [],
-      "raw_excerpt": "## Attack on Synthesizer's Output\n\nTo destroy the Synthesizer's output, I will analyze the provided theses, regimes, probabilities, signal weights, and identify the weakest thesis and the biggest blind spot.\n\n### Weakest Thesis:\nThe weakest thesis is the \"Safe-Haven Assets\" thesis, with a confidence level of 60. This thesis is based on the GOLD index upward trend, which may not be a reliable indicator of safe-haven assets. The GOLD index can be influenced by various factors, such as central bank",
-      "id": "2ff62a7fbb71",
-      "timestamp": "2026-04-03T08:40:12.675349",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "upstream",
       "observations": [
         "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current regime is in a state of transition (67%)."
@@ -8311,7 +8148,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 56% probability, and the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices are all showing upward trends over the past 30 days.\n\nLOGIC: The upward trends in these indices suggest a positive market sentiment, which may be driven by factors such as economic growth, low unemployment, and stable interest rates -> This positive sentiment could lead to increased investment and consumer spending -> Which in turn could further dr",
       "id": "3f23710d7f16",
       "timestamp": "2026-04-13T16:25:05.766162",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -8336,7 +8173,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 56% probability, and the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices are all showing upward trends over the past 30 days, with the SP500 index showing a high upward trend over the past 5 and 10 days.\n\nLOGIC: The upward trends in these indices suggest a positive market sentiment, which may be driven by factors such as economic growth, low unemployment, and stable interest rates -> This positive sentiment could lead t",
       "id": "38e031de569d",
       "timestamp": "2026-04-13T16:25:05.766229",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -8361,7 +8198,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 56% probability, and the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices are all showing upward trends over the past 30 days, with the SP500 index showing a high upward trend over the past 5 and 10 days.\n\nLOGIC: The upward trends in these indices suggest a positive market sentiment, which may be driven by factors such as economic growth, low unemployment, and stable interest rates -> This positive sentiment could lead t",
       "id": "3b3ebd1fc0a6",
       "timestamp": "2026-04-13T16:25:05.766273",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -8386,7 +8223,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 56% probability, and the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices are all showing upward trends over the past 30 days.\n\nLOGIC: The upward trends in these indices suggest a positive market sentiment, which may be driven by factors such as economic growth, low unemployment, and stable interest rates -> This positive sentiment could lead to increased investment and consumer spending -> Which in turn could further dr",
       "id": "e86be5675df2",
       "timestamp": "2026-04-13T16:25:05.766421",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -8415,7 +8252,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 56% probability, and the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices are all showing upward trends over the past 30 days.\n\nLOGIC: The upward trends in these indices suggest a positive market sentiment, which may be driven by factors such as economic growth, low unemployment, and stable interest rates -> This positive sentiment could lead to increased investment and consumer spending -> Which in turn could further dr",
       "id": "70cbd731900b",
       "timestamp": "2026-04-13T16:25:05.766421",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8440,7 +8277,7 @@
       "raw_excerpt": "**1. RECONCILE contradictions between agents. Name which agent you side with and WHY.**\n\nAfter analyzing the reasoning from various agents, I side with the agent that concludes the RISK_ON regime is likely to continue in the short term, but with a caveat that the market may be due for a correction. I side with this agent because their conclusion is based on a thorough analysis of the current market conditions and trends, including the upward trends in the SP500, NIFTY50, GOLD, BITCOIN, and OIL_B",
       "id": "451eaade434c",
       "timestamp": "2026-04-13T16:25:05.766871",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8463,7 +8300,7 @@
       "raw_excerpt": "OBSERVE: The current market trends, as indicated by the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices, suggest a RISK_ON regime with a 56% probability.\nLOGIC: The upward trends in these indices -> Increased investor confidence and risk appetite -> Continued support for the RISK_ON regime. However, the high probability of a RISK_ON regime may be overly optimistic, and the market may be due for a correction.\nCONOUNTER: The argument that the market's current upward trend is driven by fundame",
       "id": "951db2415e42",
       "timestamp": "2026-04-13T16:25:05.766989",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -8544,7 +8381,7 @@
       "raw_excerpt": "OBSERVE: The current market trends, as indicated by the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices, suggest a RISK_ON regime with a 56% probability.\nLOGIC: The upward trends in these indices -> Increased investor confidence and risk appetite -> Continued support for the RISK_ON regime. However, the high probability of a RISK_ON regime may be overly optimistic, and the market may be due for a correction.\nCONOUNTER: The argument that the market's current upward trend is driven by fundame",
       "id": "d54eac00e41b",
       "timestamp": "2026-04-13T16:25:05.766989",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -13030,6 +12867,144 @@
       "status": "active",
       "outcome_score": null,
       "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "ebb1c23628bd",
+      "timestamp": "2026-04-20T20:14:20.927028",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "f0f711da862e",
+      "timestamp": "2026-04-20T20:14:20.927098",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "6be70c729315",
+      "timestamp": "2026-04-20T20:14:20.927125",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "2bc6d2e47a66",
+      "timestamp": "2026-04-20T20:14:20.927145",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "827783478a8c",
+      "timestamp": "2026-04-20T20:14:20.927166",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "651030ca6835",
+      "timestamp": "2026-04-20T20:14:20.927181",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
       "reasoning_type": "general"
     }
   ],
