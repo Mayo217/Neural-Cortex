@@ -1501,5 +1501,35 @@
     ],
     "raw_block": "THESIS: Market Volatility\nCHAIN: High VIX -> increased market volatility -> decreased investor confidence -> decreased market performance\nCONFIDENCE: 70\nKILL IF: VIX decreases below 15\nTIMEFRAME: 30 days\nASSET: VIX\n\n**3. INDIA INTELLIGENCE: INR, Nifty sectors, FII/DII read, RBI, risks, opportunities**\n\nOBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the INR.\n\nLOGIC:",
     "timestamp": "2026-04-19T19:59:11.185499"
+  },
+  {
+    "title": "RISK_ON Regime Continuation",
+    "chain": "Upward trends in SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT -> RISK_ON regime at 62% -> potential for further growth in the market -> implication of continued bullish sentiment",
+    "confidence": 70,
+    "direction": "bullish",
+    "kill_condition": "RISK_ON regime falls below 50%",
+    "timeframe_days": 30,
+    "assets": [
+      "SP500",
+      "NIFTY",
+      "GOLD",
+      "OIL",
+      "BRENT"
+    ],
+    "raw_block": "THESIS: RISK_ON Regime Continuation\nCHAIN: Upward trends in SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT -> RISK_ON regime at 62% -> potential for further growth in the market -> implication of continued bullish sentiment\nCONFIDENCE: 70\nKILL IF: RISK_ON regime falls below 50%\nTIMEFRAME: 30 days\nASSET: INR\n\n",
+    "timestamp": "2026-04-20T07:30:25.439619"
+  },
+  {
+    "title": "Indian Market Uncertainty",
+    "chain": "Indian Market Uncertainty thesis -> potential for volatility and correction -> implication of potential depreciation of INR",
+    "confidence": 40,
+    "direction": "bearish",
+    "kill_condition": "Indian Market Uncertainty thesis is resolved or becomes less significant",
+    "timeframe_days": 30,
+    "assets": [
+      "INR"
+    ],
+    "raw_block": "THESIS: Indian Market Uncertainty\nCHAIN: Indian Market Uncertainty thesis -> potential for volatility and correction -> implication of potential depreciation of INR\nCONFIDENCE: 40\nKILL IF: Indian Market Uncertainty thesis is resolved or becomes less significant\nTIMEFRAME: 30 days\nASSET: INR\n\n**3. INDIA INTELLIGENCE:**\nThe current market conditions suggest a need for caution, with the RISK_ON regime at 62% and various indices showing upward trends. The INR may appreciate or depreciate depending o",
+    "timestamp": "2026-04-20T07:30:25.439690"
   }
 ]
