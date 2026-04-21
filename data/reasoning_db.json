@@ -3,160 +3,6 @@
     {
       "agent": "upstream",
       "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days before mass layoffs or plant closures, and the current market conditions indicate a high probability of a crisis regime."
-      ],
-      "logic": [
-        "The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to provide notice to employees in the event of mass layoffs or plant closures -> The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest that employers should be prepared to provide notice to employees -> This implies that employers should be aware of the WARN Act's requirements and be prepared to comply with them."
-      ],
-      "counters": [
-        "The Synthesizer's output is vulnerable to errors and inaccuracies due to the high complexity of the data and the lack of evaluative metrics and patterns, which could lead to incorrect conclusions about the importance of the WARN Act's provisions."
-      ],
-      "conclusions": [
-        "Despite the potential for errors and inaccuracies, I conclude that the WARN Act's provisions are likely to be important in a crisis regime, and employers should be prepared to comply with them."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before mass layoffs or plant closures, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to provide notice to employees in the event of mass layoffs or plant closures -> The current market conditions, as indicated by the F&G index and the brain's crisis regime prob",
-      "id": "911dc27ec4d4",
-      "timestamp": "2026-04-03T19:58:43.861301",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's crisis regime probability is 67%, and the current market conditions indicate a high probability of a crisis regime, with the F&G index and other market indicators suggesting volatility and potential instability."
-      ],
-      "logic": [
-        "The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to provide notice to employees in the event of mass layoffs or plant closures -> The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest that employers should be prepared to provide notice to employees -> This implies that employers should be aware of the WARN Act's requirements and be prepared to comply with them, which could help mitigate the impact of a crisis regime on employees and the broader economy."
-      ],
-      "counters": [
-        "The lack of clear validation signals and the high complexity of the data could lead to errors and inaccuracies in the analysis, and the Synthesizer's output may not accurately reflect the importance of the WARN Act's provisions in a crisis regime."
-      ],
-      "conclusions": [
-        "Despite the potential for errors and inaccuracies, I conclude that the WARN Act's provisions are likely to be important in a crisis regime, and employers should be prepared to comply with them, given the current market conditions and the brain's crisis regime probability."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, and the current market conditions indicate a high probability of a crisis regime, with the F&G index and other market indicators suggesting volatility and potential instability.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to provide notice to employees in the event of mass layoffs or plant closures -> The current market conditions, as indicated by the F&G index and th",
-      "id": "8f97c163d8ac",
-      "timestamp": "2026-04-03T19:58:43.861388",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%."
-      ],
-      "logic": [
-        "The combination of extreme fear in the market and a high crisis regime probability suggests that investors are highly risk-averse and expecting a potential downturn -> This could lead to a decrease in stock prices and an increase in safe-haven assets such as bonds and gold -> However, the current breakdown in correlations between gold and the S&P 500, as well as between the US dollar and gold, suggests that traditional safe-haven assets may not be behaving as expected."
-      ],
-      "counters": [
-        "The breakdown in correlations could be a temporary phenomenon, and traditional safe-haven assets may still provide a hedge against market downturns."
-      ],
-      "conclusions": [
-        "The current market conditions suggest a high level of uncertainty and risk, and investors should be prepared for potential volatility and downturns. However, the breakdown in correlations between traditional safe-haven assets and the S&P 500 suggests that investors should be cautious and not rely solely on these assets for hedging."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%.\n\nLOGIC: The combination of extreme fear in the market and a high crisis regime probability suggests that investors are highly risk-averse and expecting a potential downturn -> This could lead to a decrease in stock prices and an increase in safe-haven assets such as bonds and gold -> However, the current breakdown in co",
-      "id": "226607dfab97",
-      "timestamp": "2026-04-03T19:58:43.861424",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%. The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to provide notice to employees in the event of mass layoffs or plant closures."
-      ],
-      "logic": [
-        "The combination of extreme fear in the market and a high crisis regime probability suggests that investors are highly risk-averse and expecting a potential downturn -> This could lead to a decrease in stock prices and an increase in safe-haven assets such as bonds and gold -> However, the current breakdown in correlations between gold and the S&P 500, as well as between the US dollar and gold, suggests that traditional safe-haven assets may not provide the expected protection."
-      ],
-      "counters": [
-        "The current market conditions may be overreacting to the crisis regime probability, and the WARN Act's provisions may not be as relevant in the current economic environment. Additionally, the lack of clear validation signals from the brain's crisis regime probability and the F&G index may indicate that the market is not as bearish as it seems."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and the brain's crisis regime probability, it appears that the market is expecting a potential downturn and is pricing in a high level of risk. However, the breakdown in correlations between traditional safe-haven assets suggests that the market may be due for a correction."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%. The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to provide notice to employees in the event of mass layoffs or plant closures.\n\nLOGIC: The combination of extreme fear in the market and a high crisis regime probability suggests that investors are highly risk-",
-      "id": "088166944a98",
-      "timestamp": "2026-04-03T19:58:43.861457",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%."
-      ],
-      "logic": [
-        "The combination of extreme fear in the market and a high crisis regime probability suggests that investors are highly risk-averse and expecting a potential downturn -> This could lead to a decrease in stock prices and an increase in safe-haven assets such as bonds and gold -> However, the current breakdown in correlations between gold and the S&P 500, as well as between the US dollar and gold, suggests that traditional safe-haven assets may not provide the expected protection."
-      ],
-      "counters": [
-        "The current market conditions may be overreacting to the crisis regime probability, and the WARN Act's provisions may not be as relevant in the current economic environment."
-      ],
-      "conclusions": [
-        "Despite the potential for errors and inaccuracies, I conclude that the WARN Act's provisions are likely to be important in a crisis regime, and employers should be prepared to comply with them."
-      ],
-      "dependencies": [],
-      "falsifications": [
-        "Brain's crisis regime probability decreases significantly"
-      ],
-      "assets": [
-        "VIX (Volatility Index)"
-      ],
-      "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the various agents, I side with the **UPSTREAM** agent. The UPSTREAM agent highlights the importance of the WARN Act in a crisis regime, which is consistent with the current market conditions and the brain's crisis regime probability. The other agents, such as FLOW, MARKET, and NARRATIVE, also support this conclusion, albeit with some caveats and counterarguments.\n\n**THESIS**\n\nTHESIS: Crisis Regime Probability\nCHAIN: High crisis regime",
-      "id": "114b965f5fc3",
-      "timestamp": "2026-04-03T19:58:43.861642",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%."
-      ],
-      "logic": [
-        "The combination of extreme fear in the market and a high crisis regime probability suggests that investors are highly risk-averse and expecting a potential downturn -> This could lead to a decrease in stock prices and an increase in safe-haven assets such as bonds and gold -> However, the current breakdown in correlations between gold and the S&P 500, as well as between the US dollar and gold, suggests that traditional safe-haven assets may not provide the expected protection, and the WARN Act's provisions may not be as relevant in the current economic environment as the UPSTREAM agent suggests."
-      ],
-      "counters": [
-        "The UPSTREAM agent's emphasis on the WARN Act's importance in a crisis regime may be overstated, as the current market conditions may be overreacting to the crisis regime probability, and other factors such as the Fed Chair Powell's speech or the S&P 500 index's performance may have a more significant impact on the market."
-      ],
-      "conclusions": [
-        "I conclude that the WEAKEST THESIS is the UPSTREAM agent's emphasis on the WARN Act's importance in a crisis regime, as it relies heavily on the brain's crisis regime probability and may not account for other factors that could influence the market."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%.\n\nLOGIC: The combination of extreme fear in the market and a high crisis regime probability suggests that investors are highly risk-averse and expecting a potential downturn -> This could lead to a decrease in stock prices and an increase in safe-haven assets such as bonds and gold -> However, the current breakdown in co",
-      "id": "1ee12162243b",
-      "timestamp": "2026-04-03T19:58:43.861693",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
         "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure."
       ],
       "logic": [
@@ -12955,6 +12801,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "8b55723d8fc2",
       "timestamp": "2026-04-21T16:03:30.995043",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "38845d5f8787",
+      "timestamp": "2026-04-21T20:40:48.247341",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "d47995d385d4",
+      "timestamp": "2026-04-21T20:40:48.247389",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "209dd941793e",
+      "timestamp": "2026-04-21T20:40:48.247416",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "b08a18971b53",
+      "timestamp": "2026-04-21T20:40:48.247437",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "e2c59de9bbbe",
+      "timestamp": "2026-04-21T20:40:48.247458",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "5013adffd346",
+      "timestamp": "2026-04-21T20:40:48.247476",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
