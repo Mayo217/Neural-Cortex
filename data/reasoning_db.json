@@ -1,172 +1,6 @@
 {
   "chains": [
     {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current regime is in a state of transition (67%)."
-      ],
-      "logic": [
-        "The WARN Act's provisions are likely to take on increased importance in a crisis regime, which may lead to a higher probability of market volatility -> The current market conditions, as indicated by the F&G index and the brain's crisis regime, suggest a high level of uncertainty -> This uncertainty may lead to a increase in the number of mass layoffs or plant closures, making the WARN Act's provisions more relevant."
-      ],
-      "counters": [
-        "The current market conditions may not necessarily lead to a crisis regime, and the WARN Act's provisions may not be as relevant in a transitioning market."
-      ],
-      "conclusions": [
-        "The WARN Act's provisions are likely to be important in the current market conditions, and employers should be aware of their obligations under the Act."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current regime is in a state of transition (67%).\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, which may lead to a higher probability of market volatility -> The current market conditions, as indicated by the F&G index and the brain's crisis regime, suggest a high level of uncertainty -> This uncertainty may lead to ",
-      "id": "6f7b943341cb",
-      "timestamp": "2026-04-03T14:31:03.669510",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The brain's regime is in a state of transition (67%), with a high probability of market volatility."
-      ],
-      "logic": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime, suggest a high level of uncertainty -> This uncertainty may lead to a increase in the number of mass layoffs or plant closures -> The WARN Act's provisions may provide some stability and protection for workers in this uncertain environment."
-      ],
-      "counters": [
-        "The WARN Act's provisions may not be sufficient to mitigate the effects of market volatility, and other factors may be more influential in determining the outcome."
-      ],
-      "conclusions": [
-        "The brain's regime and the current market conditions suggest a high level of uncertainty, and the WARN Act's provisions may provide some stability and protection for workers."
-      ],
-      "dependencies": [
-        "The actual implementation and enforcement of the WARN Act's provisions, particularly in the context of the current market conditions."
-      ],
-      "falsifications": [
-        "The market conditions stabilize and the crisis regime is avoided, making the WARN Act's provisions less relevant."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current regime is in a state of transition (67%).\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, which may lead to a higher probability of market volatility -> The current market conditions, as indicated by the F&G index and the brain's crisis regime, suggest a high level of uncertainty -> This uncertainty may lead to ",
-      "id": "731a793378b0",
-      "timestamp": "2026-04-03T14:31:03.669510",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The contract awards listed, including the $41.73B award to National Technology & Engineering Solutions of Sandia, LLC, suggest a high level of government spending and investment in various industries."
-      ],
-      "logic": [
-        "The contract awards may indicate a shift in government priorities and investments -> This shift may have a positive impact on the economy and job market -> The WARN Act's provisions may be less relevant in a growing economy with low unemployment."
-      ],
-      "counters": [
-        "The contract awards may not necessarily lead to a significant impact on the economy and job market, and the WARN Act's provisions may still be relevant in certain industries or sectors."
-      ],
-      "conclusions": [
-        "The contract awards suggest a high level of government spending and investment, which may have a positive impact on the economy and job market, potentially making the WARN Act's provisions less relevant."
-      ],
-      "dependencies": [
-        "The actual impact of the WARN Act's provisions on the market and workers, particularly in the context of the current market conditions."
-      ],
-      "falsifications": [
-        "The market conditions stabilize and the crisis regime is avoided, making the WARN Act's provisions less relevant and the brain's regime less uncertain."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current regime is in a state of transition (67%).\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, which may lead to a higher probability of market volatility -> The current market conditions, as indicated by the F&G index and the brain's crisis regime, suggest a high level of uncertainty -> This uncertainty may lead to ",
-      "id": "1355ce81c1a0",
-      "timestamp": "2026-04-03T14:31:03.669510",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's regime is in a state of transition (67%), with a high probability of market volatility, and the WARN Act's provisions may take on increased importance in a crisis regime."
-      ],
-      "logic": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime, suggest a high level of uncertainty -> This uncertainty may lead to an increase in the number of mass layoffs or plant closures, making the WARN Act's provisions more relevant -> The high probability of market volatility (67%) supports the idea that the WARN Act's provisions will be crucial in the current market conditions."
-      ],
-      "counters": [
-        "The current market conditions may not necessarily lead to a crisis regime, and the WARN Act's provisions may not be as relevant in a transitioning market, especially if the market stabilizes and the crisis regime is avoided."
-      ],
-      "conclusions": [
-        "The WARN Act's provisions are likely to be important in the current market conditions, and employers should be aware of their obligations under the Act, given the high probability of market volatility and the potential for increased mass layoffs or plant closures."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's regime is in a state of transition (67%), with a high probability of market volatility, and the WARN Act's provisions may take on increased importance in a crisis regime.\nLOGIC: The current market conditions, as indicated by the F&G index and the brain's crisis regime, suggest a high level of uncertainty -> This uncertainty may lead to an increase in the number of mass layoffs or plant closures, making the WARN Act's provisions more relevant -> The high probability of market",
-      "id": "599bf86669c9",
-      "timestamp": "2026-04-03T14:31:03.669635",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The ETF data shows a neutral signal for most assets, including SP500, Nasdaq, and Gold, with vol_ratio ranging from 0.47 to 0.88."
-      ],
-      "logic": [
-        "The neutral signal for most assets suggests that the market is uncertain and lacks a clear direction -> The high vol_ratio for some assets, such as Energy (0.88) and HY (0.73), indicates a high level of volatility and potential for significant price movements -> This uncertainty and volatility support the idea that the WARN Act's provisions will be crucial in the current market conditions."
-      ],
-      "counters": [
-        "The neutral signal for most assets may indicate a stable market, and the high vol_ratio for some assets may not necessarily lead to significant price movements."
-      ],
-      "conclusions": [
-        "The ETF data supports the idea that the WARN Act's provisions will be important in the current market conditions, given the uncertainty and volatility in the market."
-      ],
-      "dependencies": [
-        "The actual implementation and enforcement of the WARN Act's provisions, particularly in the context of the current market conditions, and the ability of the market to stabilize and avoid a crisis regime."
-      ],
-      "falsifications": [
-        "The market conditions stabilize, the crisis regime is avoided, and the WARN Act's provisions are not triggered, making the WARN Act's provisions less relevant in the current market conditions."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's regime is in a state of transition (67%), with a high probability of market volatility, and the WARN Act's provisions may take on increased importance in a crisis regime.\nLOGIC: The current market conditions, as indicated by the F&G index and the brain's crisis regime, suggest a high level of uncertainty -> This uncertainty may lead to an increase in the number of mass layoffs or plant closures, making the WARN Act's provisions more relevant -> The high probability of market",
-      "id": "36e7fa0b4387",
-      "timestamp": "2026-04-03T14:31:03.669635",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The FII/DII data shows a net outflow of funds by FII/FPI and a net inflow of funds by DII."
-      ],
-      "logic": [
-        "The net outflow of funds by FII/FPI may indicate a lack of confidence in the market -> The net inflow of funds by DII may indicate a more positive outlook on the market -> The combination of these two trends may lead to increased market volatility and uncertainty."
-      ],
-      "counters": [
-        "The net outflow of funds by FII/FPI may not necessarily indicate a lack of confidence in the market, and the net inflow of funds by DII may not be sufficient to stabilize the market."
-      ],
-      "conclusions": [
-        "The FII/DII data supports the idea that the WARN Act's provisions will be important in the current market conditions, given the potential for increased market volatility and uncertainty."
-      ],
-      "dependencies": [
-        "The continued uncertainty and volatility in the market, and the ability of the market to stabilize and avoid a crisis regime."
-      ],
-      "falsifications": [
-        "The market conditions stabilize, and the volatility decreases, making the WARN Act's provisions less relevant in the current market conditions."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's regime is in a state of transition (67%), with a high probability of market volatility, and the WARN Act's provisions may take on increased importance in a crisis regime.\nLOGIC: The current market conditions, as indicated by the F&G index and the brain's crisis regime, suggest a high level of uncertainty -> This uncertainty may lead to an increase in the number of mass layoffs or plant closures, making the WARN Act's provisions more relevant -> The high probability of market",
-      "id": "5f74cbb0943e",
-      "timestamp": "2026-04-03T14:31:03.669635",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "market",
       "observations": [
         "The current market regime is in a state of transition (67%), with a high probability of market volatility, and the F&G index is indicating extreme fear (19.3)."
@@ -8406,7 +8240,7 @@
       "raw_excerpt": "OBSERVE: The current regime is RISK_ON (62%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time periods (30d, 5d, 10d).\nLOGIC: The presence of a RISK_ON regime suggests that investors are currently willing to take on more risk, which could lead to increased market volatility -> This volatility could result in significant price swings in various assets -> The overall market sentiment may be influenced by fac",
       "id": "55d648978706",
       "timestamp": "2026-04-13T20:44:00.969913",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8431,7 +8265,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is RISK_ON (62%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time periods (30d, 5d, 10d), and the ETF data indicates mostly neutral signals across different sectors.\n\nLOGIC: The presence of a RISK_ON regime suggests that investors are currently willing to take on more risk, which could lead to increased market volatility -> This volatility could result in significant pri",
       "id": "67249fd2b990",
       "timestamp": "2026-04-13T20:44:00.969980",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8456,7 +8290,7 @@
       "raw_excerpt": "OBSERVE: The current regime is RISK_ON (62%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time periods (30d, 5d, 10d), and the presence of anomalies such as the break in the VIX/SP500 and OIL_WTI/USDINR correlations.\n\nLOGIC: The presence of a RISK_ON regime suggests that investors are currently willing to take on more risk, which could lead to increased market volatility -> This volatility could result in ",
       "id": "69302d8acf19",
       "timestamp": "2026-04-13T20:44:00.970024",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8481,7 +8315,7 @@
       "raw_excerpt": "OBSERVE: Agents 1-3 (Upstream, Flow, Market) are providing similar analyses, concluding that the current RISK_ON regime (62%) may lead to increased market volatility, significant price swings, and overall market sentiment influenced by various factors.\n\nLOGIC: The similarity in analyses suggests that Agents 1-3 are following the herd, as their conclusions are not providing unique insights or edge -> This lack of diversity in thought may lead to a lack of preparedness for unexpected market events",
       "id": "8964f96876ea",
       "timestamp": "2026-04-13T20:44:00.970058",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8512,7 +8346,7 @@
       "raw_excerpt": "**1. RECONCILE contradictions between agents. Name which agent you side with and WHY.**\n\nAfter analyzing the outputs from Agents 1-3 (Upstream, Flow, Market), I conclude that they are all providing similar analyses, concluding that the current RISK_ON regime (62%) may lead to increased market volatility, significant price swings, and overall market sentiment influenced by various factors. I side with the Market agent, as it provides the most comprehensive analysis, considering both the RISK_ON r",
       "id": "bec8ca1ebebf",
       "timestamp": "2026-04-13T20:44:00.970296",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8537,7 +8371,7 @@
       "raw_excerpt": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\nOBSERVE: The Synthesizer's output suggests that the current market regime is RISK_ON (62%), with a high probability of significant price swings and increased market volatility.\nLOGIC: The presence of a RISK_ON regime implies that investors are willing to take on more risk, which could lead to increased market volatility -> This volatility could result in significant price swings in various assets -> The overall market sentiment may be influenced by factors",
       "id": "15182b9015c6",
       "timestamp": "2026-04-13T20:44:00.970351",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8562,7 +8396,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is in a TRANSITION state (38%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time frames (30d, 5d, 10d).\n\nLOGIC: The TRANSITION regime indicates a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to increased importance of risk management and regulatory compliance, such as the WARN Act's provisions -> The WARN Act's requirements for",
       "id": "8b151427a199",
       "timestamp": "2026-04-14T06:21:45.261100",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8587,7 +8421,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is in a TRANSITION state (38%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time frames (30d, 5d, 10d), and the ETF signals are mostly neutral.\n\nLOGIC: The TRANSITION regime indicates a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to increased importance of risk management and regulatory compliance, such as the WARN Act's provi",
       "id": "ef853d6a09f1",
       "timestamp": "2026-04-14T06:21:45.261170",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8612,7 +8446,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is in a TRANSITION state (38%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time frames (30d, 5d, 10d), and the VIX is at 19.12, indicating a moderate level of market volatility.\n\nLOGIC: The TRANSITION regime indicates a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to increased importance of risk management and regulatory compl",
       "id": "60b976e6f25a",
       "timestamp": "2026-04-14T06:21:45.261203",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8637,7 +8471,7 @@
       "raw_excerpt": "OBSERVE: Agents 1-3 are following the herd, focusing on potential risks and volatility in the market, with a high degree of uncertainty and potential volatility indicated by the TRANSITION regime (38%) and various indices showing mixed trends.\n\nLOGIC: The Agents' focus on risk management and regulatory compliance, such as the WARN Act's provisions, may be driven by the current market uncertainty -> This focus could lead to a consensus trade, where many investors are positioned similarly, increas",
       "id": "bcd682dbde9e",
       "timestamp": "2026-04-14T06:21:45.261236",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8662,7 +8496,7 @@
       "raw_excerpt": "### 1. RECONCILE contradictions between agents.\n\nAfter analyzing the various agent perspectives (UPSTREAM, FLOW, MARKET, NARRATIVE), it becomes clear that there is a mix of views on the importance of the WARN Act's provisions in the current TRANSITION regime. The UPSTREAM agent suggests that the WARN Act's provisions are likely to take on increased importance due to the potential volatility and crisis regime. In contrast, the FLOW agent concludes that the importance of the WARN Act's provisions ",
       "id": "4448e987dc43",
       "timestamp": "2026-04-14T06:21:45.261694",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "flow_signal"
@@ -8687,7 +8521,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is characterized as a TRANSITION state with a 38% probability, and the SP500 and NIFTY50 indices have a 38% and 44% chance of an upward trend, respectively.\nLOGIC: The TRANSITION regime and moderate VIX level suggest a high degree of uncertainty, which may lead to increased importance of risk management and regulatory compliance (WARN Act) -> This could result in a higher probability of a market correction -> The current consensus trade may increase the risk of",
       "id": "da26f0d1cd7c",
       "timestamp": "2026-04-14T06:21:45.261777",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8716,7 +8550,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is characterized as a TRANSITION state with a 38% probability, and the SP500 and NIFTY50 indices have a 38% and 44% chance of an upward trend, respectively.\nLOGIC: The TRANSITION regime and moderate VIX level suggest a high degree of uncertainty, which may lead to increased importance of risk management and regulatory compliance (WARN Act) -> This could result in a higher probability of a market correction -> The current consensus trade may increase the risk of",
       "id": "a6addc7261f6",
       "timestamp": "2026-04-14T06:21:45.261777",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8745,7 +8579,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is characterized as a TRANSITION state with a 38% probability, and the SP500 and NIFTY50 indices have a 38% and 44% chance of an upward trend, respectively.\nLOGIC: The TRANSITION regime and moderate VIX level suggest a high degree of uncertainty, which may lead to increased importance of risk management and regulatory compliance (WARN Act) -> This could result in a higher probability of a market correction -> The current consensus trade may increase the risk of",
       "id": "44d466901ac5",
       "timestamp": "2026-04-14T06:21:45.261777",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "flow_signal"
@@ -8774,7 +8608,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is characterized as a TRANSITION state with a 38% probability, and the SP500 and NIFTY50 indices have a 38% and 44% chance of an upward trend, respectively.\nLOGIC: The TRANSITION regime and moderate VIX level suggest a high degree of uncertainty, which may lead to increased importance of risk management and regulatory compliance (WARN Act) -> This could result in a higher probability of a market correction -> The current consensus trade may increase the risk of",
       "id": "746d3d586b79",
       "timestamp": "2026-04-14T06:21:45.261777",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -13002,6 +12836,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "651030ca6835",
       "timestamp": "2026-04-20T20:14:20.927181",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "d245239b3305",
+      "timestamp": "2026-04-21T06:26:45.523275",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "5412a05439fa",
+      "timestamp": "2026-04-21T06:26:45.523329",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "f5eed7b4d614",
+      "timestamp": "2026-04-21T06:26:45.523378",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "1510a6bc73f3",
+      "timestamp": "2026-04-21T06:26:45.523403",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "960104fb3afa",
+      "timestamp": "2026-04-21T06:26:45.523424",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8e64810e50fd",
+      "timestamp": "2026-04-21T06:26:45.523442",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
