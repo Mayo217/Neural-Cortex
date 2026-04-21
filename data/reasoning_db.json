@@ -1,163 +1,6 @@
 {
   "chains": [
     {
-      "agent": "market",
-      "observations": [
-        "The current market regime is in a state of transition (67%), with a high probability of market volatility, and the F&G index is indicating extreme fear (19.3)."
-      ],
-      "logic": [
-        "The combination of a transitioning market regime and extreme fear, as indicated by the F&G index, suggests a high level of uncertainty and potential for market instability -> This uncertainty and instability may lead to increased market volatility, which could be exacerbated by the current breaks in key correlations, such as GOLD/SP500, DXY/GOLD, VIX/SP500, and COPPER/OIL_WTI -> The high probability of market volatility and the breaks in key correlations imply a potential for significant market movements."
-      ],
-      "counters": [
-        "The current market conditions may not necessarily lead to a crisis regime, and the breaks in key correlations may be temporary and not indicative of a larger trend."
-      ],
-      "conclusions": [
-        "The current market conditions, including the transitioning regime and extreme fear, suggest a high level of uncertainty and potential for market instability, which could lead to significant market movements."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is in a state of transition (67%), with a high probability of market volatility, and the F&G index is indicating extreme fear (19.3).\nLOGIC: The combination of a transitioning market regime and extreme fear, as indicated by the F&G index, suggests a high level of uncertainty and potential for market instability -> This uncertainty and instability may lead to increased market volatility, which could be exacerbated by the current breaks in key correlations, such ",
-      "id": "01a8499e6e62",
-      "timestamp": "2026-04-03T14:31:03.669685",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market regime is in a state of transition (67%), with a high probability of market volatility, and the F&G index is indicating extreme fear (19.3). Agents 1-3 are following the herd, focusing on the WARN Act's provisions and their potential impact on the market."
-      ],
-      "logic": [
-        "The combination of a transitioning market regime and extreme fear, as indicated by the F&G index, suggests a high level of uncertainty and potential for market instability -> This uncertainty and instability may lead to increased market volatility, which could be exacerbated by the current breaks in key correlations, such as GOLD/SP500, DXY/GOLD, VIX/SP500, and COPPER/OIL_WTI -> The high probability of market volatility (67%) supports the idea that the market is likely to remain highly volatile, making it challenging for Agents 1-3 to predict the market's direction."
-      ],
-      "counters": [
-        "One could argue that the current market conditions are not unique and that the market has experienced similar periods of uncertainty and volatility in the past. Therefore, the high probability of market volatility (67%) may not be as significant as it seems."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and the analysis of Agents 1-3, it appears that the market is likely to remain highly volatile, and the WARN Act's provisions may take on increased importance in a crisis regime. However, the lack of clear validation signals and the high level of uncertainty in the market make it challenging to predict the market's direction."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is in a state of transition (67%), with a high probability of market volatility, and the F&G index is indicating extreme fear (19.3). Agents 1-3 are following the herd, focusing on the WARN Act's provisions and their potential impact on the market.\n\nLOGIC: The combination of a transitioning market regime and extreme fear, as indicated by the F&G index, suggests a high level of uncertainty and potential for market instability -> This uncertainty and instability ",
-      "id": "3162f1aa6320",
-      "timestamp": "2026-04-03T14:31:03.669716",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the upstream, flow, market, and narrative perspectives, I conclude that the WARN Act's provisions are likely to be important in the current"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "upstream, flow, market, and narrative perspectives, I conclude that the WARN Act's provisions are likely to be important in the current market conditions, given the high probability of market volatility and the potential for increased mass layoffs or plant closures.",
-        "rally, then the market may be entering a new bull phase, and the WARN Act's provisions may become less relevant."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the upstream, flow, market, and narrative perspectives, I conclude that the WARN Act's provisions are likely to be important in the current market conditions, given the high probability of market volatility and the potential for increased mass layoffs or plant closures. I side with the agents that emphasize the importance of the WARN Act's provisions in a crisis regime.\n\n**THESIS GENERATION**\n\nHere are a few theses based on the analysi",
-      "id": "d1e9ee738a4a",
-      "timestamp": "2026-04-03T14:31:03.670325",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "flow_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The Synthesizer's output is based on a high probability of market volatility and the potential for increased mass layoffs or plant closures, with a confidence level of 80 for the Market Volatility thesis and 70 for the WARN Act Provisions thesis."
-      ],
-      "logic": [
-        "The Synthesizer's conclusions are based on the analysis of upstream, flow, market, and narrative perspectives, but the high level of uncertainty and lack of clear validation signals make it challenging to predict the market's direction -> The Synthesizer's output is vulnerable to errors and inaccuracies -> The confidence levels assigned to the theses may be overstated."
-      ],
-      "counters": [
-        "The Synthesizer's use of multiple perspectives and theses may provide a more comprehensive understanding of the market conditions, and the assignment of confidence levels allows for a degree of uncertainty to be acknowledged."
-      ],
-      "conclusions": [
-        "The Synthesizer's output is based on a flawed assumption that the current market conditions will continue, and the confidence levels assigned to the theses are not supported by empirical evidence."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The Synthesizer's output is based on a high probability of market volatility and the potential for increased mass layoffs or plant closures, with a confidence level of 80 for the Market Volatility thesis and 70 for the WARN Act Provisions thesis.\nLOGIC: The Synthesizer's conclusions are based on the analysis of upstream, flow, market, and narrative perspectives, but the high level of uncertainty and lack of clear validation signals make it challenging to predict the market's direction -",
-      "id": "233460c311cc",
-      "timestamp": "2026-04-03T14:31:03.670395",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The WEAKEST THESIS is the FII/DII Trends thesis, with a confidence level of 60."
-      ],
-      "logic": [
-        "The FII/DII Trends thesis is based on a net outflow of funds by FII/FPI and a net inflow of funds by DII, but the relationship between these trends and market volatility is not clearly established -> The thesis is vulnerable to errors and inaccuracies -> The confidence level assigned to the thesis is not supported by empirical evidence."
-      ],
-      "counters": [
-        "The FII/DII Trends thesis may still be relevant, as it provides insight into the behavior of foreign and domestic investors, and the trends may be indicative of broader market sentiment."
-      ],
-      "conclusions": [
-        "The FII/DII Trends thesis is the weakest of the three theses, as it is based on a less clear relationship between the trends and market volatility."
-      ],
-      "dependencies": [
-        "The realization that the market conditions are highly uncertain and volatile, and that the Synthesizer's output is vulnerable to errors and inaccuracies."
-      ],
-      "falsifications": [
-        "The market conditions stabilize, and the volatility decreases, which would render the Market Volatility thesis and the WARN Act Provisions thesis irrelevant."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The Synthesizer's output is based on a high probability of market volatility and the potential for increased mass layoffs or plant closures, with a confidence level of 80 for the Market Volatility thesis and 70 for the WARN Act Provisions thesis.\nLOGIC: The Synthesizer's conclusions are based on the analysis of upstream, flow, market, and narrative perspectives, but the high level of uncertainty and lack of clear validation signals make it challenging to predict the market's direction -",
-      "id": "99c8203ffb21",
-      "timestamp": "2026-04-03T14:31:03.670395",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The BIGGEST BLIND SPOT is the lack of consideration of exogenous factors, such as global economic trends, geopolitical events, and regulatory changes."
-      ],
-      "logic": [
-        "The Synthesizer's output is based on an analysis of upstream, flow, market, and narrative perspectives, but it does not account for exogenous factors that may impact the market -> The output is vulnerable to errors and inaccuracies -> The confidence levels assigned to the theses may be overstated."
-      ],
-      "counters": [
-        "The Synthesizer's use of multiple perspectives and theses may provide a degree of robustness to the output, and the assignment of confidence levels allows for a degree of uncertainty to be acknowledged."
-      ],
-      "conclusions": [
-        "The BIGGEST BLIND SPOT is the lack of consideration of exogenous factors, which may impact the market and render the Synthesizer's output irrelevant."
-      ],
-      "dependencies": [
-        "The realization that the relationship between FII/DII trends and market volatility is not clearly established."
-      ],
-      "falsifications": [
-        "The FII/DII trends are found to be strongly correlated with market volatility, which would increase the confidence level assigned to the thesis."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The Synthesizer's output is based on a high probability of market volatility and the potential for increased mass layoffs or plant closures, with a confidence level of 80 for the Market Volatility thesis and 70 for the WARN Act Provisions thesis.\nLOGIC: The Synthesizer's conclusions are based on the analysis of upstream, flow, market, and narrative perspectives, but the high level of uncertainty and lack of clear validation signals make it challenging to predict the market's direction -",
-      "id": "6ac5a9328fc4",
-      "timestamp": "2026-04-03T14:31:03.670395",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "flow_signal"
-    },
-    {
       "agent": "upstream",
       "observations": [
         "The WARN Act requires employers to provide written notice at least 60 days before mass layoffs or plant closures, and the current market conditions indicate a high probability of a crisis regime."
@@ -8633,7 +8476,7 @@
       "raw_excerpt": "OBSERVE: The WARN Act's provisions require employers to provide written notice at least 60 days in advance of a mass layoff or plant closure, and the California Labor Code Section 1400 reinforces this requirement.\n\nLOGIC: The WARN Act's provisions are designed to protect employees' rights and provide them with sufficient notice of potential job loss -> This notice period allows employees to prepare for the transition and seek new employment opportunities -> The implementation of the WARN Act's p",
       "id": "ab7dcd717676",
       "timestamp": "2026-04-14T15:59:16.218726",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8658,7 +8501,7 @@
       "raw_excerpt": "OBSERVE: The upstream conclusion emphasizes the importance of the WARN Act's provisions in protecting employees' rights and maintaining a stable labor market, with a notice period requirement of at least 60 days for mass layoffs or plant closures.\n\nLOGIC: The upstream conclusion is based on the idea that the WARN Act's provisions provide employees with sufficient notice to prepare for potential job loss and seek new employment opportunities -> This, in turn, contributes to a stable labor market ",
       "id": "f8570c94a55f",
       "timestamp": "2026-04-14T15:59:16.218816",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8683,7 +8526,7 @@
       "raw_excerpt": "OBSERVE: The current market data suggests a regime transition (38% probability) with elevated volatility, and the SP500 is up 1.00% in the last 1 day, while the VIX is down -5.18% in the last 1 day.\n\nLOGIC: The regime transition and elevated volatility indicate a high level of uncertainty in the market -> This uncertainty can lead to sudden changes in market sentiment and direction -> The breakdown in correlations, such as DXY/GOLD, VIX/SP500, US10Y/GOLD, and COPPER/OIL_WTI, suggests that the ma",
       "id": "c3a133034e82",
       "timestamp": "2026-04-14T15:59:16.218907",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8708,7 +8551,7 @@
       "raw_excerpt": "OBSERVE: The current market data suggests a regime transition (38% probability) with elevated volatility, and Agents 1-3 are following the herd in their analysis of the WARN Act's provisions and market trends.\n\nLOGIC: The regime transition and elevated volatility indicate a high level of uncertainty in the market -> This uncertainty can lead to sudden changes in market sentiment and direction -> Agents 1-3 following the herd may not provide an edge in terms of market analysis, as their conclusio",
       "id": "6607cfc5eeca",
       "timestamp": "2026-04-14T15:59:16.218947",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8733,7 +8576,7 @@
       "raw_excerpt": "### 1. Reconcile Contradictions between Agents\n\nOBSERVE: The WARN Act's provisions and their relevance in the current market conditions are being analyzed by multiple agents, with some concluding that the provisions are essential for protecting employees' rights and others arguing that they may not be as relevant in a crisis regime.\n\nLOGIC: The agents' conclusions are based on different interpretations of the market data and the WARN Act's provisions -> The agents' analysis may be influenced by ",
       "id": "2664b9a0bcbe",
       "timestamp": "2026-04-14T15:59:16.219194",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8767,7 +8610,7 @@
       "raw_excerpt": "### 1. Reconcile Contradictions between Agents\n\nOBSERVE: The WARN Act's provisions and their relevance in the current market conditions are being analyzed by multiple agents, with some concluding that the provisions are essential for protecting employees' rights and others arguing that they may not be as relevant in a crisis regime.\n\nLOGIC: The agents' conclusions are based on different interpretations of the market data and the WARN Act's provisions -> The agents' analysis may be influenced by ",
       "id": "a408af881d22",
       "timestamp": "2026-04-14T15:59:16.219194",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8792,7 +8635,7 @@
       "raw_excerpt": "### Attack on the Synthesizer's Output\n\nOBSERVE: The Synthesizer's output is based on a complex analysis of market data, labor laws, and economic trends, but it appears to be overly reliant on probability chains and regime transitions.\n\nLOGIC: The Synthesizer's analysis is based on a probabilistic approach, which may not account for unforeseen events or black swans -> The reliance on probability chains and regime transitions may lead to a lack of robustness in the analysis -> The Synthesizer's o",
       "id": "7f0b354786b6",
       "timestamp": "2026-04-14T15:59:16.219309",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8821,7 +8664,7 @@
       "raw_excerpt": "### Attack on the Synthesizer's Output\n\nOBSERVE: The Synthesizer's output is based on a complex analysis of market data, labor laws, and economic trends, but it appears to be overly reliant on probability chains and regime transitions.\n\nLOGIC: The Synthesizer's analysis is based on a probabilistic approach, which may not account for unforeseen events or black swans -> The reliance on probability chains and regime transitions may lead to a lack of robustness in the analysis -> The Synthesizer's o",
       "id": "78f4f3c5658e",
       "timestamp": "2026-04-14T15:59:16.219309",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8850,7 +8693,7 @@
       "raw_excerpt": "### Attack on the Synthesizer's Output\n\nOBSERVE: The Synthesizer's output is based on a complex analysis of market data, labor laws, and economic trends, but it appears to be overly reliant on probability chains and regime transitions.\n\nLOGIC: The Synthesizer's analysis is based on a probabilistic approach, which may not account for unforeseen events or black swans -> The reliance on probability chains and regime transitions may lead to a lack of robustness in the analysis -> The Synthesizer's o",
       "id": "1d7b7b855e25",
       "timestamp": "2026-04-14T15:59:16.219309",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -12974,6 +12817,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "8e64810e50fd",
       "timestamp": "2026-04-21T06:26:45.523442",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "4adb1554ef3d",
+      "timestamp": "2026-04-21T16:03:30.994902",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "ac90692e020c",
+      "timestamp": "2026-04-21T16:03:30.994955",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "83f62db568b6",
+      "timestamp": "2026-04-21T16:03:30.994982",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "5d404eb19a99",
+      "timestamp": "2026-04-21T16:03:30.995004",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "2ef1170a2df1",
+      "timestamp": "2026-04-21T16:03:30.995025",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8b55723d8fc2",
+      "timestamp": "2026-04-21T16:03:30.995043",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
