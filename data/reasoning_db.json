@@ -1,164 +1,6 @@
 {
   "chains": [
     {
-      "agent": "synthesis",
-      "observations": [
-        "The brain's crisis regime probability is 67%, indicating a high level of uncertainty and volatility in the market."
-      ],
-      "logic": [
-        "The high crisis regime probability implies that the market is highly sensitive to new information and potential risks -> This suggests that any significant economic or geopolitical events could have a pronounced impact on the market -> This could lead to increased market volatility as investors react to rumors or speculation."
-      ],
-      "counters": [
-        "One counterargument is that the market has already priced in a significant amount of uncertainty and volatility, which could limit the impact of new information or events."
-      ],
-      "conclusions": [
-        "Based on the information provided, it appears that the market is likely to remain highly volatile, with a high probability of a crisis regime, and investors should be prepared for potential significant price movements in response to new information or events."
-      ],
-      "dependencies": [],
-      "falsifications": [
-        "Brain's crisis regime probability decreases significantly"
-      ],
-      "assets": [
-        "VIX index"
-      ],
-      "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the output of Agents 1-3, I conclude that all agents are in agreement with the current market sentiment and volatility. The upstream, flow, and market agents all indicate that the market is likely to remain highly volatile, with a high probability of a crisis regime. The narrative agent also supports this conclusion, citing the current market sentiment and news reports.\n\nI side with all agents, as their conclusions are consistent with ",
-      "id": "e59f348f52e1",
-      "timestamp": "2026-04-04T05:17:56.525529",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The brain's crisis regime probability is 67%, and the market is expected to remain highly volatile, with a high probability of a crisis regime."
-      ],
-      "logic": [
-        "The high crisis regime probability implies that the market is highly sensitive to new information and potential risks -> This suggests that any significant economic or geopolitical events could have a pronounced impact on the market -> However, the fact that the market has already priced in a significant amount of uncertainty and volatility could limit the impact of new information or events, making the market less reactive to news and more focused on fundamentals."
-      ],
-      "counters": [
-        "One potential counterargument is that the market's sensitivity to new information could be overestimated, and the current volatility could be a result of other factors such as technical analysis or market sentiment, rather than a genuine response to economic or geopolitical events."
-      ],
-      "conclusions": [
-        "Based on the information provided, it appears that the market is likely to remain highly volatile, but the impact of new information or events might be limited by the fact that the market has already priced in a significant amount of uncertainty and volatility."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, and the market is expected to remain highly volatile, with a high probability of a crisis regime.\nLOGIC: The high crisis regime probability implies that the market is highly sensitive to new information and potential risks -> This suggests that any significant economic or geopolitical events could have a pronounced impact on the market -> However, the fact that the market has already priced in a significant amount of uncertainty and volatili",
-      "id": "5f5ea472acfc",
-      "timestamp": "2026-04-04T05:17:56.525581",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The \"if X then Y\" conditions listed in the \"WHAT TO WATCH\" section are based on specific metrics and events, but they do not account for the potential impact of external factors."
-      ],
-      "logic": [
-        "The lack of consideration for external factors implies that the analysis might be incomplete -> This could lead to a failure to anticipate and prepare for potential market-moving events -> This could result in significant losses for investors who are not prepared for unexpected events."
-      ],
-      "counters": [
-        "One potential counterargument is that the analysis is focused on internal market factors because they are more predictable and easier to quantify than external factors."
-      ],
-      "conclusions": [
-        "Based on the information provided, it appears that the analysis is incomplete and might not fully account for the potential impact of external factors on the market."
-      ],
-      "dependencies": [
-        "The actual market reaction to new information or events, as measured by metrics such as trading volume, order flow, and market liquidity."
-      ],
-      "falsifications": [
-        "If the market enters a period of sustained calm and stability, with the brain's crisis regime probability decreasing significantly, and the market becomes less reactive to new information or events."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, and the market is expected to remain highly volatile, with a high probability of a crisis regime.\nLOGIC: The high crisis regime probability implies that the market is highly sensitive to new information and potential risks -> This suggests that any significant economic or geopolitical events could have a pronounced impact on the market -> However, the fact that the market has already priced in a significant amount of uncertainty and volatili",
-      "id": "8d683ae27d17",
-      "timestamp": "2026-04-04T05:17:56.525581",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions are highly volatile with a high probability of a crisis regime."
-      ],
-      "logic": [
-        "The WARN Act's provisions are likely to take on increased importance in a crisis regime -> This could lead to increased scrutiny of employers' compliance with the Act -> Which may result in a higher number of notices being issued, potentially impacting the market."
-      ],
-      "counters": [
-        "The current market volatility may be driven by factors unrelated to the WARN Act, such as global economic trends or geopolitical events, which could reduce the impact of the Act's provisions."
-      ],
-      "conclusions": [
-        "The WARN Act's provisions are likely to play a significant role in the current market regime, and employers should be prepared to comply with the Act's requirements to avoid potential penalties and reputational damage."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions are highly volatile with a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime -> This could lead to increased scrutiny of employers' compliance with the Act -> Which may result in a higher number of notices being issued, potentially impacting the market.\n\nCOUNT",
-      "id": "ed8ebc082b8c",
-      "timestamp": "2026-04-04T08:02:55.681748",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's output indicates a 67% probability of a transition regime, with the SP500 and NIFTY50 showing similar patterns of uncertainty, and the GOLD price also reflecting a similar level of unpredictability."
-      ],
-      "logic": [
-        "The brain's probabilities suggest a high degree of uncertainty in the market -> This could be indicative of a transition regime, where the market is adjusting to new information or changing trends -> Which may lead to increased volatility and unpredictability in the short term."
-      ],
-      "counters": [
-        "The lack of clear validation signals and the absence of evaluative metrics, such as the Brier score, make it challenging to assess the accuracy of the brain's probabilities and the overall market analysis."
-      ],
-      "conclusions": [
-        "The current market regime appears to be highly uncertain, with a high probability of a transition regime, but the lack of clear validation signals and evaluative metrics limits the confidence in this assessment."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's output indicates a 67% probability of a transition regime, with the SP500 and NIFTY50 showing similar patterns of uncertainty, and the GOLD price also reflecting a similar level of unpredictability.\n\nLOGIC: The brain's probabilities suggest a high degree of uncertainty in the market -> This could be indicative of a transition regime, where the market is adjusting to new information or changing trends -> Which may lead to increased volatility and unpredictability in the short",
-      "id": "d0dd2723eb0e",
-      "timestamp": "2026-04-04T08:02:55.681826",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market regime is characterized by high volatility, with a 67% probability of a transition regime, and the F&G index indicating \"extreme fear\" with a score of 19.3."
-      ],
-      "logic": [
-        "The combination of high volatility, extreme fear, and a transition regime suggests that the market is highly uncertain and prone to sudden changes -> This could lead to increased correlations between different asset classes, such as gold and equities, and between different markets, such as oil and currencies -> Which may result in a higher likelihood of breakouts and anomalies in these correlations."
-      ],
-      "counters": [
-        "The presence of multiple breaks in correlations, such as GOLD/SP500, DXY/GOLD, VIX/SP500, OIL_WTI/USDINR, and COPPER/OIL_WTI, could be indicative of a market that is already experiencing significant stress and disorder, which may limit the potential for further breakouts and anomalies."
-      ],
-      "conclusions": [
-        "The current market regime is highly uncertain and prone to sudden changes, with a high likelihood of breakouts and anomalies in correlations between different asset classes and markets."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is characterized by high volatility, with a 67% probability of a transition regime, and the F&G index indicating \"extreme fear\" with a score of 19.3.\n\nLOGIC: The combination of high volatility, extreme fear, and a transition regime suggests that the market is highly uncertain and prone to sudden changes -> This could lead to increased correlations between different asset classes, such as gold and equities, and between different markets, such as oil and currenci",
-      "id": "f980ee4aca56",
-      "timestamp": "2026-04-04T08:02:55.681860",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "narrative",
       "observations": [
         "The current market regime is characterized by high volatility, with a 67% probability of a transition regime, and the F&G index indicating \"extreme fear\" with a score of 19.3. The SP500 and NIFTY50 show similar patterns of uncertainty, and the GOLD price also reflects a similar level of unpredictability."
@@ -8727,7 +8569,7 @@
       "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days prior to mass layoffs or plant closures, with a current focus on California Labor Code, Section 1400.\n\nLOGIC: The WARN Act's provisions aim to protect employees by providing advance notice of potential job losses -> This notice period allows employees to prepare and seek alternative employment -> The implementation of the WARN Act can mitigate the negative impacts of mass layoffs on local economies.\n\nCOUNTER: One",
       "id": "065f1d41f743",
       "timestamp": "2026-04-15T15:56:08.863569",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8752,7 +8594,7 @@
       "raw_excerpt": "OBSERVE: The brain's regime probability is RISK_ON (62%), and the majority of the 30-day market trends are UP (LOW), with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends.\n\nLOGIC: The high RISK_ON regime probability and the predominantly upward market trends suggest that the market is currently favoring riskier assets -> This could be due to investor confidence in the economy and expectations of continued growth -> The market may be poised for further gains, but th",
       "id": "663aaa500fce",
       "timestamp": "2026-04-15T15:56:08.863653",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8777,7 +8619,7 @@
       "raw_excerpt": "OBSERVE: The current market trends show a predominantly upward movement, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends, and the brain's regime probability is RISK_ON (62%).\n\nLOGIC: The high RISK_ON regime probability and the upward market trends suggest that the market is currently favoring riskier assets -> This could be due to investor confidence in the economy and expectations of continued growth -> The market may be poised for further gains, but the low",
       "id": "e280db2cb34e",
       "timestamp": "2026-04-15T15:56:08.863690",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8802,7 +8644,7 @@
       "raw_excerpt": "OBSERVE: The current market trends show a predominantly upward movement, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends, and the brain's regime probability is RISK_ON (62%).\n\nLOGIC: The high RISK_ON regime probability and the upward market trends suggest that the market is currently favoring riskier assets -> This could be due to investor confidence in the economy and expectations of continued growth -> The market may be poised for further gains, but the low",
       "id": "b97e6df96fa1",
       "timestamp": "2026-04-15T15:56:08.863739",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8831,7 +8673,7 @@
       "raw_excerpt": "OBSERVE: The current market trends show a predominantly upward movement, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends, and the brain's regime probability is RISK_ON (62%).\n\nLOGIC: The high RISK_ON regime probability and the upward market trends suggest that the market is currently favoring riskier assets -> This could be due to investor confidence in the economy and expectations of continued growth -> The market may be poised for further gains, but the low",
       "id": "8888a279e21f",
       "timestamp": "2026-04-15T15:56:08.863739",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "sentiment_contrarian"
@@ -8856,7 +8698,7 @@
       "raw_excerpt": "**1. RECONCILE contradictions between agents:**\nI side with the UPSTREAM agent, which emphasizes the importance of the WARN Act's provisions in protecting employees' rights and providing necessary notice periods. This is because the UPSTREAM agent's conclusion is based on a logical analysis of the WARN Act's provisions and their intended consequences, despite potential counterarguments regarding the burden on employers.\n\n**2. Generate THESIS:**\nTHESIS: Market Volatility and Growth\nCHAIN: High RI",
       "id": "895bcb7f763c",
       "timestamp": "2026-04-15T15:56:08.864203",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8881,7 +8723,7 @@
       "raw_excerpt": "OBSERVE: The THESIS \"Market Volatility and Growth\" is based on a high RISK_ON regime probability, which suggests increased investor confidence and continued market growth, but also acknowledges the potential for sudden reversals.\nLOGIC: The thesis relies on the assumption that high investor confidence will lead to continued market growth, but this confidence may be misplaced due to the potential for sudden reversals -> If the RISK_ON regime probability drops, the market may shift towards a more ",
       "id": "289b0de7540e",
       "timestamp": "2026-04-15T15:56:08.864265",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8910,7 +8752,7 @@
       "raw_excerpt": "OBSERVE: The THESIS \"Market Volatility and Growth\" is based on a high RISK_ON regime probability, which suggests increased investor confidence and continued market growth, but also acknowledges the potential for sudden reversals.\nLOGIC: The thesis relies on the assumption that high investor confidence will lead to continued market growth, but this confidence may be misplaced due to the potential for sudden reversals -> If the RISK_ON regime probability drops, the market may shift towards a more ",
       "id": "d440d719d482",
       "timestamp": "2026-04-15T15:56:08.864265",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12919,6 +12761,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "786e1c3f4353",
       "timestamp": "2026-04-22T06:26:58.226429",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "908d12ed3fec",
+      "timestamp": "2026-04-22T16:01:37.379066",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "cd5934261ecd",
+      "timestamp": "2026-04-22T16:01:37.379123",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "0f06d057482f",
+      "timestamp": "2026-04-22T16:01:37.379149",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "a2fecac52124",
+      "timestamp": "2026-04-22T16:01:37.379168",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "7006f80c2a1a",
+      "timestamp": "2026-04-22T16:01:37.379188",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "4952114cc16d",
+      "timestamp": "2026-04-22T16:01:37.379203",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
