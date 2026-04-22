@@ -1,164 +1,6 @@
 {
   "chains": [
     {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure."
-      ],
-      "logic": [
-        "The requirement for a 60-day notice period implies that employers must have a certain level of advance knowledge of their plans -> This suggests that the market may be able to anticipate significant layoffs or closures before they occur -> This could lead to increased market volatility as investors react to rumors or speculation about potential layoffs or closures."
-      ],
-      "counters": [
-        "One counterargument is that the WARN Act only applies to certain employers and situations, which may limit its impact on the market as a whole."
-      ],
-      "conclusions": [
-        "Based on the information provided, it appears that the WARN Act could have a significant impact on the market, particularly in terms of increasing volatility."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure.\nLOGIC: The requirement for a 60-day notice period implies that employers must have a certain level of advance knowledge of their plans -> This suggests that the market may be able to anticipate significant layoffs or closures before they occur -> This could lead to increased market volatility as investors react to rumors or speculation about potential layoffs or closures.\nCO",
-      "id": "cdd6b174bfbd",
-      "timestamp": "2026-04-04T05:17:56.525145",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime, suggest a high level of uncertainty and volatility."
-      ],
-      "logic": [
-        "The high level of uncertainty and volatility implies that investors are highly sensitive to new information -> This suggests that any news or rumors about potential layoffs or closures could have a significant impact on the market -> This could lead to a self-reinforcing cycle of volatility, as investors become increasingly risk-averse and reactive to new information."
-      ],
-      "counters": [
-        "One counterargument is that the market may be overreacting to the current conditions, and that the level of uncertainty and volatility may be overstated."
-      ],
-      "conclusions": [
-        "Based on the information provided, it appears that the current market conditions are likely to continue, with high levels of uncertainty and volatility."
-      ],
-      "dependencies": [
-        "The actual number of employers who are required to provide notice under the WARN Act and the frequency with which they do so."
-      ],
-      "falsifications": [
-        "If it is found that the WARN Act has no significant impact on market volatility, or if the notice period is consistently shorter than 60 days in practice."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure.\nLOGIC: The requirement for a 60-day notice period implies that employers must have a certain level of advance knowledge of their plans -> This suggests that the market may be able to anticipate significant layoffs or closures before they occur -> This could lead to increased market volatility as investors react to rumors or speculation about potential layoffs or closures.\nCO",
-      "id": "2f7b60502b18",
-      "timestamp": "2026-04-04T05:17:56.525145",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The contracts listed, including those for national technology and engineering solutions, suggest a significant level of government investment in these areas."
-      ],
-      "logic": [
-        "The level of government investment in these areas implies that there may be opportunities for growth and innovation -> This suggests that companies operating in these areas may be well-positioned for future success -> This could lead to increased investment and activity in these areas, as companies and investors seek to capitalize on the opportunities available."
-      ],
-      "counters": [
-        "One counterargument is that the level of government investment may not be sufficient to drive significant growth and innovation, or that the contracts may be subject to significant risks and uncertainties."
-      ],
-      "conclusions": [
-        "Based on the information provided, it appears that the government investment in these areas could have a positive impact on the market, particularly in terms of driving growth and innovation."
-      ],
-      "dependencies": [
-        "The actual level of uncertainty and volatility in the market, as measured by metrics such as the VIX index."
-      ],
-      "falsifications": [
-        "If the market suddenly becomes less volatile and more stable, despite the current conditions."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure.\nLOGIC: The requirement for a 60-day notice period implies that employers must have a certain level of advance knowledge of their plans -> This suggests that the market may be able to anticipate significant layoffs or closures before they occur -> This could lead to increased market volatility as investors react to rumors or speculation about potential layoffs or closures.\nCO",
-      "id": "60aa2ca88442",
-      "timestamp": "2026-04-04T05:17:56.525145",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's crisis regime probability is 67%, indicating a high level of uncertainty and volatility in the market."
-      ],
-      "logic": [
-        "The high crisis regime probability implies that the market is highly sensitive to new information and potential risks -> This suggests that the WARN Act's provisions, which require employers to provide written notice at least 60 days before a mass layoff or plant closure, could have a significant impact on the market -> This could lead to increased market volatility as investors react to rumors or speculation about potential layoffs or closures."
-      ],
-      "counters": [
-        "One counterargument is that the WARN Act's impact on the market may be limited by the fact that it only applies to certain employers and situations, which may not be representative of the broader market."
-      ],
-      "conclusions": [
-        "Based on the information provided, it appears that the WARN Act could have a significant impact on the market, particularly in terms of increasing volatility, given the high crisis regime probability and the market's sensitivity to new information."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, indicating a high level of uncertainty and volatility in the market.\nLOGIC: The high crisis regime probability implies that the market is highly sensitive to new information and potential risks -> This suggests that the WARN Act's provisions, which require employers to provide written notice at least 60 days before a mass layoff or plant closure, could have a significant impact on the market -> This could lead to increased market volatility ",
-      "id": "15d7abe22b0f",
-      "timestamp": "2026-04-04T05:17:56.525240",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating with a score of 19.3, and the brain's crisis regime probability is 67%, indicating a high level of uncertainty and volatility in the market."
-      ],
-      "logic": [
-        "The high crisis regime probability and \"extreme fear\" rating imply that the market is highly sensitive to new information and potential risks -> This suggests that any significant economic or geopolitical events could have a pronounced impact on the market -> This could lead to increased market volatility as investors react to rumors or speculation about potential events."
-      ],
-      "counters": [
-        "One counterargument is that the market has already priced in a significant amount of uncertainty and volatility, which could limit the impact of new information or events."
-      ],
-      "conclusions": [
-        "Based on the information provided, it appears that the market is likely to remain highly volatile, with a high probability of a crisis regime, and any significant events or announcements could have a significant impact on the market."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating with a score of 19.3, and the brain's crisis regime probability is 67%, indicating a high level of uncertainty and volatility in the market.\n\nLOGIC: The high crisis regime probability and \"extreme fear\" rating imply that the market is highly sensitive to new information and potential risks -> This suggests that any significant economic or geopolitical events could have a pronounced impact on the ",
-      "id": "5fd4c85626ef",
-      "timestamp": "2026-04-04T05:17:56.525273",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating with a score of 19.3, and the brain's crisis regime probability is 67%, indicating a high level of uncertainty and volatility in the market."
-      ],
-      "logic": [
-        "The high crisis regime probability and \"extreme fear\" rating imply that the market is highly sensitive to new information and potential risks -> This suggests that any significant economic or geopolitical events could have a pronounced impact on the market -> This could lead to increased market volatility as investors react to rumors or speculation."
-      ],
-      "counters": [
-        "One counterargument is that the market has already priced in a significant amount of uncertainty and volatility, and therefore may not react as strongly to new information or events."
-      ],
-      "conclusions": [
-        "The market is likely to remain highly volatile, with a high probability of a crisis regime, and investors should be prepared for potential significant price movements in response to new information or events."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating with a score of 19.3, and the brain's crisis regime probability is 67%, indicating a high level of uncertainty and volatility in the market.\n\nLOGIC: The high crisis regime probability and \"extreme fear\" rating imply that the market is highly sensitive to new information and potential risks -> This suggests that any significant economic or geopolitical events could have a pronounced impact on the ",
-      "id": "87bc2677b87c",
-      "timestamp": "2026-04-04T05:17:56.525409",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "synthesis",
       "observations": [
         "The brain's crisis regime probability is 67%, indicating a high level of uncertainty and volatility in the market."
@@ -8564,7 +8406,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is TRANSITION (38%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time periods (30d, 5d, 10d).\nLOGIC: The transition regime suggests uncertainty and potential volatility in the market -> This uncertainty could be driven by various factors, including economic indicators, policy changes, and global events -> The implications of this regime could be significant, as it may lead to in",
       "id": "83e502120ad3",
       "timestamp": "2026-04-14T20:54:38.687029",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8589,7 +8431,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is TRANSITION (38%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time periods (30d, 5d, 10d), and the Brier score is 0.172833, indicating a moderate level of uncertainty in the market predictions.\n\nLOGIC: The transition regime, combined with the moderate Brier score, suggests that the market is experiencing a period of uncertainty and potential volatility -> This uncertainty cou",
       "id": "74745bfee33e",
       "timestamp": "2026-04-14T20:54:38.687107",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "vol_signal"
@@ -8612,7 +8454,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "362154618663",
       "timestamp": "2026-04-14T20:54:38.687321",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8635,7 +8477,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "b92fe17d1237",
       "timestamp": "2026-04-14T20:54:38.687349",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8658,7 +8500,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "619e43c9dace",
       "timestamp": "2026-04-14T20:54:38.687372",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8681,7 +8523,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "d0a81c4a310b",
       "timestamp": "2026-04-14T20:54:38.687389",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8706,7 +8548,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 62% confidence level, and various assets such as SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT are showing upward trends in the 30-day period.\n\nLOGIC: The upward trends in these assets -> suggest a bullish market sentiment -> imply that investors are taking on more risk and are optimistic about the market's future performance.\n\nCOUNTER: The high volatility in the market, as indicated by the SP500's 5-day and 10-day trends, co",
       "id": "5e1b2c428dfe",
       "timestamp": "2026-04-15T06:23:18.845033",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -8731,7 +8573,7 @@
       "raw_excerpt": "OBSERVE: The ETF signals for various assets such as SP500, Nasdaq, SmallCap, Gold, and others are all neutral, with no clear bullish or bearish trend indicated.\n\nLOGIC: The neutral ETF signals -> suggest that the market is not showing a strong conviction in either direction -> imply that the current RISK_ON regime may be fragile and susceptible to changes in market sentiment.\n\nCOUNTER: The upward trends in various assets such as SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT in the 30-day period c",
       "id": "d05e21a17500",
       "timestamp": "2026-04-15T06:23:18.845100",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "sentiment_contrarian"
@@ -8756,7 +8598,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 62% confidence level, and various assets such as SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT are showing upward trends in the 30-day period. Additionally, the VIX index is at 18.36, which is relatively low, indicating a low level of market volatility.\n\nLOGIC: The upward trends in these assets and the low VIX index -> suggest a bullish market sentiment -> imply that investors are taking on more risk and are optimistic about ",
       "id": "656e2983ab41",
       "timestamp": "2026-04-15T06:23:18.845145",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8781,7 +8623,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 62% confidence level, and various assets such as SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT are showing upward trends in the 30-day period. Agents 1-3 are following the herd, as they are not providing contrarian views, but rather aligning with the overall bullish market sentiment.\n\nLOGIC: The upward trends in these assets and the low VIX index -> suggest a bullish market sentiment -> imply that investors are taking on more",
       "id": "ec74a0ddab3f",
       "timestamp": "2026-04-15T06:23:18.845181",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8806,7 +8648,7 @@
       "raw_excerpt": "**1. RECONCILE contradictions between agents:**\nI side with Agent [None] as there is no explicit mention of contradictory views among agents. However, I notice that Agents 1-3 are following the herd, which may indicate a lack of contrarian views.\n\n**2. Generate THESES:**\nTHESIS: RISK_ON Regime\nCHAIN: Upward trends in SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT -> suggest a bullish market sentiment -> imply that investors are taking on more risk and are optimistic about the market's future perfo",
       "id": "3fae69540d1a",
       "timestamp": "2026-04-15T06:23:18.845676",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8831,7 +8673,7 @@
       "raw_excerpt": "OBSERVE: The RISK_ON Regime thesis has a confidence level of 62%, which suggests a relatively optimistic market sentiment.\nLOGIC: If the RISK_ON Regime thesis is correct, it implies that investors are taking on more risk and are optimistic about the market's future performance -> this could lead to a continued upward trend in the SP500 and other assets -> however, if the market sentiment shifts, the RISK_ON Regime could quickly reverse, leading to a downturn.\nCONSEQUENCE: The RISK_ON Regime thes",
       "id": "44c31c05d368",
       "timestamp": "2026-04-15T06:23:18.845761",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "sentiment_contrarian"
@@ -12939,6 +12781,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "5013adffd346",
       "timestamp": "2026-04-21T20:40:48.247476",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "98e1ee9281f3",
+      "timestamp": "2026-04-22T06:26:58.226293",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "d4fd4319ba29",
+      "timestamp": "2026-04-22T06:26:58.226350",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "ad54f0e4abdf",
+      "timestamp": "2026-04-22T06:26:58.226375",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "daf5e333c826",
+      "timestamp": "2026-04-22T06:26:58.226394",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "7e9f5e988ad7",
+      "timestamp": "2026-04-22T06:26:58.226414",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "786e1c3f4353",
+      "timestamp": "2026-04-22T06:26:58.226429",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
