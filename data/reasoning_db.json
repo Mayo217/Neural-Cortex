@@ -3,150 +3,6 @@
     {
       "agent": "narrative",
       "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "28fa8bf31fc7",
-      "timestamp": "2026-04-04T19:57:26.303876",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "32085e8fe134",
-      "timestamp": "2026-04-04T19:57:26.303910",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "e01c91af8853",
-      "timestamp": "2026-04-04T19:57:26.303930",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime."
-      ],
-      "logic": [
-        "The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to make difficult decisions about layoffs and closures -> This could lead to a surge in WARN Act notices, which could have a significant impact on the market and the economy -> The market's current volatility and the brain's crisis regime prediction suggest that the WARN Act's provisions are likely to be triggered soon."
-      ],
-      "counters": [
-        "One argument against the conclusion that the WARN Act's provisions are likely to be triggered soon is that the current market conditions, while volatile, do not necessarily indicate a crisis regime. The market may be experiencing a period of high volatility, but this does not necessarily mean that employers will need to make mass layoffs or plant closures."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and the WARN Act's provisions, I conclude that the WARN Act's provisions are likely to take on increased importance in the near future."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to make difficult decisions about layoffs and closures -> This could lead to a surge in WARN Act notices, which could have a significant impact on the market and the economy ->",
-      "id": "75cccc4eb331",
-      "timestamp": "2026-04-05T05:58:51.646571",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The current market conditions indicate a high probability of a crisis regime, with the brain's crisis regime prediction at 67%, and the market's volatility is reflected in the ETF data, with most signals being \"NEUTRAL\"."
-      ],
-      "logic": [
-        "The high probability of a crisis regime, combined with the market's volatility, suggests that the WARN Act's provisions may take on increased importance in the near future -> This could lead to a surge in WARN Act notices, which could have a significant impact on the market and the economy -> The ETF data, which shows most signals being \"NEUTRAL\", indicates that the market is uncertain and may be preparing for a potential crisis."
-      ],
-      "counters": [
-        "One argument against the conclusion that the WARN Act's provisions are likely to be triggered soon is that the current market conditions, while volatile, do not necessarily indicate a crisis regime. The market may be experiencing a period of high volatility, but this does not necessarily mean that employers will need to make mass layoffs or plant closures."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and the WARN Act's provisions, I conclude that the WARN Act's provisions are likely to take on increased importance in the near future, but the market's uncertainty and neutrality suggest that the situation is still fluid and may not necessarily lead to a crisis regime."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the brain's crisis regime prediction at 67%, and the market's volatility is reflected in the ETF data, with most signals being \"NEUTRAL\".\n\nLOGIC: The high probability of a crisis regime, combined with the market's volatility, suggests that the WARN Act's provisions may take on increased importance in the near future -> This could lead to a surge in WARN Act notices, which could have a significant impact o",
-      "id": "90fc22b31974",
-      "timestamp": "2026-04-05T05:58:51.646633",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions indicate a high probability of a crisis regime, with the brain's crisis regime prediction at 67%, and the market's volatility is reflected in the ETF data, with most signals being \"NEUTRAL\". The F&G index is at 19.3, indicating \"EXTREME FEAR\"."
-      ],
-      "logic": [
-        "The high probability of a crisis regime, combined with the market's volatility and the F&G index indicating \"EXTREME FEAR\", suggests that investors are becoming increasingly risk-averse -> This could lead to a surge in safe-haven assets, such as gold and bonds, and a decline in riskier assets, such as stocks -> The BREAK signals in the GOLD/SP500, DXY/GOLD, VIX/SP500, and OIL_WTI/USDINR correlations indicate a potential shift in market sentiment and a increase in volatility."
-      ],
-      "counters": [
-        "One argument against the conclusion that the market is heading towards a crisis regime is that the current market conditions, while volatile, do not necessarily indicate a crisis. The market has been experiencing high volatility in recent times, and it is possible that the current volatility is just a normal market fluctuation."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and the F&G index, I conclude that the market is likely to remain highly volatile, with a high probability of a crisis regime. Investors should be cautious and consider reducing their exposure to riskier assets."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the brain's crisis regime prediction at 67%, and the market's volatility is reflected in the ETF data, with most signals being \"NEUTRAL\". The F&G index is at 19.3, indicating \"EXTREME FEAR\".\n\nLOGIC: The high probability of a crisis regime, combined with the market's volatility and the F&G index indicating \"EXTREME FEAR\", suggests that investors are becoming increasingly risk-averse -> This could lead to a",
-      "id": "cc9663d1ac3c",
-      "timestamp": "2026-04-05T05:58:51.646667",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
         "The current market conditions indicate a high probability of a crisis regime, with the brain's crisis regime prediction at 67%, and the market's volatility is reflected in the ETF data, with most signals being \"NEUTRAL\". The F&G index is at 19.3, indicating \"EXTREME FEAR\"."
       ],
       "logic": [
@@ -8881,7 +8737,7 @@
       "raw_excerpt": "OBSERVE: The brain's regime is RISK_ON (86%), with most markets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing an upward trend in the 30-day period, and a strong upward trend in the 5-day and 10-day periods for SP500.\n\nLOGIC: The current market conditions and trends suggest a high level of risk appetite among investors, with most markets showing an upward trend -> This could be driven by underlying economic or geopolitical factors -> The RISK_ON regime may continue if these factors pers",
       "id": "e774dc4c2ce0",
       "timestamp": "2026-04-16T20:13:37.153659",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -8906,7 +8762,7 @@
       "raw_excerpt": "OBSERVE: The brain's regime is RISK_ON (86%), with most markets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing an upward trend in the 30-day period, and a strong upward trend in the 5-day and 10-day periods for SP500. However, the ETF data shows a \"NEUTRAL\" signal for most sectors, with some exceptions such as Energy and Semis showing positive changes.\n\nLOGIC: The current market conditions and trends suggest a high level of risk appetite among investors, with most markets showing an upw",
       "id": "d51cd2a16304",
       "timestamp": "2026-04-16T20:13:37.153736",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8931,7 +8787,7 @@
       "raw_excerpt": "OBSERVE: The brain's regime is RISK_ON (86%), with most markets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing an upward trend in the 30-day period, and a strong upward trend in the 5-day and 10-day periods for SP500. The VIX/SP500 correlation shows a significant break, with VIX decreasing by 1.93% while SP500 increases by 0.26%.\n\nLOGIC: The current market conditions and trends suggest a high level of risk appetite among investors, with most markets showing an upward trend -> This could",
       "id": "9020879eb5fd",
       "timestamp": "2026-04-16T20:13:37.153775",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8956,7 +8812,7 @@
       "raw_excerpt": "OBSERVE: The brain's regime is RISK_ON (86%), with most markets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing an upward trend in the 30-day period, and a strong upward trend in the 5-day and 10-day periods for SP500. Agents 1-3 are following the herd, indicating a consensus in the market.\n\nLOGIC: The current market conditions and trends suggest a high level of risk appetite among investors, with most markets showing an upward trend -> This could be driven by underlying economic or geop",
       "id": "e0c03a00aed4",
       "timestamp": "2026-04-16T20:13:37.153807",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -8981,7 +8837,7 @@
       "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the upstream, flow, market, narrative, and synthesis agents, I conclude that the synthesis agent's conclusion is the most comprehensive. The synthesis agent takes into account the brain's regime, market trends, and ETF data to conclude that the market is likely to remain highly volatile, with a potential for continued upward trends in the short term, but with a high level of uncertainty and risk.\n\nI side with the synthesis agent becaus",
       "id": "6658e1209ed6",
       "timestamp": "2026-04-16T20:13:37.154424",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "flow_signal"
@@ -9006,7 +8862,7 @@
       "raw_excerpt": "OBSERVE: The synthesis agent's conclusion is based on a comprehensive analysis of the brain's regime, market trends, and ETF data, but it relies heavily on the accuracy of these inputs.\n\nLOGIC: If the inputs are incorrect or incomplete, the synthesis agent's conclusion may be flawed -> The high confidence levels assigned to certain theses may be unwarranted -> The potential for sudden downturns and significant losses for investors who are not prepared may be higher than anticipated.\n\nCOUNTER: Th",
       "id": "7c86cb1951a6",
       "timestamp": "2026-04-16T20:13:37.154475",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9035,7 +8891,7 @@
       "raw_excerpt": "OBSERVE: The synthesis agent's conclusion is based on a comprehensive analysis of the brain's regime, market trends, and ETF data, but it relies heavily on the accuracy of these inputs.\n\nLOGIC: If the inputs are incorrect or incomplete, the synthesis agent's conclusion may be flawed -> The high confidence levels assigned to certain theses may be unwarranted -> The potential for sudden downturns and significant losses for investors who are not prepared may be higher than anticipated.\n\nCOUNTER: Th",
       "id": "64c0229fc11e",
       "timestamp": "2026-04-16T20:13:37.154475",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12834,6 +12690,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "d1037e2f813a",
       "timestamp": "2026-04-23T17:06:41.976083",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "5dcca3bc30bf",
+      "timestamp": "2026-04-23T21:11:26.740622",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "508d592cd170",
+      "timestamp": "2026-04-23T21:11:26.740672",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "2fe456f190b8",
+      "timestamp": "2026-04-23T21:11:26.740723",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "3d7354fd4b88",
+      "timestamp": "2026-04-23T21:11:26.740748",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "c3f5a986d6c0",
+      "timestamp": "2026-04-23T21:11:26.740769",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "2fbb9edb7230",
+      "timestamp": "2026-04-23T21:11:26.740786",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
