@@ -1,164 +1,6 @@
 {
   "chains": [
     {
-      "agent": "adversary",
-      "observations": [
-        "The upstream agent's conclusion that the WARN Act's provisions are likely to be important in a crisis regime, with a confidence level of 70%, seems to be the most plausible thesis."
-      ],
-      "logic": [
-        "The presence of a crisis regime, indicated by the brain's crisis regime probability of 67%, and the potential impact of the WARN Act's provisions on employers and employees -> The WARN Act's provisions are likely to be crucial in protecting workers' rights and providing timely notice -> The importance of the WARN Act's provisions is heightened in a crisis regime, making it a key factor to consider."
-      ],
-      "counters": [
-        "The brain's crisis regime probability dropping below 30% could render the WARN Act's provisions less important, and the market may become less volatile."
-      ],
-      "conclusions": [
-        "The upstream agent's conclusion is plausible, but it depends on the brain's crisis regime probability remaining above 30%."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The upstream agent's conclusion that the WARN Act's provisions are likely to be important in a crisis regime, with a confidence level of 70%, seems to be the most plausible thesis.\nLOGIC: The presence of a crisis regime, indicated by the brain's crisis regime probability of 67%, and the potential impact of the WARN Act's provisions on employers and employees -> The WARN Act's provisions are likely to be crucial in protecting workers' rights and providing timely notice -> The importance ",
-      "id": "58d011867ab1",
-      "timestamp": "2026-04-04T14:05:53.126067",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The weakest thesis is the **THESIS:** Credit Market Trends and Equity Performance, with a confidence level of 60%."
-      ],
-      "logic": [
-        "The HYG divergence and forced selling -> Equity market decline -> Credit leads equity pattern -> The thesis relies on a specific pattern materializing, which may not occur."
-      ],
-      "counters": [
-        "The HYG volatility surge being accompanied by positive news could render the credit leads equity pattern less likely to occur."
-      ],
-      "conclusions": [
-        "The **THESIS:** Credit Market Trends and Equity Performance is the weakest thesis due to its reliance on a specific pattern and lower confidence level."
-      ],
-      "dependencies": [
-        "The brain's crisis regime probability remaining above 30%."
-      ],
-      "falsifications": [
-        "The brain's crisis regime probability drops below 30%, and the market becomes less volatile, making the WARN Act's provisions less important."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The upstream agent's conclusion that the WARN Act's provisions are likely to be important in a crisis regime, with a confidence level of 70%, seems to be the most plausible thesis.\nLOGIC: The presence of a crisis regime, indicated by the brain's crisis regime probability of 67%, and the potential impact of the WARN Act's provisions on employers and employees -> The WARN Act's provisions are likely to be crucial in protecting workers' rights and providing timely notice -> The importance ",
-      "id": "57efd6ba6a4f",
-      "timestamp": "2026-04-04T14:05:53.126067",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "credit_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The biggest blind spot is the lack of consideration for external factors, such as global economic trends, geopolitical events, and unexpected market shocks."
-      ],
-      "logic": [
-        "The theses and analysis focus primarily on internal market factors, such as the brain's crisis regime probability and HYG divergence -> External factors can significantly impact the market, making it essential to consider them in the analysis."
-      ],
-      "counters": [
-        "The analysis does consider some external factors, such as the RBI's measures to stabilize the market and support economic growth."
-      ],
-      "conclusions": [
-        "The biggest blind spot is the lack of comprehensive consideration for external factors, which can significantly impact the market."
-      ],
-      "dependencies": [
-        "The HYG volatility surge being accompanied by positive news."
-      ],
-      "falsifications": [
-        "The HYG volatility surge is accompanied by positive news, and the credit leads equity pattern does not materialize."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The upstream agent's conclusion that the WARN Act's provisions are likely to be important in a crisis regime, with a confidence level of 70%, seems to be the most plausible thesis.\nLOGIC: The presence of a crisis regime, indicated by the brain's crisis regime probability of 67%, and the potential impact of the WARN Act's provisions on employers and employees -> The WARN Act's provisions are likely to be crucial in protecting workers' rights and providing timely notice -> The importance ",
-      "id": "ffa056820144",
-      "timestamp": "2026-04-04T14:05:53.126067",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "credit_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime."
-      ],
-      "logic": [
-        "The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> The market may react to these notices by becoming more volatile."
-      ],
-      "counters": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, may not necessarily lead to a higher number of WARN Act notices being filed, as employers may be able to adapt to the changing market conditions without resorting to mass layoffs or plant closures."
-      ],
-      "conclusions": [
-        "Despite the counterargument, I conclude that the WARN Act's provisions are likely to take on increased importance in a crisis regime, and the market may react to WARN Act notices by becoming more volatile."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> The market may react to these notices by becoming m",
-      "id": "c07346e0913b",
-      "timestamp": "2026-04-04T19:57:26.303482",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's crisis regime probability is 67%, and the market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, and GOLD all showing similar patterns of uncertainty."
-      ],
-      "logic": [
-        "The high probability of a crisis regime, combined with the similar patterns in the SP500, NIFTY50, and GOLD, suggests that the market is highly volatile and uncertain -> This uncertainty could lead to a higher number of WARN Act notices being filed, as employers may be more likely to undergo mass layoffs or plant closures -> The market may react to these notices by becoming even more volatile."
-      ],
-      "counters": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, may not necessarily lead to a higher number of WARN Act notices being filed, as employers may be able to adapt to the changing market conditions without resorting to mass layoffs or plant closures. Additionally, the [ETF] data shows that most ETFs have a \"NEUTRAL\" signal, which may indicate that the market is not yet reacting strongly to the potential crisis regime."
-      ],
-      "conclusions": [
-        "Despite the counterargument, I conclude that the high probability of a crisis regime, combined with the similar patterns in the SP500, NIFTY50, and GOLD, suggests that the market is highly volatile and uncertain, and the WARN Act's provisions are likely to take on increased importance in this regime."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, and the market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, and GOLD all showing similar patterns of uncertainty.\n\nLOGIC: The high probability of a crisis regime, combined with the similar patterns in the SP500, NIFTY50, and GOLD, suggests that the market is highly volatile and uncertain -> This uncertainty could lead to a higher number of WARN Act notices being filed, as employers may be more likely to",
-      "id": "494d0880a90a",
-      "timestamp": "2026-04-04T19:57:26.303568",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "pattern_match"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%. The SP500, NIFTY50, and GOLD are all showing similar patterns of uncertainty, with the GOLD/SP500 correlation breaking down."
-      ],
-      "logic": [
-        "The high probability of a crisis regime, combined with the breakdown in the GOLD/SP500 correlation, suggests that the market is highly volatile and uncertain -> This uncertainty could lead to a higher number of WARN Act notices being filed, as employers may be more likely to undergo mass layoffs or plant closures -> The market may react to these notices by becoming even more volatile."
-      ],
-      "counters": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, may not necessarily lead to a higher number of WARN Act notices being filed, as employers may be able to adapt to the changing market conditions without resorting to mass layoffs or plant closures."
-      ],
-      "conclusions": [
-        "The market is likely to remain highly volatile, with a high probability of a crisis regime. The breakdown in the GOLD/SP500 correlation and the \"extreme fear\" reading on the F&G index suggest that investors are becoming increasingly risk-averse, which could lead to further market declines."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the F&G index showing \"extreme fear\" and the brain's crisis regime probability at 67%. The SP500, NIFTY50, and GOLD are all showing similar patterns of uncertainty, with the GOLD/SP500 correlation breaking down.\n\nLOGIC: The high probability of a crisis regime, combined with the breakdown in the GOLD/SP500 correlation, suggests that the market is highly volatile and uncertain -> This uncertainty could lead",
-      "id": "4f337f1de072",
-      "timestamp": "2026-04-04T19:57:26.303618",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "narrative",
       "observations": [
         "LLM ERROR"
@@ -8889,7 +8731,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is RISK_ON (71%), with most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing an upward trend over the past 30 days, and a stronger upward trend in the SP500 over the past 5 and 10 days.\n\nLOGIC: The high percentage of RISK_ON regime suggests that investors are currently optimistic about the market, leading to increased investment in riskier assets -> This could be due to the recent statements from FED leaders, such as Bowman, who emphasized the imp",
       "id": "6578d4d3fd2d",
       "timestamp": "2026-04-16T16:58:42.509063",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -8914,7 +8756,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is RISK_ON (71%), with most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing an upward trend over the past 30 days, and a stronger upward trend in the SP500 over the past 5 and 10 days. Additionally, the ETF signals for most sectors are neutral, with the exception of a few sectors such as Energy and Semis, which have positive changes.\n\nLOGIC: The high percentage of RISK_ON regime and the upward trends in most assets suggest that investors are curr",
       "id": "34354a0e8806",
       "timestamp": "2026-04-16T16:58:42.509134",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -8939,7 +8781,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is RISK_ON (71%), with most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing an upward trend over the past 30 days, and a stronger upward trend in the SP500 over the past 5 and 10 days.\n\nLOGIC: The high percentage of RISK_ON regime suggests that investors are currently optimistic about the market, leading to increased investment in riskier assets -> This could be due to the recent statements from FED leaders, such as Bowman, who emphasized the imp",
       "id": "0fbc57176219",
       "timestamp": "2026-04-16T16:58:42.509279",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -8964,7 +8806,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is RISK_ON (71%), with most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing an upward trend over the past 30 days, and a stronger upward trend in the SP500 over the past 5 and 10 days.\n\nLOGIC: The high percentage of RISK_ON regime suggests that investors are currently optimistic about the market, leading to increased investment in riskier assets -> This could be due to the recent statements from FED leaders, such as Bowman, who emphasized the imp",
       "id": "d7aa9ad3b305",
       "timestamp": "2026-04-16T16:58:42.509319",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -8989,7 +8831,7 @@
       "raw_excerpt": "### 1. RECONCILE Contradictions Between Agents\n\nAfter analyzing the data provided by various agents, I side with the **UPSTREAM** agent. The UPSTREAM agent's conclusion that the market is likely to continue its upward trend in the short term, but with a significant risk of a downturn due to the high crisis regime probability, seems most plausible. This agent considers both the optimistic market sentiment due to the FED's supportive statements and the potential risks indicated by the high crisis ",
       "id": "8613cff29a1f",
       "timestamp": "2026-04-16T16:58:42.509727",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9014,7 +8856,7 @@
       "raw_excerpt": "### Attack on the Synthesizer's Output\n\n#### Weakest Thesis: Market Continuation with Caution\nThe weakest thesis is the \"Market Continuation with Caution\" because it is based on a delicate balance of factors, including the RISK_ON regime, high crisis regime probability, and the sentiments of foreign and domestic investors. This balance can easily be disrupted by any significant change in these factors, leading to a downturn in the market.\n\n#### Biggest Blind Spot: Overreliance on FED's Supportiv",
       "id": "5d05fe90fe98",
       "timestamp": "2026-04-16T16:58:42.510039",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12854,6 +12696,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "ad7fc00eb783",
       "timestamp": "2026-04-23T06:31:43.240043",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8a3b7b803b44",
+      "timestamp": "2026-04-23T17:06:41.975923",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "1945c8478ff0",
+      "timestamp": "2026-04-23T17:06:41.975972",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "b92003588b39",
+      "timestamp": "2026-04-23T17:06:41.976023",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "a64eaa4e8845",
+      "timestamp": "2026-04-23T17:06:41.976045",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "92b13313a365",
+      "timestamp": "2026-04-23T17:06:41.976066",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "d1037e2f813a",
+      "timestamp": "2026-04-23T17:06:41.976083",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
