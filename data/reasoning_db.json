@@ -1,158 +1,6 @@
 {
   "chains": [
     {
-      "agent": "flow",
-      "observations": [
-        "The brain's regime is at 67% TRANSITION, indicating a high probability of a crisis regime, while the market conditions, as indicated by the F&G index and the ETF signals, are mostly neutral."
-      ],
-      "logic": [
-        "The high probability of a crisis regime -> suggests increased market volatility and potential economic downturn -> implies a need for careful analysis and risk management, but the neutral ETF signals -> suggest a lack of clear direction in the market -> imply a need for caution and careful consideration of multiple scenarios."
-      ],
-      "counters": [
-        "The current market conditions may be overstating the likelihood of a crisis, and the market may be due for a correction, which could be supported by the neutral ETF signals and the lack of clear direction in the market."
-      ],
-      "conclusions": [
-        "I conclude that the current market conditions warrant caution and careful analysis, but the likelihood of a crisis regime may be overstated, and a more nuanced approach considering multiple scenarios is necessary."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's regime is at 67% TRANSITION, indicating a high probability of a crisis regime, while the market conditions, as indicated by the F&G index and the ETF signals, are mostly neutral.\nLOGIC: The high probability of a crisis regime -> suggests increased market volatility and potential economic downturn -> implies a need for careful analysis and risk management, but the neutral ETF signals -> suggest a lack of clear direction in the market -> imply a need for caution and careful co",
-      "id": "5d1b5c6c0476",
-      "timestamp": "2026-04-05T08:09:59.685340",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The FII/DII data shows a significant net outflow of funds by FII/FPI, while DII has a net inflow of funds."
-      ],
-      "logic": [
-        "The net outflow of funds by FII/FPI -> suggests a lack of confidence in the market by foreign investors -> implies a potential increase in market volatility, while the net inflow of funds by DII -> suggests a more positive outlook by domestic investors -> implies a potential stabilizing effect on the market."
-      ],
-      "counters": [
-        "The net outflow of funds by FII/FPI may be due to global market trends and not specific to the domestic market, and the net inflow of funds by DII may be due to domestic economic factors and not necessarily a vote of confidence in the market."
-      ],
-      "conclusions": [
-        "I conclude that the FII/DII data suggests a mixed sentiment in the market, with foreign investors showing a lack of confidence and domestic investors showing a more positive outlook, which could lead to increased market volatility."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is a significant increase in the Brier score, indicating a high level of accuracy in the brain's predictions, or a clear shift in the ETF signals towards a more bullish or bearish direction."
-      ],
-      "falsifications": [
-        "The market experiences a sudden and unexpected upswing, contradicting the current crisis regime prediction, or a clear and sustained trend emerges in the market, contradicting the neutral ETF signals."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's regime is at 67% TRANSITION, indicating a high probability of a crisis regime, while the market conditions, as indicated by the F&G index and the ETF signals, are mostly neutral.\nLOGIC: The high probability of a crisis regime -> suggests increased market volatility and potential economic downturn -> implies a need for careful analysis and risk management, but the neutral ETF signals -> suggest a lack of clear direction in the market -> imply a need for caution and careful co",
-      "id": "8dbde960357c",
-      "timestamp": "2026-04-05T08:09:59.685340",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions indicate a high probability of a crisis regime, with the brain's regime at 67% TRANSITION, and the F&G index showing EXTREME FEAR at 19.3."
-      ],
-      "logic": [
-        "The high probability of a crisis regime and extreme fear in the market -> suggests increased market volatility and potential economic downturn -> implies a need for careful analysis and risk management, as evidenced by the BREAK in GOLD/SP500, DXY/GOLD, VIX/SP500, and OIL_WTI/USDINR correlations."
-      ],
-      "counters": [
-        "The current market conditions, as indicated by the neutral ETF signals and the lack of clear direction in the market, may be overstating the likelihood of a crisis, and the market may be due for a correction, which could be supported by the fact that the Brier score is not available to validate the accuracy of the brain's regime prediction."
-      ],
-      "conclusions": [
-        "I conclude that the current market conditions warrant caution and careful analysis, and the high probability of a crisis regime may be overstated, but the EXTREME FEAR indicated by the F&G index and the BREAK in key correlations suggest that the market is highly volatile and sensitive to changes in economic conditions."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the brain's regime at 67% TRANSITION, and the F&G index showing EXTREME FEAR at 19.3.\n\nLOGIC: The high probability of a crisis regime and extreme fear in the market -> suggests increased market volatility and potential economic downturn -> implies a need for careful analysis and risk management, as evidenced by the BREAK in GOLD/SP500, DXY/GOLD, VIX/SP500, and OIL_WTI/USDINR correlations.\n\nCOUNTER: The cu",
-      "id": "fd1b3711185c",
-      "timestamp": "2026-04-05T08:09:59.685383",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions indicate a high probability of a crisis regime, with the brain's regime at 67% TRANSITION, and the F&G index showing EXTREME FEAR at 19.3. Agents 1-3 are following the herd, with their analysis aligning with the consensus view of increased market volatility and potential economic downturn."
-      ],
-      "logic": [
-        "The high probability of a crisis regime and extreme fear in the market -> suggests increased market volatility and potential economic downturn -> implies a need for careful analysis and risk management. The Agents' analysis, although following the herd, -> highlights the importance of considering multiple scenarios and potential outcomes -> implies a need for diversification and hedging strategies."
-      ],
-      "counters": [
-        "The current market conditions, as indicated by the neutral ETF signals and the lack of clear direction in the market, -> suggest that the market may be due for a correction -> implies that the Agents' consensus view may be overstating the likelihood of a crisis. The absence of clear validation signals and the high degree of uncertainty -> suggest that alternative scenarios, such as a market correction or a return to stability, -> should also be considered."
-      ],
-      "conclusions": [
-        "I conclude that the current market conditions warrant caution and careful analysis, but the Agents' consensus view may be overstating the likelihood of a crisis. A more nuanced approach, considering multiple scenarios and potential outcomes, is necessary to navigate the current market environment."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the brain's regime at 67% TRANSITION, and the F&G index showing EXTREME FEAR at 19.3. Agents 1-3 are following the herd, with their analysis aligning with the consensus view of increased market volatility and potential economic downturn.\n\nLOGIC: The high probability of a crisis regime and extreme fear in the market -> suggests increased market volatility and potential economic downturn -> implies a need f",
-      "id": "912d68414834",
-      "timestamp": "2026-04-05T08:09:59.685412",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "2365aa789733",
-      "timestamp": "2026-04-05T08:09:59.685663",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The regime is in a transition state with a 67% probability, and various market indices (SP500, NIFTY50) and GOLD are showing similar trends with a slight bias towards an upward movement."
-      ],
-      "logic": [
-        "The consistent upward trend across different time frames (5d, 10d, 30d) for both SP500 and NIFTY50, along with GOLD, suggests a potential bullish market sentiment -> This could imply a continued upward trend in the short to medium term -> The transition regime might be leaning towards a more defined bullish state."
-      ],
-      "counters": [
-        "The fact that the probabilities for upward, downward, and flat movements are relatively close (e.g., 34% down, 27% flat, 38% up for SP500 over 5 days) indicates a high level of uncertainty and potential for sudden changes in market direction."
-      ],
-      "conclusions": [
-        "The current market trends and regime transition suggest a cautious approach, as the similarities in movement probabilities across different assets and time frames may not be sustainable, indicating potential volatility."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The regime is in a transition state with a 67% probability, and various market indices (SP500, NIFTY50) and GOLD are showing similar trends with a slight bias towards an upward movement.\n\nLOGIC: The consistent upward trend across different time frames (5d, 10d, 30d) for both SP500 and NIFTY50, along with GOLD, suggests a potential bullish market sentiment -> This could imply a continued upward trend in the short to medium term -> The transition regime might be leaning towards a more def",
-      "id": "24a575d50b44",
-      "timestamp": "2026-04-05T08:09:59.685717",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "sentiment_contrarian"
-    },
-    {
       "agent": "upstream",
       "observations": [
         "The WARN Act requires employers to provide written notice at least 60 days in advance of mass layoffs or plant closures, as stated in California Labor Code, Section 1400."
@@ -8911,7 +8759,7 @@
       "raw_excerpt": "OBSERVE: The current market trends indicate a mix of upward and downward movements, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY showing varying degrees of volatility over the past 30 days.\n\nLOGIC: The presence of volatility in multiple markets -> suggests a high level of uncertainty and risk -> implies that investors are likely to be cautious and seeking safe-haven assets.\n\nCOUNTER: The recent upward trends in the SP500 and NIFTY50 over the past 5 and 10 days could indicate a pote",
       "id": "92b9e47ec53f",
       "timestamp": "2026-04-17T15:49:30.914784",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8936,7 +8784,7 @@
       "raw_excerpt": "OBSERVE: The current market trends indicate a mix of upward and downward movements, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY showing varying degrees of volatility over the past 30 days, and the ETF data showing neutral signals across various asset classes.\n\nLOGIC: The presence of volatility in multiple markets and the neutral signals from ETFs -> suggests a high level of uncertainty and risk -> implies that investors are likely to be cautious and seeking safe-haven assets, but ",
       "id": "ef67ab1de10f",
       "timestamp": "2026-04-17T15:49:30.914844",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -8961,7 +8809,7 @@
       "raw_excerpt": "OBSERVE: The current market trends indicate a mix of upward and downward movements, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY showing varying degrees of volatility over the past 30 days, and the correlations between GOLD/SP500, HYG/SP500, COPPER/SP500, DXY/GOLD, VIX/SP500, OIL_WTI/USDINR, US10Y/GOLD, BITCOIN/NASDAQ, TLT/SP500, and COPPER/OIL_WTI showing breaks in their traditional relationships.\n\nLOGIC: The presence of volatility in multiple markets and the breaks in correlation",
       "id": "176a7b31eeec",
       "timestamp": "2026-04-17T15:49:30.914872",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "credit_signal"
@@ -8986,7 +8834,7 @@
       "raw_excerpt": "OBSERVE: The current market trends indicate a mix of upward and downward movements, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY showing varying degrees of volatility over the past 30 days.\n\nLOGIC: The presence of volatility in multiple markets -> suggests a high level of uncertainty and risk -> implies that investors are likely to be cautious and seeking safe-haven assets, but the recent upward trends in the SP500 and NIFTY50 over the past 5 and 10 days could indicate a potential ",
       "id": "916fc90c851e",
       "timestamp": "2026-04-17T15:49:30.914966",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9015,7 +8863,7 @@
       "raw_excerpt": "OBSERVE: The current market trends indicate a mix of upward and downward movements, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY showing varying degrees of volatility over the past 30 days.\n\nLOGIC: The presence of volatility in multiple markets -> suggests a high level of uncertainty and risk -> implies that investors are likely to be cautious and seeking safe-haven assets, but the recent upward trends in the SP500 and NIFTY50 over the past 5 and 10 days could indicate a potential ",
       "id": "fa34c6b00e04",
       "timestamp": "2026-04-17T15:49:30.914966",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9038,7 +8886,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "327742bdf118",
       "timestamp": "2026-04-17T15:49:30.915072",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9061,7 +8909,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "c25006662e1a",
       "timestamp": "2026-04-17T15:49:30.915091",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12814,6 +12662,144 @@
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "b98f7bf7ee09",
+      "timestamp": "2026-04-24T15:57:24.857152",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "d681338d3c9f",
+      "timestamp": "2026-04-24T15:57:24.857209",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "100943272676",
+      "timestamp": "2026-04-24T15:57:24.857237",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "f9ad32d46e2e",
+      "timestamp": "2026-04-24T15:57:24.857260",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8737131f9c98",
+      "timestamp": "2026-04-24T15:57:24.857282",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "9e7a097847d9",
+      "timestamp": "2026-04-24T15:57:24.857302",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
       "reasoning_type": "general"
     }
   ],
