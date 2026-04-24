@@ -1,164 +1,6 @@
 {
   "chains": [
     {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days in advance of mass layoffs or plant closures, as stated in California Labor Code, Section 1400."
-      ],
-      "logic": [
-        "The WARN Act's provisions are in place to protect workers' rights and provide them with sufficient notice in case of significant job losses -> This suggests that the Act is crucial for maintaining labor market stability and preventing sudden disruptions -> The implementation of the WARN Act may have a positive impact on the overall economy by reducing the likelihood of mass layoffs and promoting more gradual workforce adjustments."
-      ],
-      "counters": [
-        "One potential argument against the effectiveness of the WARN Act is that it may impose undue burdens on employers, particularly small businesses, by requiring them to provide lengthy notices and potentially hindering their ability to respond quickly to changing market conditions."
-      ],
-      "conclusions": [
-        "Based on the information provided, I conclude that the WARN Act's provisions are likely to have a positive impact on the labor market and the overall economy by promoting more gradual workforce adjustments and protecting workers' rights."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days in advance of mass layoffs or plant closures, as stated in California Labor Code, Section 1400.\nLOGIC: The WARN Act's provisions are in place to protect workers' rights and provide them with sufficient notice in case of significant job losses -> This suggests that the Act is crucial for maintaining labor market stability and preventing sudden disruptions -> The implementation of the WARN Act may have a positive i",
-      "id": "ed2205560681",
-      "timestamp": "2026-04-05T14:08:32.363964",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's probability of the regime being in TRANSITION is 67%, and the market indicators such as SP500, NIFTY50, and GOLD are showing UP (LOW) trends with similar probability distributions."
-      ],
-      "logic": [
-        "The consistency in the probability distributions across different market indicators suggests a potential correlation between the market trends and the regime transition -> This correlation may imply that the market is experiencing a period of instability or adjustment, which could be driven by various economic or geopolitical factors -> The brain's high probability of the regime being in TRANSITION may be a reflection of the market's uncertainty and the need for a clearer direction."
-      ],
-      "counters": [
-        "One potential counterargument is that the similarity in probability distributions across different market indicators could be due to random chance or noise in the data, rather than an actual correlation between the market trends and the regime transition."
-      ],
-      "conclusions": [
-        "Based on the information provided, I conclude that the market is likely experiencing a period of instability or adjustment, and the brain's high probability of the regime being in TRANSITION may be a reflection of the market's uncertainty."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's probability of the regime being in TRANSITION is 67%, and the market indicators such as SP500, NIFTY50, and GOLD are showing UP (LOW) trends with similar probability distributions.\nLOGIC: The consistency in the probability distributions across different market indicators suggests a potential correlation between the market trends and the regime transition -> This correlation may imply that the market is experiencing a period of instability or adjustment, which could be driven",
-      "id": "a0bd2c817265",
-      "timestamp": "2026-04-05T14:08:32.364109",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "divergence_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The ETF data shows that most of the ETFs have a \"NEUTRAL\" signal, with vol_ratio and chg values that are not extreme."
-      ],
-      "logic": [
-        "The lack of extreme values in the ETF data suggests that the market is not experiencing any significant shocks or disruptions -> This could imply that the market is in a state of equilibrium, with buyers and sellers being relatively balanced -> The \"NEUTRAL\" signal from most ETFs may indicate that the market is waiting for a catalyst or a clear direction before making a significant move."
-      ],
-      "counters": [
-        "One potential counterargument is that the \"NEUTRAL\" signal from the ETFs could be a sign of complacency or a lack of conviction among market participants, which could lead to a sudden and significant move in the market."
-      ],
-      "conclusions": [
-        "Based on the information provided, I conclude that the market is likely in a state of equilibrium, with buyers and sellers being relatively balanced, and waiting for a catalyst or a clear direction before making a significant move."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is if the brain's probability of the regime being in TRANSITION were to drop significantly, indicating a clearer direction in the market."
-      ],
-      "falsifications": [
-        "The conclusion would be proven wrong if the market were to experience a sudden and significant shift in trend, contradicting the brain's probability of the regime being in TRANSITION."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's probability of the regime being in TRANSITION is 67%, and the market indicators such as SP500, NIFTY50, and GOLD are showing UP (LOW) trends with similar probability distributions.\nLOGIC: The consistency in the probability distributions across different market indicators suggests a potential correlation between the market trends and the regime transition -> This correlation may imply that the market is experiencing a period of instability or adjustment, which could be driven",
-      "id": "26cf7233cfe0",
-      "timestamp": "2026-04-05T14:08:32.364109",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The FII/DII data shows that the DIIs have a positive net value, while the FIIs have a negative net value."
-      ],
-      "logic": [
-        "The positive net value of the DIIs suggests that domestic investors are bullish on the market, while the negative net value of the FIIs suggests that foreign investors are bearish -> This could imply that there is a divergence in sentiment between domestic and foreign investors, which could lead to a potential imbalance in the market -> The brain's probability of the regime being in TRANSITION may be related to this divergence in sentiment."
-      ],
-      "counters": [
-        "One potential counterargument is that the FII/DII data may not be a reliable indicator of market sentiment, as it only reflects the actions of a specific group of investors."
-      ],
-      "conclusions": [
-        "Based on the information provided, I conclude that there is a potential divergence in sentiment between domestic and foreign investors, which could lead to a potential imbalance in the market."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is if one or more of the ETFs were to show an extreme value in vol_ratio or chg, indicating a potential shock or disruption in the market."
-      ],
-      "falsifications": [
-        "The conclusion would be proven wrong if the market were to experience a sudden and significant shift in trend, contradicting the \"NEUTRAL\" signal from the ETFs."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's probability of the regime being in TRANSITION is 67%, and the market indicators such as SP500, NIFTY50, and GOLD are showing UP (LOW) trends with similar probability distributions.\nLOGIC: The consistency in the probability distributions across different market indicators suggests a potential correlation between the market trends and the regime transition -> This correlation may imply that the market is experiencing a period of instability or adjustment, which could be driven",
-      "id": "fd4821d72355",
-      "timestamp": "2026-04-05T14:08:32.364109",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "flow_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating of 19.3, and the brain's probability of the regime being in TRANSITION is 67%."
-      ],
-      "logic": [
-        "The combination of extreme fear in the market and a high probability of regime transition suggests that investors are highly uncertain and risk-averse, leading to a potential increase in market volatility -> This uncertainty may cause investors to seek safe-haven assets, such as bonds or gold, which could lead to a decrease in stock prices -> The break in the GOLD/SP500 correlation, with gold prices decreasing by 1.68% and the SP500 increasing by 0.11%, may indicate a shift in investor sentiment towards risk-off assets."
-      ],
-      "counters": [
-        "One potential counterargument is that the extreme fear rating may be an overreaction, and the market may be due for a correction, leading to a potential increase in stock prices."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and the brain's probability of regime transition, I conclude that the market is likely to remain highly volatile, with a high probability of a crisis regime."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating of 19.3, and the brain's probability of the regime being in TRANSITION is 67%.\nLOGIC: The combination of extreme fear in the market and a high probability of regime transition suggests that investors are highly uncertain and risk-averse, leading to a potential increase in market volatility -> This uncertainty may cause investors to seek safe-haven assets, such as bonds or gold, which could lead t",
-      "id": "e3ae606276b9",
-      "timestamp": "2026-04-05T14:08:32.364191",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The majority of the news articles and market indicators suggest a high level of uncertainty and volatility in the market, with the brain's probability of the regime being in TRANSITION at 67%."
-      ],
-      "logic": [
-        "The consistency in the probability distributions across different market indicators, such as SP500, NIFTY50, and GOLD, suggests a potential correlation between the market trends and the regime transition -> This correlation may imply that the market is experiencing a period of instability or adjustment, which could be driven by various economic or geopolitical factors -> The high probability of regime transition may lead to increased market volatility, causing investors to seek safe-haven assets."
-      ],
-      "counters": [
-        "The argument that the market is experiencing a period of instability or adjustment could be countered by the fact that some stocks, such as those mentioned in the ET articles, have shown significant upside potential and growth despite the market volatility."
-      ],
-      "conclusions": [
-        "The market is likely to remain highly volatile, with a high probability of regime transition, and investors should be cautious and consider seeking safe-haven assets."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The majority of the news articles and market indicators suggest a high level of uncertainty and volatility in the market, with the brain's probability of the regime being in TRANSITION at 67%.\nLOGIC: The consistency in the probability distributions across different market indicators, such as SP500, NIFTY50, and GOLD, suggests a potential correlation between the market trends and the regime transition -> This correlation may imply that the market is experiencing a period of instability o",
-      "id": "379c3f45a90b",
-      "timestamp": "2026-04-05T14:08:32.364258",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "narrative",
       "observations": [
         "Agents 1-3 are following the herd in their analysis, focusing on the WARN Act, market trends, and news reports."
@@ -12800,6 +12642,144 @@
       "status": "active",
       "outcome_score": null,
       "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "216ba2bd91e7",
+      "timestamp": "2026-04-24T20:09:49.384348",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "1233860ab407",
+      "timestamp": "2026-04-24T20:09:49.384402",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "ed673d963f57",
+      "timestamp": "2026-04-24T20:09:49.384429",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "a88355559522",
+      "timestamp": "2026-04-24T20:09:49.384452",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "9487e16b35a3",
+      "timestamp": "2026-04-24T20:09:49.384473",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "af2b92b77481",
+      "timestamp": "2026-04-24T20:09:49.384490",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
       "reasoning_type": "general"
     }
   ],
