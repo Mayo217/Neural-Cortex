@@ -1,168 +1,6 @@
 {
   "chains": [
     {
-      "agent": "adversary",
-      "observations": [
-        "The signal weights for the SP500, NIFTY50, and GOLD indicators are not explicitly stated."
-      ],
-      "logic": [
-        "The absence of explicit signal weights may indicate that the analysis is relying on equal weighting or an unspecified weighting scheme -> This could lead to an uneven distribution of influence among the indicators, potentially skewing the results -> The lack of transparency in signal weights may undermine the credibility of the analysis."
-      ],
-      "counters": [
-        "The signal weights may be implicitly defined or based on a complex algorithm not readily apparent."
-      ],
-      "conclusions": [
-        "The attack on signal weights highlights the need for transparency and explicit definition of weighting schemes."
-      ],
-      "dependencies": [
-        "The impact of external factors on the market and the brain's ability to incorporate them into the analysis."
-      ],
-      "falsifications": [
-        "The market shows no significant response to external factors, validating the focus on internal market dynamics."
-      ],
-      "assets": [],
-      "raw_excerpt": "### 1. WEAKEST THESIS\n\nOBSERVE: The thesis \"Market Volatility and Regime Transition\" relies on a high probability of regime transition (67%) and its potential impact on market volatility and investor confidence.\nLOGIC: The thesis assumes a direct relationship between regime transition and market volatility, which may not always be the case -> The thesis may be overly simplistic and not account for other factors that could influence market volatility -> The reliance on a single probability figure",
-      "id": "e5e1a1def864",
-      "timestamp": "2026-04-05T14:08:32.364649",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The brain's probability of the regime being in TRANSITION is 67%, but the underlying factors and calculations are not provided."
-      ],
-      "logic": [
-        "The lack of transparency in probability calculations may indicate that the figure is arbitrary or based on incomplete data -> This could lead to mistrust in the analysis and its conclusions -> The probability figure may not accurately reflect the true likelihood of regime transition."
-      ],
-      "counters": [
-        "The probability calculation may be based on a complex model or proprietary data not publicly available."
-      ],
-      "conclusions": [
-        "The attack on probabilities highlights the need for transparency and explicit definition of calculation methods."
-      ],
-      "dependencies": [
-        "The availability of explicit signal weights and their impact on the analysis."
-      ],
-      "falsifications": [
-        "The analysis is shown to be robust to different weighting schemes, rendering the signal weights irrelevant."
-      ],
-      "assets": [],
-      "raw_excerpt": "### 1. WEAKEST THESIS\n\nOBSERVE: The thesis \"Market Volatility and Regime Transition\" relies on a high probability of regime transition (67%) and its potential impact on market volatility and investor confidence.\nLOGIC: The thesis assumes a direct relationship between regime transition and market volatility, which may not always be the case -> The thesis may be overly simplistic and not account for other factors that could influence market volatility -> The reliance on a single probability figure",
-      "id": "2e8d1d81e3c0",
-      "timestamp": "2026-04-05T14:08:32.364649",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "policy_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The regime transition is predicted with a high probability (67%), but the underlying drivers and potential outcomes are not fully explored."
-      ],
-      "logic": [
-        "The lack of exploration of regime transition drivers and outcomes may indicate that the analysis is focused on short-term market fluctuations rather than long-term trends -> This could lead to a narrow perspective on the market, potentially missing critical influences on market behavior -> The regime transition prediction may not be supported by a comprehensive understanding of the underlying factors."
-      ],
-      "counters": [
-        "The analysis may be intentionally focused on short-term market fluctuations to provide timely and actionable insights."
-      ],
-      "conclusions": [
-        "The attack on regime transition highlights the need for a comprehensive understanding of the underlying drivers and potential outcomes."
-      ],
-      "dependencies": [
-        "The availability of underlying data and calculation methods used to determine the probability."
-      ],
-      "falsifications": [
-        "The probability calculation is shown to be based on a robust and reliable model, validating the figure."
-      ],
-      "assets": [],
-      "raw_excerpt": "### 1. WEAKEST THESIS\n\nOBSERVE: The thesis \"Market Volatility and Regime Transition\" relies on a high probability of regime transition (67%) and its potential impact on market volatility and investor confidence.\nLOGIC: The thesis assumes a direct relationship between regime transition and market volatility, which may not always be the case -> The thesis may be overly simplistic and not account for other factors that could influence market volatility -> The reliance on a single probability figure",
-      "id": "3a5c9d925a09",
-      "timestamp": "2026-04-05T14:08:32.364649",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, as stated in the California Labor Code, Section 1400."
-      ],
-      "logic": [
-        "The WARN Act's provisions are in place to protect workers' rights and provide them with sufficient notice before a significant employment change -> This notice period allows workers to prepare and seek alternative employment -> The WARN Act's requirements are crucial for maintaining worker stability and reducing the impact of economic downturns."
-      ],
-      "counters": [
-        "The argument against the WARN Act's effectiveness is that it may not be feasible for employers to provide 60 days' notice in all situations, particularly during sudden economic crises."
-      ],
-      "conclusions": [
-        "The WARN Act's provisions are likely to play a significant role in protecting workers' rights during economic transitions, despite potential challenges in implementation."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, as stated in the California Labor Code, Section 1400.\nLOGIC: The WARN Act's provisions are in place to protect workers' rights and provide them with sufficient notice before a significant employment change -> This notice period allows workers to prepare and seek alternative employment -> The WARN Act's requirements are crucial for maintaining worker stability and reducing th",
-      "id": "60db94bf18c6",
-      "timestamp": "2026-04-05T19:52:56.278319",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's output indicates a 67% probability of a transition regime, with various market indices (SP500, NIFTY50, GOLD) showing a mix of upward and downward trends, but mostly neutral signals from the ETF data."
-      ],
-      "logic": [
-        "The presence of a transition regime, as indicated by the brain's output, suggests that the market is in a state of flux, with potential for significant changes in the near future -> This could lead to increased volatility and uncertainty, making it challenging for investors to make informed decisions -> The brain's probability of a transition regime may be influenced by various factors, including economic indicators, market trends, and legislative developments."
-      ],
-      "counters": [
-        "A counterargument to the brain's output could be that the market is simply experiencing a period of consolidation, and the transition regime is not a significant concern -> This could be supported by the neutral signals from the ETF data, which may indicate a lack of strong market momentum in either direction."
-      ],
-      "conclusions": [
-        "Based on the brain's output and the available data, it appears that the market is indeed in a transition regime, with potential for significant changes in the near future -> However, the neutral signals from the ETF data suggest that the market may be consolidating, and the transition regime may not be as severe as initially thought."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's output indicates a 67% probability of a transition regime, with various market indices (SP500, NIFTY50, GOLD) showing a mix of upward and downward trends, but mostly neutral signals from the ETF data.\nLOGIC: The presence of a transition regime, as indicated by the brain's output, suggests that the market is in a state of flux, with potential for significant changes in the near future -> This could lead to increased volatility and uncertainty, making it challenging for invest",
-      "id": "888cbb94b9ae",
-      "timestamp": "2026-04-05T19:52:56.278400",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating of 19.3, with various market indices (SP500, NIFTY50, GOLD) showing a mix of upward and downward trends, but mostly neutral signals from the ETF data. The brain's output indicates a 67% probability of a transition regime."
-      ],
-      "logic": [
-        "The presence of a transition regime, as indicated by the brain's output, suggests that the market is in a state of flux, with potential for significant changes in the near future -> This could lead to increased volatility and uncertainty, making it challenging for investors to make informed decisions -> The brain's probability of a transition regime may be influenced by various factors, including economic indicators, market trends, and legislative developments."
-      ],
-      "counters": [
-        "A counterargument to the brain's output could be that the market is simply experiencing a period of consolidation, and the transition regime is not a significant concern. Additionally, the F&G index's \"extreme fear\" rating may be an overreaction, and the market may be due for a rebound."
-      ],
-      "conclusions": [
-        "The current market conditions suggest a high level of uncertainty and volatility, and investors should exercise caution when making decisions. The brain's probability of a transition regime is a significant concern, and investors should be prepared for potential changes in the market."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating of 19.3, with various market indices (SP500, NIFTY50, GOLD) showing a mix of upward and downward trends, but mostly neutral signals from the ETF data. The brain's output indicates a 67% probability of a transition regime.\n\nLOGIC: The presence of a transition regime, as indicated by the brain's output, suggests that the market is in a state of flux, with potential for significant changes in the ne",
-      "id": "1b87f03a9c89",
-      "timestamp": "2026-04-05T19:52:56.278438",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "narrative",
       "observations": [
         "The current market conditions, as indicated by the F&G index, show an \"extreme fear\" rating of 19.3, with various market indices (SP500, NIFTY50, GOLD) showing a mix of upward and downward trends, but mostly neutral signals from the ETF data. The brain's output indicates a 67% probability of a transition regime."
@@ -8976,7 +8814,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is classified as RISK_ON (71%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing mixed trends over 30-day and 5-day/10-day periods.\nLOGIC: The mixed market trends and high degree of uncertainty suggest a complex market environment -> this complexity may lead to increased market volatility -> implication is that investors and employers should be cautious and prepared for potential risks.\nCOUNTER: The fact that the SP500 has been up ov",
       "id": "f685dc3c7dec",
       "timestamp": "2026-04-18T08:10:34.028319",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9001,7 +8839,7 @@
       "raw_excerpt": "OBSERVE: The brain's classification of the current market regime as RISK_ON (71%) appears to contradict the mixed trends shown by various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) over 30-day and 5-day/10-day periods, with the SP500 showing a high probability of being up (63%) over the past 5 and 10 days.\nLOGIC: The brain's RISK_ON classification implies a high degree of confidence in a risk-on environment -> however, the mixed market trends and high probability of the SP500 being ",
       "id": "abf05a956a83",
       "timestamp": "2026-04-18T08:10:34.028383",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -9026,7 +8864,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is classified as RISK_ON (71%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing mixed trends over 30-day and 5-day/10-day periods, and several anomalies in correlations, including breaks in DXY/GOLD, VIX/SP500, US10Y/GOLD, BITCOIN/NASDAQ, and COPPER/OIL_WTI.\n\nLOGIC: The mixed market trends and high degree of uncertainty, combined with the anomalies in correlations, suggest a complex market environment -> this complexity may lead to ",
       "id": "dbd55e3f7e63",
       "timestamp": "2026-04-18T08:10:34.028416",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9051,7 +8889,7 @@
       "raw_excerpt": "OBSERVE: The current market regime is classified as RISK_ON (71%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing mixed trends over 30-day and 5-day/10-day periods, and several anomalies in correlations.\n\nLOGIC: The mixed market trends and high degree of uncertainty, combined with the anomalies in correlations, suggest a complex market environment -> this complexity may lead to increased market volatility and potential regime shifts -> implication is that investors ",
       "id": "9c325753458a",
       "timestamp": "2026-04-18T08:10:34.028515",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9105,7 +8943,7 @@
       "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nOBSERVE: The UPSTREAM agent recognizes the importance of unique and contrarian perspectives in market analysis, while other agents seem to follow the herd, focusing on current market trends and the brain's classification of the market regime.\n\nLOGIC: The UPSTREAM agent's emphasis on contrarian views and risk management -> suggests a more comprehensive approach to understanding market dynamics -> implication is that this approach may provide a more ",
       "id": "4c2a462b2ebd",
       "timestamp": "2026-04-18T08:10:34.028645",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9139,7 +8977,7 @@
       "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nOBSERVE: The UPSTREAM agent recognizes the importance of unique and contrarian perspectives in market analysis, while other agents seem to follow the herd, focusing on current market trends and the brain's classification of the market regime.\n\nLOGIC: The UPSTREAM agent's emphasis on contrarian views and risk management -> suggests a more comprehensive approach to understanding market dynamics -> implication is that this approach may provide a more ",
       "id": "efcbec9c616e",
       "timestamp": "2026-04-18T08:10:34.028645",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9164,7 +9002,7 @@
       "raw_excerpt": "### WEAKNESS ANALYSIS\n\nOBSERVE: The theses and regime analysis provided by the synthesizer are based on a combination of market trends, asset performances, and probability assessments.\n\nLOGIC: The reliance on these factors -> suggests a data-driven approach -> implication is that the accuracy of the theses and regime classification depends heavily on the quality and relevance of the data used.\n\nCOUNTER: The synthesizer might argue that its use of diverse data points, including trends in various ",
       "id": "03fa2e1574ec",
       "timestamp": "2026-04-18T08:10:34.028714",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9218,7 +9056,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions show a RISK_ON regime with a 71% probability, and most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) have an upward trend over the past 30 days, with a significant increase in the SP500 over the past 5 and 10 days.\n\nLOGIC: The current market trend and the high probability of a RISK_ON regime suggest that investors are optimistic about the market -> this optimism could lead to increased investment and economic growth -> which may further reinforce t",
       "id": "79c1a1c25165",
       "timestamp": "2026-04-18T14:13:57.868378",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -9243,7 +9081,7 @@
       "raw_excerpt": "OBSERVE: The brain's probability of a RISK_ON regime is 71%, and most assets have an upward trend over the past 30 days, with a significant increase in the SP500 over the past 5 and 10 days. However, the ETF data shows a \"NEUTRAL\" signal for all assets, indicating that the market may not be as optimistic as the brain's probability suggests.\n\nLOGIC: The discrepancy between the brain's probability and the ETF data's \"NEUTRAL\" signal could indicate that the market is not as confident in the RISK_ON",
       "id": "edbaf466c3fc",
       "timestamp": "2026-04-18T14:13:57.868446",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9268,7 +9106,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions show a RISK_ON regime with a 71% probability, and most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) have an upward trend over the past 30 days, with a significant increase in the SP500 over the past 5 and 10 days.\n\nLOGIC: The current market trend and the high probability of a RISK_ON regime suggest that investors are optimistic about the market -> this optimism could lead to increased investment and economic growth -> which may further reinforce t",
       "id": "511377d9fcf8",
       "timestamp": "2026-04-18T14:13:57.868482",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -9293,7 +9131,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions show a RISK_ON regime with a 71% probability, and most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) have an upward trend over the past 30 days, with a significant increase in the SP500 over the past 5 and 10 days. Agents 1-3 are following the herd, with their logic and observations aligning with the current market trend.\n\nLOGIC: The current market trend and the high probability of a RISK_ON regime suggest that investors are optimistic about the ma",
       "id": "1009bb9f30be",
       "timestamp": "2026-04-18T14:13:57.868520",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -9318,7 +9156,7 @@
       "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the reasoning history and current market conditions, I side with the **UPSTREAM** agent. The UPSTREAM agent's conclusion that the market is likely to remain in a RISK_ON regime, but with caution due to potential risks, aligns with the current market trend and the brain's probability of a RISK_ON regime. The UPSTREAM agent's logic and observations are also supported by the recent increase in the SP500 over the past 5 and 10 days.\n\n##",
       "id": "7f769b892d08",
       "timestamp": "2026-04-18T14:13:57.869006",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9341,7 +9179,7 @@
       "raw_excerpt": "OBSERVE: The brain's regime probability is RISK_ON (71%), with the SP500 and NIFTY50 showing upward trends over the past 30 days.\nLOGIC: The high probability of a RISK_ON regime, combined with the recent increase in the SP500 and NIFTY50, suggests that the market is likely to continue its upward trend, but with caution due to potential risks -> This could lead to increased investment and economic growth, reinforcing the RISK_ON regime -> However, the high confidence in the RISK_ON regime sustain",
       "id": "e6746d34c0e1",
       "timestamp": "2026-04-18T14:13:57.869079",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9368,7 +9206,7 @@
       "raw_excerpt": "OBSERVE: The brain's regime probability is RISK_ON (71%), with the SP500 and NIFTY50 showing upward trends over the past 30 days.\nLOGIC: The high probability of a RISK_ON regime, combined with the recent increase in the SP500 and NIFTY50, suggests that the market is likely to continue its upward trend, but with caution due to potential risks -> This could lead to increased investment and economic growth, reinforcing the RISK_ON regime -> However, the high confidence in the RISK_ON regime sustain",
       "id": "fd08b53856c4",
       "timestamp": "2026-04-18T14:13:57.869079",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "sentiment_contrarian"
@@ -12746,6 +12584,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "a072a3ab17fc",
       "timestamp": "2026-04-25T06:09:16.232496",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "b47b8937f762",
+      "timestamp": "2026-04-25T14:33:04.005944",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "1c3155fcdbee",
+      "timestamp": "2026-04-25T14:33:04.005990",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "956449e612d7",
+      "timestamp": "2026-04-25T14:33:04.006018",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "ebf823e75bfb",
+      "timestamp": "2026-04-25T14:33:04.006040",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8db77183b059",
+      "timestamp": "2026-04-25T14:33:04.006061",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "d9ea3b0bfa1d",
+      "timestamp": "2026-04-25T14:33:04.006079",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
