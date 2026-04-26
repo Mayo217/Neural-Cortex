@@ -1,173 +1,6 @@
 {
   "chains": [
     {
-      "agent": "narrative",
-      "observations": [
-        "The current market regime is RISK_OFF (30%), with various market indices (SP500, NIFTY50, GOLD) showing mixed trends, and the F&G index indicating \"extreme fear\" with a score of 21.1. Agents 1-3 are analyzing the market conditions and the WARN Act's provisions."
-      ],
-      "logic": [
-        "The mixed trends in the market indices and the \"extreme fear\" sentiment suggest that the market is uncertain and lacks a clear direction -> This uncertainty could lead to increased volatility and a higher probability of a crisis regime -> The WARN Act's provisions may become more crucial in such a scenario to protect workers' rights and mitigate economic disruption."
-      ],
-      "counters": [
-        "The argument that the market's uncertainty and volatility may not necessarily lead to a crisis regime, and that other factors such as monetary policy and economic indicators may play a more significant role in determining the market's direction."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and the WARN Act's provisions, it is likely that the market will remain volatile and uncertain, with a higher probability of a crisis regime. Agents 1-3 should continue to monitor the market conditions and adjust their strategies accordingly."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is RISK_OFF (30%), with various market indices (SP500, NIFTY50, GOLD) showing mixed trends, and the F&G index indicating \"extreme fear\" with a score of 21.1. Agents 1-3 are analyzing the market conditions and the WARN Act's provisions.\n\nLOGIC: The mixed trends in the market indices and the \"extreme fear\" sentiment suggest that the market is uncertain and lacks a clear direction -> This uncertainty could lead to increased volatility and a higher probability of a",
-      "id": "d3d17671ccfc",
-      "timestamp": "2026-04-06T14:41:53.536715",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "The various agents (1-3) and the brain are analyzing the market conditions and the WARN Act's provisions, with a current regime of RISK_OFF (30%) and mixed trends in market indices."
-      ],
-      "logic": [
-        "The agents' analyses suggest that the WARN Act's provisions are crucial in protecting workers' rights and mitigating economic disruption, especially in a crisis regime -> The mixed trends in market indices and the \"extreme fear\" sentiment indicate uncertainty and a higher probability of a crisis regime -> The agents' conclusions on the importance of the WARN Act's provisions are consistent across different perspectives."
-      ],
-      "counters": [
-        "The argument that the agents' analyses may not fully consider the potential for employer non-compliance or the limitations of the WARN Act in preventing mass layoffs or plant closures."
-      ],
-      "conclusions": [
-        "I side with the agents' conclusion that the WARN Act's provisions are likely to play a significant role in protecting workers' rights and mitigating economic disruption, given the current market conditions and sentiment."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "Given the complexity and the detailed nature of the information provided, I will attempt to synthesize the key points and provide a structured response based on the instructions.\n\n### 1. RECONCILE contradictions between agents\n\nOBSERVE: The various agents (1-3) and the brain are analyzing the market conditions and the WARN Act's provisions, with a current regime of RISK_OFF (30%) and mixed trends in market indices.\n\nLOGIC: The agents' analyses suggest that the WARN Act's provisions are crucial i",
-      "id": "7bc16d159639",
-      "timestamp": "2026-04-06T14:41:53.536981",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "The NIFTY50 index is showing mixed trends, with the Indian Rupee (INR) experiencing volatility against the US Dollar."
-      ],
-      "logic": [
-        "The mixed trends in the NIFTY50 and the volatility in the INR -> Increased uncertainty in the Indian market -> Potential for economic disruption and the importance of monitoring FII/DII activities and RBI policies."
-      ],
-      "counters": [
-        "The argument that the Indian market's resilience and the RBI's monetary policies may mitigate the impact of global market volatility."
-      ],
-      "conclusions": [
-        "The Indian market is vulnerable to global market trends, and close monitoring of FII/DII activities, RBI policies, and economic indicators is necessary to navigate the current uncertainty."
-      ],
-      "dependencies": [
-        "Evidence of widespread non-compliance with the WARN Act's provisions or a significant shift in market regime towards RISK_ON."
-      ],
-      "falsifications": [
-        "If the market indices show a clear and consistent upward trend, indicating a shift towards a RISK_ON regime, and the F&G index score improves significantly.",
-        "Clear transition to RISK_ON regime with sustained low volatility",
-        "Evidence of widespread non-compliance with WARN Act provisions"
-      ],
-      "assets": [
-        "VIX",
-        "SP500"
-      ],
-      "raw_excerpt": "Given the complexity and the detailed nature of the information provided, I will attempt to synthesize the key points and provide a structured response based on the instructions.\n\n### 1. RECONCILE contradictions between agents\n\nOBSERVE: The various agents (1-3) and the brain are analyzing the market conditions and the WARN Act's provisions, with a current regime of RISK_OFF (30%) and mixed trends in market indices.\n\nLOGIC: The agents' analyses suggest that the WARN Act's provisions are crucial i",
-      "id": "52a63dcf05ae",
-      "timestamp": "2026-04-06T14:41:53.536981",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The thesis \"Market Volatility and WARN Act Importance\" has a confidence level of 80 and is based on mixed market trends and increased volatility."
-      ],
-      "logic": [
-        "The high confidence level in this thesis -> The Synthesizer is heavily relying on the importance of the WARN Act in mitigating economic disruption -> The thesis may be overly optimistic about the WARN Act's provisions."
-      ],
-      "counters": [
-        "The argument that the WARN Act's provisions may not be enough to prevent mass layoffs and plant closures, especially in a crisis regime."
-      ],
-      "conclusions": [
-        "The \"Market Volatility and WARN Act Importance\" thesis is the weakest because it relies heavily on the effectiveness of the WARN Act's provisions, which may not be sufficient to mitigate economic disruption."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### Attack on Synthesizer's Output\n\nTo destroy the Synthesizer's output, we need to challenge its theses, regime, probabilities, and signal weights. Let's analyze each point and provide a structured response based on the given format.\n\n### 1. Weakest Thesis: Market Volatility and WARN Act Importance\n\nOBSERVE: The thesis \"Market Volatility and WARN Act Importance\" has a confidence level of 80 and is based on mixed market trends and increased volatility.\n\nLOGIC: The high confidence level in this t",
-      "id": "821a80a41c42",
-      "timestamp": "2026-04-06T14:41:53.537126",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The Synthesizer's output focuses primarily on the US market and the WARN Act, with limited consideration for global economic factors."
-      ],
-      "logic": [
-        "The lack of consideration for global economic factors -> The Synthesizer may be overlooking potential external shocks that could impact the US market -> The theses and regime may be overly reliant on domestic factors."
-      ],
-      "counters": [
-        "The argument that the US market is heavily influenced by global economic trends and that the Synthesizer should consider a more holistic approach."
-      ],
-      "conclusions": [
-        "The biggest blind spot is the lack of consideration for global economic factors, which could lead to inaccurate predictions and an incomplete understanding of the market regime."
-      ],
-      "dependencies": [
-        "Evidence of the WARN Act's provisions being successfully implemented and effective in preventing mass layoffs and plant closures."
-      ],
-      "falsifications": [
-        "The WARN Act's provisions are proven to be ineffective in a crisis regime, and the market indices show a clear and consistent downward trend."
-      ],
-      "assets": [],
-      "raw_excerpt": "### Attack on Synthesizer's Output\n\nTo destroy the Synthesizer's output, we need to challenge its theses, regime, probabilities, and signal weights. Let's analyze each point and provide a structured response based on the given format.\n\n### 1. Weakest Thesis: Market Volatility and WARN Act Importance\n\nOBSERVE: The thesis \"Market Volatility and WARN Act Importance\" has a confidence level of 80 and is based on mixed market trends and increased volatility.\n\nLOGIC: The high confidence level in this t",
-      "id": "c7695c3de442",
-      "timestamp": "2026-04-06T14:41:53.537126",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The current regime is RISK_OFF (30%), indicating a moderate level of risk aversion."
-      ],
-      "logic": [
-        "The RISK_OFF regime -> The market is expecting a potential crisis, but the severity is uncertain -> The Synthesizer's theses and signal weights may be overly cautious."
-      ],
-      "counters": [
-        "The argument that the RISK_OFF regime is justified given the current market conditions and sentiment."
-      ],
-      "conclusions": [
-        "The RISK_OFF regime may be an overestimation of the market's risk aversion, and the Synthesizer's theses and signal weights should be adjusted to reflect a more nuanced understanding of the market regime."
-      ],
-      "dependencies": [
-        "The inclusion of global economic indicators and factors in the Synthesizer's analysis."
-      ],
-      "falsifications": [
-        "The US market is proven to be highly resilient to global economic shocks, and the Synthesizer's domestic-focused approach is shown to be effective."
-      ],
-      "assets": [],
-      "raw_excerpt": "### Attack on Synthesizer's Output\n\nTo destroy the Synthesizer's output, we need to challenge its theses, regime, probabilities, and signal weights. Let's analyze each point and provide a structured response based on the given format.\n\n### 1. Weakest Thesis: Market Volatility and WARN Act Importance\n\nOBSERVE: The thesis \"Market Volatility and WARN Act Importance\" has a confidence level of 80 and is based on mixed market trends and increased volatility.\n\nLOGIC: The high confidence level in this t",
-      "id": "6608bdf42d1d",
-      "timestamp": "2026-04-06T14:41:53.537126",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "general"
-    },
-    {
       "agent": "adversary",
       "observations": [
         "The probabilities for the SP500 and NIFTY50 indices are based on mixed trends and uncertainty."
@@ -9295,7 +9128,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd.\n\nCOUNTER: The recent upward trend in t",
       "id": "5515cbad8dcb",
       "timestamp": "2026-04-19T19:59:11.177293",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9324,7 +9157,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd.\n\nCOUNTER: The recent upward trend in t",
       "id": "121cbf6b3855",
       "timestamp": "2026-04-19T19:59:11.177293",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "policy_signal"
@@ -9353,7 +9186,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd.\n\nCOUNTER: The recent upward trend in t",
       "id": "dfa1270c6374",
       "timestamp": "2026-04-19T19:59:11.177293",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9382,7 +9215,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd.\n\nCOUNTER: The recent upward trend in t",
       "id": "a302681ea04c",
       "timestamp": "2026-04-19T19:59:11.177293",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "policy_signal"
@@ -9411,7 +9244,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd.\n\nCOUNTER: The recent upward trend in t",
       "id": "66db7582b02a",
       "timestamp": "2026-04-19T19:59:11.177293",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9442,7 +9275,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd.\n\nCOUNTER: The recent upward trend in t",
       "id": "f0adf06b38b2",
       "timestamp": "2026-04-19T19:59:11.177293",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9467,7 +9300,7 @@
       "raw_excerpt": "OBSERVE: The brain's output indicates a 62% probability of a RISK_ON regime, with various assets such as S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY showing a mix of upward and downward trends over the past 30 days.\n\nLOGIC: The brain's output and market conditions -> suggest a high level of uncertainty and volatility -> imply that investors should exercise caution and consider alternative perspectives, rather than relying solely on the current upward trend in the S&P 500 and NIFTY 50 ov",
       "id": "384946af6aa1",
       "timestamp": "2026-04-19T19:59:11.177493",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9496,7 +9329,7 @@
       "raw_excerpt": "OBSERVE: The brain's output indicates a 62% probability of a RISK_ON regime, with various assets such as S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY showing a mix of upward and downward trends over the past 30 days.\n\nLOGIC: The brain's output and market conditions -> suggest a high level of uncertainty and volatility -> imply that investors should exercise caution and consider alternative perspectives, rather than relying solely on the current upward trend in the S&P 500 and NIFTY 50 ov",
       "id": "232e061d2a9c",
       "timestamp": "2026-04-19T19:59:11.177493",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9525,7 +9358,7 @@
       "raw_excerpt": "OBSERVE: The brain's output indicates a 62% probability of a RISK_ON regime, with various assets such as S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY showing a mix of upward and downward trends over the past 30 days.\n\nLOGIC: The brain's output and market conditions -> suggest a high level of uncertainty and volatility -> imply that investors should exercise caution and consider alternative perspectives, rather than relying solely on the current upward trend in the S&P 500 and NIFTY 50 ov",
       "id": "356a9bf1e90a",
       "timestamp": "2026-04-19T19:59:11.177493",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "flow_signal"
@@ -9550,7 +9383,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY, and the INR has been experiencing a downward trend against the USD.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives a",
       "id": "b73a203073d0",
       "timestamp": "2026-04-19T19:59:11.177560",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9575,7 +9408,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY, and the INR has been experiencing a downward trend against the USD.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives a",
       "id": "7f759688c8f9",
       "timestamp": "2026-04-19T19:59:11.177595",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9600,7 +9433,7 @@
       "raw_excerpt": "I will provide the analysis in the required format.\n\n**1. RECONCILE contradictions between agents. Name which agent you side with and WHY.**\n\nOBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspect",
       "id": "c0bab1000736",
       "timestamp": "2026-04-19T19:59:11.177733",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9634,7 +9467,7 @@
       "raw_excerpt": "I will provide the analysis in the required format.\n\n**1. RECONCILE contradictions between agents. Name which agent you side with and WHY.**\n\nOBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspect",
       "id": "76848adc71f2",
       "timestamp": "2026-04-19T19:59:11.177733",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9659,7 +9492,7 @@
       "raw_excerpt": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\n**1. WEAKEST THESIS:**\nThe weakest thesis is the \"Economic Growth\" thesis, which suggests that low unemployment will lead to increased consumer spending, higher economic growth, and increased corporate profits.\n\nOBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for cau",
       "id": "aca9f4dd16e9",
       "timestamp": "2026-04-19T19:59:11.177903",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9688,7 +9521,7 @@
       "raw_excerpt": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\n**1. WEAKEST THESIS:**\nThe weakest thesis is the \"Economic Growth\" thesis, which suggests that low unemployment will lead to increased consumer spending, higher economic growth, and increased corporate profits.\n\nOBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for cau",
       "id": "4b872bb9153f",
       "timestamp": "2026-04-19T19:59:11.177903",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9717,7 +9550,7 @@
       "raw_excerpt": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\n**1. WEAKEST THESIS:**\nThe weakest thesis is the \"Economic Growth\" thesis, which suggests that low unemployment will lead to increased consumer spending, higher economic growth, and increased corporate profits.\n\nOBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for cau",
       "id": "318cf3ef5d40",
       "timestamp": "2026-04-19T19:59:11.177903",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -12663,6 +12496,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "fcbae9e51009",
       "timestamp": "2026-04-26T14:33:05.572559",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "59652c2b408f",
+      "timestamp": "2026-04-26T20:03:03.122159",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "dde9d3203a7d",
+      "timestamp": "2026-04-26T20:03:03.122206",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "d848a665738e",
+      "timestamp": "2026-04-26T20:03:03.122226",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "7d32aea017b8",
+      "timestamp": "2026-04-26T20:03:03.122243",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "be3811a42814",
+      "timestamp": "2026-04-26T20:03:03.122259",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "ec331a3290e9",
+      "timestamp": "2026-04-26T20:03:03.122271",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
