@@ -1,166 +1,6 @@
 {
   "chains": [
     {
-      "agent": "adversary",
-      "observations": [
-        "The probabilities for the SP500 and NIFTY50 indices are based on mixed trends and uncertainty."
-      ],
-      "logic": [
-        "The probabilities -> The Synthesizer is uncertain about the direction of the market -> The probabilities may be overly broad and not reflective of the true market conditions."
-      ],
-      "counters": [
-        "The argument that the probabilities are justified given the current market volatility and uncertainty."
-      ],
-      "conclusions": [
-        "The probabilities for the SP500 and NIFTY50 indices may be overly broad and should be adjusted to reflect a more precise understanding of the market conditions."
-      ],
-      "dependencies": [
-        "The outcome of the next market cycle and the movement of the VIX index."
-      ],
-      "falsifications": [
-        "The market indices show a clear and consistent upward trend, indicating a shift towards a RISK_ON regime."
-      ],
-      "assets": [],
-      "raw_excerpt": "### Attack on Synthesizer's Output\n\nTo destroy the Synthesizer's output, we need to challenge its theses, regime, probabilities, and signal weights. Let's analyze each point and provide a structured response based on the given format.\n\n### 1. Weakest Thesis: Market Volatility and WARN Act Importance\n\nOBSERVE: The thesis \"Market Volatility and WARN Act Importance\" has a confidence level of 80 and is based on mixed market trends and increased volatility.\n\nLOGIC: The high confidence level in this t",
-      "id": "4b536b3383e0",
-      "timestamp": "2026-04-06T14:41:53.537126",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The signal weights for the VIX and GOLD indices are based on mixed trends and uncertainty."
-      ],
-      "logic": [
-        "The signal weights -> The Synthesizer is relying heavily on the VIX and GOLD indices to inform its theses and regime -> The signal weights may be overly reliant on these indices."
-      ],
-      "counters": [
-        "The argument that the VIX and GOLD indices are important indicators of market volatility and sentiment."
-      ],
-      "conclusions": [
-        "The signal weights for the VIX and GOLD indices may be overly reliant on these indices and should be adjusted to reflect a more diversified approach."
-      ],
-      "dependencies": [
-        "The movement of the market indices and the VIX index."
-      ],
-      "falsifications": [
-        "The market indices show a clear and consistent trend, indicating a higher level of certainty in the probabilities."
-      ],
-      "assets": [],
-      "raw_excerpt": "### Attack on Synthesizer's Output\n\nTo destroy the Synthesizer's output, we need to challenge its theses, regime, probabilities, and signal weights. Let's analyze each point and provide a structured response based on the given format.\n\n### 1. Weakest Thesis: Market Volatility and WARN Act Importance\n\nOBSERVE: The thesis \"Market Volatility and WARN Act Importance\" has a confidence level of 80 and is based on mixed market trends and increased volatility.\n\nLOGIC: The high confidence level in this t",
-      "id": "355b749f9480",
-      "timestamp": "2026-04-06T14:41:53.537126",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days in advance of a mass layoff or plant closure, and the California Labor Code Section 1400 also has similar provisions."
-      ],
-      "logic": [
-        "The presence of these regulations -> implies that employers have a legal obligation to provide advance notice to employees in the event of significant workforce reductions -> which could have implications for market stability and economic forecasting."
-      ],
-      "counters": [
-        "One could argue that the WARN Act and similar regulations may not be effective in practice, as employers may find ways to circumvent the requirements or may not be able to provide adequate notice due to unforeseen circumstances."
-      ],
-      "conclusions": [
-        "Despite the potential counterarguments, I conclude that the WARN Act and similar regulations are important for protecting workers' rights and providing stability in the labor market."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days in advance of a mass layoff or plant closure, and the California Labor Code Section 1400 also has similar provisions.\n\nLOGIC: The presence of these regulations -> implies that employers have a legal obligation to provide advance notice to employees in the event of significant workforce reductions -> which could have implications for market stability and economic forecasting.\n\nCOUNTER: One could argue that the WAR",
-      "id": "01f48cd483fd",
-      "timestamp": "2026-04-06T20:06:19.218854",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "policy_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's probability of a RISK_OFF regime is 50%, and the SP500, NIFTY50, and GOLD are all showing similar patterns of being UP (LOW) with similar probabilities of Down, Flat, and Up."
-      ],
-      "logic": [
-        "The similarity in patterns across different markets -> suggests that there may be a underlying factor driving the markets -> which could be related to the overall economic sentiment and the impact of regulations such as the WARN Act on market stability."
-      ],
-      "counters": [
-        "One could argue that the similarity in patterns is simply a coincidence, and that each market is driven by its own unique factors and fundamentals."
-      ],
-      "conclusions": [
-        "Despite the potential counterargument, I conclude that the similarity in patterns across different markets is worth exploring further, and that the WARN Act and similar regulations could be playing a role in shaping market sentiment and stability."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's probability of a RISK_OFF regime is 50%, and the SP500, NIFTY50, and GOLD are all showing similar patterns of being UP (LOW) with similar probabilities of Down, Flat, and Up.\n\nLOGIC: The similarity in patterns across different markets -> suggests that there may be a underlying factor driving the markets -> which could be related to the overall economic sentiment and the impact of regulations such as the WARN Act on market stability.\n\nCOUNTER: One could argue that the similar",
-      "id": "f98cface5507",
-      "timestamp": "2026-04-06T20:06:19.219043",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "sentiment_contrarian"
-    },
-    {
-      "agent": "flow",
-      "observations": [],
-      "logic": [
-        "The difference in net buy and sell values between DII and FII/FPI -> suggests that there may be a divergence in sentiment between domestic and foreign investors -> which could have implications for market stability and direction."
-      ],
-      "counters": [
-        "One could argue that the difference in net buy and sell values is simply a short-term anomaly, and that the overall trend is more important than the daily fluctuations."
-      ],
-      "conclusions": [
-        "Despite the potential counterargument, I conclude that the divergence in sentiment between domestic and foreign investors is worth monitoring, and that it could be related to the overall market sentiment and the impact of regulations such as the WARN Act."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is evidence that the WARN Act and similar regulations have no significant impact on market stability or economic forecasting, such as a study showing that the regulations are not effective in practice."
-      ],
-      "falsifications": [
-        "My conclusion is wrong if it can be shown that the similarity in patterns across different markets is simply a coincidence, and that there is no underlying factor driving the markets. Additionally, if the Brier score or other evaluation metrics become available and contradict my conclusion, I would be willing to re-evaluate my stance."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's probability of a RISK_OFF regime is 50%, and the SP500, NIFTY50, and GOLD are all showing similar patterns of being UP (LOW) with similar probabilities of Down, Flat, and Up.\n\nLOGIC: The similarity in patterns across different markets -> suggests that there may be a underlying factor driving the markets -> which could be related to the overall economic sentiment and the impact of regulations such as the WARN Act on market stability.\n\nCOUNTER: One could argue that the similar",
-      "id": "2b4200f80da5",
-      "timestamp": "2026-04-06T20:06:19.219043",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "flow_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The brain's probability of a RISK_OFF regime is 50%, and the SP500, NIFTY50, and GOLD are all showing similar patterns of being UP (LOW) with similar probabilities of Down, Flat, and Up."
-      ],
-      "logic": [
-        "The similarity in patterns across different markets -> suggests that there may be a underlying factor driving the markets -> which could be related to the overall economic sentiment and the impact of regulations such as the WARN Act on market stability."
-      ],
-      "counters": [
-        "One could argue that the similarity in patterns is simply a coincidence, and that each market is driven by its own unique factors and fundamentals."
-      ],
-      "conclusions": [
-        "Despite the potential counterargument, I conclude that the similarity in patterns across different markets is worth exploring further, and that the WARN Act and similar regulations may have a more significant impact on market stability than initially thought."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's probability of a RISK_OFF regime is 50%, and the SP500, NIFTY50, and GOLD are all showing similar patterns of being UP (LOW) with similar probabilities of Down, Flat, and Up.\n\nLOGIC: The similarity in patterns across different markets -> suggests that there may be a underlying factor driving the markets -> which could be related to the overall economic sentiment and the impact of regulations such as the WARN Act on market stability.\n\nCOUNTER: One could argue that the similar",
-      "id": "100f28821aea",
-      "timestamp": "2026-04-06T20:06:19.219116",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "sentiment_contrarian"
-    },
-    {
       "agent": "market",
       "observations": [
         "The F&G index is showing an \"extreme fear\" rating, with a score of 22.1, and the VIX is also showing an increase of 1.76% over the past day."
@@ -9575,7 +9415,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends.\n\nLOGIC: The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market.\n\nCOUNTER: The Indian Market Uncertainty thesis and the US-Iran conflict are significant blind spots that c",
       "id": "e691cbe43964",
       "timestamp": "2026-04-20T07:30:25.432431",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -9604,7 +9444,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends.\n\nLOGIC: The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market.\n\nCOUNTER: The Indian Market Uncertainty thesis and the US-Iran conflict are significant blind spots that c",
       "id": "2ab91c7ec7b7",
       "timestamp": "2026-04-20T07:30:25.432431",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9633,7 +9473,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends.\n\nLOGIC: The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market.\n\nCOUNTER: The Indian Market Uncertainty thesis and the US-Iran conflict are significant blind spots that c",
       "id": "39c89730aa6b",
       "timestamp": "2026-04-20T07:30:25.432431",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9658,7 +9498,7 @@
       "raw_excerpt": "OBSERVE: The RISK_ON regime is at 62%, with various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends, and the ETF signals are mostly neutral.\n\nLOGIC: The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market, but the neutral ETF signals -> suggest a lack of strong conviction in the market -> implies a potential for volatility.\n\nCOUNTER: The Indian Market Un",
       "id": "7f3bc518ff4b",
       "timestamp": "2026-04-20T07:30:25.432539",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9683,7 +9523,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends.\n\nLOGIC: The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market. However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-",
       "id": "139e226671f4",
       "timestamp": "2026-04-20T07:30:25.432691",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9712,7 +9552,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends.\n\nLOGIC: The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market. However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-",
       "id": "159874927dd3",
       "timestamp": "2026-04-20T07:30:25.432691",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9737,7 +9577,7 @@
       "raw_excerpt": "OBSERVE: The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends.\n\nLOGIC: The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market. However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-",
       "id": "097c99c75a31",
       "timestamp": "2026-04-20T07:30:25.432739",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9762,7 +9602,7 @@
       "raw_excerpt": "**1. RECONCILE contradictions between agents:**\nI side with the agent that emphasizes the need for caution due to significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran conflict. This agent's perspective is more comprehensive, considering both the current upward trends in multiple indices and the potential risks that could disrupt market sentiment.\n\n**2. Generate THESES:**\nTHESIS: RISK_ON Regime Continuation\nCHAIN: Upward trends in SP500, NIFTY50, GOLD, BITCOIN, an",
       "id": "ff7febdbe836",
       "timestamp": "2026-04-20T07:30:25.433105",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9787,7 +9627,7 @@
       "raw_excerpt": "OBSERVE: The RISK_ON regime is at 62%, with upward trends in multiple indices, including SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT.\nLOGIC: The current upward trends and RISK_ON regime -> suggest a bullish sentiment in the market -> implication of continued growth in the market.\nCOUNTER: However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran conflict, could disrupt market sentiment and lead to a correction or reversal of the current trend",
       "id": "3362248ace3d",
       "timestamp": "2026-04-20T07:30:25.433227",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "commodity_signal"
@@ -9816,7 +9656,7 @@
       "raw_excerpt": "OBSERVE: The RISK_ON regime is at 62%, with upward trends in multiple indices, including SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT.\nLOGIC: The current upward trends and RISK_ON regime -> suggest a bullish sentiment in the market -> implication of continued growth in the market.\nCOUNTER: However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran conflict, could disrupt market sentiment and lead to a correction or reversal of the current trend",
       "id": "4e1ea95bcd67",
       "timestamp": "2026-04-20T07:30:25.433227",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "vol_signal"
@@ -9845,7 +9685,7 @@
       "raw_excerpt": "OBSERVE: The RISK_ON regime is at 62%, with upward trends in multiple indices, including SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT.\nLOGIC: The current upward trends and RISK_ON regime -> suggest a bullish sentiment in the market -> implication of continued growth in the market.\nCOUNTER: However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran conflict, could disrupt market sentiment and lead to a correction or reversal of the current trend",
       "id": "2a4356f7e0f9",
       "timestamp": "2026-04-20T07:30:25.433227",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "sentiment_contrarian"
@@ -9874,7 +9714,7 @@
       "raw_excerpt": "OBSERVE: The RISK_ON regime is at 62%, with upward trends in multiple indices, including SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT.\nLOGIC: The current upward trends and RISK_ON regime -> suggest a bullish sentiment in the market -> implication of continued growth in the market.\nCOUNTER: However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran conflict, could disrupt market sentiment and lead to a correction or reversal of the current trend",
       "id": "fd9f377c806e",
       "timestamp": "2026-04-20T07:30:25.433227",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12634,6 +12474,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "ec331a3290e9",
       "timestamp": "2026-04-26T20:03:03.122271",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "57602cfdc915",
+      "timestamp": "2026-04-27T08:01:04.218312",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "5649d911d473",
+      "timestamp": "2026-04-27T08:01:04.218373",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "3c011daee6f6",
+      "timestamp": "2026-04-27T08:01:04.218400",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "f05573e1e1e4",
+      "timestamp": "2026-04-27T08:01:04.218460",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "3e647522ab4a",
+      "timestamp": "2026-04-27T08:01:04.218486",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "65d97487d1b8",
+      "timestamp": "2026-04-27T08:01:04.218504",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
