@@ -1,164 +1,6 @@
 {
   "chains": [
     {
-      "agent": "adversary",
-      "observations": [
-        "The SP500 and NIFTY50 probabilities show a similar pattern of being UP (LOW), with similar probabilities of Down, Flat, and Up."
-      ],
-      "logic": [
-        "If the Synthesizer's outputs are not able to effectively differentiate between the SP500 and NIFTY50, then its predictions may be flawed -> this could lead to incorrect investment decisions -> resulting in potential financial losses."
-      ],
-      "counters": [
-        "The Synthesizer may argue that the similar patterns are due to underlying market conditions and not a flaw in its outputs."
-      ],
-      "conclusions": [
-        "The Synthesizer's outputs may not be effectively capturing the nuances of the market, leading to potential errors in prediction and investment decisions."
-      ],
-      "dependencies": [
-        "The Synthesizer's ability to effectively predict and adapt to changing market conditions."
-      ],
-      "falsifications": [
-        "The Synthesizer's outputs are consistently accurate and reliable, even in times of high uncertainty."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The Synthesizer's output relies heavily on the WARN Act and its potential impact on market stability, with a confidence level of 70.\nLOGIC: If the WARN Act's provisions are not effectively enforced or do not have a significant impact on market stability, then the Synthesizer's output may be flawed -> this could lead to incorrect predictions and investment decisions -> resulting in potential financial losses. \nCOUNTER: The Synthesizer may argue that the WARN Act's provisions are still re",
-      "id": "e772db24f432",
-      "timestamp": "2026-04-06T20:06:19.219701",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "pattern_match"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime."
-      ],
-      "logic": [
-        "The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> Which could indicate a weakening economy and potentially impact market sentiment."
-      ],
-      "counters": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, may not necessarily lead to a higher number of WARN Act notices being filed, as employers may be able to adapt to the changing market conditions without undergoing mass layoffs or plant closures."
-      ],
-      "conclusions": [
-        "I conclude that the WARN Act's provisions are likely to take on increased importance in a crisis regime, and that the current market conditions indicate a high probability of a crisis regime."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> Which could indicate a weakening economy and potent",
-      "id": "950b648b9d7c",
-      "timestamp": "2026-04-07T06:01:46.538443",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "sentiment_contrarian"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's crisis regime probability is 35%, and the current market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, and GOLD indices all showing an upward trend with low volatility."
-      ],
-      "logic": [
-        "The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> Which could indicate a weakening economy and potentially impact market sentiment. However, the current market conditions, as indicated by the F&G index and the brain's crisis regime probability, may not necessarily lead to a higher number of WARN Act notices being filed, as employers may be able to adapt to the changing market conditions without undergoing mass layoffs or plant closures."
-      ],
-      "counters": [
-        "The ETF data shows that most sectors have a neutral signal, with some sectors such as Defense, Energy, and Semis showing positive changes, while others such as GoldMiners and Utils show negative changes. This could indicate that the market is not yet showing a clear sign of a crisis regime, and the WARN Act's provisions may not be as important as initially thought."
-      ],
-      "conclusions": [
-        "I conclude that the WARN Act's provisions may not be as critical in the current market conditions, as the brain's crisis regime probability is not extremely high, and the market is showing a mix of positive and negative signals."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 35%, and the current market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, and GOLD indices all showing an upward trend with low volatility.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> Which could indicate a weake",
-      "id": "47849ac789f4",
-      "timestamp": "2026-04-07T06:01:46.538519",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, and GOLD indices all showing an upward trend with low volatility, and the F&G index rating of \"extreme fear\" with a score of 22.6."
-      ],
-      "logic": [
-        "The combination of a high crisis regime probability and extreme fear in the market -> May lead to increased volatility and potential market downturn -> Which could be exacerbated by the current upward trend in the SP500, NIFTY50, and GOLD indices, potentially leading to a correction."
-      ],
-      "counters": [
-        "The current upward trend in the SP500, NIFTY50, and GOLD indices could be a sign of a strong market, and the extreme fear rating from the F&G index could be an overreaction, potentially leading to a buying opportunity."
-      ],
-      "conclusions": [
-        "The market is likely to remain highly volatile, with a high probability of a crisis regime, and investors should be cautious and prepared for potential market downturns."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, and GOLD indices all showing an upward trend with low volatility, and the F&G index rating of \"extreme fear\" with a score of 22.6.\n\nLOGIC: The combination of a high crisis regime probability and extreme fear in the market -> May lead to increased volatility and potential market downturn -> Which could be exacerbated by the current upward trend in the SP500, NIFTY50, and GOLD indices, p",
-      "id": "b5664796c6d1",
-      "timestamp": "2026-04-07T06:01:46.538559",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, and GOLD indices all showing an upward trend with low volatility, and the F&G index rating of \"extreme fear\" with a score of 22.6."
-      ],
-      "logic": [
-        "The combination of a high crisis regime probability and extreme fear in the market -> May lead to increased volatility and potential market downturn -> Which could be exacerbated by the current upward trend in the SP500, NIFTY50, and GOLD indices, potentially leading to a correction."
-      ],
-      "counters": [
-        "The current upward trend in the SP500, NIFTY50, and GOLD indices could be a sign of a strong market, and the extreme fear rating could be an overreaction, leading to a potential buying opportunity."
-      ],
-      "conclusions": [
-        "The market is likely to remain highly volatile, with a high probability of a crisis regime, and investors should be cautious and prepared for potential market downturns."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, and GOLD indices all showing an upward trend with low volatility, and the F&G index rating of \"extreme fear\" with a score of 22.6.\n\nLOGIC: The combination of a high crisis regime probability and extreme fear in the market -> May lead to increased volatility and potential market downturn -> Which could be exacerbated by the current upward trend in the SP500, NIFTY50, and GOLD indices, p",
-      "id": "98545b2e31d9",
-      "timestamp": "2026-04-07T06:01:46.538700",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "Agents 1-3 are all focusing on the potential risks and volatility in the market."
-      ],
-      "logic": [
-        "Agents 1-3 are following the herd, as they are all emphasizing the potential dangers of a crisis regime and the need for caution -> This could lead to a self-reinforcing cycle of fear and risk aversion -> Which could exacerbate market volatility and potentially lead to a crisis."
-      ],
-      "counters": [
-        "Agents 1-3 may be taking a prudent and responsible approach, as the current market conditions do indicate a high probability of a crisis regime, and caution may be warranted."
-      ],
-      "conclusions": [
-        "Agents 1-3 are following the herd, and their focus on potential risks and volatility may contribute to a self-reinforcing cycle of fear and risk aversion."
-      ],
-      "dependencies": [
-        "The outcome of the OPEC-JMMC meetings and the ISM Services PMI report, which could provide insight into the current state of the economy and potentially impact market sentiment."
-      ],
-      "falsifications": [
-        "The market experiences a significant and sustained upward trend, with the SP500, NIFTY50, and GOLD indices continuing to rise, and the F&G index rating of \"extreme fear\" proves to be an overreaction, indicating a strong and stable market."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, and GOLD indices all showing an upward trend with low volatility, and the F&G index rating of \"extreme fear\" with a score of 22.6.\n\nLOGIC: The combination of a high crisis regime probability and extreme fear in the market -> May lead to increased volatility and potential market downturn -> Which could be exacerbated by the current upward trend in the SP500, NIFTY50, and GOLD indices, p",
-      "id": "7055858cfe99",
-      "timestamp": "2026-04-07T06:01:46.538700",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "synthesis",
       "observations": [
         "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the inputs from various agents, I conclude that Agents 1-3 are following the herd, focusing on potential risks and volatility in the market"
@@ -9713,7 +9555,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "ebb1c23628bd",
       "timestamp": "2026-04-20T20:14:20.927028",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9736,7 +9578,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "f0f711da862e",
       "timestamp": "2026-04-20T20:14:20.927098",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9759,7 +9601,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "6be70c729315",
       "timestamp": "2026-04-20T20:14:20.927125",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9782,7 +9624,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "2bc6d2e47a66",
       "timestamp": "2026-04-20T20:14:20.927145",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9805,7 +9647,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "827783478a8c",
       "timestamp": "2026-04-20T20:14:20.927166",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9828,7 +9670,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "651030ca6835",
       "timestamp": "2026-04-20T20:14:20.927181",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12591,6 +12433,144 @@
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "bfd1780ca9c8",
+      "timestamp": "2026-04-27T21:40:04.683478",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8fddff268d31",
+      "timestamp": "2026-04-27T21:40:04.683531",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "6257e9f193ed",
+      "timestamp": "2026-04-27T21:40:04.683558",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "a57e9a888cf5",
+      "timestamp": "2026-04-27T21:40:04.683582",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "9cccf74bae34",
+      "timestamp": "2026-04-27T21:40:04.683616",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "aa13381a3f0b",
+      "timestamp": "2026-04-27T21:40:04.683644",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
       "reasoning_type": "general"
     }
   ],
