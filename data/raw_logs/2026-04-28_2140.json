@@ -1,0 +1,509 @@
+{
+  "timestamp": "2026-04-28 21:40",
+  "regime": {
+    "regime": "RISK_ON",
+    "confidence": 0.667,
+    "scores": {
+      "CRISIS": 0.0,
+      "RISK_OFF": 0.0,
+      "TRANSITION": 0.333,
+      "RISK_ON": 0.667,
+      "EUPHORIA": 0.0
+    },
+    "evidence": [
+      "VIX 17.8 13-18: calm",
+      "VIX 10d -41.8%: vol crush",
+      "3 correlation breaks: regime shift signal"
+    ]
+  },
+  "tier1": {
+    "warn": [
+      "CA: New for: 2026",
+      "CA: You employ: 75",
+      "CA: California Labor Code  , Section: 1400",
+      "CA: Can you provide at least: 60",
+      "CA: The WARN Act requires employers to provide written notice  at least: 60",
+      "CA: Notices must be received by the required parties at least: 60",
+      "CA: If you are unable to provide: 60",
+      "CA: CFR: 639",
+      "CA: Page: 354"
+    ],
+    "ofac": [
+      "OFAC unavailable"
+    ],
+    "contracts": [
+      "$30.29B|BATTELLE MEMORIAL INSTITUTE|None|BATTELLE MEMORIAL INSTITUTE/PACIFIC NORTHWEST               LABORATORY OPERATING",
+      "$17.27B|HONEYWELL FEDERAL MANUFACTURING & TECHNOLOGIES, LLC|None|IGF::CL,CT::IGF MANAGEMENT AND OPERATION OF THE NATIONAL SECURITY CAMPUS -- CONT",
+      "$10.68B|ALLIANCE FOR ENERGY INNOVATION, LLC|None|AWARD OF CONTRACT TO MANAGE AND OPERATE THE NATIONAL RENEWABLE ENERGY LABORATORY",
+      "$10.46B|THE BOEING COMPANY|None|PROVIDE DEVELOPMENTAL HARDWARE AND TEST ARTICLES, AND MANUFACTURE AND ASSEMBLE A",
+      "$7.51B|MISSION SUPPORT & TEST SERVICES LLC|None|IGF::CL,CT::IGF CONTRACT AWARD DE-NA0003624 TO THE MISSION SUPPORT AND TEST SERV",
+      "$4.47B|FLUOR-BWXT PORTSMOUTH LLC|None|PORTSMOUTH GASEOUS DIFFUSION PLANT DECONTAMINATION AND DECOMMISSIONING PROJECT",
+      "$2.41B|UNITED CLEANUP OAK RIDGE LLC|None|OAK RIDGE RESERVATION CLEANUP CONTRACT TASK ORDERS",
+      "$1.59B|BARNARD CONSTRUCTION COMPANY, INCORPORATED|None|BORDER WALL CONSTRUCTION FOR EL PASO SECTOR - EPT-5",
+      "$1.58B|BATTELLE SAVANNAH RIVER ALLIANCE, LLC|None|SAVANNAH RIVER NATIONAL LABORATORY MANAGEMENT AND OPERATING (M&O) CONTRACT",
+      "$1.57B|NORTHROP GRUMMAN SYSTEMS CORPORATION|None|IGF::OT::IGF NEXTSTEP NRA AWARD.  THIS NEXTSTEP CONTRACT BUILDS UPON THE SUCCESS",
+      "$1.49B|PERATON INC.|None|THE EXPLORATION AND SPACE COMMUNICATIONS PROJECTS DIVISION (ESC) IS A NATIONAL R",
+      "$1.46B|CALIFORNIA INSTITUTE OF TECHNOLOGY|None|DEEP SPACE NETWORK (DSN)  THE CONTRACT IS THE SPONSORING AGREEMENT BETWEEN THE N",
+      "$1.40B|AUSTAL USA, LLC|None|OFFSHORE PATROL CUTTER (OPC) STAGE 2 CONTRACT: DETAILED DESIGN AND PRODUCTION (D",
+      "$1.10B|BOOZ ALLEN HAMILTON INC|None|TASK ORDER AWARD",
+      "$1.05B|KBR WYLE SERVICES, LLC|None|IGF::CT::IGFMSOC FPDS-NG MISSION SYSTEMS OPERATIONS CONTRACT (MSOC)"
+    ],
+    "patents": [
+      "Patents unavailable"
+    ],
+    "pboc": {
+      "note": "unavailable"
+    },
+    "shipping": {},
+    "leaders": [
+      "[FED] Waller, Modernizing Federal Reserve Operations in the 21st Century",
+      "[FED] Waller, One Transitory Shock After Another",
+      "[FED] Barr, Rural Communities: Worth the Investment",
+      "[FED] Jefferson, Economic Outlook and the Labor Market",
+      "[FED] Bowman, Supporting Small Businesses",
+      "[ECB] ECB Consumer Expectations Survey results \u2013 March 2026",
+      "[ECB] April 2026 euro area bank lending survey",
+      "[ECB] Survey on the Access to Finance of Enterprises: lending conditions tightened",
+      "[ECB] ECB signs agreements with European standard setters to facilitate digital euro payments"
+    ],
+    "policy": [
+      "[Rule] Repealing Certain Bridge Load Capacity Evaluation Requirements",
+      "[Rule] Qualification and Certification of Locomotive Engineers and Conductors: Incorporation of Longstanding C3RS Waivers",
+      "[Rule] Administrative Updates to the Federal Railroad Administration's State Safety Participation Regulations"
+    ]
+  },
+  "tier2": {
+    "fed_liq": {},
+    "sofr": {},
+    "legislative": [
+      "Congress unavailable"
+    ],
+    "insider": [
+      "Insider unavailable"
+    ],
+    "fii_dii": [
+      {
+        "category": "DII",
+        "date": "28-Apr-2026",
+        "buyValue": "18044.05",
+        "sellValue": "16332.04",
+        "netValue": "1712.01"
+      },
+      {
+        "category": "FII/FPI",
+        "date": "28-Apr-2026",
+        "buyValue": "17231.5",
+        "sellValue": "19335.24",
+        "netValue": "-2103.74"
+      }
+    ],
+    "etf_flows": {
+      "SP500": {
+        "vol_ratio": 0.58,
+        "chg": -0.49,
+        "signal": "NEUTRAL"
+      },
+      "Nasdaq": {
+        "vol_ratio": 0.69,
+        "chg": -1.01,
+        "signal": "NEUTRAL"
+      },
+      "SmallCap": {
+        "vol_ratio": 0.74,
+        "chg": -1.17,
+        "signal": "NEUTRAL"
+      },
+      "Gold": {
+        "vol_ratio": 0.94,
+        "chg": -1.86,
+        "signal": "NEUTRAL"
+      },
+      "LongBond": {
+        "vol_ratio": 0.65,
+        "chg": 0.1,
+        "signal": "NEUTRAL"
+      },
+      "HY": {
+        "vol_ratio": 0.77,
+        "chg": -0.14,
+        "signal": "NEUTRAL"
+      },
+      "IG": {
+        "vol_ratio": 0.79,
+        "chg": 0.05,
+        "signal": "NEUTRAL"
+      },
+      "EM": {
+        "vol_ratio": 0.65,
+        "chg": -1.02,
+        "signal": "NEUTRAL"
+      },
+      "Defense": {
+        "vol_ratio": 1.28,
+        "chg": 0.08,
+        "signal": "NEUTRAL"
+      },
+      "Energy": {
+        "vol_ratio": 0.75,
+        "chg": 1.66,
+        "signal": "NEUTRAL"
+      },
+      "Semis": {
+        "vol_ratio": 1.53,
+        "chg": -3.67,
+        "signal": "NEUTRAL"
+      },
+      "GoldMiners": {
+        "vol_ratio": 1.24,
+        "chg": -4.37,
+        "signal": "NEUTRAL"
+      },
+      "Fins": {
+        "vol_ratio": 0.61,
+        "chg": 0.08,
+        "signal": "NEUTRAL"
+      },
+      "Utils": {
+        "vol_ratio": 0.6,
+        "chg": 0.13,
+        "signal": "NEUTRAL"
+      }
+    },
+    "options": {
+      "note": "Options chain via VIX/VVIX proxy - see markets data"
+    }
+  },
+  "tier3": {
+    "markets_live": 73,
+    "correlations": [
+      {
+        "pair": "GOLD/SP500",
+        "a_chg": -1.407,
+        "b_chg": -0.489,
+        "same": true,
+        "div": 0.918,
+        "interp": "Gold/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "HYG/SP500",
+        "a_chg": -0.137,
+        "b_chg": -0.489,
+        "same": true,
+        "div": 0.352,
+        "interp": "Credit/Equity: HYG leads 2-6wk",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/SP500",
+        "a_chg": -0.69,
+        "b_chg": -0.489,
+        "same": true,
+        "div": 0.201,
+        "interp": "Dr Copper/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "DXY/GOLD",
+        "a_chg": 0.143,
+        "b_chg": -1.407,
+        "same": false,
+        "div": 1.55,
+        "interp": "Dollar/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "VIX/SP500",
+        "a_chg": -1.054,
+        "b_chg": -0.489,
+        "same": true,
+        "div": 0.565,
+        "interp": "Vol/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "OIL_WTI/USDINR",
+        "a_chg": 3.372,
+        "b_chg": 0.277,
+        "same": true,
+        "div": 3.095,
+        "interp": "Oil/INR",
+        "flag": "normal"
+      },
+      {
+        "pair": "US10Y/GOLD",
+        "a_chg": 0.415,
+        "b_chg": -1.407,
+        "same": false,
+        "div": 1.822,
+        "interp": "Rates/Gold",
+        "flag": "DIVERGENCE"
+      },
+      {
+        "pair": "BITCOIN/NASDAQ",
+        "a_chg": -1.262,
+        "b_chg": -0.897,
+        "same": true,
+        "div": 0.365,
+        "interp": "Crypto/Tech",
+        "flag": "normal"
+      },
+      {
+        "pair": "TLT/SP500",
+        "a_chg": 0.104,
+        "b_chg": -0.489,
+        "same": false,
+        "div": 0.593,
+        "interp": "Bonds/Equity",
+        "flag": "normal"
+      },
+      {
+        "pair": "COPPER/OIL_WTI",
+        "a_chg": -0.69,
+        "b_chg": 3.372,
+        "same": false,
+        "div": 4.062,
+        "interp": "Copper/Oil",
+        "flag": "DIVERGENCE"
+      }
+    ],
+    "anomalies": [
+      "BREAK DXY/GOLD: A+0.14% B-1.41%",
+      "BREAK US10Y/GOLD: A+0.41% B-1.41%",
+      "BREAK COPPER/OIL_WTI: A-0.69% B+3.37%"
+    ]
+  },
+  "tier4": {
+    "news_len": 10780,
+    "gdelt_len": 17
+  },
+  "tier5": {
+    "reddit_posts": 0,
+    "fg": {
+      "score": 63.8,
+      "rating": "greed",
+      "prev_week": 67.8,
+      "prev_month": 14.5
+    }
+  },
+  "brain": {
+    "predictions": 18,
+    "brier": 0.170906,
+    "patterns": 42
+  },
+  "agents": {
+    "upstream": "LLM ERROR",
+    "flow": "LLM ERROR",
+    "market": "LLM ERROR",
+    "narrative": "LLM ERROR",
+    "synthesis": "LLM ERROR",
+    "adversary": "LLM ERROR"
+  },
+  "reasoning": {
+    "chains": 6,
+    "disagreements": 0,
+    "meta_failures": []
+  },
+  "source_health": {
+    "WARN_DOL": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-28T21:40:06.186521"
+    },
+    "WARN_CA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:06.465693"
+    },
+    "OFAC": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='www.treasury.gov', port=443): Read timed out. (read timeout=20)",
+      "ts": "2026-04-28T21:40:27.525212"
+    },
+    "USASPENDING": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-28T21:40:27.681334"
+    },
+    "USPTO_quantum co": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:28.043923"
+    },
+    "USPTO_hypersonic": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:28.347295"
+    },
+    "USPTO_solid stat": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:28.665875"
+    },
+    "USPTO_large lang": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:28.986709"
+    },
+    "USPTO_semiconduc": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:29.297614"
+    },
+    "USPTO_nuclear fu": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:29.584505"
+    },
+    "USPTO_mRNA": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:29.899985"
+    },
+    "USPTO_CRISPR": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:30.254025"
+    },
+    "USPTO_rare earth": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:30.556110"
+    },
+    "USPTO_directed e": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:30.844379"
+    },
+    "USPTO": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-28T21:40:30.846421"
+    },
+    "EIA": {
+      "ok": false,
+      "detail": "HTTP 400",
+      "ts": "2026-04-28T21:40:31.562095"
+    },
+    "FED": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:31.615097"
+    },
+    "ECB": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:32.350160"
+    },
+    "RBI": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:34.000294"
+    },
+    "WH": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-28T21:40:34.064645"
+    },
+    "TREASURY": {
+      "ok": false,
+      "detail": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=10)",
+      "ts": "2026-04-28T21:40:44.122317"
+    },
+    "XINHUA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-28T21:40:45.037504"
+    },
+    "KREMLIN": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-28T21:40:46.128915"
+    },
+    "MEA": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-28T21:40:46.705939"
+    },
+    "BIS": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-28T21:40:47.218410"
+    },
+    "LEADERS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-28T21:40:47.219178"
+    },
+    "FEDREG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:47.487309"
+    },
+    "SEBI": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-28T21:40:48.842919"
+    },
+    "TGA": {
+      "ok": false,
+      "detail": "HTTP 404",
+      "ts": "2026-04-28T21:40:49.457886"
+    },
+    "SOFR": {
+      "ok": false,
+      "detail": "",
+      "ts": "2026-04-28T21:40:50.365681"
+    },
+    "CONGRESS": {
+      "ok": false,
+      "detail": "HTTP 403",
+      "ts": "2026-04-28T21:40:50.510606"
+    },
+    "INSIDER": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:40:50.674609"
+    },
+    "FII_DII": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-28T21:40:51.597784"
+    },
+    "ETF_FLOWS": {
+      "ok": true,
+      "detail": "",
+      "ts": "2026-04-28T21:40:54.215664"
+    },
+    "OPTIONS": {
+      "ok": true,
+      "detail": "Using VIX proxy",
+      "ts": "2026-04-28T21:40:54.215686"
+    },
+    "MARKETS": {
+      "ok": true,
+      "detail": "73/75",
+      "ts": "2026-04-28T21:41:08.446408"
+    },
+    "FG": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:41:08.500143"
+    },
+    "NEWS": {
+      "ok": true,
+      "detail": "10/17",
+      "ts": "2026-04-28T21:41:12.611267"
+    },
+    "GDELT": {
+      "ok": false,
+      "detail": "HTTP 429",
+      "ts": "2026-04-28T21:41:17.916314"
+    },
+    "MACRO_CAL": {
+      "ok": true,
+      "detail": "HTTP 200",
+      "ts": "2026-04-28T21:41:17.970386"
+    }
+  }
+}

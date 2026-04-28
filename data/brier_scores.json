@@ -1,29 +1,29 @@
 {
-  "overall_brier": 0.167332,
+  "overall_brier": 0.170906,
   "by_asset": {
     "SP500": {
-      "avg": 0.175683,
-      "n": 6
+      "avg": 0.171399,
+      "n": 7
     },
     "NIFTY50": {
-      "avg": 0.164214,
-      "n": 6
+      "avg": 0.170506,
+      "n": 7
     },
     "GOLD": {
-      "avg": 0.175261,
-      "n": 6
+      "avg": 0.181894,
+      "n": 7
     },
     "BITCOIN": {
-      "avg": 0.163667,
-      "n": 6
+      "avg": 0.170037,
+      "n": 7
     },
     "OIL_BRENT": {
-      "avg": 0.160945,
-      "n": 6
+      "avg": 0.169624,
+      "n": 7
     },
     "DXY": {
-      "avg": 0.164221,
-      "n": 6
+      "avg": 0.161975,
+      "n": 7
     }
   },
   "by_regime": {
@@ -32,8 +32,8 @@
       "n": 18
     },
     "RISK_ON": {
-      "avg": 0.161831,
-      "n": 18
+      "avg": 0.169462,
+      "n": 24
     }
   },
   "by_driver": {
@@ -42,20 +42,20 @@
       "n": 18
     },
     "fx_pressure": {
-      "avg": 0.167333,
-      "n": 36
+      "avg": 0.170907,
+      "n": 42
     },
     "correlation": {
-      "avg": 0.169198,
-      "n": 24
+      "avg": 0.173828,
+      "n": 30
     },
     "sentiment": {
       "avg": 0.176968,
       "n": 12
     },
     "commodity_cycle": {
-      "avg": 0.167885,
-      "n": 30
+      "avg": 0.171962,
+      "n": 36
     },
     "credit": {
       "avg": 0.164562,
@@ -68,12 +68,12 @@
       "hit": 24
     },
     "0.1": {
-      "total": 4,
-      "hit": 4
+      "total": 8,
+      "hit": 8
     },
     "0.3": {
-      "total": 3,
-      "hit": 3
+      "total": 5,
+      "hit": 5
     },
     "0.0": {
       "total": 1,
@@ -678,7 +678,103 @@
       "actual_change": 0.7431,
       "predicted_prob_for_actual": 0.2805,
       "magnitude_weight": 1.0
+    },
+    {
+      "ts": "2026-04-28T21:41:18.684007",
+      "asset": "SP500",
+      "regime": "RISK_ON",
+      "drivers": [
+        "commodity_cycle",
+        "fx_pressure",
+        "correlation"
+      ],
+      "brier_standard": 0.145695,
+      "brier_weighted": 0.145695,
+      "actual_bucket": "flat",
+      "actual_change": 0.4277,
+      "predicted_prob_for_actual": 0.2586,
+      "magnitude_weight": 1.0
+    },
+    {
+      "ts": "2026-04-28T21:41:18.684059",
+      "asset": "NIFTY50",
+      "regime": "RISK_ON",
+      "drivers": [
+        "commodity_cycle",
+        "fx_pressure",
+        "correlation"
+      ],
+      "brier_standard": 0.208255,
+      "brier_weighted": 0.208255,
+      "actual_bucket": "down",
+      "actual_change": -1.1707,
+      "predicted_prob_for_actual": 0.1022,
+      "magnitude_weight": 1.0
+    },
+    {
+      "ts": "2026-04-28T21:41:18.684102",
+      "asset": "GOLD",
+      "regime": "RISK_ON",
+      "drivers": [
+        "commodity_cycle",
+        "fx_pressure",
+        "correlation"
+      ],
+      "brier_standard": 0.221695,
+      "brier_weighted": 0.332543,
+      "actual_bucket": "down_big",
+      "actual_change": -2.142,
+      "predicted_prob_for_actual": 0.0686,
+      "magnitude_weight": 1.5
+    },
+    {
+      "ts": "2026-04-28T21:41:18.684139",
+      "asset": "BITCOIN",
+      "regime": "RISK_ON",
+      "drivers": [
+        "commodity_cycle",
+        "fx_pressure",
+        "correlation"
+      ],
+      "brier_standard": 0.208255,
+      "brier_weighted": 0.312383,
+      "actual_bucket": "down",
+      "actual_change": -1.8903,
+      "predicted_prob_for_actual": 0.1022,
+      "magnitude_weight": 1.5
+    },
+    {
+      "ts": "2026-04-28T21:41:18.684170",
+      "asset": "OIL_BRENT",
+      "regime": "RISK_ON",
+      "drivers": [
+        "commodity_cycle",
+        "fx_pressure",
+        "correlation"
+      ],
+      "brier_standard": 0.221695,
+      "brier_weighted": 0.332543,
+      "actual_bucket": "down_big",
+      "actual_change": -2.0105,
+      "predicted_prob_for_actual": 0.0686,
+      "magnitude_weight": 1.5
+    },
+    {
+      "ts": "2026-04-28T21:41:18.684201",
+      "asset": "DXY",
+      "regime": "RISK_ON",
+      "drivers": [
+        "commodity_cycle",
+        "fx_pressure",
+        "correlation"
+      ],
+      "brier_standard": 0.1485,
+      "brier_weighted": 0.1485,
+      "actual_bucket": "flat",
+      "actual_change": -0.2105,
+      "predicted_prob_for_actual": 0.2586,
+      "magnitude_weight": 1.0
     }
   ],
-  "total_scored": 36
+  "total_scored": 42
 }
