@@ -1,159 +1,6 @@
 {
   "chains": [
     {
-      "agent": "synthesis",
-      "observations": [
-        "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\nI side with Agent 1, who emphasizes the importance of the WARN Act's provisions in a crisis regime. This is because the current market conditions, as indica"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "upee) may be affected by the global economic trends and the RBI's interventions.",
-        "bearish trend, and investors should be prepared for potential losses."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\nI side with Agent 1, who emphasizes the importance of the WARN Act's provisions in a crisis regime. This is because the current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest a high fear rating and a 50% chance of a RISK_OFF regime. This uncertainty and potential for a crisis regime make it crucial for employers to be aware of the WARN Act's provisions and to provide written notice at least 60 days b",
-      "id": "f1415bd8a1c5",
-      "timestamp": "2026-04-07T09:55:12.552641",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest a high fear rating and a 50% chance of a RISK_OFF regime."
-      ],
-      "logic": [
-        "The high fear rating and crisis regime probability -> Increased uncertainty and potential for a crisis regime -> The need for employers to be aware of the WARN Act's provisions and to provide written notice at least 60 days before a mass layoff or plant closure. This implies that the market is sensitive to negative news, and any unexpected events could trigger a crisis regime, leading to significant consequences for the labor market and the overall economy."
-      ],
-      "counters": [
-        "The current market conditions may not necessarily lead to a crisis regime, and the WARN Act's provisions may not be as crucial as suggested. The market may be overreacting to the current uncertainty, and the probability of a crisis regime may be lower than estimated."
-      ],
-      "conclusions": [
-        "The WEAKEST THESIS is the \"Market Volatility and Risk Management\" thesis, with a confidence level of 70. This thesis is weaker because it is based on a general assumption that high market volatility and uncertainty require risk management strategies, without providing specific evidence or data to support this claim."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest a high fear rating and a 50% chance of a RISK_OFF regime.\n\nLOGIC: The high fear rating and crisis regime probability -> Increased uncertainty and potential for a crisis regime -> The need for employers to be aware of the WARN Act's provisions and to provide written notice at least 60 days before a mass layoff or plant closure. This implies that the market is sensitive to negat",
-      "id": "5e47d7479767",
-      "timestamp": "2026-04-07T09:55:12.552710",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The BIGGEST BLIND SPOT in the current analysis is the lack of consideration of external factors that may impact the market, such as global economic trends, geopolitical events, or unexpected changes in government policies. These factors may have a significant impact on the market and the labor market, and should be taken into account when evaluating the WARN Act's provisions and risk management strategies."
-      ],
-      "logic": [
-        "The lack of consideration of external factors -> Increased uncertainty and potential for unexpected events -> The need for a more comprehensive analysis that takes into account multiple scenarios and potential outcomes. This implies that the current analysis may be too narrow and may not capture the full range of potential risks and opportunities."
-      ],
-      "counters": [
-        "The current analysis may be sufficient for the current market conditions, and the external factors may not have a significant impact on the market. The analysis may be able to capture the most important factors that affect the market and the labor market."
-      ],
-      "conclusions": [
-        "The BIGGEST BLIND SPOT is the lack of consideration of external factors, which may have a significant impact on the market and the labor market. A more comprehensive analysis that takes into account multiple scenarios and potential outcomes is necessary to provide a more accurate evaluation of the WARN Act's provisions and risk management strategies."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is if the F&G index score decreases below 20, indicating a lower fear rating and a reduced probability of a crisis regime. This would suggest that the market is less sensitive to negative news, and the need for employers to be aware of the WARN Act's provisions may be less urgent."
-      ],
-      "falsifications": [
-        "The thesis is wrong if the market conditions suddenly shift to a low-probability crisis regime, and the WARN Act's provisions are not as relevant as suggested. This would indicate that the market is not as sensitive to negative news as estimated, and the need for risk management strategies may be lower than anticipated."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest a high fear rating and a 50% chance of a RISK_OFF regime.\n\nLOGIC: The high fear rating and crisis regime probability -> Increased uncertainty and potential for a crisis regime -> The need for employers to be aware of the WARN Act's provisions and to provide written notice at least 60 days before a mass layoff or plant closure. This implies that the market is sensitive to negat",
-      "id": "1d99e6c953c8",
-      "timestamp": "2026-04-07T09:55:12.552710",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime."
-      ],
-      "logic": [
-        "The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to make significant changes to their workforce -> This could lead to a higher number of mass layoffs and plant closures -> The market may become even more volatile as a result."
-      ],
-      "counters": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime, may not necessarily lead to a higher number of mass layoffs and plant closures, as employers may be able to adapt to the changing market conditions without needing to make significant changes to their workforce."
-      ],
-      "conclusions": [
-        "The WARN Act's provisions are likely to be crucial in a crisis regime, and employers should be prepared to provide written notice at least 60 days before a mass layoff or plant closure."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to make significant changes to their workforce -> This could lead to a higher number of mass layoffs and plant closures -> The market may become even more volatile as a result.",
-      "id": "622ad076ab05",
-      "timestamp": "2026-04-07T16:17:43.360310",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's crisis regime probability is 58%, and the market conditions indicate a high probability of volatility, with the F&G index and the ETF signals showing neutral or negative changes."
-      ],
-      "logic": [
-        "The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to make significant changes to their workforce -> This could lead to a higher number of mass layoffs and plant closures -> The market may become even more volatile as a result, which is consistent with the brain's crisis regime probability."
-      ],
-      "counters": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime, may not necessarily lead to a higher number of mass layoffs and plant closures, as employers may be able to adapt to the changing market conditions without needing to make significant changes to their workforce, and the ETF signals are mostly neutral."
-      ],
-      "conclusions": [
-        "The WARN Act's provisions are likely to be relevant in a crisis regime, but the actual impact on the market and employers is uncertain and depends on various factors, including the ability of employers to adapt to changing market conditions."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 58%, and the market conditions indicate a high probability of volatility, with the F&G index and the ETF signals showing neutral or negative changes.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may need to make significant changes to their workforce -> This could lead to a higher number of mass layoffs and plant closures -> The market may become even more volatile as a result, whic",
-      "id": "373e89a14aaa",
-      "timestamp": "2026-04-07T16:17:43.360390",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The VIX is currently at 26.25, indicating elevated volatility, and the F&G index is showing a score of 21.3, indicating \"extreme fear\" in the market."
-      ],
-      "logic": [
-        "The elevated VIX and extreme fear indicated by the F&G index suggest that the market is experiencing high levels of uncertainty and anxiety -> This could lead to increased market volatility and potential downturns -> The brain's crisis regime probability of 58% may be justified, and the market may be due for a correction."
-      ],
-      "counters": [
-        "The current market conditions, as indicated by the SP500 and NASDAQ, are still showing some signs of strength, with the SP500 only down 0.53% in the last 1d and the NASDAQ down 0.82% in the last 1d, which could suggest that the market is not yet ready to enter a full-blown crisis regime."
-      ],
-      "conclusions": [
-        "Based on the elevated VIX and extreme fear indicated by the F&G index, I conclude that the market is likely to remain highly volatile and may be due for a correction."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The VIX is currently at 26.25, indicating elevated volatility, and the F&G index is showing a score of 21.3, indicating \"extreme fear\" in the market.\n\nLOGIC: The elevated VIX and extreme fear indicated by the F&G index suggest that the market is experiencing high levels of uncertainty and anxiety -> This could lead to increased market volatility and potential downturns -> The brain's crisis regime probability of 58% may be justified, and the market may be due for a correction.\n\nCOUNTER:",
-      "id": "b72e36de2545",
-      "timestamp": "2026-04-07T16:17:43.360426",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "narrative",
       "observations": [
         "The current market conditions, as indicated by the F&G index and the brain's crisis regime probability of 58%, suggest a high level of uncertainty and anxiety, with elevated volatility and potential downturns."
@@ -9681,7 +9528,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "4adb1554ef3d",
       "timestamp": "2026-04-21T16:03:30.994902",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9704,7 +9551,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "ac90692e020c",
       "timestamp": "2026-04-21T16:03:30.994955",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9727,7 +9574,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "83f62db568b6",
       "timestamp": "2026-04-21T16:03:30.994982",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9750,7 +9597,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "5d404eb19a99",
       "timestamp": "2026-04-21T16:03:30.995004",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9773,7 +9620,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "2ef1170a2df1",
       "timestamp": "2026-04-21T16:03:30.995025",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9796,7 +9643,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "8b55723d8fc2",
       "timestamp": "2026-04-21T16:03:30.995043",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12556,6 +12403,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "dfc4d9b53d91",
       "timestamp": "2026-04-28T07:59:54.642932",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "7b4676f6249b",
+      "timestamp": "2026-04-28T18:01:31.404530",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "485439edf4e8",
+      "timestamp": "2026-04-28T18:01:31.404584",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "e89c06887915",
+      "timestamp": "2026-04-28T18:01:31.404611",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "7b40ea00cf3d",
+      "timestamp": "2026-04-28T18:01:31.404633",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "11a5bf304b91",
+      "timestamp": "2026-04-28T18:01:31.404654",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "eb897d0e8ac7",
+      "timestamp": "2026-04-28T18:01:31.404671",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
