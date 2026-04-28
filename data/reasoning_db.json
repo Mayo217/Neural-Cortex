@@ -3,156 +3,6 @@
     {
       "agent": "synthesis",
       "observations": [
-        "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the inputs from various agents, I conclude that Agents 1-3 are following the herd, focusing on potential risks and volatility in the market"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "upward trend in the SP500, NIFTY50, and GOLD indices could also be a sign of a strong market.",
-        "downturn -> Losses for investors\n   **CONFIDENCE:** 60\n   **KILL IF:** SP500 index breaks above its current resistance levels\n   **TIMEFRAME:** 30 days\n   **ASSET:** SP500 index\n\n2.",
-        "down\n   **CHAIN:** High crisis regime probability -> Reduced consumer spending -> Economic slowdown -> Increased unemployment\n   **CONFIDENCE:** 55\n   **KILL IF:** ISM Services PMI report shows significant growth\n   **TIMEFRAME:** 60 days\n   **ASSET:** US Treasury bonds\n\n3."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the inputs from various agents, I conclude that Agents 1-3 are following the herd, focusing on potential risks and volatility in the market. However, I side with a contrarian view, suggesting that the market may be due for a correction, but the current upward trend in the SP500, NIFTY50, and GOLD indices could also be a sign of a strong market.\n\nThe agent I side with is not explicitly stated, but my reasoning is based on a synthesis of",
-      "id": "46dcec9980c5",
-      "timestamp": "2026-04-07T06:01:46.539317",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\nTo destroy the Synthesizer's output, I will analyze the theses, regime, probabilities, signal weights, and identify the weakest thesis and the biggest blind spo"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "down.",
-        "upward trend could continue\n   **CONCLUDE:** The market is likely to experience a correction\n   **DEPENDS ON:** The next significant move in the SP500 index\n   **WRONG IF:** The SP500 index breaks above its current resistance levels\n\n2.",
-        "down\n   **OBSERVE:** High crisis regime probability\n   **LOGIC:** The economy is likely to experience a slowdown -> Reduced consumer spending -> Increased unemployment\n   **COUNTER:** The economy may be more resilient than expected, and the slowdown may not occur\n   **CONCLUDE:** The economy is likely to experience a slowdown\n   **DEPENDS ON:** The next ISM Services PMI report\n   **WRONG IF:** The ISM Services PMI report shows significant growth\n\n3."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\nTo destroy the Synthesizer's output, I will analyze the theses, regime, probabilities, signal weights, and identify the weakest thesis and the biggest blind spot.\n\n**WEAKEST THESIS:**\nThe weakest thesis is the **Credit Market Stress** thesis, with a confidence level of 40. This thesis is based on the chain: High crisis regime probability -> Increased credit market stress -> Reduced lending -> Economic slowdown. However, the confidence level is relatively l",
-      "id": "68d77718cb98",
-      "timestamp": "2026-04-07T06:01:46.539719",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime."
-      ],
-      "logic": [
-        "The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a surge in WARN Act notices, which could have a significant impact on the labor market and the overall economy -> The current market conditions, as indicated by the F&G index and the brain's crisis regime, suggest that the WARN Act's provisions are likely to be relevant in the near future."
-      ],
-      "counters": [
-        "One potential counterargument is that the WARN Act's provisions may not be sufficient to mitigate the impact of a crisis regime, as employers may still be able to lay off workers without providing adequate notice."
-      ],
-      "conclusions": [
-        "I conclude that the WARN Act's provisions are likely to take on increased importance in a crisis regime, and that employers should be prepared to provide written notice at least 60 days before a mass layoff or plant closure."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a surge in WARN Act notices, which could have a significant impact on the labor market and the overall",
-      "id": "59c9a61ed844",
-      "timestamp": "2026-04-07T09:55:12.551916",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The upstream output suggests that the WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures. However, the market data, such as the SP500, NIFTY50, and GOLD, show a low probability of a crisis regime, with a 50% chance of a RISK_OFF regime."
-      ],
-      "logic": [
-        "The WARN Act's provisions are likely to be relevant in a crisis regime, but the current market conditions do not indicate a high probability of a crisis regime -> This could lead to a lower likelihood of mass layoffs or plant closures, and therefore a lower relevance of the WARN Act's provisions -> The current market conditions, as indicated by the F&G index and the brain's crisis regime, suggest that the WARN Act's provisions may not be as relevant in the near future as the upstream output suggests."
-      ],
-      "counters": [
-        "One potential counterargument is that the WARN Act's provisions are still important, even in a low-probability crisis regime, as they provide protection for workers' rights and can help mitigate the impact of mass layoffs or plant closures."
-      ],
-      "conclusions": [
-        "I conclude that the WARN Act's provisions may not be as relevant in the near future, given the current market conditions and the low probability of a crisis regime. However, it is still important for employers to be aware of the WARN Act's provisions and to be prepared to provide written notice at least 60 days before a mass layoff or plant closure."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The upstream output suggests that the WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures. However, the market data, such as the SP500, NIFTY50, and GOLD, show a low probability of a crisis regime, with a 50% chance of a RISK_OFF regime.\n\nLOGIC: The WARN Act's provisions are likely to be relevant in a crisis regime, but the current market conditions do not indicate a high probabili",
-      "id": "c2ef6f18f24a",
-      "timestamp": "2026-04-07T09:55:12.552002",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions, as indicated by the F&G index, show a score of 23.3, which corresponds to a \"extreme fear\" rating, and the brain's crisis regime probability is 50%."
-      ],
-      "logic": [
-        "The high fear rating and crisis regime probability suggest that the market is highly volatile and sensitive to negative news -> This could lead to a high probability of a crisis regime, which would have a significant impact on the labor market and the overall economy -> The WARN Act's provisions, which require employers to provide written notice at least 60 days before a mass layoff or plant closure, are likely to take on increased importance in a crisis regime."
-      ],
-      "counters": [
-        "One potential counterargument is that the current market conditions, as indicated by the SP500, NIFTY50, and GOLD, show a low probability of a crisis regime, with a 50% chance of a RISK_OFF regime, which could reduce the relevance of the WARN Act's provisions."
-      ],
-      "conclusions": [
-        "Based on the analysis, I conclude that the WARN Act's provisions are likely to be relevant in the near future, given the high fear rating and crisis regime probability."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index, show a score of 23.3, which corresponds to a \"extreme fear\" rating, and the brain's crisis regime probability is 50%.\n\nLOGIC: The high fear rating and crisis regime probability suggest that the market is highly volatile and sensitive to negative news -> This could lead to a high probability of a crisis regime, which would have a significant impact on the labor market and the overall economy -> The WARN Act's provisions, which",
-      "id": "3ebd36d2f669",
-      "timestamp": "2026-04-07T09:55:12.552059",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions, as indicated by the SP500, NIFTY50, and GOLD, show a low probability of a crisis regime, with a 50% chance of a RISK_OFF regime. Agents 1-3 are considering the implications of the WARN Act, market volatility, and news reports on the labor market and economy."
-      ],
-      "logic": [
-        "The low probability of a crisis regime and the high volatility of the market suggest that Agents 1-3 are following the herd by focusing on the WARN Act's provisions and the potential impact on the labor market -> This could lead to a lower likelihood of mass layoffs or plant closures, and a subsequent decrease in the importance of the WARN Act's provisions -> However, the high fear rating and crisis regime probability indicate that the market is sensitive to negative news, and any unexpected events could trigger a crisis regime."
-      ],
-      "counters": [
-        "A counterargument could be that the Agents 1-3 are not following the herd, but rather, they are considering the potential risks and consequences of a crisis regime, and the WARN Act's provisions are a critical component of their analysis."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and the Agents' analysis, I conclude that the Agents 1-3 are following the herd by focusing on the WARN Act's provisions and the potential impact on the labor market."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the SP500, NIFTY50, and GOLD, show a low probability of a crisis regime, with a 50% chance of a RISK_OFF regime. Agents 1-3 are considering the implications of the WARN Act, market volatility, and news reports on the labor market and economy.\n\nLOGIC: The low probability of a crisis regime and the high volatility of the market suggest that Agents 1-3 are following the herd by focusing on the WARN Act's provisions and the potential impact on ",
-      "id": "6b8aa2e0f7a3",
-      "timestamp": "2026-04-07T09:55:12.552093",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
         "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\nI side with Agent 1, who emphasizes the importance of the WARN Act's provisions in a crisis regime. This is because the current market conditions, as indica"
       ],
       "logic": [
@@ -9693,7 +9543,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "d245239b3305",
       "timestamp": "2026-04-21T06:26:45.523275",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9716,7 +9566,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "5412a05439fa",
       "timestamp": "2026-04-21T06:26:45.523329",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9739,7 +9589,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "f5eed7b4d614",
       "timestamp": "2026-04-21T06:26:45.523378",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9762,7 +9612,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "1510a6bc73f3",
       "timestamp": "2026-04-21T06:26:45.523403",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9785,7 +9635,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "960104fb3afa",
       "timestamp": "2026-04-21T06:26:45.523424",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9808,7 +9658,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "8e64810e50fd",
       "timestamp": "2026-04-21T06:26:45.523442",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12571,6 +12421,144 @@
       "status": "active",
       "outcome_score": null,
       "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "bf359877ade4",
+      "timestamp": "2026-04-28T07:59:54.642791",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "84b01aa43402",
+      "timestamp": "2026-04-28T07:59:54.642844",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "68b0d40998d4",
+      "timestamp": "2026-04-28T07:59:54.642872",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "55a7e5b31d1e",
+      "timestamp": "2026-04-28T07:59:54.642896",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "6cb635472fda",
+      "timestamp": "2026-04-28T07:59:54.642916",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "dfc4d9b53d91",
+      "timestamp": "2026-04-28T07:59:54.642932",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
       "reasoning_type": "general"
     }
   ],
