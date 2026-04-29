@@ -1,172 +1,6 @@
 {
   "chains": [
     {
-      "agent": "synthesis",
-      "observations": [
-        "### 1. RECONCILE contradictions between agents. Name which agent you side with and WHY.\n\nAfter reviewing the analysis from various agents, it's clear that there's a consensus on the importance of the "
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "downturn\n**CONFIDENCE:** 60\n**KILL IF:** VIX index remains below 20 for the next 30 days\n**TIMEFRAME:** 60 days\n**ASSET:** VIX index\n\n**THESIS:** Industrial Metals Uptrend\n**CHAIN:** Break in COPPER/OIL_WTI correlation -> Increased demand for industrial metals -> Copper price surge -> Broader industrial metals sector uptrend\n**CONFIDENCE:** 55\n**KILL IF:** Copper price drops below $2.",
-        "upee has been relatively stable against the US Dollar, suggesting a balanced foreign exchange market.",
-        "down, geopolitical tensions, and potential inflationary pressures."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### 1. RECONCILE contradictions between agents. Name which agent you side with and WHY.\n\nAfter reviewing the analysis from various agents, it's clear that there's a consensus on the importance of the WARN Act and its implications on employers and employees. However, the agents seem to be following the herd without providing unique insights or contrarian views. Given the lack of diversity in their analysis, I'm inclined to side with the idea that the current narrative lacks depth and could benefi",
-      "id": "c5b522f8f5f8",
-      "timestamp": "2026-04-08T06:04:55.053126",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The analysis lacks diversity, with agents following a similar narrative without providing unique insights."
-      ],
-      "logic": [
-        "Lack of diversity in analysis -> Groupthink and consensus without contrarian views -> Increased risk of missing potential market shifts and downturns -> Investors and analysts are not prepared for unexpected events."
-      ],
-      "counters": [
-        "The consensus could be correct, and the market might continue in its current trajectory without significant downturns."
-      ],
-      "conclusions": [
-        "The lack of contrarian views and diversity in analysis is a significant concern that could lead to unforeseen market shifts."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### Attack on the Synthesizer's Output\n\n#### 1. RECONCILE contradictions between agents\n\nOBSERVE: The analysis lacks diversity, with agents following a similar narrative without providing unique insights.\nLOGIC: Lack of diversity in analysis -> Groupthink and consensus without contrarian views -> Increased risk of missing potential market shifts and downturns -> Investors and analysts are not prepared for unexpected events.\nCOUNTER: The consensus could be correct, and the market might continue i",
-      "id": "b12a1445cec8",
-      "timestamp": "2026-04-08T06:04:55.053263",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The thesis on Industrial Metals Uptrend has a confidence level of 55, which is lower than the Market Volatility Increase thesis."
-      ],
-      "logic": [
-        "Lower confidence level -> Less conviction in the thesis -> Higher potential for error or inaccuracy -> Weaker thesis."
-      ],
-      "counters": [
-        "The thesis might still be correct despite the lower confidence level, and industrial metals could experience an uptrend."
-      ],
-      "conclusions": [
-        "The Industrial Metals Uptrend thesis is the weakest due to its lower confidence level."
-      ],
-      "dependencies": [
-        "Evidence of agents starting to provide more diverse and contrarian analyses."
-      ],
-      "falsifications": [
-        "The market continues to be stable and grows without any significant downturns despite the lack of diversity in analysis."
-      ],
-      "assets": [],
-      "raw_excerpt": "### Attack on the Synthesizer's Output\n\n#### 1. RECONCILE contradictions between agents\n\nOBSERVE: The analysis lacks diversity, with agents following a similar narrative without providing unique insights.\nLOGIC: Lack of diversity in analysis -> Groupthink and consensus without contrarian views -> Increased risk of missing potential market shifts and downturns -> Investors and analysts are not prepared for unexpected events.\nCOUNTER: The consensus could be correct, and the market might continue i",
-      "id": "2c29de92396a",
-      "timestamp": "2026-04-08T06:04:55.053263",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The analysis focuses on market trends, economic indicators, and sectoral performance but lacks a comprehensive discussion on geopolitical risks and their potential impact."
-      ],
-      "logic": [
-        "Lack of discussion on geopolitical risks -> Potential blind spot -> Unforeseen geopolitical events could significantly impact markets -> Investors and analysts are not prepared for such risks."
-      ],
-      "counters": [
-        "Geopolitical risks might not materialize, or their impact could be minimal."
-      ],
-      "conclusions": [
-        "The biggest blind spot is the lack of comprehensive discussion on geopolitical risks and their potential impact on markets."
-      ],
-      "dependencies": [
-        "An increase in the confidence level of the Industrial Metals Uptrend thesis or evidence supporting its validity."
-      ],
-      "falsifications": [
-        "The Industrial Metals Uptrend thesis proves to be accurate, and the sector experiences a significant uptrend."
-      ],
-      "assets": [],
-      "raw_excerpt": "### Attack on the Synthesizer's Output\n\n#### 1. RECONCILE contradictions between agents\n\nOBSERVE: The analysis lacks diversity, with agents following a similar narrative without providing unique insights.\nLOGIC: Lack of diversity in analysis -> Groupthink and consensus without contrarian views -> Increased risk of missing potential market shifts and downturns -> Investors and analysts are not prepared for unexpected events.\nCOUNTER: The consensus could be correct, and the market might continue i",
-      "id": "6ce7b72e9000",
-      "timestamp": "2026-04-08T06:04:55.053263",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The probabilities assigned to market movements (e.g., SP500, NIFTY50) are based on recent trends without considering potential shifts in market sentiment."
-      ],
-      "logic": [
-        "Probabilities based on recent trends -> Failure to account for potential shifts in market sentiment -> Inaccurate probabilities -> Poor investment decisions."
-      ],
-      "counters": [
-        "Recent trends might continue, and the assigned probabilities could be accurate."
-      ],
-      "conclusions": [
-        "The probabilities and signal weights should be reassessed to account for potential shifts in market sentiment and unforeseen events."
-      ],
-      "dependencies": [
-        "Evidence of geopolitical risks being adequately addressed and incorporated into market analyses."
-      ],
-      "falsifications": [
-        "Geopolitical events do not significantly impact markets, and the current narrative remains intact."
-      ],
-      "assets": [],
-      "raw_excerpt": "### Attack on the Synthesizer's Output\n\n#### 1. RECONCILE contradictions between agents\n\nOBSERVE: The analysis lacks diversity, with agents following a similar narrative without providing unique insights.\nLOGIC: Lack of diversity in analysis -> Groupthink and consensus without contrarian views -> Increased risk of missing potential market shifts and downturns -> Investors and analysts are not prepared for unexpected events.\nCOUNTER: The consensus could be correct, and the market might continue i",
-      "id": "2ade23c7a745",
-      "timestamp": "2026-04-08T06:04:55.053263",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "sentiment_contrarian"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The current regime is RISK_OFF (30%), indicating a moderate level of risk aversion."
-      ],
-      "logic": [
-        "Moderate risk aversion -> Potential for increased risk-taking -> Shift in regime -> Significant market movements."
-      ],
-      "counters": [
-        "The current regime might persist, and risk aversion could remain stable."
-      ],
-      "conclusions": [
-        "The regime should be continuously monitored, and investors should be prepared for potential shifts in risk aversion and market sentiment."
-      ],
-      "dependencies": [
-        "Evidence of probabilities and signal weights being adjusted to reflect changing market conditions."
-      ],
-      "falsifications": [
-        "The assigned probabilities and signal weights prove to be accurate, and market trends continue as expected."
-      ],
-      "assets": [],
-      "raw_excerpt": "### Attack on the Synthesizer's Output\n\n#### 1. RECONCILE contradictions between agents\n\nOBSERVE: The analysis lacks diversity, with agents following a similar narrative without providing unique insights.\nLOGIC: Lack of diversity in analysis -> Groupthink and consensus without contrarian views -> Increased risk of missing potential market shifts and downturns -> Investors and analysts are not prepared for unexpected events.\nCOUNTER: The consensus could be correct, and the market might continue i",
-      "id": "8a6d53809623",
-      "timestamp": "2026-04-08T06:04:55.053263",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_OFF",
-      "reasoning_type": "general"
-    },
-    {
       "agent": "upstream",
       "observations": [
         "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime."
@@ -9606,7 +9440,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "c39f2c4c37ea",
       "timestamp": "2026-04-22T20:43:58.148726",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9629,7 +9463,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "fefa2f7da583",
       "timestamp": "2026-04-22T20:43:58.148775",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9652,7 +9486,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "ec28dc4c8bc8",
       "timestamp": "2026-04-22T20:43:58.148808",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9675,7 +9509,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "be6fa43c3f20",
       "timestamp": "2026-04-22T20:43:58.148831",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9698,7 +9532,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "577bc14627f4",
       "timestamp": "2026-04-22T20:43:58.148853",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9721,7 +9555,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "8a708772a32d",
       "timestamp": "2026-04-22T20:43:58.148871",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12481,6 +12315,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "764cffd6a835",
       "timestamp": "2026-04-29T17:13:28.245313",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "cf510959fbeb",
+      "timestamp": "2026-04-29T21:46:10.158215",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "4fd78abe6250",
+      "timestamp": "2026-04-29T21:46:10.158262",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "bce608b9eda5",
+      "timestamp": "2026-04-29T21:46:10.158290",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "3b40313bacfc",
+      "timestamp": "2026-04-29T21:46:10.158313",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "e72ebbf68a83",
+      "timestamp": "2026-04-29T21:46:10.158334",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "ef65f498e0ed",
+      "timestamp": "2026-04-29T21:46:10.158353",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
