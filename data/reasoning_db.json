@@ -1,156 +1,6 @@
 {
   "chains": [
     {
-      "agent": "upstream",
-      "observations": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime, show a high level of uncertainty and volatility, with a 89% chance of being in a transition regime."
-      ],
-      "logic": [
-        "The high uncertainty and volatility in the market -> increased likelihood of a crisis -> implications for investor risk management and potential market downturn."
-      ],
-      "counters": [
-        "The fact that the SP500, NIFTY50, GOLD, and BITCOIN are all showing similar trends, with a higher percentage of upward movement, could suggest that the market is less volatile than expected and that a crisis may not be imminent."
-      ],
-      "conclusions": [
-        "Despite the counterargument, I conclude that the market is indeed highly volatile and that investors should be cautious and prepared for potential downturns."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime, show a high level of uncertainty and volatility, with a 89% chance of being in a transition regime.\n\nLOGIC: The high uncertainty and volatility in the market -> increased likelihood of a crisis -> implications for investor risk management and potential market downturn.\n\nCOUNTER: The fact that the SP500, NIFTY50, GOLD, and BITCOIN are all showing similar trends, with a higher percentage of upward ",
-      "id": "5a62894826f6",
-      "timestamp": "2026-04-08T20:10:27.701028",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's crisis regime prediction has a 89% probability, indicating a high level of uncertainty and volatility in the market, while the ETF data shows a neutral signal for most assets, with some exceptions like Semis and Energy."
-      ],
-      "logic": [
-        "The high uncertainty and volatility in the market, as indicated by the brain's crisis regime prediction -> increased likelihood of a crisis -> implications for investor risk management and potential market downturn. The neutral signals from the ETF data -> lack of clear direction in the market -> potential for increased volatility."
-      ],
-      "counters": [
-        "The fact that the SP500, NIFTY50, GOLD, and BITCOIN are all showing similar trends, with a higher percentage of upward movement, could suggest that the market is less volatile than expected and that a crisis may not be imminent. Additionally, the neutral signals from the ETF data could indicate a period of consolidation before a potential downturn."
-      ],
-      "conclusions": [
-        "Despite the counterargument, I conclude that the market is indeed highly volatile and that investors should be cautious and prepared for potential downturns. The brain's crisis regime prediction and the neutral signals from the ETF data suggest a high level of uncertainty, which could lead to increased volatility and potential market downturns."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's crisis regime prediction has a 89% probability, indicating a high level of uncertainty and volatility in the market, while the ETF data shows a neutral signal for most assets, with some exceptions like Semis and Energy.\n\nLOGIC: The high uncertainty and volatility in the market, as indicated by the brain's crisis regime prediction -> increased likelihood of a crisis -> implications for investor risk management and potential market downturn. The neutral signals from the ETF da",
-      "id": "701297ffe2e7",
-      "timestamp": "2026-04-08T20:10:27.701104",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime, show a high level of uncertainty and volatility, with a 89% chance of being in a transition regime. The F&G score is 30.7, indicating a \"fear\" rating, and the brain's crisis regime prediction has a high probability."
-      ],
-      "logic": [
-        "The high uncertainty and volatility in the market, as indicated by the F&G index and the brain's crisis regime prediction -> increased likelihood of a crisis -> implications for investor risk management and potential market downturn. The fact that the SP500, NIFTY50, GOLD, and BITCOIN are all showing similar trends, with a higher percentage of upward movement, could suggest that the market is less volatile than expected, but the anomalies in the correlations, such as the breaks in DXY/GOLD, US10Y/GOLD, BITCOIN/NASDAQ, and COPPER/OIL_WTI, indicate potential risks and uncertainties."
-      ],
-      "counters": [
-        "The fact that the SP500, NIFTY50, GOLD, and BITCOIN are all showing similar trends, with a higher percentage of upward movement, could suggest that the market is less volatile than expected and that a crisis may not be imminent. However, the high F&G score and the brain's crisis regime prediction suggest that the market is still uncertain and volatile."
-      ],
-      "conclusions": [
-        "Despite the counterargument, I conclude that the market is indeed highly volatile and that investors should be cautious and prepared for potential downturns. The anomalies in the correlations and the high F&G score indicate potential risks and uncertainties that investors should be aware of."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime, show a high level of uncertainty and volatility, with a 89% chance of being in a transition regime. The F&G score is 30.7, indicating a \"fear\" rating, and the brain's crisis regime prediction has a high probability.\n\nLOGIC: The high uncertainty and volatility in the market, as indicated by the F&G index and the brain's crisis regime prediction -> increased likelihood of a crisis -> implications f",
-      "id": "9cb8a9e907e5",
-      "timestamp": "2026-04-08T20:10:27.701139",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime, show a high level of uncertainty and volatility, with a 89% chance of being in a transition regime. The news articles suggest a mix of positive and negative developments, including a potential US-Iran ceasefire, a takeover offer for Universal, and a rise in oil prices."
-      ],
-      "logic": [
-        "The high uncertainty and volatility in the market, combined with the mixed news developments -> increased likelihood of a crisis or significant market movement -> implications for investor risk management and potential market downturn. The fact that Agents 1-3 are following the herd, with similar observations and logic, suggests a consensus view that the market is likely to remain volatile."
-      ],
-      "counters": [
-        "The fact that the SP500, NIFTY50, GOLD, and BITCOIN are all showing similar trends, with a higher percentage of upward movement, could suggest that the market is less volatile than expected and that a crisis may not be imminent. Additionally, the news articles suggest that some investors are taking a bullish view, with a $950 million bet on oil prices falling and a 10% jump in Levi Strauss shares."
-      ],
-      "conclusions": [
-        "The market is likely to remain volatile, with a high probability of a crisis or significant market movement. However, the consensus view among Agents 1-3 and the mixed news developments suggest that the market may not be as bearish as expected."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime, show a high level of uncertainty and volatility, with a 89% chance of being in a transition regime. The news articles suggest a mix of positive and negative developments, including a potential US-Iran ceasefire, a takeover offer for Universal, and a rise in oil prices.\n\nLOGIC: The high uncertainty and volatility in the market, combined with the mixed news developments -> increased likelihood of a",
-      "id": "df171936d580",
-      "timestamp": "2026-04-08T20:10:27.701171",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "**1. RECONCILE contradictions between agents:**\nAfter analyzing the provided information, I conclude that I side with the **UPSTREAM** agent. The UPSTREAM agent's observation of the high uncertainty a"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "UPSTREAM** agent.",
-        "UPSTREAM agent's observation of the high uncertainty and volatility in the market, as indicated by the F&G index and the brain's crisis regime, aligns with my own analysis.",
-        "downturn is sound and well-supported by the data."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**1. RECONCILE contradictions between agents:**\nAfter analyzing the provided information, I conclude that I side with the **UPSTREAM** agent. The UPSTREAM agent's observation of the high uncertainty and volatility in the market, as indicated by the F&G index and the brain's crisis regime, aligns with my own analysis. The agent's logic that the high uncertainty and volatility -> increased likelihood of a crisis -> implications for investor risk management and potential market downturn is sound an",
-      "id": "642b8df918fc",
-      "timestamp": "2026-04-08T20:10:27.701608",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The UPSTREAM agent's observation of high uncertainty and volatility in the market, as indicated by the F&G index and the brain's crisis regime, aligns with the overall analysis, but the confidence level of 80 in the THESIS: Market Volatility and Crisis Risk seems overly optimistic."
-      ],
-      "logic": [
-        "The high uncertainty and volatility -> increased likelihood of a crisis -> implications for investor risk management and potential market downturn is sound, but the confidence level does not account for potential black swan events or unforeseen circumstances that could drastically alter market conditions -> this omission could lead to a false sense of security among investors -> implication that the confidence level should be lower to reflect the true uncertainty of the market."
-      ],
-      "counters": [
-        "The argument that the confidence level of 80 is justified due to the strong correlation between the F&G index and historical market crises could be countered by the fact that past performance is not always indicative of future results, and the market is inherently unpredictable."
-      ],
-      "conclusions": [
-        "The WEAKEST THESIS is the confidence level of 80 in the THESIS: Market Volatility and Crisis Risk, as it does not fully account for the unpredictability of the market and potential black swan events."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The UPSTREAM agent's observation of high uncertainty and volatility in the market, as indicated by the F&G index and the brain's crisis regime, aligns with the overall analysis, but the confidence level of 80 in the THESIS: Market Volatility and Crisis Risk seems overly optimistic.\nLOGIC: The high uncertainty and volatility -> increased likelihood of a crisis -> implications for investor risk management and potential market downturn is sound, but the confidence level does not account fo",
-      "id": "0499708fbde9",
-      "timestamp": "2026-04-08T20:10:27.701666",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "adversary",
       "observations": [
         "The BIGGEST BLIND SPOT in the analysis is the lack of consideration for external factors that could impact the market, such as geopolitical events, natural disasters, or unexpected central bank actions."
@@ -9566,7 +9416,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "8a3b7b803b44",
       "timestamp": "2026-04-23T17:06:41.975923",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9589,7 +9439,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "1945c8478ff0",
       "timestamp": "2026-04-23T17:06:41.975972",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9612,7 +9462,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "b92003588b39",
       "timestamp": "2026-04-23T17:06:41.976023",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9635,7 +9485,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "a64eaa4e8845",
       "timestamp": "2026-04-23T17:06:41.976045",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9658,7 +9508,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "92b13313a365",
       "timestamp": "2026-04-23T17:06:41.976066",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9681,7 +9531,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "d1037e2f813a",
       "timestamp": "2026-04-23T17:06:41.976083",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12441,6 +12291,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "5851c57ab974",
       "timestamp": "2026-04-30T07:57:08.078178",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "faf44d76ba41",
+      "timestamp": "2026-04-30T17:06:57.500421",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "0a0c476f5ce8",
+      "timestamp": "2026-04-30T17:06:57.500483",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "2351317e7279",
+      "timestamp": "2026-04-30T17:06:57.500511",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "4673ce6e5966",
+      "timestamp": "2026-04-30T17:06:57.500533",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "2aff0c10dda4",
+      "timestamp": "2026-04-30T17:06:57.500555",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "7eb3fac75c78",
+      "timestamp": "2026-04-30T17:06:57.500572",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
