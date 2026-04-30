@@ -3,156 +3,6 @@
     {
       "agent": "upstream",
       "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime."
-      ],
-      "logic": [
-        "The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> Which could have a significant impact on the labor market and economy."
-      ],
-      "counters": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, may not necessarily lead to a high number of WARN Act notices being filed, as employers may be able to adapt to the changing market conditions without undergoing mass layoffs or plant closures."
-      ],
-      "conclusions": [
-        "Despite the counterargument, I conclude that the WARN Act's provisions are likely to be important in the current market conditions, and employers should be prepared to provide written notice at least 60 days before a mass layoff or plant closure."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime.\n\nLOGIC: The WARN Act's provisions are likely to take on increased importance in a crisis regime, as employers may be more likely to undergo mass layoffs or plant closures -> This could lead to a higher number of WARN Act notices being filed -> Which could have a significant impact on the labor ",
-      "id": "48012f077c74",
-      "timestamp": "2026-04-08T16:23:31.201314",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's crisis regime probability is 67%, and the WARN Act's provisions are considered important in a crisis regime, but the ETF signals for various sectors, including SP500, Nasdaq, and Gold, are all neutral."
-      ],
-      "logic": [
-        "If the crisis regime probability is high, and the WARN Act's provisions are important in such a regime, we would expect to see some indication of market stress or volatility in the ETF signals -> However, all ETF signals are neutral, suggesting that the market is not currently pricing in a high probability of a crisis regime -> This could imply that the brain's crisis regime probability is overestimated, or that the market is not yet reacting to the potential risks."
-      ],
-      "counters": [
-        "The neutral ETF signals could be due to the market being in a state of uncertainty, where investors are waiting for more information before making any significant moves -> This could be a temporary phenomenon, and the market could still react violently to any negative news or events -> The brain's crisis regime probability could still be accurate, and the WARN Act's provisions could still be important."
-      ],
-      "conclusions": [
-        "Despite the neutral ETF signals, I conclude that the brain's crisis regime probability and the importance of the WARN Act's provisions should still be taken into consideration, as the market can be unpredictable and react quickly to new information."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, and the WARN Act's provisions are considered important in a crisis regime, but the ETF signals for various sectors, including SP500, Nasdaq, and Gold, are all neutral.\n\nLOGIC: If the crisis regime probability is high, and the WARN Act's provisions are important in such a regime, we would expect to see some indication of market stress or volatility in the ETF signals -> However, all ETF signals are neutral, suggesting that the market is not c",
-      "id": "284115edf725",
-      "timestamp": "2026-04-08T16:23:31.201390",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest a high probability of a crisis regime, with the F&G score at 29.8, indicating a \"fear\" rating."
-      ],
-      "logic": [
-        "The high crisis regime probability and the \"fear\" rating from the F&G index suggest that investors are becoming increasingly risk-averse -> This could lead to a decrease in asset prices, particularly in riskier assets such as stocks and cryptocurrencies -> Which could have a significant impact on the overall market and economy."
-      ],
-      "counters": [
-        "The fact that the ETF signals for various sectors, including SP500, Nasdaq, and Gold, are all neutral, suggests that the market may not be currently pricing in a high probability of a crisis regime, which could counter the expected decrease in asset prices."
-      ],
-      "conclusions": [
-        "The market is likely to remain highly volatile, with a high probability of a crisis regime, and investors should be cautious and prepared for potential market downturns."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest a high probability of a crisis regime, with the F&G score at 29.8, indicating a \"fear\" rating.\n\nLOGIC: The high crisis regime probability and the \"fear\" rating from the F&G index suggest that investors are becoming increasingly risk-averse -> This could lead to a decrease in asset prices, particularly in riskier assets such as stocks and cryptocurrencies -> Which could have a ",
-      "id": "7a8826caf27a",
-      "timestamp": "2026-04-08T16:23:31.201445",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest a high probability of a crisis regime, with the F&G score at 29.8, indicating a \"fear\" rating. Agents 1-3 are analyzing the WARN Act's provisions, ETF signals, and market conditions to determine the potential impact on the labor market and economy."
-      ],
-      "logic": [
-        "The high crisis regime probability and the \"fear\" rating from the F&G index suggest that investors are becoming increasingly risk-averse -> This could lead to a decrease in asset prices, particularly in riskier assets such as stocks and cryptocurrencies -> Which could have a significant impact on the overall market and economy. Agents 1-3 are following the herd by analyzing the same data points and drawing similar conclusions."
-      ],
-      "counters": [
-        "The fact that the ETF signals for various sectors, including SP500, Nasdaq, and Gold, are all neutral, suggests that the market is not currently pricing in a high probability of a crisis regime. This could imply that the brain's crisis regime probability is overstated, and the market is not as bearish as expected."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and the analysis of Agents 1-3, it appears that the market is likely to remain highly volatile, with a high probability of a crisis regime. However, the neutral ETF signals suggest that the market is not currently pricing in a high probability of a crisis regime, which could imply that the brain's crisis regime probability is overstated."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions, as indicated by the F&G index and the brain's crisis regime probability, suggest a high probability of a crisis regime, with the F&G score at 29.8, indicating a \"fear\" rating. Agents 1-3 are analyzing the WARN Act's provisions, ETF signals, and market conditions to determine the potential impact on the labor market and economy.\n\nLOGIC: The high crisis regime probability and the \"fear\" rating from the F&G index suggest that investors are becoming increasing",
-      "id": "0e10d645c2bf",
-      "timestamp": "2026-04-08T16:23:31.201506",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the various agents' perspectives, I side with the **upstream** agent, which emphasizes the importance of the WARN Act's provisions in a cri"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "upstream** agent, which emphasizes the importance of the WARN Act's provisions in a crisis regime.",
-        "upstream agent's logic is sound, as the WARN Act's requirements for written notice before mass layoffs or plant closures can help mitigate the impact of a crisis on workers and the labor market.",
-        "upstream agent's focus on the WARN Act's provisions provides a crucial perspective on the potential consequences of a crisis regime."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the various agents' perspectives, I side with the **upstream** agent, which emphasizes the importance of the WARN Act's provisions in a crisis regime. The upstream agent's logic is sound, as the WARN Act's requirements for written notice before mass layoffs or plant closures can help mitigate the impact of a crisis on workers and the labor market. While other agents, such as the **flow** and **market** agents, raise valid counterpoints",
-      "id": "c5b2b68a111b",
-      "timestamp": "2026-04-08T16:23:31.202053",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "**OBSERVE:** The Crisis Regime Probability thesis has a confidence level of 80 and is based on the chain of high crisis regime probability leading to increased risk aversion, decrease in asset prices,"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "downturn.",
-        "bearish as expected, which could counter the Crisis Regime Probability thesis.",
-        "bearish as expected, and the crisis regime probability is lower than anticipated."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**OBSERVE:** The Crisis Regime Probability thesis has a confidence level of 80 and is based on the chain of high crisis regime probability leading to increased risk aversion, decrease in asset prices, and significant impact on the labor market and economy.\n\n**LOGIC:** The Crisis Regime Probability thesis is based on a sound logical chain, but it assumes a direct correlation between crisis regime probability and market reaction -> If the market is not pricing in a high probability of a crisis reg",
-      "id": "a1388d310fce",
-      "timestamp": "2026-04-08T16:23:31.202390",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
         "The current market conditions, as indicated by the F&G index and the brain's crisis regime, show a high level of uncertainty and volatility, with a 89% chance of being in a transition regime."
       ],
       "logic": [
@@ -9578,7 +9428,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "bb3a4556f29d",
       "timestamp": "2026-04-23T06:31:43.239906",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9601,7 +9451,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "02242994c867",
       "timestamp": "2026-04-23T06:31:43.239960",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9624,7 +9474,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "86feb2aa082d",
       "timestamp": "2026-04-23T06:31:43.239987",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9647,7 +9497,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "cce8395de2f6",
       "timestamp": "2026-04-23T06:31:43.240008",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9670,7 +9520,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "e9f16c3fb459",
       "timestamp": "2026-04-23T06:31:43.240028",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9693,7 +9543,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "ad7fc00eb783",
       "timestamp": "2026-04-23T06:31:43.240043",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12453,6 +12303,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "ef65f498e0ed",
       "timestamp": "2026-04-29T21:46:10.158353",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "321baa9af37b",
+      "timestamp": "2026-04-30T07:57:08.078038",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "e27848dc933e",
+      "timestamp": "2026-04-30T07:57:08.078093",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "d058ea1bbfde",
+      "timestamp": "2026-04-30T07:57:08.078120",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "c53a12b1375d",
+      "timestamp": "2026-04-30T07:57:08.078142",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "cec712d65826",
+      "timestamp": "2026-04-30T07:57:08.078162",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "5851c57ab974",
+      "timestamp": "2026-04-30T07:57:08.078178",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
