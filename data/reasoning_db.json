@@ -1,168 +1,6 @@
 {
   "chains": [
     {
-      "agent": "flow",
-      "observations": [
-        "The FII/DII data shows that DIIs have a net buy value of 955.9, while FIIs have a net sell value of -1711.19."
-      ],
-      "logic": [
-        "DIIs net buying -> Positive sentiment from domestic investors -> Potential market support, while FIIs net selling -> Negative sentiment from foreign investors -> Potential market pressure."
-      ],
-      "counters": [
-        "The FII/DII data may not be a reliable indicator of market sentiment, as it only reflects the actions of a specific group of investors."
-      ],
-      "conclusions": [
-        "The FII/DII data suggests that domestic investors are bullish, while foreign investors are bearish, which could lead to increased market volatility."
-      ],
-      "dependencies": [
-        "The ETF data continuing to show neutral signals, and the brain's crisis regime probability remaining high."
-      ],
-      "falsifications": [
-        "The ETF data starts to show clear indications of market direction, either positive or negative, or if the brain's crisis regime probability decreases, reducing the likelihood of a crisis."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, indicating a high likelihood of a crisis, and the WARN Act's provisions may play a crucial role in the event of a crisis.\nLOGIC: A high crisis regime probability -> Increased market volatility -> Potential downturn in the market -> The WARN Act's provisions may lead to increased notice periods for mass layoffs or plant closures, exacerbating market volatility.\nCOUNTER: The current market conditions may not necessarily lead to a crisis, and t",
-      "id": "216457317900",
-      "timestamp": "2026-04-09T16:51:47.032204",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "flow_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions indicate a potential downturn, with the brain's crisis regime probability at 67%, and the F&G index score at 35.4, indicating a \"fear\" rating."
-      ],
-      "logic": [
-        "A high crisis regime probability and a \"fear\" rating from the F&G index -> Increased market volatility and potential downturn -> The WARN Act's provisions may play a crucial role in the event of a crisis, leading to increased notice periods for mass layoffs or plant closures, exacerbating market volatility."
-      ],
-      "counters": [
-        "The current market conditions may not necessarily lead to a crisis, and the WARN Act's provisions may not have a significant impact on the market, as companies may not be forced to provide notice due to various factors such as government intervention or economic stimulus."
-      ],
-      "conclusions": [
-        "The high crisis regime probability and the \"fear\" rating from the F&G index suggest that the market is at risk of a downturn, and the WARN Act's provisions may play a crucial role in the event of a crisis."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a potential downturn, with the brain's crisis regime probability at 67%, and the F&G index score at 35.4, indicating a \"fear\" rating.\nLOGIC: A high crisis regime probability and a \"fear\" rating from the F&G index -> Increased market volatility and potential downturn -> The WARN Act's provisions may play a crucial role in the event of a crisis, leading to increased notice periods for mass layoffs or plant closures, exacerbating market volatility.\nCO",
-      "id": "289119a25961",
-      "timestamp": "2026-04-09T16:51:47.032364",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "Agents 1-3 are following the herd by not challenging the current market conditions and the brain's crisis regime probability, which is at 67%."
-      ],
-      "logic": [
-        "The Agents' lack of skepticism towards the current market conditions and the brain's crisis regime probability -> This could lead to a lack of critical thinking and analysis -> As a result, the Agents may not be able to identify potential risks or opportunities that could impact the market."
-      ],
-      "counters": [
-        "The Agents may be following the herd due to a lack of information or resources, or they may be relying on the brain's crisis regime probability as a reliable indicator of market conditions."
-      ],
-      "conclusions": [
-        "Agents 1-3 are not providing edge, but rather consensus, by following the herd and not challenging the current market conditions."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: Agents 1-3 are following the herd by not challenging the current market conditions and the brain's crisis regime probability, which is at 67%.\nLOGIC: The Agents' lack of skepticism towards the current market conditions and the brain's crisis regime probability -> This could lead to a lack of critical thinking and analysis -> As a result, the Agents may not be able to identify potential risks or opportunities that could impact the market.\nCOUNTER: The Agents may be following the herd due",
-      "id": "9dd119a7e764",
-      "timestamp": "2026-04-09T16:51:47.032426",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions indicate a potential downturn, with the brain's crisis regime probability at 67%, and the F&G index score at 35.4, indicating a \"fear\" rating."
-      ],
-      "logic": [
-        "A high crisis regime probability and a \"fear\" rating from the F&G index -> Increased market volatility and potential downturn -> This could lead to a decrease in investor confidence and a subsequent decline in market prices."
-      ],
-      "counters": [
-        "The current market conditions may not necessarily lead to a crisis, and the brain's crisis regime probability may not be a reliable indicator of market conditions."
-      ],
-      "conclusions": [
-        "The current market conditions and the brain's crisis regime probability suggest a potential downturn, but this is not a guarantee, and other factors could influence the market."
-      ],
-      "dependencies": [
-        "The Agents' ability to provide critical thinking and analysis that challenges the current market conditions and the brain's crisis regime probability."
-      ],
-      "falsifications": [
-        "The Agents are able to provide evidence of their critical thinking and analysis, and demonstrate that they are not simply following the herd."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: Agents 1-3 are following the herd by not challenging the current market conditions and the brain's crisis regime probability, which is at 67%.\nLOGIC: The Agents' lack of skepticism towards the current market conditions and the brain's crisis regime probability -> This could lead to a lack of critical thinking and analysis -> As a result, the Agents may not be able to identify potential risks or opportunities that could impact the market.\nCOUNTER: The Agents may be following the herd due",
-      "id": "7c8b9d02eb8b",
-      "timestamp": "2026-04-09T16:51:47.032426",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The news articles suggest a range of market and economic trends, including a potential takeover offer for Universal Music, a cap on student loan interest rates, and a rise in the National Minimum Wage."
-      ],
-      "logic": [
-        "These news articles -> Potential impact on market conditions and investor confidence -> This could lead to changes in market prices and volatility."
-      ],
-      "counters": [
-        "The news articles may not have a significant impact on market conditions, and other factors could be more influential."
-      ],
-      "conclusions": [
-        "The news articles provide insight into current market and economic trends, but their impact on market conditions is uncertain."
-      ],
-      "dependencies": [
-        "The accuracy of the brain's crisis regime probability and the F&G index score in predicting market conditions."
-      ],
-      "falsifications": [
-        "The market conditions and the brain's crisis regime probability do not lead to a downturn, and instead, the market experiences a period of growth and stability."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: Agents 1-3 are following the herd by not challenging the current market conditions and the brain's crisis regime probability, which is at 67%.\nLOGIC: The Agents' lack of skepticism towards the current market conditions and the brain's crisis regime probability -> This could lead to a lack of critical thinking and analysis -> As a result, the Agents may not be able to identify potential risks or opportunities that could impact the market.\nCOUNTER: The Agents may be following the herd due",
-      "id": "5b2b2fa4bee7",
-      "timestamp": "2026-04-09T16:51:47.032426",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "**1. RECONCILE contradictions between agents:**\nAfter analyzing the input from various agents, I side with the agent that suggests the current market conditions indicate a potential downturn, with the"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "downturn, with the brain's crisis regime probability at 67%, and the F&G index score at 35.",
-        "downturn in the market -> The WARN Act's provisions may lead to increased notice periods for mass layoffs or plant closures, exacerbating market volatility.",
-        "upport, while FIIs net selling -> Negative sentiment from foreign investors -> Potential market pressure."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**1. RECONCILE contradictions between agents:**\nAfter analyzing the input from various agents, I side with the agent that suggests the current market conditions indicate a potential downturn, with the brain's crisis regime probability at 67%, and the F&G index score at 35.4, indicating a \"fear\" rating. I side with this agent because the data and logic presented by this agent are consistent with the overall market trends and the brain's crisis regime probability.\n\nThe reason I choose this agent i",
-      "id": "725596223296",
-      "timestamp": "2026-04-09T16:51:47.032883",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
       "agent": "adversary",
       "observations": [
         "The confidence level of THESIS 2 is 70, which is lower than the other two theses."
@@ -9186,7 +9024,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "b98f7bf7ee09",
       "timestamp": "2026-04-24T15:57:24.857152",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -9209,7 +9047,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "d681338d3c9f",
       "timestamp": "2026-04-24T15:57:24.857209",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -9232,7 +9070,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "100943272676",
       "timestamp": "2026-04-24T15:57:24.857237",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -9255,7 +9093,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "f9ad32d46e2e",
       "timestamp": "2026-04-24T15:57:24.857260",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -9278,7 +9116,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "8737131f9c98",
       "timestamp": "2026-04-24T15:57:24.857282",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -9301,7 +9139,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "9e7a097847d9",
       "timestamp": "2026-04-24T15:57:24.857302",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -12337,6 +12175,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "c90864a1cb6e",
       "timestamp": "2026-05-01T13:03:28.856669",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "0985f4d3f932",
+      "timestamp": "2026-05-01T19:03:31.567102",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "7eee32800141",
+      "timestamp": "2026-05-01T19:03:31.567159",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "804a7a48b5dd",
+      "timestamp": "2026-05-01T19:03:31.567187",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "594e4d79f990",
+      "timestamp": "2026-05-01T19:03:31.567210",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "545dfeccafb1",
+      "timestamp": "2026-05-01T19:03:31.567231",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "edea03a075f2",
+      "timestamp": "2026-05-01T19:03:31.567254",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
