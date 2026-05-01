@@ -1,156 +1,6 @@
 {
   "chains": [
     {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days prior to mass layoffs or plant closures, as stated in California Labor Code, Section 1400."
-      ],
-      "logic": [
-        "The WARN Act's provisions are designed to protect workers' rights and provide them with sufficient notice to prepare for potential job losses -> This notice period allows workers to seek new employment or take other necessary steps -> The implementation of the WARN Act is crucial in maintaining a stable labor market."
-      ],
-      "counters": [
-        "One potential argument against the WARN Act's effectiveness is that it may impose undue burdens on employers, particularly small businesses, which could lead to unintended consequences such as reduced hiring or earlier layoffs."
-      ],
-      "conclusions": [
-        "Despite potential counterarguments, I conclude that the WARN Act's provisions are likely to have a positive impact on workers and the labor market, providing necessary protections and stability."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days prior to mass layoffs or plant closures, as stated in California Labor Code, Section 1400.\n\nLOGIC: The WARN Act's provisions are designed to protect workers' rights and provide them with sufficient notice to prepare for potential job losses -> This notice period allows workers to seek new employment or take other necessary steps -> The implementation of the WARN Act is crucial in maintaining a stable labor market",
-      "id": "4f2ea1290c30",
-      "timestamp": "2026-04-09T10:22:51.420179",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's output indicates a regime transition with 89% probability, and the SP500, NIFTY50, GOLD, and BITCOIN are all showing an upward trend in the 10-day and 30-day time frames, with the majority of the probability distributions indicating an upward movement."
-      ],
-      "logic": [
-        "The brain's regime transition signal, combined with the upward trends in multiple asset classes, suggests that the market is entering a new phase -> This new phase may be characterized by increased volatility and changing market dynamics -> The brain's probability distributions and the ETF data suggest a neutral signal, indicating a potential balance between bullish and bearish forces."
-      ],
-      "counters": [
-        "One potential argument against this interpretation is that the brain's regime transition signal may be a false positive, and the upward trends in the asset classes may be due to other factors such as economic growth or central bank actions, rather than a genuine regime shift."
-      ],
-      "conclusions": [
-        "Despite the potential counterargument, I conclude that the brain's regime transition signal and the upward trends in multiple asset classes suggest that the market is entering a new phase, characterized by increased volatility and changing market dynamics."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's output indicates a regime transition with 89% probability, and the SP500, NIFTY50, GOLD, and BITCOIN are all showing an upward trend in the 10-day and 30-day time frames, with the majority of the probability distributions indicating an upward movement.\n\nLOGIC: The brain's regime transition signal, combined with the upward trends in multiple asset classes, suggests that the market is entering a new phase -> This new phase may be characterized by increased volatility and chang",
-      "id": "83f133771c87",
-      "timestamp": "2026-04-09T10:22:51.420267",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The brain's output indicates a regime transition with 89% probability, and the SP500, NIFTY50, GOLD, and BITCOIN are all showing an upward trend in the 10-day and 30-day time frames, with the majority of the probability distributions indicating an upward movement."
-      ],
-      "logic": [
-        "The brain's regime transition signal, combined with the upward trends in multiple asset classes, suggests that the market is entering a new phase -> This new phase may be characterized by increased volatility and changing market dynamics -> The brain's probability distributions and the ETF data suggest a neutral signal, indicating a potential balance between bullish and bearish forces."
-      ],
-      "counters": [
-        "One potential argument against this interpretation is that the brain's regime transition signal may be a false positive, and the upward trends in the asset classes may be due to other factors such as economic indicators or geopolitical events."
-      ],
-      "conclusions": [
-        "Despite potential counterarguments, I conclude that the market is likely entering a new phase characterized by increased volatility and changing market dynamics, and investors should be prepared for potential shifts in market trends."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's output indicates a regime transition with 89% probability, and the SP500, NIFTY50, GOLD, and BITCOIN are all showing an upward trend in the 10-day and 30-day time frames, with the majority of the probability distributions indicating an upward movement.\n\nLOGIC: The brain's regime transition signal, combined with the upward trends in multiple asset classes, suggests that the market is entering a new phase -> This new phase may be characterized by increased volatility and chang",
-      "id": "59710886401a",
-      "timestamp": "2026-04-09T10:22:51.420416",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The brain's output indicates a regime transition with 89% probability, and the SP500, NIFTY50, GOLD, and BITCOIN are all showing an upward trend in the 10-day and 30-day time frames, with the majority of the probability distributions indicating an upward movement."
-      ],
-      "logic": [
-        "The brain's regime transition signal, combined with the upward trends in multiple asset classes, suggests that the market is entering a new phase -> This new phase may be characterized by increased volatility and changing market dynamics -> The brain's probability distributions and the ETF data suggest a neutral sign, indicating that Agents 1-3 are following the herd by not taking a contrarian stance."
-      ],
-      "counters": [
-        "One potential argument against the idea that Agents 1-3 are following the herd is that they may be basing their decisions on a thorough analysis of the market data and news reports, rather than simply following the crowd."
-      ],
-      "conclusions": [
-        "Based on the data, it appears that Agents 1-3 are indeed following the herd, as they are not taking a contrarian stance despite the brain's regime transition signal and the upward trends in multiple asset classes."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's output indicates a regime transition with 89% probability, and the SP500, NIFTY50, GOLD, and BITCOIN are all showing an upward trend in the 10-day and 30-day time frames, with the majority of the probability distributions indicating an upward movement.\n\nLOGIC: The brain's regime transition signal, combined with the upward trends in multiple asset classes, suggests that the market is entering a new phase -> This new phase may be characterized by increased volatility and chang",
-      "id": "9dcb48781da4",
-      "timestamp": "2026-04-09T10:22:51.420452",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "### 1. RECONCILE contradictions between agents\n\nGiven the context, there seems to be a consensus among the agents (UPSTREAM, FLOW, MARKET, NARRATIVE) that the market is entering a new phase, potential"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "UPSTREAM, FLOW, MARKET, NARRATIVE) that the market is entering a new phase, potentially characterized by increased volatility and changing market dynamics, as indicated by the brain's regime transition signal with an 89% probability.",
-        "upward trends in multiple asset classes (SP500, NIFTY50, GOLD, and BITCOIN) supports the conclusion that the market is entering a new phase.",
-        "Upward trends in SP500, NIFTY50, GOLD, and BITCOIN -> Increased investor confidence -> Potential economic growth -> Increased demand for commodities\n- **CONFIDENCE:** 80\n- **KILL IF:** Any of the mentioned assets experiences a significant downturn within the next 20 days."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nGiven the context, there seems to be a consensus among the agents (UPSTREAM, FLOW, MARKET, NARRATIVE) that the market is entering a new phase, potentially characterized by increased volatility and changing market dynamics, as indicated by the brain's regime transition signal with an 89% probability. However, there's a need to reconcile the potential contradiction between the agents' conclusions and the counterarguments presented, particularly regar",
-      "id": "c969da0c4074",
-      "timestamp": "2026-04-09T10:22:51.420946",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "flow_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The **Economic Indicator Shift** thesis has a confidence level of 80 and relies on the upward trends in SP500, NIFTY50, GOLD, and BITCOIN to predict potential economic growth and increased demand for commodities."
-      ],
-      "logic": [
-        "This thesis is based on the assumption that the current upward trends in these assets will continue, which might not hold true given the potential for increased market volatility indicated by the regime transition signal -> The thesis might be overly optimistic and not account for potential downturns -> This could lead to incorrect predictions of economic growth and commodity demand."
-      ],
-      "counters": [
-        "One could argue that the diversity of the assets (equities, gold, bitcoin) provides a robust foundation for the thesis, as they are influenced by different market forces, making the overall trend more reliable."
-      ],
-      "conclusions": [
-        "However, given the high reliance on the continuation of current trends without adequately addressing potential volatility, the **Economic Indicator Shift** thesis appears to be the weakest."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### OBSERVATION OF THE WEAKEST THESIS\n\nOBSERVE: The **Economic Indicator Shift** thesis has a confidence level of 80 and relies on the upward trends in SP500, NIFTY50, GOLD, and BITCOIN to predict potential economic growth and increased demand for commodities.\nLOGIC: This thesis is based on the assumption that the current upward trends in these assets will continue, which might not hold true given the potential for increased market volatility indicated by the regime transition signal -> The thes",
-      "id": "cff17e4a0cc5",
-      "timestamp": "2026-04-09T10:22:51.421012",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "adversary",
       "observations": [
         "The analysis heavily relies on the brain's regime transition signal and the trends in various assets but lacks a detailed examination of external geopolitical factors and their potential impact on the market."
@@ -9364,7 +9214,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "cee4cd0b6e36",
       "timestamp": "2026-04-24T06:33:17.822387",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9387,7 +9237,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "62697739402a",
       "timestamp": "2026-04-24T06:33:17.822438",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9410,7 +9260,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "65ffcb509402",
       "timestamp": "2026-04-24T06:33:17.822466",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9433,7 +9283,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "d4df30f12c41",
       "timestamp": "2026-04-24T06:33:17.822514",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9456,7 +9306,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "3981fad80a78",
       "timestamp": "2026-04-24T06:33:17.822539",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -9479,7 +9329,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "1bb525f98927",
       "timestamp": "2026-04-24T06:33:17.822556",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12377,6 +12227,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "97adec67b941",
       "timestamp": "2026-05-01T02:15:54.243764",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "534987d81b7b",
+      "timestamp": "2026-05-01T08:07:01.408306",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "3e4207af7249",
+      "timestamp": "2026-05-01T08:07:01.408355",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "f6f66551e59a",
+      "timestamp": "2026-05-01T08:07:01.408382",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "b41b193f12b6",
+      "timestamp": "2026-05-01T08:07:01.408409",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "c304f437ec1d",
+      "timestamp": "2026-05-01T08:07:01.408430",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "3c2bdfd6b359",
+      "timestamp": "2026-05-01T08:07:01.408447",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
