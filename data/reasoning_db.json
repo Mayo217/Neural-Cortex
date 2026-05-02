@@ -1,156 +1,6 @@
 {
   "chains": [
     {
-      "agent": "upstream",
-      "observations": [
-        "The current regime is TRANSITION (35%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up."
-      ],
-      "logic": [
-        "The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors."
-      ],
-      "counters": [
-        "The lack of clear validation signals for the current reasoning and the presence of aged-out reasoning from various sources -> could indicate that the current analysis is incomplete or inaccurate -> suggests that alternative explanations or factors may be at play."
-      ],
-      "conclusions": [
-        "The current market trends and regime may be driven by underlying economic or geopolitical factors, but the lack of clear validation signals and presence of aged-out reasoning warrant caution and further analysis."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current regime is TRANSITION (35%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up.\n\nLOGIC: The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors.\n\nCOUNTER: The lack of clear validatio",
-      "id": "b6677c0fc072",
-      "timestamp": "2026-04-10T06:21:19.759458",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The ETF data shows neutral signals for all assets, including SP500, Nasdaq, SmallCap, Gold, LongBond, HY, IG, EM, Defense, Energy, Semis, GoldMiners, Fins, and Utils, with varying vol_ratio and chg values."
-      ],
-      "logic": [
-        "The consistency of neutral signals across different asset classes -> suggests a lack of clear direction or trend in the market -> implies that the current market behavior may be driven by a balance of opposing forces or a wait-and-see approach from investors."
-      ],
-      "counters": [
-        "The presence of significant changes in vol_ratio and chg values for certain assets, such as Energy (-1.24) and Semis (2.22) -> could indicate that there are underlying trends or factors at play that are not captured by the neutral signals -> suggests that a more nuanced analysis of the data may be necessary to uncover potential opportunities or risks."
-      ],
-      "conclusions": [
-        "The current market behavior appears to be characterized by a lack of clear direction or trend, with neutral signals across different asset classes, but the presence of significant changes in vol_ratio and chg values for certain assets warrants further analysis to uncover potential underlying trends or factors."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The ETF data shows neutral signals for all assets, including SP500, Nasdaq, SmallCap, Gold, LongBond, HY, IG, EM, Defense, Energy, Semis, GoldMiners, Fins, and Utils, with varying vol_ratio and chg values.\n\nLOGIC: The consistency of neutral signals across different asset classes -> suggests a lack of clear direction or trend in the market -> implies that the current market behavior may be driven by a balance of opposing forces or a wait-and-see approach from investors.\n\nCOUNTER: The pre",
-      "id": "eb026e223616",
-      "timestamp": "2026-04-10T06:21:19.759541",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market trends and regime, with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up."
-      ],
-      "logic": [
-        "The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors."
-      ],
-      "counters": [
-        "The lack of clear validation signals for the current reasoning and the presence of aged-out reasoning from various sources -> could indicate that the current analysis is incomplete or inaccurate -> suggests that alternative explanations or factors may be at play."
-      ],
-      "conclusions": [
-        "The current market trends and regime may be driven by a complex interplay of factors, including economic and geopolitical developments, and it is essential to continue monitoring the markets for signs of change or validation of the current analysis."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market trends and regime, with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up.\n\nLOGIC: The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors.\n\nCOUNTER: The lack of clear validation ",
-      "id": "6d737b512663",
-      "timestamp": "2026-04-10T06:21:19.759587",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current regime is TRANSITION (35%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up."
-      ],
-      "logic": [
-        "The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors."
-      ],
-      "counters": [
-        "The lack of clear validation signals for the current reasoning and the presence of aged-out reasoning from various sources -> could indicate that the market is experiencing a period of uncertainty, making it challenging to predict the future direction of the markets."
-      ],
-      "conclusions": [
-        "The crowd believes in a bullish trend, with Agents 1-3 following the herd, as they are observing and analyzing similar market trends and data points."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current regime is TRANSITION (35%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends of being UP (LOW) over the past 10 and 30 days, with varying probabilities of being down, flat, or up.\n\nLOGIC: The consistency in trends across different markets and timeframes -> suggests a potential underlying factor driving the market behavior -> implies that the transition regime may be a response to broader economic or geopolitical factors.\n\nCOUNTER: The lack of clear validatio",
-      "id": "ded30210a3b3",
-      "timestamp": "2026-04-10T06:21:19.759627",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "### RECONCILE Contradictions Between Agents\nGiven the current analysis and the aged-out reasoning from various sources, I side with the agent that suggests caution and further analysis due to the lack"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "upee's strength or weakness against major currencies could impact trade and investment, influencing the Nifty sectors.",
-        "downturn, geopolitical tensions, and domestic political instability could pose risks.",
-        "down persists, **then** consider it a potential signal for market uncertainty or a shift in investor preferences."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### RECONCILE Contradictions Between Agents\nGiven the current analysis and the aged-out reasoning from various sources, I side with the agent that suggests caution and further analysis due to the lack of clear validation signals for the current market trends and regime. This approach is prudent because it acknowledges the complexity of the market and the potential for underlying factors not yet fully understood or accounted for in the analysis.\n\n### Generate Theses\n#### THESIS: Market Transition",
-      "id": "dc7d3aa33f56",
-      "timestamp": "2026-04-10T06:21:19.760236",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The current market trends and regime are characterized by a transition phase with similar trends across different markets and timeframes, but lack clear validation signals."
-      ],
-      "logic": [
-        "This suggests that the current analysis may be incomplete or inaccurate, implying alternative explanations or factors may be at play -> The complexity of the market and potential underlying factors not yet fully understood or accounted for in the analysis could lead to significant market shifts -> The need for continuous monitoring and analysis to better understand the complexities of the market is underscored."
-      ],
-      "counters": [
-        "The aged-out reasoning from various sources may be outdated, and the current trends could be driven by new, unforeseen factors that are not yet accounted for in the analysis."
-      ],
-      "conclusions": [
-        "The current market trends and regime are uncertain and require further analysis to understand the underlying factors driving the market behavior."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### Analyzing the Synthesizer's Output\n\nOBSERVE: The current market trends and regime are characterized by a transition phase with similar trends across different markets and timeframes, but lack clear validation signals.\nLOGIC: This suggests that the current analysis may be incomplete or inaccurate, implying alternative explanations or factors may be at play -> The complexity of the market and potential underlying factors not yet fully understood or accounted for in the analysis could lead to s",
-      "id": "c38268bca201",
-      "timestamp": "2026-04-10T06:21:19.760328",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
       "agent": "adversary",
       "observations": [
         "THESIS: Geopolitical Influence on Market Trends has a confidence level of 60."
@@ -12269,6 +12119,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "18d38f7c0b19",
       "timestamp": "2026-05-02T07:25:00.045690",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "2fde829e12cf",
+      "timestamp": "2026-05-02T12:55:08.849312",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "bcfd9ba69f3d",
+      "timestamp": "2026-05-02T12:55:08.849364",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "10e09e69ba7e",
+      "timestamp": "2026-05-02T12:55:08.849391",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "b1eef7e31064",
+      "timestamp": "2026-05-02T12:55:08.849413",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "fab27c3c533b",
+      "timestamp": "2026-05-02T12:55:08.849434",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "fb209a39de70",
+      "timestamp": "2026-05-02T12:55:08.849456",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
