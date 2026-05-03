@@ -17,7 +17,7 @@
     "vol_structure": {
       "CRISIS": 0.8,
       "RISK_OFF": 0.7,
-      "TRANSITION": 0.4321,
+      "TRANSITION": 0.4153,
       "RISK_ON": 0.6,
       "EUPHORIA": 0.8
     },
@@ -31,14 +31,14 @@
     "fx_pressure": {
       "CRISIS": 0.7,
       "RISK_OFF": 0.6,
-      "TRANSITION": 0.4321,
+      "TRANSITION": 0.4153,
       "RISK_ON": 0.3115,
       "EUPHORIA": 0.3
     },
     "commodity_cycle": {
       "CRISIS": 0.5,
       "RISK_OFF": 0.5,
-      "TRANSITION": 0.5191,
+      "TRANSITION": 0.5023,
       "RISK_ON": 0.5115,
       "EUPHORIA": 0.4
     },
@@ -66,14 +66,14 @@
     "sentiment": {
       "CRISIS": 0.3,
       "RISK_OFF": 0.4,
-      "TRANSITION": 0.2191,
+      "TRANSITION": 0.2023,
       "RISK_ON": 0.3,
       "EUPHORIA": 0.5
     },
     "correlation": {
       "CRISIS": 0.8,
       "RISK_OFF": 0.7,
-      "TRANSITION": 0.7321,
+      "TRANSITION": 0.7153,
       "RISK_ON": 0.3844,
       "EUPHORIA": 0.5
     },
@@ -85,8 +85,8 @@
       "EUPHORIA": 0.5
     }
   },
-  "update_count": 42,
-  "last_updated": "2026-04-28T21:41:18.684219",
+  "update_count": 48,
+  "last_updated": "2026-05-03T12:52:56.109089",
   "learning_history": [
     {
       "ts": "2026-04-08T16:22:26.497842",
@@ -651,6 +651,96 @@
       "actual_bucket": "flat",
       "pred_prob_for_actual": 0.2586,
       "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-05-03T12:52:56.108826",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "actual_outcome": 9.835,
+      "actual_bucket": "up_big",
+      "pred_prob_for_actual": 0.1538,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-05-03T12:52:56.108883",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "actual_outcome": 5.655,
+      "actual_bucket": "up_big",
+      "pred_prob_for_actual": 0.1538,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-05-03T12:52:56.108926",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "actual_outcome": -0.15,
+      "actual_bucket": "flat",
+      "pred_prob_for_actual": 0.2711,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-05-03T12:52:56.109014",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "actual_outcome": 17.568,
+      "actual_bucket": "up_big",
+      "pred_prob_for_actual": 0.1538,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-05-03T12:52:56.109055",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "actual_outcome": -0.789,
+      "actual_bucket": "down",
+      "pred_prob_for_actual": 0.2433,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-05-03T12:52:56.109091",
+      "regime": "TRANSITION",
+      "drivers": [
+        "vol_structure",
+        "fx_pressure",
+        "correlation",
+        "sentiment",
+        "commodity_cycle"
+      ],
+      "actual_outcome": -1.755,
+      "actual_bucket": "down",
+      "pred_prob_for_actual": 0.2133,
+      "magnitude_mult": 1.5
     }
   ]
 }

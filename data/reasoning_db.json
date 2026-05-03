@@ -1,160 +1,6 @@
 {
   "chains": [
     {
-      "agent": "synthesis",
-      "observations": [
-        "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the inputs from various agents (UPSTREAM, FLOW, MARKET, NARRATIVE), it's clear that there's a consensus on the high level of uncertainty"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "UPSTREAM, FLOW, MARKET, NARRATIVE), it's clear that there's a consensus on the high level of uncertainty and risk in the market, reflected by the brain's crisis regime probability at 67%.",
-        "upee may face pressure due to the high crisis regime probability and its potential impact on emerging markets.",
-        "downturn in the economy, and geopolitical tensions."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the inputs from various agents (UPSTREAM, FLOW, MARKET, NARRATIVE), it's clear that there's a consensus on the high level of uncertainty and risk in the market, reflected by the brain's crisis regime probability at 67%. However, there are contradictions regarding the potential outcomes and the interpretation of market trends. \n\nI side with the **MARKET** agent because it provides a balanced view, considering both the high uncertaint",
-      "id": "785392cfd664",
-      "timestamp": "2026-04-10T20:00:52.797313",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "flow_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [],
-      "logic": [
-        "The high crisis regime probability indicates a significant level of uncertainty in the market, which could lead to increased volatility and potential downturns -> The contradictions between agents suggest that there are different perspectives on the potential outcomes and market trends, which could lead to confusion and inconsistent decision-making -> This inconsistency could exacerbate market volatility and increase the risk of significant market movements."
-      ],
-      "counters": [
-        "The balanced view provided by the MARKET agent, which considers both the high uncertainty and risk, as well as the potential for the market to be more resilient than expected, could mitigate the impact of the contradictions and lead to more informed decision-making."
-      ],
-      "conclusions": [
-        "The high crisis regime probability and contradictions between agents increase the uncertainty and risk in the market, making it essential to closely monitor market trends and adjust strategies accordingly."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### OBSERVE: High crisis regime probability (67%) and contradictions between agents\n\nLOGIC: The high crisis regime probability indicates a significant level of uncertainty in the market, which could lead to increased volatility and potential downturns -> The contradictions between agents suggest that there are different perspectives on the potential outcomes and market trends, which could lead to confusion and inconsistent decision-making -> This inconsistency could exacerbate market volatility ",
-      "id": "32554115b361",
-      "timestamp": "2026-04-10T20:00:52.797413",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [],
-      "logic": [
-        "The thesis is based on the high crisis regime probability and its potential impact on market volatility -> The chain of events outlined in the thesis, including increased market uncertainty and potential for significant market movements, is plausible and consistent with the current market conditions -> However, the confidence level of 80% may be overly optimistic, given the high level of uncertainty and contradictions between agents."
-      ],
-      "counters": [
-        "The potential for the market to be more resilient than expected, as suggested by the MARKET agent, could reduce the likelihood of significant market movements and volatility."
-      ],
-      "conclusions": [
-        "The thesis is reasonable, but the confidence level may be too high, and the potential for the market to be more resilient than expected should be considered."
-      ],
-      "dependencies": [
-        "The VIX index surpassing 30, which would indicate a significant increase in market volatility and potentially validate the high crisis regime probability."
-      ],
-      "falsifications": [
-        "The crisis regime probability drops below 50% within the next 14 days, indicating a decrease in market uncertainty and risk."
-      ],
-      "assets": [],
-      "raw_excerpt": "### OBSERVE: High crisis regime probability (67%) and contradictions between agents\n\nLOGIC: The high crisis regime probability indicates a significant level of uncertainty in the market, which could lead to increased volatility and potential downturns -> The contradictions between agents suggest that there are different perspectives on the potential outcomes and market trends, which could lead to confusion and inconsistent decision-making -> This inconsistency could exacerbate market volatility ",
-      "id": "e005d76fcb72",
-      "timestamp": "2026-04-10T20:00:52.797413",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [],
-      "logic": [
-        "The India Intelligence section provides a general overview of the potential impact of the high crisis regime probability on the Indian Rupee and various sectors -> However, the analysis is relatively superficial and does not provide specific, actionable insights -> The section relies heavily on general statements and does not consider alternative perspectives or potential contradictions."
-      ],
-      "counters": [
-        "A more detailed and nuanced analysis of the Indian market and its potential vulnerabilities could provide more valuable insights and recommendations."
-      ],
-      "conclusions": [
-        "The India Intelligence section is the weakest thesis due to its lack of depth and specificity."
-      ],
-      "dependencies": [
-        "The performance of the VIX index, which would indicate whether the market volatility is increasing or decreasing."
-      ],
-      "falsifications": [
-        "The VIX index drops below 20, indicating a decrease in market volatility and potentially invalidating the thesis."
-      ],
-      "assets": [],
-      "raw_excerpt": "### OBSERVE: High crisis regime probability (67%) and contradictions between agents\n\nLOGIC: The high crisis regime probability indicates a significant level of uncertainty in the market, which could lead to increased volatility and potential downturns -> The contradictions between agents suggest that there are different perspectives on the potential outcomes and market trends, which could lead to confusion and inconsistent decision-making -> This inconsistency could exacerbate market volatility ",
-      "id": "01fc913fe3d1",
-      "timestamp": "2026-04-10T20:00:52.797413",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [],
-      "logic": [
-        "The analysis focuses primarily on market trends and agent perspectives, without considering exogenous factors such as geopolitical events, natural disasters, or unexpected changes in government policies -> These factors could have a significant impact on market volatility and trends, and ignoring them could lead to incomplete or inaccurate analysis -> The lack of consideration of exogenous factors increases the uncertainty and risk associated with the market."
-      ],
-      "counters": [
-        "Incorporating exogenous factors into the analysis could provide a more comprehensive understanding of the market and its potential vulnerabilities."
-      ],
-      "conclusions": [
-        "The biggest blind spot is the lack of consideration of exogenous factors, which could have a significant impact on market trends and volatility."
-      ],
-      "dependencies": [
-        "The performance of the Indian Rupee and the various sectors mentioned, which would indicate whether the analysis is accurate or not."
-      ],
-      "falsifications": [
-        "The Indian Rupee and the mentioned sectors perform contrary to the expectations outlined in the section, indicating a flaw in the analysis."
-      ],
-      "assets": [],
-      "raw_excerpt": "### OBSERVE: High crisis regime probability (67%) and contradictions between agents\n\nLOGIC: The high crisis regime probability indicates a significant level of uncertainty in the market, which could lead to increased volatility and potential downturns -> The contradictions between agents suggest that there are different perspectives on the potential outcomes and market trends, which could lead to confusion and inconsistent decision-making -> This inconsistency could exacerbate market volatility ",
-      "id": "dc18227f3d85",
-      "timestamp": "2026-04-10T20:00:52.797413",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the WARN Act's provisions are likely to play a significant role in the current market conditions."
-      ],
-      "logic": [
-        "The WARN Act's requirements for written notice to be provided at least 60 days in advance -> This could lead to increased transparency and predictability in the market -> Which may have a stabilizing effect on the market, potentially reducing volatility."
-      ],
-      "counters": [
-        "The current market regime is highly uncertain, and the WARN Act's provisions may not be enough to mitigate the risks of sudden changes, as other factors such as geopolitical events and economic indicators may have a more significant impact on the market."
-      ],
-      "conclusions": [
-        "The WARN Act's provisions are likely to have a positive impact on the market by increasing transparency and predictability, but its effects may be limited by other factors contributing to market uncertainty."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the WARN Act's provisions are likely to play a significant role in the current market conditions.\n\nLOGIC: The WARN Act's requirements for written notice to be provided at least 60 days in advance -> This could lead to increased transparency and predictability in the market -> Which may have a stabilizing effect on the market, potentially reducing volatility.\n\nCOUNTER: The curre",
-      "id": "fe17943726a2",
-      "timestamp": "2026-04-11T05:21:15.331198",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "flow",
       "observations": [
         "The current market regime is characterized by high uncertainty, with a high probability of sudden changes, and the WARN Act's provisions are likely to play a significant role in the current market conditions, with the brain's probabilities showing a 67% chance of a transition regime."
@@ -12194,6 +12040,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "e9e0cfd0be92",
       "timestamp": "2026-05-03T07:53:01.805477",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "0e16d8aa6534",
+      "timestamp": "2026-05-03T12:54:58.743181",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "c050109fb985",
+      "timestamp": "2026-05-03T12:54:58.743227",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "dff31258a4e6",
+      "timestamp": "2026-05-03T12:54:58.743253",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "33cea559858c",
+      "timestamp": "2026-05-03T12:54:58.743278",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "dbe6fda6984f",
+      "timestamp": "2026-05-03T12:54:58.743299",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8d887be754b0",
+      "timestamp": "2026-05-03T12:54:58.743316",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
