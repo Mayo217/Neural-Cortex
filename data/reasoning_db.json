@@ -1,158 +1,6 @@
 {
   "chains": [
     {
-      "agent": "upstream",
-      "observations": [
-        "The current market conditions show a high probability of a crisis regime, with the SP500, NIFTY50, GOLD, and BITCOIN all experiencing low-volume uptrends."
-      ],
-      "logic": [
-        "The low-volume uptrends in these markets suggest a lack of conviction among investors, which could lead to a reversal in market trends -> A crisis regime could be triggered by a sudden change in investor sentiment -> This would have significant implications for the global economy."
-      ],
-      "counters": [
-        "One counterargument is that the current market conditions could be a sign of a bull market, with investors slowly regaining confidence in the economy."
-      ],
-      "conclusions": [
-        "However, based on the current data, I conclude that the market is likely to remain highly volatile, with a high probability of a crisis regime."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a high probability of a crisis regime, with the SP500, NIFTY50, GOLD, and BITCOIN all experiencing low-volume uptrends.\nLOGIC: The low-volume uptrends in these markets suggest a lack of conviction among investors, which could lead to a reversal in market trends -> A crisis regime could be triggered by a sudden change in investor sentiment -> This would have significant implications for the global economy.\nCOUNTER: One counterargument is that the curren",
-      "id": "7ccc114c4e4d",
-      "timestamp": "2026-04-11T20:09:52.761739",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "sentiment_contrarian"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act's provisions require employers to provide written notice at least 60 days before mass layoffs or plant closures."
-      ],
-      "logic": [
-        "This provision is important for protecting workers' rights and providing them with sufficient time to prepare for potential job losses -> The WARN Act's provisions could have a significant impact on the labor market, particularly in industries with high layoff rates -> This would have implications for the overall economy."
-      ],
-      "counters": [
-        "One counterargument is that the WARN Act's provisions could be too burdensome for employers, leading to increased costs and reduced competitiveness."
-      ],
-      "conclusions": [
-        "However, based on the current data, I conclude that the WARN Act's provisions are important for protecting workers' rights and promoting economic stability."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is a significant increase in trading volume, indicating a strong conviction among investors."
-      ],
-      "falsifications": [
-        "My conclusion would be proven wrong if the markets continue to trend upward with increasing volume, indicating a strong and sustainable bull market."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a high probability of a crisis regime, with the SP500, NIFTY50, GOLD, and BITCOIN all experiencing low-volume uptrends.\nLOGIC: The low-volume uptrends in these markets suggest a lack of conviction among investors, which could lead to a reversal in market trends -> A crisis regime could be triggered by a sudden change in investor sentiment -> This would have significant implications for the global economy.\nCOUNTER: One counterargument is that the curren",
-      "id": "3615cb72dbad",
-      "timestamp": "2026-04-11T20:09:52.761739",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The contract awards indicate significant government investment in various industries, including national security, space exploration, and education."
-      ],
-      "logic": [
-        "This investment could have a positive impact on the economy, creating jobs and stimulating growth -> The government's investment in these industries could also have long-term benefits, such as advancing technology and improving national security -> This would have significant implications for the overall economy."
-      ],
-      "counters": [
-        "One counterargument is that the government's investment in these industries could be inefficient or wasteful, leading to reduced economic growth."
-      ],
-      "conclusions": [
-        "However, based on the current data, I conclude that the government's investment in these industries is likely to have a positive impact on the economy."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is evidence that the WARN Act's provisions are having a significant negative impact on businesses, leading to reduced hiring and investment."
-      ],
-      "falsifications": [
-        "My conclusion would be proven wrong if the WARN Act's provisions are found to be ineffective in protecting workers' rights or promoting economic stability."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a high probability of a crisis regime, with the SP500, NIFTY50, GOLD, and BITCOIN all experiencing low-volume uptrends.\nLOGIC: The low-volume uptrends in these markets suggest a lack of conviction among investors, which could lead to a reversal in market trends -> A crisis regime could be triggered by a sudden change in investor sentiment -> This would have significant implications for the global economy.\nCOUNTER: One counterargument is that the curren",
-      "id": "3a3bcefbaec1",
-      "timestamp": "2026-04-11T20:09:52.761739",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "8a6304d88045",
-      "timestamp": "2026-04-11T20:09:52.762043",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "2a2085732140",
-      "timestamp": "2026-04-11T20:09:52.762068",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "1d2f2f072a61",
-      "timestamp": "2026-04-11T20:09:52.762090",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
       "agent": "synthesis",
       "observations": [
         "LLM ERROR"
@@ -8544,7 +8392,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "376adeeba127",
       "timestamp": "2026-04-27T17:14:44.039846",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8567,7 +8415,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "22b4ca5b7d8c",
       "timestamp": "2026-04-27T17:14:44.039900",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8590,7 +8438,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "91882ef1ed3a",
       "timestamp": "2026-04-27T17:14:44.039926",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8613,7 +8461,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "edba4c3d9bf4",
       "timestamp": "2026-04-27T17:14:44.039953",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8636,7 +8484,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "b220937b703c",
       "timestamp": "2026-04-27T17:14:44.039974",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8659,7 +8507,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "a0e7b387719a",
       "timestamp": "2026-04-27T17:14:44.039991",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12112,6 +11960,144 @@
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "218c30ddcdc8",
+      "timestamp": "2026-05-04T19:20:18.704000",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "c3116ac4f58d",
+      "timestamp": "2026-05-04T19:20:18.704055",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "a1eed518fedf",
+      "timestamp": "2026-05-04T19:20:18.704082",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "80e80085e8b3",
+      "timestamp": "2026-05-04T19:20:18.704107",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "e079e811c1ac",
+      "timestamp": "2026-05-04T19:20:18.704127",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "5d82923953a0",
+      "timestamp": "2026-05-04T19:20:18.704142",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
       "reasoning_type": "general"
     }
   ],
