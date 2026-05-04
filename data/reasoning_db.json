@@ -1,168 +1,6 @@
 {
   "chains": [
     {
-      "agent": "adversary",
-      "observations": [
-        "The UPSTREAM agent's thesis emphasizes the importance of unique and contrarian perspectives on the market, with a confidence level of 80, and a kill condition based on market indices showing a consistent and strong upward trend."
-      ],
-      "logic": [
-        "The UPSTREAM agent's analysis highlights the potential for sudden changes in market conditions, implying that investors and employers need to be prepared for potential crises or disruptions -> This suggests that the agent is prioritizing risk management and adaptability -> However, this approach may be overly cautious and fail to account for potential opportunities in a growing market."
-      ],
-      "counters": [
-        "The counterargument is that the market may be entering a period of sustained growth, and the UPSTREAM agent's emphasis on volatility and crisis preparedness may be overly pessimistic, potentially leading to missed opportunities."
-      ],
-      "conclusions": [
-        "I conclude that the UPSTREAM agent's thesis is overly focused on risk management and may be neglecting potential opportunities for growth."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The UPSTREAM agent's thesis emphasizes the importance of unique and contrarian perspectives on the market, with a confidence level of 80, and a kill condition based on market indices showing a consistent and strong upward trend.\nLOGIC: The UPSTREAM agent's analysis highlights the potential for sudden changes in market conditions, implying that investors and employers need to be prepared for potential crises or disruptions -> This suggests that the agent is prioritizing risk management a",
-      "id": "b95066034344",
-      "timestamp": "2026-04-11T08:05:17.210037",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The BRAIN's regime classification is TRANSITION (67%), with a low confidence level in the direction of the market."
-      ],
-      "logic": [
-        "The BRAIN's regime classification implies that the market is uncertain and prone to sudden changes -> This uncertainty may be due to a lack of clear trends or signals in the market -> However, the BRAIN's low confidence level in the direction of the market may indicate a lack of conviction in its own analysis."
-      ],
-      "counters": [
-        "The counterargument is that the BRAIN's regime classification may be overly simplistic, and the market may be more complex and nuanced than a simple TRANSITION classification."
-      ],
-      "conclusions": [
-        "I conclude that the BRAIN's regime classification is uncertain and lacks conviction, which may indicate a need for more detailed and nuanced analysis."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is if the VIX index exceeds 25, indicating a significant increase in market volatility, which would validate the UPSTREAM agent's thesis."
-      ],
-      "falsifications": [
-        "The thesis is wrong if the market indices show a consistent and strong upward trend over the next 10-30 days, indicating a stable or growth regime, which would suggest that the UPSTREAM agent's emphasis on volatility and crisis preparedness is unwarranted."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The UPSTREAM agent's thesis emphasizes the importance of unique and contrarian perspectives on the market, with a confidence level of 80, and a kill condition based on market indices showing a consistent and strong upward trend.\nLOGIC: The UPSTREAM agent's analysis highlights the potential for sudden changes in market conditions, implying that investors and employers need to be prepared for potential crises or disruptions -> This suggests that the agent is prioritizing risk management a",
-      "id": "8c99f49c0003",
-      "timestamp": "2026-04-11T08:05:17.210037",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The WEAKEST THESIS is the UPSTREAM agent's thesis, as it is based on a high level of uncertainty and a lack of clear trends or signals in the market."
-      ],
-      "logic": [
-        "The UPSTREAM agent's thesis is based on the potential for sudden changes in market conditions, implying that investors and employers need to be prepared for potential crises or disruptions -> However, this thesis may be overly cautious and fail to account for potential opportunities in a growing market -> The lack of clear trends or signals in the market makes it difficult to validate or invalidate the UPSTREAM agent's thesis."
-      ],
-      "counters": [
-        "The counterargument is that the UPSTREAM agent's thesis is necessary for risk management and adaptability, and that it is better to err on the side of caution in uncertain market conditions."
-      ],
-      "conclusions": [
-        "I conclude that the UPSTREAM agent's thesis is the weakest, as it is based on a high level of uncertainty and a lack of clear trends or signals in the market."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is if the SP500 or NIFTY50 indices show a clear and consistent trend over the next 10-30 days, which would provide more clarity on the market's direction."
-      ],
-      "falsifications": [
-        "The BRAIN's regime classification is wrong if the market enters a clear and sustained trend, either upward or downward, which would suggest that the BRAIN's uncertainty is unwarranted."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The UPSTREAM agent's thesis emphasizes the importance of unique and contrarian perspectives on the market, with a confidence level of 80, and a kill condition based on market indices showing a consistent and strong upward trend.\nLOGIC: The UPSTREAM agent's analysis highlights the potential for sudden changes in market conditions, implying that investors and employers need to be prepared for potential crises or disruptions -> This suggests that the agent is prioritizing risk management a",
-      "id": "7f6babc79e93",
-      "timestamp": "2026-04-11T08:05:17.210037",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The BIGGEST BLIND SPOT is the lack of consideration for potential black swan events or unforeseen circumstances that may affect the market."
-      ],
-      "logic": [
-        "The analysis provided by the agents and the BRAIN focuses on historical trends and market signals, implying that the market is predictable and can be modeled -> However, this approach may neglect the potential for unforeseen events or circumstances that can significantly impact the market -> The lack of consideration for black swan events may lead to a lack of preparedness for potential crises or disruptions."
-      ],
-      "counters": [
-        "The counterargument is that it is impossible to predict black swan events, and that the best approach is to focus on historical trends and market signals."
-      ],
-      "conclusions": [
-        "I conclude that the biggest blind spot is the lack of consideration for potential black swan events or unforeseen circumstances that may affect the market."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is if the market indices show a clear and consistent trend over the next 10-30 days, which would provide more clarity on the market's direction."
-      ],
-      "falsifications": [
-        "The UPSTREAM agent's thesis is wrong if the market enters a clear and sustained trend, either upward or downward, which would suggest that the UPSTREAM agent's emphasis on volatility and crisis preparedness is unwarranted."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The UPSTREAM agent's thesis emphasizes the importance of unique and contrarian perspectives on the market, with a confidence level of 80, and a kill condition based on market indices showing a consistent and strong upward trend.\nLOGIC: The UPSTREAM agent's analysis highlights the potential for sudden changes in market conditions, implying that investors and employers need to be prepared for potential crises or disruptions -> This suggests that the agent is prioritizing risk management a",
-      "id": "11e8412453f3",
-      "timestamp": "2026-04-11T08:05:17.210037",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "pattern_match"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act's provisions require employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime (67%)."
-      ],
-      "logic": [
-        "The WARN Act's provisions are likely to be important in a crisis regime, as they provide a safety net for employees and help maintain economic stability -> If the crisis regime materializes, the WARN Act's provisions will be crucial in mitigating the impact on employees and the economy -> The current market conditions and the brain's crisis regime probability suggest that the WARN Act's provisions will be essential in the near future."
-      ],
-      "counters": [
-        "The counterargument is that the WARN Act's provisions may not be sufficient to mitigate the impact of a crisis regime, and other factors such as monetary policy and fiscal policy may play a more significant role in determining the outcome."
-      ],
-      "conclusions": [
-        "I conclude that the WARN Act's provisions are likely to be important in a crisis regime, and employers should be prepared to provide written notice at least 60 days before a mass layoff or plant closure."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act's provisions require employers to provide written notice at least 60 days before a mass layoff or plant closure, and the current market conditions indicate a high probability of a crisis regime (67%).\n\nLOGIC: The WARN Act's provisions are likely to be important in a crisis regime, as they provide a safety net for employees and help maintain economic stability -> If the crisis regime materializes, the WARN Act's provisions will be crucial in mitigating the impact on employee",
-      "id": "a677c1378010",
-      "timestamp": "2026-04-11T14:08:11.690292",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's crisis regime probability is 67%, and the market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, GOLD, and BITCOIN all showing similar trends."
-      ],
-      "logic": [
-        "The high probability of a crisis regime suggests that the market is likely to be highly volatile, and the WARN Act's provisions may be crucial in mitigating the impact on employees and the economy -> If the crisis regime materializes, the WARN Act's provisions will provide a safety net for employees and help maintain economic stability -> The current market conditions and the brain's crisis regime probability suggest that the WARN Act's provisions will be essential in the near future."
-      ],
-      "counters": [
-        "The counterargument is that the market trends may not necessarily indicate a crisis regime, and other factors such as monetary policy and fiscal policy may play a more significant role in determining the outcome."
-      ],
-      "conclusions": [
-        "I conclude that the market is likely to remain highly volatile, and the WARN Act's provisions may be crucial in mitigating the impact on employees and the economy."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's crisis regime probability is 67%, and the market conditions indicate a high probability of a crisis regime, with the SP500, NIFTY50, GOLD, and BITCOIN all showing similar trends.\n\nLOGIC: The high probability of a crisis regime suggests that the market is likely to be highly volatile, and the WARN Act's provisions may be crucial in mitigating the impact on employees and the economy -> If the crisis regime materializes, the WARN Act's provisions will provide a safety net for e",
-      "id": "d6d212cfdeea",
-      "timestamp": "2026-04-11T14:08:11.690462",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
       "agent": "market",
       "observations": [
         "The current market conditions indicate a high probability of a crisis regime (67%), with the SP500, NIFTY50, GOLD, and BITCOIN showing similar trends, and the VIX and VIX9D indicating increased volatility."
@@ -8720,7 +8558,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "57602cfdc915",
       "timestamp": "2026-04-27T08:01:04.218312",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8743,7 +8581,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "5649d911d473",
       "timestamp": "2026-04-27T08:01:04.218373",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8766,7 +8604,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "3c011daee6f6",
       "timestamp": "2026-04-27T08:01:04.218400",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8789,7 +8627,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "f05573e1e1e4",
       "timestamp": "2026-04-27T08:01:04.218460",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8812,7 +8650,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "3e647522ab4a",
       "timestamp": "2026-04-27T08:01:04.218486",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8835,7 +8673,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "65d97487d1b8",
       "timestamp": "2026-04-27T08:01:04.218504",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12147,6 +11985,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "3fc199392840",
       "timestamp": "2026-05-04T02:07:33.147349",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8e00709222a1",
+      "timestamp": "2026-05-04T08:23:15.677394",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "c1443bb8d1f5",
+      "timestamp": "2026-05-04T08:23:15.677453",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "298494074b88",
+      "timestamp": "2026-05-04T08:23:15.677480",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "0c1f0a7c044a",
+      "timestamp": "2026-05-04T08:23:15.677504",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "1f34e1342c38",
+      "timestamp": "2026-05-04T08:23:15.677524",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "722955703f7d",
+      "timestamp": "2026-05-04T08:23:15.677541",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
