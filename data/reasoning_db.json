@@ -1,160 +1,6 @@
 {
   "chains": [
     {
-      "agent": "upstream",
-      "observations": [
-        "The brain's current regime is TRANSITION (67%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and downward trends over 10-day and 30-day periods."
-      ],
-      "logic": [
-        "The brain's regime and market trends suggest a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to sudden changes in market conditions -> Investors and employers may need to be prepared for potential crises or disruptions, such as those related to the WARN Act."
-      ],
-      "counters": [
-        "The aged-out reasoning from various sources (upstream, flow, market, narrative, synthesis, adversary) may still be relevant and contradict the current analysis, potentially indicating that the market is not as uncertain as it seems."
-      ],
-      "conclusions": [
-        "The current market regime and trends suggest a high degree of uncertainty, and investors and employers should be prepared for potential crises or disruptions, such as those related to the WARN Act."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's current regime is TRANSITION (67%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and downward trends over 10-day and 30-day periods.\n\nLOGIC: The brain's regime and market trends suggest a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to sudden changes in market conditions -> Investors and employers may need to be prepared for potential crises or disruptions, such as those related to the",
-      "id": "fcc266468e15",
-      "timestamp": "2026-04-11T08:05:17.209282",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's current regime is TRANSITION (67%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and downward trends over 10-day and 30-day periods, and the ETF data shows a neutral signal for most sectors."
-      ],
-      "logic": [
-        "The brain's regime and market trends suggest a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to sudden changes in market conditions -> Investors and employers may need to be prepared for potential crises or disruptions, such as those related to the WARN Act, and the neutral signals from the ETF data do not provide a clear direction for the market."
-      ],
-      "counters": [
-        "The lack of a clear trend in the ETF data and the neutral signals from most sectors could indicate that the market is not as uncertain as it seems, and the brain's regime may be overestimating the potential for volatility."
-      ],
-      "conclusions": [
-        "The current market regime and trends suggest a high degree of uncertainty, and investors and employers should be prepared for potential crises or disruptions, such as those related to the WARN Act, but the neutral ETF data signals suggest that the market may be more stable than expected."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's current regime is TRANSITION (67%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and downward trends over 10-day and 30-day periods, and the ETF data shows a neutral signal for most sectors.\n\nLOGIC: The brain's regime and market trends suggest a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to sudden changes in market conditions -> Investors and employers may need to be prepared for pot",
-      "id": "c8c0dc9a1626",
-      "timestamp": "2026-04-11T08:05:17.209352",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The brain's current regime is TRANSITION (67%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and downward trends over 10-day and 30-day periods, and the presence of anomalies in correlations such as COPPER/SP500, OIL_WTI/USDINR, and COPPER/OIL_WTI."
-      ],
-      "logic": [
-        "The brain's regime and market trends suggest a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to sudden changes in market conditions -> Investors and employers may need to be prepared for potential crises or disruptions, such as those related to the WARN Act, and the anomalies in correlations could indicate a potential shift in market dynamics."
-      ],
-      "counters": [
-        "The presence of neutral signals from the ETF data and the lack of a clear trend in the market indices could indicate that the market is not as uncertain as it seems, and the anomalies in correlations may be temporary and not indicative of a larger trend."
-      ],
-      "conclusions": [
-        "The current market regime and trend suggest a high degree of uncertainty and potential volatility, and investors and employers should be prepared for potential crises or disruptions."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's current regime is TRANSITION (67%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and downward trends over 10-day and 30-day periods, and the presence of anomalies in correlations such as COPPER/SP500, OIL_WTI/USDINR, and COPPER/OIL_WTI.\n\nLOGIC: The brain's regime and market trends suggest a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to sudden changes in market conditions -> Investors",
-      "id": "84eaf4211876",
-      "timestamp": "2026-04-11T08:05:17.209389",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The brain's current regime is TRANSITION (67%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and downward trends over 10-day and 30-day periods."
-      ],
-      "logic": [
-        "The brain's regime and market trends suggest a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to sudden changes in market conditions -> Investors and employers may need to be prepared for potential crises or disruptions, such as those related to the WARN Act."
-      ],
-      "counters": [
-        "The aged-out reasoning from various sources (upstream, flow, market, narrative) may not be relevant to the current market conditions, and the neutral signals from the ETF data may indicate a lack of clear direction in the market."
-      ],
-      "conclusions": [
-        "The current market regime is highly uncertain, and investors and employers should be prepared for potential crises or disruptions. However, the lack of clear direction in the market and the neutral signals from the ETF data may indicate a need for caution and further analysis."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's current regime is TRANSITION (67%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and downward trends over 10-day and 30-day periods.\n\nLOGIC: The brain's regime and market trends suggest a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to sudden changes in market conditions -> Investors and employers may need to be prepared for potential crises or disruptions, such as those related to the",
-      "id": "b847e26a32c4",
-      "timestamp": "2026-04-11T08:05:17.209538",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "Agents 1-3 are providing similar analyses and lack diversity in their perspectives."
-      ],
-      "logic": [
-        "The lack of diversity in analysis among Agents 1-3 may indicate a vulnerability to groupthink and a failure to consider alternative scenarios -> This could lead to a lack of preparedness for potential crises or disruptions -> Investors and employers may need to seek out alternative and contrarian perspectives to inform their decision-making."
-      ],
-      "counters": [
-        "The similarities in analysis among Agents 1-3 may be due to a shared understanding of the market and a correct interpretation of the current regime."
-      ],
-      "conclusions": [
-        "Agents 1-3 appear to be following the herd, and their analyses lack diversity and edge. Investors and employers should seek out alternative and contrarian perspectives to inform their decision-making and prepare for potential crises or disruptions."
-      ],
-      "dependencies": [
-        "The outcome of the OPEC-JMMC Meetings on April 5th, which could potentially impact the market and provide more clarity on the current regime."
-      ],
-      "falsifications": [
-        "The market indices (SP500, NIFTY50, GOLD, BITCOIN) show a clear and consistent trend in one direction, indicating a shift away from the current TRANSITION regime."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's current regime is TRANSITION (67%), with various market indices (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and downward trends over 10-day and 30-day periods.\n\nLOGIC: The brain's regime and market trends suggest a high degree of uncertainty and potential volatility in the market -> This uncertainty could lead to sudden changes in market conditions -> Investors and employers may need to be prepared for potential crises or disruptions, such as those related to the",
-      "id": "1e0a00ddbc02",
-      "timestamp": "2026-04-11T08:05:17.209538",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nI side with the UPSTREAM agent because it recognizes the importance of unique and contrarian perspectives on the market, which is essential in a highly unc"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "UPSTREAM agent because it recognizes the importance of unique and contrarian perspectives on the market, which is essential in a highly uncertain and volatile regime.",
-        "UPSTREAM agent's analysis highlights the potential for sudden changes in market conditions and the need for investors and employers to be prepared for potential crises or disruptions.",
-        "uptions -> Importance of unique and contrarian perspectives on the market\nCONFIDENCE: 80\nKILL IF: Market indices show a consistent and strong upward trend over the next 10-30 days, indicating a stable or growth regime\nTIMEFRAME: 30 days\nASSET: VIX (CBOE Volatility Index)\n\n**INDIA INTELLIGENCE**\n\nThe Indian market is likely to remain highly volatile, with a high probability of a crisis regime."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nI side with the UPSTREAM agent because it recognizes the importance of unique and contrarian perspectives on the market, which is essential in a highly uncertain and volatile regime. The UPSTREAM agent's analysis highlights the potential for sudden changes in market conditions and the need for investors and employers to be prepared for potential crises or disruptions.\n\n**THESIS GENERATION**\n\nTHESIS: Market Volatility and Crisis Preparedness\nCHAIN: Hig",
-      "id": "6407baadcb4b",
-      "timestamp": "2026-04-11T08:05:17.209936",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
       "agent": "adversary",
       "observations": [
         "The UPSTREAM agent's thesis emphasizes the importance of unique and contrarian perspectives on the market, with a confidence level of 80, and a kill condition based on market indices showing a consistent and strong upward trend."
@@ -8736,7 +8582,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "59652c2b408f",
       "timestamp": "2026-04-26T20:03:03.122159",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8759,7 +8605,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "dde9d3203a7d",
       "timestamp": "2026-04-26T20:03:03.122206",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8782,7 +8628,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "d848a665738e",
       "timestamp": "2026-04-26T20:03:03.122226",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8805,7 +8651,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "7d32aea017b8",
       "timestamp": "2026-04-26T20:03:03.122243",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8828,7 +8674,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "be3811a42814",
       "timestamp": "2026-04-26T20:03:03.122259",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8851,7 +8697,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "ec331a3290e9",
       "timestamp": "2026-04-26T20:03:03.122271",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12163,6 +12009,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "3bcc1e38b9e2",
       "timestamp": "2026-05-03T18:49:19.179399",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "ed26ffdf3167",
+      "timestamp": "2026-05-04T02:07:33.147191",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "701d6a3b175b",
+      "timestamp": "2026-05-04T02:07:33.147237",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "c53821a6a918",
+      "timestamp": "2026-05-04T02:07:33.147263",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8cf7d21f438c",
+      "timestamp": "2026-05-04T02:07:33.147285",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "86e448375ce5",
+      "timestamp": "2026-05-04T02:07:33.147324",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "3fc199392840",
+      "timestamp": "2026-05-04T02:07:33.147349",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
