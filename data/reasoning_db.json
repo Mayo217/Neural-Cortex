@@ -3,152 +3,6 @@
     {
       "agent": "synthesis",
       "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "cbd3d633a59b",
-      "timestamp": "2026-04-11T20:09:52.762108",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "7739c67e6ca9",
-      "timestamp": "2026-04-11T20:09:52.762125",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d)."
-      ],
-      "logic": [
-        "The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition suggests caution -> The market may be due for a correction, and investors should be prepared for a potential downturn -> The current market conditions warrant careful analysis and a cautious approach."
-      ],
-      "counters": [
-        "The fact that the majority of the markets are showing an upward trend could indicate a strong economy and a continued bull run, which would contradict the idea of a regime transition and a potential downturn."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and the high probability of a regime transition, I conclude that a cautious approach is warranted, and investors should be prepared for a potential downturn."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d).\n\nLOGIC: The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition suggests caution -> The market may be due for a correction, and investors should be prepared for a potential downturn -> The current market conditions wa",
-      "id": "163394884752",
-      "timestamp": "2026-04-12T06:13:12.382282",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), but the ETF data shows a neutral signal for most sectors."
-      ],
-      "logic": [
-        "The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition suggests caution -> The market may be due for a correction, and investors should be prepared for a potential downturn -> The current market conditions warrant careful analysis and a cautious approach, considering the neutral signals from the ETF data."
-      ],
-      "counters": [
-        "The fact that the majority of the markets are showing an upward trend could indicate a strong economy and a continued bull run, which would contradict the idea of a regime transition and a potential downturn, and the neutral signals from the ETF data may indicate a stable market."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and the high probability of a regime transition, I conclude that a cautious approach is warranted, and investors should be prepared for a potential downturn, taking into account the neutral signals from the ETF data."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), but the ETF data shows a neutral signal for most sectors.\n\nLOGIC: The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition suggests caution -> The market may be due for a correction, and investors should be prepared fo",
-      "id": "a76c2a4b7082",
-      "timestamp": "2026-04-12T06:13:12.382369",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), but there are several anomalies in the correlations, including a break in the COPPER/SP500, OIL_WTI/USDINR, BITCOIN/NASDAQ, and COPPER/OIL_WTI relationships."
-      ],
-      "logic": [
-        "The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition and the anomalies in the correlations suggest caution -> The market may be due for a correction, and investors should be prepared for a potential downturn -> The current market conditions warrant careful analysis and a cautious approach."
-      ],
-      "counters": [
-        "The fact that the majority of the markets are showing an upward trend could indicate a strong economy and a continued bull run, which would contradict the idea of a regime transition and a potential downturn. Additionally, the F&G index score of 37.7, which indicates a \"fear\" rating, may be an overreaction to the current market conditions."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and the anomalies in the correlations, I conclude that a cautious approach is warranted. The high probability of a regime transition and the breaks in the correlations suggest that the market may be due for a correction, and investors should be prepared for a potential downturn."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), but there are several anomalies in the correlations, including a break in the COPPER/SP500, OIL_WTI/USDINR, BITCOIN/NASDAQ, and COPPER/OIL_WTI relationships.\n\nLOGIC: The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transi",
-      "id": "8faf5ab408df",
-      "timestamp": "2026-04-12T06:13:12.382420",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "commodity_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), with news articles suggesting a surge in trading revenues, high inflation rates, and significant investments in various sectors."
-      ],
-      "logic": [
-        "The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition and the anomalies in the correlations suggest caution -> The market may be due for a correction, and investors should be prepared for a potential downturn -> The current market conditions warrant careful analysis and a cautious approach, as the regime transition may lead to a shift in market trends."
-      ],
-      "counters": [
-        "The fact that the majority of the markets are showing an upward trend and the news articles suggest a surge in trading revenues and significant investments could indicate a strong market, and the regime transition may not necessarily lead to a downturn."
-      ],
-      "conclusions": [
-        "The current market conditions are uncertain, and a cautious approach is warranted, as the regime transition may lead to a shift in market trends, and the anomalies in the correlations suggest that the market may be due for a correction."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a regime transition with a 67% probability, and the majority of the markets (SP500, NIFTY50, GOLD, and BITCOIN) are showing an upward trend in the short term (10d and 30d), with news articles suggesting a surge in trading revenues, high inflation rates, and significant investments in various sectors.\n\nLOGIC: The upward trend in the markets could be an indication of a bull run, but the high probability of a regime transition and the anomalies in the",
-      "id": "650a5a78e2a2",
-      "timestamp": "2026-04-12T06:13:12.382551",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "divergence_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
         "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the data and reasoning from various agents, I side with the **Synthesis** agent. The synthesis agent's conclusion of a potential downtur"
       ],
       "logic": [
@@ -8530,7 +8384,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "bfd1780ca9c8",
       "timestamp": "2026-04-27T21:40:04.683478",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8553,7 +8407,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "8fddff268d31",
       "timestamp": "2026-04-27T21:40:04.683531",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8576,7 +8430,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "6257e9f193ed",
       "timestamp": "2026-04-27T21:40:04.683558",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8599,7 +8453,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "a57e9a888cf5",
       "timestamp": "2026-04-27T21:40:04.683582",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8622,7 +8476,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "9cccf74bae34",
       "timestamp": "2026-04-27T21:40:04.683616",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -8645,7 +8499,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "aa13381a3f0b",
       "timestamp": "2026-04-27T21:40:04.683644",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -12095,6 +11949,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "5d82923953a0",
       "timestamp": "2026-05-04T19:20:18.704142",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "cd63c541c420",
+      "timestamp": "2026-05-05T02:07:40.462522",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "5fd740b8175e",
+      "timestamp": "2026-05-05T02:07:40.462570",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "a47156f0e5ed",
+      "timestamp": "2026-05-05T02:07:40.462597",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "710e84304f90",
+      "timestamp": "2026-05-05T02:07:40.462624",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8bc3acd37a3b",
+      "timestamp": "2026-05-05T02:07:40.462645",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8224fb13b69c",
+      "timestamp": "2026-05-05T02:07:40.462662",
       "status": "active",
       "outcome_score": null,
       "regime": "TRANSITION",
