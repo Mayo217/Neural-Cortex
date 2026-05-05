@@ -1,163 +1,6 @@
 {
   "chains": [
     {
-      "agent": "flow",
-      "observations": [
-        "The brain's output indicates a 67% probability of a transition regime, with various market indices (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and downward trends, and the ETF signals are mostly neutral."
-      ],
-      "logic": [
-        "The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various factors, including labor market stability -> The high value of contracts awarded to companies like Lawrence Livermore National Security, LLC, could lead to economic growth, but the actual impact on the labor market is crucial to monitor."
-      ],
-      "counters": [
-        "The contracts awarded to companies may not necessarily translate to job creation or economic growth, as it could be focused on specific projects or initiatives that do not directly benefit the labor market, and the brain's crisis regime may be driven by other factors unrelated to the WARN Act."
-      ],
-      "conclusions": [
-        "The brain's output and market conditions suggest a high level of uncertainty and volatility, and while the WARN Act's provisions are essential in protecting workers' rights, the actual impact on the labor market and economic growth is still uncertain."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's output indicates a 67% probability of a transition regime, with various market indices (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and downward trends, and the ETF signals are mostly neutral.\n\nLOGIC: The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various factors, including labor marke",
-      "id": "6b56859a6705",
-      "timestamp": "2026-04-12T19:57:09.963871",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions show a mix of upward and downward trends, with the SP500, NIFTY50, GOLD, and BITCOIN indices experiencing varying degrees of volatility, and the brain's output indicates a 67% probability of a transition regime."
-      ],
-      "logic": [
-        "The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various factors, including labor market stability -> The high value of contracts awarded to companies like Lawrence Livermore National Security, LLC, could lead to economic growth, but the actual impact on the labor market is crucial to monitor."
-      ],
-      "counters": [
-        "The contracts awarded to companies may not necessarily translate to job creation or economic growth, and the market's volatility could be driven by other factors such as global events, monetary policy, or geopolitical tensions."
-      ],
-      "conclusions": [
-        "The current market conditions and the brain's output suggest that the market is in a transition regime, with a high degree of uncertainty and volatility. The WARN Act's provisions and the high value of contracts awarded to companies could have a positive impact on the labor market and economic growth, but the actual outcome is uncertain."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a mix of upward and downward trends, with the SP500, NIFTY50, GOLD, and BITCOIN indices experiencing varying degrees of volatility, and the brain's output indicates a 67% probability of a transition regime.\n\nLOGIC: The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various fact",
-      "id": "621745ffc68b",
-      "timestamp": "2026-04-12T19:57:09.964023",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The Fear and Greed index (F&G) shows a score of 37.7, indicating a \"fear\" rating, which is higher than the previous week and month."
-      ],
-      "logic": [
-        "The Fear and Greed index is a measure of market sentiment, and a \"fear\" rating suggests that investors are cautious and risk-averse -> This could indicate that the market is due for a correction or a pullback, as investors are becoming increasingly risk-averse -> The high fear rating could also suggest that the market is oversold, and a bounce or a rally could be imminent."
-      ],
-      "counters": [
-        "The Fear and Greed index is not always a reliable indicator of market direction, and a \"fear\" rating could also indicate a buying opportunity for investors who are willing to take on more risk."
-      ],
-      "conclusions": [
-        "The Fear and Greed index suggests that the market is experiencing a high degree of fear and caution, which could indicate a correction or a pullback. However, it is essential to consider other market indicators and factors to determine the overall market direction."
-      ],
-      "dependencies": [
-        "The outcome of the contracts awarded to companies and their impact on job creation and economic growth."
-      ],
-      "falsifications": [
-        "The market experiences a significant downturn or a sudden change in the labor market, which could be triggered by factors such as a global economic slowdown, a major geopolitical event, or a significant change in monetary policy."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a mix of upward and downward trends, with the SP500, NIFTY50, GOLD, and BITCOIN indices experiencing varying degrees of volatility, and the brain's output indicates a 67% probability of a transition regime.\n\nLOGIC: The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various fact",
-      "id": "56594d077608",
-      "timestamp": "2026-04-12T19:57:09.964023",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions show a mix of upward and downward trends, with the SP500, NIFTY50, GOLD, and BITCOIN indices experiencing varying degrees of volatility, and the brain's output indicates a 67% probability of a transition regime."
-      ],
-      "logic": [
-        "The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various factors, including labor market stability -> The high value of contracts awarded to companies like Lawrence Livermore National Security, LLC, and other notable companies indicates a significant investment in the labor market."
-      ],
-      "counters": [
-        "The current market conditions could be attributed to other factors such as the Iran war, inflation, and global oil market disruptions, rather than the WARN Act's provisions."
-      ],
-      "conclusions": [
-        "The current market conditions are uncertain and volatile, with a mix of upward and downward trends, and the brain's crisis regime may be indirectly related to the WARN Act's provisions."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a mix of upward and downward trends, with the SP500, NIFTY50, GOLD, and BITCOIN indices experiencing varying degrees of volatility, and the brain's output indicates a 67% probability of a transition regime.\n\nLOGIC: The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various fact",
-      "id": "4768a74fa22e",
-      "timestamp": "2026-04-12T19:57:09.964094",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "Agents 1-3 are following the herd, with their analyses and predictions largely in line with the crowd's expectations."
-      ],
-      "logic": [
-        "Following the herd can lead to a lack of edge and consensus in the market -> This can result in Agents 1-3 missing out on potential opportunities and being caught off guard by unexpected market movements -> The crowd's expectations can be influenced by various factors, including news and market trends."
-      ],
-      "counters": [
-        "Agents 1-3 may be following the herd due to a lack of alternative perspectives or a desire to minimize risk."
-      ],
-      "conclusions": [
-        "Agents 1-3 should consider alternative perspectives and not just follow the crowd to gain an edge in the market."
-      ],
-      "dependencies": [
-        "The outcome of the Iran-US talks and the subsequent impact on the global oil market would be a crucial factor in determining the direction of the market."
-      ],
-      "falsifications": [
-        "If the market experiences a significant downturn despite the WARN Act's provisions, it would suggest that the Act's impact on the labor market is not a primary driver of the market's volatility."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a mix of upward and downward trends, with the SP500, NIFTY50, GOLD, and BITCOIN indices experiencing varying degrees of volatility, and the brain's output indicates a 67% probability of a transition regime.\n\nLOGIC: The brain's crisis regime and market conditions may be indirectly related to the WARN Act's provisions, which aim to protect workers' rights -> This could suggest that the market is experiencing uncertainty and volatility due to various fact",
-      "id": "4d13c23a4adb",
-      "timestamp": "2026-04-12T19:57:09.964094",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the reasoning provided by various agents, it's clear that there are contradictions regarding the impact of the WARN Act's provisions on "
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "rally, presenting opportunities for investors.",
-        "downturn, presenting risks for investors."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the reasoning provided by various agents, it's clear that there are contradictions regarding the impact of the WARN Act's provisions on the labor market and the overall economy. Agents 1-3 seem to follow the herd, suggesting that the WARN Act's provisions and the high value of contracts awarded to companies could lead to economic growth. However, other agents argue that the impact of these contracts on the labor market is uncertain ",
-      "id": "f99f5399931c",
-      "timestamp": "2026-04-12T19:57:09.964685",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
       "agent": "adversary",
       "observations": [],
       "logic": [
@@ -8348,7 +8191,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "7b4676f6249b",
       "timestamp": "2026-04-28T18:01:31.404530",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8371,7 +8214,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "485439edf4e8",
       "timestamp": "2026-04-28T18:01:31.404584",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8394,7 +8237,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "e89c06887915",
       "timestamp": "2026-04-28T18:01:31.404611",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8417,7 +8260,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "7b40ea00cf3d",
       "timestamp": "2026-04-28T18:01:31.404633",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8440,7 +8283,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "11a5bf304b91",
       "timestamp": "2026-04-28T18:01:31.404654",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8463,7 +8306,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "eb897d0e8ac7",
       "timestamp": "2026-04-28T18:01:31.404671",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12054,6 +11897,144 @@
       "status": "active",
       "outcome_score": null,
       "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "085221d618b2",
+      "timestamp": "2026-05-05T19:10:51.353832",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "498bce877e60",
+      "timestamp": "2026-05-05T19:10:51.353878",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "4245f2a20fa2",
+      "timestamp": "2026-05-05T19:10:51.353905",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "690c264f5d6b",
+      "timestamp": "2026-05-05T19:10:51.353926",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "2f0e85feb887",
+      "timestamp": "2026-05-05T19:10:51.353947",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "08853d95e9aa",
+      "timestamp": "2026-05-05T19:10:51.353965",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
       "reasoning_type": "general"
     }
   ],
