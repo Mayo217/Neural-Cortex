@@ -1,160 +1,6 @@
 {
   "chains": [
     {
-      "agent": "market",
-      "observations": [
-        "The current market conditions indicate a RISK_ON regime with a 56% probability, and the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices are all showing upward trends over the past 30 days, with the SP500 index showing a high upward trend over the past 5 and 10 days."
-      ],
-      "logic": [
-        "The upward trends in these indices suggest a positive market sentiment, which may be driven by factors such as economic growth, low unemployment, and stable interest rates -> This positive sentiment could lead to increased investment and consumer spending -> Which in turn could further drive economic growth and support the RISK_ON regime. However, the high probability of a RISK_ON regime may be overly optimistic, and the market may be due for a correction, especially given the potential risks and uncertainties in the global economy."
-      ],
-      "counters": [
-        "The high probability of a RISK_ON regime may be overly optimistic, and the market may be due for a correction, especially given the potential risks and uncertainties in the global economy, such as geopolitical tensions, inflation, and interest rate hikes. Additionally, the VIX index is showing an increase of 3.43% over the past day, which could indicate a potential shift in market sentiment."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and trends, I conclude that the RISK_ON regime is likely to continue in the short term, driven by positive market sentiment and economic growth. However, I also acknowledge the potential risks and uncertainties in the global economy, which could lead to a correction in the market."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 56% probability, and the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices are all showing upward trends over the past 30 days, with the SP500 index showing a high upward trend over the past 5 and 10 days.\n\nLOGIC: The upward trends in these indices suggest a positive market sentiment, which may be driven by factors such as economic growth, low unemployment, and stable interest rates -> This positive sentiment could lead t",
-      "id": "3b3ebd1fc0a6",
-      "timestamp": "2026-04-13T16:25:05.766273",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions indicate a RISK_ON regime with a 56% probability, and the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices are all showing upward trends over the past 30 days."
-      ],
-      "logic": [
-        "The upward trends in these indices suggest a positive market sentiment, which may be driven by factors such as economic growth, low unemployment, and stable interest rates -> This positive sentiment could lead to increased investment and consumer spending -> Which in turn could further drive economic growth and support the RISK_ON regime."
-      ],
-      "counters": [
-        "However, the high probability of a RISK_ON regime may be overestimated, and the market may be due for a correction, especially given the recent surge in oil prices and the potential for increased inflation."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and trends, it appears that the market is following a RISK_ON regime, driven by positive sentiment and economic growth. However, there are potential risks and counterarguments that could lead to a correction."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 56% probability, and the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices are all showing upward trends over the past 30 days.\n\nLOGIC: The upward trends in these indices suggest a positive market sentiment, which may be driven by factors such as economic growth, low unemployment, and stable interest rates -> This positive sentiment could lead to increased investment and consumer spending -> Which in turn could further dr",
-      "id": "e86be5675df2",
-      "timestamp": "2026-04-13T16:25:05.766421",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "Agents 1-3 are all following the same logic and conclusion, which may indicate a lack of diversity in their perspectives."
-      ],
-      "logic": [
-        "The lack of diversity in perspectives among Agents 1-3 may lead to a lack of consideration for alternative scenarios and potential risks -> This could result in overconfidence and poor decision-making -> Which could ultimately lead to significant losses if the market were to correct."
-      ],
-      "counters": [
-        "However, the fact that Agents 1-3 are all following the same logic and conclusion may also indicate a strong consensus and a high degree of confidence in the current market trends."
-      ],
-      "conclusions": [
-        "While Agents 1-3 are following the herd, it is essential to consider alternative perspectives and potential risks to ensure a more nuanced understanding of the market."
-      ],
-      "dependencies": [
-        "The upcoming Core PPI m/m and PPI m/m data releases, which could provide insight into inflationary pressures and the overall health of the economy."
-      ],
-      "falsifications": [
-        "If the oil prices continue to rise significantly, leading to increased inflation and decreased consumer spending, which could ultimately lead to a RISK_OFF regime."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 56% probability, and the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices are all showing upward trends over the past 30 days.\n\nLOGIC: The upward trends in these indices suggest a positive market sentiment, which may be driven by factors such as economic growth, low unemployment, and stable interest rates -> This positive sentiment could lead to increased investment and consumer spending -> Which in turn could further dr",
-      "id": "70cbd731900b",
-      "timestamp": "2026-04-13T16:25:05.766421",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "**1. RECONCILE contradictions between agents. Name which agent you side with and WHY.**\n\nAfter analyzing the reasoning from various agents, I side with the agent that concludes the RISK_ON regime is l"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "upward trends in the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices.",
-        "upport for the RISK_ON regime\nCONFIDENCE: 70\nKILL IF: Significant increase in the VIX index or a 10% drop in the SP500 index\nTIMEFRAME: 30 days\nASSET: SP500\n\nTHESIS: Global Economic Risks and Market Volatility\nCHAIN: Geopolitical tensions and inflation -> Increased market volatility and risk aversion -> Shift towards a RISK_OFF regime\nCONFIDENCE: 40\nKILL IF: Significant decline in the VIX index or a 10% increase in the SP500 index\nTIMEFRAME: 60 days\nASSET: VIX\n\n**3.",
-        "upward trend may be driven by excessive speculation and leverage, which could lead to a sudden and significant correction."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**1. RECONCILE contradictions between agents. Name which agent you side with and WHY.**\n\nAfter analyzing the reasoning from various agents, I side with the agent that concludes the RISK_ON regime is likely to continue in the short term, but with a caveat that the market may be due for a correction. I side with this agent because their conclusion is based on a thorough analysis of the current market conditions and trends, including the upward trends in the SP500, NIFTY50, GOLD, BITCOIN, and OIL_B",
-      "id": "451eaade434c",
-      "timestamp": "2026-04-13T16:25:05.766871",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The current market trends, as indicated by the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices, suggest a RISK_ON regime with a 56% probability."
-      ],
-      "logic": [
-        "The upward trends in these indices -> Increased investor confidence and risk appetite -> Continued support for the RISK_ON regime. However, the high probability of a RISK_ON regime may be overly optimistic, and the market may be due for a correction."
-      ],
-      "counters": [],
-      "conclusions": [
-        "The market's current upward trend is likely driven by a combination of fundamental factors and speculation, and a correction is possible in the short term."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market trends, as indicated by the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices, suggest a RISK_ON regime with a 56% probability.\nLOGIC: The upward trends in these indices -> Increased investor confidence and risk appetite -> Continued support for the RISK_ON regime. However, the high probability of a RISK_ON regime may be overly optimistic, and the market may be due for a correction.\nCONOUNTER: The argument that the market's current upward trend is driven by fundame",
-      "id": "951db2415e42",
-      "timestamp": "2026-04-13T16:25:05.766989",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The THESIS \"Market Sentiment and Economic Growth\" has a confidence level of 70 and suggests that positive market sentiment will lead to increased investment and consumer spending, further supporting the RISK_ON regime."
-      ],
-      "logic": [
-        "Positive market sentiment -> Increased investment and consumer spending -> Further economic growth and support for the RISK_ON regime. However, this thesis may be overly optimistic and neglects potential risks, such as geopolitical tensions and inflation."
-      ],
-      "counters": [],
-      "conclusions": [
-        "The thesis \"Market Sentiment and Economic Growth\" is likely overly optimistic and neglects potential risks, and a more nuanced understanding of the market is necessary."
-      ],
-      "dependencies": [
-        "A significant increase in the VIX index or a 10% drop in the SP500 index, which would indicate a shift towards a RISK_OFF regime."
-      ],
-      "falsifications": [
-        "The market continues to trend upward without a significant correction, and the VIX index remains low, indicating continued investor confidence and risk appetite."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market trends, as indicated by the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT indices, suggest a RISK_ON regime with a 56% probability.\nLOGIC: The upward trends in these indices -> Increased investor confidence and risk appetite -> Continued support for the RISK_ON regime. However, the high probability of a RISK_ON regime may be overly optimistic, and the market may be due for a correction.\nCONOUNTER: The argument that the market's current upward trend is driven by fundame",
-      "id": "a70338a670c6",
-      "timestamp": "2026-04-13T16:25:05.766989",
-      "status": "invalidated",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "sentiment_contrarian"
-    },
-    {
       "agent": "adversary",
       "observations": [
         "The Indian market is vulnerable to global market trends, and close monitoring of the SP500 and NIFTY50 indices is essential."
@@ -12000,6 +11846,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "97f0f14ddf6f",
       "timestamp": "2026-05-06T08:14:06.303217",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "4a1d5c409ab7",
+      "timestamp": "2026-05-06T13:52:00.313661",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "2c70cb8fb11b",
+      "timestamp": "2026-05-06T13:52:00.313720",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "5f08a403015b",
+      "timestamp": "2026-05-06T13:52:00.313747",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "1e4df0227198",
+      "timestamp": "2026-05-06T13:52:00.313769",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "74fcbfe15d5b",
+      "timestamp": "2026-05-06T13:52:00.313790",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "734b0daa1dc7",
+      "timestamp": "2026-05-06T13:52:00.313808",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
