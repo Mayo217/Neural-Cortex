@@ -1,160 +1,6 @@
 {
   "chains": [
     {
-      "agent": "adversary",
-      "observations": [],
-      "logic": [
-        "The confidence in this thesis is relatively low compared to other theses, suggesting uncertainty in the impact of contracts on the labor market and economic growth -> This uncertainty could lead to market volatility and decreased investor confidence -> The thesis's reliance on the labor market's response to contracts makes it vulnerable to falsification by data showing no significant job creation or economic growth."
-      ],
-      "counters": [
-        "One might argue that the high value of contracts awarded to companies could indeed lead to economic growth through increased investment and job creation, citing historical examples where significant government contracts have boosted local economies."
-      ],
-      "conclusions": [
-        "The \"Economic Growth\" thesis is the weakest due to its moderate confidence level and the indirect link between contracts awarded to companies and actual economic growth. Its validity heavily depends on the labor market's positive response to these contracts."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### OBSERVE: The \"Economic Growth\" thesis has a confidence level of 50 and is based on the chain of high value of contracts awarded to companies leading to increased investment, job creation, and economic growth.\n\nLOGIC: The confidence in this thesis is relatively low compared to other theses, suggesting uncertainty in the impact of contracts on the labor market and economic growth -> This uncertainty could lead to market volatility and decreased investor confidence -> The thesis's reliance on t",
-      "id": "4ce391083fd2",
-      "timestamp": "2026-04-12T19:57:09.964770",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [],
-      "logic": [
-        "The omission of a detailed analysis on how the RBI's decisions interact with global trends and the WARN Act's provisions -> This lack of analysis could lead to overlooking critical factors that influence the Indian market -> The market's reaction to these factors could significantly impact the validity of the theses presented."
-      ],
-      "counters": [
-        "It could be argued that the RBI's monetary policy decisions are well-covered by other analyses, and the current focus is on the immediate implications of the WARN Act and global market trends."
-      ],
-      "conclusions": [
-        "The biggest blind spot in the analysis is the lack of in-depth examination of the interplay between the RBI's monetary policy, global economic trends, and the WARN Act's provisions, which could have significant implications for the Indian market and the overall validity of the theses."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is empirical evidence showing a direct and significant positive correlation between the value of contracts awarded to companies and subsequent job creation and economic growth."
-      ],
-      "falsifications": [
-        "This thesis would be falsified if data over the next 60 days shows that the contracts awarded to companies have a negligible impact on the labor market, leading to no significant job creation or economic growth."
-      ],
-      "assets": [],
-      "raw_excerpt": "### OBSERVE: The \"Economic Growth\" thesis has a confidence level of 50 and is based on the chain of high value of contracts awarded to companies leading to increased investment, job creation, and economic growth.\n\nLOGIC: The confidence in this thesis is relatively low compared to other theses, suggesting uncertainty in the impact of contracts on the labor market and economic growth -> This uncertainty could lead to market volatility and decreased investor confidence -> The thesis's reliance on t",
-      "id": "a492af900b00",
-      "timestamp": "2026-04-12T19:57:09.964770",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "policy_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act's provisions require employers to provide written notice at least 60 days in advance of mass layoffs or plant closures, with a current employment threshold of 75 employees in California."
-      ],
-      "logic": [
-        "The WARN Act's requirements -> imply a significant burden on employers to provide timely notice -> suggest that employers may need to plan ahead to comply with the regulations."
-      ],
-      "counters": [
-        "One could argue that the 60-day notice period is not sufficient for employers to adjust to changing market conditions, and that the regulations may be overly restrictive."
-      ],
-      "conclusions": [
-        "The WARN Act's provisions are likely to have a significant impact on employers in California, particularly those with 75 or more employees, and may require them to re-evaluate their business strategies to ensure compliance."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act's provisions require employers to provide written notice at least 60 days in advance of mass layoffs or plant closures, with a current employment threshold of 75 employees in California.\n\nLOGIC: The WARN Act's requirements -> imply a significant burden on employers to provide timely notice -> suggest that employers may need to plan ahead to comply with the regulations.\n\nCOUNTER: One could argue that the 60-day notice period is not sufficient for employers to adjust to chang",
-      "id": "d9ae9d75b93e",
-      "timestamp": "2026-04-13T07:29:08.437091",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "policy_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's crisis regime is currently set to TRANSITION (35%), with various market indicators (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and neutral trends."
-      ],
-      "logic": [
-        "The brain's crisis regime and market conditions -> suggest a state of uncertainty and potential instability -> imply that investors and employers may need to be cautious and adaptable in their decision-making."
-      ],
-      "counters": [
-        "One could argue that the current market trends and brain's crisis regime do not necessarily indicate a high probability of crisis, and that the situation may be more stable than it appears."
-      ],
-      "conclusions": [
-        "The current market conditions and brain's crisis regime suggest a need for caution and adaptability, but do not necessarily indicate a high probability of crisis."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's crisis regime is currently set to TRANSITION (35%), with various market indicators (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and neutral trends.\n\nLOGIC: The brain's crisis regime and market conditions -> suggest a state of uncertainty and potential instability -> imply that investors and employers may need to be cautious and adaptable in their decision-making.\n\nCOUNTER: One could argue that the current market trends and brain's crisis regime do not necessarily ",
-      "id": "1b5cb410d533",
-      "timestamp": "2026-04-13T07:29:08.437166",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions and brain's crisis regime, with a TRANSITION regime at 35%, and various market indicators (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and neutral trends."
-      ],
-      "logic": [
-        "The brain's crisis regime and market conditions -> suggest a state of uncertainty and potential instability -> imply that investors and employers may need to be cautious and adaptable in their decision-making."
-      ],
-      "counters": [
-        "One could argue that the current market trends and brain's crisis regime do not necessarily indicate a high probability of crisis, and that the situation may be more stable than it appears."
-      ],
-      "conclusions": [
-        "The current market conditions and brain's crisis regime suggest a need for caution and adaptability, but do not necessarily indicate a high probability of crisis."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions and brain's crisis regime, with a TRANSITION regime at 35%, and various market indicators (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and neutral trends.\n\nLOGIC: The brain's crisis regime and market conditions -> suggest a state of uncertainty and potential instability -> imply that investors and employers may need to be cautious and adaptable in their decision-making.\n\nCOUNTER: One could argue that the current market trends and brain's crisis r",
-      "id": "0aecee6e994c",
-      "timestamp": "2026-04-13T07:29:08.437321",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The break in the COPPER/OIL_WTI correlation, with copper prices showing a -0.03% change and oil prices showing a +7.32% change."
-      ],
-      "logic": [
-        "The break in correlation -> suggests a potential shift in the relationship between copper and oil prices -> implies that investors may need to re-evaluate their assumptions about the relationship between these two commodities."
-      ],
-      "counters": [
-        "One could argue that the break in correlation is a temporary anomaly and that the relationship between copper and oil prices will revert to its historical norm."
-      ],
-      "conclusions": [
-        "The break in the COPPER/OIL_WTI correlation suggests a potential shift in the relationship between these two commodities and warrants further monitoring."
-      ],
-      "dependencies": [
-        "The brain's crisis regime and market conditions, particularly the SP500 and NIFTY50 trends, which would need to show a significant shift towards a more stable or positive direction to change my conclusion."
-      ],
-      "falsifications": [
-        "If the brain's crisis regime were to shift to a more extreme regime, such as CRISIS or RECOVERY, or if the market indicators were to show a strong and consistent trend in one direction, my conclusion would be incorrect."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions and brain's crisis regime, with a TRANSITION regime at 35%, and various market indicators (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and neutral trends.\n\nLOGIC: The brain's crisis regime and market conditions -> suggest a state of uncertainty and potential instability -> imply that investors and employers may need to be cautious and adaptable in their decision-making.\n\nCOUNTER: One could argue that the current market trends and brain's crisis r",
-      "id": "c2b1e67d78ed",
-      "timestamp": "2026-04-13T07:29:08.437321",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "commodity_signal"
-    },
-    {
       "agent": "narrative",
       "observations": [
         "The current market conditions and brain's crisis regime, with a TRANSITION regime at 35%, and various market indicators (SP500, NIFTY50, GOLD, BITCOIN) showing a mix of upward and neutral trends, while Agents 1-3 are following the herd."
@@ -8329,7 +8175,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "0ee1d6565aa7",
       "timestamp": "2026-04-28T21:43:21.346380",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8352,7 +8198,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "bcc432cdcc57",
       "timestamp": "2026-04-28T21:43:21.346428",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8375,7 +8221,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "3e37ce32cfaa",
       "timestamp": "2026-04-28T21:43:21.346454",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8398,7 +8244,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "ce640f9d00dc",
       "timestamp": "2026-04-28T21:43:21.346476",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8421,7 +8267,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "68d8798bc14b",
       "timestamp": "2026-04-28T21:43:21.346497",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8444,7 +8290,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "313bde63e61a",
       "timestamp": "2026-04-28T21:43:21.346515",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -12032,6 +11878,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "08853d95e9aa",
       "timestamp": "2026-05-05T19:10:51.353965",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "ca7ee2939ffb",
+      "timestamp": "2026-05-06T02:06:59.476119",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "71452da5fbdb",
+      "timestamp": "2026-05-06T02:06:59.476173",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "07e9813e5d53",
+      "timestamp": "2026-05-06T02:06:59.476200",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "c4d49ada4b60",
+      "timestamp": "2026-05-06T02:06:59.476222",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "624e06aea5ad",
+      "timestamp": "2026-05-06T02:06:59.476243",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "1952806c5cd7",
+      "timestamp": "2026-05-06T02:06:59.476260",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
