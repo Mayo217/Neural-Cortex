@@ -1,168 +1,6 @@
 {
   "chains": [
     {
-      "agent": "synthesis",
-      "observations": [
-        "### 1. RECONCILE contradictions between agents.\n\nAfter analyzing the various agent perspectives (UPSTREAM, FLOW, MARKET, NARRATIVE), it becomes clear that there is a mix of views on the importance of "
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "UPSTREAM, FLOW, MARKET, NARRATIVE), it becomes clear that there is a mix of views on the importance of the WARN Act's provisions in the current TRANSITION regime.",
-        "UPSTREAM agent suggests that the WARN Act's provisions are likely to take on increased importance due to the potential volatility and crisis regime.",
-        "upported by the moderate VIX level and the BREAK in VIX/SP500 correlation, indicating that the market is still vulnerable to sudden changes."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### 1. RECONCILE contradictions between agents.\n\nAfter analyzing the various agent perspectives (UPSTREAM, FLOW, MARKET, NARRATIVE), it becomes clear that there is a mix of views on the importance of the WARN Act's provisions in the current TRANSITION regime. The UPSTREAM agent suggests that the WARN Act's provisions are likely to take on increased importance due to the potential volatility and crisis regime. In contrast, the FLOW agent concludes that the importance of the WARN Act's provisions ",
-      "id": "4448e987dc43",
-      "timestamp": "2026-04-14T06:21:45.261694",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "flow_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The current market regime is characterized as a TRANSITION state with a 38% probability, and the SP500 and NIFTY50 indices have a 38% and 44% chance of an upward trend, respectively."
-      ],
-      "logic": [
-        "The TRANSITION regime and moderate VIX level suggest a high degree of uncertainty, which may lead to increased importance of risk management and regulatory compliance (WARN Act) -> This could result in a higher probability of a market correction -> The current consensus trade may increase the risk of a market correction."
-      ],
-      "counters": [
-        "The FLOW agent's perspective that the importance of the WARN Act's provisions is uncertain and may not be as critical as initially thought could counter this conclusion, as it suggests that the market may not be as vulnerable to sudden changes as expected."
-      ],
-      "conclusions": [
-        "The current market regime's uncertainty and the moderate VIX level support the MARKET agent's perspective that the WARN Act's provisions are likely to take on increased importance."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is characterized as a TRANSITION state with a 38% probability, and the SP500 and NIFTY50 indices have a 38% and 44% chance of an upward trend, respectively.\nLOGIC: The TRANSITION regime and moderate VIX level suggest a high degree of uncertainty, which may lead to increased importance of risk management and regulatory compliance (WARN Act) -> This could result in a higher probability of a market correction -> The current consensus trade may increase the risk of",
-      "id": "da26f0d1cd7c",
-      "timestamp": "2026-04-14T06:21:45.261777",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The THESIS \"Market Volatility and Risk Management\" has a confidence level of 80 and a kill condition of the SP500 and NIFTY50 indices continuing to trend upward and the VIX level decreasing significantly."
-      ],
-      "logic": [
-        "The high confidence level and specific kill condition suggest that the THESIS is well-supported -> However, the kill condition may be too narrow, and other factors could affect the THESIS's validity -> The THESIS may be overly reliant on the VIX level and the performance of the SP500 and NIFTY50 indices."
-      ],
-      "counters": [
-        "The THESIS's confidence level and kill condition could be seen as overly optimistic, and the market's uncertainty may make it difficult to predict the THESIS's outcome."
-      ],
-      "conclusions": [
-        "The THESIS \"Market Volatility and Risk Management\" is well-supported, but its validity depends on a specific set of conditions."
-      ],
-      "dependencies": [
-        "A significant decrease in the VIX level and a continued upward trend in the SP500 and NIFTY50 indices would change my mind."
-      ],
-      "falsifications": [
-        "The market enters a stable regime, and the importance of the WARN Act's provisions decreases, indicating that the current uncertainty is not a significant factor."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is characterized as a TRANSITION state with a 38% probability, and the SP500 and NIFTY50 indices have a 38% and 44% chance of an upward trend, respectively.\nLOGIC: The TRANSITION regime and moderate VIX level suggest a high degree of uncertainty, which may lead to increased importance of risk management and regulatory compliance (WARN Act) -> This could result in a higher probability of a market correction -> The current consensus trade may increase the risk of",
-      "id": "a6addc7261f6",
-      "timestamp": "2026-04-14T06:21:45.261777",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The WEAKEST THESIS is not explicitly stated, but the FLOW agent's perspective that the importance of the WARN Act's provisions is uncertain and may not be as critical as initially thought could be considered a weak point."
-      ],
-      "logic": [
-        "The FLOW agent's perspective lacks a clear confidence level and kill condition -> This makes it difficult to evaluate the perspective's validity -> The perspective may be too vague to be considered a strong THESIS."
-      ],
-      "counters": [
-        "The FLOW agent's perspective could be seen as a necessary counterbalance to the MARKET agent's perspective, as it highlights the uncertainty and complexity of the market."
-      ],
-      "conclusions": [
-        "The FLOW agent's perspective is the WEAKEST THESIS due to its lack of a clear confidence level and kill condition."
-      ],
-      "dependencies": [
-        "A significant change in the VIX level or the performance of the SP500 and NIFTY50 indices would affect the THESIS's validity."
-      ],
-      "falsifications": [
-        "The market enters a stable regime, and the importance of the WARN Act's provisions decreases, indicating that the THESIS is not supported by the current market conditions."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is characterized as a TRANSITION state with a 38% probability, and the SP500 and NIFTY50 indices have a 38% and 44% chance of an upward trend, respectively.\nLOGIC: The TRANSITION regime and moderate VIX level suggest a high degree of uncertainty, which may lead to increased importance of risk management and regulatory compliance (WARN Act) -> This could result in a higher probability of a market correction -> The current consensus trade may increase the risk of",
-      "id": "44d466901ac5",
-      "timestamp": "2026-04-14T06:21:45.261777",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "flow_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The BIGGEST BLIND SPOT is the potential for a crisis regime, which is mentioned as a risk but not fully explored."
-      ],
-      "logic": [
-        "The potential for a crisis regime is a significant risk that could affect the market's volatility and the importance of the WARN Act's provisions -> However, the analysis does not fully explore this risk or its potential consequences -> This could lead to a lack of preparedness for a potential crisis."
-      ],
-      "counters": [
-        "The analysis does mention the potential for a crisis regime, and the MARKET agent's perspective does take this risk into account."
-      ],
-      "conclusions": [
-        "The BIGGEST BLIND SPOT is the potential for a crisis regime, which is not fully explored in the analysis."
-      ],
-      "dependencies": [
-        "A more detailed analysis of the FLOW agent's perspective, including a clear confidence level and kill condition, would be necessary to evaluate its validity."
-      ],
-      "falsifications": [
-        "The FLOW agent's perspective is supported by a more detailed analysis, and its uncertainty is shown to be a necessary consideration in the current market regime."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is characterized as a TRANSITION state with a 38% probability, and the SP500 and NIFTY50 indices have a 38% and 44% chance of an upward trend, respectively.\nLOGIC: The TRANSITION regime and moderate VIX level suggest a high degree of uncertainty, which may lead to increased importance of risk management and regulatory compliance (WARN Act) -> This could result in a higher probability of a market correction -> The current consensus trade may increase the risk of",
-      "id": "746d3d586b79",
-      "timestamp": "2026-04-14T06:21:45.261777",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act's provisions require employers to provide written notice at least 60 days in advance of a mass layoff or plant closure, and the California Labor Code Section 1400 reinforces this requirement."
-      ],
-      "logic": [
-        "The WARN Act's provisions are designed to protect employees' rights and provide them with sufficient notice of potential job loss -> This notice period allows employees to prepare for the transition and seek new employment opportunities -> The implementation of the WARN Act's provisions is crucial for maintaining a stable labor market and mitigating the negative impacts of mass layoffs."
-      ],
-      "counters": [
-        "One could argue that the WARN Act's provisions may impose an undue burden on employers, particularly small businesses, and may lead to unnecessary costs and administrative complexity."
-      ],
-      "conclusions": [
-        "I conclude that the WARN Act's provisions are essential for protecting employees' rights and maintaining a stable labor market, and employers should prioritize compliance with these regulations to avoid potential liabilities and reputational damage."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act's provisions require employers to provide written notice at least 60 days in advance of a mass layoff or plant closure, and the California Labor Code Section 1400 reinforces this requirement.\n\nLOGIC: The WARN Act's provisions are designed to protect employees' rights and provide them with sufficient notice of potential job loss -> This notice period allows employees to prepare for the transition and seek new employment opportunities -> The implementation of the WARN Act's p",
-      "id": "ab7dcd717676",
-      "timestamp": "2026-04-14T15:59:16.218726",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
       "agent": "flow",
       "observations": [
         "The upstream conclusion emphasizes the importance of the WARN Act's provisions in protecting employees' rights and maintaining a stable labor market, with a notice period requirement of at least 60 days for mass layoffs or plant closures."
@@ -8109,7 +7947,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "321baa9af37b",
       "timestamp": "2026-04-30T07:57:08.078038",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8132,7 +7970,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "e27848dc933e",
       "timestamp": "2026-04-30T07:57:08.078093",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8155,7 +7993,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "d058ea1bbfde",
       "timestamp": "2026-04-30T07:57:08.078120",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8178,7 +8016,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "c53a12b1375d",
       "timestamp": "2026-04-30T07:57:08.078142",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8201,7 +8039,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "cec712d65826",
       "timestamp": "2026-04-30T07:57:08.078162",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8224,7 +8062,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "5851c57ab974",
       "timestamp": "2026-04-30T07:57:08.078178",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -11950,6 +11788,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "987b616f1e9d",
       "timestamp": "2026-05-07T02:09:24.672470",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "72fd9380bd41",
+      "timestamp": "2026-05-07T08:23:17.709851",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "e8defa704f52",
+      "timestamp": "2026-05-07T08:23:17.709908",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "16718aa0a3cf",
+      "timestamp": "2026-05-07T08:23:17.709932",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "17f9478f69ff",
+      "timestamp": "2026-05-07T08:23:17.709953",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "fdd3926ed687",
+      "timestamp": "2026-05-07T08:23:17.709972",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "5f5463cca934",
+      "timestamp": "2026-05-07T08:23:17.709990",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
