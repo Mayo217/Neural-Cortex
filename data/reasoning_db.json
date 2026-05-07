@@ -1,160 +1,6 @@
 {
   "chains": [
     {
-      "agent": "adversary",
-      "observations": [
-        "The THESIS \"Regime Transition and Labor Market Stability\" has a confidence level of 70, which is lower than the confidence level of the other theses."
-      ],
-      "logic": [
-        "The lower confidence level of this thesis suggests that it may be more vulnerable to attacks or criticisms -> The thesis relies on a chain of events, from regime transition to labor market instability, which may be subject to various uncertainties and interruptions -> The thesis may be the weakest link in the Synthesizer's output."
-      ],
-      "counters": [
-        "One could argue that the thesis is still a valuable contribution to the analysis, despite its lower confidence level, as it highlights the potential risks and uncertainties associated with regime transitions."
-      ],
-      "conclusions": [
-        "I conclude that the THESIS \"Regime Transition and Labor Market Stability\" is the weakest thesis in the Synthesizer's output, due to its lower confidence level and reliance on a chain of events that may be subject to uncertainties and interruptions."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is if the Synthesizer were to incorporate more robust and adaptive methodologies, such as machine learning or scenario planning, to account for unforeseen events and black swans."
-      ],
-      "falsifications": [
-        "My conclusion is wrong if the Synthesizer's output were to be shown to be highly accurate and robust, despite its reliance on probability chains and regime transitions, and if the underlying assumptions and methodologies were to be validated through empirical evidence."
-      ],
-      "assets": [],
-      "raw_excerpt": "### Attack on the Synthesizer's Output\n\nOBSERVE: The Synthesizer's output is based on a complex analysis of market data, labor laws, and economic trends, but it appears to be overly reliant on probability chains and regime transitions.\n\nLOGIC: The Synthesizer's analysis is based on a probabilistic approach, which may not account for unforeseen events or black swans -> The reliance on probability chains and regime transitions may lead to a lack of robustness in the analysis -> The Synthesizer's o",
-      "id": "78f4f3c5658e",
-      "timestamp": "2026-04-14T15:59:16.219309",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The Synthesizer's output appears to be focused on the analysis of market data, labor laws, and economic trends, but it does not seem to account for the potential impact of geopolitical events or global systemic risks."
-      ],
-      "logic": [
-        "The lack of consideration for geopolitical events or global systemic risks may be a significant blind spot in the Synthesizer's analysis -> These types of events can have a major impact on markets and economies, and may not be captured by the Synthesizer's probabilistic approach -> The Synthesizer's output may be vulnerable to surprises or shocks that are not accounted for in its analysis."
-      ],
-      "counters": [
-        "One could argue that the Synthesizer's focus on market data, labor laws, and economic trends is sufficient, as these factors are more directly relevant to the analysis of labor market stability and regime transitions."
-      ],
-      "conclusions": [
-        "I conclude that the biggest blind spot in the Synthesizer's output is its lack of consideration for geopolitical events or global systemic risks, which may have a significant impact on markets and economies."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is if the thesis were to be supported by additional empirical evidence or data, which would increase its confidence level and robustness."
-      ],
-      "falsifications": [
-        "My conclusion is wrong if the thesis were to be shown to be highly accurate and robust, despite its lower confidence level, and if the underlying assumptions and methodologies were to be validated through empirical evidence."
-      ],
-      "assets": [],
-      "raw_excerpt": "### Attack on the Synthesizer's Output\n\nOBSERVE: The Synthesizer's output is based on a complex analysis of market data, labor laws, and economic trends, but it appears to be overly reliant on probability chains and regime transitions.\n\nLOGIC: The Synthesizer's analysis is based on a probabilistic approach, which may not account for unforeseen events or black swans -> The reliance on probability chains and regime transitions may lead to a lack of robustness in the analysis -> The Synthesizer's o",
-      "id": "1d7b7b855e25",
-      "timestamp": "2026-04-14T15:59:16.219309",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The current market regime is TRANSITION (38%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time periods (30d, 5d, 10d)."
-      ],
-      "logic": [
-        "The transition regime suggests uncertainty and potential volatility in the market -> This uncertainty could be driven by various factors, including economic indicators, policy changes, and global events -> The implications of this regime could be significant, as it may lead to increased risk and potential losses for investors."
-      ],
-      "counters": [
-        "One could argue that the transition regime is a normal part of market cycles, and that the current trends may not necessarily lead to significant volatility or losses -> This counterargument would suggest that investors should not overreact to the current regime and instead focus on long-term strategies."
-      ],
-      "conclusions": [
-        "Based on the current data, I conclude that the market is indeed in a transition regime, and that investors should exercise caution and carefully consider their investment strategies."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is TRANSITION (38%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time periods (30d, 5d, 10d).\nLOGIC: The transition regime suggests uncertainty and potential volatility in the market -> This uncertainty could be driven by various factors, including economic indicators, policy changes, and global events -> The implications of this regime could be significant, as it may lead to in",
-      "id": "83e502120ad3",
-      "timestamp": "2026-04-14T20:54:38.687029",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The current market regime is TRANSITION (38%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time periods (30d, 5d, 10d), and the Brier score is 0.172833, indicating a moderate level of uncertainty in the market predictions."
-      ],
-      "logic": [
-        "The transition regime, combined with the moderate Brier score, suggests that the market is experiencing a period of uncertainty and potential volatility -> This uncertainty could be driven by various factors, including economic indicators, policy changes, and global events -> The implications of this regime could be significant, as it may lead to increased risk and potential losses for investors, and the moderate Brier score indicates that the predictions are not highly confident."
-      ],
-      "counters": [
-        "One could argue that the transition regime is a normal part of market cycles, and that the current trends may not necessarily lead to significant volatility or losses -> This counterargument would suggest that investors should not overreact to the current regime and instead focus on long-term strategies, and the moderate Brier score could be seen as a sign that the market is simply adjusting to new information."
-      ],
-      "conclusions": [
-        "Based on the current data, I conclude that the market is indeed in a transition regime, and that investors should exercise caution and carefully consider their investment strategies, taking into account the moderate level of uncertainty in the market predictions."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is TRANSITION (38%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing a mix of upward and downward trends over different time periods (30d, 5d, 10d), and the Brier score is 0.172833, indicating a moderate level of uncertainty in the market predictions.\n\nLOGIC: The transition regime, combined with the moderate Brier score, suggests that the market is experiencing a period of uncertainty and potential volatility -> This uncertainty cou",
-      "id": "74745bfee33e",
-      "timestamp": "2026-04-14T20:54:38.687107",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "362154618663",
-      "timestamp": "2026-04-14T20:54:38.687321",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "b92fe17d1237",
-      "timestamp": "2026-04-14T20:54:38.687349",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
       "agent": "synthesis",
       "observations": [
         "LLM ERROR"
@@ -7926,7 +7772,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "faf44d76ba41",
       "timestamp": "2026-04-30T17:06:57.500421",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7949,7 +7795,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "0a0c476f5ce8",
       "timestamp": "2026-04-30T17:06:57.500483",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7972,7 +7818,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "2351317e7279",
       "timestamp": "2026-04-30T17:06:57.500511",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7995,7 +7841,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "4673ce6e5966",
       "timestamp": "2026-04-30T17:06:57.500533",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8018,7 +7864,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "2aff0c10dda4",
       "timestamp": "2026-04-30T17:06:57.500555",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8041,7 +7887,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "7eb3fac75c78",
       "timestamp": "2026-04-30T17:06:57.500572",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8064,7 +7910,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "d6275afe691f",
       "timestamp": "2026-04-30T19:11:16.255252",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8087,7 +7933,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "05103eaa6878",
       "timestamp": "2026-04-30T19:11:16.255321",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8110,7 +7956,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "dcbeae42d734",
       "timestamp": "2026-04-30T19:11:16.255348",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8133,7 +7979,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "7cb89c62efe7",
       "timestamp": "2026-04-30T19:11:16.255369",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8156,7 +8002,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "fa7a2e2a66da",
       "timestamp": "2026-04-30T19:11:16.255390",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8179,7 +8025,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "10680aa0c245",
       "timestamp": "2026-04-30T19:11:16.255406",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -11905,6 +11751,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "d2d3d972fbf9",
       "timestamp": "2026-05-07T13:48:41.365734",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "6f1d3c244503",
+      "timestamp": "2026-05-07T19:31:39.355661",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "0cbf4817aca7",
+      "timestamp": "2026-05-07T19:31:39.355717",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "3d489654674f",
+      "timestamp": "2026-05-07T19:31:39.355744",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "eed5b51052d2",
+      "timestamp": "2026-05-07T19:31:39.355766",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "4cd426ded21b",
+      "timestamp": "2026-05-07T19:31:39.355786",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "846a0f06db46",
+      "timestamp": "2026-05-07T19:31:39.355802",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
