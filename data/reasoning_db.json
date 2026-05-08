@@ -1,158 +1,6 @@
 {
   "chains": [
     {
-      "agent": "flow",
-      "observations": [
-        "The ETF signals for various indices (SP500, Nasdaq, SmallCap, Gold, LongBond, HY, IG, EM, Defense, Energy, Semis, GoldMiners, Fins, Utils) are all \"NEUTRAL\", indicating no strong bullish or bearish sentiment in the market."
-      ],
-      "logic": [
-        "The neutral ETF signals -> suggest a lack of conviction among investors -> implies a potential for market volatility and unpredictability."
-      ],
-      "counters": [
-        "The counterargument is that the overall market trend, as indicated by the UPSTREAM analysis, is still bullish, with a 62% confidence level in a RISK_ON regime, and the majority of the indices showing an upward trend over the past 30 days."
-      ],
-      "conclusions": [
-        "Based on the neutral ETF signals, I conclude that the market is likely to experience increased volatility and unpredictability, which could lead to a correction or a downturn, despite the overall bullish trend."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The ETF signals for various indices (SP500, Nasdaq, SmallCap, Gold, LongBond, HY, IG, EM, Defense, Energy, Semis, GoldMiners, Fins, Utils) are all \"NEUTRAL\", indicating no strong bullish or bearish sentiment in the market.\n\nLOGIC: The neutral ETF signals -> suggest a lack of conviction among investors -> implies a potential for market volatility and unpredictability.\n\nCOUNTER: The counterargument is that the overall market trend, as indicated by the UPSTREAM analysis, is still bullish, ",
-      "id": "e671a195e5c1",
-      "timestamp": "2026-04-15T20:34:02.652574",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions indicate a RISK_ON regime with a 62% confidence level, and the majority of the indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) are showing an upward trend over the past 30 days, with the SP500 and NASDAQ experiencing a significant uptrend over the past 10 days."
-      ],
-      "logic": [
-        "The upward trend in the indices -> suggests a positive market sentiment -> implies a higher likelihood of continued growth in the market, driven by the strong performance of the tech sector, as indicated by the NASDAQ's 7.34% gain over the past 10 days."
-      ],
-      "counters": [
-        "The counterargument is that the market is highly volatile, and the current upward trend may be short-lived, with a significant chance of a downturn (as indicated by the 34% chance of a downturn in the SP500 over the past 30 days), and the VIX/SP500 correlation has broken, indicating a potential increase in volatility."
-      ],
-      "conclusions": [
-        "Based on the current market conditions, I conclude that the market is likely to continue its upward trend, but with a high degree of caution due to the volatility and potential for a correction, and investors should be prepared for a potential pullback."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 62% confidence level, and the majority of the indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) are showing an upward trend over the past 30 days, with the SP500 and NASDAQ experiencing a significant uptrend over the past 10 days.\n\nLOGIC: The upward trend in the indices -> suggests a positive market sentiment -> implies a higher likelihood of continued growth in the market, driven by the strong performance of the tech ",
-      "id": "10bed64e9950",
-      "timestamp": "2026-04-15T20:34:02.652693",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions indicate a RISK_ON regime with a 62% confidence level, and the majority of the indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) are showing an upward trend over the past 30 days."
-      ],
-      "logic": [
-        "The upward trend in the indices -> suggests a positive market sentiment -> implies a higher likelihood of continued growth in the market."
-      ],
-      "counters": [
-        "The counterargument is that the market is highly volatile, and the current upward trend may be short-lived, with a significant chance of a downturn (as indicated by the 34% chance of a downturn in the SP500 over the past 30 days)."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and the analysis of Agents 1-3, it appears that the market is likely to remain highly volatile, with a high probability of continued growth in the market, driven by the strong performance of the tech sector."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 62% confidence level, and the majority of the indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) are showing an upward trend over the past 30 days.\n\nLOGIC: The upward trend in the indices -> suggests a positive market sentiment -> implies a higher likelihood of continued growth in the market.\n\nCOUNTER: The counterargument is that the market is highly volatile, and the current upward trend may be short-lived, with a sign",
-      "id": "cbc865609c47",
-      "timestamp": "2026-04-15T20:34:02.652749",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The news articles and GDELT data indicate a high level of uncertainty and volatility in the market, with ongoing geopolitical tensions and economic uncertainty."
-      ],
-      "logic": [
-        "The high level of uncertainty and volatility -> suggests a potential for market instability -> implies a higher likelihood of a downturn in the market."
-      ],
-      "counters": [
-        "The counterargument is that the market has already priced in the current level of uncertainty and volatility, and that the current upward trend is likely to continue."
-      ],
-      "conclusions": [
-        "Based on the news articles and GDELT data, it appears that the market is experiencing a high level of uncertainty and volatility, which could potentially lead to a downturn in the market."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is a significant downturn in the SP500 over the next 10 days, which would indicate a shift in market sentiment and a potential change in the RISK_ON regime."
-      ],
-      "falsifications": [
-        "The conclusion is wrong if the market experiences a significant downturn over the next 10 days, with the SP500 falling by more than 5%, which would indicate a shift in market sentiment and a potential change in the RISK_ON regime."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 62% confidence level, and the majority of the indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) are showing an upward trend over the past 30 days.\n\nLOGIC: The upward trend in the indices -> suggests a positive market sentiment -> implies a higher likelihood of continued growth in the market.\n\nCOUNTER: The counterargument is that the market is highly volatile, and the current upward trend may be short-lived, with a sign",
-      "id": "6e9b87105a10",
-      "timestamp": "2026-04-15T20:34:02.652749",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the various agents (upstream, flow, market, narrative), I side with the **upstream** agent. This decision is based on the upstream agent"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "upstream, flow, market, narrative), I side with the **upstream** agent.",
-        "upstream agent's emphasis on the market's current RISK_ON regime with a 62% confidence level and the upward trend in the majority of indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) over the past 30 days.",
-        "upstream agent's analysis suggests a higher likelihood of continued growth in the market, driven by positive market sentiment, despite acknowledging the potential for volatility and a downturn."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the various agents (upstream, flow, market, narrative), I side with the **upstream** agent. This decision is based on the upstream agent's emphasis on the market's current RISK_ON regime with a 62% confidence level and the upward trend in the majority of indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) over the past 30 days. The upstream agent's analysis suggests a higher likelihood of continued growth in the market, driven b",
-      "id": "7ec1dc581411",
-      "timestamp": "2026-04-15T20:34:02.653153",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "flow_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [],
-      "logic": [
-        "The upstream agent's analysis suggesting a higher likelihood of continued growth in the market due to positive market sentiment -> This implies that the market's upward trend is expected to continue, driven by investor confidence -> However, this implication may be flawed if the underlying volatility and potential external shocks are not adequately accounted for."
-      ],
-      "counters": [
-        "The counterargument to this conclusion is that the market's current upward trend may not be sustainable in the long term, and the high degree of uncertainty and geopolitical tensions could lead to a sudden downturn, catching investors off guard."
-      ],
-      "conclusions": [
-        "The thesis of market continuation, while plausible, may be overly optimistic and fails to fully consider the potential risks and uncertainties that could disrupt the market's upward trend."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### OBSERVE: The upstream agent's emphasis on the market's current RISK_ON regime with a 62% confidence level\n\nLOGIC: The upstream agent's analysis suggesting a higher likelihood of continued growth in the market due to positive market sentiment -> This implies that the market's upward trend is expected to continue, driven by investor confidence -> However, this implication may be flawed if the underlying volatility and potential external shocks are not adequately accounted for.\n\nCOUNTER: The co",
-      "id": "1a02e67b39c7",
-      "timestamp": "2026-04-15T20:34:02.653231",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "adversary",
       "observations": [],
       "logic": [
@@ -8004,7 +7852,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "0985f4d3f932",
       "timestamp": "2026-05-01T19:03:31.567102",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8027,7 +7875,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "7eee32800141",
       "timestamp": "2026-05-01T19:03:31.567159",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8050,7 +7898,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "804a7a48b5dd",
       "timestamp": "2026-05-01T19:03:31.567187",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8073,7 +7921,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "594e4d79f990",
       "timestamp": "2026-05-01T19:03:31.567210",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8096,7 +7944,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "545dfeccafb1",
       "timestamp": "2026-05-01T19:03:31.567231",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8119,7 +7967,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "edea03a075f2",
       "timestamp": "2026-05-01T19:03:31.567254",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -11845,6 +11693,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "246c1c8fbe3d",
       "timestamp": "2026-05-08T13:15:10.947137",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "f9b0a3661ec7",
+      "timestamp": "2026-05-08T19:09:48.816329",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "f900917fc6eb",
+      "timestamp": "2026-05-08T19:09:48.816381",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "1ff2f2d1e757",
+      "timestamp": "2026-05-08T19:09:48.816408",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "2cd75e081e92",
+      "timestamp": "2026-05-08T19:09:48.816429",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "3582964195d3",
+      "timestamp": "2026-05-08T19:09:48.816449",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "a9e37f339082",
+      "timestamp": "2026-05-08T19:09:48.816471",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
