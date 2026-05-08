@@ -1,160 +1,6 @@
 {
   "chains": [
     {
-      "agent": "synthesis",
-      "observations": [
-        "**1. RECONCILE contradictions between agents:**\nI side with Agent [None] as there is no explicit mention of contradictory views among agents. However, I notice that Agents 1-3 are following the herd, "
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "Upward trends in SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT -> suggest a bullish market sentiment -> imply that investors are taking on more risk and are optimistic about the market's future performance -> indicate a RISK_ON regime.",
-        "upward trend -> imply that investors should be prepared for potential downturns -> indicate a need for caution.",
-        "upward trend in the 30-day period, with a 44% probability of continuing to rise."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**1. RECONCILE contradictions between agents:**\nI side with Agent [None] as there is no explicit mention of contradictory views among agents. However, I notice that Agents 1-3 are following the herd, which may indicate a lack of contrarian views.\n\n**2. Generate THESES:**\nTHESIS: RISK_ON Regime\nCHAIN: Upward trends in SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT -> suggest a bullish market sentiment -> imply that investors are taking on more risk and are optimistic about the market's future perfo",
-      "id": "3fae69540d1a",
-      "timestamp": "2026-04-15T06:23:18.845676",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The RISK_ON Regime thesis has a confidence level of 62%, which suggests a relatively optimistic market sentiment."
-      ],
-      "logic": [
-        "If the RISK_ON Regime thesis is correct, it implies that investors are taking on more risk and are optimistic about the market's future performance -> this could lead to a continued upward trend in the SP500 and other assets -> however, if the market sentiment shifts, the RISK_ON Regime could quickly reverse, leading to a downturn."
-      ],
-      "counters": [
-        "The Market Volatility thesis suggests that high volatility in the market could lead to a potential reversal of the current upward trend, which contradicts the RISK_ON Regime thesis."
-      ],
-      "conclusions": [
-        "The RISK_ON Regime thesis is the strongest, but also the most fragile, as it relies on continued bullish market sentiment."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The RISK_ON Regime thesis has a confidence level of 62%, which suggests a relatively optimistic market sentiment.\nLOGIC: If the RISK_ON Regime thesis is correct, it implies that investors are taking on more risk and are optimistic about the market's future performance -> this could lead to a continued upward trend in the SP500 and other assets -> however, if the market sentiment shifts, the RISK_ON Regime could quickly reverse, leading to a downturn.\nCONSEQUENCE: The RISK_ON Regime thes",
-      "id": "44c31c05d368",
-      "timestamp": "2026-04-15T06:23:18.845761",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "sentiment_contrarian"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The Market Volatility thesis has a confidence level of 40%, which suggests a relatively cautious market sentiment."
-      ],
-      "logic": [
-        "If the Market Volatility thesis is correct, it implies that investors should be prepared for potential downturns -> this could lead to a decrease in risk-taking and a shift towards more defensive assets -> however, if the market sentiment remains bullish, the Market Volatility thesis may be proven incorrect."
-      ],
-      "counters": [
-        "The RISK_ON Regime thesis suggests that investors are taking on more risk and are optimistic about the market's future performance, which contradicts the Market Volatility thesis."
-      ],
-      "conclusions": [
-        "The Market Volatility thesis is the weakest, as it has a relatively low confidence level and is contradicted by the stronger RISK_ON Regime thesis."
-      ],
-      "dependencies": [
-        "The VIX index remaining below 20 for an extended period would strengthen the RISK_ON Regime thesis."
-      ],
-      "falsifications": [
-        "A significant decline in the SP500 (e.g., >10%) in the next 30 days would falsify the RISK_ON Regime thesis."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The RISK_ON Regime thesis has a confidence level of 62%, which suggests a relatively optimistic market sentiment.\nLOGIC: If the RISK_ON Regime thesis is correct, it implies that investors are taking on more risk and are optimistic about the market's future performance -> this could lead to a continued upward trend in the SP500 and other assets -> however, if the market sentiment shifts, the RISK_ON Regime could quickly reverse, leading to a downturn.\nCONSEQUENCE: The RISK_ON Regime thes",
-      "id": "c2e057e56fcf",
-      "timestamp": "2026-04-15T06:23:18.845761",
-      "status": "invalidated",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act requires employers to provide written notice at least 60 days prior to mass layoffs or plant closures, with a current focus on California Labor Code, Section 1400."
-      ],
-      "logic": [
-        "The WARN Act's provisions aim to protect employees by providing advance notice of potential job losses -> This notice period allows employees to prepare and seek alternative employment -> The implementation of the WARN Act can mitigate the negative impacts of mass layoffs on local economies."
-      ],
-      "counters": [
-        "One potential counterargument is that the WARN Act's requirements may impose undue burdens on employers, particularly small businesses or those facing sudden economic downturns, which could lead to unintended consequences such as delayed or avoided investments in certain regions."
-      ],
-      "conclusions": [
-        "I conclude that the WARN Act's provisions are essential for protecting employees' rights and providing them with necessary notice periods, despite potential counterarguments regarding the burden on employers."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The WARN Act requires employers to provide written notice at least 60 days prior to mass layoffs or plant closures, with a current focus on California Labor Code, Section 1400.\n\nLOGIC: The WARN Act's provisions aim to protect employees by providing advance notice of potential job losses -> This notice period allows employees to prepare and seek alternative employment -> The implementation of the WARN Act can mitigate the negative impacts of mass layoffs on local economies.\n\nCOUNTER: One",
-      "id": "065f1d41f743",
-      "timestamp": "2026-04-15T15:56:08.863569",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's regime probability is RISK_ON (62%), and the majority of the 30-day market trends are UP (LOW), with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends."
-      ],
-      "logic": [
-        "The high RISK_ON regime probability and the predominantly upward market trends suggest that the market is currently favoring riskier assets -> This could be due to investor confidence in the economy and expectations of continued growth -> The market may be poised for further gains, but the low conviction in the trends (LOW) and the high volatility in the 5-day and 10-day SP500 trends (UP (HIGH)) indicate that the market is still highly uncertain and susceptible to sudden changes."
-      ],
-      "counters": [
-        "One potential counterargument is that the neutral ETF signals across various asset classes (SP500, Nasdaq, SmallCap, Gold, LongBond, HY, IG, EM, Defense, Energy, Semis, GoldMiners, Fins, and Utils) suggest that the market is not strongly convictional in its current trend, which could indicate a potential reversal or correction."
-      ],
-      "conclusions": [
-        "I conclude that the market is currently in a high-risk, high-reward environment, with the potential for further gains, but also with a significant risk of sudden changes or corrections due to the high volatility and neutral ETF signals."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's regime probability is RISK_ON (62%), and the majority of the 30-day market trends are UP (LOW), with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends.\n\nLOGIC: The high RISK_ON regime probability and the predominantly upward market trends suggest that the market is currently favoring riskier assets -> This could be due to investor confidence in the economy and expectations of continued growth -> The market may be poised for further gains, but th",
-      "id": "663aaa500fce",
-      "timestamp": "2026-04-15T15:56:08.863653",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market trends show a predominantly upward movement, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends, and the brain's regime probability is RISK_ON (62%)."
-      ],
-      "logic": [
-        "The high RISK_ON regime probability and the upward market trends suggest that the market is currently favoring riskier assets -> This could be due to investor confidence in the economy and expectations of continued growth -> The market may be poised for further gains, but the low conviction in the trends (LOW) and the high volatility in the 5-day and 10-day SP500 trends (UP (HIGH)) indicate that the market is still highly uncertain and susceptible to sudden changes."
-      ],
-      "counters": [
-        "One potential counterargument is that the neutral ETF signals across various asset classes and the break in the VIX/SP500 correlation could indicate a potential reversal in the market trend, and the OIL_WTI/USDINR break could also lead to a change in the market dynamics."
-      ],
-      "conclusions": [
-        "I conclude that the market is likely to remain volatile, with a high probability of continued growth, but with a significant risk of sudden changes due to the low conviction in the trends and the high volatility."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market trends show a predominantly upward movement, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends, and the brain's regime probability is RISK_ON (62%).\n\nLOGIC: The high RISK_ON regime probability and the upward market trends suggest that the market is currently favoring riskier assets -> This could be due to investor confidence in the economy and expectations of continued growth -> The market may be poised for further gains, but the low",
-      "id": "e280db2cb34e",
-      "timestamp": "2026-04-15T15:56:08.863690",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "narrative",
       "observations": [
         "The current market trends show a predominantly upward movement, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends, and the brain's regime probability is RISK_ON (62%)."
@@ -11881,6 +11727,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "d9cd9ca4cf09",
       "timestamp": "2026-05-08T02:16:31.044857",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8a55470a094d",
+      "timestamp": "2026-05-08T07:21:43.664405",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "cc41dd77648f",
+      "timestamp": "2026-05-08T07:21:43.664460",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "41a58ac5fd35",
+      "timestamp": "2026-05-08T07:21:43.664487",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "11cd82cda89b",
+      "timestamp": "2026-05-08T07:21:43.664508",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "66c748ea86af",
+      "timestamp": "2026-05-08T07:21:43.664528",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "d0358b29bcab",
+      "timestamp": "2026-05-08T07:21:43.664548",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
