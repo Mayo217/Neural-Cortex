@@ -1,164 +1,6 @@
 {
   "chains": [
     {
-      "agent": "narrative",
-      "observations": [
-        "The current market trends show a predominantly upward movement, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends, and the brain's regime probability is RISK_ON (62%)."
-      ],
-      "logic": [
-        "The high RISK_ON regime probability and the upward market trends suggest that the market is currently favoring riskier assets -> This could be due to investor confidence in the economy and expectations of continued growth -> The market may be poised for further gains, but the low conviction in the trends (LOW) and the high volatility in the 5-day and 10-day SP500 trends (UP (HIGH)) suggest a potential for sudden reversals."
-      ],
-      "counters": [
-        "One potential counterargument is that the current upward trends may be overextended, and a correction could be imminent, given the low conviction in the trends and the high volatility in the short-term market trends."
-      ],
-      "conclusions": [
-        "The market is likely to remain volatile, with a high probability of sudden reversals, but the current trends suggest a continuation of the upward movement in the short term."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market trends show a predominantly upward movement, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends, and the brain's regime probability is RISK_ON (62%).\n\nLOGIC: The high RISK_ON regime probability and the upward market trends suggest that the market is currently favoring riskier assets -> This could be due to investor confidence in the economy and expectations of continued growth -> The market may be poised for further gains, but the low",
-      "id": "b97e6df96fa1",
-      "timestamp": "2026-04-15T15:56:08.863739",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "Agents 1-3 are following the herd, with their observations and logic aligned with the current market trends and the brain's regime probability."
-      ],
-      "logic": [
-        "The agents' alignment with the market trends and the brain's regime probability suggests that they are not providing a contrarian view, but rather reinforcing the current market sentiment -> This could indicate a lack of edge in their analysis, as they are not challenging the prevailing market narrative -> The agents' views may be subject to revision if the market trends reverse or if new information becomes available."
-      ],
-      "counters": [
-        "One potential counterargument is that the agents' alignment with the market trends and the brain's regime probability is a sign of their ability to read the market correctly, rather than a lack of edge."
-      ],
-      "conclusions": [
-        "Agents 1-3 are following the herd, and their views may be subject to revision if the market trends reverse or if new information becomes available."
-      ],
-      "dependencies": [
-        "The outcome of the US-Iran peace talks, which could significantly impact the market trends and volatility."
-      ],
-      "falsifications": [
-        "The market experiences a sudden and significant downturn, contradicting the current upward trends and RISK_ON regime probability."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market trends show a predominantly upward movement, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends, and the brain's regime probability is RISK_ON (62%).\n\nLOGIC: The high RISK_ON regime probability and the upward market trends suggest that the market is currently favoring riskier assets -> This could be due to investor confidence in the economy and expectations of continued growth -> The market may be poised for further gains, but the low",
-      "id": "8888a279e21f",
-      "timestamp": "2026-04-15T15:56:08.863739",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "sentiment_contrarian"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "**1. RECONCILE contradictions between agents:**\nI side with the UPSTREAM agent, which emphasizes the importance of the WARN Act's provisions in protecting employees' rights and providing necessary not"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "UPSTREAM agent, which emphasizes the importance of the WARN Act's provisions in protecting employees' rights and providing necessary notice periods.",
-        "UPSTREAM agent's conclusion is based on a logical analysis of the WARN Act's provisions and their intended consequences, despite potential counterarguments regarding the burden on employers.",
-        "upee (INR) has been stable against the US dollar, with the RBI maintaining a neutral stance on monetary policy."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**1. RECONCILE contradictions between agents:**\nI side with the UPSTREAM agent, which emphasizes the importance of the WARN Act's provisions in protecting employees' rights and providing necessary notice periods. This is because the UPSTREAM agent's conclusion is based on a logical analysis of the WARN Act's provisions and their intended consequences, despite potential counterarguments regarding the burden on employers.\n\n**2. Generate THESIS:**\nTHESIS: Market Volatility and Growth\nCHAIN: High RI",
-      "id": "895bcb7f763c",
-      "timestamp": "2026-04-15T15:56:08.864203",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The THESIS \"Market Volatility and Growth\" is based on a high RISK_ON regime probability, which suggests increased investor confidence and continued market growth, but also acknowledges the potential for sudden reversals."
-      ],
-      "logic": [
-        "The thesis relies on the assumption that high investor confidence will lead to continued market growth, but this confidence may be misplaced due to the potential for sudden reversals -> If the RISK_ON regime probability drops, the market may shift towards a more risk-averse environment -> This could lead to a downturn in the market, contradicting the thesis."
-      ],
-      "counters": [
-        "One could argue that the current upward trends and the brain's regime probability suggest that the market is favoring riskier assets, and that the low conviction in the trends and the high volatility in the short-term market trends are merely a sign of a healthy market correction."
-      ],
-      "conclusions": [
-        "I conclude that the THESIS \"Market Volatility and Growth\" is the WEAKEST THESIS, as it relies on a fragile assumption that high investor confidence will lead to continued market growth, despite the potential for sudden reversals."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The THESIS \"Market Volatility and Growth\" is based on a high RISK_ON regime probability, which suggests increased investor confidence and continued market growth, but also acknowledges the potential for sudden reversals.\nLOGIC: The thesis relies on the assumption that high investor confidence will lead to continued market growth, but this confidence may be misplaced due to the potential for sudden reversals -> If the RISK_ON regime probability drops, the market may shift towards a more ",
-      "id": "289b0de7540e",
-      "timestamp": "2026-04-15T15:56:08.864265",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The \"UNCOMFORTABLE TRUTH\" section highlights the potential for sudden reversals and the need for investors to be cautious, despite the current upward trends."
-      ],
-      "logic": [
-        "The uncomfortable truth suggests that the market is complacent and susceptible to sudden changes -> If investors are not cautious, they may be caught off guard by a market downturn -> This could lead to significant losses for investors who are not prepared."
-      ],
-      "counters": [
-        "One could argue that the current upward trends and the brain's regime probability suggest that the market is favoring riskier assets, and that the uncomfortable truth is merely a sign of a healthy market correction."
-      ],
-      "conclusions": [
-        "I conclude that the BIGGEST BLIND SPOT is the potential for sudden reversals and the need for investors to be cautious, as highlighted by the \"UNCOMFORTABLE TRUTH\" section."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is if the RISK_ON regime probability were to rise above 80%, indicating a strong and sustained increase in investor confidence."
-      ],
-      "falsifications": [
-        "This conclusion is wrong if the market were to experience a sustained period of growth and low volatility, contradicting the potential for sudden reversals."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The THESIS \"Market Volatility and Growth\" is based on a high RISK_ON regime probability, which suggests increased investor confidence and continued market growth, but also acknowledges the potential for sudden reversals.\nLOGIC: The thesis relies on the assumption that high investor confidence will lead to continued market growth, but this confidence may be misplaced due to the potential for sudden reversals -> If the RISK_ON regime probability drops, the market may shift towards a more ",
-      "id": "d440d719d482",
-      "timestamp": "2026-04-15T15:56:08.864265",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The current market conditions indicate a RISK_ON regime with a 62% confidence level, and the majority of the indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) are showing an upward trend over the past 30 days."
-      ],
-      "logic": [
-        "The upward trend in the indices -> suggests a positive market sentiment -> implies a higher likelihood of continued growth in the market."
-      ],
-      "counters": [
-        "The counterargument is that the market is highly volatile, and the current upward trend may be short-lived, with a significant chance of a downturn (as indicated by the 34% chance of a downturn in the SP500 over the past 30 days)."
-      ],
-      "conclusions": [
-        "Based on the current market conditions, I conclude that the market is likely to continue its upward trend, but with a high degree of caution due to the volatility and potential for a downturn."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions indicate a RISK_ON regime with a 62% confidence level, and the majority of the indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) are showing an upward trend over the past 30 days.\n\nLOGIC: The upward trend in the indices -> suggests a positive market sentiment -> implies a higher likelihood of continued growth in the market.\n\nCOUNTER: The counterargument is that the market is highly volatile, and the current upward trend may be short-lived, with a sign",
-      "id": "e174fd13da63",
-      "timestamp": "2026-04-15T20:34:02.652498",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
       "agent": "flow",
       "observations": [
         "The ETF signals for various indices (SP500, Nasdaq, SmallCap, Gold, LongBond, HY, IG, EM, Defense, Energy, Semis, GoldMiners, Fins, Utils) are all \"NEUTRAL\", indicating no strong bullish or bearish sentiment in the market."
@@ -7886,7 +7728,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "534987d81b7b",
       "timestamp": "2026-05-01T08:07:01.408306",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7909,7 +7751,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "3e4207af7249",
       "timestamp": "2026-05-01T08:07:01.408355",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7932,7 +7774,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "f6f66551e59a",
       "timestamp": "2026-05-01T08:07:01.408382",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7955,7 +7797,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "b41b193f12b6",
       "timestamp": "2026-05-01T08:07:01.408409",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7978,7 +7820,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "c304f437ec1d",
       "timestamp": "2026-05-01T08:07:01.408430",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8001,7 +7843,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "3c2bdfd6b359",
       "timestamp": "2026-05-01T08:07:01.408447",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8024,7 +7866,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "c5a4af7ecd5f",
       "timestamp": "2026-05-01T13:03:28.856524",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8047,7 +7889,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "c5c23187c6eb",
       "timestamp": "2026-05-01T13:03:28.856577",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8070,7 +7912,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "0bc93737edf8",
       "timestamp": "2026-05-01T13:03:28.856605",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8093,7 +7935,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "40c666aefbac",
       "timestamp": "2026-05-01T13:03:28.856626",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8116,7 +7958,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "af2ad4fd0205",
       "timestamp": "2026-05-01T13:03:28.856647",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8139,7 +7981,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "c90864a1cb6e",
       "timestamp": "2026-05-01T13:03:28.856669",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -11865,6 +11707,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "d0358b29bcab",
       "timestamp": "2026-05-08T07:21:43.664548",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "908745c767d7",
+      "timestamp": "2026-05-08T13:15:10.946958",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "f0faec9baacf",
+      "timestamp": "2026-05-08T13:15:10.947039",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "0bcf68094be2",
+      "timestamp": "2026-05-08T13:15:10.947070",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "806314ccd834",
+      "timestamp": "2026-05-08T13:15:10.947093",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "f8dd2d4ccb0c",
+      "timestamp": "2026-05-08T13:15:10.947114",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "246c1c8fbe3d",
+      "timestamp": "2026-05-08T13:15:10.947137",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
