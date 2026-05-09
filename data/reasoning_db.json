@@ -1,158 +1,6 @@
 {
   "chains": [
     {
-      "agent": "synthesis",
-      "observations": [
-        "1. RECONCILE contradictions between agents: \nAfter analyzing the data and reasoning from various agents, I side with the narrative agent that Agents 1-3 are following the herd rather than providing ed"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "upward trend in the SP500 over the 5d and 10d periods could suggest that the market is still bullish, but the mixed trends in various indices and the break in VIX/SP500 correlation indicate potential uncertainty and volatility.",
-        "upward trend in all major indices over the 30d period\nTIMEFRAME: 30 days\nASSET: SP500\n\n3.",
-        "upward and downward trends over different time periods."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "1. RECONCILE contradictions between agents: \nAfter analyzing the data and reasoning from various agents, I side with the narrative agent that Agents 1-3 are following the herd rather than providing edge. The strong upward trend in the SP500 over the 5d and 10d periods could suggest that the market is still bullish, but the mixed trends in various indices and the break in VIX/SP500 correlation indicate potential uncertainty and volatility.\n\n2. Generate THESIS:\nTHESIS: Market Consolidation Ahead\nC",
-      "id": "f50975e88259",
-      "timestamp": "2026-04-16T06:25:28.452128",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The thesis \"Market Consolidation Ahead\" is based on mixed trends in various indices and a break in VIX/SP500 correlation, with a confidence level of 70."
-      ],
-      "logic": [
-        "The mixed trends and break in correlation -> indicate uncertainty and volatility -> imply a potential correction or consolidation in the market."
-      ],
-      "counters": [],
-      "conclusions": [
-        "The thesis \"Market Consolidation Ahead\" is plausible, but its confidence level may be overstated due to the reliance on mixed trends and a single correlation break."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The thesis \"Market Consolidation Ahead\" is based on mixed trends in various indices and a break in VIX/SP500 correlation, with a confidence level of 70.\nLOGIC: The mixed trends and break in correlation -> indicate uncertainty and volatility -> imply a potential correction or consolidation in the market.\nCONOUNTER: The strong upward trend in the SP500 over the 5d and 10d periods could suggest that the market is still bullish, and the narrative agent's conclusion that Agents 1-3 are follo",
-      "id": "3741266fe523",
-      "timestamp": "2026-04-16T06:25:28.452222",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The Indian market intelligence suggests a mix of upward and downward trends, with a positive sentiment from foreign investors but risks including a potential correction in the global market."
-      ],
-      "logic": [
-        "The positive sentiment from foreign investors and growth in the Indian economy -> could lead to a continued upward trend in the NIFTY50 -> but the risks of a global market correction and RBI actions could lead to a downturn."
-      ],
-      "counters": [],
-      "conclusions": [
-        "The Indian market intelligence suggests a cautious outlook, with both opportunities and risks present, and the narrative agent's conclusion that the market is due for a correction or consolidation may be applicable to the Indian market as well."
-      ],
-      "dependencies": [
-        "A consistent and strong upward trend in all major indices over the 30d period, which would significantly increase the confidence in a bullish market."
-      ],
-      "falsifications": [
-        "The market experiences a sharp correction or downturn despite the strong upward trend in the SP500, which would falsify the thesis and suggest that the narrative agent's concerns about uncertainty and volatility were well-founded."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The thesis \"Market Consolidation Ahead\" is based on mixed trends in various indices and a break in VIX/SP500 correlation, with a confidence level of 70.\nLOGIC: The mixed trends and break in correlation -> indicate uncertainty and volatility -> imply a potential correction or consolidation in the market.\nCONOUNTER: The strong upward trend in the SP500 over the 5d and 10d periods could suggest that the market is still bullish, and the narrative agent's conclusion that Agents 1-3 are follo",
-      "id": "6fef515bf157",
-      "timestamp": "2026-04-16T06:25:28.452222",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "sentiment_contrarian"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The \"if X then Y\" conditions to watch suggest specific scenarios that could impact the market, including a strong upward trend in the SP500, a reversion of the VIX/SP500 correlation, and a net sell value in FII/FPI data."
-      ],
-      "logic": [
-        "These conditions -> provide a framework for monitoring the market and adjusting the thesis -> but may not capture all possible scenarios or interactions between different market factors."
-      ],
-      "counters": [],
-      "conclusions": [
-        "The \"if X then Y\" conditions to watch provide a useful framework for monitoring the market, but should be considered in conjunction with other factors and analysis to ensure a comprehensive understanding of the market."
-      ],
-      "dependencies": [
-        "The RBI's actions and the overall economic indicators, which could significantly impact the direction of the Indian market."
-      ],
-      "falsifications": [
-        "The Indian market experiences a sharp downturn despite the positive sentiment from foreign investors and growth in the Indian economy, which would suggest that the narrative agent's concerns about risks were well-founded."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The thesis \"Market Consolidation Ahead\" is based on mixed trends in various indices and a break in VIX/SP500 correlation, with a confidence level of 70.\nLOGIC: The mixed trends and break in correlation -> indicate uncertainty and volatility -> imply a potential correction or consolidation in the market.\nCONOUNTER: The strong upward trend in the SP500 over the 5d and 10d periods could suggest that the market is still bullish, and the narrative agent's conclusion that Agents 1-3 are follo",
-      "id": "e75d9d331281",
-      "timestamp": "2026-04-16T06:25:28.452222",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The current market regime is RISK_ON (71%), with most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing an upward trend over the past 30 days, and a stronger upward trend in the SP500 over the past 5 and 10 days."
-      ],
-      "logic": [
-        "The high percentage of RISK_ON regime suggests that investors are currently optimistic about the market, leading to increased investment in riskier assets -> This could be due to the recent statements from FED leaders, such as Bowman, who emphasized the importance of supporting small businesses -> If the FED continues to support the economy, it is likely that the market will continue to trend upwards."
-      ],
-      "counters": [
-        "However, the high crisis regime probability and the \"fear\" rating from the F&G index suggest that the market is at risk of a downturn, and the current upward trend may not be sustainable."
-      ],
-      "conclusions": [
-        "Based on the current data, I conclude that the market is likely to continue its upward trend in the short term, but there is a significant risk of a downturn due to the high crisis regime probability."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is RISK_ON (71%), with most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing an upward trend over the past 30 days, and a stronger upward trend in the SP500 over the past 5 and 10 days.\n\nLOGIC: The high percentage of RISK_ON regime suggests that investors are currently optimistic about the market, leading to increased investment in riskier assets -> This could be due to the recent statements from FED leaders, such as Bowman, who emphasized the imp",
-      "id": "6578d4d3fd2d",
-      "timestamp": "2026-04-16T16:58:42.509063",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The current market regime is RISK_ON (71%), with most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing an upward trend over the past 30 days, and a stronger upward trend in the SP500 over the past 5 and 10 days. Additionally, the ETF signals for most sectors are neutral, with the exception of a few sectors such as Energy and Semis, which have positive changes."
-      ],
-      "logic": [
-        "The high percentage of RISK_ON regime and the upward trends in most assets suggest that investors are currently optimistic about the market, leading to increased investment in riskier assets -> This could be due to the recent statements from FED leaders, such as Bowman, who emphasized the importance of supporting small businesses -> If the FED continues to support the economy, it is likely that the market will continue to trend upwards, but the neutral signals in most sectors suggest that the market is uncertain and may be due for a correction."
-      ],
-      "counters": [
-        "However, the high crisis regime probability and the \"fear\" rating from the F&G index suggest that the market is at risk of a downturn, and the current upward trend may not be sustainable. Furthermore, the FII/DII data suggests that foreign investors are bullish, but domestic investors are bearish, which could lead to a market correction."
-      ],
-      "conclusions": [
-        "Based on the current data, I conclude that the market is likely to continue its upward trend in the short term, but there is a significant risk of a downturn due to the high crisis regime probability and the neutral signals in most sectors. The market's uncertainty and the potential for a correction suggest that investors should be cautious and consider hedging their positions."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is RISK_ON (71%), with most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing an upward trend over the past 30 days, and a stronger upward trend in the SP500 over the past 5 and 10 days. Additionally, the ETF signals for most sectors are neutral, with the exception of a few sectors such as Energy and Semis, which have positive changes.\n\nLOGIC: The high percentage of RISK_ON regime and the upward trends in most assets suggest that investors are curr",
-      "id": "34354a0e8806",
-      "timestamp": "2026-04-16T16:58:42.509134",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
       "agent": "market",
       "observations": [
         "The current market regime is RISK_ON (71%), with most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing an upward trend over the past 30 days, and a stronger upward trend in the SP500 over the past 5 and 10 days."
@@ -7974,7 +7822,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "334d0dc4e4c5",
       "timestamp": "2026-05-02T07:25:00.045552",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7997,7 +7845,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "112d59c53dea",
       "timestamp": "2026-05-02T07:25:00.045599",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8020,7 +7868,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "4aa1a5e3e9af",
       "timestamp": "2026-05-02T07:25:00.045626",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8043,7 +7891,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "8c9aad8475a0",
       "timestamp": "2026-05-02T07:25:00.045647",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8066,7 +7914,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "708b3bc7dc6e",
       "timestamp": "2026-05-02T07:25:00.045668",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8089,7 +7937,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "18d38f7c0b19",
       "timestamp": "2026-05-02T07:25:00.045690",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -11815,6 +11663,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "ddc131fd69c0",
       "timestamp": "2026-05-09T02:09:41.269682",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "835961dae9dd",
+      "timestamp": "2026-05-09T07:48:45.118138",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "1022d5af48b4",
+      "timestamp": "2026-05-09T07:48:45.118194",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "a9bc76ad5df8",
+      "timestamp": "2026-05-09T07:48:45.118222",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "c0efb4d012b0",
+      "timestamp": "2026-05-09T07:48:45.118244",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "0ad3231dc192",
+      "timestamp": "2026-05-09T07:48:45.118266",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "e651bd931174",
+      "timestamp": "2026-05-09T07:48:45.118287",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
