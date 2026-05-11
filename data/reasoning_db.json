@@ -1,173 +1,6 @@
 {
   "chains": [
     {
-      "agent": "narrative",
-      "observations": [
-        "The current market regime is classified as RISK_ON (71%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing mixed trends over 30-day and 5-day/10-day periods, and several anomalies in correlations."
-      ],
-      "logic": [
-        "The mixed market trends and high degree of uncertainty, combined with the anomalies in correlations, suggest a complex market environment -> this complexity may lead to increased market volatility and potential regime shifts -> implication is that investors and employers should be cautious and prepared for potential risks."
-      ],
-      "counters": [
-        "The fact that the SP500 has been up over the past 5 and 10 days, with a high probability of being up (63%), could argue against the notion of a highly uncertain market environment, suggesting instead a more bullish bias."
-      ],
-      "conclusions": [
-        "The current market regime is likely to remain complex and uncertain, with potential for increased market volatility and regime shifts, and investors and employers should exercise caution and be prepared for potential risks."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is classified as RISK_ON (71%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing mixed trends over 30-day and 5-day/10-day periods, and several anomalies in correlations.\n\nLOGIC: The mixed market trends and high degree of uncertainty, combined with the anomalies in correlations, suggest a complex market environment -> this complexity may lead to increased market volatility and potential regime shifts -> implication is that investors ",
-      "id": "9c325753458a",
-      "timestamp": "2026-04-18T08:10:34.028515",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "Agents 1-3 are analyzing the market trends and the brain's classification of the market regime, but their analyses lack diversity and are largely focused on the current market trends."
-      ],
-      "logic": [
-        "The lack of diversity in Agents 1-3's analyses suggests that they are following the herd -> this could lead to a lack of unique insights and a failure to anticipate potential regime shifts -> implication is that their analyses may not provide a comprehensive understanding of the market environment."
-      ],
-      "counters": [
-        "The fact that Agents 1-3 are analyzing the market trends and the brain's classification of the market regime could argue that they are simply responding to the current market conditions, rather than following the herd."
-      ],
-      "conclusions": [
-        "Agents 1-3 appear to be following the herd, and their analyses lack diversity and unique insights, which could lead to a failure to anticipate potential regime shifts and a lack of comprehensive understanding of the market environment."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is a significant and sustained shift in the SP500 trend, such as a drop below the 50-day moving average, which would indicate a potential regime shift and increase the likelihood of a risk-off environment."
-      ],
-      "falsifications": [
-        "The market regime shifts to a clear risk-off environment, with a significant and sustained drop in the SP500 and other major indices, and a corresponding increase in safe-haven assets such as gold and bonds, which would contradict my conclusion of a complex and uncertain market environment."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is classified as RISK_ON (71%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing mixed trends over 30-day and 5-day/10-day periods, and several anomalies in correlations.\n\nLOGIC: The mixed market trends and high degree of uncertainty, combined with the anomalies in correlations, suggest a complex market environment -> this complexity may lead to increased market volatility and potential regime shifts -> implication is that investors ",
-      "id": "06a21af79013",
-      "timestamp": "2026-04-18T08:10:34.028515",
-      "status": "invalidated",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "The UPSTREAM agent recognizes the importance of unique and contrarian perspectives in market analysis, while other agents seem to follow the herd, focusing on current market trends and the brain's classification of the market regime."
-      ],
-      "logic": [
-        "The UPSTREAM agent's emphasis on contrarian views and risk management -> suggests a more comprehensive approach to understanding market dynamics -> implication is that this approach may provide a more nuanced view of potential market shifts."
-      ],
-      "counters": [
-        "Other agents might argue that following current market trends and the brain's classification is sufficient for making informed decisions, given the brain's regime classification is based on a 71% probability."
-      ],
-      "conclusions": [
-        "I side with the UPSTREAM agent because its approach recognizes the value of diverse and contrarian perspectives in navigating complex market environments."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nOBSERVE: The UPSTREAM agent recognizes the importance of unique and contrarian perspectives in market analysis, while other agents seem to follow the herd, focusing on current market trends and the brain's classification of the market regime.\n\nLOGIC: The UPSTREAM agent's emphasis on contrarian views and risk management -> suggests a more comprehensive approach to understanding market dynamics -> implication is that this approach may provide a more ",
-      "id": "4c2a462b2ebd",
-      "timestamp": "2026-04-18T08:10:34.028645",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "The Indian market, as reflected by the NIFTY50, shows a mixed trend over the 30-day period but an upward trend over the 5 and 10-day periods, similar to global markets."
-      ],
-      "logic": [
-        "The mixed trends in global markets and the specific trends in the NIFTY50 -> suggest a complex environment for Indian stocks -> implication is that investors should be cautious but also prepared to capitalize on growth opportunities."
-      ],
-      "counters": [
-        "The upward trend in the NIFTY50 over the short term could argue for a more optimistic outlook, suggesting that the Indian market might be less affected by global uncertainties."
-      ],
-      "conclusions": [
-        "The Indian market is influenced by global trends but also has its own dynamics, suggesting a need for a balanced approach that considers both global and local factors."
-      ],
-      "dependencies": [
-        "A significant increase in the brain's crisis regime probability, indicating a higher likelihood of a risk-off environment, which would underscore the importance of the UPSTREAM agent's risk management focus."
-      ],
-      "falsifications": [
-        "If the market enters a sustained period of low volatility and clear trends, making the need for contrarian views less critical, which would contradict the UPSTREAM agent's emphasis on their importance.",
-        "SP500 and other major indices show a strong, consistent trend in one direction over the next 30 days",
-        "Significant drop in SP500 below its 50-day moving average"
-      ],
-      "assets": [
-        "VIX",
-        "SP500"
-      ],
-      "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nOBSERVE: The UPSTREAM agent recognizes the importance of unique and contrarian perspectives in market analysis, while other agents seem to follow the herd, focusing on current market trends and the brain's classification of the market regime.\n\nLOGIC: The UPSTREAM agent's emphasis on contrarian views and risk management -> suggests a more comprehensive approach to understanding market dynamics -> implication is that this approach may provide a more ",
-      "id": "efcbec9c616e",
-      "timestamp": "2026-04-18T08:10:34.028645",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The theses and regime analysis provided by the synthesizer are based on a combination of market trends, asset performances, and probability assessments."
-      ],
-      "logic": [
-        "The reliance on these factors -> suggests a data-driven approach -> implication is that the accuracy of the theses and regime classification depends heavily on the quality and relevance of the data used."
-      ],
-      "counters": [
-        "The synthesizer might argue that its use of diverse data points, including trends in various assets and indices, provides a comprehensive view of the market, thus strengthening its theses and regime classification."
-      ],
-      "conclusions": [
-        "The weakest thesis appears to be \"Risk-On Environment Continuation\" with a confidence level of 60, as it is based on recent short-term trends in SP500 and other indices, which can be volatile and subject to rapid changes."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### WEAKNESS ANALYSIS\n\nOBSERVE: The theses and regime analysis provided by the synthesizer are based on a combination of market trends, asset performances, and probability assessments.\n\nLOGIC: The reliance on these factors -> suggests a data-driven approach -> implication is that the accuracy of the theses and regime classification depends heavily on the quality and relevance of the data used.\n\nCOUNTER: The synthesizer might argue that its use of diverse data points, including trends in various ",
-      "id": "03fa2e1574ec",
-      "timestamp": "2026-04-18T08:10:34.028714",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The synthesizer's analysis focuses on market trends, asset performances, and probability assessments without explicitly considering geopolitical events, regulatory changes, or unforeseen global crises."
-      ],
-      "logic": [
-        "The omission of these factors -> suggests a potential blind spot -> implication is that the synthesizer's theses and regime classification might not fully account for the impact of unexpected external events."
-      ],
-      "counters": [
-        "The synthesizer might counter that its data-driven approach can indirectly capture the effects of geopolitical and regulatory factors through their impact on market trends and asset prices."
-      ],
-      "conclusions": [
-        "The biggest blind spot appears to be the lack of explicit consideration of geopolitical and regulatory risks, which could lead to unexpected market shifts not anticipated by the synthesizer's models."
-      ],
-      "dependencies": [
-        "A significant drop in SP500 below its 50-day moving average, which would directly challenge the thesis of a continuing risk-on environment."
-      ],
-      "falsifications": [
-        "The market experiences a prolonged period of stability and growth, with the SP500 consistently trading above its 50-day moving average, thus validating the risk-on environment thesis."
-      ],
-      "assets": [],
-      "raw_excerpt": "### WEAKNESS ANALYSIS\n\nOBSERVE: The theses and regime analysis provided by the synthesizer are based on a combination of market trends, asset performances, and probability assessments.\n\nLOGIC: The reliance on these factors -> suggests a data-driven approach -> implication is that the accuracy of the theses and regime classification depends heavily on the quality and relevance of the data used.\n\nCOUNTER: The synthesizer might argue that its use of diverse data points, including trends in various ",
-      "id": "0fd04270a65c",
-      "timestamp": "2026-04-18T08:10:34.028714",
-      "status": "invalidated",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
       "agent": "upstream",
       "observations": [
         "The current market conditions show a RISK_ON regime with a 71% probability, and most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) have an upward trend over the past 30 days, with a significant increase in the SP500 over the past 5 and 10 days."
@@ -7878,7 +7711,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "8e00709222a1",
       "timestamp": "2026-05-04T08:23:15.677394",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7901,7 +7734,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "c1443bb8d1f5",
       "timestamp": "2026-05-04T08:23:15.677453",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7924,7 +7757,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "298494074b88",
       "timestamp": "2026-05-04T08:23:15.677480",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7947,7 +7780,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "0c1f0a7c044a",
       "timestamp": "2026-05-04T08:23:15.677504",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7970,7 +7803,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "1f34e1342c38",
       "timestamp": "2026-05-04T08:23:15.677524",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7993,7 +7826,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "722955703f7d",
       "timestamp": "2026-05-04T08:23:15.677541",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -11722,6 +11555,144 @@
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "586e83616b6e",
+      "timestamp": "2026-05-11T09:30:16.345867",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "c3b2b5a90e23",
+      "timestamp": "2026-05-11T09:30:16.345923",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "f4d61831cf81",
+      "timestamp": "2026-05-11T09:30:16.345951",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "54a202577191",
+      "timestamp": "2026-05-11T09:30:16.345974",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "e3e6f34dfc89",
+      "timestamp": "2026-05-11T09:30:16.346026",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "519bb56ce8ed",
+      "timestamp": "2026-05-11T09:30:16.346050",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
       "reasoning_type": "general"
     }
   ],
