@@ -1,158 +1,6 @@
 {
   "chains": [
     {
-      "agent": "adversary",
-      "observations": [],
-      "logic": [
-        "The UPSTREAM agent's recognition of market complexity and uncertainty -> leads to a conclusion that a nuanced and diversified approach is necessary -> implying that investors should be prepared for various scenarios, including a potential regime shift."
-      ],
-      "counters": [
-        "The argument could be made that such a diversified approach might lead to mediocre returns, as it does not allow for concentrated bets that could yield higher gains in a specific scenario."
-      ],
-      "conclusions": [
-        "Despite the potential for lower returns, the diversified approach is prudent given the current high uncertainty."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### OBSERVE: The UPSTREAM agent's perspective is considered the most comprehensive and nuanced, emphasizing uncertainty and the need for a diversified approach.\n\nLOGIC: The UPSTREAM agent's recognition of market complexity and uncertainty -> leads to a conclusion that a nuanced and diversified approach is necessary -> implying that investors should be prepared for various scenarios, including a potential regime shift. \nCOUNTER: The argument could be made that such a diversified approach might le",
-      "id": "3a7be7456098",
-      "timestamp": "2026-04-18T05:54:14.176693",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [],
-      "logic": [
-        "High confidence in the thesis of market uncertainty and potential regime shift -> suggests that investors should prioritize risk management and diversification -> implying a cautious approach to investment decisions."
-      ],
-      "counters": [
-        "The high confidence level might lead to overcautiousness, potentially causing investors to miss out on significant upside opportunities."
-      ],
-      "conclusions": [
-        "The thesis is well-supported by current market conditions, but investors should remain adaptable to changing circumstances."
-      ],
-      "dependencies": [
-        "A clear and sustained trend emerging in the SP500, which would indicate a shift towards a more definitive market regime, potentially negating the need for such diversification."
-      ],
-      "falsifications": [
-        "The market enters a period of low volatility and clear directional trends, making a diversified approach less necessary."
-      ],
-      "assets": [],
-      "raw_excerpt": "### OBSERVE: The UPSTREAM agent's perspective is considered the most comprehensive and nuanced, emphasizing uncertainty and the need for a diversified approach.\n\nLOGIC: The UPSTREAM agent's recognition of market complexity and uncertainty -> leads to a conclusion that a nuanced and diversified approach is necessary -> implying that investors should be prepared for various scenarios, including a potential regime shift. \nCOUNTER: The argument could be made that such a diversified approach might le",
-      "id": "f10f3bc863e2",
-      "timestamp": "2026-04-18T05:54:14.176693",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [],
-      "logic": [
-        "Mixed trends in the Nifty50 and cautious optimism among FII/DII -> indicate a vulnerable market that is heavily influenced by global cues and economic data -> suggesting that investors should closely monitor RBI actions and economic indicators."
-      ],
-      "counters": [
-        "The resilience shown by key sectors such as IT, pharmaceuticals, and banking could be a sign of underlying strength in the market, potentially leading to a more positive outlook."
-      ],
-      "conclusions": [
-        "The Indian market's vulnerability to global and economic factors necessitates a cautious approach, with a focus on monitoring key sectors and economic indicators."
-      ],
-      "dependencies": [
-        "The emergence of a clear and sustained trend in the SP500, which could reduce uncertainty and increase confidence in a specific market direction."
-      ],
-      "falsifications": [
-        "Economic indicators and market trends begin to show a consistent and strong direction, contradicting the thesis of high uncertainty."
-      ],
-      "assets": [],
-      "raw_excerpt": "### OBSERVE: The UPSTREAM agent's perspective is considered the most comprehensive and nuanced, emphasizing uncertainty and the need for a diversified approach.\n\nLOGIC: The UPSTREAM agent's recognition of market complexity and uncertainty -> leads to a conclusion that a nuanced and diversified approach is necessary -> implying that investors should be prepared for various scenarios, including a potential regime shift. \nCOUNTER: The argument could be made that such a diversified approach might le",
-      "id": "ba494d81077f",
-      "timestamp": "2026-04-18T05:54:14.176693",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "flow_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The current market regime is classified as RISK_ON (71%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing mixed trends over 30-day and 5-day/10-day periods."
-      ],
-      "logic": [
-        "The mixed market trends and high degree of uncertainty suggest a complex market environment -> this complexity may lead to increased market volatility -> implication is that investors and employers should be cautious and prepared for potential risks."
-      ],
-      "counters": [
-        "The fact that the SP500 has been up over the past 5 and 10 days, with a high probability of being up (63%), could argue against the notion of high uncertainty and caution."
-      ],
-      "conclusions": [
-        "The current market regime is uncertain, and investors and employers should be prepared for potential risks, but the recent short-term trends suggest a bullish bias."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is classified as RISK_ON (71%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing mixed trends over 30-day and 5-day/10-day periods.\nLOGIC: The mixed market trends and high degree of uncertainty suggest a complex market environment -> this complexity may lead to increased market volatility -> implication is that investors and employers should be cautious and prepared for potential risks.\nCOUNTER: The fact that the SP500 has been up ov",
-      "id": "f685dc3c7dec",
-      "timestamp": "2026-04-18T08:10:34.028319",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's classification of the current market regime as RISK_ON (71%) appears to contradict the mixed trends shown by various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) over 30-day and 5-day/10-day periods, with the SP500 showing a high probability of being up (63%) over the past 5 and 10 days."
-      ],
-      "logic": [
-        "The brain's RISK_ON classification implies a high degree of confidence in a risk-on environment -> however, the mixed market trends and high probability of the SP500 being up suggest a more bullish bias -> implication is that the brain's classification may not fully capture the current market dynamics."
-      ],
-      "counters": [
-        "The fact that the brain's classification is based on a 71% probability suggests that there is still a significant degree of uncertainty in the market, which could argue against challenging the brain's classification."
-      ],
-      "conclusions": [
-        "The brain's RISK_ON classification may not fully capture the current market dynamics, and the mixed trends and bullish bias in the SP500 suggest that the market may be more optimistic than the brain's classification suggests."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's classification of the current market regime as RISK_ON (71%) appears to contradict the mixed trends shown by various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) over 30-day and 5-day/10-day periods, with the SP500 showing a high probability of being up (63%) over the past 5 and 10 days.\nLOGIC: The brain's RISK_ON classification implies a high degree of confidence in a risk-on environment -> however, the mixed market trends and high probability of the SP500 being ",
-      "id": "abf05a956a83",
-      "timestamp": "2026-04-18T08:10:34.028383",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market regime is classified as RISK_ON (71%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing mixed trends over 30-day and 5-day/10-day periods, and several anomalies in correlations, including breaks in DXY/GOLD, VIX/SP500, US10Y/GOLD, BITCOIN/NASDAQ, and COPPER/OIL_WTI."
-      ],
-      "logic": [
-        "The mixed market trends and high degree of uncertainty, combined with the anomalies in correlations, suggest a complex market environment -> this complexity may lead to increased market volatility and potential regime shifts -> implication is that investors and employers should be cautious and prepared for potential risks, while also considering the possibility of a continued bull run."
-      ],
-      "counters": [
-        "The fact that the SP500 has been up over the past 5 and 10 days, with a high probability of being up (63%), could argue against the notion of high uncertainty and caution, and instead suggest a continued bull run."
-      ],
-      "conclusions": [
-        "The current market regime is uncertain, and investors and employers should be prepared for potential risks, but the recent short-term trends suggest a bullish bias, and the anomalies in correlations may indicate a potential regime shift."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market regime is classified as RISK_ON (71%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing mixed trends over 30-day and 5-day/10-day periods, and several anomalies in correlations, including breaks in DXY/GOLD, VIX/SP500, US10Y/GOLD, BITCOIN/NASDAQ, and COPPER/OIL_WTI.\n\nLOGIC: The mixed market trends and high degree of uncertainty, combined with the anomalies in correlations, suggest a complex market environment -> this complexity may lead to ",
-      "id": "dbd55e3f7e63",
-      "timestamp": "2026-04-18T08:10:34.028416",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "narrative",
       "observations": [
         "The current market regime is classified as RISK_ON (71%), with various indices (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) showing mixed trends over 30-day and 5-day/10-day periods, and several anomalies in correlations."
@@ -7892,7 +7740,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "ed26ffdf3167",
       "timestamp": "2026-05-04T02:07:33.147191",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7915,7 +7763,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "701d6a3b175b",
       "timestamp": "2026-05-04T02:07:33.147237",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7938,7 +7786,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "c53821a6a918",
       "timestamp": "2026-05-04T02:07:33.147263",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7961,7 +7809,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "8cf7d21f438c",
       "timestamp": "2026-05-04T02:07:33.147285",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7984,7 +7832,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "86e448375ce5",
       "timestamp": "2026-05-04T02:07:33.147324",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -8007,7 +7855,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "3fc199392840",
       "timestamp": "2026-05-04T02:07:33.147349",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -11733,6 +11581,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "9254380f2dd7",
       "timestamp": "2026-05-10T18:53:42.620686",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8cd2c10a6b37",
+      "timestamp": "2026-05-11T02:29:41.709151",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "efcf154ea093",
+      "timestamp": "2026-05-11T02:29:41.709231",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "873fa709a7de",
+      "timestamp": "2026-05-11T02:29:41.709258",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "7f0c66c50333",
+      "timestamp": "2026-05-11T02:29:41.709280",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "38f1a7b42ac7",
+      "timestamp": "2026-05-11T02:29:41.709300",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "e0d0c64caf47",
+      "timestamp": "2026-05-11T02:29:41.709321",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
