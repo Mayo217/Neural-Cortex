@@ -1,154 +1,6 @@
 {
   "chains": [
     {
-      "agent": "upstream",
-      "observations": [
-        "The current market conditions show a RISK_ON regime with a 71% probability, and most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) have an upward trend over the past 30 days, with a significant increase in the SP500 over the past 5 and 10 days."
-      ],
-      "logic": [
-        "The current market trend and the high probability of a RISK_ON regime suggest that investors are optimistic about the market -> this optimism could lead to increased investment and economic growth -> which may further reinforce the RISK_ON regime."
-      ],
-      "counters": [
-        "However, the high probability of a crisis regime (although not currently active) could be a warning sign that investors should be cautious and not overly optimistic, as a crisis could lead to a sudden reversal of the market trend."
-      ],
-      "conclusions": [
-        "Based on the current data, I conclude that the market is likely to remain in a RISK_ON regime, but investors should be aware of the potential risks and be prepared for a possible crisis."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a RISK_ON regime with a 71% probability, and most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) have an upward trend over the past 30 days, with a significant increase in the SP500 over the past 5 and 10 days.\n\nLOGIC: The current market trend and the high probability of a RISK_ON regime suggest that investors are optimistic about the market -> this optimism could lead to increased investment and economic growth -> which may further reinforce t",
-      "id": "79c1a1c25165",
-      "timestamp": "2026-04-18T14:13:57.868378",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The brain's probability of a RISK_ON regime is 71%, and most assets have an upward trend over the past 30 days, with a significant increase in the SP500 over the past 5 and 10 days. However, the ETF data shows a \"NEUTRAL\" signal for all assets, indicating that the market may not be as optimistic as the brain's probability suggests."
-      ],
-      "logic": [
-        "The discrepancy between the brain's probability and the ETF data's \"NEUTRAL\" signal could indicate that the market is not as confident in the RISK_ON regime as the brain's probability suggests -> this lack of confidence could lead to increased volatility and a potential shift in investor sentiment -> which may contradict the brain's conclusion that the market is likely to remain in a RISK_ON regime."
-      ],
-      "counters": [
-        "However, the brain's probability is based on a broader range of data points, including the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY, which all show an upward trend over the past 30 days. This could suggest that the ETF data's \"NEUTRAL\" signal is an outlier and that the market is indeed optimistic about the RISK_ON regime."
-      ],
-      "conclusions": [
-        "Based on the current data, I conclude that the market may not be as confident in the RISK_ON regime as the brain's probability suggests, and that the ETF data's \"NEUTRAL\" signal could be a warning sign of increased volatility and a potential shift in investor sentiment."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's probability of a RISK_ON regime is 71%, and most assets have an upward trend over the past 30 days, with a significant increase in the SP500 over the past 5 and 10 days. However, the ETF data shows a \"NEUTRAL\" signal for all assets, indicating that the market may not be as optimistic as the brain's probability suggests.\n\nLOGIC: The discrepancy between the brain's probability and the ETF data's \"NEUTRAL\" signal could indicate that the market is not as confident in the RISK_ON",
-      "id": "edbaf466c3fc",
-      "timestamp": "2026-04-18T14:13:57.868446",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions show a RISK_ON regime with a 71% probability, and most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) have an upward trend over the past 30 days, with a significant increase in the SP500 over the past 5 and 10 days."
-      ],
-      "logic": [
-        "The current market trend and the high probability of a RISK_ON regime suggest that investors are optimistic about the market -> this optimism could lead to increased investment and economic growth -> which may further reinforce the RISK_ON regime."
-      ],
-      "counters": [
-        "However, the high probability of a crisis regime (although not currently active) could be a warning sign that investors should be cautious and not overly optimistic, as a crisis could lead to a sudden reversal of the market trend. Additionally, the anomalies in the correlations, such as the break in the DXY/GOLD and VIX/SP500 relationships, may indicate potential risks to the current market trend."
-      ],
-      "conclusions": [
-        "Based on the current data, I conclude that the market is likely to remain in a RISK_ON regime in the short term, driven by investor optimism and economic growth. However, investors should remain cautious and monitor the market closely for potential signs of a crisis regime."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a RISK_ON regime with a 71% probability, and most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) have an upward trend over the past 30 days, with a significant increase in the SP500 over the past 5 and 10 days.\n\nLOGIC: The current market trend and the high probability of a RISK_ON regime suggest that investors are optimistic about the market -> this optimism could lead to increased investment and economic growth -> which may further reinforce t",
-      "id": "511377d9fcf8",
-      "timestamp": "2026-04-18T14:13:57.868482",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions show a RISK_ON regime with a 71% probability, and most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) have an upward trend over the past 30 days, with a significant increase in the SP500 over the past 5 and 10 days. Agents 1-3 are following the herd, with their logic and observations aligning with the current market trend."
-      ],
-      "logic": [
-        "The current market trend and the high probability of a RISK_ON regime suggest that investors are optimistic about the market -> this optimism could lead to increased investment and economic growth -> which may further reinforce the RISK_ON regime. However, the high probability of a crisis regime (although not currently active) and the potential for unforeseen events could lead to a sudden shift in market sentiment."
-      ],
-      "counters": [
-        "The discrepancy between the brain's probability and the ETF data's \"NEUTRAL\" signal could indicate that the market is not as confident in the RISK_ON regime as the brain's probability suggests. Additionally, the recent news of insurance scams using AI images and the potential for a new Hormuz crisis could lead to increased uncertainty and volatility in the market."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and the brain's probability, I conclude that the market is likely to remain in a RISK_ON regime, with most assets continuing their upward trend. However, the potential for unforeseen events and the discrepancy between the brain's probability and the ETF data's \"NEUTRAL\" signal suggest that investors should remain cautious and prepared for a potential shift in market sentiment."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a RISK_ON regime with a 71% probability, and most assets (SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, DXY) have an upward trend over the past 30 days, with a significant increase in the SP500 over the past 5 and 10 days. Agents 1-3 are following the herd, with their logic and observations aligning with the current market trend.\n\nLOGIC: The current market trend and the high probability of a RISK_ON regime suggest that investors are optimistic about the ma",
-      "id": "1009bb9f30be",
-      "timestamp": "2026-04-18T14:13:57.868520",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the reasoning history and current market conditions, I side with the **UPSTREAM** agent. The UPSTREAM agent's conclusion that the market"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "UPSTREAM** agent.",
-        "UPSTREAM agent's conclusion that the market is likely to remain in a RISK_ON regime, but with caution due to potential risks, aligns with the current market trend and the brain's probability of a RISK_ON regime.",
-        "UPSTREAM agent's logic and observations are also supported by the recent increase in the SP500 over the past 5 and 10 days."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "### 1. RECONCILE contradictions between agents\n\nAfter analyzing the reasoning history and current market conditions, I side with the **UPSTREAM** agent. The UPSTREAM agent's conclusion that the market is likely to remain in a RISK_ON regime, but with caution due to potential risks, aligns with the current market trend and the brain's probability of a RISK_ON regime. The UPSTREAM agent's logic and observations are also supported by the recent increase in the SP500 over the past 5 and 10 days.\n\n##",
-      "id": "7f769b892d08",
-      "timestamp": "2026-04-18T14:13:57.869006",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The brain's regime probability is RISK_ON (71%), with the SP500 and NIFTY50 showing upward trends over the past 30 days."
-      ],
-      "logic": [
-        "The high probability of a RISK_ON regime, combined with the recent increase in the SP500 and NIFTY50, suggests that the market is likely to continue its upward trend, but with caution due to potential risks -> This could lead to increased investment and economic growth, reinforcing the RISK_ON regime -> However, the high confidence in the RISK_ON regime sustainability thesis (80%) may be masking underlying risks and uncertainties."
-      ],
-      "counters": [],
-      "conclusions": [
-        "The WEAKEST THESIS is the Crisis Regime Warning, as it has a lower confidence level (60%) compared to the RISK_ON Regime Sustainability thesis (80%), but it is still a crucial consideration for investors to be aware of potential risks and uncertainties."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's regime probability is RISK_ON (71%), with the SP500 and NIFTY50 showing upward trends over the past 30 days.\nLOGIC: The high probability of a RISK_ON regime, combined with the recent increase in the SP500 and NIFTY50, suggests that the market is likely to continue its upward trend, but with caution due to potential risks -> This could lead to increased investment and economic growth, reinforcing the RISK_ON regime -> However, the high confidence in the RISK_ON regime sustain",
-      "id": "e6746d34c0e1",
-      "timestamp": "2026-04-18T14:13:57.869079",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
       "agent": "adversary",
       "observations": [
         "The BIGGEST BLIND SPOT is the potential impact of unforeseen events, such as global economic shocks or geopolitical tensions, which could suddenly shift the market sentiment and regime probability."
@@ -7849,7 +7701,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "0a26c83d808a",
       "timestamp": "2026-05-04T13:29:01.960985",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7872,7 +7724,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "d1f39888679c",
       "timestamp": "2026-05-04T13:29:01.961033",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7895,7 +7747,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "beeb6b3c6712",
       "timestamp": "2026-05-04T13:29:01.961059",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7918,7 +7770,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "2029afecc186",
       "timestamp": "2026-05-04T13:29:01.961084",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7941,7 +7793,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "dc6db3aa9bcd",
       "timestamp": "2026-05-04T13:29:01.961106",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7964,7 +7816,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "6b682a8e61c4",
       "timestamp": "2026-05-04T13:29:01.961123",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -11690,6 +11542,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "519bb56ce8ed",
       "timestamp": "2026-05-11T09:30:16.346050",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "a36279884588",
+      "timestamp": "2026-05-11T14:34:51.054438",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "dabc8eceb574",
+      "timestamp": "2026-05-11T14:34:51.054496",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "75b9e4625729",
+      "timestamp": "2026-05-11T14:34:51.054523",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "fc1a488fe320",
+      "timestamp": "2026-05-11T14:34:51.054546",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "0c18ff2e1816",
+      "timestamp": "2026-05-11T14:34:51.054570",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "08bf21cfb992",
+      "timestamp": "2026-05-11T14:34:51.054593",
       "status": "active",
       "outcome_score": null,
       "regime": "TRANSITION",
