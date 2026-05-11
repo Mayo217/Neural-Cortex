@@ -3,158 +3,6 @@
     {
       "agent": "adversary",
       "observations": [
-        "The BIGGEST BLIND SPOT is the potential impact of unforeseen events, such as global economic shocks or geopolitical tensions, which could suddenly shift the market sentiment and regime probability."
-      ],
-      "logic": [
-        "The current market trend and high probability of a RISK_ON regime may be masking underlying risks and uncertainties -> Unforeseen events could trigger a crisis regime, catching investors off guard -> The brain's regime probability and theses may not account for such events, leading to a blind spot in the analysis."
-      ],
-      "counters": [],
-      "conclusions": [
-        "The BIGGEST BLIND SPOT is the potential for unforeseen events to disrupt the current market trend and regime probability, which could lead to significant losses for investors who are not prepared."
-      ],
-      "dependencies": [
-        "A significant decrease in the SP500 (5% or more) within the next 30 days would change my mind and potentially shift the regime probability towards a crisis regime."
-      ],
-      "falsifications": [
-        "The VIX index increases significantly (10% or more) within the next 30 days, indicating a shift in investor sentiment towards risk aversion, which would contradict the RISK_ON regime sustainability thesis."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's regime probability is RISK_ON (71%), with the SP500 and NIFTY50 showing upward trends over the past 30 days.\nLOGIC: The high probability of a RISK_ON regime, combined with the recent increase in the SP500 and NIFTY50, suggests that the market is likely to continue its upward trend, but with caution due to potential risks -> This could lead to increased investment and economic growth, reinforcing the RISK_ON regime -> However, the high confidence in the RISK_ON regime sustain",
-      "id": "fd08b53856c4",
-      "timestamp": "2026-04-18T14:13:57.869079",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "sentiment_contrarian"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The current market conditions show a high probability of a regime transition, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends in the 30-day period, but with varying levels of confidence (e.g., SP500: 38% Up, 34% Down, 27% Flat)."
-      ],
-      "logic": [
-        "The presence of a potential regime transition in the market, as indicated by the trends and confidence levels, suggests that investors and policymakers should exercise caution and carefully analyze the situation -> This could lead to increased volatility and unpredictability in the market -> Which might necessitate a reevaluation of current investment strategies and risk management approaches."
-      ],
-      "counters": [
-        "One could argue that the current upward trends in various markets are a sign of a strong and resilient economy, and that the regime transition is merely a natural fluctuation in the market, rather than a cause for concern."
-      ],
-      "conclusions": [
-        "Based on the current data, I conclude that caution and careful analysis are warranted in the face of potential regime transition and market uncertainty."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a high probability of a regime transition, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends in the 30-day period, but with varying levels of confidence (e.g., SP500: 38% Up, 34% Down, 27% Flat).\n\nLOGIC: The presence of a potential regime transition in the market, as indicated by the trends and confidence levels, suggests that investors and policymakers should exercise caution and carefully analyze the situation -> Th",
-      "id": "74d7400b4377",
-      "timestamp": "2026-04-18T19:57:45.208660",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The upstream conclusion suggests that caution and careful analysis are warranted in the face of potential regime transition and market uncertainty, with a high probability of a regime transition indicated by the trends and confidence levels in various markets."
-      ],
-      "logic": [
-        "The presence of neutral signals in the ETF data, such as the \"SP500\" and \"Nasdaq\" having a \"signal\" of \"NEUTRAL\", suggests that the market is not showing a strong directional bias -> This could indicate that the market is in a state of equilibrium, with buyers and sellers balanced -> Which might suggest that the potential regime transition is not as imminent as previously thought."
-      ],
-      "counters": [
-        "One could argue that the neutral signals in the ETF data are merely a result of the market being in a period of consolidation, and that the underlying trends and confidence levels still suggest a high probability of a regime transition."
-      ],
-      "conclusions": [
-        "Based on the current data, I conclude that the market is likely in a state of equilibrium, with the potential regime transition not as imminent as previously thought, and that a more nuanced approach to investment strategies and risk management is warranted."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The upstream conclusion suggests that caution and careful analysis are warranted in the face of potential regime transition and market uncertainty, with a high probability of a regime transition indicated by the trends and confidence levels in various markets.\n\nLOGIC: The presence of neutral signals in the ETF data, such as the \"SP500\" and \"Nasdaq\" having a \"signal\" of \"NEUTRAL\", suggests that the market is not showing a strong directional bias -> This could indicate that the market is ",
-      "id": "ab8541527a13",
-      "timestamp": "2026-04-18T19:57:45.208724",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions show a high probability of a regime transition, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends in the 30-day period, but with varying levels of confidence."
-      ],
-      "logic": [
-        "The presence of a potential regime transition in the market, as indicated by the trends and confidence levels, suggests that investors and policymakers should exercise caution and carefully analyze the situation -> This could lead to increased volatility and unpredictability in the market -> Which might necessitate a reevaluation of current investment strategies and risk management approaches."
-      ],
-      "counters": [
-        "One could argue that the current upward trends in various markets are a sign of a strong and resilient economy, and that the regime transition is not as likely as predicted."
-      ],
-      "conclusions": [
-        "Based on the current data, I conclude that the market is likely to remain volatile and unpredictable in the short term, and that investors should exercise caution and carefully analyze the situation before making any major investment decisions."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a high probability of a regime transition, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends in the 30-day period, but with varying levels of confidence.\n\nLOGIC: The presence of a potential regime transition in the market, as indicated by the trends and confidence levels, suggests that investors and policymakers should exercise caution and carefully analyze the situation -> This could lead to increased volatility and ",
-      "id": "0079d93bb1ff",
-      "timestamp": "2026-04-18T19:57:45.208784",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions show a high probability of a regime transition, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends in the 30-day period, but with varying levels of confidence."
-      ],
-      "logic": [
-        "The presence of a potential regime transition in the market, as indicated by the trends and confidence levels, suggests that investors and policymakers should exercise caution and carefully analyze the situation -> This could lead to increased volatility and unpredictability in the market -> Which might necessitate a reevaluation of current investment strategies."
-      ],
-      "counters": [
-        "One could argue that the upward trends in various markets are a sign of a strong economy and that investors should be bullish, rather than cautious. However, the varying levels of confidence and the potential for a regime transition suggest that caution is warranted."
-      ],
-      "conclusions": [
-        "The market is likely to remain volatile and unpredictable in the short term, and investors should exercise caution and carefully analyze the situation before making any major investment decisions."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a high probability of a regime transition, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends in the 30-day period, but with varying levels of confidence.\n\nLOGIC: The presence of a potential regime transition in the market, as indicated by the trends and confidence levels, suggests that investors and policymakers should exercise caution and carefully analyze the situation -> This could lead to increased volatility and ",
-      "id": "0b568bb7e207",
-      "timestamp": "2026-04-18T19:57:45.208817",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the provided data and patterns, I side with the upstream agent's conclusion that \"caution and careful analysis are warranted in the face of"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "upstream agent's conclusion that \"caution and careful analysis are warranted in the face of potential regime transition and market uncertainty.",
-        "upward trends in the 30-day period, but with varying levels of confidence.",
-        "downturn\nCONFIDENCE: 70\nKILL IF: Sustained downturn in SP500, NIFTY50, or other major market indices\nTIMEFRAME: 30 days\nASSET: VIX index\n\nTHESIS: Credit Market Divergence\nCHAIN: HYG divergence from equity market -> Potential for forced selling -> Increased volatility and unpredictability\nCONFIDENCE: 60\nKILL IF: HYG vol surge without news\nTIMEFRAME: 2-6 weeks\nASSET: HYG\n\nTHESIS: Dollar Strength and EM Stress\nCHAIN: DXY>105 -> EM stress 3-6 months -> Potential for regime transition\nCONFIDENCE: 50\nKILL IF: DXY<104 sustained\nTIMEFRAME: 3-6 months\nASSET: DXY\n\n**INDIA INTELLIGENCE**\n\nThe NIFTY50 index shows an upward trend in the 30-day period, with a confidence level of 44% Up, 29% Down, and 27% Flat."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the provided data and patterns, I side with the upstream agent's conclusion that \"caution and careful analysis are warranted in the face of potential regime transition and market uncertainty.\" This is because the current market conditions show a high probability of a regime transition, with the SP500, NIFTY50, GOLD, BITCOIN, OIL_BRENT, and DXY all showing upward trends in the 30-day period, but with varying levels of confidence.\n\n**THE",
-      "id": "9f2d1e42d179",
-      "timestamp": "2026-04-18T19:57:45.209285",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "pattern_match"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
         "The theses presented rely heavily on short-term market trends and correlations, with a focus on potential regime transition and market uncertainty."
       ],
       "logic": [
@@ -7839,7 +7687,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "218c30ddcdc8",
       "timestamp": "2026-05-04T19:20:18.704000",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7862,7 +7710,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "c3116ac4f58d",
       "timestamp": "2026-05-04T19:20:18.704055",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7885,7 +7733,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "a1eed518fedf",
       "timestamp": "2026-05-04T19:20:18.704082",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7908,7 +7756,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "80e80085e8b3",
       "timestamp": "2026-05-04T19:20:18.704107",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7931,7 +7779,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "e079e811c1ac",
       "timestamp": "2026-05-04T19:20:18.704127",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7954,7 +7802,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "5d82923953a0",
       "timestamp": "2026-05-04T19:20:18.704142",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -11680,6 +11528,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "08bf21cfb992",
       "timestamp": "2026-05-11T14:34:51.054593",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "0577529cc000",
+      "timestamp": "2026-05-11T19:32:18.786173",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "5ef5c4424c7b",
+      "timestamp": "2026-05-11T19:32:18.786230",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "e4b82913c7bb",
+      "timestamp": "2026-05-11T19:32:18.786257",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "ead8eb0c6059",
+      "timestamp": "2026-05-11T19:32:18.786278",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "7b374a99e71e",
+      "timestamp": "2026-05-11T19:32:18.786299",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "f3b071125efb",
+      "timestamp": "2026-05-11T19:32:18.786316",
       "status": "active",
       "outcome_score": null,
       "regime": "TRANSITION",
