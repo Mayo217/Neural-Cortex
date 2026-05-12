@@ -1,164 +1,6 @@
 {
   "chains": [
     {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions show a mix of upward and downward trends, with the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT all experiencing recent uptrends, while the DXY has a similar trend."
-      ],
-      "logic": [
-        "The presence of multiple assets experiencing uptrends suggests a risk-on market environment -> This could indicate investor confidence and appetite for risk -> The current market conditions may be favorable for investments in equities and other risk assets. However, the high level of uncertainty and volatility in the market, as indicated by the Fear and Greed index, could lead to sudden reversals in market trends."
-      ],
-      "counters": [
-        "The high level of uncertainty and volatility in the market, as indicated by the Fear and Greed index, could lead to sudden reversals in market trends, making it essential to exercise caution and carefully analyze market conditions before making investment decisions."
-      ],
-      "conclusions": [
-        "The current market conditions warrant caution and careful analysis, as the risk-on environment may be favorable for investments in equities and other risk assets, but the high level of uncertainty and volatility poses a significant risk of sudden reversals in market trends."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a mix of upward and downward trends, with the SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT all experiencing recent uptrends, while the DXY has a similar trend.\n\nLOGIC: The presence of multiple assets experiencing uptrends suggests a risk-on market environment -> This could indicate investor confidence and appetite for risk -> The current market conditions may be favorable for investments in equities and other risk assets. However, the high level of unc",
-      "id": "0c6a92282928",
-      "timestamp": "2026-04-19T14:13:25.130318",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the outputs from various agents, I conclude that the majority view is correct, and the market does warrant caution due to the high level of"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "risk-on environment may persist are correct, but they also acknowledge the high level of uncertainty and volatility in the market.",
-        "uptrend in the SP500 and other major indices\nTIMEFRAME: 30 days\nASSET: VIX\n\n**INDIA INTELLIGENCE**\n\nThe Indian market is experiencing a mix of upward and downward trends, with the NIFTY50 experiencing a recent uptrend.",
-        "uptrends, but also with breaks in correlations between assets."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**RECONCILE CONTRADICTIONS BETWEEN AGENTS**\n\nAfter analyzing the outputs from various agents, I conclude that the majority view is correct, and the market does warrant caution due to the high level of uncertainty and volatility. I side with the agents that emphasize the importance of careful analysis and caution in the current market conditions.\n\nThe agents that suggest a risk-on environment may persist are correct, but they also acknowledge the high level of uncertainty and volatility in the ma",
-      "id": "743424c8a3cd",
-      "timestamp": "2026-04-19T14:13:25.130874",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The majority of agents agree on a cautious approach due to high uncertainty and volatility in the market, with a THESIS of \"Market Volatility Ahead\" and a confidence level of 80."
-      ],
-      "logic": [
-        "The high confidence level in the THESIS suggests that the market is indeed volatile and uncertain, which could lead to sudden reversals in market trends -> This volatility could be exacerbated by breaks in correlations between assets -> As a result, investors should exercise caution and careful analysis to mitigate potential losses."
-      ],
-      "counters": [
-        "However, the Brain's regime is currently RISK_ON (62%), which suggests that the market may still be in a risk-on environment, and the recent uptrends in the SP500 and NIFTY50 could continue."
-      ],
-      "conclusions": [
-        "I conclude that the WEAKEST THESIS is the one that suggests a sustained uptrend in the SP500 and other major indices, as it is based on a narrow time frame (10d) and may not account for the potential risks and uncertainties in the market."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The majority of agents agree on a cautious approach due to high uncertainty and volatility in the market, with a THESIS of \"Market Volatility Ahead\" and a confidence level of 80.\nLOGIC: The high confidence level in the THESIS suggests that the market is indeed volatile and uncertain, which could lead to sudden reversals in market trends -> This volatility could be exacerbated by breaks in correlations between assets -> As a result, investors should exercise caution and careful analysis ",
-      "id": "433c4fde41ce",
-      "timestamp": "2026-04-19T14:13:25.130962",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The BIGGEST BLIND SPOT in the analysis is the potential impact of external factors, such as geopolitical events or unexpected economic data, on the market."
-      ],
-      "logic": [
-        "The analysis focuses primarily on market trends and technical indicators, but does not account for the potential impact of external factors -> These external factors could significantly affect market sentiment and trends, leading to unexpected outcomes -> As a result, investors should be aware of these potential blind spots and adjust their strategies accordingly."
-      ],
-      "counters": [
-        "However, it is difficult to predict and account for all potential external factors, and the analysis may be limited by the availability of data and information."
-      ],
-      "conclusions": [
-        "I conclude that the BIGGEST BLIND SPOT is the lack of consideration for external factors, and investors should be aware of this potential limitation when making decisions based on the analysis."
-      ],
-      "dependencies": [
-        "The single data point that would change my mind is a significant decline in the VIX or a sustained uptrend in the SP500 and other major indices over a longer time frame (e.g., 60d)."
-      ],
-      "falsifications": [
-        "If the market experiences a significant and sustained decline in volatility, as measured by the VIX, or if the SP500 and other major indices experience a sharp and sustained uptrend, then my conclusion would be proven wrong."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The majority of agents agree on a cautious approach due to high uncertainty and volatility in the market, with a THESIS of \"Market Volatility Ahead\" and a confidence level of 80.\nLOGIC: The high confidence level in the THESIS suggests that the market is indeed volatile and uncertain, which could lead to sudden reversals in market trends -> This volatility could be exacerbated by breaks in correlations between assets -> As a result, investors should exercise caution and careful analysis ",
-      "id": "d7662a2c4be6",
-      "timestamp": "2026-04-19T14:13:25.130962",
-      "status": "invalidated",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "sentiment_contrarian"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY."
-      ],
-      "logic": [
-        "The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd."
-      ],
-      "counters": [
-        "The recent upward trend in the S&P 500 and NIFTY 50 over the past 10 days could be a sign of a stronger market, and investors may be able to capitalize on this momentum."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and brain's regime, it is likely that the market will continue to experience high levels of uncertainty and volatility, and investors should exercise caution and consider alternative perspectives."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd.\n\nCOUNTER: The recent upward trend in t",
-      "id": "5515cbad8dcb",
-      "timestamp": "2026-04-19T19:59:11.177293",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act's provisions are essential in protecting workers' rights, and the requirement for employers to provide written notice at least 60 days in advance of mass layoffs or plant closures."
-      ],
-      "logic": [
-        "The WARN Act's provisions -> provide protection for workers and promote transparency in employment practices -> imply that employers must be aware of and comply with these regulations to avoid legal and reputational consequences."
-      ],
-      "counters": [
-        "The WARN Act's requirements may be burdensome for smaller employers or those in industries with high levels of turnover, and may not be effective in preventing all mass layoffs or plant closures."
-      ],
-      "conclusions": [
-        "Based on the WARN Act's provisions, it is likely that employers will need to prioritize compliance with these regulations to avoid legal and reputational consequences, and that workers will have greater protection and transparency in employment practices."
-      ],
-      "dependencies": [
-        "The next 10-day trend in the S&P 500 and NIFTY 50, as a continued upward trend could indicate a stronger market and change my conclusion."
-      ],
-      "falsifications": [
-        "If the S&P 500 and NIFTY 50 experience a significant downturn over the next 10 days, it would suggest that my conclusion was incorrect and the market is indeed experiencing a correction."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd.\n\nCOUNTER: The recent upward trend in t",
-      "id": "121cbf6b3855",
-      "timestamp": "2026-04-19T19:59:11.177293",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "policy_signal"
-    },
-    {
       "agent": "upstream",
       "observations": [
         "The recent contracts awarded to various companies, including CONSOLIDATED NUCLEAR SECURITY, LLC, THE BOEING COMPANY, and UCHICAGO ARGONNE, LLC, totaling over $100 billion."
@@ -7793,7 +7635,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "05b0e50d062a",
       "timestamp": "2026-05-05T13:22:14.441293",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7816,7 +7658,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "9c4e340740a6",
       "timestamp": "2026-05-05T13:22:14.441352",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7839,7 +7681,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "535edbb3a746",
       "timestamp": "2026-05-05T13:22:14.441379",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7862,7 +7704,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "1b76a4bfd0bb",
       "timestamp": "2026-05-05T13:22:14.441405",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7885,7 +7727,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "fce38c027dba",
       "timestamp": "2026-05-05T13:22:14.441426",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7908,7 +7750,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "fc56343c1744",
       "timestamp": "2026-05-05T13:22:14.441442",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -11634,6 +11476,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "fe6b724ae7e4",
       "timestamp": "2026-05-12T08:31:53.184604",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "c584ff8c2980",
+      "timestamp": "2026-05-12T14:03:37.483500",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "692699e1e56d",
+      "timestamp": "2026-05-12T14:03:37.483562",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "0fe5b203328d",
+      "timestamp": "2026-05-12T14:03:37.483591",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "17cb4bff2fea",
+      "timestamp": "2026-05-12T14:03:37.483613",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "097cc80f636c",
+      "timestamp": "2026-05-12T14:03:37.483635",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "6fbb7957d149",
+      "timestamp": "2026-05-12T14:03:37.483653",
       "status": "active",
       "outcome_score": null,
       "regime": "TRANSITION",
