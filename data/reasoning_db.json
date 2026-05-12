@@ -1,164 +1,6 @@
 {
   "chains": [
     {
-      "agent": "adversary",
-      "observations": [
-        "The theses presented rely heavily on short-term market trends and correlations, with a focus on potential regime transition and market uncertainty."
-      ],
-      "logic": [
-        "The reliance on short-term trends and correlations may lead to overreaction to temporary market fluctuations, resulting in incorrect predictions of regime transition and market uncertainty -> This could lead to unnecessary reevaluation of investment strategies and risk management approaches -> Ultimately, this may result in missed opportunities or unnecessary losses due to overcautious decision-making."
-      ],
-      "counters": [
-        "The argument could be made that the current market conditions do warrant caution, given the high probability of regime transition and the potential for significant market downturns."
-      ],
-      "conclusions": [
-        "The theses presented may be overly sensitive to short-term market fluctuations, leading to potential overreactions and incorrect predictions."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The theses presented rely heavily on short-term market trends and correlations, with a focus on potential regime transition and market uncertainty.\nLOGIC: The reliance on short-term trends and correlations may lead to overreaction to temporary market fluctuations, resulting in incorrect predictions of regime transition and market uncertainty -> This could lead to unnecessary reevaluation of investment strategies and risk management approaches -> Ultimately, this may result in missed opp",
-      "id": "697701615841",
-      "timestamp": "2026-04-18T19:57:45.209366",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "divergence_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The WEAKEST THESIS appears to be the \"Dollar Strength and EM Stress\" thesis, with a confidence level of 50%."
-      ],
-      "logic": [
-        "The relatively low confidence level in this thesis, combined with the dependence on the DXY index sustaining above 105, makes it more susceptible to being incorrect -> A failure to meet this condition could lead to a significant decrease in the thesis's validity -> This, in turn, may undermine the overall analysis and predictions."
-      ],
-      "counters": [
-        "The argument could be made that the DXY index is a reliable indicator of EM stress and regime transition, and that the 50% confidence level is still significant enough to warrant consideration."
-      ],
-      "conclusions": [
-        "The \"Dollar Strength and EM Stress\" thesis is the weakest due to its relatively low confidence level and dependence on a specific condition."
-      ],
-      "dependencies": [
-        "A sustained downturn in the SP500 or NIFTY50 indices would significantly alter my analysis, as it would indicate a more severe regime transition than initially anticipated."
-      ],
-      "falsifications": [
-        "The market experiences a prolonged period of low volatility and stability, despite the predicted regime transition and market uncertainty."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The theses presented rely heavily on short-term market trends and correlations, with a focus on potential regime transition and market uncertainty.\nLOGIC: The reliance on short-term trends and correlations may lead to overreaction to temporary market fluctuations, resulting in incorrect predictions of regime transition and market uncertainty -> This could lead to unnecessary reevaluation of investment strategies and risk management approaches -> Ultimately, this may result in missed opp",
-      "id": "1165613aecc4",
-      "timestamp": "2026-04-18T19:57:45.209366",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "fx_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The BIGGEST BLIND SPOT in the analysis appears to be the lack of consideration for exogenous factors, such as geopolitical events or unexpected central bank actions."
-      ],
-      "logic": [
-        "The analysis focuses primarily on market trends and correlations, without accounting for potential external shocks -> This oversight could lead to a failure to anticipate and prepare for unexpected events -> As a result, the analysis may be incomplete and inaccurate."
-      ],
-      "counters": [
-        "The argument could be made that the analysis is focused on identifiable market trends and correlations, and that exogenous factors are inherently unpredictable and difficult to account for."
-      ],
-      "conclusions": [
-        "The lack of consideration for exogenous factors is a significant blind spot in the analysis."
-      ],
-      "dependencies": [
-        "A significant and sustained movement in the DXY index would be necessary to alter my analysis of this thesis."
-      ],
-      "falsifications": [
-        "The DXY index fails to sustain above 105, and EM stress does not materialize as predicted."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The theses presented rely heavily on short-term market trends and correlations, with a focus on potential regime transition and market uncertainty.\nLOGIC: The reliance on short-term trends and correlations may lead to overreaction to temporary market fluctuations, resulting in incorrect predictions of regime transition and market uncertainty -> This could lead to unnecessary reevaluation of investment strategies and risk management approaches -> Ultimately, this may result in missed opp",
-      "id": "1e93e82e7a36",
-      "timestamp": "2026-04-18T19:57:45.209366",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "divergence_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The current market conditions show a RISK_ON regime with 62% probability, and various indices such as SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT are showing upward trends in the short term (10d) and mixed trends in the long term (30d)."
-      ],
-      "logic": [
-        "The high probability of a RISK_ON regime and the upward trends in various indices -> suggest a bullish market sentiment -> imply a potential for further market growth."
-      ],
-      "counters": [
-        "However, the mixed trends in the long term (30d) and the presence of cautionary signals from various sources -> suggest that the market may be due for a correction -> imply a potential for market volatility."
-      ],
-      "conclusions": [
-        "Based on the current market conditions, I conclude that the market is likely to remain bullish in the short term, but with a high degree of uncertainty and potential for volatility in the long term."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a RISK_ON regime with 62% probability, and various indices such as SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT are showing upward trends in the short term (10d) and mixed trends in the long term (30d).\n\nLOGIC: The high probability of a RISK_ON regime and the upward trends in various indices -> suggest a bullish market sentiment -> imply a potential for further market growth.\n\nCOUNTER: However, the mixed trends in the long term (30d) and the presence o",
-      "id": "4f427c6c79f7",
-      "timestamp": "2026-04-19T06:19:24.703363",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The current market conditions show a RISK_ON regime with 62% probability, and various indices such as SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT are showing upward trends in the short term (10d) and mixed trends in the long term (30d), with the SP500 index having a 63% chance of being up in the short term."
-      ],
-      "logic": [
-        "The high probability of a RISK_ON regime and the upward trends in various indices -> suggest a bullish market sentiment -> imply a potential for further market growth, but the mixed trends in the long term and the presence of cautionary signals from various sources -> suggest that the market may be due for a correction -> imply a potential for market volatility."
-      ],
-      "counters": [
-        "However, the ETF data shows that most sectors have a \"NEUTRAL\" signal, which -> suggests that the market is not showing a strong bias towards any particular sector -> implies that the market may be in a state of equilibrium, and the bullish sentiment may be overstated."
-      ],
-      "conclusions": [
-        "Based on the current market conditions, I conclude that the market is likely to remain bullish in the short term, but with a high degree of uncertainty and potential for volatility in the long term, and the ETF data suggests that the market may be in a state of equilibrium."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a RISK_ON regime with 62% probability, and various indices such as SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT are showing upward trends in the short term (10d) and mixed trends in the long term (30d), with the SP500 index having a 63% chance of being up in the short term.\n\nLOGIC: The high probability of a RISK_ON regime and the upward trends in various indices -> suggest a bullish market sentiment -> imply a potential for further market growth, but t",
-      "id": "e0d45bd9a65b",
-      "timestamp": "2026-04-19T06:19:24.703435",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions show a RISK_ON regime with 62% probability, and various indices such as SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT are showing upward trends in the short term (10d) and mixed trends in the long term (30d), with several correlations and anomalies present, including breaks in DXY/GOLD, VIX/SP500, US10Y/GOLD, BITCOIN/NASDAQ, and COPPER/OIL_WTI."
-      ],
-      "logic": [
-        "The high probability of a RISK_ON regime and the upward trends in various indices -> suggest a bullish market sentiment -> imply a potential for further market growth, but the presence of multiple breaks in correlations and anomalies -> suggest that the market may be due for a correction or a shift in trends -> imply a potential for market volatility."
-      ],
-      "counters": [
-        "However, the Fear and Greed index score of 68.1, indicating a \"greed\" rating, -> suggests that the market may be overbought and due for a correction -> imply a potential for a downturn, but the overall trend and momentum of the market -> suggest that the bullish sentiment may persist."
-      ],
-      "conclusions": [
-        "Based on the current market conditions, I conclude that the market is likely to remain bullish in the short term, but with a high degree of uncertainty and potential for market volatility due to the presence of multiple breaks in correlations and anomalies."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions show a RISK_ON regime with 62% probability, and various indices such as SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT are showing upward trends in the short term (10d) and mixed trends in the long term (30d), with several correlations and anomalies present, including breaks in DXY/GOLD, VIX/SP500, US10Y/GOLD, BITCOIN/NASDAQ, and COPPER/OIL_WTI.\n\nLOGIC: The high probability of a RISK_ON regime and the upward trends in various indices -> suggest a bullish mark",
-      "id": "dbbf0961de1e",
-      "timestamp": "2026-04-19T06:19:24.703472",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "narrative",
       "observations": [
         "The current market conditions show a RISK_ON regime with 62% probability, and various indices such as SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT are showing upward trends in the short term (10d) and mixed trends in the long term (30d)."
@@ -7825,7 +7667,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "cd63c541c420",
       "timestamp": "2026-05-05T02:07:40.462522",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7848,7 +7690,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "5fd740b8175e",
       "timestamp": "2026-05-05T02:07:40.462570",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7871,7 +7713,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "a47156f0e5ed",
       "timestamp": "2026-05-05T02:07:40.462597",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7894,7 +7736,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "710e84304f90",
       "timestamp": "2026-05-05T02:07:40.462624",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7917,7 +7759,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "8bc3acd37a3b",
       "timestamp": "2026-05-05T02:07:40.462645",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -7940,7 +7782,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "8224fb13b69c",
       "timestamp": "2026-05-05T02:07:40.462662",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "TRANSITION",
       "reasoning_type": "general"
@@ -11666,6 +11508,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "f3b071125efb",
       "timestamp": "2026-05-11T19:32:18.786316",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "65dcee5a749c",
+      "timestamp": "2026-05-12T02:15:22.523889",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "752b8288d750",
+      "timestamp": "2026-05-12T02:15:22.523946",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "5aaaf2cdf8a2",
+      "timestamp": "2026-05-12T02:15:22.523973",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "cb1ca60c8c0f",
+      "timestamp": "2026-05-12T02:15:22.523995",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "fb8ce086e78c",
+      "timestamp": "2026-05-12T02:15:22.524052",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "71252ccbe660",
+      "timestamp": "2026-05-12T02:15:22.524070",
       "status": "active",
       "outcome_score": null,
       "regime": "TRANSITION",
