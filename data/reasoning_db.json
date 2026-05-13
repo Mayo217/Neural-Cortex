@@ -1,169 +1,6 @@
 {
   "chains": [
     {
-      "agent": "flow",
-      "observations": [
-        "The FII/DII data shows that DIIs have been net sellers, while FIIs have been net buyers, with a net value of -4721.48 and 683.2, respectively."
-      ],
-      "logic": [
-        "The FII/DII data -> suggests that foreign investors are more bullish on the market than domestic investors -> implies that the market may be due for a correction, as foreign investors may be over-estimating the market's potential."
-      ],
-      "counters": [
-        "The net buying by FIIs could be a sign of a potential rally, and domestic investors may be under-estimating the market's potential."
-      ],
-      "conclusions": [
-        "Based on the FII/DII data, it is likely that the market may be due for a correction, and investors should exercise caution and consider alternative perspectives."
-      ],
-      "dependencies": [
-        "The future performance of the Energy sector, as a significant turnaround could change my conclusion and suggest a more bullish outlook."
-      ],
-      "falsifications": [
-        "If the Energy sector experiences a significant and sustained turnaround, it would suggest that my conclusion was incorrect and investors should reconsider their allocation to this sector."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The brain's output indicates a 62% probability of a RISK_ON regime, with various assets such as S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY showing a mix of upward and downward trends over the past 30 days.\n\nLOGIC: The brain's output and market conditions -> suggest a high level of uncertainty and volatility -> imply that investors should exercise caution and consider alternative perspectives, rather than relying solely on the current upward trend in the S&P 500 and NIFTY 50 ov",
-      "id": "356a9bf1e90a",
-      "timestamp": "2026-04-19T19:59:11.177493",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "flow_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY, and the INR has been experiencing a downward trend against the USD."
-      ],
-      "logic": [
-        "The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd, and the downward trend of INR against USD might continue due to the uncertainty."
-      ],
-      "counters": [
-        "The recent upward trend in the S&P 500 and NIFTY 50 over the past 10 days could be a sign of a stronger market, and investors may be able to capitalize on this momentum, potentially leading to a continued RISK_ON regime and a stronger INR."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and brain's regime, it is likely that the market will continue to experience high levels of uncertainty and volatility, and the INR might continue to weaken against the USD."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY, and the INR has been experiencing a downward trend against the USD.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives a",
-      "id": "b73a203073d0",
-      "timestamp": "2026-04-19T19:59:11.177560",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY, and the INR has been experiencing a downward trend against the USD."
-      ],
-      "logic": [
-        "The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd, and the downward trend of INR against USD might continue due to the uncertainty and volatility in the market."
-      ],
-      "counters": [
-        "The recent upward trend in the S&P 500 and NIFTY 50 over the past 10 days could be a sign of a stronger market, and investors may be justified in following the crowd and investing in these assets."
-      ],
-      "conclusions": [
-        "Given the high level of uncertainty and volatility in the market, it is likely that Agents 1-3 will follow the herd and invest in assets that are currently trending upward, such as the S&P 500 and NIFTY 50, rather than taking a more cautious and diversified approach."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the S&P 500, NIFTY 50, GOLD, BITCOIN, OIL_BRENT, and DXY, and the INR has been experiencing a downward trend against the USD.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives a",
-      "id": "7f759688c8f9",
-      "timestamp": "2026-04-19T19:59:11.177595",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets."
-      ],
-      "logic": [
-        "The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd."
-      ],
-      "counters": [
-        "Agent 1 suggests that the recent upward trend in the S&P 500 and NIFTY 50 over the past 10 days could be a sign of a stronger market, and investors may be able to capitalize on this momentum."
-      ],
-      "conclusions": [
-        "I side with the cautious approach, as the uncertainty and volatility in the market suggest that investors should exercise caution and consider alternative perspectives."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "I will provide the analysis in the required format.\n\n**1. RECONCILE contradictions between agents. Name which agent you side with and WHY.**\n\nOBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspect",
-      "id": "c0bab1000736",
-      "timestamp": "2026-04-19T19:59:11.177733",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets, including the INR."
-      ],
-      "logic": [
-        "The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd, which may lead to a depreciation of the INR."
-      ],
-      "counters": [
-        "The recent upward trend in the S&P 500 and NIFTY 50 over the past 10 days could be a sign of a stronger market, and investors may be able to capitalize on this momentum, which may lead to an appreciation of the INR."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and brain's regime, it is likely that the INR will experience high levels of volatility and may depreciate due to the uncertainty and volatility in the market."
-      ],
-      "dependencies": [
-        "The next 10-day trend in the S&P 500 and NIFTY 50, as a continued upward trend could indicate a stronger market and change my conclusion."
-      ],
-      "falsifications": [
-        "If the S&P 500 and NIFTY 50 experience a significant downturn over the next 10 days, it would suggest that my conclusion was incorrect and the market is indeed experiencing a correction.",
-        "Unemployment rate increases above 5%",
-        "VIX decreases below 15"
-      ],
-      "assets": [
-        "S&P 500",
-        "VIX"
-      ],
-      "raw_excerpt": "I will provide the analysis in the required format.\n\n**1. RECONCILE contradictions between agents. Name which agent you side with and WHY.**\n\nOBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspect",
-      "id": "76848adc71f2",
-      "timestamp": "2026-04-19T19:59:11.177733",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets."
-      ],
-      "logic": [
-        "The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd, which may lead to a decrease in consumer spending and economic growth."
-      ],
-      "counters": [
-        "The recent upward trend in the S&P 500 and NIFTY 50 over the past 10 days could be a sign of a stronger market, and investors may be able to capitalize on this momentum."
-      ],
-      "conclusions": [
-        "The \"Economic Growth\" thesis is the weakest because it relies on a chain of events that may not occur in a volatile market, and the current market conditions suggest that investors should exercise caution."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\n**1. WEAKEST THESIS:**\nThe weakest thesis is the \"Economic Growth\" thesis, which suggests that low unemployment will lead to increased consumer spending, higher economic growth, and increased corporate profits.\n\nOBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for cau",
-      "id": "aca9f4dd16e9",
-      "timestamp": "2026-04-19T19:59:11.177903",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "adversary",
       "observations": [
         "The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets."
@@ -7739,7 +7576,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "ca7ee2939ffb",
       "timestamp": "2026-05-06T02:06:59.476119",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7762,7 +7599,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "71452da5fbdb",
       "timestamp": "2026-05-06T02:06:59.476173",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7785,7 +7622,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "07e9813e5d53",
       "timestamp": "2026-05-06T02:06:59.476200",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7808,7 +7645,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "c4d49ada4b60",
       "timestamp": "2026-05-06T02:06:59.476222",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7831,7 +7668,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "624e06aea5ad",
       "timestamp": "2026-05-06T02:06:59.476243",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7854,7 +7691,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "1952806c5cd7",
       "timestamp": "2026-05-06T02:06:59.476260",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -11580,6 +11417,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "a4a2dc1d10ca",
       "timestamp": "2026-05-12T19:32:57.548289",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "1bb4696aaa67",
+      "timestamp": "2026-05-13T02:30:17.568025",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "09386b21557f",
+      "timestamp": "2026-05-13T02:30:17.568074",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "2ea0279a4bc9",
+      "timestamp": "2026-05-13T02:30:17.568101",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "202f9d04cc1a",
+      "timestamp": "2026-05-13T02:30:17.568124",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "5e92e9c35e00",
+      "timestamp": "2026-05-13T02:30:17.568145",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "3cbd81c7de40",
+      "timestamp": "2026-05-13T02:30:17.568162",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
