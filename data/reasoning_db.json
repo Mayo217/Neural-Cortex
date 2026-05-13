@@ -1,172 +1,6 @@
 {
   "chains": [
     {
-      "agent": "adversary",
-      "observations": [
-        "The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets."
-      ],
-      "logic": [
-        "The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd, which may lead to a decrease in investor confidence and a potential correction in the market."
-      ],
-      "counters": [
-        "The recent upward trend in the S&P 500 and NIFTY 50 over the past 10 days could be a sign of a stronger market, and investors may be able to capitalize on this momentum."
-      ],
-      "conclusions": [
-        "The biggest blind spot is the lack of consideration for external factors that could impact the market, which could lead to unexpected changes in market trends and investor confidence."
-      ],
-      "dependencies": [
-        "The next 10-day trend in the S&P 500 and NIFTY 50, as a continued upward trend could indicate a stronger market and change my conclusion."
-      ],
-      "falsifications": [
-        "If the S&P 500 and NIFTY 50 experience a significant downturn over the next 10 days, it would suggest that my conclusion was incorrect and the \"Economic Growth\" thesis may still be valid."
-      ],
-      "assets": [],
-      "raw_excerpt": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\n**1. WEAKEST THESIS:**\nThe weakest thesis is the \"Economic Growth\" thesis, which suggests that low unemployment will lead to increased consumer spending, higher economic growth, and increased corporate profits.\n\nOBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for cau",
-      "id": "4b872bb9153f",
-      "timestamp": "2026-04-19T19:59:11.177903",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets."
-      ],
-      "logic": [
-        "The uncertainty and volatility in the market -> suggest a need for caution and diversification in investment strategies -> imply that investors should consider alternative perspectives and not just follow the crowd, which may lead to a decrease in investor confidence and a potential correction in the market."
-      ],
-      "counters": [
-        "The recent upward trend in the S&P 500 and NIFTY 50 over the past 10 days could be a sign of a stronger market, and investors may be able to capitalize on this momentum."
-      ],
-      "conclusions": [
-        "The theses are vulnerable to changes in market conditions and investor confidence, and investors should exercise caution and consider alternative perspectives."
-      ],
-      "dependencies": [
-        "The occurrence of unexpected external events, such as a global economic downturn or a major geopolitical event, which could change my conclusion."
-      ],
-      "falsifications": [
-        "If the market continues to trend upward despite external factors, it would suggest that my conclusion was incorrect and the current market conditions are more resilient than expected."
-      ],
-      "assets": [],
-      "raw_excerpt": "**ATTACKING THE SYNTHESIZER'S OUTPUT**\n\n**1. WEAKEST THESIS:**\nThe weakest thesis is the \"Economic Growth\" thesis, which suggests that low unemployment will lead to increased consumer spending, higher economic growth, and increased corporate profits.\n\nOBSERVE: The current market conditions and brain's regime suggest a high level of uncertainty and volatility, with a mix of upward and downward trends in various assets.\n\nLOGIC: The uncertainty and volatility in the market -> suggest a need for cau",
-      "id": "318cf3ef5d40",
-      "timestamp": "2026-04-19T19:59:11.177903",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends."
-      ],
-      "logic": [
-        "The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market."
-      ],
-      "counters": [
-        "The Indian Market Uncertainty thesis and the US-Iran conflict are significant blind spots that could have a major impact on the market, potentially leading to a correction or reversal of the current trends."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and trends, I conclude that the RISK_ON regime is likely to continue, with a potential for further growth in the market."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends.\n\nLOGIC: The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market.\n\nCOUNTER: The Indian Market Uncertainty thesis and the US-Iran conflict are significant blind spots that c",
-      "id": "e691cbe43964",
-      "timestamp": "2026-04-20T07:30:25.432431",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The WARN Act's provisions are likely to have a significant impact on employers, requiring them to provide written notice at least 60 days before mass layoffs or plant closures."
-      ],
-      "logic": [
-        "The WARN Act's provisions -> require employers to provide advance notice -> implies a potential for increased transparency and stability in the labor market."
-      ],
-      "counters": [
-        "The implementation and enforcement of the WARN Act may be challenging, potentially limiting its effectiveness in achieving its intended goals."
-      ],
-      "conclusions": [
-        "Based on the WARN Act's provisions, I conclude that employers will need to adapt to the new requirements, potentially leading to increased transparency and stability in the labor market."
-      ],
-      "dependencies": [
-        "The validation of the Indian Market Uncertainty thesis and the US-Iran conflict as significant risk factors that could impact the market."
-      ],
-      "falsifications": [
-        "The market experiences a significant correction or reversal, contradicting the current upward trends and RISK_ON regime."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends.\n\nLOGIC: The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market.\n\nCOUNTER: The Indian Market Uncertainty thesis and the US-Iran conflict are significant blind spots that c",
-      "id": "2ab91c7ec7b7",
-      "timestamp": "2026-04-20T07:30:25.432431",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "The contracts listed, including those for CONSOLIDATED NUCLEAR SECURITY, LLC, THE BOEING COMPANY, and UCHICAGO ARGONNE, LLC, have significant values and implications for the economy and national security."
-      ],
-      "logic": [
-        "The contracts -> have significant economic and national security implications -> implies a potential for stability and growth in the relevant sectors."
-      ],
-      "counters": [
-        "The contracts may be subject to various risks, including geopolitical tensions, technological disruptions, and budget constraints, potentially impacting their implementation and outcomes."
-      ],
-      "conclusions": [
-        "Based on the contracts listed, I conclude that they have significant implications for the economy and national security, potentially contributing to stability and growth in the relevant sectors."
-      ],
-      "dependencies": [
-        "The effective implementation and enforcement of the WARN Act."
-      ],
-      "falsifications": [
-        "The WARN Act's provisions are deemed ineffective or unenforceable, failing to achieve their intended goals."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends.\n\nLOGIC: The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market.\n\nCOUNTER: The Indian Market Uncertainty thesis and the US-Iran conflict are significant blind spots that c",
-      "id": "39c89730aa6b",
-      "timestamp": "2026-04-20T07:30:25.432431",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "The RISK_ON regime is at 62%, with various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends, and the ETF signals are mostly neutral."
-      ],
-      "logic": [
-        "The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market, but the neutral ETF signals -> suggest a lack of strong conviction in the market -> implies a potential for volatility."
-      ],
-      "counters": [
-        "The Indian Market Uncertainty thesis and the US-Iran conflict are significant blind spots that could have a major impact on the market, potentially leading to a correction or reversal of the current trends, and the FII/DII data shows a net outflow of funds by DII, which could be a bearish signal."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and trends, I conclude that the RISK_ON regime is likely to continue, but with a high degree of uncertainty and potential for volatility, and the INR may experience fluctuations due to the global market trends and the Indian Market Uncertainty thesis."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The RISK_ON regime is at 62%, with various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends, and the ETF signals are mostly neutral.\n\nLOGIC: The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market, but the neutral ETF signals -> suggest a lack of strong conviction in the market -> implies a potential for volatility.\n\nCOUNTER: The Indian Market Un",
-      "id": "7f3bc518ff4b",
-      "timestamp": "2026-04-20T07:30:25.432539",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "market",
       "observations": [
         "The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends."
@@ -7714,7 +7548,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "5f4778d2bfe0",
       "timestamp": "2026-05-06T08:14:06.303088",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7737,7 +7571,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "688ad4a86cc6",
       "timestamp": "2026-05-06T08:14:06.303136",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7760,7 +7594,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "3a016e6e33ae",
       "timestamp": "2026-05-06T08:14:06.303161",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7783,7 +7617,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "a1f167b9a90e",
       "timestamp": "2026-05-06T08:14:06.303181",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7806,7 +7640,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "2164c220d683",
       "timestamp": "2026-05-06T08:14:06.303201",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7829,7 +7663,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "97f0f14ddf6f",
       "timestamp": "2026-05-06T08:14:06.303217",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -11555,6 +11389,144 @@
       "raw_excerpt": "LLM ERROR",
       "id": "3cbd81c7de40",
       "timestamp": "2026-05-13T02:30:17.568162",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "b645a96093c3",
+      "timestamp": "2026-05-13T08:39:22.248801",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "3f1866f9095f",
+      "timestamp": "2026-05-13T08:39:22.248849",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "a94ebd5ab06c",
+      "timestamp": "2026-05-13T08:39:22.248875",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "32040527468f",
+      "timestamp": "2026-05-13T08:39:22.248898",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "a3d20cf3730f",
+      "timestamp": "2026-05-13T08:39:22.248918",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "9d0f5a1a9bb9",
+      "timestamp": "2026-05-13T08:39:22.248936",
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
