@@ -1,164 +1,6 @@
 {
   "chains": [
     {
-      "agent": "market",
-      "observations": [
-        "The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends."
-      ],
-      "logic": [
-        "The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market. However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran conflict, -> suggests a need for caution and potential volatility -> implies a potential for correction or reversal of the current trends."
-      ],
-      "counters": [
-        "The Indian Market Uncertainty thesis and the US-Iran conflict are significant blind spots that could have a major impact on the market, potentially leading to a correction or reversal of the current trends. Additionally, the FII/DII data shows a net outflow of funds by DII, which could be a bearish signal."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and trends, I conclude that the RISK_ON regime is likely to continue, with a potential for further growth in the market. However, the presence of significant blind spots and potential volatility suggests a need for caution and careful monitoring of market developments."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends.\n\nLOGIC: The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market. However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-",
-      "id": "139e226671f4",
-      "timestamp": "2026-04-20T07:30:25.432691",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "The USDINR is currently at 93.025, with a 1d change of -0.03% and a 10d change of -0.06%."
-      ],
-      "logic": [
-        "The current market conditions and the RISK_ON regime -> suggest a potential for further growth in the market -> implies a potential for the INR to appreciate against the USD. However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis, -> suggests a need for caution and potential volatility -> implies a potential for the INR to depreciate against the USD."
-      ],
-      "counters": [
-        "The FII/DII data shows a net outflow of funds by DII, which could be a bearish signal for the INR."
-      ],
-      "conclusions": [
-        "Based on the current market conditions and trends, I conclude that the INR is likely to remain stable or appreciate slightly against the USD, but the presence of significant blind spots and potential volatility suggests a need for caution and careful monitoring of market developments."
-      ],
-      "dependencies": [
-        "The validation of the RISK_ON regime and the continuation of upward trends in multiple indices depend on the absence of significant negative events or surprises that could disrupt market sentiment."
-      ],
-      "falsifications": [
-        "The conclusion is wrong if a significant negative event or surprise occurs, such as a major geopolitical conflict, a global economic downturn, or a significant market crash, which could lead to a correction or reversal of the current trends and a shift to a RISK_OFF regime."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends.\n\nLOGIC: The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market. However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-",
-      "id": "159874927dd3",
-      "timestamp": "2026-04-20T07:30:25.432691",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends."
-      ],
-      "logic": [
-        "The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market. However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran conflict, -> suggests a need for caution and potential volatility -> implies a potential for correction or reversal of the current trend."
-      ],
-      "counters": [
-        "Agents 1-3 are following the herd, and the market's current upward trend may be driven by a combination of fundamental and technical factors, but the lack of strong conviction in the market, as suggested by the neutral ETF signals, -> suggests a potential for volatility and a need for caution."
-      ],
-      "conclusions": [
-        "The current market conditions suggest a bullish sentiment, but with significant blind spots and a need for caution. The INR may appreciate or depreciate depending on the interplay of various factors, including the RISK_ON regime, upward trends in multiple indices, and the presence of significant blind spots."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The current market conditions and brain's crisis regime suggest a need for caution, with the RISK_ON regime at 62% and various indices (SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT) showing upward trends.\n\nLOGIC: The combination of upward trends in multiple indices and the RISK_ON regime -> suggests a bullish market sentiment -> implies a potential for further growth in the market. However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-",
-      "id": "097c99c75a31",
-      "timestamp": "2026-04-20T07:30:25.432739",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
-      "agent": "synthesis",
-      "observations": [
-        "**1. RECONCILE contradictions between agents:**\nI side with the agent that emphasizes the need for caution due to significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran "
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "upward trends in multiple indices and the potential risks that could disrupt market sentiment.",
-        "Upward trends in SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT -> RISK_ON regime at 62% -> potential for further growth in the market -> implication of continued bullish sentiment\nCONFIDENCE: 70\nKILL IF: RISK_ON regime falls below 50%\nTIMEFRAME: 30 days\nASSET: INR\n\nTHESIS: Indian Market Uncertainty\nCHAIN: Indian Market Uncertainty thesis -> potential for volatility and correction -> implication of potential depreciation of INR\nCONFIDENCE: 40\nKILL IF: Indian Market Uncertainty thesis is resolved or becomes less significant\nTIMEFRAME: 30 days\nASSET: INR\n\n**3.",
-        "upward trends."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "**1. RECONCILE contradictions between agents:**\nI side with the agent that emphasizes the need for caution due to significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran conflict. This agent's perspective is more comprehensive, considering both the current upward trends in multiple indices and the potential risks that could disrupt market sentiment.\n\n**2. Generate THESES:**\nTHESIS: RISK_ON Regime Continuation\nCHAIN: Upward trends in SP500, NIFTY50, GOLD, BITCOIN, an",
-      "id": "ff7febdbe836",
-      "timestamp": "2026-04-20T07:30:25.433105",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The RISK_ON regime is at 62%, with upward trends in multiple indices, including SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT."
-      ],
-      "logic": [
-        "The current upward trends and RISK_ON regime -> suggest a bullish sentiment in the market -> implication of continued growth in the market."
-      ],
-      "counters": [
-        "However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran conflict, could disrupt market sentiment and lead to a correction or reversal of the current trend."
-      ],
-      "conclusions": [
-        "The market's current upward trend is fragile and vulnerable to disruptions from various factors, including geopolitical events and economic uncertainty."
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The RISK_ON regime is at 62%, with upward trends in multiple indices, including SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT.\nLOGIC: The current upward trends and RISK_ON regime -> suggest a bullish sentiment in the market -> implication of continued growth in the market.\nCOUNTER: However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran conflict, could disrupt market sentiment and lead to a correction or reversal of the current trend",
-      "id": "3362248ace3d",
-      "timestamp": "2026-04-20T07:30:25.433227",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "commodity_signal"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The Indian Market Uncertainty thesis has a confidence level of 40 and is considered a significant blind spot."
-      ],
-      "logic": [
-        "The Indian Market Uncertainty thesis -> potential for volatility and correction -> implication of potential depreciation of INR."
-      ],
-      "counters": [
-        "However, the current upward trends in multiple indices, including NIFTY50, could suggest a stronger Indian market and a potential for INR appreciation."
-      ],
-      "conclusions": [
-        "The Indian Market Uncertainty thesis is a significant risk factor that could impact the INR and the Indian economy, and its resolution or escalation could have a major impact on the market."
-      ],
-      "dependencies": [
-        "The resolution or escalation of the US-Iran conflict, which could significantly impact the market's sentiment and trend."
-      ],
-      "falsifications": [
-        "The RISK_ON regime falls below 50% or the Indian Market Uncertainty thesis is resolved, leading to a change in market sentiment and trend."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The RISK_ON regime is at 62%, with upward trends in multiple indices, including SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT.\nLOGIC: The current upward trends and RISK_ON regime -> suggest a bullish sentiment in the market -> implication of continued growth in the market.\nCOUNTER: However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran conflict, could disrupt market sentiment and lead to a correction or reversal of the current trend",
-      "id": "4e1ea95bcd67",
-      "timestamp": "2026-04-20T07:30:25.433227",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "vol_signal"
-    },
-    {
       "agent": "adversary",
       "observations": [
         "The WEAKEST THESIS is the RISK_ON Regime Continuation, with a confidence level of 70."
@@ -7686,7 +7528,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "4a1d5c409ab7",
       "timestamp": "2026-05-06T13:52:00.313661",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7709,7 +7551,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "2c70cb8fb11b",
       "timestamp": "2026-05-06T13:52:00.313720",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7732,7 +7574,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "5f08a403015b",
       "timestamp": "2026-05-06T13:52:00.313747",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7755,7 +7597,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "1e4df0227198",
       "timestamp": "2026-05-06T13:52:00.313769",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7778,7 +7620,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "74fcbfe15d5b",
       "timestamp": "2026-05-06T13:52:00.313790",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7801,7 +7643,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "734b0daa1dc7",
       "timestamp": "2026-05-06T13:52:00.313808",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -11530,6 +11372,144 @@
       "status": "active",
       "outcome_score": null,
       "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "3c34d24cb284",
+      "timestamp": "2026-05-13T14:13:47.984846",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "363759daa785",
+      "timestamp": "2026-05-13T14:13:47.984901",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "c361d48eeffd",
+      "timestamp": "2026-05-13T14:13:47.984928",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "4dbce27db3f6",
+      "timestamp": "2026-05-13T14:13:47.984949",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "660e321a6a75",
+      "timestamp": "2026-05-13T14:13:47.984970",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "595ccb151842",
+      "timestamp": "2026-05-13T14:13:47.984987",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "TRANSITION",
       "reasoning_type": "general"
     }
   ],
