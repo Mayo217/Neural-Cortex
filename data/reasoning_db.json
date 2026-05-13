@@ -1,156 +1,6 @@
 {
   "chains": [
     {
-      "agent": "adversary",
-      "observations": [
-        "The WEAKEST THESIS is the RISK_ON Regime Continuation, with a confidence level of 70."
-      ],
-      "logic": [
-        "The RISK_ON Regime Continuation thesis -> relies on the continuation of upward trends in multiple indices -> implication of continued bullish sentiment."
-      ],
-      "counters": [
-        "However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran conflict, could disrupt market sentiment and lead to a correction or reversal of the current trend."
-      ],
-      "conclusions": [
-        "The RISK_ON Regime Continuation thesis is vulnerable to disruptions from various factors, including geopolitical events and economic uncertainty, and its continuation is not guaranteed."
-      ],
-      "dependencies": [
-        "The outcome of the Indian Market Uncertainty thesis, which could be influenced by various factors, including government policies and economic data."
-      ],
-      "falsifications": [
-        "The Indian Market Uncertainty thesis is resolved or becomes less significant, leading to a change in market sentiment and trend."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The RISK_ON regime is at 62%, with upward trends in multiple indices, including SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT.\nLOGIC: The current upward trends and RISK_ON regime -> suggest a bullish sentiment in the market -> implication of continued growth in the market.\nCOUNTER: However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran conflict, could disrupt market sentiment and lead to a correction or reversal of the current trend",
-      "id": "2a4356f7e0f9",
-      "timestamp": "2026-04-20T07:30:25.433227",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "sentiment_contrarian"
-    },
-    {
-      "agent": "adversary",
-      "observations": [
-        "The BIGGEST BLIND SPOT is the US-Iran conflict, which could have a significant impact on the market."
-      ],
-      "logic": [
-        "The US-Iran conflict -> potential for geopolitical instability and market disruption -> implication of potential correction or reversal of the current trend."
-      ],
-      "counters": [
-        "However, the current upward trends in multiple indices, including SP500 and NIFTY50, could suggest a stronger market and a potential for continued growth."
-      ],
-      "conclusions": [
-        "The US-Iran conflict is a significant risk factor that could impact the market, and its escalation or resolution could have a major impact on the market's sentiment and trend."
-      ],
-      "dependencies": [
-        "The resolution or escalation of the US-Iran conflict and the Indian Market Uncertainty thesis, which could significantly impact the market's sentiment and trend."
-      ],
-      "falsifications": [
-        "The RISK_ON regime falls below 50% or the Indian Market Uncertainty thesis is resolved, leading to a change in market sentiment and trend."
-      ],
-      "assets": [],
-      "raw_excerpt": "OBSERVE: The RISK_ON regime is at 62%, with upward trends in multiple indices, including SP500, NIFTY50, GOLD, BITCOIN, and OIL_BRENT.\nLOGIC: The current upward trends and RISK_ON regime -> suggest a bullish sentiment in the market -> implication of continued growth in the market.\nCOUNTER: However, the presence of significant blind spots, such as the Indian Market Uncertainty thesis and the US-Iran conflict, could disrupt market sentiment and lead to a correction or reversal of the current trend",
-      "id": "fd9f377c806e",
-      "timestamp": "2026-04-20T07:30:25.433227",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "RISK_ON",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "upstream",
-      "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "6443b6b11363",
-      "timestamp": "2026-04-20T16:03:11.589564",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "flow",
-      "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "4df035c52b79",
-      "timestamp": "2026-04-20T16:03:11.589616",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "market",
-      "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "7e94cf1da688",
-      "timestamp": "2026-04-20T16:03:11.589643",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
-      "agent": "narrative",
-      "observations": [
-        "LLM ERROR"
-      ],
-      "logic": [
-        "(unstructured - extracted from prose)"
-      ],
-      "counters": [],
-      "conclusions": [
-        "LLM ERROR"
-      ],
-      "dependencies": [],
-      "falsifications": [],
-      "assets": [],
-      "raw_excerpt": "LLM ERROR",
-      "id": "7be2bd443a8f",
-      "timestamp": "2026-04-20T16:03:11.589665",
-      "status": "expired",
-      "outcome_score": null,
-      "regime": "TRANSITION",
-      "reasoning_type": "general"
-    },
-    {
       "agent": "synthesis",
       "observations": [
         "LLM ERROR"
@@ -7666,7 +7516,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "c511e8fcd9aa",
       "timestamp": "2026-05-06T19:29:31.769563",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7689,7 +7539,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "878bb9e740dd",
       "timestamp": "2026-05-06T19:29:31.769616",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7712,7 +7562,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "d0cac3a0d33f",
       "timestamp": "2026-05-06T19:29:31.769642",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7735,7 +7585,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "1b743e759b58",
       "timestamp": "2026-05-06T19:29:31.769668",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7758,7 +7608,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "a9feb95111e0",
       "timestamp": "2026-05-06T19:29:31.769689",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -7781,7 +7631,7 @@
       "raw_excerpt": "LLM ERROR",
       "id": "56677c34d03b",
       "timestamp": "2026-05-06T19:29:31.769705",
-      "status": "active",
+      "status": "expired",
       "outcome_score": null,
       "regime": "RISK_ON",
       "reasoning_type": "general"
@@ -11510,6 +11360,144 @@
       "status": "active",
       "outcome_score": null,
       "regime": "TRANSITION",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "upstream",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "cc3415382e9c",
+      "timestamp": "2026-05-13T19:46:11.979525",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "flow",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "845dcf226d2a",
+      "timestamp": "2026-05-13T19:46:11.979570",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "market",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "55da50236b16",
+      "timestamp": "2026-05-13T19:46:11.979595",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "narrative",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "406f4d6252d3",
+      "timestamp": "2026-05-13T19:46:11.979620",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "synthesis",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "11d676d7ea30",
+      "timestamp": "2026-05-13T19:46:11.979642",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
+      "reasoning_type": "general"
+    },
+    {
+      "agent": "adversary",
+      "observations": [
+        "LLM ERROR"
+      ],
+      "logic": [
+        "(unstructured - extracted from prose)"
+      ],
+      "counters": [],
+      "conclusions": [
+        "LLM ERROR"
+      ],
+      "dependencies": [],
+      "falsifications": [],
+      "assets": [],
+      "raw_excerpt": "LLM ERROR",
+      "id": "8782091ec73d",
+      "timestamp": "2026-05-13T19:46:11.979658",
+      "status": "active",
+      "outcome_score": null,
+      "regime": "RISK_ON",
       "reasoning_type": "general"
     }
   ],
