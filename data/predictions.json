@@ -1,294 +1,6 @@
 {
   "active": [
     {
-      "id": "pred_96746685bfe9",
-      "asset": "SP500",
-      "timeframe_days": 5,
-      "distribution": {
-        "down_big": 0.0944,
-        "down": 0.1517,
-        "flat": 0.2284,
-        "up": 0.3246,
-        "up_big": 0.201
-      },
-      "call": {
-        "direction": "UP",
-        "conviction": "MED",
-        "down_probability": 0.246,
-        "up_probability": 0.526,
-        "flat_probability": 0.228,
-        "extreme_down": 0.094,
-        "extreme_up": 0.201
-      },
-      "drivers": [
-        "commodity_cycle",
-        "correlation",
-        "fx_pressure"
-      ],
-      "regime": "RISK_ON",
-      "entry_price": 7563.6299,
-      "signals_snapshot": [
-        [
-          "fx_pressure",
-          "bullish",
-          0.611
-        ],
-        [
-          "commodity_cycle",
-          "bullish",
-          1.0
-        ],
-        [
-          "correlation",
-          "neutral",
-          0.5
-        ]
-      ],
-      "created": "2026-05-29T09:40:14.785636",
-      "expires": "2026-06-03T09:40:14.785637",
-      "status": "active"
-    },
-    {
-      "id": "pred_64e852eb2c55",
-      "asset": "NIFTY50",
-      "timeframe_days": 5,
-      "distribution": {
-        "down_big": 0.0944,
-        "down": 0.1417,
-        "flat": 0.2284,
-        "up": 0.3346,
-        "up_big": 0.201
-      },
-      "call": {
-        "direction": "UP",
-        "conviction": "MED",
-        "down_probability": 0.236,
-        "up_probability": 0.536,
-        "flat_probability": 0.228,
-        "extreme_down": 0.094,
-        "extreme_up": 0.201
-      },
-      "drivers": [
-        "commodity_cycle",
-        "correlation",
-        "fx_pressure"
-      ],
-      "regime": "RISK_ON",
-      "entry_price": 23517.0,
-      "signals_snapshot": [
-        [
-          "fx_pressure",
-          "bullish",
-          0.611
-        ],
-        [
-          "commodity_cycle",
-          "bullish",
-          1.0
-        ],
-        [
-          "correlation",
-          "neutral",
-          0.5
-        ]
-      ],
-      "created": "2026-05-29T09:40:14.785713",
-      "expires": "2026-06-03T09:40:14.785714",
-      "status": "active"
-    },
-    {
-      "id": "pred_bda81ebf671b",
-      "asset": "GOLD",
-      "timeframe_days": 5,
-      "distribution": {
-        "down_big": 0.0944,
-        "down": 0.1217,
-        "flat": 0.2284,
-        "up": 0.3546,
-        "up_big": 0.201
-      },
-      "call": {
-        "direction": "UP",
-        "conviction": "MED",
-        "down_probability": 0.216,
-        "up_probability": 0.556,
-        "flat_probability": 0.228,
-        "extreme_down": 0.094,
-        "extreme_up": 0.201
-      },
-      "drivers": [
-        "commodity_cycle",
-        "correlation",
-        "fx_pressure"
-      ],
-      "regime": "RISK_ON",
-      "entry_price": 4561.7998,
-      "signals_snapshot": [
-        [
-          "fx_pressure",
-          "bullish",
-          0.611
-        ],
-        [
-          "commodity_cycle",
-          "bullish",
-          1.0
-        ],
-        [
-          "correlation",
-          "neutral",
-          0.5
-        ]
-      ],
-      "created": "2026-05-29T09:40:14.785772",
-      "expires": "2026-06-03T09:40:14.785773",
-      "status": "active"
-    },
-    {
-      "id": "pred_3be29eddf8b0",
-      "asset": "BITCOIN",
-      "timeframe_days": 5,
-      "distribution": {
-        "down_big": 0.0944,
-        "down": 0.1417,
-        "flat": 0.2284,
-        "up": 0.3346,
-        "up_big": 0.201
-      },
-      "call": {
-        "direction": "UP",
-        "conviction": "MED",
-        "down_probability": 0.236,
-        "up_probability": 0.536,
-        "flat_probability": 0.228,
-        "extreme_down": 0.094,
-        "extreme_up": 0.201
-      },
-      "drivers": [
-        "commodity_cycle",
-        "correlation",
-        "fx_pressure"
-      ],
-      "regime": "RISK_ON",
-      "entry_price": 73730.3828,
-      "signals_snapshot": [
-        [
-          "fx_pressure",
-          "bullish",
-          0.611
-        ],
-        [
-          "commodity_cycle",
-          "bullish",
-          1.0
-        ],
-        [
-          "correlation",
-          "neutral",
-          0.5
-        ]
-      ],
-      "created": "2026-05-29T09:40:14.785825",
-      "expires": "2026-06-03T09:40:14.785826",
-      "status": "active"
-    },
-    {
-      "id": "pred_acc8dfe3dcb5",
-      "asset": "OIL_BRENT",
-      "timeframe_days": 5,
-      "distribution": {
-        "down_big": 0.0944,
-        "down": 0.0917,
-        "flat": 0.2284,
-        "up": 0.3846,
-        "up_big": 0.201
-      },
-      "call": {
-        "direction": "UP",
-        "conviction": "MED",
-        "down_probability": 0.186,
-        "up_probability": 0.586,
-        "flat_probability": 0.228,
-        "extreme_down": 0.094,
-        "extreme_up": 0.201
-      },
-      "drivers": [
-        "commodity_cycle",
-        "correlation",
-        "fx_pressure"
-      ],
-      "regime": "RISK_ON",
-      "entry_price": 90.72,
-      "signals_snapshot": [
-        [
-          "fx_pressure",
-          "bullish",
-          0.611
-        ],
-        [
-          "commodity_cycle",
-          "bullish",
-          1.0
-        ],
-        [
-          "correlation",
-          "neutral",
-          0.5
-        ]
-      ],
-      "created": "2026-05-29T09:40:14.785901",
-      "expires": "2026-06-03T09:40:14.785902",
-      "status": "active"
-    },
-    {
-      "id": "pred_b980139c4a7c",
-      "asset": "DXY",
-      "timeframe_days": 5,
-      "distribution": {
-        "down_big": 0.0944,
-        "down": 0.1217,
-        "flat": 0.2284,
-        "up": 0.3546,
-        "up_big": 0.201
-      },
-      "call": {
-        "direction": "UP",
-        "conviction": "MED",
-        "down_probability": 0.216,
-        "up_probability": 0.556,
-        "flat_probability": 0.228,
-        "extreme_down": 0.094,
-        "extreme_up": 0.201
-      },
-      "drivers": [
-        "commodity_cycle",
-        "correlation",
-        "fx_pressure"
-      ],
-      "regime": "RISK_ON",
-      "entry_price": 99.112,
-      "signals_snapshot": [
-        [
-          "fx_pressure",
-          "bullish",
-          0.611
-        ],
-        [
-          "commodity_cycle",
-          "bullish",
-          1.0
-        ],
-        [
-          "correlation",
-          "neutral",
-          0.5
-        ]
-      ],
-      "created": "2026-05-29T09:40:14.785952",
-      "expires": "2026-06-03T09:40:14.785953",
-      "status": "active"
-    },
-    {
       "id": "pred_00712f7fffbb",
       "asset": "SP500",
       "timeframe_days": 30,
@@ -862,6 +574,294 @@
       ],
       "created": "2026-06-03T02:57:25.739214",
       "expires": "2026-06-13T02:57:25.739216",
+      "status": "active"
+    },
+    {
+      "id": "pred_bc5c189f31bf",
+      "asset": "SP500",
+      "timeframe_days": 5,
+      "distribution": {
+        "down_big": 0.1105,
+        "down": 0.1479,
+        "flat": 0.2325,
+        "up": 0.3083,
+        "up_big": 0.2008
+      },
+      "call": {
+        "direction": "UP",
+        "conviction": "MED",
+        "down_probability": 0.258,
+        "up_probability": 0.509,
+        "flat_probability": 0.233,
+        "extreme_down": 0.111,
+        "extreme_up": 0.201
+      },
+      "drivers": [
+        "commodity_cycle",
+        "fx_pressure",
+        "correlation"
+      ],
+      "regime": "RISK_ON",
+      "entry_price": 7609.7798,
+      "signals_snapshot": [
+        [
+          "fx_pressure",
+          "bullish",
+          0.582
+        ],
+        [
+          "commodity_cycle",
+          "bullish",
+          1.0
+        ],
+        [
+          "correlation",
+          "neutral",
+          0.25
+        ]
+      ],
+      "created": "2026-06-03T10:46:12.378590",
+      "expires": "2026-06-08T10:46:12.378591",
+      "status": "active"
+    },
+    {
+      "id": "pred_448f607cf462",
+      "asset": "NIFTY50",
+      "timeframe_days": 5,
+      "distribution": {
+        "down_big": 0.1105,
+        "down": 0.1379,
+        "flat": 0.2325,
+        "up": 0.3183,
+        "up_big": 0.2008
+      },
+      "call": {
+        "direction": "UP",
+        "conviction": "MED",
+        "down_probability": 0.248,
+        "up_probability": 0.519,
+        "flat_probability": 0.233,
+        "extreme_down": 0.111,
+        "extreme_up": 0.201
+      },
+      "drivers": [
+        "commodity_cycle",
+        "fx_pressure",
+        "correlation"
+      ],
+      "regime": "RISK_ON",
+      "entry_price": 23405.5996,
+      "signals_snapshot": [
+        [
+          "fx_pressure",
+          "bullish",
+          0.582
+        ],
+        [
+          "commodity_cycle",
+          "bullish",
+          1.0
+        ],
+        [
+          "correlation",
+          "neutral",
+          0.25
+        ]
+      ],
+      "created": "2026-06-03T10:46:12.378690",
+      "expires": "2026-06-08T10:46:12.378691",
+      "status": "active"
+    },
+    {
+      "id": "pred_ee03949bf50f",
+      "asset": "GOLD",
+      "timeframe_days": 5,
+      "distribution": {
+        "down_big": 0.1105,
+        "down": 0.1179,
+        "flat": 0.2325,
+        "up": 0.3383,
+        "up_big": 0.2008
+      },
+      "call": {
+        "direction": "UP",
+        "conviction": "MED",
+        "down_probability": 0.228,
+        "up_probability": 0.539,
+        "flat_probability": 0.233,
+        "extreme_down": 0.111,
+        "extreme_up": 0.201
+      },
+      "drivers": [
+        "commodity_cycle",
+        "fx_pressure",
+        "correlation"
+      ],
+      "regime": "RISK_ON",
+      "entry_price": 4488.2998,
+      "signals_snapshot": [
+        [
+          "fx_pressure",
+          "bullish",
+          0.582
+        ],
+        [
+          "commodity_cycle",
+          "bullish",
+          1.0
+        ],
+        [
+          "correlation",
+          "neutral",
+          0.25
+        ]
+      ],
+      "created": "2026-06-03T10:46:12.378753",
+      "expires": "2026-06-08T10:46:12.378754",
+      "status": "active"
+    },
+    {
+      "id": "pred_1cae4192d7f4",
+      "asset": "BITCOIN",
+      "timeframe_days": 5,
+      "distribution": {
+        "down_big": 0.1105,
+        "down": 0.0879,
+        "flat": 0.2325,
+        "up": 0.3683,
+        "up_big": 0.2008
+      },
+      "call": {
+        "direction": "UP",
+        "conviction": "MED",
+        "down_probability": 0.198,
+        "up_probability": 0.569,
+        "flat_probability": 0.233,
+        "extreme_down": 0.111,
+        "extreme_up": 0.201
+      },
+      "drivers": [
+        "commodity_cycle",
+        "fx_pressure",
+        "correlation"
+      ],
+      "regime": "RISK_ON",
+      "entry_price": 67129.1797,
+      "signals_snapshot": [
+        [
+          "fx_pressure",
+          "bullish",
+          0.582
+        ],
+        [
+          "commodity_cycle",
+          "bullish",
+          1.0
+        ],
+        [
+          "correlation",
+          "neutral",
+          0.25
+        ]
+      ],
+      "created": "2026-06-03T10:46:12.378811",
+      "expires": "2026-06-08T10:46:12.378812",
+      "status": "active"
+    },
+    {
+      "id": "pred_1b7e708dcf15",
+      "asset": "OIL_BRENT",
+      "timeframe_days": 5,
+      "distribution": {
+        "down_big": 0.1105,
+        "down": 0.0879,
+        "flat": 0.2325,
+        "up": 0.3683,
+        "up_big": 0.2008
+      },
+      "call": {
+        "direction": "UP",
+        "conviction": "MED",
+        "down_probability": 0.198,
+        "up_probability": 0.569,
+        "flat_probability": 0.233,
+        "extreme_down": 0.111,
+        "extreme_up": 0.201
+      },
+      "drivers": [
+        "commodity_cycle",
+        "fx_pressure",
+        "correlation"
+      ],
+      "regime": "RISK_ON",
+      "entry_price": 98.46,
+      "signals_snapshot": [
+        [
+          "fx_pressure",
+          "bullish",
+          0.582
+        ],
+        [
+          "commodity_cycle",
+          "bullish",
+          1.0
+        ],
+        [
+          "correlation",
+          "neutral",
+          0.25
+        ]
+      ],
+      "created": "2026-06-03T10:46:12.378867",
+      "expires": "2026-06-08T10:46:12.378868",
+      "status": "active"
+    },
+    {
+      "id": "pred_c405979bf6c3",
+      "asset": "DXY",
+      "timeframe_days": 5,
+      "distribution": {
+        "down_big": 0.1105,
+        "down": 0.1179,
+        "flat": 0.2325,
+        "up": 0.3383,
+        "up_big": 0.2008
+      },
+      "call": {
+        "direction": "UP",
+        "conviction": "MED",
+        "down_probability": 0.228,
+        "up_probability": 0.539,
+        "flat_probability": 0.233,
+        "extreme_down": 0.111,
+        "extreme_up": 0.201
+      },
+      "drivers": [
+        "commodity_cycle",
+        "fx_pressure",
+        "correlation"
+      ],
+      "regime": "RISK_ON",
+      "entry_price": 99.34,
+      "signals_snapshot": [
+        [
+          "fx_pressure",
+          "bullish",
+          0.582
+        ],
+        [
+          "commodity_cycle",
+          "bullish",
+          1.0
+        ],
+        [
+          "correlation",
+          "neutral",
+          0.25
+        ]
+      ],
+      "created": "2026-06-03T10:46:12.378923",
+      "expires": "2026-06-08T10:46:12.378924",
       "status": "active"
     }
   ],
@@ -7777,6 +7777,366 @@
       },
       "resolved_at": "2026-06-03T02:57:25.738436",
       "direction_correct": false
+    },
+    {
+      "id": "pred_96746685bfe9",
+      "asset": "SP500",
+      "timeframe_days": 5,
+      "distribution": {
+        "down_big": 0.0944,
+        "down": 0.1517,
+        "flat": 0.2284,
+        "up": 0.3246,
+        "up_big": 0.201
+      },
+      "call": {
+        "direction": "UP",
+        "conviction": "MED",
+        "down_probability": 0.246,
+        "up_probability": 0.526,
+        "flat_probability": 0.228,
+        "extreme_down": 0.094,
+        "extreme_up": 0.201
+      },
+      "drivers": [
+        "commodity_cycle",
+        "correlation",
+        "fx_pressure"
+      ],
+      "regime": "RISK_ON",
+      "entry_price": 7563.6299,
+      "signals_snapshot": [
+        [
+          "fx_pressure",
+          "bullish",
+          0.611
+        ],
+        [
+          "commodity_cycle",
+          "bullish",
+          1.0
+        ],
+        [
+          "correlation",
+          "neutral",
+          0.5
+        ]
+      ],
+      "created": "2026-05-29T09:40:14.785636",
+      "expires": "2026-06-03T09:40:14.785637",
+      "status": "resolved",
+      "exit_price": 7609.7798,
+      "actual_change_pct": 0.6102,
+      "brier_result": {
+        "brier_standard": 0.116131,
+        "brier_weighted": 0.116131,
+        "actual_bucket": "up",
+        "actual_change": 0.6102,
+        "predicted_prob_for_actual": 0.3246,
+        "magnitude_weight": 1.0
+      },
+      "resolved_at": "2026-06-03T10:46:12.378141",
+      "direction_correct": true
+    },
+    {
+      "id": "pred_64e852eb2c55",
+      "asset": "NIFTY50",
+      "timeframe_days": 5,
+      "distribution": {
+        "down_big": 0.0944,
+        "down": 0.1417,
+        "flat": 0.2284,
+        "up": 0.3346,
+        "up_big": 0.201
+      },
+      "call": {
+        "direction": "UP",
+        "conviction": "MED",
+        "down_probability": 0.236,
+        "up_probability": 0.536,
+        "flat_probability": 0.228,
+        "extreme_down": 0.094,
+        "extreme_up": 0.201
+      },
+      "drivers": [
+        "commodity_cycle",
+        "correlation",
+        "fx_pressure"
+      ],
+      "regime": "RISK_ON",
+      "entry_price": 23517.0,
+      "signals_snapshot": [
+        [
+          "fx_pressure",
+          "bullish",
+          0.611
+        ],
+        [
+          "commodity_cycle",
+          "bullish",
+          1.0
+        ],
+        [
+          "correlation",
+          "neutral",
+          0.5
+        ]
+      ],
+      "created": "2026-05-29T09:40:14.785713",
+      "expires": "2026-06-03T09:40:14.785714",
+      "status": "resolved",
+      "exit_price": 23405.5996,
+      "actual_change_pct": -0.4737,
+      "brier_result": {
+        "brier_standard": 0.155343,
+        "brier_weighted": 0.155343,
+        "actual_bucket": "flat",
+        "actual_change": -0.4737,
+        "predicted_prob_for_actual": 0.2284,
+        "magnitude_weight": 1.0
+      },
+      "resolved_at": "2026-06-03T10:46:12.378141",
+      "direction_correct": false
+    },
+    {
+      "id": "pred_bda81ebf671b",
+      "asset": "GOLD",
+      "timeframe_days": 5,
+      "distribution": {
+        "down_big": 0.0944,
+        "down": 0.1217,
+        "flat": 0.2284,
+        "up": 0.3546,
+        "up_big": 0.201
+      },
+      "call": {
+        "direction": "UP",
+        "conviction": "MED",
+        "down_probability": 0.216,
+        "up_probability": 0.556,
+        "flat_probability": 0.228,
+        "extreme_down": 0.094,
+        "extreme_up": 0.201
+      },
+      "drivers": [
+        "commodity_cycle",
+        "correlation",
+        "fx_pressure"
+      ],
+      "regime": "RISK_ON",
+      "entry_price": 4561.7998,
+      "signals_snapshot": [
+        [
+          "fx_pressure",
+          "bullish",
+          0.611
+        ],
+        [
+          "commodity_cycle",
+          "bullish",
+          1.0
+        ],
+        [
+          "correlation",
+          "neutral",
+          0.5
+        ]
+      ],
+      "created": "2026-05-29T09:40:14.785772",
+      "expires": "2026-06-03T09:40:14.785773",
+      "status": "resolved",
+      "exit_price": 4488.2998,
+      "actual_change_pct": -1.6112,
+      "brier_result": {
+        "brier_standard": 0.199726,
+        "brier_weighted": 0.299589,
+        "actual_bucket": "down",
+        "actual_change": -1.6112,
+        "predicted_prob_for_actual": 0.1217,
+        "magnitude_weight": 1.5
+      },
+      "resolved_at": "2026-06-03T10:46:12.378141",
+      "direction_correct": false
+    },
+    {
+      "id": "pred_3be29eddf8b0",
+      "asset": "BITCOIN",
+      "timeframe_days": 5,
+      "distribution": {
+        "down_big": 0.0944,
+        "down": 0.1417,
+        "flat": 0.2284,
+        "up": 0.3346,
+        "up_big": 0.201
+      },
+      "call": {
+        "direction": "UP",
+        "conviction": "MED",
+        "down_probability": 0.236,
+        "up_probability": 0.536,
+        "flat_probability": 0.228,
+        "extreme_down": 0.094,
+        "extreme_up": 0.201
+      },
+      "drivers": [
+        "commodity_cycle",
+        "correlation",
+        "fx_pressure"
+      ],
+      "regime": "RISK_ON",
+      "entry_price": 73730.3828,
+      "signals_snapshot": [
+        [
+          "fx_pressure",
+          "bullish",
+          0.611
+        ],
+        [
+          "commodity_cycle",
+          "bullish",
+          1.0
+        ],
+        [
+          "correlation",
+          "neutral",
+          0.5
+        ]
+      ],
+      "created": "2026-05-29T09:40:14.785825",
+      "expires": "2026-06-03T09:40:14.785826",
+      "status": "resolved",
+      "exit_price": 67129.1797,
+      "actual_change_pct": -8.9532,
+      "brier_result": {
+        "brier_standard": 0.208943,
+        "brier_weighted": 0.626829,
+        "actual_bucket": "down_big",
+        "actual_change": -8.9532,
+        "predicted_prob_for_actual": 0.0944,
+        "magnitude_weight": 3.0
+      },
+      "resolved_at": "2026-06-03T10:46:12.378141",
+      "direction_correct": false
+    },
+    {
+      "id": "pred_acc8dfe3dcb5",
+      "asset": "OIL_BRENT",
+      "timeframe_days": 5,
+      "distribution": {
+        "down_big": 0.0944,
+        "down": 0.0917,
+        "flat": 0.2284,
+        "up": 0.3846,
+        "up_big": 0.201
+      },
+      "call": {
+        "direction": "UP",
+        "conviction": "MED",
+        "down_probability": 0.186,
+        "up_probability": 0.586,
+        "flat_probability": 0.228,
+        "extreme_down": 0.094,
+        "extreme_up": 0.201
+      },
+      "drivers": [
+        "commodity_cycle",
+        "correlation",
+        "fx_pressure"
+      ],
+      "regime": "RISK_ON",
+      "entry_price": 90.72,
+      "signals_snapshot": [
+        [
+          "fx_pressure",
+          "bullish",
+          0.611
+        ],
+        [
+          "commodity_cycle",
+          "bullish",
+          1.0
+        ],
+        [
+          "correlation",
+          "neutral",
+          0.5
+        ]
+      ],
+      "created": "2026-05-29T09:40:14.785901",
+      "expires": "2026-06-03T09:40:14.785902",
+      "status": "resolved",
+      "exit_price": 98.46,
+      "actual_change_pct": 8.5317,
+      "brier_result": {
+        "brier_standard": 0.171161,
+        "brier_weighted": 0.513483,
+        "actual_bucket": "up_big",
+        "actual_change": 8.5317,
+        "predicted_prob_for_actual": 0.201,
+        "magnitude_weight": 3.0
+      },
+      "resolved_at": "2026-06-03T10:46:12.378141",
+      "direction_correct": true
+    },
+    {
+      "id": "pred_b980139c4a7c",
+      "asset": "DXY",
+      "timeframe_days": 5,
+      "distribution": {
+        "down_big": 0.0944,
+        "down": 0.1217,
+        "flat": 0.2284,
+        "up": 0.3546,
+        "up_big": 0.201
+      },
+      "call": {
+        "direction": "UP",
+        "conviction": "MED",
+        "down_probability": 0.216,
+        "up_probability": 0.556,
+        "flat_probability": 0.228,
+        "extreme_down": 0.094,
+        "extreme_up": 0.201
+      },
+      "drivers": [
+        "commodity_cycle",
+        "correlation",
+        "fx_pressure"
+      ],
+      "regime": "RISK_ON",
+      "entry_price": 99.112,
+      "signals_snapshot": [
+        [
+          "fx_pressure",
+          "bullish",
+          0.611
+        ],
+        [
+          "commodity_cycle",
+          "bullish",
+          1.0
+        ],
+        [
+          "correlation",
+          "neutral",
+          0.5
+        ]
+      ],
+      "created": "2026-05-29T09:40:14.785952",
+      "expires": "2026-06-03T09:40:14.785953",
+      "status": "resolved",
+      "exit_price": 99.34,
+      "actual_change_pct": 0.23,
+      "brier_result": {
+        "brier_standard": 0.157046,
+        "brier_weighted": 0.157046,
+        "actual_bucket": "flat",
+        "actual_change": 0.23,
+        "predicted_prob_for_actual": 0.2284,
+        "magnitude_weight": 1.0
+      },
+      "resolved_at": "2026-06-03T10:46:12.378141",
+      "direction_correct": true
     }
   ]
 }

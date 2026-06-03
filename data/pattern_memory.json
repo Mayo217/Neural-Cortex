@@ -1961,12 +1961,114 @@
       "actual_change": -0.0685,
       "outcome_bucket": "flat",
       "ts": "2026-06-03T02:57:25.738770"
+    },
+    {
+      "fingerprint": "RISK_ON|commodity_cycle|correlation|fx_pressure",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "commodity_cycle",
+        "correlation",
+        "fx_pressure"
+      ],
+      "signal_dirs": {
+        "commodity_cycle": "neutral",
+        "correlation": "neutral",
+        "fx_pressure": "neutral"
+      },
+      "actual_change": 0.6102,
+      "outcome_bucket": "up",
+      "ts": "2026-06-03T10:46:12.378277"
+    },
+    {
+      "fingerprint": "RISK_ON|commodity_cycle|correlation|fx_pressure",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "commodity_cycle",
+        "correlation",
+        "fx_pressure"
+      ],
+      "signal_dirs": {
+        "commodity_cycle": "neutral",
+        "correlation": "neutral",
+        "fx_pressure": "neutral"
+      },
+      "actual_change": -0.4737,
+      "outcome_bucket": "flat",
+      "ts": "2026-06-03T10:46:12.378323"
+    },
+    {
+      "fingerprint": "RISK_ON|commodity_cycle|correlation|fx_pressure",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "commodity_cycle",
+        "correlation",
+        "fx_pressure"
+      ],
+      "signal_dirs": {
+        "commodity_cycle": "neutral",
+        "correlation": "neutral",
+        "fx_pressure": "neutral"
+      },
+      "actual_change": -1.6112,
+      "outcome_bucket": "down",
+      "ts": "2026-06-03T10:46:12.378361"
+    },
+    {
+      "fingerprint": "RISK_ON|commodity_cycle|correlation|fx_pressure",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "commodity_cycle",
+        "correlation",
+        "fx_pressure"
+      ],
+      "signal_dirs": {
+        "commodity_cycle": "neutral",
+        "correlation": "neutral",
+        "fx_pressure": "neutral"
+      },
+      "actual_change": -8.9532,
+      "outcome_bucket": "down_big",
+      "ts": "2026-06-03T10:46:12.378393"
+    },
+    {
+      "fingerprint": "RISK_ON|commodity_cycle|correlation|fx_pressure",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "commodity_cycle",
+        "correlation",
+        "fx_pressure"
+      ],
+      "signal_dirs": {
+        "commodity_cycle": "neutral",
+        "correlation": "neutral",
+        "fx_pressure": "neutral"
+      },
+      "actual_change": 8.5317,
+      "outcome_bucket": "up_big",
+      "ts": "2026-06-03T10:46:12.378424"
+    },
+    {
+      "fingerprint": "RISK_ON|commodity_cycle|correlation|fx_pressure",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "commodity_cycle",
+        "correlation",
+        "fx_pressure"
+      ],
+      "signal_dirs": {
+        "commodity_cycle": "neutral",
+        "correlation": "neutral",
+        "fx_pressure": "neutral"
+      },
+      "actual_change": 0.23,
+      "outcome_bucket": "flat",
+      "ts": "2026-06-03T10:46:12.378460"
     }
   ],
   "pattern_index": {
     "TRANSITION|commodity_cycle|correlation|fx_pressure|sentiment|vol_structure": 18,
     "TRANSITION|correlation|credit|fx_pressure|vol_structure": 6,
     "RISK_ON|commodity_cycle|fx_pressure": 30,
-    "RISK_ON|commodity_cycle|correlation|fx_pressure": 60
+    "RISK_ON|commodity_cycle|correlation|fx_pressure": 66
   }
 }
