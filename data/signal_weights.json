@@ -73,7 +73,7 @@
     "correlation": {
       "CRISIS": 0.8,
       "RISK_OFF": 0.7,
-      "TRANSITION": 0.6282,
+      "TRANSITION": 0.592,
       "RISK_ON": 0.1915,
       "EUPHORIA": 0.5
     },
@@ -85,8 +85,8 @@
       "EUPHORIA": 0.5
     }
   },
-  "update_count": 150,
-  "last_updated": "2026-06-23T09:25:50.133983",
+  "update_count": 156,
+  "last_updated": "2026-06-24T02:32:26.759363",
   "learning_history": [
     {
       "ts": "2026-04-08T16:22:26.497842",
@@ -2042,6 +2042,72 @@
       "actual_outcome": 1.411,
       "actual_bucket": "up",
       "pred_prob_for_actual": 0.2159,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-06-24T02:32:26.759182",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": -1.802,
+      "actual_bucket": "down",
+      "pred_prob_for_actual": 0.1983,
+      "magnitude_mult": 1.5
+    },
+    {
+      "ts": "2026-06-24T02:32:26.759222",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": -1.086,
+      "actual_bucket": "down",
+      "pred_prob_for_actual": 0.1983,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-06-24T02:32:26.759260",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": -3.409,
+      "actual_bucket": "down_big",
+      "pred_prob_for_actual": 0.1117,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-06-24T02:32:26.759296",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": -0.599,
+      "actual_bucket": "down",
+      "pred_prob_for_actual": 0.1683,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-06-24T02:32:26.759334",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": -3.778,
+      "actual_bucket": "down_big",
+      "pred_prob_for_actual": 0.1117,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-06-24T02:32:26.759365",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": 0.574,
+      "actual_bucket": "up",
+      "pred_prob_for_actual": 0.225,
       "magnitude_mult": 1.0
     }
   ]
