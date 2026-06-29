@@ -37,7 +37,7 @@
     },
     "commodity_cycle": {
       "CRISIS": 0.5,
-      "RISK_OFF": 0.5,
+      "RISK_OFF": 0.4774,
       "TRANSITION": 0.4459,
       "RISK_ON": 0.2404,
       "EUPHORIA": 0.4
@@ -72,7 +72,7 @@
     },
     "correlation": {
       "CRISIS": 0.8,
-      "RISK_OFF": 0.7,
+      "RISK_OFF": 0.6774,
       "TRANSITION": 0.592,
       "RISK_ON": 0.1915,
       "EUPHORIA": 0.5
@@ -85,8 +85,8 @@
       "EUPHORIA": 0.5
     }
   },
-  "update_count": 156,
-  "last_updated": "2026-06-24T02:32:26.759363",
+  "update_count": 162,
+  "last_updated": "2026-06-29T02:42:46.048248",
   "learning_history": [
     {
       "ts": "2026-04-08T16:22:26.497842",
@@ -2108,6 +2108,78 @@
       "actual_outcome": 0.574,
       "actual_bucket": "up",
       "pred_prob_for_actual": 0.225,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-06-29T02:42:46.048061",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "correlation",
+        "commodity_cycle"
+      ],
+      "actual_outcome": -0.155,
+      "actual_bucket": "flat",
+      "pred_prob_for_actual": 0.2426,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-06-29T02:42:46.048108",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "correlation",
+        "commodity_cycle"
+      ],
+      "actual_outcome": 0.973,
+      "actual_bucket": "up",
+      "pred_prob_for_actual": 0.2353,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-06-29T02:42:46.048151",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "correlation",
+        "commodity_cycle"
+      ],
+      "actual_outcome": -0.134,
+      "actual_bucket": "flat",
+      "pred_prob_for_actual": 0.2426,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-06-29T02:42:46.048189",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "correlation",
+        "commodity_cycle"
+      ],
+      "actual_outcome": -4.875,
+      "actual_bucket": "down_big",
+      "pred_prob_for_actual": 0.111,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-06-29T02:42:46.048222",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "correlation",
+        "commodity_cycle"
+      ],
+      "actual_outcome": -4.578,
+      "actual_bucket": "down_big",
+      "pred_prob_for_actual": 0.111,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-06-29T02:42:46.048249",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "correlation",
+        "commodity_cycle"
+      ],
+      "actual_outcome": -0.094,
+      "actual_bucket": "flat",
+      "pred_prob_for_actual": 0.2426,
       "magnitude_mult": 1.0
     }
   ]
