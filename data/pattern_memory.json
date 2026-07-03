@@ -2831,6 +2831,84 @@
       "actual_change": 1.7481,
       "outcome_bucket": "up",
       "ts": "2026-07-02T19:13:09.615818"
+    },
+    {
+      "fingerprint": "TRANSITION|correlation",
+      "regime": "TRANSITION",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": 0.1398,
+      "outcome_bucket": "flat",
+      "ts": "2026-07-03T13:47:06.229331"
+    },
+    {
+      "fingerprint": "TRANSITION|correlation",
+      "regime": "TRANSITION",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": 1.457,
+      "outcome_bucket": "up",
+      "ts": "2026-07-03T13:47:06.229363"
+    },
+    {
+      "fingerprint": "TRANSITION|correlation",
+      "regime": "TRANSITION",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": 1.1767,
+      "outcome_bucket": "up",
+      "ts": "2026-07-03T13:47:06.229394"
+    },
+    {
+      "fingerprint": "TRANSITION|correlation",
+      "regime": "TRANSITION",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": -0.5803,
+      "outcome_bucket": "down",
+      "ts": "2026-07-03T13:47:06.229434"
+    },
+    {
+      "fingerprint": "TRANSITION|correlation",
+      "regime": "TRANSITION",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": -6.9563,
+      "outcome_bucket": "down_big",
+      "ts": "2026-07-03T13:47:06.229465"
+    },
+    {
+      "fingerprint": "TRANSITION|correlation",
+      "regime": "TRANSITION",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": -0.3272,
+      "outcome_bucket": "flat",
+      "ts": "2026-07-03T13:47:06.229495"
     }
   ],
   "pattern_index": {
@@ -2840,7 +2918,7 @@
     "RISK_ON|commodity_cycle|correlation|fx_pressure": 84,
     "TRANSITION|correlation|fx_pressure": 6,
     "TRANSITION|commodity_cycle|correlation|fx_pressure": 12,
-    "TRANSITION|correlation": 6,
+    "TRANSITION|correlation": 12,
     "RISK_OFF|commodity_cycle|correlation": 6
   }
 }
