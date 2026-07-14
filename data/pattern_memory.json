@@ -3179,6 +3179,84 @@
       "actual_change": 0.1974,
       "outcome_bucket": "flat",
       "ts": "2026-07-13T14:11:45.066522"
+    },
+    {
+      "fingerprint": "RISK_ON|correlation",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": 0.4361,
+      "outcome_bucket": "flat",
+      "ts": "2026-07-14T13:14:29.139977"
+    },
+    {
+      "fingerprint": "RISK_ON|correlation",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": 0.0782,
+      "outcome_bucket": "flat",
+      "ts": "2026-07-14T13:14:29.140012"
+    },
+    {
+      "fingerprint": "RISK_ON|correlation",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": -0.828,
+      "outcome_bucket": "down",
+      "ts": "2026-07-14T13:14:29.140049"
+    },
+    {
+      "fingerprint": "RISK_ON|correlation",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": 1.4622,
+      "outcome_bucket": "up",
+      "ts": "2026-07-14T13:14:29.140089"
+    },
+    {
+      "fingerprint": "RISK_ON|correlation",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": 12.2691,
+      "outcome_bucket": "up_big",
+      "ts": "2026-07-14T13:14:29.140123"
+    },
+    {
+      "fingerprint": "RISK_ON|correlation",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": -0.2456,
+      "outcome_bucket": "flat",
+      "ts": "2026-07-14T13:14:29.140156"
     }
   ],
   "pattern_index": {
@@ -3191,6 +3269,7 @@
     "TRANSITION|correlation": 12,
     "RISK_OFF|commodity_cycle|correlation": 6,
     "RISK_OFF|commodity_cycle|sentiment": 6,
-    "TRANSITION|commodity_cycle|correlation": 12
+    "TRANSITION|commodity_cycle|correlation": 12,
+    "RISK_ON|correlation": 6
   }
 }

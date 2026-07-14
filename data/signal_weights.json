@@ -74,7 +74,7 @@
       "CRISIS": 0.8,
       "RISK_OFF": 0.6774,
       "TRANSITION": 0.5867,
-      "RISK_ON": 0.1477,
+      "RISK_ON": 0.1497,
       "EUPHORIA": 0.5
     },
     "pattern_match": {
@@ -85,8 +85,8 @@
       "EUPHORIA": 0.5
     }
   },
-  "update_count": 192,
-  "last_updated": "2026-07-13T14:11:45.066515",
+  "update_count": 198,
+  "last_updated": "2026-07-14T13:14:29.140148",
   "learning_history": [
     {
       "ts": "2026-04-08T16:22:26.497842",
@@ -2540,6 +2540,72 @@
       "actual_outcome": 0.197,
       "actual_bucket": "flat",
       "pred_prob_for_actual": 0.2251,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-07-14T13:14:29.139966",
+      "regime": "RISK_ON",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": 0.436,
+      "actual_bucket": "flat",
+      "pred_prob_for_actual": 0.211,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-07-14T13:14:29.140005",
+      "regime": "RISK_ON",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": 0.078,
+      "actual_bucket": "flat",
+      "pred_prob_for_actual": 0.211,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-07-14T13:14:29.140038",
+      "regime": "RISK_ON",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": -0.828,
+      "actual_bucket": "down",
+      "pred_prob_for_actual": 0.149,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-07-14T13:14:29.140078",
+      "regime": "RISK_ON",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": 1.462,
+      "actual_bucket": "up",
+      "pred_prob_for_actual": 0.317,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-07-14T13:14:29.140115",
+      "regime": "RISK_ON",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": 12.269,
+      "actual_bucket": "up_big",
+      "pred_prob_for_actual": 0.17,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-07-14T13:14:29.140149",
+      "regime": "RISK_ON",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": -0.246,
+      "actual_bucket": "flat",
+      "pred_prob_for_actual": 0.211,
       "magnitude_mult": 1.0
     }
   ]
