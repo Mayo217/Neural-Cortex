@@ -73,7 +73,7 @@
     "correlation": {
       "CRISIS": 0.8,
       "RISK_OFF": 0.6774,
-      "TRANSITION": 0.586,
+      "TRANSITION": 0.5812,
       "RISK_ON": 0.1497,
       "EUPHORIA": 0.5
     },
@@ -85,8 +85,8 @@
       "EUPHORIA": 0.5
     }
   },
-  "update_count": 228,
-  "last_updated": "2026-08-02T01:58:45.971138",
+  "update_count": 234,
+  "last_updated": "2026-08-03T02:01:36.926962",
   "learning_history": [
     {
       "ts": "2026-04-08T16:22:26.497842",
@@ -2949,6 +2949,72 @@
       "actual_bucket": "down",
       "pred_prob_for_actual": 0.2113,
       "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-08-03T02:01:36.926827",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": 1.272,
+      "actual_bucket": "up",
+      "pred_prob_for_actual": 0.2625,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-08-03T02:01:36.926858",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": 1.614,
+      "actual_bucket": "up",
+      "pred_prob_for_actual": 0.2625,
+      "magnitude_mult": 1.5
+    },
+    {
+      "ts": "2026-08-03T02:01:36.926882",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": 1.492,
+      "actual_bucket": "up",
+      "pred_prob_for_actual": 0.2625,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-08-03T02:01:36.926908",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": -2.728,
+      "actual_bucket": "down_big",
+      "pred_prob_for_actual": 0.12,
+      "magnitude_mult": 1.5
+    },
+    {
+      "ts": "2026-08-03T02:01:36.926939",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": -10.604,
+      "actual_bucket": "down_big",
+      "pred_prob_for_actual": 0.12,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-08-03T02:01:36.926963",
+      "regime": "TRANSITION",
+      "drivers": [
+        "correlation"
+      ],
+      "actual_outcome": -1.731,
+      "actual_bucket": "down",
+      "pred_prob_for_actual": 0.2275,
+      "magnitude_mult": 1.5
     }
   ]
 }
