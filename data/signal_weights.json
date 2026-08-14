@@ -31,21 +31,21 @@
     "fx_pressure": {
       "CRISIS": 0.7,
       "RISK_OFF": 0.6,
-      "TRANSITION": 0.3456,
+      "TRANSITION": 0.3481,
       "RISK_ON": 0.068,
       "EUPHORIA": 0.3
     },
     "commodity_cycle": {
       "CRISIS": 0.5,
       "RISK_OFF": 0.4635,
-      "TRANSITION": 0.431,
+      "TRANSITION": 0.4335,
       "RISK_ON": 0.1966,
       "EUPHORIA": 0.4
     },
     "equity_flow": {
       "CRISIS": 0.6,
       "RISK_OFF": 0.6,
-      "TRANSITION": 0.5009,
+      "TRANSITION": 0.5034,
       "RISK_ON": 0.7,
       "EUPHORIA": 0.7
     },
@@ -73,7 +73,7 @@
     "correlation": {
       "CRISIS": 0.8,
       "RISK_OFF": 0.6774,
-      "TRANSITION": 0.5865,
+      "TRANSITION": 0.589,
       "RISK_ON": 0.1497,
       "EUPHORIA": 0.5
     },
@@ -85,8 +85,8 @@
       "EUPHORIA": 0.5
     }
   },
-  "update_count": 252,
-  "last_updated": "2026-08-13T07:15:25.493258",
+  "update_count": 258,
+  "last_updated": "2026-08-14T07:12:45.696293",
   "learning_history": [
     {
       "ts": "2026-04-08T16:22:26.497842",
@@ -3254,6 +3254,90 @@
       "actual_outcome": 0.325,
       "actual_bucket": "flat",
       "pred_prob_for_actual": 0.2085,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-08-14T07:12:45.696078",
+      "regime": "TRANSITION",
+      "drivers": [
+        "fx_pressure",
+        "equity_flow",
+        "correlation",
+        "commodity_cycle"
+      ],
+      "actual_outcome": 0.533,
+      "actual_bucket": "up",
+      "pred_prob_for_actual": 0.3216,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-08-14T07:12:45.696137",
+      "regime": "TRANSITION",
+      "drivers": [
+        "fx_pressure",
+        "equity_flow",
+        "correlation",
+        "commodity_cycle"
+      ],
+      "actual_outcome": -0.951,
+      "actual_bucket": "down",
+      "pred_prob_for_actual": 0.153,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-08-14T07:12:45.696180",
+      "regime": "TRANSITION",
+      "drivers": [
+        "fx_pressure",
+        "equity_flow",
+        "correlation",
+        "commodity_cycle"
+      ],
+      "actual_outcome": -0.227,
+      "actual_bucket": "flat",
+      "pred_prob_for_actual": 0.2165,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-08-14T07:12:45.696222",
+      "regime": "TRANSITION",
+      "drivers": [
+        "fx_pressure",
+        "equity_flow",
+        "correlation",
+        "commodity_cycle"
+      ],
+      "actual_outcome": -2.752,
+      "actual_bucket": "down_big",
+      "pred_prob_for_actual": 0.098,
+      "magnitude_mult": 1.5
+    },
+    {
+      "ts": "2026-08-14T07:12:45.696260",
+      "regime": "TRANSITION",
+      "drivers": [
+        "fx_pressure",
+        "equity_flow",
+        "correlation",
+        "commodity_cycle"
+      ],
+      "actual_outcome": 5.554,
+      "actual_bucket": "up_big",
+      "pred_prob_for_actual": 0.2309,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-08-14T07:12:45.696294",
+      "regime": "TRANSITION",
+      "drivers": [
+        "fx_pressure",
+        "equity_flow",
+        "correlation",
+        "commodity_cycle"
+      ],
+      "actual_outcome": 0.206,
+      "actual_bucket": "flat",
+      "pred_prob_for_actual": 0.2165,
       "magnitude_mult": 1.0
     }
   ]
