@@ -4793,6 +4793,120 @@
       "actual_change": 0.7095,
       "outcome_bucket": "up",
       "ts": "2026-09-02T15:42:56.663349"
+    },
+    {
+      "fingerprint": "RISK_ON|commodity_cycle|correlation|equity_flow|fx_pressure",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "commodity_cycle",
+        "correlation",
+        "equity_flow",
+        "fx_pressure"
+      ],
+      "signal_dirs": {
+        "equity_flow": "neutral",
+        "correlation": "neutral",
+        "commodity_cycle": "neutral",
+        "fx_pressure": "neutral"
+      },
+      "actual_change": 0.4662,
+      "outcome_bucket": "flat",
+      "ts": "2026-09-03T20:21:13.407510"
+    },
+    {
+      "fingerprint": "RISK_ON|commodity_cycle|correlation|equity_flow|fx_pressure",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "commodity_cycle",
+        "correlation",
+        "equity_flow",
+        "fx_pressure"
+      ],
+      "signal_dirs": {
+        "equity_flow": "neutral",
+        "correlation": "neutral",
+        "commodity_cycle": "neutral",
+        "fx_pressure": "neutral"
+      },
+      "actual_change": -1.0804,
+      "outcome_bucket": "down",
+      "ts": "2026-09-03T20:21:13.407566"
+    },
+    {
+      "fingerprint": "RISK_ON|commodity_cycle|correlation|equity_flow|fx_pressure",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "commodity_cycle",
+        "correlation",
+        "equity_flow",
+        "fx_pressure"
+      ],
+      "signal_dirs": {
+        "equity_flow": "neutral",
+        "correlation": "neutral",
+        "commodity_cycle": "neutral",
+        "fx_pressure": "neutral"
+      },
+      "actual_change": 0.9491,
+      "outcome_bucket": "up",
+      "ts": "2026-09-03T20:21:13.407609"
+    },
+    {
+      "fingerprint": "RISK_ON|commodity_cycle|correlation|equity_flow|fx_pressure",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "commodity_cycle",
+        "correlation",
+        "equity_flow",
+        "fx_pressure"
+      ],
+      "signal_dirs": {
+        "equity_flow": "neutral",
+        "correlation": "neutral",
+        "commodity_cycle": "neutral",
+        "fx_pressure": "neutral"
+      },
+      "actual_change": 4.1547,
+      "outcome_bucket": "up_big",
+      "ts": "2026-09-03T20:21:13.407645"
+    },
+    {
+      "fingerprint": "RISK_ON|commodity_cycle|correlation|equity_flow|fx_pressure",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "commodity_cycle",
+        "correlation",
+        "equity_flow",
+        "fx_pressure"
+      ],
+      "signal_dirs": {
+        "equity_flow": "neutral",
+        "correlation": "neutral",
+        "commodity_cycle": "neutral",
+        "fx_pressure": "neutral"
+      },
+      "actual_change": 7.2444,
+      "outcome_bucket": "up_big",
+      "ts": "2026-09-03T20:21:13.407675"
+    },
+    {
+      "fingerprint": "RISK_ON|commodity_cycle|correlation|equity_flow|fx_pressure",
+      "regime": "RISK_ON",
+      "signal_cats": [
+        "commodity_cycle",
+        "correlation",
+        "equity_flow",
+        "fx_pressure"
+      ],
+      "signal_dirs": {
+        "equity_flow": "neutral",
+        "correlation": "neutral",
+        "commodity_cycle": "neutral",
+        "fx_pressure": "neutral"
+      },
+      "actual_change": -0.7402,
+      "outcome_bucket": "down",
+      "ts": "2026-09-03T20:21:13.407714"
     }
   ],
   "pattern_index": {
@@ -4809,7 +4923,7 @@
     "RISK_ON|correlation": 6,
     "TRANSITION|commodity_cycle|correlation|equity_flow": 6,
     "TRANSITION|commodity_cycle|correlation|equity_flow|fx_pressure": 18,
-    "RISK_ON|commodity_cycle|correlation|equity_flow|fx_pressure": 6,
+    "RISK_ON|commodity_cycle|correlation|equity_flow|fx_pressure": 12,
     "RISK_ON|commodity_cycle|correlation": 6
   }
 }
