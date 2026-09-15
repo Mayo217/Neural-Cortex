@@ -1,696 +1,5 @@
 [
   {
-    "timestamp": "2026-08-07 18:41",
-    "markets": {
-      "SP500": {
-        "price": 7736.9199,
-        "chg_1d": 0.35,
-        "chg_10d": 3.106,
-        "hi_10d": 7736.9199,
-        "lo_10d": 7316.1499,
-        "vol_ratio": 0.3,
-        "pct_range": 100.0
-      },
-      "NASDAQ": {
-        "price": 26568.4023,
-        "chg_1d": 0.835,
-        "chg_10d": 2.904,
-        "hi_10d": 26584.9902,
-        "lo_10d": 24442.9395,
-        "vol_ratio": 0.62,
-        "pct_range": 99.2
-      },
-      "DOW": {
-        "price": 53927.1992,
-        "chg_1d": 0.078,
-        "chg_10d": 1.893,
-        "hi_10d": 54349.1211,
-        "lo_10d": 51594.1406,
-        "vol_ratio": 0.44,
-        "pct_range": 84.7
-      },
-      "NIFTY50": {
-        "price": 24636.0,
-        "chg_1d": 0.046,
-        "chg_10d": 0.973,
-        "hi_10d": 24774.3008,
-        "lo_10d": 23767.4492,
-        "vol_ratio": 0.0,
-        "pct_range": 86.3
-      },
-      "SENSEX": {
-        "price": 78954.7578,
-        "chg_1d": 0.476,
-        "chg_10d": 0.99,
-        "hi_10d": 78954.7578,
-        "lo_10d": 76059.7734,
-        "vol_ratio": 0.0,
-        "pct_range": 100.0
-      },
-      "BANKNIFTY": {
-        "price": 58063.6484,
-        "chg_1d": 0.561,
-        "chg_10d": -0.235,
-        "hi_10d": 58521.3984,
-        "lo_10d": 56592.0,
-        "vol_ratio": 0.0,
-        "pct_range": 76.3
-      },
-      "DAX": {
-        "price": 26319.4492,
-        "chg_1d": 0.686,
-        "chg_10d": 3.354,
-        "hi_10d": 26319.4492,
-        "lo_10d": 24763.1191,
-        "vol_ratio": 0.0,
-        "pct_range": 100.0
-      },
-      "FTSE": {
-        "price": 10901.0898,
-        "chg_1d": 0.305,
-        "chg_10d": 2.205,
-        "hi_10d": 10908.4004,
-        "lo_10d": 10472.5,
-        "vol_ratio": 0.0,
-        "pct_range": 98.3
-      },
-      "CAC40": {
-        "price": 8714.9297,
-        "chg_1d": 0.175,
-        "chg_10d": 3.303,
-        "hi_10d": 8714.9297,
-        "lo_10d": 8252.6602,
-        "vol_ratio": 0.0,
-        "pct_range": 100.0
-      },
-      "HANGSENG": {
-        "price": 25530.2793,
-        "chg_1d": -1.488,
-        "chg_10d": 8.654,
-        "hi_10d": 26009.4004,
-        "lo_10d": 23496.8906,
-        "vol_ratio": 0.0,
-        "pct_range": 80.9
-      },
-      "NIKKEI": {
-        "price": 65683.2578,
-        "chg_1d": -0.931,
-        "chg_10d": -3.771,
-        "hi_10d": 68751.5078,
-        "lo_10d": 61434.1914,
-        "vol_ratio": 0.0,
-        "pct_range": 58.1
-      },
-      "KOSPI": {
-        "price": 6296.3799,
-        "chg_1d": -4.575,
-        "chg_10d": -17.762,
-        "hi_10d": 7656.3101,
-        "lo_10d": 5593.5601,
-        "vol_ratio": 0.75,
-        "pct_range": 34.1
-      },
-      "BRAZIL": {
-        "price": 172521.3438,
-        "chg_1d": -1.723,
-        "chg_10d": 0.291,
-        "hi_10d": 178000.0,
-        "lo_10d": 170654.0,
-        "vol_ratio": 0.0,
-        "pct_range": 25.4
-      },
-      "EM_ETF": {
-        "price": 65.315,
-        "chg_1d": 0.454,
-        "chg_10d": -0.616,
-        "hi_10d": 66.9,
-        "lo_10d": 61.07,
-        "vol_ratio": 0.67,
-        "pct_range": 72.8
-      },
-      "VIX": {
-        "price": 14.92,
-        "chg_1d": -1.518,
-        "chg_10d": -7.502,
-        "hi_10d": 20.66,
-        "lo_10d": 14.92,
-        "vol_ratio": 1.0,
-        "pct_range": 0.0
-      },
-      "VIX9D": {
-        "price": 12.02,
-        "chg_1d": -28.665,
-        "chg_10d": -10.432,
-        "hi_10d": 16.85,
-        "lo_10d": 11.15,
-        "vol_ratio": 1.0,
-        "pct_range": 15.3
-      },
-      "VVIX": {
-        "price": 90.28,
-        "chg_1d": 1.758,
-        "chg_10d": 2.708,
-        "hi_10d": 109.47,
-        "lo_10d": 87.28,
-        "vol_ratio": 1.0,
-        "pct_range": 13.5
-      },
-      "INDIA_VIX": {
-        "price": 12.16,
-        "chg_1d": 0.829,
-        "chg_10d": 4.378,
-        "hi_10d": 14.68,
-        "lo_10d": 11.65,
-        "vol_ratio": 1.0,
-        "pct_range": 16.8
-      },
-      "US10Y": {
-        "price": 4.656,
-        "chg_1d": -0.3,
-        "chg_10d": 2.804,
-        "hi_10d": 4.745,
-        "lo_10d": 4.529,
-        "vol_ratio": 1.0,
-        "pct_range": 58.8
-      },
-      "US2Y": {
-        "error": "no data"
-      },
-      "US30Y": {
-        "price": 5.213,
-        "chg_1d": 0.0,
-        "chg_10d": 3.371,
-        "hi_10d": 5.275,
-        "lo_10d": 5.043,
-        "vol_ratio": 1.0,
-        "pct_range": 73.3
-      },
-      "TIP": {
-        "price": 106.995,
-        "chg_1d": 0.117,
-        "chg_10d": -1.086,
-        "hi_10d": 108.27,
-        "lo_10d": 106.86,
-        "vol_ratio": 0.39,
-        "pct_range": 9.6
-      },
-      "HYG": {
-        "price": 79.575,
-        "chg_1d": 0.145,
-        "chg_10d": -0.232,
-        "hi_10d": 79.81,
-        "lo_10d": 79.23,
-        "vol_ratio": 0.51,
-        "pct_range": 59.5
-      },
-      "JNK": {
-        "price": 95.775,
-        "chg_1d": 0.173,
-        "chg_10d": -0.286,
-        "hi_10d": 96.08,
-        "lo_10d": 95.39,
-        "vol_ratio": 3.16,
-        "pct_range": 55.8
-      },
-      "LQD": {
-        "price": 106.425,
-        "chg_1d": 0.061,
-        "chg_10d": -1.349,
-        "hi_10d": 107.88,
-        "lo_10d": 106.11,
-        "vol_ratio": 0.49,
-        "pct_range": 17.8
-      },
-      "EMB": {
-        "price": 95.115,
-        "chg_1d": 0.174,
-        "chg_10d": -0.86,
-        "hi_10d": 95.99,
-        "lo_10d": 94.53,
-        "vol_ratio": 0.43,
-        "pct_range": 40.1
-      },
-      "TLT": {
-        "price": 82.495,
-        "chg_1d": -0.03,
-        "chg_10d": -2.431,
-        "hi_10d": 84.55,
-        "lo_10d": 82.19,
-        "vol_ratio": 0.87,
-        "pct_range": 12.9
-      },
-      "GOLD": {
-        "price": 4395.6001,
-        "chg_1d": 3.621,
-        "chg_10d": 6.038,
-        "hi_10d": 4395.6001,
-        "lo_10d": 3985.6001,
-        "vol_ratio": 34.23,
-        "pct_range": 100.0
-      },
-      "SILVER": {
-        "price": 63.495,
-        "chg_1d": 3.346,
-        "chg_10d": 4.208,
-        "hi_10d": 63.495,
-        "lo_10d": 55.898,
-        "vol_ratio": 190.45,
-        "pct_range": 100.0
-      },
-      "PLATINUM": {
-        "price": 1761.0,
-        "chg_1d": 1.851,
-        "chg_10d": 6.65,
-        "hi_10d": 1761.0,
-        "lo_10d": 1576.4,
-        "vol_ratio": 2072.04,
-        "pct_range": 100.0
-      },
-      "COPPER": {
-        "price": 6.5945,
-        "chg_1d": -1.383,
-        "chg_10d": 6.854,
-        "hi_10d": 6.703,
-        "lo_10d": 6.0545,
-        "vol_ratio": 39.76,
-        "pct_range": 83.3
-      },
-      "PALLADIUM": {
-        "price": 1384.0,
-        "chg_1d": 0.809,
-        "chg_10d": 8.925,
-        "hi_10d": 1384.0,
-        "lo_10d": 1213.4,
-        "vol_ratio": 8207.93,
-        "pct_range": 100.0
-      },
-      "OIL_WTI": {
-        "price": 78.23,
-        "chg_1d": 1.216,
-        "chg_10d": 11.059,
-        "hi_10d": 92.19,
-        "lo_10d": 70.44,
-        "vol_ratio": 0.64,
-        "pct_range": 35.8
-      },
-      "OIL_BRENT": {
-        "price": 83.6,
-        "chg_1d": 1.346,
-        "chg_10d": 12.729,
-        "hi_10d": 100.69,
-        "lo_10d": 74.16,
-        "vol_ratio": 0.66,
-        "pct_range": 35.6
-      },
-      "NATGAS": {
-        "price": 2.663,
-        "chg_1d": 0.871,
-        "chg_10d": -18.438,
-        "hi_10d": 3.265,
-        "lo_10d": 2.64,
-        "vol_ratio": 0.98,
-        "pct_range": 3.7
-      },
-      "WHEAT": {
-        "price": 638.25,
-        "chg_1d": 1.109,
-        "chg_10d": 4.76,
-        "hi_10d": 705.75,
-        "lo_10d": 599.5,
-        "vol_ratio": 1.17,
-        "pct_range": 36.5
-      },
-      "CORN": {
-        "price": 461.5,
-        "chg_1d": 5.125,
-        "chg_10d": 4.294,
-        "hi_10d": 464.25,
-        "lo_10d": 427.75,
-        "vol_ratio": 1.72,
-        "pct_range": 92.5
-      },
-      "SOYBEAN": {
-        "price": 1176.0,
-        "chg_1d": 1.62,
-        "chg_10d": -1.734,
-        "hi_10d": 1248.0,
-        "lo_10d": 1151.5,
-        "vol_ratio": 3.19,
-        "pct_range": 25.4
-      },
-      "SUGAR": {
-        "price": 16.49,
-        "chg_1d": 5.909,
-        "chg_10d": 8.917,
-        "hi_10d": 16.49,
-        "lo_10d": 14.43,
-        "vol_ratio": 3.35,
-        "pct_range": 100.0
-      },
-      "COFFEE": {
-        "price": 313.65,
-        "chg_1d": -2.487,
-        "chg_10d": -5.413,
-        "hi_10d": 356.95,
-        "lo_10d": 309.4,
-        "vol_ratio": 2.5,
-        "pct_range": 8.9
-      },
-      "COTTON": {
-        "price": 84.07,
-        "chg_1d": 2.574,
-        "chg_10d": 9.267,
-        "hi_10d": 84.07,
-        "lo_10d": 76.16,
-        "vol_ratio": 712.75,
-        "pct_range": 100.0
-      },
-      "LITHIUM": {
-        "price": 73.79,
-        "chg_1d": 1.906,
-        "chg_10d": -0.014,
-        "hi_10d": 73.8,
-        "lo_10d": 66.74,
-        "vol_ratio": 0.7,
-        "pct_range": 99.9
-      },
-      "URANIUM": {
-        "price": 44.7499,
-        "chg_1d": 3.588,
-        "chg_10d": 7.185,
-        "hi_10d": 44.7499,
-        "lo_10d": 37.52,
-        "vol_ratio": 0.79,
-        "pct_range": 100.0
-      },
-      "RARE_EARTH": {
-        "price": 76.655,
-        "chg_1d": 4.406,
-        "chg_10d": -5.434,
-        "hi_10d": 81.06,
-        "lo_10d": 64.59,
-        "vol_ratio": 0.81,
-        "pct_range": 73.3
-      },
-      "COPPER_MINERS": {
-        "price": 87.87,
-        "chg_1d": 2.068,
-        "chg_10d": 17.741,
-        "hi_10d": 87.87,
-        "lo_10d": 73.04,
-        "vol_ratio": 1.16,
-        "pct_range": 100.0
-      },
-      "WATER": {
-        "price": 73.26,
-        "chg_1d": 0.673,
-        "chg_10d": 5.592,
-        "hi_10d": 73.26,
-        "lo_10d": 67.16,
-        "vol_ratio": 1.07,
-        "pct_range": 100.0
-      },
-      "STEEL": {
-        "price": 109.7512,
-        "chg_1d": 0.874,
-        "chg_10d": 11.502,
-        "hi_10d": 110.0,
-        "lo_10d": 97.09,
-        "vol_ratio": 0.57,
-        "pct_range": 98.1
-      },
-      "DXY": {
-        "price": 99.55,
-        "chg_1d": -0.42,
-        "chg_10d": -1.572,
-        "hi_10d": 101.51,
-        "lo_10d": 99.55,
-        "vol_ratio": 1.0,
-        "pct_range": 0.0
-      },
-      "USDINR": {
-        "price": 95.2,
-        "chg_1d": 0.129,
-        "chg_10d": -0.422,
-        "hi_10d": 96.8769,
-        "lo_10d": 95.0773,
-        "vol_ratio": 1.0,
-        "pct_range": 6.8
-      },
-      "EURUSD": {
-        "price": 1.1567,
-        "chg_1d": 0.087,
-        "chg_10d": 1.098,
-        "hi_10d": 1.1567,
-        "lo_10d": 1.1369,
-        "vol_ratio": 1.0,
-        "pct_range": 100.0
-      },
-      "USDJPY": {
-        "price": 157.562,
-        "chg_1d": -0.024,
-        "chg_10d": -2.792,
-        "hi_10d": 163.864,
-        "lo_10d": 157.529,
-        "vol_ratio": 1.0,
-        "pct_range": 0.5
-      },
-      "USDCNH": {
-        "error": "no data"
-      },
-      "GBPUSD": {
-        "price": 1.3498,
-        "chg_1d": 0.211,
-        "chg_10d": 0.747,
-        "hi_10d": 1.3541,
-        "lo_10d": 1.3287,
-        "vol_ratio": 1.0,
-        "pct_range": 83.0
-      },
-      "USDTRY": {
-        "price": 47.6968,
-        "chg_1d": 0.307,
-        "chg_10d": 1.876,
-        "hi_10d": 47.6968,
-        "lo_10d": 46.8185,
-        "vol_ratio": 1.0,
-        "pct_range": 100.0
-      },
-      "USDBRL": {
-        "price": 5.0805,
-        "chg_1d": -1.129,
-        "chg_10d": -1.227,
-        "hi_10d": 5.1709,
-        "lo_10d": 5.0625,
-        "vol_ratio": 1.0,
-        "pct_range": 16.6
-      },
-      "USDZAR": {
-        "price": 16.1518,
-        "chg_1d": -0.938,
-        "chg_10d": -0.29,
-        "hi_10d": 16.8159,
-        "lo_10d": 16.1518,
-        "vol_ratio": 1.0,
-        "pct_range": 0.0
-      },
-      "BITCOIN": {
-        "price": 64705.3008,
-        "chg_1d": 0.69,
-        "chg_10d": 2.224,
-        "hi_10d": 66505.125,
-        "lo_10d": 62239.1211,
-        "vol_ratio": 0.89,
-        "pct_range": 57.8
-      },
-      "ETHEREUM": {
-        "price": 1907.78,
-        "chg_1d": 0.301,
-        "chg_10d": 7.875,
-        "hi_10d": 1953.4113,
-        "lo_10d": 1742.6776,
-        "vol_ratio": 0.97,
-        "pct_range": 78.3
-      },
-      "SOLANA": {
-        "price": 73.25,
-        "chg_1d": 0.928,
-        "chg_10d": -9.174,
-        "hi_10d": 80.6487,
-        "lo_10d": 71.8663,
-        "vol_ratio": 1.01,
-        "pct_range": 15.8
-      },
-      "SEMIS": {
-        "price": 539.75,
-        "chg_1d": 1.358,
-        "chg_10d": -2.164,
-        "hi_10d": 581.7,
-        "lo_10d": 465.0,
-        "vol_ratio": 0.35,
-        "pct_range": 64.1
-      },
-      "DEFENSE": {
-        "price": 250.555,
-        "chg_1d": 0.226,
-        "chg_10d": 2.221,
-        "hi_10d": 252.28,
-        "lo_10d": 229.27,
-        "vol_ratio": 0.41,
-        "pct_range": 92.5
-      },
-      "ENERGY_ETF": {
-        "price": 57.645,
-        "chg_1d": -0.885,
-        "chg_10d": 5.5,
-        "hi_10d": 59.62,
-        "lo_10d": 54.64,
-        "vol_ratio": 0.44,
-        "pct_range": 60.3
-      },
-      "FINANCIALS": {
-        "price": 57.595,
-        "chg_1d": -0.372,
-        "chg_10d": 2.756,
-        "hi_10d": 58.0,
-        "lo_10d": 54.97,
-        "vol_ratio": 0.38,
-        "pct_range": 86.6
-      },
-      "HEALTHCARE": {
-        "price": 165.2,
-        "chg_1d": 0.456,
-        "chg_10d": 0.462,
-        "hi_10d": 167.26,
-        "lo_10d": 158.29,
-        "vol_ratio": 0.56,
-        "pct_range": 77.0
-      },
-      "UTILITIES": {
-        "price": 43.695,
-        "chg_1d": 0.726,
-        "chg_10d": -4.387,
-        "hi_10d": 46.29,
-        "lo_10d": 43.38,
-        "vol_ratio": 0.62,
-        "pct_range": 10.8
-      },
-      "REALESTATE": {
-        "price": 44.945,
-        "chg_1d": 0.301,
-        "chg_10d": 0.123,
-        "hi_10d": 46.01,
-        "lo_10d": 44.15,
-        "vol_ratio": 0.49,
-        "pct_range": 42.7
-      },
-      "CONSUMER_D": {
-        "price": 119.55,
-        "chg_1d": 1.228,
-        "chg_10d": 1.84,
-        "hi_10d": 119.55,
-        "lo_10d": 108.76,
-        "vol_ratio": 0.38,
-        "pct_range": 100.0
-      },
-      "CONSUMER_S": {
-        "price": 85.07,
-        "chg_1d": -0.047,
-        "chg_10d": 0.247,
-        "hi_10d": 87.36,
-        "lo_10d": 83.2,
-        "vol_ratio": 0.3,
-        "pct_range": 45.0
-      },
-      "MATERIALS": {
-        "price": 52.81,
-        "chg_1d": 1.227,
-        "chg_10d": 2.524,
-        "hi_10d": 52.81,
-        "lo_10d": 50.03,
-        "vol_ratio": 0.57,
-        "pct_range": 100.0
-      },
-      "INDUSTRIALS": {
-        "price": 185.24,
-        "chg_1d": 0.26,
-        "chg_10d": 1.568,
-        "hi_10d": 186.4,
-        "lo_10d": 176.66,
-        "vol_ratio": 0.59,
-        "pct_range": 88.1
-      },
-      "BERKSHIRE": {
-        "price": 520.6,
-        "chg_1d": -0.764,
-        "chg_10d": 3.294,
-        "hi_10d": 524.61,
-        "lo_10d": 488.35,
-        "vol_ratio": 0.42,
-        "pct_range": 88.9
-      },
-      "BLACKROCK": {
-        "price": 1141.205,
-        "chg_1d": 1.054,
-        "chg_10d": 13.054,
-        "hi_10d": 1141.205,
-        "lo_10d": 990.34,
-        "vol_ratio": 0.28,
-        "pct_range": 100.0
-      },
-      "GOLD_MINERS": {
-        "price": 88.99,
-        "chg_1d": 6.041,
-        "chg_10d": 17.463,
-        "hi_10d": 88.99,
-        "lo_10d": 70.74,
-        "vol_ratio": 1.62,
-        "pct_range": 100.0
-      },
-      "BALTIC_DRY": {
-        "price": 13.73,
-        "chg_1d": -1.506,
-        "chg_10d": 7.602,
-        "hi_10d": 13.97,
-        "lo_10d": 12.19,
-        "vol_ratio": 0.39,
-        "pct_range": 86.5
-      },
-      "SHORT_BOND": {
-        "price": 81.9,
-        "chg_1d": 0.122,
-        "chg_10d": 0.049,
-        "hi_10d": 82.01,
-        "lo_10d": 81.77,
-        "vol_ratio": 0.62,
-        "pct_range": 54.2
-      }
-    },
-    "fear_greed": {
-      "score": 63.3,
-      "rating": "greed",
-      "prev_week": 45.2,
-      "prev_month": 39.8
-    },
-    "regime": {
-      "regime": "TRANSITION",
-      "confidence": 0.538,
-      "scores": {
-        "CRISIS": 0.0,
-        "RISK_OFF": 0.0,
-        "TRANSITION": 0.538,
-        "RISK_ON": 0.308,
-        "EUPHORIA": 0.154
-      },
-      "evidence": [
-        "VIX 14.9 13-18: calm",
-        "SP500 vs EM divergence 3.7%: narrow rally",
-        "5 correlation breaks: regime shift signal",
-        "Gold + equities both rising: liquidity flood"
-      ]
-    }
-  },
-  {
     "timestamp": "2026-08-08 00:59",
     "markets": {
       "SP500": {
@@ -102701,6 +102010,688 @@
       },
       "evidence": [
         "VIX 17.5 13-18: calm"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-15 20:41",
+    "markets": {
+      "SP500": {
+        "price": 7585.73,
+        "chg_1d": -0.449,
+        "chg_10d": -2.057,
+        "hi_10d": 7747.71,
+        "lo_10d": 7585.73,
+        "vol_ratio": 0.6,
+        "pct_range": 0.0
+      },
+      "NASDAQ": {
+        "price": 25981.5703,
+        "chg_1d": -0.782,
+        "chg_10d": -2.49,
+        "hi_10d": 26644.9102,
+        "lo_10d": 25980.1895,
+        "vol_ratio": 0.93,
+        "pct_range": 0.2
+      },
+      "DOW": {
+        "price": 52093.1094,
+        "chg_1d": -0.626,
+        "chg_10d": -2.556,
+        "hi_10d": 53686.1094,
+        "lo_10d": 52064.1016,
+        "vol_ratio": 0.86,
+        "pct_range": 1.8
+      },
+      "NIFTY50": {
+        "price": 23398.0996,
+        "chg_1d": -0.339,
+        "chg_10d": -3.663,
+        "hi_10d": 24334.5508,
+        "lo_10d": 23398.0996,
+        "vol_ratio": 0.0,
+        "pct_range": 0.0
+      },
+      "SENSEX": {
+        "price": 74781.7578,
+        "chg_1d": -0.161,
+        "chg_10d": -3.791,
+        "hi_10d": 77728.1562,
+        "lo_10d": 74764.2266,
+        "vol_ratio": 0.0,
+        "pct_range": 0.6
+      },
+      "BANKNIFTY": {
+        "price": 56606.5508,
+        "chg_1d": 0.238,
+        "chg_10d": -1.55,
+        "hi_10d": 58024.9492,
+        "lo_10d": 56295.5508,
+        "vol_ratio": 0.0,
+        "pct_range": 18.0
+      },
+      "DAX": {
+        "price": 25402.2793,
+        "chg_1d": -0.151,
+        "chg_10d": -3.555,
+        "hi_10d": 26569.9902,
+        "lo_10d": 25361.1504,
+        "vol_ratio": 0.0,
+        "pct_range": 3.4
+      },
+      "FTSE": {
+        "price": 10658.1299,
+        "chg_1d": -0.369,
+        "chg_10d": -0.58,
+        "hi_10d": 10886.2002,
+        "lo_10d": 10608.9004,
+        "vol_ratio": 0.0,
+        "pct_range": 17.8
+      },
+      "CAC40": {
+        "price": 8090.2798,
+        "chg_1d": -0.339,
+        "chg_10d": -5.703,
+        "hi_10d": 8579.5996,
+        "lo_10d": 8090.2798,
+        "vol_ratio": 0.0,
+        "pct_range": 0.0
+      },
+      "HANGSENG": {
+        "price": 24917.5996,
+        "chg_1d": 0.451,
+        "chg_10d": -2.104,
+        "hi_10d": 26009.4609,
+        "lo_10d": 24805.6309,
+        "vol_ratio": 0.0,
+        "pct_range": 9.3
+      },
+      "NIKKEI": {
+        "price": 63492.9883,
+        "chg_1d": -0.81,
+        "chg_10d": -8.274,
+        "hi_10d": 69220.25,
+        "lo_10d": 63492.9883,
+        "vol_ratio": 0.0,
+        "pct_range": 0.0
+      },
+      "KOSPI": {
+        "price": 6684.3701,
+        "chg_1d": -3.264,
+        "chg_10d": -2.7,
+        "hi_10d": 7051.6401,
+        "lo_10d": 6471.1699,
+        "vol_ratio": 0.0,
+        "pct_range": 36.7
+      },
+      "BRAZIL": {
+        "price": 186502.6406,
+        "chg_1d": 0.54,
+        "chg_10d": 11.823,
+        "hi_10d": 188269.0,
+        "lo_10d": 166335.0,
+        "vol_ratio": 0.0,
+        "pct_range": 91.9
+      },
+      "EM_ETF": {
+        "price": 65.76,
+        "chg_1d": -0.349,
+        "chg_10d": -2.317,
+        "hi_10d": 68.83,
+        "lo_10d": 65.34,
+        "vol_ratio": 0.78,
+        "pct_range": 12.0
+      },
+      "VIX": {
+        "price": 17.2,
+        "chg_1d": 0.585,
+        "chg_10d": 13.232,
+        "hi_10d": 17.84,
+        "lo_10d": 14.32,
+        "vol_ratio": 1.0,
+        "pct_range": 81.8
+      },
+      "VIX9D": {
+        "error": "no data"
+      },
+      "VVIX": {
+        "price": 94.91,
+        "chg_1d": 0.021,
+        "chg_10d": 1.054,
+        "hi_10d": 102.66,
+        "lo_10d": 82.9,
+        "vol_ratio": 1.0,
+        "pct_range": 60.8
+      },
+      "INDIA_VIX": {
+        "price": 12.29,
+        "chg_1d": 4.153,
+        "chg_10d": 8.473,
+        "hi_10d": 12.29,
+        "lo_10d": 10.57,
+        "vol_ratio": 1.0,
+        "pct_range": 100.0
+      },
+      "US10Y": {
+        "price": 4.996,
+        "chg_1d": 0.705,
+        "chg_10d": 5.758,
+        "hi_10d": 4.996,
+        "lo_10d": 4.639,
+        "vol_ratio": 1.0,
+        "pct_range": 100.0
+      },
+      "US2Y": {
+        "error": "no data"
+      },
+      "US30Y": {
+        "price": 5.364,
+        "chg_1d": 0.657,
+        "chg_10d": 1.036,
+        "hi_10d": 5.364,
+        "lo_10d": 5.174,
+        "vol_ratio": 1.0,
+        "pct_range": 100.0
+      },
+      "TIP": {
+        "price": 105.79,
+        "chg_1d": -0.028,
+        "chg_10d": -0.918,
+        "hi_10d": 107.64,
+        "lo_10d": 105.79,
+        "vol_ratio": 0.75,
+        "pct_range": 0.0
+      },
+      "HYG": {
+        "price": 78.38,
+        "chg_1d": -0.191,
+        "chg_10d": -1.545,
+        "hi_10d": 79.92,
+        "lo_10d": 78.38,
+        "vol_ratio": 1.24,
+        "pct_range": 0.0
+      },
+      "JNK": {
+        "price": 94.3,
+        "chg_1d": -0.201,
+        "chg_10d": -1.617,
+        "hi_10d": 96.2,
+        "lo_10d": 94.3,
+        "vol_ratio": 1.76,
+        "pct_range": 0.0
+      },
+      "LQD": {
+        "price": 104.28,
+        "chg_1d": -0.019,
+        "chg_10d": -1.343,
+        "hi_10d": 106.86,
+        "lo_10d": 104.28,
+        "vol_ratio": 1.13,
+        "pct_range": 0.0
+      },
+      "EMB": {
+        "price": 92.99,
+        "chg_1d": -0.247,
+        "chg_10d": -1.806,
+        "hi_10d": 95.38,
+        "lo_10d": 92.99,
+        "vol_ratio": 1.22,
+        "pct_range": 0.0
+      },
+      "TLT": {
+        "price": 80.71,
+        "chg_1d": -0.272,
+        "chg_10d": -0.787,
+        "hi_10d": 83.47,
+        "lo_10d": 80.71,
+        "vol_ratio": 1.13,
+        "pct_range": 0.0
+      },
+      "GOLD": {
+        "price": 4335.7002,
+        "chg_1d": -0.372,
+        "chg_10d": -3.085,
+        "hi_10d": 4697.7998,
+        "lo_10d": 4335.7002,
+        "vol_ratio": 0.77,
+        "pct_range": 0.0
+      },
+      "SILVER": {
+        "price": 64.155,
+        "chg_1d": 1.011,
+        "chg_10d": -2.973,
+        "hi_10d": 69.466,
+        "lo_10d": 63.513,
+        "vol_ratio": 18.47,
+        "pct_range": 10.8
+      },
+      "PLATINUM": {
+        "price": 1782.6,
+        "chg_1d": 0.377,
+        "chg_10d": 0.062,
+        "hi_10d": 1914.4,
+        "lo_10d": 1726.4,
+        "vol_ratio": 1522.34,
+        "pct_range": 29.9
+      },
+      "COPPER": {
+        "price": 6.454,
+        "chg_1d": 1.959,
+        "chg_10d": -2.271,
+        "hi_10d": 6.8035,
+        "lo_10d": 6.33,
+        "vol_ratio": 13.96,
+        "pct_range": 26.2
+      },
+      "PALLADIUM": {
+        "price": 1311.5,
+        "chg_1d": 1.305,
+        "chg_10d": -1.694,
+        "hi_10d": 1428.6,
+        "lo_10d": 1281.3,
+        "vol_ratio": 18.21,
+        "pct_range": 20.5
+      },
+      "OIL_WTI": {
+        "price": 105.52,
+        "chg_1d": 4.073,
+        "chg_10d": 24.876,
+        "hi_10d": 105.52,
+        "lo_10d": 82.23,
+        "vol_ratio": 1.27,
+        "pct_range": 100.0
+      },
+      "OIL_BRENT": {
+        "price": 108.28,
+        "chg_1d": 2.46,
+        "chg_10d": 19.159,
+        "hi_10d": 108.28,
+        "lo_10d": 87.84,
+        "vol_ratio": 1.33,
+        "pct_range": 100.0
+      },
+      "NATGAS": {
+        "price": 2.94,
+        "chg_1d": 1.519,
+        "chg_10d": 9.294,
+        "hi_10d": 2.975,
+        "lo_10d": 2.69,
+        "vol_ratio": 0.92,
+        "pct_range": 87.7
+      },
+      "WHEAT": {
+        "price": 727.75,
+        "chg_1d": 2.935,
+        "chg_10d": 7.855,
+        "hi_10d": 767.0,
+        "lo_10d": 664.5,
+        "vol_ratio": 3.57,
+        "pct_range": 61.7
+      },
+      "CORN": {
+        "price": 535.75,
+        "chg_1d": 4.639,
+        "chg_10d": 15.215,
+        "hi_10d": 535.75,
+        "lo_10d": 463.25,
+        "vol_ratio": 2.62,
+        "pct_range": 100.0
+      },
+      "SOYBEAN": {
+        "price": 1319.25,
+        "chg_1d": 2.645,
+        "chg_10d": 9.846,
+        "hi_10d": 1319.25,
+        "lo_10d": 1200.75,
+        "vol_ratio": 11.89,
+        "pct_range": 100.0
+      },
+      "SUGAR": {
+        "price": 18.9,
+        "chg_1d": 4.075,
+        "chg_10d": 12.033,
+        "hi_10d": 18.9,
+        "lo_10d": 16.87,
+        "vol_ratio": 0.73,
+        "pct_range": 100.0
+      },
+      "COFFEE": {
+        "price": 283.35,
+        "chg_1d": -7.809,
+        "chg_10d": -17.893,
+        "hi_10d": 377.75,
+        "lo_10d": 283.35,
+        "vol_ratio": 11.6,
+        "pct_range": 0.0
+      },
+      "COTTON": {
+        "price": 84.54,
+        "chg_1d": 4.836,
+        "chg_10d": 0.559,
+        "hi_10d": 91.7,
+        "lo_10d": 80.64,
+        "vol_ratio": 733.42,
+        "pct_range": 35.3
+      },
+      "LITHIUM": {
+        "price": 70.02,
+        "chg_1d": 0.071,
+        "chg_10d": -8.158,
+        "hi_10d": 77.13,
+        "lo_10d": 69.97,
+        "vol_ratio": 0.72,
+        "pct_range": 0.7
+      },
+      "URANIUM": {
+        "price": 41.77,
+        "chg_1d": -0.995,
+        "chg_10d": -7.691,
+        "hi_10d": 48.37,
+        "lo_10d": 41.77,
+        "vol_ratio": 0.86,
+        "pct_range": 0.0
+      },
+      "RARE_EARTH": {
+        "price": 68.3,
+        "chg_1d": -0.914,
+        "chg_10d": -13.468,
+        "hi_10d": 80.75,
+        "lo_10d": 68.3,
+        "vol_ratio": 1.16,
+        "pct_range": 0.0
+      },
+      "COPPER_MINERS": {
+        "price": 84.59,
+        "chg_1d": -1.203,
+        "chg_10d": -3.149,
+        "hi_10d": 96.45,
+        "lo_10d": 84.59,
+        "vol_ratio": 0.75,
+        "pct_range": 0.0
+      },
+      "WATER": {
+        "price": 68.53,
+        "chg_1d": -0.262,
+        "chg_10d": -3.764,
+        "hi_10d": 72.37,
+        "lo_10d": 68.07,
+        "vol_ratio": 0.69,
+        "pct_range": 10.7
+      },
+      "STEEL": {
+        "price": 106.58,
+        "chg_1d": 0.443,
+        "chg_10d": -1.588,
+        "hi_10d": 111.19,
+        "lo_10d": 104.8,
+        "vol_ratio": 0.37,
+        "pct_range": 27.9
+      },
+      "DXY": {
+        "price": 99.644,
+        "chg_1d": 0.185,
+        "chg_10d": 0.004,
+        "hi_10d": 99.7,
+        "lo_10d": 98.77,
+        "vol_ratio": 1.0,
+        "pct_range": 94.0
+      },
+      "USDINR": {
+        "price": 95.849,
+        "chg_1d": 0.859,
+        "chg_10d": 0.418,
+        "hi_10d": 95.849,
+        "lo_10d": 93.5461,
+        "vol_ratio": 1.0,
+        "pct_range": 100.0
+      },
+      "EURUSD": {
+        "price": 1.1543,
+        "chg_1d": -0.436,
+        "chg_10d": -0.264,
+        "hi_10d": 1.1688,
+        "lo_10d": 1.1543,
+        "vol_ratio": 1.0,
+        "pct_range": 0.0
+      },
+      "USDJPY": {
+        "price": 155.116,
+        "chg_1d": 1.103,
+        "chg_10d": -2.579,
+        "hi_10d": 160.196,
+        "lo_10d": 153.424,
+        "vol_ratio": 1.0,
+        "pct_range": 25.0
+      },
+      "USDCNH": {
+        "error": "no data"
+      },
+      "GBPUSD": {
+        "price": 1.3474,
+        "chg_1d": -0.385,
+        "chg_10d": -0.539,
+        "hi_10d": 1.3654,
+        "lo_10d": 1.3474,
+        "vol_ratio": 1.0,
+        "pct_range": 0.0
+      },
+      "USDTRY": {
+        "price": 48.6351,
+        "chg_1d": 0.054,
+        "chg_10d": 1.625,
+        "hi_10d": 48.6351,
+        "lo_10d": 47.8574,
+        "vol_ratio": 1.0,
+        "pct_range": 100.0
+      },
+      "USDBRL": {
+        "price": 5.1528,
+        "chg_1d": 0.814,
+        "chg_10d": -1.319,
+        "hi_10d": 5.2217,
+        "lo_10d": 5.0848,
+        "vol_ratio": 1.0,
+        "pct_range": 49.7
+      },
+      "USDZAR": {
+        "price": 16.2474,
+        "chg_1d": 0.427,
+        "chg_10d": 0.347,
+        "hi_10d": 16.2528,
+        "lo_10d": 15.9242,
+        "vol_ratio": 1.0,
+        "pct_range": 98.4
+      },
+      "BITCOIN": {
+        "price": 75741.1719,
+        "chg_1d": -3.099,
+        "chg_10d": 20.178,
+        "hi_10d": 81271.7422,
+        "lo_10d": 62818.6523,
+        "vol_ratio": 1.27,
+        "pct_range": 70.0
+      },
+      "ETHEREUM": {
+        "price": 2401.98,
+        "chg_1d": -4.471,
+        "chg_10d": 27.703,
+        "hi_10d": 2525.9446,
+        "lo_10d": 1873.943,
+        "vol_ratio": 1.36,
+        "pct_range": 81.0
+      },
+      "SOLANA": {
+        "price": 97.03,
+        "chg_1d": -5.332,
+        "chg_10d": 28.905,
+        "hi_10d": 109.2082,
+        "lo_10d": 74.539,
+        "vol_ratio": 1.03,
+        "pct_range": 64.9
+      },
+      "SEMIS": {
+        "price": 498.85,
+        "chg_1d": 0.292,
+        "chg_10d": -10.779,
+        "hi_10d": 559.12,
+        "lo_10d": 497.4,
+        "vol_ratio": 0.8,
+        "pct_range": 2.3
+      },
+      "DEFENSE": {
+        "price": 214.0,
+        "chg_1d": -1.278,
+        "chg_10d": -14.809,
+        "hi_10d": 252.16,
+        "lo_10d": 214.0,
+        "vol_ratio": 1.78,
+        "pct_range": 0.0
+      },
+      "ENERGY_ETF": {
+        "price": 65.93,
+        "chg_1d": 2.17,
+        "chg_10d": 5.353,
+        "hi_10d": 65.93,
+        "lo_10d": 62.06,
+        "vol_ratio": 1.22,
+        "pct_range": 100.0
+      },
+      "FINANCIALS": {
+        "price": 56.85,
+        "chg_1d": -0.316,
+        "chg_10d": -1.268,
+        "hi_10d": 58.56,
+        "lo_10d": 56.85,
+        "vol_ratio": 1.0,
+        "pct_range": 0.0
+      },
+      "HEALTHCARE": {
+        "price": 167.66,
+        "chg_1d": -0.054,
+        "chg_10d": 0.365,
+        "hi_10d": 175.68,
+        "lo_10d": 165.36,
+        "vol_ratio": 0.91,
+        "pct_range": 22.3
+      },
+      "UTILITIES": {
+        "price": 41.32,
+        "chg_1d": -1.196,
+        "chg_10d": -6.474,
+        "hi_10d": 44.18,
+        "lo_10d": 41.32,
+        "vol_ratio": 1.2,
+        "pct_range": 0.0
+      },
+      "REALESTATE": {
+        "price": 43.07,
+        "chg_1d": -0.116,
+        "chg_10d": -3.926,
+        "hi_10d": 45.36,
+        "lo_10d": 43.05,
+        "vol_ratio": 0.88,
+        "pct_range": 0.9
+      },
+      "CONSUMER_D": {
+        "price": 110.88,
+        "chg_1d": -1.746,
+        "chg_10d": -5.028,
+        "hi_10d": 118.59,
+        "lo_10d": 110.88,
+        "vol_ratio": 2.3,
+        "pct_range": 0.0
+      },
+      "CONSUMER_S": {
+        "price": 83.73,
+        "chg_1d": -0.817,
+        "chg_10d": -1.122,
+        "hi_10d": 87.45,
+        "lo_10d": 83.05,
+        "vol_ratio": 1.44,
+        "pct_range": 15.5
+      },
+      "MATERIALS": {
+        "price": 50.73,
+        "chg_1d": 0.475,
+        "chg_10d": -2.891,
+        "hi_10d": 53.67,
+        "lo_10d": 50.49,
+        "vol_ratio": 0.89,
+        "pct_range": 7.5
+      },
+      "INDUSTRIALS": {
+        "price": 168.85,
+        "chg_1d": -0.636,
+        "chg_10d": -9.376,
+        "hi_10d": 186.32,
+        "lo_10d": 168.85,
+        "vol_ratio": 1.27,
+        "pct_range": 0.0
+      },
+      "BERKSHIRE": {
+        "price": 516.76,
+        "chg_1d": 0.351,
+        "chg_10d": 3.719,
+        "hi_10d": 516.76,
+        "lo_10d": 495.82,
+        "vol_ratio": 0.93,
+        "pct_range": 100.0
+      },
+      "BLACKROCK": {
+        "price": 1058.66,
+        "chg_1d": -0.651,
+        "chg_10d": -7.711,
+        "hi_10d": 1176.64,
+        "lo_10d": 1058.66,
+        "vol_ratio": 0.79,
+        "pct_range": 0.0
+      },
+      "GOLD_MINERS": {
+        "price": 94.13,
+        "chg_1d": -0.011,
+        "chg_10d": 2.438,
+        "hi_10d": 105.52,
+        "lo_10d": 88.95,
+        "vol_ratio": 0.56,
+        "pct_range": 31.3
+      },
+      "BALTIC_DRY": {
+        "price": 15.33,
+        "chg_1d": 0.196,
+        "chg_10d": 9.5,
+        "hi_10d": 16.58,
+        "lo_10d": 13.82,
+        "vol_ratio": 1.46,
+        "pct_range": 54.7
+      },
+      "SHORT_BOND": {
+        "price": 81.31,
+        "chg_1d": -0.037,
+        "chg_10d": -0.841,
+        "hi_10d": 82.08,
+        "lo_10d": 81.31,
+        "vol_ratio": 1.51,
+        "pct_range": 0.0
+      }
+    },
+    "fear_greed": {
+      "score": 28.7,
+      "rating": "fear",
+      "prev_week": 39.1,
+      "prev_month": 64.3
+    },
+    "regime": {
+      "regime": "RISK_OFF",
+      "confidence": 0.35,
+      "scores": {
+        "CRISIS": 0.0,
+        "RISK_OFF": 0.5,
+        "TRANSITION": 0.1,
+        "RISK_ON": 0.4,
+        "EUPHORIA": 0.0
+      },
+      "evidence": [
+        "VIX 17.2 13-18: calm"
       ]
     }
   }
