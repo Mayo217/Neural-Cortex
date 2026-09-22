@@ -30,7 +30,7 @@
     },
     "fx_pressure": {
       "CRISIS": 0.7,
-      "RISK_OFF": 0.5796,
+      "RISK_OFF": 0.5624,
       "TRANSITION": 0.3466,
       "RISK_ON": 0.069,
       "EUPHORIA": 0.3
@@ -72,7 +72,7 @@
     },
     "correlation": {
       "CRISIS": 0.8,
-      "RISK_OFF": 0.657,
+      "RISK_OFF": 0.6398,
       "TRANSITION": 0.5875,
       "RISK_ON": 0.1088,
       "EUPHORIA": 0.5
@@ -85,8 +85,8 @@
       "EUPHORIA": 0.5
     }
   },
-  "update_count": 324,
-  "last_updated": "2026-09-19T10:02:02.488686",
+  "update_count": 330,
+  "last_updated": "2026-09-22T20:42:43.707819",
   "learning_history": [
     {
       "ts": "2026-04-08T16:22:26.497842",
@@ -4178,6 +4178,78 @@
       "actual_outcome": 1.03,
       "actual_bucket": "up",
       "pred_prob_for_actual": 0.277,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-09-22T20:42:43.707640",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "fx_pressure",
+        "correlation"
+      ],
+      "actual_outcome": 1.406,
+      "actual_bucket": "up",
+      "pred_prob_for_actual": 0.2774,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-09-22T20:42:43.707685",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "fx_pressure",
+        "correlation"
+      ],
+      "actual_outcome": 0.069,
+      "actual_bucket": "flat",
+      "pred_prob_for_actual": 0.239,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-09-22T20:42:43.707724",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "fx_pressure",
+        "correlation"
+      ],
+      "actual_outcome": 0.728,
+      "actual_bucket": "up",
+      "pred_prob_for_actual": 0.2774,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-09-22T20:42:43.707759",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "fx_pressure",
+        "correlation"
+      ],
+      "actual_outcome": 11.974,
+      "actual_bucket": "up_big",
+      "pred_prob_for_actual": 0.1165,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-09-22T20:42:43.707789",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "fx_pressure",
+        "correlation"
+      ],
+      "actual_outcome": -5.678,
+      "actual_bucket": "down_big",
+      "pred_prob_for_actual": 0.089,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-09-22T20:42:43.707820",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "fx_pressure",
+        "correlation"
+      ],
+      "actual_outcome": 1.436,
+      "actual_bucket": "up",
+      "pred_prob_for_actual": 0.2774,
       "magnitude_mult": 1.0
     }
   ]
