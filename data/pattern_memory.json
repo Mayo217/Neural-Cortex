@@ -5357,6 +5357,84 @@
       "actual_change": 1.4356,
       "outcome_bucket": "up",
       "ts": "2026-09-22T20:42:43.707826"
+    },
+    {
+      "fingerprint": "RISK_OFF|correlation",
+      "regime": "RISK_OFF",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": 0.7258,
+      "outcome_bucket": "up",
+      "ts": "2026-09-24T10:49:59.430488"
+    },
+    {
+      "fingerprint": "RISK_OFF|correlation",
+      "regime": "RISK_OFF",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": -1.2135,
+      "outcome_bucket": "down",
+      "ts": "2026-09-24T10:49:59.430533"
+    },
+    {
+      "fingerprint": "RISK_OFF|correlation",
+      "regime": "RISK_OFF",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": -2.8972,
+      "outcome_bucket": "down_big",
+      "ts": "2026-09-24T10:49:59.430562"
+    },
+    {
+      "fingerprint": "RISK_OFF|correlation",
+      "regime": "RISK_OFF",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": 2.6389,
+      "outcome_bucket": "up_big",
+      "ts": "2026-09-24T10:49:59.430593"
+    },
+    {
+      "fingerprint": "RISK_OFF|correlation",
+      "regime": "RISK_OFF",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": 0.5488,
+      "outcome_bucket": "up",
+      "ts": "2026-09-24T10:49:59.430621"
+    },
+    {
+      "fingerprint": "RISK_OFF|correlation",
+      "regime": "RISK_OFF",
+      "signal_cats": [
+        "correlation"
+      ],
+      "signal_dirs": {
+        "correlation": "neutral"
+      },
+      "actual_change": 1.0058,
+      "outcome_bucket": "up",
+      "ts": "2026-09-24T10:49:59.430645"
     }
   ],
   "pattern_index": {
@@ -5376,6 +5454,7 @@
     "RISK_ON|commodity_cycle|correlation|equity_flow|fx_pressure": 12,
     "RISK_ON|commodity_cycle|correlation": 6,
     "RISK_ON|correlation|fx_pressure": 12,
-    "RISK_OFF|correlation|fx_pressure": 12
+    "RISK_OFF|correlation|fx_pressure": 12,
+    "RISK_OFF|correlation": 6
   }
 }

@@ -1,29 +1,29 @@
 {
-  "overall_brier": 0.162751,
+  "overall_brier": 0.162797,
   "by_asset": {
     "SP500": {
-      "avg": 0.157642,
-      "n": 55
+      "avg": 0.157422,
+      "n": 56
     },
     "NIFTY50": {
-      "avg": 0.16326,
-      "n": 55
+      "avg": 0.16308,
+      "n": 56
     },
     "GOLD": {
-      "avg": 0.173553,
-      "n": 55
+      "avg": 0.173796,
+      "n": 56
     },
     "BITCOIN": {
-      "avg": 0.172718,
-      "n": 55
+      "avg": 0.173334,
+      "n": 56
     },
     "OIL_BRENT": {
-      "avg": 0.18046,
-      "n": 55
+      "avg": 0.180045,
+      "n": 56
     },
     "DXY": {
-      "avg": 0.147779,
-      "n": 55
+      "avg": 0.147735,
+      "n": 56
     }
   },
   "by_regime": {
@@ -36,8 +36,8 @@
       "n": 156
     },
     "RISK_OFF": {
-      "avg": 0.165067,
-      "n": 24
+      "avg": 0.165236,
+      "n": 30
     }
   },
   "by_driver": {
@@ -50,8 +50,8 @@
       "n": 240
     },
     "correlation": {
-      "avg": 0.165608,
-      "n": 294
+      "avg": 0.165614,
+      "n": 300
     },
     "sentiment": {
       "avg": 0.171225,
@@ -72,12 +72,12 @@
   },
   "calibration_buckets": {
     "0.2": {
-      "total": 168,
-      "hit": 168
+      "total": 172,
+      "hit": 172
     },
     "0.1": {
-      "total": 86,
-      "hit": 86
+      "total": 88,
+      "hit": 88
     },
     "0.3": {
       "total": 61,
@@ -5246,7 +5246,91 @@
       "actual_change": 1.4356,
       "predicted_prob_for_actual": 0.2774,
       "magnitude_weight": 1.0
+    },
+    {
+      "ts": "2026-09-24T10:49:59.430449",
+      "asset": "SP500",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "correlation"
+      ],
+      "brier_standard": 0.14533,
+      "brier_weighted": 0.14533,
+      "actual_bucket": "up",
+      "actual_change": 0.7258,
+      "predicted_prob_for_actual": 0.25,
+      "magnitude_weight": 1.0
+    },
+    {
+      "ts": "2026-09-24T10:49:59.430493",
+      "asset": "NIFTY50",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "correlation"
+      ],
+      "brier_standard": 0.15317,
+      "brier_weighted": 0.15317,
+      "actual_bucket": "down",
+      "actual_change": -1.2135,
+      "predicted_prob_for_actual": 0.23,
+      "magnitude_weight": 1.0
+    },
+    {
+      "ts": "2026-09-24T10:49:59.430537",
+      "asset": "GOLD",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "correlation"
+      ],
+      "brier_standard": 0.18717,
+      "brier_weighted": 0.280755,
+      "actual_bucket": "down_big",
+      "actual_change": -2.8972,
+      "predicted_prob_for_actual": 0.145,
+      "magnitude_weight": 1.5
+    },
+    {
+      "ts": "2026-09-24T10:49:59.430565",
+      "asset": "BITCOIN",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "correlation"
+      ],
+      "brier_standard": 0.20721,
+      "brier_weighted": 0.310815,
+      "actual_bucket": "up_big",
+      "actual_change": 2.6389,
+      "predicted_prob_for_actual": 0.095,
+      "magnitude_weight": 1.5
+    },
+    {
+      "ts": "2026-09-24T10:49:59.430597",
+      "asset": "OIL_BRENT",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "correlation"
+      ],
+      "brier_standard": 0.15721,
+      "brier_weighted": 0.15721,
+      "actual_bucket": "up",
+      "actual_change": 0.5488,
+      "predicted_prob_for_actual": 0.22,
+      "magnitude_weight": 1.0
+    },
+    {
+      "ts": "2026-09-24T10:49:59.430624",
+      "asset": "DXY",
+      "regime": "RISK_OFF",
+      "drivers": [
+        "correlation"
+      ],
+      "brier_standard": 0.14533,
+      "brier_weighted": 0.14533,
+      "actual_bucket": "up",
+      "actual_change": 1.0058,
+      "predicted_prob_for_actual": 0.25,
+      "magnitude_weight": 1.0
     }
   ],
-  "total_scored": 330
+  "total_scored": 336
 }
