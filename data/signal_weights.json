@@ -10,7 +10,7 @@
     "credit": {
       "CRISIS": 0.9,
       "RISK_OFF": 0.8,
-      "TRANSITION": 0.613,
+      "TRANSITION": 0.5987,
       "RISK_ON": 0.4,
       "EUPHORIA": 0.7
     },
@@ -45,7 +45,7 @@
     "equity_flow": {
       "CRISIS": 0.6,
       "RISK_OFF": 0.6,
-      "TRANSITION": 0.5093,
+      "TRANSITION": 0.495,
       "RISK_ON": 0.708,
       "EUPHORIA": 0.7
     },
@@ -73,7 +73,7 @@
     "correlation": {
       "CRISIS": 0.8,
       "RISK_OFF": 0.6326,
-      "TRANSITION": 0.5875,
+      "TRANSITION": 0.5732,
       "RISK_ON": 0.1088,
       "EUPHORIA": 0.5
     },
@@ -85,8 +85,8 @@
       "EUPHORIA": 0.5
     }
   },
-  "update_count": 336,
-  "last_updated": "2026-09-24T10:49:59.430639",
+  "update_count": 342,
+  "last_updated": "2026-09-29T11:52:30.476320",
   "learning_history": [
     {
       "ts": "2026-04-08T16:22:26.497842",
@@ -4316,6 +4316,84 @@
       "actual_outcome": 1.006,
       "actual_bucket": "up",
       "pred_prob_for_actual": 0.25,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-09-29T11:52:30.476118",
+      "regime": "TRANSITION",
+      "drivers": [
+        "equity_flow",
+        "credit",
+        "correlation"
+      ],
+      "actual_outcome": -0.29,
+      "actual_bucket": "flat",
+      "pred_prob_for_actual": 0.272,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-09-29T11:52:30.476176",
+      "regime": "TRANSITION",
+      "drivers": [
+        "equity_flow",
+        "credit",
+        "correlation"
+      ],
+      "actual_outcome": -1.504,
+      "actual_bucket": "down",
+      "pred_prob_for_actual": 0.2599,
+      "magnitude_mult": 1.5
+    },
+    {
+      "ts": "2026-09-29T11:52:30.476222",
+      "regime": "TRANSITION",
+      "drivers": [
+        "equity_flow",
+        "credit",
+        "correlation"
+      ],
+      "actual_outcome": -2.565,
+      "actual_bucket": "down_big",
+      "pred_prob_for_actual": 0.102,
+      "magnitude_mult": 1.5
+    },
+    {
+      "ts": "2026-09-29T11:52:30.476259",
+      "regime": "TRANSITION",
+      "drivers": [
+        "equity_flow",
+        "credit",
+        "correlation"
+      ],
+      "actual_outcome": 1.055,
+      "actual_bucket": "up",
+      "pred_prob_for_actual": 0.1791,
+      "magnitude_mult": 1.0
+    },
+    {
+      "ts": "2026-09-29T11:52:30.476291",
+      "regime": "TRANSITION",
+      "drivers": [
+        "equity_flow",
+        "credit",
+        "correlation"
+      ],
+      "actual_outcome": -7.095,
+      "actual_bucket": "down_big",
+      "pred_prob_for_actual": 0.102,
+      "magnitude_mult": 2.5
+    },
+    {
+      "ts": "2026-09-29T11:52:30.476322",
+      "regime": "TRANSITION",
+      "drivers": [
+        "equity_flow",
+        "credit",
+        "correlation"
+      ],
+      "actual_outcome": 0.11,
+      "actual_bucket": "flat",
+      "pred_prob_for_actual": 0.272,
       "magnitude_mult": 1.0
     }
   ]
